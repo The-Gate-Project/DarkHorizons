@@ -1,0 +1,12 @@
+IF
+	Global("CmElf900","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMELF01",[4033.3285],5)
+		CreateCreature("CMELF02",[4119.3252],6)
+		CreateCreature("CMELF03",[4199.3242],5)
+		CreateCreature("CMELF04",[3987.3314],6)
+		CreateCreature("CMELF05",[4055.3232],6)
+		SetGlobal("CmElf900","GLOBAL",1)
+		Continue()
+END

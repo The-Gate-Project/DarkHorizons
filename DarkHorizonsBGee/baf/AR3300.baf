@@ -1,0 +1,32 @@
+IF
+	Global("CMaddMagnus","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMMAGNU",[2527.2955],4)
+		SetGlobal("CMaddMagnus","GLOBAL",1)
+END
+
+IF
+	Global("RedWizards","AR3300",5)
+        Global("CMaddLathanderG","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CM330001",[2303.3247],3)
+		CreateCreature("CM330001",[4250.3337],4)
+		CreateCreature("CM330002",[3896.2717],4)
+		CreateCreature("CM330002",[286.2733],2)
+		CreateCreature("CM330005",[2272.2273],3)
+		CreateCreature("CM330001",[1831.1575],4)
+		CreateCreature("CM330008",[1974.2241],3)
+		CreateCreature("CM330008",[3457.1245],4)
+		SetGlobal("CMaddLathanderG","GLOBAL",1)
+END
+
+IF
+	Global("CMSectionEndGame","GLOBAL",1)
+        Global("CmTNikitaSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMTNIKIT",[3906.2668],4)
+		SetGlobal("CmTNikitaSpawn","GLOBAL",1)
+END

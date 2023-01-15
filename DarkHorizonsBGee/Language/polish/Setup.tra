@@ -1,0 +1,4894 @@
+@0    = ~Mod "Dark Horizons" (Wymaga Opowiesci z Wybrzeza Mieczy, TuTu albo BGT)~
+@1    = ~****************************************~
+@2    = ~* Dark Horizons Mod Versja 2.12        *~
+@3    = ~* http://www.teambg.net                *~
+@4    = ~*  Copyright 2015 CoM_Solaufein        *~
+@5    = ~*  TEN PLIK ZAINSTALUJE                *~
+@6    = ~* THE DARK HORIZONS W FOLDERZE         *~
+@7    = ~*      Z GR¥.                          *~
+@8    = ~****************************************~
+@9    = ~Wyglada na to, ze nie masz zainstalowanych BG:EE, TuTu albo BGT.~
+@10   = ~Zbroja p³ytowa~
+@11   = ~Zbroja krasnoludzka +3~
+@12   = ~Zbroja p³ytowa sk³ada siê z metalowych p³yt, ochraniaj¹cych najwa¿niejsze czêœci cia³a, takie jak klatka piersiowa, brzuch i podbrzusze. Poszczególne jej elementy s¹ osadzone na kolczudze. Prawdziwa zbroja p³ytowa, o budowie podobnej do zbroi p³ytowej z br¹zu, sk³ada siê z kolczugi i skóry.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Waga: 50
+Nie mo¿e u¿ywaæ:
+ Bard 
+ Druid
+ Mag
+ Z³odziej~
+@13   = ~Zbroja krasnoludzka +3
+Zbroja ta jest dzie³em krasnoludów; jej surowy i solidny wygl¹d jest najlepszym œwiadectwem umiejêtnoœci, jakie posiedli przez wieki wielcy krasnoludzcy rzemieœlnicy. Trzymaj¹c j¹ w d³oniach wyczuwasz równie¿ têtni¹c¹ w niej magiê.
+
+PARAMETRY:
+
+Klasa Pancerza: -2
+Specjalne
+ +1 do Kondycji
+Waga: 35
+Mo¿e u¿ywaæ:
+ Krasnolud~
+@14   = ~Kolczuga~
+@15   = ~Elfia kolczuga +3~
+@16   = ~Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Waga: 40
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@17   = ~Wykonana przez elfów kolczuga jest zarówno lekka, jak i elastyczna. W przeciwieñstwie do wiêkszoœci kolczug, elfia kolczuga umo¿liwia rzucanie zaklêæ.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Waga: 10
+Nie mo¿e u¿ywaæ:~
+@18   = ~Zbroja skórzana æwiekowana~
+@19   = ~Zbroja cierni~
+@20   = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu. 
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Waga: 25
+Nie mo¿e u¿ywaæ:
+ Mag~
+@21   = ~Po bli¿szym przyjrzeniu siê tej zbroi mo¿na odkryæ, ¿e wcale nie jest zrobiona ze skóry, lecz z zawile przeplecionych ze sob¹ winoroœli i ga³êzi krzewów ciernistych. Zbroja ta jest darem nimf dla druidów, jako dowód uznania ich niekoñcz¹cej siê s³u¿by w obronie lasów.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Specjalne:
+ +3 do rzutów obronnych
+Waga: 4
+Mo¿e u¿ywaæ:
+ Druid~
+@22   = ~Chmura burzowa~
+@23   = ~Chmura burzowa: 'Zguba Krakena'
+Ta zbroja zosta³a wykonana z osmolonych resztek smoka uderzonego przez b³yskawicê. Ostatnim znanym w³aœcicielem by³ czarownik Shrethu Reogher. Jej obecny w³aœciciel powinien mieæ nadziejê, ¿e czarownik ju¿ nie ¿yje, w przeciwnym razie prêdzej czy póŸniej wróci po sw¹ zgubê.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Specjalne:
+ +3 do rzutów obronnych
+ Odpornoœæ na elektrycznoœæ
+Waga: 4
+Mo¿e u¿ywaæ:
+ Druid~
+@24   = ~Zbroja skrytobójcy~
+@25   = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu. 
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Waga: 25
+Nie mo¿e u¿ywaæ:
+ Mag~
+@26   = ~Skórzana æwiekowana zbroja skrytobójcy zosta³a stworzona na u¿ytek œmiertelnie skutecznych zabójców - Mistrzów Cienia. Niesamowite wyczyny tej niezwykle elitarnej grupy zabójców opiewaj¹ w legendach, choæ nigdy nie towarzysz¹ im naoczni œwiadkowie. Mistrzowie Cienia stoj¹ na najwy¿szym miejscu w hierarchii Z³odziei Cienia. Ta skórzana zbroja æwiekowa +3 niemal rozp³ywa siê w cieniu.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Specjalne: 
+ +30% do krycia siê w cieniu 
+ Swoboda dzia³ania 
+ Niewra¿liwoœæ na trucizny
+Waga: 8
+Mo¿e u¿ywaæ:
+ Z³odziej~
+@27   = ~Pe³na zbroja p³ytowa~
+@28   = ~Zbroja p³ytowa Emberwilde'a~
+@29   = ~Pe³na zbroja p³ytowa to najlepszy pancerz, jaki mo¿e zdobyæ wojownik, zarówno pod wzglêdem wygl¹du, jak i zabezpieczenia, jakie zapewnia. Idealnie dostosowane p³yty i folgi zosta³y umieszczone pod takim k¹tem, ¿eby odbijaæ strza³y i uderzenia. Ca³a zbroja jest bogato grawerowana i ozdobiona t³oczonymi zdobieniami.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Waga: 70
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@30   = ~Zbroja p³ytowa Emberwilde'a zwana jest równie¿ Czerwon¹ zbroj¹ odpornoœci na ogieñ. Wykuta zosta³a przez krasnoludzkiego mistrza wed³ug precyzyjnego projektu pierwszego dowódcy Gwardii Feniksa, Emberwilde'a. Stanowi ona prawdziwy cud, pocz¹wszy od charakterystycznej czerwonej ³uny, a koñcz¹c na w³aœciwoœci zapewniaj¹cej odpornoœæ na ogieñ, stanowi¹cej esencjê elity Feniksa. Po dziœ dzieñ nie zachowa³y siê ¿adne zapiski opisuj¹ce magiczne w³aœciwoœci tej zbroi, a ona sama opiera siê jakiejkolwiek magii poznania.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Waga: 35
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@31   = ~Zbroja skórzana æwiekowana +3~
+@32   = ~Ta zbroja by³a w³asnoœci¹ s³ynnego Ksiêcia Œnie¿nych Barbarzyñców, Corbusa Denolxa z rodu Greyhawk. Nie wiadomo jak i dlaczego zbroja ta zmieni³a w³aœciciela.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Waga: 8
+Nie mo¿e u¿ywaæ:
+ Mag~
+@33   = ~Smocza zbroja~
+@34   = ~Smocza zbroja to znak rozpoznawczy Elitarnych £owców Chimery. Zosta³a umagiczniona potê¿n¹ magi¹ znan¹ tylko szamanom Chimery. Zapewnia w³aœcicielowi dodatkow¹ ochronê przed wieloma formami ataku, oraz u³atwia œledzenie ofiar.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Waga: 8
+Nie mo¿e u¿ywaæ:
+ Mag~
+@35   = ~Zbroja paskowa~
+@36   = ~Zbroja paskowa Oghmy~
+@37   = ~Zbroja paskowa jest odmian¹ zbroi folgowej, w której metalowe pasy s¹ przynitowane pionowo, a nie poziomo, do spodniej warstwy, miêkkiej, szytej z materia³u i skóry. Poniewa¿ zbroja ta nie jest zbyt elastyczna, w znacznym stopniu ogranicza w walce nosz¹cego j¹ wojownika. 
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Waga: 40
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@38   = ~Zbroja paskowa Oghmy: 'Boskie natchnienie'
+Ta zbroja paskowa zosta³a wykonana pewnej nocy przez natchnionego kap³ana Oghmy. Mia³ On sen, zes³any przez samego Oghmê. Powiedziano mu, ¿e nastêpnego ranka ma wzi¹æ najlepsz¹ niemagiczn¹ zbrojê, jak¹ znajdzie, a nastêpnie na³o¿yæ na ni¹ zebrane ulepszenia. Jego natchnienie samo w sobie ulepszy³o zbrojê, nadaj¹c jej unikaln¹ klasê pancerza. Zbroja ta by³a noszona przez najwy¿szego kap³ana przez wiele lat, które mia³y dopiero nadejœæ.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Specjalne:
+ Dodatkowe czary kap³ana z poziomów 1-5
+ +3 do rzutów obronnych
+ +10 maksymalnych punktów ¿ycia
+ Umo¿liwia rzucanie czarów i u¿ywanie zdolnoœci z³odziejskich
+Waga: 5
+Mo¿e u¿ywaæ:
+ Kap³an o dobrym lub neutralnych charakterze
+ Paladyn~
+@39   = ~Zbroja lasu~
+@40   = ~Zbroja ta nale¿a³a do nieznanego z imienia ³owcy, o którym wiadomo tylko tyle, ¿e by³ niezwykle potê¿ny. Plotki g³osz¹, ¿e zawdziêcza³ on swe mêstwo w walce w³aœnie temu przedmiotowi. Poza w³aœciwoœciami zwyk³ej zbroi, posiada ona równie¿ wiele magicznych mocy. Gdy j¹ zak³adasz, zdajesz siê mieæ nie tylko lepsz¹ ochronê, ale i dodatkow¹ przewagê w walce. Gdy jesteœ w lesie lub w zacienionych obszarach miasta, zbroja sama zdaje siê zlewaæ z cieniem i pozwala wyciszyæ twe ruchy.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Specjalne: 
+ +1 do Zrêcznoœci 
+ +20% do krycia siê w cieniu 
+Waga: 25
+Nie mo¿e u¿ywaæ:
+ Mag~
+@41   = ~Kolczuga~
+@42   = ~Kolczuga +4~
+@43   = ~Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Waga: 40
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Mag 
+ Z³odziej~
+@44   = ~Kolczuga +4
+Elfia kolczuga +4 umo¿liwia elfim czarodziejom rzucanie zaklêæ w tej zbroi. 
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Waga: 9
+Mo¿e u¿ywaæ:
+ Elf~
+@45   = ~Mitrylowa kolczuga +4~
+@46   = ~Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Waga: 40
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Mag 
+ Z³odziej~
+@47   = ~Mitrylowa kolczuga +4 
+Zbroja ta zosta³a wykonana z najl¿ejszego i najbardziej wytrzyma³ego materia³u, znanego jako mitryl. Tylko krasnoludzcy rzemieœlnicy potrafi¹ wykuæ tak znakomite przedmioty z mitrylu.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Waga: 7
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Mag 
+ Z³odziej~
+@48   = ~Mitrylowa kolczuga +4~
+@49   = ~Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Waga: 40
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Mag 
+ Z³odziej~
+@50   = ~Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Waga: 7
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Mag 
+ Z³odziej~
+@51   = ~Mitrylowa kolczuga Durlaga +4~
+@52   = ~Ta kolczuga nale¿a³a kiedyœ do wielkiego Durlaga Zabójcy Trolli we w³asnej osobie.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Waga: 7
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Mag 
+ Z³odziej~
+@53   = ~Kolczuga +2~
+@54   = ~Kolczuga jest wykonana z przeplataj¹cych siê metalowych kó³eczek. Zawsze nak³ada siê j¹ na kubrak z pikowanego materia³u; ma to zapobiec bolesnym otarciom i z³agodziæ si³ê ciosów. Ta konkretna kolczuga zosta³a wykonana przez elfów, i zapewnia magom mo¿liwoœæ rzucania czarów bez koniecznoœci zrzucania pancerza.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Waga: 10
+Mo¿e u¿ywaæ:
+ Elf
+ Pó³-elf~
+@55   = ~Zbroja paskowa +2~
+@56   = ~Zbroja paskowa jest odmian¹ zbroi folgowej, w której metalowe pasy s¹ przynitowane pionowo, a nie poziomo, do spodniej warstwy, miêkkiej, szytej z materia³u i skóry. Poniewa¿ zbroja ta nie jest zbyt elastyczna, w znacznym stopniu ogranicza w walce nosz¹cego j¹ wojownika. 
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Waga: 20
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid 
+ Mag 
+ Z³odziej~
+@57   = ~Zbroja skórzana æwiekowana +4: "Dar Natury"~
+@58   = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Waga: 25
+Nie mo¿e u¿ywaæ:
+ Mag~
+@59   = ~Zbroja skórzana æwiekowana +4: "Dar Natury"
+To naturalna zbroja skórzana æwiekowa, któr¹ mo¿e nosiæ jedynie prawdziwy obroñca Natury.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Specjalne:
+ +25% do Skradania siê
+ Pozwala rzuciæ czar Sanktuarium 
+Waga: 5
+Mo¿e u¿ywaæ:
+ £owca
+ Druid~
+@60   = ~Zbroja skórzana (gruba)~
+@61   = ~Zbroja Pó³nocy~
+@62   = ~Zbroja skórzana gruba (futro) jest wykonana ze skóry bardzo du¿ego zwierzêcia (na przyk³ad s³onia) lub z wielu warstw skóry zwyk³ych zwierz¹t, takich jak krowy. Zbroja ta jest zbyt ciê¿ka, sztywna i niewygodna, by by³a u¿ywana przez bardziej rozwiniête cywilizacyjnie spo³ecznoœci. Jest bardzo powszechna wœród licznych barbarzyñskich humanoidów z posêpnych puszcz i mglistych d¿ungli tego œwiata. Mimo i¿ daje ona lepsz¹ ochronê ni¿ zwyk³a zbroja skórzana, nosz¹cy j¹ musi siê pogodziæ z jej nieprzyjemnym zapachem i prymitywnym wygl¹dem. Z³odzieje mog¹ u¿ywaæ tej zbroi, jednak obni¿a to ich profesjonalne umiejêtnoœci. 
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Waga: 40
+Nie mo¿e u¿ywaæ:
+ Mag~
+@63   = ~Zbroja ta pochodzi z zamarzniêtej tundry Doliny Lodowego Wichru. Zosta³a pob³ogos³awiona przez szamanów, aby zapewniæ w³aœcicielowi ochronê przed ¿ywio³em zimna.
+
+PARAMETRY:
+
+Klasa Pancerza: 6
+Specjalne:
+ 70% odpornoœci na ch³ód
+Waga: 40
+Nie mo¿e u¿ywaæ:
+ Mag~
+@64   = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Waga: 25
+Nie mo¿e u¿ywaæ:
+ Mag~
+@65   = ~Gdy w³aœciciel tej zbroi przebywa w lesie, pancerz zdaje siê zlewaæ z cieniem i pozwala poruszaæ siê w ciszy. U³atwia to druidom i ³owcom s³u¿bê w obronie Natury. 
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Specjalne: 
+ +1 do Zrêcznoœci 
+ +20% do krycia siê w cieniu 
+Waga: 25
+Nie mo¿e u¿ywaæ:
+ Mag~
+@66   = ~Zbroja Mistrza Cieni~
+@67   = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
+
+PARAMETRY:
+
+Klasa Pancerza: 7
+Waga: 25
+Nie mo¿e u¿ywaæ:
+ Mag~
+@68   = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Specjalne: 
+ +30% do wszystkich zdolnoœci z³odziejskich
+ +5 do rzutów obronnych przeciw œmierci
+ Niewykrywalnoœæ
+Waga: 8
+Mo¿e u¿ywaæ:
+ Z³odziej~
+@69   = ~Niewykrywalnoœæ~
+@70   = ~Zbroja skórzana~
+@71   = ~Boskoœæ Natury~
+@72   = ~Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+Waga: 15
+Mo¿e u¿ywaæ:
+ Mag~
+@73   = ~Tylko najlepsi obroñcy Natury maj¹ przywilej noszenia tej zbroi. Powiadaj¹, ¿e tylko tajemny zakon druidów i ³owców, zwany Wojownikami Natury, jest w posiadaniu tego typu zbroi.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Specjalne: 
+ Umo¿liwia zapamiêtanie dodatkowych dwóch czarów 1-go poziomu
+Waga: 1
+Mo¿e u¿ywaæ:
+ Druid
+ £owca~
+@74   = ~Zbroja skórzana Hobbina~
+@75   = ~Zbrojê tê Hobbin otrzyma³ od wuja, swego czasu s³ynnego poszukiwacza przygód.
+
+PARAMETRY:
+ 
+Klasa Pancerza: 2
+Specjalne: 
+ +15% do krycia siê w cieniu 
+ +15% do otwierania zamków
+Waga: 1 
+Mo¿e u¿ywaæ: 
+ Hobbin~
+@76   = ~Zbroja p³ytowa +5~
+@77   = ~Zbroja p³ytowa to po³¹czenie kolczugi z mocnymi blachami, które chroni¹ ¿ywotnie wa¿ne czêœci cia³a - klatkê piersiow¹, brzuch i krocze. Jej ciê¿ar jest równo roz³o¿ony na ca³e cia³o, zaœ ca³oœæ po³¹czona metalowymi spinkami i rzemieniami.
+
+PARAMETRY: 
+
+Klasa Pancerza: 3
+Waga: 50
+Nie mo¿e u¿ywaæ:
+ Bard 
+ Druid
+ Mag
+ Z³odziej~
+@78   = ~Elfia zbroja bojowa +5 
+Zbroi tej u¿ywaj¹ elitarne oddzia³y elfów z Evermeet.
+
+PARAMETRY:
+
+Klasa Pancerza: -2
+Waga: 18
+Mo¿e u¿ywaæ:
+ Elf~
+@79   = ~Zbroja p³ytowa: 'Apokalipsa'~
+@80   = ~Zbroja p³ytowa to po³¹czenie kolczugi z mocnymi blachami, które chroni¹ ¿ywotnie wa¿ne czêœci cia³a - klatkê piersiow¹, brzuch i krocze. Jej ciê¿ar jest równo roz³o¿ony na ca³e cia³o, zaœ ca³oœæ po³¹czona metalowymi spinkami i rzemieniami.
+
+PARAMETRY: 
+
+Klasa Pancerza: 3
+Waga: 50
+Nie mo¿e u¿ywaæ:
+ Bard 
+ Druid
+ Mag
+ Z³odziej~
+@81   = ~Zbroja p³ytowa: 'Apokalipsa' 
+Stworzona przez Surtra, wielkiego wojownika kochaj¹cego ogieñ, zbroja zapewnia w³aœcicielowi umiejêtnoœæ rzucania czarów opartych na ogniu, jednoczeœnie zapewniaj¹c przed nim ochronê.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Specjalne: 
+ Umo¿liwia rzucanie nastêpuj¹cych zaklêæ:
+  P³on¹ce d³onie
+  P³omienie Agannazara
+  P³on¹ca kula
+  S³up ognia
+ +20% do odpornoœci na ogieñ 
+Waga: 20
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@82   = ~Zbroja p³ytowa Baldurana~
+@83   = ~Ten pancerz nosi³ niegdyœ s³awny bohater Balduran. Jest to czêœæ kompletu broni i zbroi, który zosta³ skradziony z muzeum miejskiego we Wrotach Baldura.
+
+PARAMETRY:
+
+Klasa Pancerza: -1
+Specjalne:
+ +4 punkty ¿ycia
+ +1 do Charyzmy
+Waga: 50
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@84   = ~Pe³na zbroja p³ytowa Kiela +3~
+@85   = ~Zbroja ta nale¿a³a niegdyœ do Kiela.
+
+PARAMETRY:
+
+Klasa Pancerza: -2
+Specjalne:   
+ +5% do odpornoœci na magiê
+Waga: 45
+Wymagana si³a: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@86   = ~Zbroja p³ytowa Najary +3~
+@87   = ~Zbroja p³ytowa to po³¹czenie kolczugi z mocnymi blachami, które chroni¹ ¿ywotnie wa¿ne czêœci cia³a - klatkê piersiow¹, brzuch i krocze. Jej ciê¿ar jest równo roz³o¿ony na ca³e cia³o, zaœ ca³oœæ po³¹czona metalowymi spinkami i rzemieniami.
+
+PARAMETRY: 
+
+Klasa Pancerza: 3
+Waga: 50
+Nie mo¿e u¿ywaæ:
+ Bard 
+ Druid
+ Mag
+ Z³odziej~
+@88   = ~To osobista zbroja Najary.
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Specjalne:
+ +1 do Si³y
+Waga: 18
+Nie mo¿e u¿ywaæ:
+ Postaæ o z³ym charakterze
+ Bard 
+ Druid
+ Mag
+ Z³odziej~
+@89   = ~Pe³na zbroja p³ytowa p³omieni~
+@90   = ~Pe³na zbroja p³ytowa to najlepszy pancerz, jaki mo¿e zdobyæ wojownik, zarówno pod wzglêdem wygl¹du, jak i zabezpieczenia, jakie zapewnia. Idealnie dostosowane p³yty i folgi zosta³y umieszczone pod takim k¹tem, ¿eby odbijaæ strza³y i uderzenia. Ca³a zbroja jest bogato grawerowana i ozdobiona t³oczonymi zdobieniami.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Specjalne:
+ 50% odpornoœci na ogieñ
+Waga: 35
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@91   = ~Pas~
+@92   = ~Pas Sune~
+@93   = ~Pasy s¹ podobne do zwyk³ych pasków. W odró¿nieniu jednak od tych ostatnich, nie s³u¿¹ podtrzymywaniu spodni i innych imponderabiliów, ale wiesza siê na nich torby, sakwy, pochwy itp. 
+
+PARAMETRY:
+
+Waga: 2~
+@94   = ~Kap³anki Sune wykona³y ten pas dla tych biednych dusz, którym brakuje charyzmy oraz naturalnego piêkna. 
+
+PARAMETRY:
+
+Specjalne:
+ +1 do Charyzmy
+Waga: 2~
+@95   = ~Pas si³y wzgórzowego olbrzyma~
+@96   = ~Pas ten jest przeznaczony dla potê¿nych wojowników z Krain, którzy nie s¹ ju¿ w stanie podnieœæ swej si³y innymi sposobami. Pasy si³y olbrzyma s¹ niezwykle rzadkimi przedmiotami. Robi siê je z utkanych w³osów b¹dŸ brody olbrzyma, którego si³ê rzemieœlnik chce osi¹gn¹æ. Ten konkretny pas utkano z w³osów wzgórzowego olbrzyma zapewniaj¹c w³aœcicielowi jego si³ê.
+
+PARAMETRY:
+
+Podnosi si³ê do 19
+Waga: 2
+Nie mo¿e u¿ywaæ: 
+ Z³odziej 
+ Mag~
+@97   = ~Pas obrony~
+@98   = ~Pas obrony: 'Z³oty pas z Urnst'
+Pas ten zosta³ stworzony przez z³ote elfy z Podmroku. Ma³o który przedmiot wykonany przez tê rasê wydostaje siê na powierzchniê, ale temu siê uda³o. Pas zosta³ solidnie umagiczniony, dziêki czemu odbija wszelkie fizyczne ataki. Wielu ludzi nosi³o ten pas z dum¹, lecz z czasem przewa¿nie pada³ on ³upem z³odziei a nastêpnie trafia³ na czarny rynek. Pas ten wci¹¿ jest poszukiwany przez wielu wojowników chc¹cych zapewniæ sobie lepsz¹ obronê, przewa¿nie jednak bez powodzenia.
+
+PARAMETRY:
+
+Premia do Klasy Pancerza:  
+ +3 przeciw broniom siecznym
+ +3 przeciw broniom obuchowym
+ +3 przeciw broniom strzeleckim~
+@99   = ~Buty~
+@100  = ~Szybkie buty ochrony~
+@101  = ~Buty s¹ zwykle rêcznie wyrabiane przez szewców. Zwyk³e buty s¹ robione z u¿yciem jakiegoœ ogólnego modelu stopy, ale te dobre wykonywane s¹ na zamówienie i dopasowywane do stóp zamawiaj¹cego.
+
+PARAMETRY:
+
+Waga: 4~
+@102  = ~Buty s¹ zwykle rêcznie wyrabiane przez szewców. Zwyk³e buty s¹ robione z u¿yciem jakiegoœ ogólnego modelu stopy, ale te dobre wykonywane s¹ na zamówienie i dopasowywane do stóp zamawiaj¹cego. Te buty poprawiaj¹ szybkoœæ poruszania siê oraz obronê swego w³aœciciela.
+
+PARAMETRY:
+
+Specjalne:
+ +1 do KP
+ Przyspieszenie ruchów
+Waga: 4~
+@103  = ~Z³ote buty ochrony~
+@104  = ~Te Z³ote buty ochrony nale¿a³y do szlachetnego krasnoludzkiego króla z dawnych czasów, zwanego Thrainem. By³ On bardzo dobrze znany i lubiany wœród swoich krasnoludzkich poddanych. Gdy us³ysza³, ¿e jego przyjaciele z G³êbi Dorna s¹ w k³opotach, zebra³ swoich najlepszych wojowników i wyruszy³ z pomoc¹. Nigdy wiêcej nie us³yszano ani o nim, ani o jego armii.
+
+PARAMETRY:
+
+Specjalne:
+ -25% do krycia siê w cieniu 
+ +1 do KP
+ +2 do KP przeciw broniom siecznym
+Waga: 18
+Mo¿e u¿ywaæ: 
+ Wojownik
+ Kap³an
+ Paladyn~
+@105  = ~Znoszone buty~
+@106  = ~Buty zdrowia~
+@107  = ~Buty zdrowia: 'Wytrwa³y wojownik'
+Buty te wykonano z miêkkich materia³ów z utwardzon¹ podszewk¹, zwiêkszaj¹c¹ ich wytrzyma³oœæ. Zosta³y umagicznione przez kap³ana ¿yj¹cego w górach Norheim. Kap³an u¿ywa³ tych butów by uzdrawiaæ ludzi, nawet gdy wykorzysta³ ju¿ wszystkie zapamiêtane czary lecznicze. Buty sta³y siê obiektem poszukiwañ, odk¹d kap³an zgubi³ je zaatakowany przez watahê wilków. Wróci³ do zdrowia tylko po to, aby zrobiæ sobie parê jeszcze potê¿niejszych butów. Wola³by jednak pozostaæ przy drugiej parze, gdy¿ by³a znacznie wygodniejsza.
+
+PARAMETRY:
+
+Specjalne:
+ Pozwala rzucaæ Leczenie krytycznych ran
+ +1 do KP
+ +10 do maksymalnej iloœæ P¯
+Mo¿e u¿ywaæ:
+ Postaæ dobra~
+@108  = ~Buty zapewnienia szybkoœci~
+@109  = ~Buty zapewnienia szybkoœci 
+Buty te umagiczniono w ten sposób, aby ich w³aœciciel mia³ pewnoœæ, ¿e zawsze bêdzie porusza³ siê szybko jak wiatr. Pochodzenie tych butów jest nieznane, ale ich legenda siêga stuleci i pe³na jest zarówno szlachetnych, jak i krwawych opowieœci.~
+@110  = ~P³aszcz ochrony +3~
+@111  = ~P³aszcz ochrony +3: 'P³aszcz Mystry'
+Powiadaj¹, ¿e tego typu p³aszcze otrzymuje tylko kilku wybranych najbardziej wiernych kap³anów Mystry. Jednak ze wzglêdu na 'przedwczesny' zgon niektórych z nich, kilka takich p³aszczy by³o widzianych poza obrêbem tej religijnej organizacji. P³aszcz ten oferuje w³aœcicielowi premiê do fizycznych i magicznych ataków, jak równie¿ ochronê przed nieumar³ymi.
+
+PARAMETRY:
+
+Specjalne:
+ +3 do Klasy Pancerza
+ +2 do rzutów obronnych
+ Ochrona przed nieumar³ymi 
+Waga: 3~
+@112  = ~P³aszcz~
+@113  = ~P³aszcz Natury~
+@114  = ~P³aszcze tworzy siê w najrozmaitszych formach i z najbardziej ró¿norakich materia³ów. Najpowszechniej u¿ywanym jest p³aszcz zrobiony z kawa³ka materia³u w kszta³cie okrêgu z wyciêtym po œrodku otworem na g³owê. W modelach bardziej wyszukanych otwór ten jest poszerzony i spinany ³añcuszkiem, brosz¹ lub zapinkami.~
+@115  = ~P³aszcz Natury pomaga druidom i ³owcom chroniæ siê przed ¿ywio³ami natury.   
+
+PARAMETRY:
+
+Specjalne:
+ +1 do Klasy Pancerza
+ +1 do rzutów obronnych
+ 25% odpornoœci na ogieñ
+ 25% odpornoœci na ch³ód
+Waga: 3
+Mo¿e u¿ywaæ:
+ Druid
+ £owca~
+@116  = ~Szata maga~
+@117  = ~Szata Shi'nayne~
+@118  = ~Od czasów Netheril, magowie nauczyli siê nak³adaæ szeroki wachlarz umagicznieñ na codzienne przedmioty, które ich otaczaj¹. Najczêœciej s¹ to zwyk³e p³aszcze. S¹ lekkie, niedrogie i dobrze utrzymuj¹ w sobie magiê, dlatego stanowi¹ idealny ekwipunek dla maga. Jednak ze wzglêdu na ich magiczne pochodzenie, tylko czarodziej mo¿e u¿ywaæ tych magicznych szat.~
+@119  = ~Ta potê¿na szata nale¿y do Shi'nayne. Zapewnia ochronê przed wszystkimi formami ataków fizycznych, jednoczeœnie zwiêkszaj¹c odpornoœæ na magiê oraz rzuty obronne.
+
+PARAMETRY:
+
+Specjalne:
+ +3 do Klasy Pancerza
+ 25% odpornoœæ na magiê
+ +3 do rzutów obronnych
+Waga: 6
+Mo¿e u¿ywaæ:
+ Shi'nayne~
+@120  = ~Szata arcymaga: 'Memento Mori'~
+@121  = ~To jedna z kilku potê¿nych szat arcymaga z Netheril. Zapewnia w³aœcicielowi premiê do zaklêæ oraz chroni go przed magi¹. 
+
+PARAMETRY:
+
+Specjalne:
+ Pozwala zapamiêtaæ 2 dodatkowe czary z 2-go poziomu
+ +2 do Klasy Pancerza
+ 15% odpornoœæ na magiê
+ +3 do rzutów obronnych
+Waga: 6
+Mo¿e u¿ywaæ:
+ Mag~
+@122  = ~P³aszcz skrytobójcy~
+@123  = ~P³aszcze tworzy siê w najrozmaitszych formach i z najbardziej ró¿norakich materia³ów. Najpowszechniej u¿ywanym jest p³aszcz zrobiony z kawa³ka materia³u w kszta³cie okrêgu z wyciêtym po œrodku otworem na g³owê. W modelach bardziej wyszukanych otwór ten jest poszerzony i spinany ³añcuszkiem, brosz¹ lub zapinkami.~
+@124  = ~P³aszcz skrytobójcy zosta³ stworzony na u¿ytek œmiertelnie skutecznych zabójców - Mistrzów Cienia. Niesamowite wyczyny tej niezwykle elitarnej grupy zabójców opiewaj¹ w legendach, choæ nigdy nie towarzysz¹ im naoczni œwiadkowie. Mistrzowie Cienia stoj¹ na najwy¿szym miejscu w hierarchii Z³odziei Cienia.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+TraK0: +1
+Specjalne:
+ +1 do rzutów obronnych
+ +5% do krycia siê w cieniu
+ Niewykrywalnoœæ 
+Waga: 3~
+@125  = ~Rêkawice~
+@126  = ~Rêkawice wojownika~
+@127  = ~Rêkawice to ciê¿ka, pancerna ochrona d³oni. Mog¹ byæ one wykonane ze skóry, metalowych p³ytek b¹dŸ metalowych kó³ek. Ka¿dy rodzaj zbroi zawiera równie¿ rêkawice odpowiedniego typu. Rêkawice o w³asnoœciach magicznych s¹ zwykle l¿ejsze, bardzie finezyjnie wykonane i ³atwiejsze w noszeniu ni¿ ich zwyczajne odpowiedniki.~
+@128  = ~Rêkawice to ciê¿ka, pancerna ochrona d³oni. Mog¹ byæ one wykonane ze skóry, metalowych p³ytek b¹dŸ metalowych kó³ek. Ka¿dy rodzaj zbroi zawiera równie¿ rêkawice odpowiedniego typu. Rêkawice o w³asnoœciach magicznych s¹ zwykle l¿ejsze, bardzie finezyjnie wykonane i ³atwiejsze w noszeniu ni¿ ich zwyczajne odpowiedniki.
+
+PARAMETRY:
+
+TraK0: +3
+Obra¿enia: +3
+Mo¿e u¿ywaæ:
+ Wojownik
+ £owca
+ Paladyn
+ Kap³an~
+@129  = ~Bransolety~
+@130  = ~Bransolety nocy~
+@131  = ~Bransolety s¹ pasami metalu lub skóry, które nak³ada siê na przedramiona lub na nich zawi¹zuje. Zwykle magia, któr¹ bransolety s¹ nasycane pomaga tylko podczas walki, gdy¿ wiêkszoœæ z nich chroni nosz¹cego przed obra¿eniami lub zwiêksza szansê trafienia przeciwnika. Od tej regu³y istniej¹ wyj¹tki, chocia¿ tak dzia³aj¹ce bransolety nale¿¹ do rzadkoœci.~
+@132  = ~Bransolety nocy to specjalny zestaw bransolet wykonanych dla s³ynnego z³odzieja na us³ugach Z³odziei Cienia. Maj¹ specjalne przegródki na wytrychy i sondy, u³atwiaj¹ce w³aœcicielowi otwieranie zamków i znajdowanie pu³apek. Bransolety posiadaj¹ równie¿ specjalne umagicznienie, dziêki któremu bronie dystansowe skuteczniej trafiaj¹ w cel, jak równie¿ u³atwiaj¹ z³odziejowi "uwolniæ" ofiarê od cennych przedmiotów.
+
+PARAMETRY:
+
+TraK0: +4 (bronie strzeleckie)
+Specjalne:
+ +15% do wykrywania pu³apek
+ +25% do otwierania zamków 
+Waga: 6
+Mo¿e u¿ywaæ:
+ Z³odziej~
+@133  = ~Bransolety ochrony KP 4~
+@134  = ~Bransolety s¹ pasami metalu lub skóry, które nak³ada siê na przedramiona lub na nich zawi¹zuje. Zwykle magia, któr¹ bransolety s¹ nasycane pomaga tylko podczas walki, gdy¿ wiêkszoœæ z nich chroni nosz¹cego przed obra¿eniami lub zwiêksza szansê trafienia przeciwnika. Od tej regu³y istniej¹ wyj¹tki, chocia¿ tak dzia³aj¹ce bransolety nale¿¹ do rzadkoœci.~
+@135  = ~Bransolety ochrony KP 4: 'Bransolety bezpieczeñstwa'
+Bransolety te nale¿a³y przez ca³e dekady do niepokonanego gladiatora, który nigdy nie oszczêdza³ ich na arenie. Œmieræ mistrza wi¹za³a siê ze znikniêciem tego magicznego przedmiotu, ale chodz¹ pog³oski, ¿e po dziœ dzieñ u¿ywane s¹ podczas wielu pojedynków w ca³ych Krainach.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Waga: 2~
+@136  = ~Bransolety ochrony KP 3~
+@137  = ~Bransolety ochrony KP 3
+Szczerz¹cy Glen, Rycerz G³upców, u¿ywa³ tych bransolet wystêpuj¹c w pojedynkach rycerskich. Ze swymi umiejêtnoœciami, urokiem i brawur¹ - nikt inny nie oœmieli³by siê pojedynkowaæ bez zbroi -  wkrótce sta³ siê ulubieñcem obserwuj¹cych pojedynki dam. Polubi³y go nawet za bardzo, gdy¿ pewnego popo³udnia zosta³ przy³apany swawol¹c z narzeczon¹ jednego z rycerzy. Zorganizowano pojedynek, lecz w poœpiechu Glen zapomnia³ za³o¿yæ swoich bransolet. Glen zmar³ z zak³opotanym uœmiechem na twarzy przebity mieczem rycerza, nie maj¹c okazji zrozumieæ g³upstwa, które pope³ni³.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Waga: 2~
+@138  = ~Rêkawice otwierania zamków~
+@139  = ~Bransolety otwierania zamków zosta³y magicznie wykonane przez maga/z³odzieja o imieniu Jamaar ¯wawy. Pomaga³y mu one w otwieraniu wszelkich zamków, jakie kiedykolwiek zosta³y skonstruowane. Straci³ te bransolety wraz z ¿yciem, od wybuchu ognistej kuli stanowi¹cej pu³apkê na pewnej skrzyni. Jamaar powinien by³ zainwestowaæ w magiczne urz¹dzenie do wykrywania pu³apek.
+
+PARAMETRY:
+
+Specjalne:
+ +20% do otwierania zamków
+Waga: 2
+Mo¿e u¿ywaæ:
+ Z³odziej~
+@140  = ~Dar Kniei~
+@141  = ~Dar Kniei 
+Od zarania dziejów druidzi i ³owcy walcz¹ w obronie Natury z rozprzestrzeniaj¹c¹ siê cywilizacj¹. Od czasu do czasu mieszkañcy dziczy pomagaj¹ tym gorliwcom w ich staraniach zsy³aj¹c im ró¿nego rodzaju dary. 
+
+PARAMETRY:
+
+Klasa Pancerza: 0
+Specjalne: 
+ Zwiêkszona liczba ataków
+ Zwiêkszona odpornoœæ na petryfikacjê
+Waga: 2
+Mo¿e u¿ywaæ:
+ Druid (jednoklasowiec)
+ £owca (jednoklasowiec)~
+@142  = ~Rêkawice pora¿enia~
+@143  = ~Rêkawice pora¿enia  
+Ta para rêkawic zosta³a wykonana ze srebrnej kolczugi oraz miêkkiej czarnej skóry. Rêkawice s¹ na³adowane energi¹ elektryczn¹ wyzwalan¹ przy dotyku, lub w postaci b³yskawicy. Dotyk pozwala kr¹¿yæ energii po ciele dotkniêtej ofiary.
+ 
+PARAMETRY:
+
+1 w³aœciwoœæ: Pora¿aj¹cy uœcisk (brakuje ³adunków)
+Efekt: strzela Ognist¹ kul¹
+Obra¿enia: 1K8
+Zasiêg: dotyk
+Obszar: 1 istota
+
+2 w³aœciwoœæ:
+Efekt: B³yskawica (1 ³adunek)
+Obra¿enia: 6K6 (po³owa obra¿eñ przy udanym rzucie obronnym przeciw ró¿d¿kom)
+Zasiêg: 30 metrów
+Obszar: 1 istota
+
+Waga: 1
+Mo¿e u¿ywaæ: 
+ Mag
+ Bard~
+@144  = ~Bransolety bieg³ego z³odzieja~
+@145  = ~D³oñ Upiora
+Nale¿¹ce niegdyœ do Daeruma 'Upiora' Estra - dawnego mistrza z³odziejstwa i przywódcy cormyrskiej gildii z³odziei - rêkawice by³y zgub¹ wielu kupców. Po ich za³o¿eniu wzrasta umiejêtnoœæ kradzie¿y kieszonkowej i rozbrajania pu³apek, jak równie¿ zrêcznoœæ. Jednak¿e najpotê¿niejsz¹ cech¹ tych rêkawic jest mo¿liwoœæ otwierania zamkniêtych obiektów przy pomocy czaru Otwarcie. 
+
+PARAMETRY:
+
+Specjalne:
+ +2 do Zrêcznoœci
+ +20% do kradzie¿y kieszonkowej
+ +20% do wykrywania/rozbrajania pu³apek
+ Rzuca czar Otwarcie
+Waga: 2
+Mo¿e u¿ywaæ:
+ Z³odziej~
+@146  = ~He³m~
+@147  = ~He³m ochrony~
+@148  = ~Ten rodzaj otwartego he³mu, wykonywany z metalu lub wzmocnionej skóry, stanowi ochronê dla g³owy, jednak zwykle bez os³aniania twarzy i karku. Zazwyczaj jest równie¿ wyposa¿ony w ochronê nosa.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Chroni przed trafieniami krytycznymi
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@149  = ~Ten rodzaj otwartego he³mu, wykonywany z metalu lub wzmocnionej skóry, stanowi ochronê dla g³owy, jednak zwykle bez os³aniania twarzy i karku. Zazwyczaj jest równie¿ wyposa¿ony w ochronê nosa.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne: 
+ Chroni przed trafieniami krytycznymi 
+ 25% odpornoœci na ogieñ
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@150  = ~Elfi he³m ochrony~
+@151  = ~Elfi he³m ochrony 
+Typowy he³m noszony przez elitarnych elfich wojowników.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +1 do rzutów obronnych
+ +20% do odpornoœci na elektrycznoœæ
+ +20% do odpornoœci na ch³ód
+ +20% do odpornoœci na ogieñ
+ Chroni przed trafieniami krytycznymi 
+Waga: 3
+Mo¿e u¿ywaæ:
+ Elf~
+@152  = ~Kapelusz~
+@153  = ~Kapelusz Barda~
+@154  = ~Kapelusze filcowe ciesz¹ siê powodzeniem wœród bardów i z³odziei, choæ zapewniaj¹ niewielk¹ ochronê.
+
+PARAMETRY:
+
+Waga: 2
+Mo¿e u¿ywaæ:
+ Bard~
+@155  = ~Kapelusze filcowe ciesz¹ siê powodzeniem wœród bardów i z³odziei, choæ zapewniaj¹ niewielk¹ ochronê.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne:
+ +20% do wiedzy
+ Zapewnia 2 dodatkowe czary poziomu 1-go i 2-go
+ Chroni przed trafieniami krytycznymi 
+ +1 do rzutów ochronnych
+Waga: 2
+Mo¿e u¿ywaæ:
+ Bard~
+@156  = ~Korona Durlaga~
+@157  = ~Ten rodzaj otwartego he³mu, wykonywany z metalu lub wzmocnionej skóry, stanowi ochronê dla g³owy, jednak zwykle bez os³aniania twarzy i karku. Zazwyczaj jest równie¿ wyposa¿ony w ochronê nosa.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Chroni przed trafieniami krytycznymi
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@158  = ~Korona ta nale¿a³a do klanu Durlaga. Sam Durlag nigdy nie nosi³ swej rodowej korony, poniewa¿ zazwyczaj zajêty by³ poszukiwaniem przygód. Nawet gdy "przeszed³ na emeryturê", wci¹¿ nie chcia³ jej nosiæ, gdy¿ nie wierzy³ w królewski tytu³ i pragn¹³ ¿yæ jak zwyczajny krasnolud.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne: 
+ +1 do rzutów obronnych
+ Chroni przed trafieniami krytycznymi 
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Z³odziej
+ Mag
+ Druid~
+@159  = ~He³m Umar³ych~
+@160  = ~Ten rodzaj otwartego he³mu, wykonywany z metalu lub wzmocnionej skóry, stanowi ochronê dla g³owy, jednak zwykle bez os³aniania twarzy i karku. Zazwyczaj jest równie¿ wyposa¿ony w ochronê nosa.
+
+PARAMETRY:
+
+Klasa Pancerza: bez zmian
+Specjalne:
+ Chroni przed trafieniami krytycznymi
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@161  = ~He³m ten stanowi czaszka wielkiego wojownika sprzed tysi¹ca lat. Jego imiê pozostaje nieznane, gdy¿ do dzisiejszych czasów nie zachowa³y siê ¿adne zapiski na jego temat, lecz czaszka zawiera w sobie mistyczn¹ moc. Zosta³a przerobiona na he³m przez wielu krasnoludzkich kowali, którzy nabili j¹ æwiekami. Pozwala rzuciæ czar Animacja martwego oraz dodaje premiê do Klasy Pancerza.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Specjalne: 
+ Chroni przed trafieniami krytycznymi 
+ Pozwala rzuciæ czar Animacja martwego
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@162  = ~He³m P³omieni~
+@163  = ~He³m P³omieni: 'He³m Emberwilde'a' 
+He³m ten nale¿a³ do ³otrzyka z gwardii Feniksa - Emberwilde'a. Niegdyœ sam by³ dowódc¹ gwardii, ale porzuci³ to stanowisko zwiedziony urokiem bogactwa i s³awy.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +2 do Kondycji
+ Chroni przed trafieniami krytycznymi 
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@164  = ~He³m Czerwonego smoka~
+@165  = ~He³m Czerwonego smoka 
+Elitarna grupa ³owców Chimery, zwana Czerwonym Smokiem, wzbudza przera¿enie w sercach najbardziej za¿artych wojowników. Ich jasne czerwone zbroje i he³my ze z³otym wykoñczeniem s¹ doskonale znane w ca³ych Krainach. Pomimo tego zawi³ego uzbrojenia, zdarza siê, ¿e czasem s³uch oni ginie.
+
+PARAMETRY:
+
+Klasa Pancerza: +2 
+Specjalne:
+ Chroni przed trafieniami krytycznymi 
+ Chroni przed atakami na psychikê
+Waga: 2~
+@166  = ~Pawê¿~
+@167  = ~Tarcza +3~
+@168  = ~Pawê¿ ozdobiona wizerunkiem z³otego gryfa. Jest to masywna, metalowa lub drewniana tarcza, siêgaj¹ca od ziemi a¿ do podbródka wojownika. Musi byæ solidnie przymocowana do przedramienia i ca³y czas przytrzymywana, co oznacza, ¿e w rêce, na której opiera siê tarcza nie mo¿na trzymaæ niczego innego. Co dziwne, tarcza ta wydaje siê podejrzanie lekka, jak na swój rozmiar.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ +1 do Klasy Pancerza przeciw broni strzeleckiej
+Waga: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@169  = ~Jest to masywna, metalowa lub drewniana tarcza, siêgaj¹ca od ziemi a¿ do podbródka wojownika. Musi byæ solidnie przymocowana do przedramienia i ca³y czas przytrzymywana, co oznacza, ¿e w rêce, na której opiera siê tarcza nie mo¿na trzymaæ niczego innego.
+ 
+PARAMETRY:
+
+Klasa Pancerza: 3
+Specjalne:
+ +3 do Klasy Pancerza przeciw broni strzeleckiej 
+Waga: 15
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@170  = ~Ma³a tarcza~
+@171  = ~Ma³a tarcza +5: 'Bóstwo'~
+@172  = ~Ma³e tarcze s¹ zazwyczaj okr¹g³e. Mocuje siê je na przedramieniu i dodatkowo przytrzymuje d³oni¹. W odró¿nieniu od tarczy œredniej, ich lekka waga pozwala wojownikowi nosiæ inne przedmioty w zajêtej rêce, chocia¿ nie mo¿e to byæ broñ.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:
+ Nie chroni przed broni¹ strzeleck¹
+Waga: 3
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@173  = ~Ma³a tarcza +5: 'Bóstwo'
+Niesamowita poœwiata emituj¹ca z tej tarczy ma boskie pochodzenie. Z³e istoty nie mog¹ jej nawet podnieœæ, niezale¿nie od si³y, jak¹ w to wk³adaj¹.
+
+PARAMETRY:
+
+Klasa Pancerza: +6
+Specjalne:
+ Nie chroni przed broni¹ strzeleck¹
+Waga: 3
+Nie mo¿e u¿ywaæ 
+ Postaæ z³a
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@174  = ~Ochrona przed z³em~
+@175  = ~Tarcza œrednia~
+@176  = ~Tarcza Baldurana~
+@177  = ~Tarczy œredniej u¿ywa siê podobnie, jak ma³ej. Jednak w przeciwieñstwie do niej, tarcza œrednia wa¿y na tyle du¿o, ¿e wojownik nie mo¿e wykorzystywaæ do innych celów podtrzymuj¹cej j¹ rêki. Tarcze tego typu wykonuje siê zazwyczaj z metalu, maj¹ od 90 do 120 cm œrednicy i dowolny kszta³t, od okr¹g³ych do prostok¹tnych. Typowa tarcza œredniowieczna przypomina³a trójk¹t z jednym z ramion skierowanym w dó³.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Waga: 7
+Nie mo¿e u¿ywaæ:
+ Mag
+ Druid
+ Bard
+ Z³odziej~
+@178  = ~Tarcza Baldurana +3
+Tê tarczê dzier¿y³ niegdyœ s³awny Balduran. Jest to czêœæ kompletu broni i zbroi, który zosta³ skradziony z muzeum miejskiego we Wrotach Baldura.
+
+PARAMETRY:
+
+Klasa Pancerza: +4
+Specjalne:
+ +1 do Si³y
+Waga: 5
+Wymagana si³a: 12
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@179  = ~Tarcza Durlaga +2~
+@180  = ~To by³a osobista tarcza Durlaga, której u¿ywa³ walcz¹c ze smokami. Bez jej magicznym w³aœciwoœci nie uda³oby mu siê osi¹gn¹æ tego wyczynu.
+
+PARAMETRY:
+
+Klasa Pancerza: +3
+Specjalne:  
+ +1 do Klasy Pancerza przeciw broni strzeleckiej
+ +20% do odpornoœci na ogieñ
+Waga: 4
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@181  = ~Tarcza ognia +2~
+@182  = ~Wykonanie tej tarczy zosta³o zlecone najznakomitszym krasnoludzkim kowalom przez Emberwilde'a, s³awnego przywódcê gwardii Feniksa, znanego ze swej niew¹tpliwej odwagi. Gwardia ucierpia³a niezmiernie, gdy Emberwilde postanowi³ opuœciæ jej szeregi w poszukiwaniu bogactwa. Mistrzowskie wykonanie tego przedmiotu znajduje potwierdzenie miêdzy innymi w tym, ¿e tarcza sama zdaje siê unikaæ pocisków.
+
+PARAMETRY:
+
+Klasa Pancerza: +3
+Specjalne:  
+ +5 do Klasy Pancerza przeciw broni strzeleckiej 
+Waga: 4
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@183  = ~Strza³a~
+@184  = ~Strza³a zabójstwa: 'Zguba Natury'~
+@185  = ~Strza³y lekkie, jest sama nazwa wskazuje, s³u¿¹ do strzelania na daleki dystans. Czêsto wykorzystuje siê je do polowañ. Wiêkszoœæ z nich jest wykonana z jesionu lub brzozy i mierzy od 75 do 100 cm.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: pocisk (k³ute)
+Waga: 0
+Wyrzutnia: ³uk
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
+@186  = ~Ta strza³a jest powykrêcana i czarna, emanuje z³em, jakby by³a wype³niona jak¹œ piekieln¹ moc¹. Zosta³a stworzona tylko w jednym celu: zabicia istoty nale¿¹cej do jednego, œciœle okreœlonego gatunku. W tym przypadku s¹ to mi³oœnicy Natury: Druidzi i £owcy.
+
+PARAMETRY: 
+
+Obra¿enia: 1K6
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ Trafienie zabija Druidów i £owców
+Waga: 0
+Wyrzutnia: ³uk
+Mo¿e u¿ywaæ:
+ Postaæ z³a~
+@187  = ~Strza³a~
+@188  = ~Strza³a zamarzania~
+@189  = ~Strza³a lodowa zmienia siê w lodowy pocisk po wystrzeleniu w przeciwnika. Kiedy uderza w ofiarê, szok wywo³any zimnem obejmuje ca³e cia³o, zarazem rozpalaj¹c je i mro¿¹c do szpiku koœci. Ekstremalne zimno parali¿uje uk³ad nerwowy i zamra¿a ofiarê.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ 1K6 obra¿eñ od zimna (bez mo¿liwoœci rzutu obronnego)
+ Zamra¿a (Unieruchamia) ofiarê na 6 rund przy nieudanym rzucie obronnym
+Waga: 0
+Wyrzutnia: ³uk 
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
+@190  = ~Toporek~
+@191  = ~Toporek +3~
+@192  = ~Toporek jest to lekka odmiana topora bojowego, s³u¿¹ca g³ównie do ciskania w przeciwnika z pewnej odleg³oœci. Ciê¿ar ostrza jest równowa¿ony do pewnego stopnia przez ostry szpic, skierowany do ty³u. Krótkie stylisko jest zwykle ostro zakoñczone zarówno u do³u, jak i u góry.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+Typ obra¿eñ: pociski (k³ute)
+Waga: 5
+OpóŸnienie: 4
+Rodzaj bieg³oœci: topory
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@193  = ~Ten magiczny toporek zosta³ nie tylko doskonale wywa¿ony, aby mo¿na by³o nim rzucaæ, ale zosta³ równie¿ obdarzony magicznymi w³aœciwoœciami. W rezultacie, jest zarówno bardziej œmiercionoœny i precyzyjniejszy, ni¿ jakakolwiek zwyk³a broñ tego typu. 
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+TraK0: +3
+Typ obra¿eñ (w zwarciu): sieczne
+Typ obra¿eñ (miotane): pocisk (k³ute)
+Specjalne:
+ Wraca do rêki w³aœciciela po rzuceniu
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@194  = ~Halabarda~
+@195  = ~Dwurêczny topór bojowy +2~
+@196  = ~Halabarda to jeden z najczêœciej u¿ywanych rodzajów broni drzewcowej, zakoñczony zakrzywionym ostrzem w kszta³cie topora na koñcu 1,5 do 2,5 metrowego drzewca. Na przed³u¿eniu drzewca znajduje siê d³ugi szpic przypominaj¹cy w³óczniê lub pikê. Po drugiej stronie ostrza znajduje siê hak do przebijania zbroi i œci¹gania konnych z siod³a. Mo¿na powiedzieæ, ¿e halabarda to skrzy¿owanie w³óczni z toporem.
+
+PARAMETRY:
+
+Obra¿enia: 1K10
+Typ obra¿eñ: k³ute
+Waga: 15
+OpóŸnienie: 9
+Rodzaj bieg³oœci: w³ócznie
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@197  = ~Ta potê¿na broñ sk³ada siê ze styliska o d³ugoœci od 120 do 150 cm i osadzonego na nim ciê¿kiego ostrza. Topór ten mo¿e mieæ jednostronne lub dwustronne ostrze.   
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Specjalne: 
+ +2 pkt. obra¿eñ od ognia
+Typ obra¿eñ: sieczne
+Waga: 11
+OpóŸnienie: 7
+Rodzaj bieg³oœci: topór
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag 
+ Z³odziej~
+@198  = ~Halabarda to jeden z najczêœciej u¿ywanych rodzajów broni drzewcowej, zakoñczony zakrzywionym ostrzem w kszta³cie topora na koñcu 1,5 do 2,5 metrowego drzewca. Na przed³u¿eniu drzewca znajduje siê d³ugi szpic przypominaj¹cy w³óczniê lub pikê. Po drugiej stronie ostrza znajduje siê hak do przebijania zbroi i œci¹gania konnych z siod³a. Mo¿na powiedzieæ, ¿e halabarda to skrzy¿owanie w³óczni z toporem.
+
+PARAMETRY:
+
+Obra¿enia: 1K10
+Typ obra¿eñ: k³ute
+Waga: 15
+OpóŸnienie: 9
+Rodzaj bieg³oœci: w³ócznie
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@199  = ~Najpowszechniej u¿ywany rodzaj topora oburêcznego sk³ada siê ze styliska o d³ugoœci oko³o pó³tora metra z osadzonym szerokim, pó³okr¹g³ym ostrzem.   
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Specjalne: 
+ +2 pkt. obra¿eñ od ch³odu
+Typ obra¿eñ: sieczne
+Waga: 11
+OpóŸnienie: 7
+Rodzaj bieg³oœci: topór
+Typ broni: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag 
+ Z³odziej~
+@200  = ~Topór bojowy~
+@201  = ~Topór bojowy +3: 'Œcinacz g³ów'~
+@202  = ~Najpowszechniej u¿ywany rodzaj topora bojowego sk³ada siê ze styliska o d³ugoœci metra do pó³tora z osadzonym szerokim, pó³okr¹g³ym ostrzem, czêsto zaopatrzonym równie¿ w szpice, skierowane do ty³u i ku górze. Topór bojowy nazywany jest równie¿ toporem szerokim.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 7
+OpóŸnienie: 7
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@203  = ~To by³ ulubiony topór w arsenale Redruma Nios¹cego Zgubê. Ten szalony berserker korzysta³ z niego w wielu bitwach i wielu nieprzyjació³ pozbawi³ nim ¿ycia. Plotki g³osz¹, ¿e potrafi³by dalej r¹baæ nieprzyjació³ d³ugo po ich œmierci. Jego ¿¹dza krwi ostatecznie sprowadzi³a na niego k³opoty. Lokalny lord otoczy³ jego w³oœci i podpali³ je, gdy Redrum odmówi³ poddania siê po tym, jak zosta³ uznany winnym zamordowania dzieci z wioski.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+  5% szansa za natychmiastowe zabicie ofiary poprzez œciêcie g³owy przy ka¿dym udanym ataku
+Waga: 5
+OpóŸnienie: 5
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@204  = ~Topór bojowy +3: 'Lodowy ³upie¿ca'~
+@205  = ~Najpowszechniej u¿ywany rodzaj topora bojowego sk³ada siê ze styliska o d³ugoœci metra do pó³tora z osadzonym szerokim, pó³okr¹g³ym ostrzem, czêsto zaopatrzonym równie¿ w szpice, skierowane do ty³u i ku górze. Topór bojowy nazywany jest równie¿ toporem szerokim.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 7
+OpóŸnienie: 7
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@206  = ~Topór bojowy +3: 'Lodowy ³upie¿ca' 
+By³ to topór Illgartha, lodowego olbrzyma, który wiele lat temu terroryzowa³ pó³nocne spo³ecznoœci. Nie wiadomo, gdzie zdoby³ tê broñ, ale czerpa³ perwersyjn¹ przyjemnoœæ z wykorzystywania jej przeciwko ma³ym rasom, szczególnie przeciw nizio³kom. Lód i kwas deformowa³y ocala³ych, a olbrzym œmia³ siê zimno, jeœli zobaczy³ dzie³o swojej poprzedniej wizyty. Wreszcie pewna grupa zdo³a³a go zabiæ, a na proœbê jego ofiar Lodowy ³upie¿ca zosta³ pochowany wraz z nim.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ +1 pkt. obra¿eñ od zimna
+ +1 pkt. obra¿eñ od kwasu
+Waga: 7
+OpóŸnienie: 4
+Rodzaj bieg³oœci: topór
+Typ broni: 1-rêczna
+Wymagana si³a: 10
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@207  = ~Wekiera~
+@208  = ~Wekiera +2~
+@209  = ~Wekiera jest w prostej linii spadkobierczyni¹ zwyk³ej maczugi. Jest to po prostu drewniany trzonek, na którym zosta³a osadzona kamienna lub metalowa g³owica, uzbrojona w kolce, æwieki lub inne ostre zakoñczenia.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 7
+Rodzaj bieg³oœci: wekiera
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@210  = ~Wekiera jest w prostej linii spadkobierczyni¹ zwyk³ej maczugi. Jest to po prostu drewniany trzonek, na którym zosta³a osadzona kamienna lub metalowa g³owica, uzbrojona w kolce, æwieki lub inne ostre zakoñczenia.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 6
+Rodzaj bieg³oœci: bronie obuchowe
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@211  = ~Morgensztern~
+@212  = ~Morgensztern +3~
+@213  = ~Morgensztern to drewniany uchwyt, zakoñczony metalowym okuciem, zrobionym z solidnego kawa³ka ¿elaza z licznymi szpiczastymi æwiekami. Ta broñ ma oko³o 1,20 do 1,30 metra d³ugoœci. Ró¿ne jej rodzaje posiadaj¹ "g³owê" kulist¹, owaln¹ lub cylindryczn¹. Bez wzglêdu jednak na rodzaj, wiêkszoœæ morgenszternów jest zakoñczona d³ugim szpikulcem, przeznaczonym do k³ucia.
+
+PARAMETRY:
+
+Obra¿enia: 2K4
+Typ obra¿eñ: obuchowe
+Waga: 12
+OpóŸnienie: 7
+Rodzaj bieg³oœci: bronie z kolcami
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@214  = ~Morgensztern to drewniany uchwyt, zakoñczony metalowym okuciem, zrobionym z solidnego kawa³ka ¿elaza z licznymi szpiczastymi æwiekami. Ta broñ ma oko³o 1,20 do 1,30 metra d³ugoœci. Ró¿ne jej rodzaje posiadaj¹ "g³owê" kulist¹, owaln¹ lub cylindryczn¹. Bez wzglêdu jednak na rodzaj, wiêkszoœæ morgenszternów jest zakoñczona d³ugim szpikulcem, przeznaczonym do k³ucia.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe
+Waga: 12
+OpóŸnienie: 7
+Rodzaj bieg³oœci: bronie z kolcami
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@215  = ~Cep bojowy +3: 'Czerwony Mor'~
+@216  = ~Napis wygrawerowany na g³owicy cepa g³osi: "Niepodzielnie zaw³ada³ wszystkim Mor Czerwony". 
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ Broñ migb³ystalna?
+Waga: 15
+OpóŸnienie: 7
+Rodzaj bieg³oœci: bronie z kolcami
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej ~
+@217  = ~Maczuga~
+@218  = ~Truj¹cy bluszcz +2~
+@219  = ~Wiêkszoœæ maczug to po prostu kawa³ki twardego drewna, od strony uchwytu wê¿sze, zaœ po przeciwnej szersze. Ta prosta broñ by³a u¿ywana od czasów, gdy cz³owiek zacz¹³ stosowaæ narzêdzia. Ka¿dy mo¿e znaleŸæ gdzieœ mocny kawa³ek drewna i zacz¹æ nim machaæ, st¹d te¿ popularnoœæ i powszechnoœæ maczug.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 3
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Mag~
+@220  = ~Truj¹cy bluszcz +2 
+Ta œmiertelnie skuteczna broñ zosta³a zaprojektowana przez Druidów Cienia do pomocy w ochranianiu lasów i istot je zamieszkuj¹cych. Z ka¿dym uderzeniem, pn¹cza tej maczugi oplataj¹ cel zadaj¹c mu obra¿enia od trucizny. 
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne: 
+ +1 pkt. obra¿eñ od trucizny co 8 sek.
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: bronie obuchowe
+Typ broni: 1-rêczna 
+Mo¿e u¿ywaæ:
+ Druid 
+ £owca~
+@221  = ~Cep bojowy ~
+@222  = ~Cep bojowy +3: 'Strach'~
+@223  = ~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest b¹dŸ gruby, metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy s¹ zwykle ³¹czone krótkim ³añcuchem lub mocnymi rzemieniami.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+Typ obra¿eñ: obuchowe
+Waga: 15
+OpóŸnienie: 7
+Rodzaj bieg³oœci: bronie z kolcami
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@224  = ~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest b¹dŸ gruby, metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy s¹ zwykle ³¹czone krótkim ³añcuchem lub mocnymi rzemieniami.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+TraK0: +2
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ +3 pkt. obra¿eñ k³utych
+ 50% szansa rzucenia czaru Strach przy ka¿dym uderzeniu
+Waga: 11
+OpóŸnienie: 5
+Rodzaj bieg³oœci: bronie z kolcami
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@225  = ~Œwiêty cep s³oñca~
+@226  = ~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest b¹dŸ gruby, metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy s¹ zwykle ³¹czone krótkim ³añcuchem lub mocnymi rzemieniami.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+Typ obra¿eñ: obuchowe
+Waga: 15
+OpóŸnienie: 7
+Rodzaj bieg³oœci: bronie z kolcami
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@227  = ~Cep ten zosta³ poœwiêcony przez kap³anów ze œwi¹tyni s³oñca, posiada moce magiczne i mo¿e byæ u¿ywany tylko przez tych, którzy pod¹¿aj¹ œcie¿k¹ oœwiecenia.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ +1 do M¹droœci
+ Zwiêkszona liczba ataków
+ 2K3 obra¿eñ od ognia
+Waga: 8
+OpóŸnienie: 3
+Rodzaj bieg³oœci: bronie z kolcami
+Typ broni: 1-rêczna 
+Mo¿e u¿ywaæ:
+ Kap³an
+ Paladyn~
+@228  = ~Lœni¹cy m³ot~
+@229  = ~M³ot bojowy +3: 'Fatum Asgrima'~
+@230  = ~Ta broñ z pewnoœci¹ jest magiczna, ze wzglêdu na charakterystyczny b³êkitny po³ysk.
+
+PARAMETRY:
+
+Nieznane~
+@231  = ~To legendarny m³ot bojowy, którego Asgrim Wspania³y u¿ywa³ by przegnaæ hordê drowów ze swego kraju. Wielu drowów zginê³a tamtego dnia zabitych przez Asgrima i jego wiern¹ broñ. Nawet olbrzymy obawia³y siê Asgrima i jego m³ota. Jego los pozostaje nieznany. Ostatni raz gdy o nim s³yszano, przebywa³ w regionie Doliny Lodowego Wichru, gdzie poszukiwa³ skarbów i przygód. 
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ 2K4 obra¿eñ od ch³odu
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ broni: 1-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@232  = ~M³ot bojowy~
+@233  = ~Du¿y m³ot bojowy +3~
+@234  = ~To wielki, nieporêczny m³ot bojowy, pokryty krasnoludzkimi runami.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@235  = ~Konni rycerze nie mog¹ efektywnie u¿ywaæ d³ugich broni drzewcowych, co sprawi³o, ¿e wiele rodzajów broni zosta³o zaopatrzonych w krótsze drzewce, aby mog³y byæ u¿ywane jednorêcznie. Wekiery i cepy bojowe s¹ dwoma tego typu rodzajami broni drzewcowych - m³ot bojowy kolejnym. Ca³y jest wykonany ze stali, z dyskami, chroni¹cymi i wzmacniaj¹cymi uchwyt. Dyski te s¹ ma³e i metalowe, czêsto uk³adane w dekoracyjne kszta³ty. Drzewiec ma oko³o 60 cm d³ugoœci.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +3
+Typ obra¿eñ: obuchowe 
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ broni: 1-rêczna
+Wymagana si³a: 14 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@236  = ~M³ot bojowy +2~
+@237  = ~Konni rycerze nie mog¹ efektywnie u¿ywaæ d³ugich broni drzewcowych, co sprawi³o, ¿e wiele rodzajów broni zosta³o zaopatrzonych w krótsze drzewce, aby mog³y byæ u¿ywane jednorêcznie. Wekiery i cepy bojowe s¹ dwoma tego typu rodzajami broni drzewcowych - m³ot bojowy kolejnym. Ca³y jest wykonany ze stali, z dyskami, chroni¹cymi i wzmacniaj¹cymi uchwyt. Dyski te s¹ ma³e i metalowe, czêsto uk³adane w dekoracyjne kszta³ty. Drzewiec ma oko³o 60 cm d³ugoœci.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1
+Typ obra¿eñ: obuchowe 
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ broni: 1-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@238  = ~M³ot bojowy +2: 'Morgoth'
+Wykuty przez krasnoludów wiele lat temu, m³ot ten wci¹¿ promieniuje magicznym ciep³em, które parzy skórê, gdy dotkniesz jego g³owni. Niewiele wiêcej wiadomo na temat tego staro¿ytnego artefaktu.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2 
+TraK0: +2
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ +1K4 obra¿eñ od ognia 
+Waga: 5
+OpóŸnienie: 2
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ broni: 1-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@239  = ~Nadziak~
+@240  = ~Nadziak: 'Kruczy dziób'
+Przez wiele stuleci kruk na polu bitwy by³ omenem klêski. Ten siej¹cy zniszczenie m³ot zosta³ nazwany adekwatnie; kszta³t kolca imituje dziób, podczas gdy têpa czêœæ g³owicy u³atwia rozbicie zbroi nieprzyjaciela. Zwieñczenie w kszta³cie liœcia dodaje œmiertelne pchniêcie do repertuaru ciosów tej broni.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3
+TraK0: +3 (przy obra¿eniach obuchowych) 
+TraK0: +2 (przy obra¿eniach k³utych) 
+Typ obra¿eñ: obuchowe/k³ute
+Specjalne: 
+ 25% szans utraty przytomnoœci u ofiary (przy obra¿eniach obuchowych)
+ 5% szans zabicia ofiary jednym ciosem (przy obra¿eniach k³utych)
+Waga: 5
+OpóŸnienie: 2 (przy obra¿eniach obuchowych)
+OpóŸnienie: 1 (przy obra¿eniach k³utych)
+Rodzaj bieg³oœci: bronie obuchowe/lekkie miecze 
+Typ broni: 1-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@241  = ~Mjolnir: 'Niszczyciel'~
+@242  = ~Konni rycerze nie mog¹ efektywnie u¿ywaæ d³ugich broni drzewcowych, co sprawi³o, ¿e wiele rodzajów broni zosta³o zaopatrzonych w krótsze drzewce, aby mog³y byæ u¿ywane jednorêcznie. Wekiery i cepy bojowe s¹ dwoma tego typu rodzajami broni drzewcowych - m³ot bojowy kolejnym. Ca³y jest wykonany ze stali, z dyskami, chroni¹cymi i wzmacniaj¹cymi uchwyt. Dyski te s¹ ma³e i metalowe, czêsto uk³adane w dekoracyjne kszta³ty. Drzewiec ma oko³o 60 cm d³ugoœci.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1
+Typ obra¿eñ: obuchowe 
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ broni: 1-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@243  = ~To legendarny m³ot Thora, nordyckiego boga b³yskawic. Wykuty przez krasnoludzkiego kowala Eitri'ego na ¿¹danie Lokiego i ofiarowany bogom jako dar, Mjolnir posiada ogromne moce. Nigdy siê nie zgubi, zawsze wraca do w³aœciciela po rzucie, nie mo¿na go zniszczyæ, a sam Thor umagiczni³ go w³aœciwoœci¹ kontrolowania b³yskawic.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ (w zwarciu): obuchowe
+Typ obra¿eñ (miotane): obuchowe
+Specjalne: 
+ Wraca do rêki w³aœciciela po rzuceniu 
+ Pozwala rzuciæ czar B³yskawica nieskoñczon¹ iloœæ razy
+ Pozwala rzuciæ czar Wezwanie b³yskawic nieskoñczon¹ iloœæ razy 
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ broni: 1-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@244  = ~Gwiazda oœwiecenia +3~
+@245  = ~Ten morgensztern zosta³ poœwiêcony przez kap³anów œwi¹tyni s³oñca, posiada moce magiczne i mo¿e byæ u¿ywany tylko przez tych, którzy pod¹¿aj¹ œcie¿k¹ oœwiecenia.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ +1 do M¹droœci
+ 2K3 obra¿eñ od ch³odu
+ Zwiêkszona iloœæ ataków
+Waga: 8
+OpóŸnienie: 3
+Rodzaj bieg³oœci: bronie z kolcami 
+Typ broni: 1-rêczna
+Mo¿e u¿ywaæ:
+ Kap³an
+ Paladyn~
+@246  = ~Wekiera +2: 'Krzycz¹ca dziewka'~
+@247  = ~Wekiera +2: 'Krzycz¹ca dziewka'
+Obsydianowa g³owica tej wekiery przedstawia ³adn¹, m³od¹ dziewczynê. W ferworze walki jej piêkna twarz zamienia siê w oblicze ods³aniaj¹ce k³y w szerokim, lubie¿nym uœmiechu. 
+Ta wekiera nie pochodzi z planu materialnego, wykuto j¹ w Otch³ani. To inteligentna broñ komunikuj¹ca siê z w³aœcicielem przy pomocy telepatii, próbuj¹c wp³yn¹æ na jego decyzje i wprowadziæ go na œcie¿kê chaosu i rozpaczy. Dziewka jest wiecznie spragniona krwi i próbuje nak³aniaæ swego w³aœciciela, by zaspokoi³ jej g³ód.
+Postaci o s³abej woli ³atwo ulegn¹ kontroli Krzycz¹cej dziewki. Gdy wekiera rani wroga, wpija siê w niego g³êboko, a czêœæ krwi ofiary leczy obra¿enia w³aœciciela.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +2
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ Wekiera ma w³aœciwoœci wampiryczne, leczy w³aœciciela i tymczasowo zwiêksza jego liczbê punktów ¿ycia, punkty powy¿ej maksymalnej iloœci P¯ s¹ tracone gdy walka zakoñczy siê 
+ Przy ka¿dym uderzeniu w³aœciciel musi wykonaæ rzut obronny przeciw czarom albo wpadnie w sza³ berserk, atakuj¹c wszystkich dooko³a, w tym przyjació³
+Waga: 7
+OpóŸnienie: 5
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ broni: 1-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@248  = ~D³ugi ³uk~
+@249  = ~Czarnokija ³uk magicznych pocisków~
+@250  = ~D³ugi ³uk jest podobny do krótkiego, choæ o wiele d³u¿szy i mierzy, zale¿nie od wzrostu ³ucznika, od 1.8 do znacznie powy¿ej 2 metrów. Ma wiêkszy zasiêg i lepsz¹ celnoœæ ni¿ ³uk krótki, ale mniejsz¹ szybkostrzelnoœæ.
+
+PARAMETRY:
+
+TraK0: +1
+Waga: 3
+OpóŸnienie: 7
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@251  = ~Plotka g³osi, ¿e ³uk ten zosta³ wykonany przez Khelbana Czarnokija a nastêpnie skradziony. Wiadomo na pewno, ¿e ktokolwiek stworzy³ ten ³uk, musia³ byæ czarodziejem, gdy¿ ulepszono ten ³uk czarem magiczny pocisk.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Specjalne: 
+ Wystrzeliwuje 5 magicznych pocisków 
+ Nie wymaga amunicji
+Waga: 2
+OpóŸnienie: 6
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@252  = ~D³ugi ³uk ³owcy +3~
+@253  = ~Ten dar Mielikki zosta³ ofiarowany rashemickiemu ³owcy o imieniu Doran. Doran zapisa³ siê w historii tym, ¿e za pomoc¹ tego ³uku powala³ hordy nieprzyjació³. 
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +3
+Specjalne:
+ +1 do Zrêcznoœci
+Waga: 2
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ³uki 
+Typ: 2-rêczna 
+Mo¿e u¿ywaæ:
+ £owca~
+@254  = ~Krótki ³uk~
+@255  = ~Krótki ³uk: 'Zamarzniêta pó³noc'~
+@256  = ~£uki krótkie zosta³y wprowadzone jako pierwsze, choæ na pocz¹tku nie by³y tak nazywane. Kategoria ta obejmuje wszystkie rodzaje tej broni, które nie s¹ ³ukami d³ugimi. Ich drzewce maj¹ zazwyczaj oko³o 1.5 metra d³ugoœci. W ci¹gu lat próbowano zwiêkszyæ zasiêg ³uków. Osi¹gano to na dwa sposoby: zwiêkszaj¹c ich d³ugoœæ lub czyni¹c bardziej sprê¿ystymi. £uki nale¿¹ce do pierwszej kategorii nazwano ³ukami d³ugimi.
+
+PARAMETRY:
+
+Waga: 2
+OpóŸnienie: 6
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@257  = ~Krótki ³uk: 'Zamarzniêta pó³noc'
+To rzadko spotykany ³uk, wiadomo tylko o trzech istniej¹cych egzemplarzach. Zosta³y wykonane przez kap³ana Auril w regionie Doliny Lodowego Wichru. Jeden zabra³a sama Auril, pozosta³e zaginê³y gdzieœ na lodowcu Posêpnego mrozu.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: +3
+Specjalne: 
+ +1K6 obra¿eñ od ch³odu 
+ Zamra¿a (unieruchamia) na 60 sekund bez mo¿liwoœci wykonania rzutu obronnego
+Waga: 2
+OpóŸnienie: 4
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@258  = ~Krótki ³uk: 'Lodowa nawa³nica'~
+@259  = ~£uki krótkie zosta³y wprowadzone jako pierwsze, choæ na pocz¹tku nie by³y tak nazywane. Kategoria ta obejmuje wszystkie rodzaje tej broni, które nie s¹ ³ukami d³ugimi. Ich drzewce maj¹ zazwyczaj oko³o 1.5 metra d³ugoœci. W ci¹gu lat próbowano zwiêkszyæ zasiêg ³uków. Osi¹gano to na dwa sposoby: zwiêkszaj¹c ich d³ugoœæ lub czyni¹c bardziej sprê¿ystymi. £uki nale¿¹ce do pierwszej kategorii nazwano ³ukami d³ugimi.
+
+PARAMETRY:
+
+Waga: 2
+OpóŸnienie: 6
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@260  = ~Krótki ³uk, ³uk ch³odu: 'Lodowa nawa³nica'
+Krótko istniej¹cy posterunek ludzi w Zamarzniêtym Lesie wykopa³ tê broñ, wraz z wieloma innymi, z ruin staro¿ytnej osady w g³êbi tej zamarzniêtej krainy. Nie znaj¹c prawdziwych nazw wygas³ych artefaktów, koloniœci u¿ywali tych "narzêdzi" by zagrabiæ du¿e po³acie terytorium dla siebie, choæ ostatecznie to wszystko i tak zda³o siê na nic. Zostali zmia¿d¿eni przez bêd¹cych w przyt³aczaj¹cej przewadze Hobgoblinów, a ich nieszczêsne dusze do³¹czy³y do anonimowych staro¿ytnych. W³aœciciel tej broni musi wykonaæ udany rzut obronny przeciw œmierci z modyfikatorem +5 albo doœwiadczy takiego samego losu, jak jego wróg.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1, +1K4 obra¿eñ od ch³odu
+TraK0: +3
+Specjalne: 
+ +1K6 obra¿eñ od ch³odu 
+ Zamra¿a (unieruchamia) na 60 sekund bez mo¿liwoœci wykonania rzutu obronnego 
+Waga: 2
+OpóŸnienie: 4
+Rodzaj bieg³oœci: ³uki 
+Typ: 2-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@261  = ~D³ugi ³uk O'Locksley'a~
+@262  = ~D³ugi ³uk jest podobny do krótkiego, choæ o wiele d³u¿szy i mierzy, zale¿nie od wzrostu ³ucznika, od 1.8 do znacznie powy¿ej 2 metrów. Ma wiêkszy zasiêg i lepsz¹ celnoœæ ni¿ ³uk krótki, ale mniejsz¹ szybkostrzelnoœæ.
+
+PARAMETRY:
+
+TraK0: +1
+Waga: 3
+OpóŸnienie: 7
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@263  = ~S³awny ³ucznik i banita O'Locksley skonstruowa³ ten ³uk z pomoc¹ przychylnego mu maga, aby przegoniæ ze swego kraju surowego i despotycznego pana, który trzyma³ ch³opstwo w ¿elaznym imadle strachu. Nie zawdziêcza³ on jednak swej s³awy nie maj¹cego sobie równych ³ucznika tylko i wy³¹cznie mocom tego wspania³ego ³uku. Po jego tragicznej œmierci, ³uk O'Locksley'a zosta³ przekazany jego bratankowi: Jaenowi z Southerton. Jaen u¿ywa³ tego ³uku przez kolejne dwie dekady, by walczyæ z niesprawiedliwoœci¹ i z³em w jego kraju. Zawierzy³ go elfiemu przyjacielowi, nim uda³ siê z tajn¹ misj¹, z której ju¿ nigdy nie powróci³. Elf ofiarowa³ ³uk swej królowej, od tamtej pory ³uk by³ przekazywany z pokolenia na pokolenie przez cz³onków rodziny królewskiej. Kilka razy ³uk zagin¹³, ale za ka¿dym razem udawa³o siê go odnaleŸæ, dziêki gorliwoœci elfich poszukiwañ. Po raz ostatni u¿y³ go elf Treestalker podczas najazdu na kryjówkê Króla Goblinów. Zarówno Treestalker jak i ³uk wówczas zaginê³y.
+
+£uk ten jest wyj¹tkowej jakoœci, wykonano go ze starodawnego cisu, który, jak niektórzy powiadaj¹, wywodzi³ siê od samego Drzewa Œwiata, Yaggissdril. Tego magicznego ³uku nigdy nie trzeba napinaæ, nawet po zamokniêciu. Naci¹ganie ³uku jest niezwykle proste, co pozwala uzyskaæ wyj¹tkow¹ celnoœæ jak i prêdkoœæ strza³.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +3
+Waga: 2
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ³uki 
+Typ: 2-rêczna 
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@264  = ~Lekka kusza~
+@265  = ~Lekka kusza +3: '¯¹d³o skorpiona'~
+@266  = ~Kusza jest ³ukiem zatkniêtym poprzecznie na drewnianym lub metalowym drzewcu. Zazwyczaj jest wykonana z jesionu albo cisu. Strzela pociskami, które zwane s¹ be³tami.
+
+PARAMETRY:
+
+Waga: 7
+OpóŸnienie: 5
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@267  = ~Kusza ta zosta³a wykonana przez Erreth-Akbe w czasie d³ugiej wojny wypowiedzianej nekromantom. Kusza zosta³a umagiczniona w ten sposób, ¿e tworzy zatrute be³ty, gdy wymierzy siê j¹ w ofiarê. Po jej stworzeniu druidzi uœwiadomili sobie, ¿e broñ ta jest zbyt chaotyczna, by mogli jej u¿ywaæ, i zakopali j¹ pod œwi¹tyni¹. Od tamtej pory s³uch o niej zagin¹³.
+
+PARAMETRY:
+
+Obra¿enia: 1D6 +3 (pocisk)
+TraK0: +3
+Specjalne:
+ 18 pkt. obra¿eñ od trucizn na rundê a¿ do maksymalnych 45 pkt.
+ Nie wymaga amunicji
+Waga: 6
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@268  = ~D³ugi ³uk refleksyjny~
+@269  = ~Ulisses~
+@270  = ~£uki refleksyjne to ³uki krótkie lub d³ugie, których drzewce wykonano z kilku rodzajów drewna. Dziêki temu s¹ bardziej elastyczne i maj¹ wiêkszy zasiêg. Zosta³y wymyœlone po d³ugich ³ukach.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +1
+Waga: 10
+OpóŸnienie: 7
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej
+ Bard~
+@271  = ~Marzenie ka¿dego ³ucznika. Ulisses nie wymaga amunicji, lodowe strza³y formuj¹ sie podczas naci¹gania ciêciwy. Pochodzenie tej broni jest nieznane, ale jej wykoñczenie sugeruje pochodzenie elfickie.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +2
+Waga: 9
+Specjalne: 
+ Zwiêkszona prêdkoœæ ataku
+Rodzaj bieg³oœci: ³uki 
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag 
+ Z³odziej
+ Bard~
+@272  = ~Kusza Ognistych Zêbów +3~
+@273  = ~Kusza jest ³ukiem zatkniêtym poprzecznie na drewnianym lub metalowym drzewcu. Zazwyczaj jest wykonana z jesionu albo cisu. Strzela pociskami, które zwane s¹ be³tami.
+
+PARAMETRY:
+
+Waga: 7
+OpóŸnienie: 5
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@274  = ~Dziêki magicznej ciêciwie Gonda, Kusza Ognistych Zêbów jest teraz jeszcze bardziej celna i potê¿na. Kusza ta nie potrzebuje amunicji.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3, 
+TraK0: +3
+Specjalne:
+ +2 pkt. obra¿eñ od ognia 
+Waga: 5
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie strzeleckie 
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@275  = ~Pocisk~
+@276  = ~Pocisk +1~
+@277  = ~Pocisk jest zwyk³ym, okr¹g³ym, dobrze wywa¿onym kamieniem.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1
+Typ obra¿eñ: pocisk (k³ute)
+Waga: 0
+Wyrzutnia: proca~
+@278  = ~Magia sprawia, ¿e te pociski s¹ l¿ejsze i lepiej wywa¿one ni¿ zwyk³e.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: +1
+Typ obra¿eñ: pocisk (k³ute)
+Waga: 0
+Wyrzutnia: proca~
+@279  = ~Pocisk wybuchów~
+@280  = ~Pocisk jest zwyk³ym, okr¹g³ym, dobrze wywa¿onym kamieniem.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1
+Typ obra¿eñ: pocisk (k³ute)
+Waga: 0
+Wyrzutnia: proca~
+@281  = ~Ten pocisk jest szczególnie niebezpieczna dla przeciwników: po uderzeniu w cel eksploduje ogniem i rani od³amkami wszystkie osoby, znajduj¹ce siê w obszarze dzia³ania. 
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +1
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne:
+ +6K6 obra¿eñ od eksplozji (po³owa po rzucie obronnym przeciw magii)
+Waga: 0
+Wyrzutnia: proca~
+@282  = ~Ognisty pocisk~
+@283  = ~Magia sprawia, ¿e te pociski s¹ l¿ejsze i lepiej wywa¿one ni¿ zwyk³e. Podczas procesu umagicznienia zosta³y umieszczone w p³on¹cym ogniu.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3
+TraK0: +2
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne: 
+ +1K6 obra¿eñ od ognia
+Waga: 0
+Wyrzutnia: proca~
+@284  = ~Lodowy pocisk~
+@285  = ~Magia sprawia, ¿e te pociski s¹ l¿ejsze i lepiej wywa¿one ni¿ zwyk³e. 
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: +1
+Typ obra¿eñ: pocisk (k³ute)
+Specjalne: 
+ +1K6 obra¿eñ od ch³odu
+
+Waga: 0
+Wyrzutnia: proca~
+@286  = ~Sztylet~
+@287  = ~Sztylet +2: 'Uk¹szenie pó³nocy'~
+@288  = ~Typowy sztylet posiada ostro zakoñczone, dwusieczne ostrze - w odró¿nieniu od no¿a, który jest jednosieczny i nieco krótszy ni¿ sztylet.
+
+PARAMETRY:
+
+Obra¿enia: 1K4
+Typ obra¿eñ: k³ute
+Waga: 1
+OpóŸnienie: 2
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@289  = ~Sztylet +2: 'Uk¹szenie pó³nocy'
+Typowy sztylet posiada ostro zakoñczone, dwusieczne ostrze - w odró¿nieniu od no¿a, który jest jednosieczny i nieco krótszy ni¿ sztylet. Ten konkretny sztylet pochodzi od krasnoludzkiego kowala z Neverwinter. Umagiczni³ on sztylet w ten sposób, ¿e zadaje obra¿enia od ch³odu. 
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2 
+TraK0: +2 
+Specjalne:
+ +1K4 obra¿eñ od ch³odu 
+ Zapewnia 50% odpornoœci na ch³ód
+Waga: 1
+OpóŸnienie: 0
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@290  = ~Sztylet +3: 'Ma³y og³uszacz'~
+@291  = ~Typowy sztylet posiada ostro zakoñczone, dwusieczne ostrze - w odró¿nieniu od no¿a, który jest jednosieczny i nieco krótszy ni¿ sztylet.
+
+PARAMETRY:
+
+Obra¿enia: 1K4
+Typ obra¿eñ: k³ute
+Waga: 1
+OpóŸnienie: 2
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@292  = ~Stworzony przez kowala znanego jako Evets Nitsua. Broñ pozwala³a mu og³uszaæ ofiarê a nastêpnie kroiæ j¹ a¿ wykrwawi³a siê na œmieræ.   
+
+PARAMETRY:
+
+Obra¿enia (w zwarciu): 1K4 +3
+Obra¿enia (miotane): 1K4 +3
+TraK0: +3
+Typ obra¿eñ: k³ute
+Specjalne:
+ 10% szans na og³uszenie ofiary na 30 sekund
+ Wraca do rêki w³aœciciela po rzuceniu 
+Waga: 2 
+OpóŸnienie: 0 
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@293  = ~Sztylet Yarasha: 'Sztylet powrotów'~
+@294  = ~Sztylet Yarasha: 'Sztylet powrotów' 
+Broñ zosta³a wykuta przez Yarasha Czarownika jako zap³ata za us³ugi pewnej grupy poszukiwaczy przygód. Wielu uwa¿a, ¿e znaczne obra¿enia jakie zadaje ten sztylet w równym stopniu wynikaj¹ z jego doœæ niezwyk³ej wagi, co na³o¿onych nañ umagicznieñ.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3
+TraK0: +2
+Typ obra¿eñ (w zwarciu i miotane): k³ute
+Specjalne:
+ Wraca do rêki w³aœciciela po rzuceniu 
+ Zwiêkszona iloœæ ataków
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@295  = ~Sztylet choroby~
+@296  = ~Sztylet choroby to potê¿ne ostrze cenione przez skrytobójców w ca³ych Krainach. Ta charakterystyczna broñ zosta³a zaka¿ona, by zadawaæ dodatkowe obra¿enia. Za ka¿dym razem, gdy trafia w przeciwnika, do jego krwiobiegu dostaje siê wirus, który b³yskawicznie atakuje jego system odpornoœciowy. Pochodzenie tej broni pozostaje nieznane.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: 2
+Specjalne:
+ Iloœæ ataków: 2
+ +6 pkt. obra¿eñ od trucizn co rundê a¿ do maksymalnych 15 pkt
+Waga: 2
+OpóŸnienie: 0
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@297  = ~Sztylet +2: 'Pora¿acz'~
+@298  = ~Typowy sztylet posiada ostro zakoñczone, dwusieczne ostrze - w odró¿nieniu od no¿a, który jest jednosieczny i nieco krótszy ni¿ sztylet.
+
+PARAMETRY:
+
+Obra¿enia: 1K4
+Typ obra¿eñ: k³ute
+Waga: 1
+OpóŸnienie: 2
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@299  = ~Nie zachowa³y siê ¿adne zapiski na temat twórcy tej broni; niemniej jednak jej istnienie mo¿na wyœledziæ w odleg³ej historii barbarzyñskich i koczowniczych plemion z gór. Ostrze w kszta³cie b³êkitnego pioruna zosta³o z pewnoœci¹ wykute z jakiegoœ tajemniczego metalu rozgrzanego b³yskawic¹ i uformowanego na jej kszta³t.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: 2 
+Specjalne:
+ 50% szansa zadania 2K4 obra¿eñ od elektrycznoœci przy nieudanym rzucie obronnym przeciw ró¿d¿kom
+ Zapewnia 50% odpornoœci na elektrycznoœæ 
+Waga: 1
+OpóŸnienie: 0
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@300  = ~Sztylet lodu~
+@301  = ~Sztylet +2: 'Z¹b zimy'
+Nie zachowa³y siê ¿adne zapiski na temat twórcy tej broni; niemniej jednak jej istnienie mo¿na wyœledziæ w dalekiej historii barbarzyñskich i koczowniczych plemion z gór. Ostrze zosta³o z pewnoœci¹ wykute z jakiegoœ tajemniczego metalu znalezionego daleko na pó³nocy, nadaj¹cego mu wygl¹d lodu.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: 2
+Specjalne:
+ 1K8 obra¿eñ od ch³odu przy nieudanym rzucie obronnym przeciw czarom
+ Zapewnia 50% odpornoœci na ch³ód 
+Waga: 1
+OpóŸnienie: 0
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@302  = ~Sztylet do rzucania~
+@303  = ~Sztylet do rzucania +3~
+@304  = ~Ten sztylet posiada ostry stalowy szpic, zrównowa¿ony przez rêkojeœæ.
+
+PARAMETRY:
+
+Obra¿enia: 1K4
+Typ obra¿eñ: pocisk (k³ute)
+Waga: 2
+OpóŸnienie: 4
+Rodzaj bieg³oœci: lekkie miecze
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Kap³an~
+@305  = ~Ten sztylet do rzucania zosta³ nie tylko doskonale wywa¿ony, aby mo¿na by³o nim rzucaæ, ale zosta³ równie¿ obdarzony magicznymi w³aœciwoœciami. W rezultacie, jest zarówno bardziej œmiercionoœny i precyzyjny ni¿ jakakolwiek nie magiczna broñ tego typu. 
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3
+TraK0: +3
+Typ obra¿eñ (w zwarciu): sieczne
+Typ obra¿eñ (miotane): pocisk (k³ute)
+Specjalne: 
+ Wraca do rêki w³aœciciela po rzuceniu
+Waga: 0
+OpóŸnienie: 1
+Rodzaj bieg³oœci: lekkie miecze 
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Kap³an~
+@306  = ~W³ócznia~
+@307  = ~Lanca Chimery +3~
+@308  = ~W³ócznia to jeden z najwczeœniejszych rodzajów broni, którymi zacz¹³ pos³ugiwaæ siê cz³owiek. Pierwsze egzemplarze tej broni by³y wykonane z drewna i zaostrzone na koñcu. Kiedy cz³owiek nauczy³ siê wytapiaæ metale, groty w³óczni by³y wytwarzane z ¿elaza i stali. W pewnym momencie zaczêto eksperymentowaæ z ró¿nymi typami grotów; w ten sposób powsta³y ró¿ne typy broni drzewcowej.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: k³ute
+Waga: 5
+OpóŸnienie: 6
+Rodzaj bieg³oœci: w³ócznie
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@309  = ~Lanca Chimery +3
+Ulubiona broñ elfich ³owców Chimery. Lance te wykonane s¹ z magicznego drewna i zakoñczone haczykowatym ostrzem pokrytym œmierteln¹ trucizn¹. Surowa brutalnoœæ Chimery w walce mo¿e jedynie równaæ siê z brutalnoœci¹ Leœnych elfów.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3 
+Typ obra¿eñ: k³ute 
+Specjalne:
+ 18 pkt. obra¿eñ od trucizn na rundê a¿ do maksymalnych 27 pkt.
+Waga: 5
+OpóŸnienie: 3
+Rodzaj bieg³oœci: w³ócznie 
+Typ: 2-rêczna 
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@310  = ~Szubienica~
+@311  = ~To ponura broñ, delikatnie rzecz ujmuj¹c. Szubienica zosta³a wykuta przez Mekoriga Œlepego; mia³a dopomóc w zakoñczeniu ery potworów i rozpoczêciu ery ludzi. Szubienica czêsto ginê³a na wiele lat, by po czasie zostaæ znalezion¹ wœród smoczych ³upów przez ambitnych poszukiwaczy przygód. Potêga tej broni czêsto oœmiela³a poszukiwaczy przygód do próby zdobycia kolejnych smoczych skarbów, co koñczy³o siê zazwyczaj tak, ¿e stawa³a siê jednym z nich.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+Typ obra¿eñ: k³ute 
+Specjalne:
+ Zwiêkszona iloœæ ataków
+ +2 do KP
+ Zwiêkszone obra¿enia i TraK0 przeciw Nieumar³ym, Olbrzymom, Potworom i Demonom  
+Waga: 5
+OpóŸnienie: 1
+Rodzaj bieg³oœci: w³ócznie 
+Typ: 2-rêczna 
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@312  = ~Boska lanca~
+@313  = ~Jedna z najlepszych broñ jaka kiedykolwiek powsta³a przeznaczona dla tych, którzy krocz¹ œcie¿k¹ œwiat³a. Lanca promieniuje potêg¹ dobra, które w niej tkwi. U¿ywana niemal wy³¹cznie przez Œwiêt¹ Stra¿ Sukien, stanowi doprawdy rzadki i cenny skarb. Wielcy Kap³ani Sukien umagicznili broñ przeciw z³ym istotom, które zagra¿a³y ich œwi¹tyni.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: k³ute 
+Specjalne: 
+ Odpornoœæ na Strach
+ Zwiêkszone obra¿enia i TraK0 przeciw  Potworom i Nieumar³ym
+Waga: 5
+OpóŸnienie: 5
+Rodzaj bieg³oœci: w³ócznie 
+Typ: 2-rêczna 
+Mo¿e u¿ywaæ:
+ Paladyn~
+@314  = ~Proca~
+@315  = ~Proca ¿ywio³ów: 'Proca obfitoœci'~
+@316  = ~Proce istniej¹ od pocz¹tków zapisywanej historii. S¹ wykonywane ze skóry lub rzemienia, zakoñczonego woreczkiem, w który wk³ada siê pocisk. Procarz chwyta oba koñce rzemienia i krêci proc¹ ponad swoj¹ g³ow¹. Kiedy zostaje osi¹gniêta najwiêksza szybkoœæ, puszcza jeden ze sznurków kieruj¹c pocisk w cel.
+
+PARAMETRY:
+
+Waga: 0
+OpóŸnienie: 6
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:~
+@317  = ~Pierwotnie stworzona jako broñ treningowa przez mistrzów Koœcio³a S³oñca, ta zabójcza proca w jakiœ sposób trafi³a wieki temu do r¹k z³odziei i ³ajdaków. Podczas krêcenia proc¹ tworzy siê pocisk, co likwiduje potrzebê noszenia ze sob¹ amunicji. To doœæ zastanawiaj¹ce, dlaczego z³odzieje tak pokochali tê broñ.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3 (pocisk)
+TraK0: +2
+Waga: 0
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:~
+@318  = ~Kostur czarownika +3~
+@319  = ~Ta najprostsza z lasek mo¿e mieæ d³ugoœæ od 1.8 do grubo ponad 2 metrów. Wykonuje siê j¹ z dêbowego drewna i czêsto obijana jest metalem na obu koñcach. Do w³adania ni¹ trzeba u¿ywaæ obu r¹k. Umo¿liwia równie¿ zamienienie przeciwnika w kamieñ.  
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +3
+Typ obra¿eñ: obuchowe
+Specjalne:
+ Ug³osowienie
+ 25% szansa petryfikacji ofiary przy trafieniu
+Waga: 4
+OpóŸnienie: 3
+Typ: 2-rêczna
+Mo¿e u¿ywaæ:
+ Mag~
+@320  = ~Kij~
+@321  = ~Laska Natury~
+@322  = ~Ta najprostsza z lasek mo¿e mieæ d³ugoœæ od 1.8 do grubo ponad 2 metrów. Wykonuje siê j¹ z dêbowego drewna i czêsto obijana jest metalem na obu koñcach. Do w³adania ni¹ trzeba u¿ywaæ obu r¹k.  
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 4
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@323  = ~Laska Natury: 'Obroñca Natury'
+Kij ten od stuleci jest u¿ywany przez druidzkie plemiê. Przekazywany od przywódcy do przywódcy plemienia arcydruidów z kraju zwanego Kazgard. Powiadaj¹, ¿e kostur ten stworzy³a sama Natura, i mieni siê on zielon¹ poœwiat¹ by pokazaæ, ¿e sw¹ si³ê czerpie w³aœnie od niej. Kij ten jest bardzo potê¿ny i wszyscy którzy nim w³adali zas³ynêli sw¹ si³¹.
+
+PARAMETRY:
+
+Obra¿enia: 2K3 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +15 do maksymalnych P¯
+ +20 do wiedzy
+Waga: 2
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Mo¿e u¿ywaæ:
+ Druid~
+@324  = ~Kij~
+@325  = ~Kostur ¿ywio³u powietrza~
+@326  = ~Ta najprostsza z lasek mo¿e mieæ d³ugoœæ od 1.8 do grubo ponad 2 metrów. Wykonuje siê j¹ z dêbowego drewna i czêsto obijana jest metalem na obu koñcach. Do w³adania ni¹ trzeba u¿ywaæ obu r¹k.  
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 4
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@327  = ~To jeden z czterech kosturów ¿ywio³ów Chanah'Rea stworzonych, jak siê powszechnie wierzy, u zarania dziejów, gdy rodzi³a siê ziemia. Ten konkretny kostur poœwiêcony jest ¿ywio³owi powietrza.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ (w zwarciu): obuchowe
+Typ obra¿eñ (pocisk): elektrycznoœæ (po³owa przy udanym rzucie obronnym przeciw ró¿d¿kom)
+Specjalne:
+ +1 do KP
+ 1K4 +1 obra¿eñ od elektrycznoœci 
+ Tworzy elektryczny pocisk
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@328  = ~Kostur ¿ywio³u ziemi~
+@329  = ~Ta najprostsza z lasek mo¿e mieæ d³ugoœæ od 1.8 do grubo ponad 2 metrów. Wykonuje siê j¹ z dêbowego drewna i czêsto obijana jest metalem na obu koñcach. Do w³adania ni¹ trzeba u¿ywaæ obu r¹k.  
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 4
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@330  = ~To jeden z czterech kosturów ¿ywio³ów Chanah'Rea stworzonych, jak siê powszechnie wierzy, u zarania dziejów, gdy rodzi³a siê ziemia. Ten konkretny kostur poœwiêcony jest ¿ywio³owi ziemi.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ (w zwarciu): obuchowe
+Typ obra¿eñ (pocisk): kwas (po³owa przy udanym rzucie obronnym przeciw ró¿d¿kom) 
+Specjalne:
+ +1 do KP 
+ 6 pkt. obra¿eñ od trucizn do rundê a¿ do maksymalnych 15 pkt.
+ Tworzy kwasowy pocisk 
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@331  = ~Kostur ¿ywio³u ognia~
+@332  = ~Ta najprostsza z lasek mo¿e mieæ d³ugoœæ od 1.8 do grubo ponad 2 metrów. Wykonuje siê j¹ z dêbowego drewna i czêsto obijana jest metalem na obu koñcach. Do w³adania ni¹ trzeba u¿ywaæ obu r¹k.  
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 4
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@333  = ~To jeden z czterech kosturów ¿ywio³ów Chanah'Rea stworzonych, jak siê powszechnie wierzy, u zarania dziejów, gdy rodzi³a siê ziemia. Ten konkretny kostur poœwiêcony jest ¿ywio³owi ognia.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ (w zwarciu): obuchowe
+Typ obra¿eñ (pocisk): ogieñ (po³owa przy udanym rzucie obronnym przeciw ró¿d¿kom) 
+Specjalne:
+ +1 do KP 
+ 3K4 +1 obra¿eñ od ognia
+ Tworzy ognisty pocisk 
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@334  = ~Kostur ¿ywio³u wody~
+@335  = ~To jeden z czterech kosturów ¿ywio³ów Chanah'Rea stworzonych, jak siê powszechnie wierzy, u zarania dziejów, gdy rodzi³a siê ziemia. Ten konkretny kostur poœwiêcony jest ¿ywio³owi wody.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ (w zwarciu): obuchowe
+Typ obra¿eñ (pocisk): ch³ód (po³owa przy udanym rzucie obronnym przeciw ró¿d¿kom) 
+Specjalne:
+ +1 do KP 
+ 1K4 +1 obra¿eñ od ch³odu
+ Tworzy lodowy pocisk 
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@336  = ~Kostur ¿ycia~
+@337  = ~Kostur ¿ycia: 
+Ten bia³o-z³oty kij, pulsuj¹cy wielk¹ si³¹, zosta³ utworzony u zarania dziejów przez pierwsze promyki s³oñca po³yskuj¹ce na czystej tafli wody. Jego wp³yw na zdolnoœci ofensywne jest doœæ niewielki, za to zapewnia w³aœcicielowi znacz¹ce premie obronne.
+
+PARAMETRY:
+
+Obra¿enia: 2K2 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ +2 do KP
+ Tworzy miksturê leczenia
+ Ochrona przed czarami 1-go poziomu
+Waga: 3
+OpóŸnienie: 6
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Mo¿e u¿ywaæ:
+ Mag
+ Postaæ dobra~
+@338  = ~Miecz d³ugi~
+@339  = ~D³ugi miecz: 'Pó³nocny Berserker'~
+@340  = ~Do tej kategorii zaliczaj¹ siê obusieczne miecze, miecze wojenne i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w obrêbie jednego narodu, w którym wykuto ostrze. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ broni: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@341  = ~Miecz ten zosta³ wykuty w skutej lodem Dolinie Lodowego Wichru przez szalonego krasnoluda, Asgrima. Rêkojeœæ pozostaje ch³odna w dotyku, a ostrze lodowate, bez wzglêdu na to, jaka temperatura panuje dooko³a. 
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3 
+Typ obra¿eñ: sieczne
+Specjalne:
+ +3 pkt. obra¿eñ od ch³odu
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: ciê¿kie miecze 
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@342  = ~Pa³asz~
+@343  = ~Pa³asz +2~
+@344  = ~Bliski krewny szabli, pa³asz, to miecz o jednosiecznym, zakrzywionym ostrzu i chronionej koszem rêkojeœci. D³ugie ostrze zwê¿a siê ku koñcowi. Pochodzenie pa³asza nie jest dobrze znane, choæ jest on doœæ popularny w po³udniowych regionach Zapomnianych Krain.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ: 
+ Mag
+ Kap³an~
+@345  = ~Pa³asz +2
+Bliski krewny szabli, pa³asz, to miecz o jednosiecznym, zakrzywionym ostrzu i chronionej koszem rêkojeœci. D³ugie ostrze zwê¿a siê ku koñcowi. Pochodzenie pa³asza nie jest dobrze znane, choæ jest on doœæ popularny w po³udniowych regionach Zapomnianych Krain.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ +1K6 obra¿eñ od elektrycznoœci
+ 15% odpornoœæ na elektrycznoœæ
+Waga: 4
+OpóŸnienie: 2
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ: 
+ Mag
+ Kap³an~
+@346  = ~Kordelas~
+@347  = ~Kordelas +3: 'Dar Lorda Piratów'~
+@348  = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla kordelasa, jak i pa³asza, mimo i¿ pochodzenie obu wi¹¿e siê z ró¿nymi krainami Faerun. Po kordelas, ze wzglêdu na jej mniejsz¹ wagê, czêsto siêgaj¹ z³odzieje i bandyci.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: sieczne 
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@349  = ~Kordelas +3: 'Dar Lorda Piratów'
+D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla kordelasa, jak i pa³asza, mimo i¿ pochodzenie obu wi¹¿e siê z ró¿nymi krainami Faerun. Po kordelas, ze wzglêdu na jej mniejsz¹ wagê, czêsto siêgaj¹ z³odzieje i bandyci.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: sieczne 
+Specjalne:
+ +1K4 obra¿eñ od elektrycznoœci
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@350  = ~Miecz d³ugi +2: 'Sekcja pierwsza'~
+@351  = ~Miecze Sekcji pierwszej nale¿¹ do najlepszych dostêpnych mieczy. U¿ywaj¹ ich cz³onkowie elitarnej grupy zwanej "Sekcj¹". Samo posiadanie miecza wykutego dla Sekcji mo¿e stanowiæ wyrok œmierci dla w³aœciciela.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2 pkt. obra¿eñ od elektrycznoœci
+Waga: 7
+OpóŸnienie: 2
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@352  = ~Miecz d³ugi: '¯ycie'~
+@353  = ~To osobisty miecz Nikity. Przy pomocy tego solidnie wykonanego miecza "zlikwidowa³a" z pewn¹ niechêci¹ wielu wrogów. 
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne 
+Specjalne:
+ +10 do P¯ gdy u¿ywany
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@354  = ~Miecz d³ugi: 'Œmieræ'~
+@355  = ~Do tej kategorii zaliczaj¹ siê obusieczne miecze, miecze wojenne i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w obrêbie jednego narodu, w którym wykuto ostrze. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@356  = ~To osobisty miecz Michaela. Przy pomocy tego solidnie wykonanego miecza "zlikwidowa³" wielu wrogów. 
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ 10% szansa na natychmiastow¹ œmieræ przy nieudanym rzucie obronnym
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@357  = ~Kordelas +3: 'T'sarren'~
+@358  = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla kordelasa, jak i pa³asza, mimo i¿ pochodzenie obu wi¹¿e siê z ró¿nymi krainami Faerun. Po kordelas, ze wzglêdu na jej mniejsz¹ wagê, czêsto siêgaj¹ z³odzieje i bandyci.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: sieczne 
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@359  = ~Kordelas +3: 'T'sarren'
+Miecz ten nale¿a³ do szalonej elfiej najeŸdŸczyni, która szerzy³a zniszczenie gdziekolwiek siê pojawi³a. Jakiœ czas temu s³uch po niej zagin¹³, byæ mo¿e jest ju¿ martwa, co wyjaœnia³oby, dlaczego masz w rêku jej miecz.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: sieczne 
+Specjalne: 
+ 1K3 obra¿eñ od ognia
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@360  = ~Szabla~
+@361  = ~Szabla Artemisa~
+@362  = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla szabli, jak i pa³asza, mimo i¿ pochodz¹ z ró¿nych czêœci Faerunu. Podczas gdy, ze wzglêdu na sw¹ wszechstronnoœæ, szabla by³a przeznaczona g³ównie dla jeŸdŸców, pa³asza jest bardziej zwi¹zany z tradycjami wschodu.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@363  = ~Szabla zranienia 
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne: 
+ Ofiara traci 1 P¯/rundê przez okres 8 rund
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@364  = ~Miecz krótki~
+@365  = ~Ostrze skrytobójcy~
+@366  = ~Krótkie miecze pojawi³y siê jako pierwsze w tej grupie broni. W najprostszych s³owach, jest to sztylet o ostrzu tak d³ugim, ¿e nie mo¿e byæ d³u¿ej traktowany jak sztylet. Termin "miecz krótki" nie istnieje w ¿adnych klasyfikacjach mieczy. Jednak¿e jest tu u¿ywany do opisania dwusiecznego ostrza o d³ugoœci oko³o 60 centymetrów. Czubki tych mieczy s¹ zazwyczaj ostre, co czyni je doskona³ymi do zadawania ran k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1D6
+Typ obra¿eñ: k³ute
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an 
+ Mag~
+@367  = ~Ostrze skrytobójcy to d³ugi miecz stworzony na u¿ytek œmiertelnie skutecznych zabójców - Mistrzów Cienia. Niesamowite wyczyny tej niezwykle elitarnej grupy zabójców opiewaj¹ w legendach, choæ nigdy nie towarzysz¹ im naoczni œwiadkowie. Mistrzowie Cienia stoj¹ na najwy¿szym miejscu w hierarchii Z³odziei Cienia. Ten miecz posiada umagicznienie +4.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +3
+Typ obra¿eñ: k³ute 
+Specjalne: 
+ Umo¿liwia 2 ataki na rundê
+Waga: 3 
+OpóŸnienie: 0
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Z³odziej~
+@368  = ~Korsarz~
+@369  = ~Bliski krewny szabli, pa³asz, to miecz o jednosiecznym, zakrzywionym ostrzu i chronionej koszem rêkojeœci. D³ugie ostrze zwê¿a siê ku koñcowi. Pochodzenie pa³asza nie jest dobrze znane, choæ jest on doœæ popularny w po³udniowych regionach Zapomnianych Krain.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4
+Rodzaj bieg³oœci: ciê¿kie miecze
+OpóŸnienie:  5
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Mag
+ Kap³an~
+@370  = ~Korsarz to jedna z najlepszych broni, jakie kiedykolwiek opuœci³y regnañsk¹ zbrojowniê. Zawsze wierni swej naturze, kowale z Regny stworzyli broñ, maj¹c¹ s³u¿yæ pomoc¹ w ich imperialnych zapêdach do "pobierania podatków" tak na pe³nym morzu, jak ich w przybrze¿nych miastach.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne: 
+ Zwiêkszona iloœæ ataków na rundê
+ Zwiêkszona prêdkoœæ poruszania siê
+ Zwiêkszone zdolnoœci z³odziejskie
+Waga: 4
+Rodzaj bieg³oœci: ciê¿kie miecze
+OpóŸnienie:  1
+Typ: 1-rêczna 
+Mo¿e u¿ywaæ:
+ Z³odziej
+ Druid~
+@371  = ~Kordelas +2: 'Skwar'~
+@372  = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla kordelasa, jak i pa³asza, mimo i¿ pochodzenie obu wi¹¿e siê z ró¿nymi krainami Faerun. Po kordelas, ze wzglêdu na jej mniejsz¹ wagê, czêsto siêgaj¹ z³odzieje i bandyci.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: sieczne 
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@373  = ~Kordelas +2: 'Skwar'  
+Ten pofa³dowany czerwony kordelas jest zimny w dotyku, wyrzeŸbiono na nim runiczny napis 'Skwar'. Jego wygl¹d zmyli³ niejednego poszukiwacza przygód, który uzna³ go za zu¿yty, stary i bezu¿yteczny. Ci co bardziej dociekliwi, którzy nie pozbyli siê go lecz nosili ze sob¹, zawsze koniec koñców byli pozytywnie zaskoczeni. Skwar rozgrzewa siê dopiero po wykonaniu nim zamachu, a gdy ju¿ skieruje siê go w stronê nieprzyjaciela, udowadnia, ¿e w pe³ni zas³uguje na sw¹ nazwê.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +2 
+Typ obra¿eñ: sieczne 
+Specjalne: 
+ 1K3 obra¿eñ od ognia
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@374  = ~Kordelas +3: 'Duchowe ostrze'~
+@375  = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla kordelasa, jak i pa³asza, mimo i¿ pochodzenie obu wi¹¿e siê z ró¿nymi krainami Faerun. Po kordelas, ze wzglêdu na jej mniejsz¹ wagê, czêsto siêgaj¹ z³odzieje i bandyci.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: sieczne 
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@376  = ~Kordelas +3: 'Duchowe ostrze' 
+Za ka¿dym razem, gdy zbrojny robi zamach mieczem, widzi jak pozostawia on za sob¹ widmowy œlad w powietrzu. Pod tym wzglêdem miecz ten wcale nie ró¿ni siê od innych, z t¹ ró¿nic¹, ¿e jego widmowy œlad równie¿ mo¿e zadawaæ obra¿enia. Jego pierwotnym w³aœcicielem by³ raczej oty³y i leniwy jegomoœæ, o imieniu Bordger, który, jak plotkowano, w przesz³oœci odby³ magiczny trening, zanim zdecydowa³ siê wejœæ na drogê z³odziejstwa. Zwa¿ywszy na to, jak œwietnie spisuje siê to umagicznienie, lepiej wszyscy by na tym wyszli, gdyby pozosta³ magiem. 
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3 
+Typ obra¿eñ: sieczne
+Specjalne: 
+ +1K3 obra¿eñ siecznych
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@377  = ~Kordelas iskrzenia +3~
+@378  = ~Kordelas iskrzenia +3   
+Sadz¹c po odg³osie trzaskaj¹cej energii elektrycznej dochodz¹cym z tej broni, mo¿na ³atwo zgadn¹æ, sk¹d ten kordelas wzi¹³ sw¹ nazwê. Pochodzenie tej broni jest nieznane, ale opowieœci o pewnej odleg³ej krainie zawsze towarzysz¹ wzmiance o kordelasie. Pierwszym znanym w³aœcicielem by³ pirat, który co dopiero powróci³ do portu. Zosta³ obrabowany i zabity w pijackim odurzeniu i nawet jego imiê owiane jest t¹ sam¹ tajemnic¹, co jego miecz.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3 
+Typ obra¿eñ: sieczne
+Specjalne: 
+ +1K3 obra¿eñ od elektrycznoœci
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@379  = ~Kordelas +3: '£omot'~
+@380  = ~Kordelas +3: '£omot'  
+Broñ ta jest wiêksza ni¿ przeciêtny kordelas, w zasadzie bardziej przypomina szeroki miecz. Jej wykonanie zleci³ baron rabusiów o imieniu Orrimy, który chcia³ 'zgniataæ i siekaæ' - jak to sam uj¹³. Umo¿liwi³ mu to wyj¹tkowy rozmiar tej broni. Szkoda ¿e pierwsz¹ szans¹ na jej wypróbowanie by³a walka z ogrem, który zgniót³ go, nim Orrimy zdo³a³ wyci¹gn¹æ miecz z pochwy.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne: 
+ +1K3 obra¿eñ obuchowych
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@381  = ~Szabla Doufasa~
+@382  = ~Krótkie miecze pojawi³y siê jako pierwsze w tej grupie broni. W najprostszych s³owach, jest to sztylet o ostrzu tak d³ugim, ¿e nie mo¿e byæ d³u¿ej traktowany jak sztylet. Termin "miecz krótki" nie istnieje w ¿adnych klasyfikacjach mieczy. Jednak¿e jest tu u¿ywany do opisania dwusiecznego ostrza o d³ugoœci oko³o 60 centymetrów. Czubki tych mieczy s¹ zazwyczaj ostre, co czyni je doskona³ymi do zadawania ran k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1D6
+Typ obra¿eñ: k³ute
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an 
+ Mag~
+@383  = ~Szabla Doufasa
+Szabla Doufasa z za³o¿enia ma byæ doskona³ym narzêdziem dla skrytobójcy. Jest gorliwie poszukiwana przez wszystkich, którym nie przeszkadza charakter tej broni, lecz nawet wielu z nich z czasem zmienia swój stosunek do niej.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3, +1K4 obra¿eñ od magii
+TraK0: +2
+Typ obra¿eñ: k³ute
+Specjalne:
+ 2 dodatkowe ataki na rundê
+ Unieruchamia ofiarê póki nie wykona ona udanego rzutu obronnego 
+Waga: 5 
+OpóŸnienie: 0
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an 
+ Mag~
+@384  = ~Miecz d³ugi +4: 'Œwiêty mœciciel - Draz'~
+@385  = ~Nale¿¹cy niegdyœ do Geza Helmity, ten potê¿ny miecz przez stulecia zajmowa³ honorowe miejsce wœród artefaktów trzymanych w œwi¹tyni Helma we Wrotach Baldura, okazjonalnie wypo¿yczany paladynom z koœcio³a, gdy zasz³a taka potrzeba. Jednak¿e, z grubsza szeœædziesi¹t trzy lata temu, miasto Wrota Baldura zala³a fala kradzie¿y. Draz zosta³ skradziony nim zwrócono go do Œwi¹tyni. Wszystkie próby zlokalizowania go spe³z³y na niczym, lecz teraz znalaz³ siê oto tu, w twoich rêkach.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +4
+TraK0: +4 
+Typ obra¿eñ: sieczne
+Specjalne:
+ Ochrona przed z³em, promieñ 3 metry
+ 50% odpornoœci na magiê
+ +1 do Si³y 
+Waga: 4
+OpóŸnienie: 1
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Paladyn~
+@386  = ~Miecz d³ugi: 'Ognisty k¹sacz'~
+@387  = ~Nie wiadomo w jaki sposób "Ognisty k¹sacz" znalaz³ siê na tym planie. 
+
+Plotka g³osi, ¿e ostatni w³aœciciel tej broni uwa¿a³ siê za tak potê¿nego, ¿e postanowi³ pokonaæ w pojedynkê Królow¹ ¯ywio³aków Ognia. Najwidoczniej nie podo³a³.
+   
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne 
+Specjalne:
+ +1K3 obra¿eñ od ognia
+ Zwiêksza iloœæ ataków do dwóch na rundê
+ +2 przeciw istotom obdarzonym zdolnoœci¹ regeneracji
+ +3 przeciw istotom pos³uguj¹cym siê zimnem
+ +4 przeciw martwiakom
+Waga: 4
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@388  = ~Ostrze Kniei~
+@389  = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla szabli, jak i pa³asza, mimo i¿ pochodz¹ z ró¿nych czêœci Faerunu. Podczas gdy, ze wzglêdu na sw¹ wszechstronnoœæ, szabla by³a przeznaczona g³ównie dla jeŸdŸców, pa³asz jest bardziej zwi¹zany z tradycjami wschodu. "Szamszir", jak pierwotnie zosta³a nazwana ta broñ, jest d³u¿szy, jego ostrze jest bardziej zakrzywione i zakoñczone wyd³u¿onym, ostrym szpicem. W efekcie jest ona nieco wolniejsza, jednak bardziej skuteczna i zabójcza w walce. 
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4~
+@390  = ~Na pierwszy rzut oka ten pa³asz wygl¹da jak wszystkie inne. Jednak¿e gdy bierze go do rêki "dzieciê lasu", ostrze robi siê zielone i szumi cicho.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +2
+Typ obra¿eñ: sieczne 
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze 
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Druid~
+@391  = ~Harval: Szare ostrze~
+@392  = ~Bliski krewny szabli, pa³asz, to miecz o jednosiecznym, zakrzywionym ostrzu i chronionej koszem rêkojeœci. D³ugie ostrze zwê¿a siê ku koñcowi. Pochodzenie pa³asza nie jest dobrze znane, choæ jest on doœæ popularny w po³udniowych regionach Zapomnianych Krain. Ten konkretny miecz zdaje siê byæ bardzo dobrej jakoœci, s¹dz¹c po jego znakomitym wywa¿eniu.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ: 
+ Mag
+ Kap³an~
+@393  = ~Harval nale¿a³ do Colbey'a Calistinssona: Stra¿nika równowagi.
+Wczeœniej jego w³aœcicielem by³ Ragnarok (Wojna bogów). Pomimo tego, ¿e nie by³ bogiem, by³ nieœmiertelny. Jako stra¿nik równowagi miêdzy Dobrem a Z³em, Prawem a Chaosem, nie by³ lubiany przez nikogo, gdy¿ nie móg³ opowiedzieæ siê po ¿adnej ze stron. Interesowa³o go jedynie zachowanie "Równowagi". Nie s¹ znajome dzieje samego ostrza. Plotka g³osi, ¿e znalaz³o siê tu by wype³niæ pragnienie Colby'ego w d¹¿eniu do zachowywania równowagi, gdy¿ mo¿e byæ u¿ywane tylko przez osoby, które je podzielaj¹.
+
+Premia do Klasy Pancerza wynika z tego, ¿e w³aœciciel tego miecza opanowa³ sztukê samokontroli i równowagi do tego stopnia, ¿e jest w stanie unikaæ wielu ciosów, które normalnie by go trafi³y.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3 
+Typ obra¿eñ: sieczne
+Specjalne:
+ Zwiêksza iloœæ ataków do 2
+ +2 do KP
+Waga: 4
+Rodzaj bieg³oœci: ciê¿kie miecze
+OpóŸnienie: 2
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Postaæ Z³a i Dobra
+ Mag
+ Kap³an~
+@394  = ~Miecz oburêczny~
+@395  = ~Miecz oburêczny +3: 'Powiernik piek³a'~
+@396  = ~Miecz oburêczny pochodzi od miecza d³ugiego. P³atnerze zawsze szukali sposobów ulepszenia istniej¹cego orê¿a. Podczas prób udoskonalenia miecza d³ugiego ostrze zosta³o wyd³u¿one. To samo zrobiono z rêkojeœci¹, gdy¿ do w³aœciwego u¿ycia tej broni by³y niezbêdne obie rêce. G³ówn¹ funkcj¹ miecza oburêcznego jest dosiêgniêcie rycerza, dosiadaj¹cego konia i prze³amanie formacji z pik.
+
+PARAMETRY:
+
+Obra¿enia: 1K10
+Typ obra¿eñ: sieczne
+Waga: 15
+OpóŸnienie: 10
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@397  = ~Obusieczny dwurêczny miecz o nazwie Powiernik Piek³a lœni czarn¹ poœwiat¹. To jedno z inteligentnych ostrzy piekie³, które zadaj¹ ofierze obra¿enia od ognia.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Obra¿enia:
+ +2K4 obra¿eñ od ognia
+Waga: 8
+OpóŸnienie: 4
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 2-rêczna
+Mo¿e u¿ywaæ:
+ Wojownik~
+@398  = ~D³ugi miecz Kroma~
+@399  = ~Miecz ten nale¿a³ do Kroma Niewidzialnego. U¿y³ go przeciw niezliczonym hordom nieprzyjació³ podczas swego panowania. Relacje nielicznych, którym uda³o siê prze¿yæ spotkanie z tym mieczem mówi¹, ¿e czuli w sobie subteln¹ si³ê, która spowalnia³a ich ruchy.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ Spowalnia ofiarê przy nieudanym rzucie obronnym
+Waga: 3
+OpóŸnienie: 1
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@400  = ~Zguba Rhea~
+@401  = ~Do tej kategorii zaliczaj¹ siê obusieczne miecze, miecze wojenne i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w obrêbie jednego narodu, w którym wykuto ostrze. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@402  = ~Miecz ten zosta³ wykuty dla wojownika Cuthlana Rhea przez Lorda Ognistego Galamaru. Niewiele wiadomo o rzeczywistych mocach tego przedmiotu. Po za runicznymi zdobieniami na klindze nic nie wskazuje, ¿e posiada on jakiekolwiek magiczne w³aœciwoœci, póki nie zostanie uniesiony w ferworze walki, wówczas ostrze lœni s³ab¹ ciemn¹ czerwieni¹.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3 
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2 do KP
+ +1 do Zrêcznoœci
+Waga: 4
+OpóŸnienie: 4
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@403  = ~Miecz pó³torarêczny~
+@404  = ~Miecz pó³torarêczny +2: '¯mija'~
+@405  = ~Zwany jest równie¿ "bêkartem" - zawdziêcza tê nazwê faktowi, ¿e jest skrzy¿owaniem miecza d³ugiego i oburêcznego. Ma obusieczne ostrze i d³ug¹ rêkojeœæ, dziêki czemu mo¿na go u¿ywaæ jedn¹ rêk¹ lub obur¹cz. Jego d³ugoœæ waha siê od 120 do 145 centymetrów.
+
+PARAMETRY:
+
+Obra¿enia: 2K4
+Typ obra¿eñ: sieczne
+Waga: 10
+OpóŸnienie: 8
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@406  = ~Miecz pó³torarêczny +2: '¯mija' 
+Trucizna w tym ostrzu jest wyj¹tkowo zabójcza, wyci¹gniêta z ogona wywerny zadaje ogromne obra¿enia w krótkim odstêpie czasu.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +3
+Typ obra¿eñ: sieczne 
+Specjalne: 
+ Zadaje ofierze obra¿enia od trucizny póki nie wykona ona udanego rzutu obronnego przeciw œmierci
+Waga: 8
+OpóŸnienie: 7
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@407  = ~Ostrze z³odziei~
+@408  = ~Krótkie miecze pojawi³y siê jako pierwsze w tej grupie broni. W najprostszych s³owach, jest to sztylet o ostrzu tak d³ugim, ¿e nie mo¿e byæ d³u¿ej traktowany jak sztylet. Termin "miecz krótki" nie istnieje w ¿adnych klasyfikacjach mieczy. Jednak¿e jest tu u¿ywany do opisania dwusiecznego ostrza o d³ugoœci oko³o 60 centymetrów. Czubki tych mieczy s¹ zazwyczaj ostre, co czyni je doskona³ymi do zadawania ran k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: k³ute
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an 
+ Mag~
+@409  = ~Miecz ten wykonano specjalnie dla z³odziei, ale mo¿e byæ u¿ywany przez wszystkie profesje, jakie dopuszczaj¹ u¿ycie tego typu broni. Daje on z³odziejowi wiele premii, sprawiaj¹c, ¿e jest nieco szybszy ni¿ jego wrogowie, i bardziej zrêczny, jeœli idzie o opró¿nianie cudzych sakiewek.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: k³ute 
+Specjalne:
+ +15 do wszystkich zdolnoœci z³odziejskich
+Waga: 2
+OpóŸnienie: 1
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an 
+ Mag~
+@410  = ~Amulet~
+@411  = ~Amulet przywo³ania wywern~
+@412  = ~Naszyjniki to ozdobna, metalowa bi¿uteria zwykle wykonana ze srebra, z³ota, platyny lub innych cennych metali, w których dodatkowo osadzone s¹ kamienie szlachetne. Naszyjnik jest zawsze noszony na szyi i mo¿e mieæ bardzo ró¿n¹ d³ugoœæ.~
+@413  = ~Amulet przywo³ania wywern
+
+PARAMETRY: 
+
+Pozwala w³aœcicielowi przywo³ywaæ wywernê podleg³¹ jego woli.~
+@414  = ~Naszyjnik~
+@415  = ~Wysadzany naszyjnik kradzie¿y kieszonkowej~
+@416  = ~Naszyjniki to ozdobna, metalowa bi¿uteria zwykle wykonana ze srebra, z³ota, platyny lub innych cennych metali, w których dodatkowo osadzone s¹ kamienie szlachetne. Naszyjnik jest zawsze noszony na szyi i mo¿e mieæ bardzo ró¿n¹ d³ugoœæ.~
+@417  = ~Wysadzany naszyjnik kradzie¿y kieszonkowej 
+Kilka lat temu, Fong Moo, s³ynny rzezimieszek, znany zarówno we Wrotach Baldura jak i Athkatli, zosta³ znaleziony martwy w pobli¿u szlaku miêdzy Wrotami a Beregostem.  Wygl¹da³o na to, ¿e skrad³ artefakt potê¿nemu magowi i próbowa³ z nim uciec, z marnym skutkiem. Ca³y jego dobytek przeszed³ w rêce bratanka, który podj¹³ siê tego samego zawodu, co wuj, staj¹c siê szczególnie dobrym w kradzie¿ach kieszonkowych. Niewiadomo, czy ten naszyjnik by³ magiczny nim wpad³ w rêce Fonga, czy mo¿e zosta³ w jakiœ sposób nasycony esencj¹ mistrza. 
+
+PARAMETRY:
+
++20% do Kradzie¿y kieszonkowej
+Mo¿e u¿ywaæ:
+ Z³odziej
+ Bard~
+@418  = ~Ankh~
+@419  = ~Ankh akceptacji~
+@420  = ~Ankh to ozdoba noszona przewa¿nie na szyi. Zwykle powi¹zana jest z druidami i czêsto umagiczniona.~
+@421  = ~Ankh akceptacji              
+To jeden z dziewiêciu amuletów ankh, pierwotnie przechowywanych w œwi¹tyni w Pó³nocnej Twierdzy. Wraz z upadkiem miasta zaginê³y, by zostaæ odnalezione przez rycerzy Myth Drannor, którzy przechowywali amulety przez stulecia. Wraz z rozpadem tej organizacji, amulety zaginê³y ponownie i od tamtej pory s³uch o nich zagin¹³.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+M¹droœæ: +1
+Specjalne: 
+ Parali¿uje ofiarê
+ Zmienia charakter w³aœciciela na prawdziwie neutralny~
+@422  = ~Amulet zdolnoœci z³odziejskich~
+@423  = ~To rzadki amulet na którym ka¿dy z³odziej chcia³bym po³o¿yæ swe ³apy. Polepsza on z³odziejom ich nikczemne umiejêtnoœci. Szefowie gildii zap³aciliby krocie za ten amulet.
+
+PARAMETRY:
+
+Zrêcznoœci: +1
+Wykrywanie/rozbrajanie pu³apek: +5%
+Kradzie¿ kieszonkowa: +5%
+Otwieranie zamków: +5%
+Krycie siê w cieniu: +5%
+Specjalne:
+ Zapewnia Infrawizjê
+ Niewidzialnoœæ na okres 10 tur (ograniczona liczba ³adunków)
+Mo¿e u¿ywaæ:
+ Z³odziej~
+@424  = ~Amulet Ulcastera~
+@425  = ~Naszyjniki to ozdobna, metalowa bi¿uteria zwykle wykonana ze srebra, z³ota, platyny lub innych cennych metali, w których dodatkowo osadzone s¹ kamienie szlachetne. Naszyjnik jest zawsze noszony na szyi i mo¿e mieæ bardzo ró¿n¹ d³ugoœæ.~
+@426  = ~Ten amulet by³ noszony przez potê¿nego maga zwanego Ulcasterem. W jego szkole znajdowa³o siê wiele artefaktów, ale tylko kilka z nich zosta³o odnalezionych.
+
+PARAMETRY:
+
+2 dodatkowe czary 4-go i 5-go poziomu
+20% odpornoœci na magiê
+Waga: 9
+Mo¿e u¿ywaæ:
+ Mag~
+@427  = ~Amulet ochrony +2~
+@428  = ~Amulety jest to bi¿uteria (czasami magiczna), która po³¹czona z ³añcuszkiem jest noszona na szyi. Rodzaj ³añcuszka, na którym amulet jest zawieszony zwykle podnosi tylko jego walory estetyczne, a nie magiczne (jeœli takie istniej¹). Mo¿na nosiæ tylko jeden amulet na raz.~
+@429  = ~Amulet ochrony +2: 'Protektor'
+Ten amulet by³ wrêczany gwardzistom króla Pyronan, w³adcy Impiltur, jako oznaka statusu i honoru. Niestety stra¿nicy mieli pewne problemy z ustaleniem, komu przedmiot siê nale¿y. Po latach wewnêtrznych sporów amulet zagin¹³, a gwardzistów zast¹piono osobnikami mniej chciwymi.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Rzuty obronne: +1~ 
+@430  = ~Naszyjnik Hobbina~
+@431  = ~To osobisty naszyjnik Hobbina ofiarowany mu przez dziadka.
+
+PARAMETRY:
+
+TraK0: +2
++10% do kradzie¿y kieszonkowej~
+@432  = ~Amulet duchowieñstwa~
+@433  = ~Amulet duchowieñstwa: 'Œwiêty' 
+Ten amulet znany jest z tego, ¿e potrafi poprawiæ zdolnoœci rzucania czarów, dlatego te¿ jest poszukiwany przez kap³anów i druidów.  
+
+PARAMETRY:
+
+1 dodatkowy czar z 2-go poziomu
+Mo¿e u¿ywaæ:
+ Druid
+ Kap³an~
+@434  = ~Pierœcieñ~
+@435  = ~Pierœcieñ Shi'nayne~
+@436  = ~Pierœcieñ jest ma³¹ obrêcz¹ wykonan¹ z cennego metalu u¿ywanego w bran¿y jubilerskiej. Niektóre z nich nas¹czono zaklêciami, dziêki czemu zyska³y magiczne w³aœciwoœci. Wiele osób, szczególnie tych, paraj¹cych siê poszukiwaniem przygód, stara siê znaleŸæ tego typu rzadk¹ bi¿uteriê.~
+@437  = ~Magiczny pierœcieñ Shi'nayne Alanadel, który gwarantuje jej dodatkowe czary kap³ana i maga.
+
+PARAMETRY:
+
+2 dodatkowe czary 3-go poziomu~
+@438  = ~Pierœcieñ ochrony +3~
+@439  = ~Pierœcieñ jest ma³¹ obrêcz¹ wykonan¹ z cennego metalu u¿ywanego w bran¿y jubilerskiej. Niektóre z nich nas¹czono zaklêciami, dziêki czemu zyska³y magiczne w³aœciwoœci. Wiele osób, szczególnie tych, paraj¹cych siê poszukiwaniem przygód, stara siê znaleŸæ tego typu rzadk¹ bi¿uteriê.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Rzuty obronne: +1
+Nie mo¿e u¿ywaæ:~
+@440  = ~Pierœcieñ maga/kap³ana~
+@441  = ~Pierœcieñ jest ma³¹ obrêcz¹ wykonan¹ z cennego metalu u¿ywanego w bran¿y jubilerskiej. Niektóre z nich nas¹czono zaklêciami, dziêki czemu zyska³y magiczne w³aœciwoœci.  
+
+PARAMETRY:
+
+1 dodatkowy czar maga i 1 kap³ana na poziomach od 1-go do 4-go.~
+@442  = ~Pierœcieñ ochrony +1: 'Regina Coeli'~
+@443  = ~Pierœcieñ ten zosta³ zes³any z niebios przez bogów, chroni w³aœciciela przed zwyk³ymi obra¿eniami oraz przed mocami z niebios. 
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Rzuty obronne: +1
+Specjalne:
+ 15% do odpornoœci na elektrycznoœæ
+Nie mo¿e u¿ywaæ:~
+@444  = ~Pierœcieñ mocy~
+@445  = ~Pierœcieñ ten spowija dziwna poœwiata. Jeœli zdecydujesz siê za³o¿yæ go na palec, zrób to z rozwag¹.~
+@446  = ~Ch³ód Nemmerle~
+@447  = ~Nemmerle by³ z³ym nekromant¹, o którym powiadaj¹, ¿e odby³ wiele podró¿y do krain ognia. Po jego œmierci przedmiot ten odnaleziono wœród jego dobytku. Po dotkniêciu tego przedmiotu czujesz krótki, przenikliwy ch³ód. Po krótkim badaniu przedmiotu odkrywasz s³owo klucz, oraz ledwo widoczne ostrze¿enie. Czêœæ ostrze¿enia, która zachowa³a siê do teraz, g³osi: "w³adza nad ogniem trwa wiecznie."
+
+PARAMETRY:
+
+Umo¿liwia rzucenie czaru Ochrona przed zimnem 
+Mo¿e u¿ywaæ:
+ Postaæ z³a~
+@448  = ~Pierœcieñ przewodzenia~
+@449  = ~Ponad 1000 lat minê³o od czasu, gdy czarownicy z Yevaud wyruszyli, by przej¹æ kontrolê nad Drzewem M¹droœci. Opowieœci o bitwie, która nadesz³a, po dziœ dzieñ przekazywane s¹ na spotkaniach druidów w ca³ych Krainach. Elgenon wiedzia³, ¿e nigdy nie by³by w stanie oprzeæ siê sile czarowników bez niczyjej pomocy i modli³ siê do drzewa m¹droœci szukaj¹c porady. Jego modlitwy zosta³y wys³uchane, i zes³ano mu wizjê pierœcienia. Najwiêksza si³a czarowników, moc kontrolowania b³yskawic, nie zdo³a³a zraniæ druida. Gdy dzieñ chyli³ siê ku koñcowi, bitwa zosta³a zakoñczona, ocaleni czarownicy pozbierali to co osta³o siê na polu bitwy i wycofali siê. Odwaga Elgenona pomog³a odnieœæ zwyciêstwo tego dnia, ale to jego m¹droœæ by³a decyduj¹cym czynnikiem i dziêki niej zdoby³ miano "Elgenon M¹dry".
+
+PARAMETRY:
+
+Umo¿liwia rzucenie czaru Ochrona przed elektrycznoœci¹
+Mo¿e u¿ywaæ:
+ Postaæ neutralna~
+@450  = ~Pierœcieñ arcymagii~
+@451  = ~Plotka g³osi, ¿e dawno temu, pewien wielki czarodziej z Amn zbuntowa³ siê przeciwko ograniczeniom, jakie Mystra na³o¿y³a na magów. Legenda mówi, ¿e ów czarodziej potrafi³ rzucaæ czary bez ograniczeñ w iloœci zapamiêtanych zaklêæ. Ostatecznie okaza³o siê, ¿e jego moce pochodzi³y od kilku magicznych pierœcieni, które wykona³ dla siebie. Jego tak zwana "wieczna pamiêæ" by³a bujd¹, choæ jego pierœcienie wci¹¿ pozostaj¹ jednymi z najbardziej poszukiwanych przedmiotów w Krainach.
+
+PARAMETRY:
+
+3 dodatkowe czary maga 3-go poziomu
+Mo¿e u¿ywaæ:
+ Mag~
+@452  = ~Pierœcieñ ognia: 'Spalaj siê'~
+@453  = ~Pierœcieñ jest ma³¹ obrêcz¹ wykonan¹ z cennego metalu u¿ywanego w bran¿y jubilerskiej. Niektóre z nich nas¹czono zaklêciami, dziêki czemu zyska³y magiczne w³aœciwoœci. Wiele osób, szczególnie tych, paraj¹cych siê poszukiwaniem przygód, stara siê znaleŸæ tego typu rzadk¹ bi¿uteriê.~
+@454  = ~Pierœcieñ ognia: 'Spalaj siê'
+Pierœcieñ ten zosta³ stworzony po tym, jak Harpellowie mieli okazjê zbadaæ pierœcieñ energii, który znaleŸli po bitwie o Mithrilow¹ Halê. W przeciwieñstwie do wiêkszoœci magicznych przedmiotów stworzonych przez tê rodzinê, pierœcieñ ten naprawdê dzia³a i stanowi ulepszon¹ wersjê pierœcienia, na bazie której go stworzono. Teraz nie tylko strzela P³omieniami Agannazara, pozwala równie¿ rzucaæ s³up ognia i ognist¹ kulê.
+
+PARAMETRY:
+
+Umo¿liwia rzucenie nastêpuj¹cych zaklêæ:
+ P³omienie Agannazara
+ P³on¹ce d³onie
+ Ognista kula
+ S³up ognia~
+@455  = ~Pierœcieñ druida~
+@456  = ~Pierœcieñ ognistej zas³ony: '¯ar Charviraka'  
+Od zarania dziejów czarownicy korzystali z otaczaj¹cych ich ¿ywio³ów by zarówno atakowaæ, jak i broniæ siê. Ten pierœcieñ to sprawka wielkiego czarownika Charviraka z Corymeru. Powiadaj¹, ¿e ukrad³ esencjê ognistego golema i uwiêzi³ j¹ w tym pierœcieniu.
+
+PARAMETRY:
+
+Klasa pancerza: +2
+Mo¿e u¿ywaæ:
+ Prawdziwie neutralny druid~
+@457  = ~Pierœcieñ czarów poziomu 1-go~
+@458  = ~Pierœcieñ czarów: 'Wszechpamiêæ'
+Plotka g³osi, ¿e dawno temu, pewien wielki czarodziej z Amn zbuntowa³ siê przeciwko ograniczeniom ,jakie Mystra na³o¿y³a na magów. Legenda mówi, ¿e ów czarodziej potrafi³ rzucaæ czary bez ograniczeñ w iloœci zapamiêtanych zaklêæ. Ostatecznie okaza³o siê, ¿e jego moce pochodzi³y od kilku magicznych pierœcieni, które wykona³ dla siebie. Jego tak zwana "wieczna pamiêæ" by³a bujd¹, choæ jego pierœcienie wci¹¿ pozostaj¹ jednymi z najbardziej poszukiwanych przedmiotów w Krainach.
+
+PARAMETRY:
+
+2 dodatkowe czary maga 1-go poziomu
+Mo¿e u¿ywaæ:
+ Mag~
+@459  = ~Pierœcieñ czarów poziomu 1-go do 5-go~
+@460  = ~Pierœcieñ czarów: 'Wszechpamiêæ'
+Plotka g³osi, ¿e dawno temu, pewien wielki czarodziej z Amn zbuntowa³ siê przeciwko ograniczeniom, jakie Mystra na³o¿y³a na magów. Legenda mówi, ¿e ów czarodziej potrafi³ rzucaæ czary bez ograniczeñ w iloœci zapamiêtanych zaklêæ. Ostatecznie okaza³o siê, ¿e jego moce pochodzi³y od kilku magicznych pierœcieni, które wykona³ dla siebie. Jego tak zwana "wieczna pamiêæ" by³a bujd¹, choæ jego pierœcienie wci¹¿ pozostaj¹ jednymi z najbardziej poszukiwanych przedmiotów w Krainach.
+
+PARAMETRY:
+
+Podwaja iloœæ czarów maga do zapamiêtania od 1-go do 5-go poziomu
+Mo¿e u¿ywaæ:
+ Mag~
+@461  = ~Zwój~
+@462  = ~LIST GOÑCZY
+
+Niech wszem o z³ych intencjach bêdzie wiadomo, ¿e na g³owê przybranego dziecka Goriona, imieniem <CHARNAME>, zosta³a wyznaczona nagroda.
+
+Ostatnio osobê tê widziano w Beregoœcie, powinna zostaæ jak najszybciej zabita.
+
+To niebezpieczny przeciwnik i zazwyczaj podró¿uje w towarzystwie dobrze uzbrojonych kompanów.
+
+List ten zosta³ rozes³any do wszystkich odpowiednich gildii.
+
+Ci, którzy udowodni¹, ¿e zadanie wykonali, otrzymaj¹ nie mniej ni¿ 680 sztuk z³ota.
+
+Jak zwykle, zdradzenie tych informacji przedstawicielom prawa nie jest wskazane.~
+@463  = ~LIST GOÑCZY
+
+Niech wszem o z³ych intencjach bêdzie wiadomo, ¿e na g³owê przybranego dziecka Goriona, imieniem <CHARNAME>, zosta³a wyznaczona nagroda.
+
+Ostatnio osobê tê widziano w Candlekeep, powinna zostaæ jak najszybciej zabita.  
+
+Ci, którzy udowodni¹, ¿e zadanie wykonali, otrzymaj¹ nie mniej ni¿ 450 sztuk z³ota.
+
+M.S.~
+@464  = ~Ostrze¿enie o zawieszeniu!
+
+<CHARNAME> nie zosta³ zlikwidowany. Niedotrzymanie zlecenia bêdzie wi¹za³o siê z zawieszeniem wszystkich agentów zaanga¿owanych w wykonanie tego zlecenia. Pora¿ka NIE wchodzi w rachubê.
+
+P.W.~ ~Ostrze¿enie o zawieszeniu!
+
+<CHARNAME> nie zosta³a zlikwidowana. Niedotrzymanie zlecenia bêdzie wi¹za³o siê z zawieszeniem wszystkich agentów zaanga¿owanych w wykonanie tego zlecenia. Pora¿ka NIE wchodzi w rachubê.
+
+P.W.~
+
+@465  = ~NOTATKA
+
+Z jakiegoœ powodu <CHARNAME> nie zosta³ zlikwidowany. Ka¿dy agent który poniesie pora¿kê bêdzie mia³ do czynienia ze mn¹. Do roboty!
+
+M~ ~NOTATKA
+
+Z jakiegoœ powodu <CHARNAME> nie zosta³a zlikwidowana. Ka¿dy agent który poniesie pora¿kê bêdzie mia³ do czynienia ze mn¹. Do roboty!
+
+M~
+
+@466  = ~LIST GOÑCZY
+
+Niech wszem o z³ych intencjach bêdzie wiadomo, ¿e na g³owê przybranego dziecka Goriona, imieniem <CHARNAME>, zosta³a wyznaczona nagroda.
+
+Ostatnio osobê tê widziano w Candlekeep, powinna zostaæ jak najszybciej zabita.  
+
+Ci, którzy udowodni¹, ¿e zadanie wykonali, otrzymaj¹ nie mniej ni¿ 200 sztuk z³ota.~
+@467  = ~LIST GOÑCZY 
+
+Najaro:
+
+Na g³owê przybranego dziecka Goriona, imieniem <CHARNAME>, zosta³a wyznaczona nagroda.
+
+<CHARNAME> spustoszy³ wioskê, zabijaj¹c wszystkich jej mieszkañców, w tym kobiety i dzieci. 
+
+<CHARNAME> i bandyci z którymi podró¿uje, powinni zostaæ zabici jak najprêdzej.
+
+P.W.~ ~LIST GOÑCZY 
+
+Najaro:
+
+Na g³owê przybranego dziecka Goriona, imieniem <CHARNAME>, zosta³a wyznaczona nagroda.
+
+<CHARNAME> spustoszy³a wioskê, zabijaj¹c wszystkich jej mieszkañców, w tym kobiety i dzieci. 
+
+<CHARNAME> i bandyci z którymi podró¿uje, powinni zostaæ zabici jak najprêdzej.
+
+P.W.~
+@468  = ~Œwiat jest teatrem.
+
+Widzialne z³o.
+
+Na wszystko przyjdzie odpowiednia pora.
+
+¯egnaj¹c siê z przesz³oœci¹.
+
+Przyjació³ka.~
+@469  = ~Notatka:
+  Pamiêtaj, ¿e wejœcie do Sekcji znajduje siê w Bergoscie, niedaleko kuŸni Grzmi¹cego M³ota. Pamiêtaj równie¿, ¿eby trzymaæ ten klucz zawsze przy sobie. G³upio by wysz³o, gdybyœmy nie mogli otworzyæ drzwi do Sekcji.~
+@470  = ~Maliny~
+@471  = ~Maliny maj¹ s³odki smak. Po zjedzeniu przywracaj¹ dwa punkty ¿ycia.~
+@472  = ~<NO TEXT>~
+@473  = ~Gulp!~ [GULP]
+@474  = ~Winogrona~
+@475  = ~Kiœæ winogron:
+Owoce lœni¹ jakimœ dziwnym blaskiem. Po zjedzeniu przywracaj¹ trzy punkty ¿ycia. Do tego s¹ bardzo smaczne.~
+@476  = ~Mikstura nadzwyczajnego leczenia~
+@477  = ~Po za¿yciu, ta mikstura przywraca 30 punktów ¿ycia. Efekt jest natychmiastowy; mikstura ulega zniszczeniu.~
+@478  = ~Uzdrowiono~
+@479  = ~Mikstura~
+@480  = ~Mikstura leczenia krytycznych ran~
+@481  = ~Eliksiry najczêœciej mo¿na znaleŸæ w ceramicznych, krystalicznych, szklanych, b¹dŸ te¿ metalowych buteleczkach lub flakonikach. Buteleczki, podobnie jak i inne pojemniki, zawieraj¹ na ogó³ wystarczaj¹c¹ iloœæ p³ynu, by korzystaj¹ca z nich osoba mog³a liczyæ na po¿¹dany efekt.~
+@482  = ~Po za¿yciu, ta mikstura przywraca 27 punktów ¿ycia. Efekt jest natychmiastowy; mikstura ulega zniszczeniu.~
+@483  = ~Kurczak~
+@484  = ~To najlepszy kurczak KFC. Przyprawiony 20 zio³ami i przyprawami by³ opiekany wolno na ogniu. Po za¿yciu, ten kurczak przywraca 10 punktów ¿ycia.~
+@485  = ~Mikstura lustrzanego odbicia~
+@486  = ~Mikstura tworzy lustrzane odbicie osoby, która j¹ wypije, do 5 odbiæ na poziom.~
+@487  = ~Mikstura kwasowego wybuchu~
+@488  = ~Rzucaj¹c te buteleczkê w stronê nieprzyjaciela, oblewasz go wielce ¿r¹cym kwasem.~
+@489  = ~Ró¿d¿ka~
+@490  = ~Ró¿d¿ka kamiennego cia³a~
+@491  = ~Ró¿d¿ki maj¹ zazwyczaj oko³o 45 centymetrów d³ugoœci. Wykonuje siê je z koœci s³oniowej, koœci i drewna; zazwyczaj na ich koñcu umieszcza siê metalowy, kryszta³owy lub kamienny element. S¹ delikatne i ³atwo siê ³ami¹. Z tego te¿ powodu trzyma siê je w futera³ach.
+
+Zawieraj¹ magiczne ³adunki; ka¿de ich u¿ycie kosztuje jeden lub wiêcej ³adunków (zale¿nie od przedmiotu). W momencie, gdy zostan¹ wyczerpane zostaj¹ zniszczone.~
+@492  = ~Po uaktywnieniu, ró¿d¿ka zamieni wybran¹ osobê w kamieñ, b¹dŸ o¿ywi skamienia³e cia³o. Zamiany cia³a w kamieñ mo¿na unikn¹æ poprzeæ udany rzut obronny przeciw czarom.
+
+PARAMETRY:
+
+Efekt: Zamiana cia³a w kamieñ 
+Efekt: Zamiana kamienia w cia³o 
+Zasiêg: 6 m
+Obszar: 1 istota
+Nie mo¿e u¿ywaæ:
+ Wojownik
+ Kap³an
+ Druid
+ Z³odziej~
+@493  = ~Ró¿d¿ka dominacji~
+@494  = ~Po uaktywnieniu, ró¿d¿ka wypuszcza kulê magicznej energii, która pêdzi w stronê wybranego celu i nigdy nie chybia. To dotyczy równie¿ wrogich istot w zwarciu. Ofiara musi byæ widoczna, lub wykryta w jakikolwiek inny sposób, by zostaæ trafion¹, jednak¿e, istoty niemal ca³kowicie zakryte, jak te chowaj¹ce siê za ambrazur¹, mog¹ byæ niewra¿liwe na czar. Po trafieniu wybranej istoty, pozostaje ona pod dzia³aniem uroku podobnego do tego, ofiarowanego przez kap³añski czar Dominacja.
+
+PARAMETRY:
+
+Efekt: Okropne zauroczenie
+Zasiêg: 30 m
+Obszar: 1 istota
+Nie mo¿e u¿ywaæ:
+ Wojownik 
+ Mag
+ Bard
+ Z³odziej~
+@495  = ~Ró¿d¿ka umar³ych~
+@496  = ~Po uaktywnieniu, ró¿d¿ka przyzwie dusze trzech poleg³ych wojowników, by wspomog³y w³aœciciela ró¿d¿ki w walce.
+
+PARAMETRY:
+
+Efekt: Animacja martwego 
+Zasiêg: 30 m 
+Nie mo¿e u¿ywaæ:
+ Wojownik 
+ Mag
+ Bard
+ Z³odziej~
+@497  = ~Czaszka~
+@498  = ~Czaszka umar³ych~
+@499  = ~Ta czaszka wygl¹da na magiczn¹.~
+@500  = ~Ta czaszka przyzywa umar³ych tak samo jak zwój z czarem.
+
+Animacja martwego (Nekromancja)
+Poziom: 5
+Sfera: Nekromancja
+Zasiêg: 10 metrów
+Czas dzia³ania: 8 godzin
+Czas rzucania: 1 runda
+Obszar dzia³ania: Specjalny
+Rzut obronny: Brak
+Ten czar tworzy najs³absze z martwiaków - szkielety i zombie - zazwyczaj z koœci lub cia³ martwych ludzi, nieludzi i humanoidów. Szcz¹tki "o¿ywaj¹" i mog¹ wykonywaæ proste s³owne polecenia czaruj¹cego, bez wzglêdu na to, jak porozumiewa³y siê za ¿ycia. Stworzone istoty mog¹ pod¹¿aæ za osob¹, która rzuci³a zaklêcie, pozostañ na danym obszarze i atakowaæ ka¿dego (lub tylko okreœlony rodzaj istot), kto siê zbli¿y itp. Animacja trwa przez 8 godzin lub a¿ do zniszczenia martwiaków w walce b¹dŸ przez ich odpêdzenie. Rozproszenie magii nie niweluje dzia³ania tego zaklêcia. Kap³an mo¿e stworzyæ jeden szkielet na ka¿dy poziom doœwiadczenia, który osi¹gn¹³. ~
+@501  = ~Lutnia~
+@502  = ~Pieœñ miriad~
+@503  = ~Ta finezyjnie wykonana lutnia ma srebrne struny naci¹gniête na drewnian¹ konstrukcjê o g³êbokiej barwie ze z³otymi zdobieniami. Jej kunszt jest wyj¹tkowy, perfekcyjny, niemal nadludzki. Podobnie jak to, ¿e nawet niewprawione palce graj¹c na tej lutni s¹ w stanie wydobyæ najpiêkniejsze akordy. Co dziwne, instrument nie posiada ¿adnego mechanizmu stroj¹cego, jak gdyby nie by³o to konieczne. Dreszcz trwogi przechodzi wzd³u¿ twego krêgos³upa, gdy patrzysz na te wszystkie zawi³e zdobienia instrumentu.~
+@504  = ~Pochodzenie tej lutni jest nieznane, jednak¿e jej twórca zda³ siê wynieœæ stare porzekad³o, ¿e "muzyka ³agodzi obyczaje...", na nowy poziom. W rêkach zdolnego muzyka ten instrument wydaje dŸwiêki, które potrafi¹ oczarowaæ publicznoœæ. 
+
+PARAMETRY:
+
+Efekt: Okropne zauroczenie
+Zasiêg: 30 m
+Obszar: 1 istota 
+Mo¿e u¿ywaæ:
+ Bard~
+@505  = ~Œwieca~
+@506  = ~Œwieca m¹droœci~
+@507  = ~S¹dz¹c po symbolach tajemnych naniesionych po bokach œwiecy, oczywistym jest, ¿e posiada ona w³aœciwoœci magiczne. Póki jednak nie spróbujesz ich odczytaæ b¹dŸ zidentyfikowaæ, ich prawdziwa natura pozostanie dla ciebie nieznana.~
+@508  = ~Œwieca ta potarta w odpowiedni zwiêksza m¹droœæ w³aœciciela. Niestety ta sama magia sprawia jednoczeœnie, ¿e œwieca znika po jednokrotnym u¿yciu.
+
+PARAMETRY:
+
+M¹droœæ: +1 na sta³e
+Specjalne: znika po u¿yciu
+U¿ycie: w³ó¿ do przegródki Podrêcznego przedmiotu ~
+@509  = ~M¹droœæ zwiêkszy³a siê na sta³e o 1~
+@510  = ~Amulet ochrony +1~
+@511  = ~Amulety jest to bi¿uteria (czasami magiczna), która po³¹czona z ³añcuszkiem jest noszona na szyi. Rodzaj ³añcuszka, na którym amulet jest zawieszony zwykle podnosi tylko jego walory estetyczne, a nie magiczne (jeœli takie istniej¹). Mo¿na nosiæ tylko jeden amulet na raz.~
+@512  = ~Amulet ochrony +1 : 'Protektor'  
+Ten amulet by³ wrêczany gwardzistom króla Pyronan, w³adcy Impiltur, jako oznaka statusu i honoru. Niestety stra¿nicy mieli pewne problemy z ustaleniem, komu przedmiot siê nale¿y. Po latach wewnêtrznych sporów amulet zagin¹³, a gwardzistów zast¹piono osobnikami mniej chciwymi.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Rzuty obronne: +1~
+@513  = ~Przedmiot istoty~
+@514  = ~Przedmiot istoty~
+@515  = ~--~
+@516  = ~G³owa Wywerny ~
+@517  = ~Obciêta g³owa wywerny jest zarazem przera¿aj¹cym i uspokajaj¹cym widokiem. Strach w cz³owieku zbiera na widok pe³nej k³ów szczêki i iskrz¹cych siê œlepiów i jednoczeœnie jest to pocieszaj¹ce ¿e stwory te mog¹ zostaæ pokonane przez zwyk³ych, s³abych œmiertelników.~
+@518  = ~Kamieñ stra¿niczy~
+@519  = ~Kamieñ stra¿niczy Lilliany~
+@520  = ~Czêsto naznaczane magicznymi runami i symbolami, kamienie stra¿nicze s¹ potê¿nymi magicznymi przedmiotami, umo¿liwiaj¹cymi przedostanie siê przez obszary chronione magi¹. Poniewa¿ wiêkszoœæ z nich jest unikatowa i wyspecjalizowana, ma³o który posiada wiêcej ni¿ jedn¹ funkcjê.~
+@521  = ~To raczej niczym nie wyró¿niaj¹cy siê kamieñ stra¿niczy. Mo¿e mieæ wiele zastosowañ.~
+@522  = ~Kamieñ stra¿niczy stra¿nika bramy~
+@523  = ~Szkar³atne wy¿³obienia w tym kamieniu jarz¹ siê delikatnym, czerwonym blaskiem, które zdaje siê emanowaæ gdzieœ ze œrodka kamienia. Mo¿e ci siê on jeszcze przydaæ.~
+@524  = ~Klucz~
+@525  = ~Dziwny klucz~
+@526  = ~Klucz:
+To wysadzany klejnotami klucz o dziwnym wygl¹dzie.~
+@527  = ~Klucz Sir Jonesa~
+@528  = ~Klucz ten mo¿e zapewniæ Ci dostêp do wybranych stref Nadzoru.~
+@529  = ~Strza³a uœpienia~
+@530  = ~Strza³y lekkie, jest sama nazwa wskazuje, s³u¿¹ do strzelania na daleki dystans. Czêsto wykorzystuje siê je do polowañ. Wiêkszoœæ z nich jest wykonanych z jesionu lub brzozy i mierzy od 75 do 100 cm.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: pociski (k³ute)
+Waga: 0
+Wyrzutnia: ³uk
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
+@531  = ~Strza³y lekkie, jest sama nazwa wskazuje, s³u¿¹ do strzelania na daleki dystans. Czêsto wykorzystuje siê je do polowañ. Te strza³y umagiczniono w ten sposób, by po trafieniu ofiara zapad³a w sen. 
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: pociski (k³ute)
+Specjalne: 
+ Ofiara zapadnie w sen przy nieudanym rzucie obronnych przeciw œmierci
+Waga: 0
+Wyrzutnia: ³uk 
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
+@532  = ~Mitrylowy topór +3~
+@533  = ~Mitrylowe bronie, a zw³aszcza topory, s¹ szczególnie poszukiwane ze wzglêdu na wyj¹tkow¹ dba³oœæ, z jak¹ podchodz¹ do ich tworzenia krasnoludy. Ten topór zosta³ umagiczniony, aby zadawaæ obra¿enia od ch³odu.
+
+PARAMETRY:
+
+Obra¿enia: 2K8 +3 
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2 pkt. obra¿eñ od ch³odu
+Waga: 5
+OpóŸnienie: 1
+Rodzaj bieg³oœci: topory
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag 
+ Z³odziej~
+@534  = ~P³aszcz kniei~
+@535  = ~P³aszcz kniei to najlepszy tego typu przedmiot dla druidów i ³owców.
+
+PARAMETRY:
+
+Klasa pancerza: 2
+Specjalne: 
+ +15% do krycia siê w cieniu
+ +5 przeciw broni strzeleckiej
+Waga: 4
+Mo¿e u¿ywaæ:
+ Druid
+ £owca~
+@536  = ~Pa³asz +3: 'Furia Andarousa'~
+@537  = ~Pa³asz +3: 'Furia Andarousa'
+Andarous by³ ³owc¹, który straci³ sw¹ kniejê na rzecz orków. Ci œcieli j¹ a z drewna wybudowali fort. Mielikki odpowiedzia³a na modlitwy Andarousa i ofiarowa³a mu ten miecz, by dope³ni³ zemsty w imiê Natury. Andarous w pojedynkê z ³atwoœci¹ poradzi³ sobie ze wszystkimi orkami w obozie.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3 
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2K4 obra¿eñ od elektrycznoœci 
+ Klasa Pancerza: +2
+ Og³usza ofiarê przy nieudanym rzucie obronnym przeciw czarom
+Waga: 3
+OpóŸnienie: 2
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Druid
+ £owca~
+@538  = ~Katana~
+@539  = ~Katana +3: 'El Tel'lerian'~
+@540  = ~Tel'lerian by³ wielkim wojownikiem z Kara-Tur. Jako najemnik, przemierzy³ wzd³u¿ i wszerz Krainy szukaj¹c zleceñ oraz walcz¹c ze z³em. Katana ta by³a jedn¹ z jego ulubionych broni. Straci³ ten miecz i swe ¿ycie w zasadzce w drodze do Candlekeep.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne: 
+ 10% szansa na petryfikacjê ofiary przy trafieniu jeœli nie wykona ona udanego rzutu obronnego przeciw petryfikacji
+Waga: 10
+Rodzaj bieg³oœci: ciê¿kie miecze
+OpóŸnienie:  3
+Typ: 2-rêczna
+Mo¿e u¿ywaæ:
+ Wojownik 
+ £owca
+ Paladyn~
+@541  = ~Miecz oburêczny +3: 'Œmieræ Khazida'~
+@542  = ~Miecz oburêczny pochodzi od miecza d³ugiego. P³atnerze zawsze szukali sposobów ulepszenia istniej¹cego orê¿a. Podczas prób udoskonalenia miecza d³ugiego ostrze zosta³o wyd³u¿one. To samo zrobiono z rêkojeœci¹, gdy¿ do w³aœciwego u¿ycia tej broni by³y niezbêdne obie rêce. G³ówn¹ funkcj¹ miecza oburêcznego jest dosiêgniêcie rycerza, dosiadaj¹cego konia i prze³amanie formacji z pik.
+
+PARAMETRY:
+
+Obra¿enia: 1K10
+Typ obra¿eñ: sieczne
+Waga: 15
+OpóŸnienie: 10
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@543  = ~Œmieræ Khazida zosta³a wykonana przez krasnoludzkiego mistrza kowalstwa, Khazida El Duma. Ledwie co stworzy³ ten miecz, gdy do jego kuŸni w³amali siê rabusie i zabili go przy pomocy jego w³asnego dzie³a. Czêœæ jego duchowej esencji zwi¹za³a siê z t¹ broni¹ w chwili œmierci Khazida.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +3
+TraK0: +3
+Typ obra¿eñ: sieczne 
+Specjalne: 
+ +1 do Si³y
+ +1 do Kondycji
+Waga: 12
+OpóŸnienie: 9
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag 
+ Z³odziej~
+@544  = ~Wielka Katana~
+@545  = ~Wielka Katana +3: 'Toran El Desiade'~
+@546  = ~Niewiele wiadomo o historii tej wielkiej katany. Na rêkojeœci wygrawerowano staro¿ytne runy, zapewne nadaj¹ce broni w³aœciwoœci magiczne. Nikt o z³ym charakterze nie mo¿e podnieœæ tej katany, wiêc zapewne jej przeznaczeniem jest s³u¿ba w dobrej sprawie.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +3 
+TraK0: +3
+Typ obra¿eñ: sieczne 
+Specjalne: 
+ +1K4 obra¿eñ od ch³odu 
+ +1 do KP
+ +1 do Zrêcznoœci
+ 10% szans rzucenia czaru Groza na ofiarê
+Waga: 8
+Rodzaj bieg³oœci: ciê¿kie miecze
+OpóŸnienie:  2
+Typ: 2-rêczna
+Mo¿e u¿ywaæ:
+ Wojownik
+ £owca
+ Paladyn~
+@547  = ~Mitrylowe bronie, a zw³aszcza topory, s¹ szczególnie poszukiwane ze wzglêdu na wyj¹tkow¹ dba³oœæ, z jak¹ podchodz¹ do ich tworzenia krasnoludy. Ten topór zosta³ umagiczniony, aby zadawaæ obra¿enia od ognia.
+
+PARAMETRY:
+
+Obra¿enia: 2D8 +3
+TraK0: +3
+Typ obra¿eñ: sieczne
+Specjalne:
+ +2 pkt. obra¿eñ od ognia 
+Waga: 5
+OpóŸnienie: 1
+Rodzaj bieg³oœci: topory
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag 
+ Z³odziej~
+@548  = ~Topór bojowy +3: 'Pogromca Ghuli'~
+@549  = ~Broñ stworzona przez paladyna, który nienawidzi³ nieumar³ych, zw³aszcza ghuli. Topór zabije je przy pierwszym celnym ciosie.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3 
+TraK0: +3
+Typ obra¿eñ: sieczne 
+Specjalne: 
+ +3 pkt. obra¿eñ od ch³odu 
+ Zabija Ghule 
+Waga: 7
+OpóŸnienie: 6
+Rodzaj bieg³oœci: topory
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag 
+ Z³odziej~
+@550  = ~Mitrylowe rêkawice walki~
+@551  = ~Stworzone przez krasnoludy z pó³nocnych gór, te rêkawice s¹ najlepszymi przyjació³mi wojownika. Szczególnie upodobali je sobie krasnoludzcy berserkerzy.
+
+PARAMETRY:
+
+TraK0: +2
+Obra¿enia: +2 
+Zrêcznoœæ: +1
+Waga: 1
+Nie mo¿e u¿ywaæ:
+ Druid
+ Z³odziej
+ Mag~
+@552  = ~Rêkawice ochrony +3~
+@553  = ~Rêkawice to ciê¿ka, pancerna ochrona d³oni. Mog¹ byæ one wykonane ze skóry, metalowych p³ytek b¹dŸ metalowych kó³ek. Ka¿dy rodzaj zbroi zawiera równie¿ rêkawice odpowiedniego typu. Rêkawice o w³asnoœciach magicznych s¹ zwykle l¿ejsze, bardzie finezyjnie wykonane i ³atwiejsze w noszeniu ni¿ ich zwyczajne odpowiedniki.
+
+PARAMETRY:
+
+Klasa pancerza: +3
+Waga: 2
+Nie mo¿e u¿ywaæ:~
+@554  = ~Lodowy pocisk~
+@555  = ~Magia sprawia, ¿e te pociski s¹ l¿ejsze i lepiej wywa¿one ni¿ zwyk³e. 
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +2
+TraK0: +2
+Specjalne: 
+ +1K6 obra¿eñ od ch³odu 
+Typ obra¿eñ: pociski (k³ute)
+Waga: 0
+Wyrzutnia: proca~
+@556  = ~Zbroja paskowa: 'Zbroja Mystry'~
+@557  = ~Zbroja paskowa: 'Zbroja Mystry' 
+Zbroja ta by³a noszona przez kap³anów i magów z Koœcio³a Mystry. Zapewnia ochronê i zwiêksza inteligencjê w³aœciciela. Tylko ktoœ, kto para siê magi¹, mo¿e u¿ywaæ tej zbroi.
+
+PARAMETRY:
+
+Klasa pancerza: -1
+Specjalne: 
+ Ochrona przed trucizn¹
+ +1 do Inteligencji
+Waga: 18
+Mo¿e u¿ywaæ:
+ Kap³an
+ Mag~
+@558  = ~Szata magistra~
+@559  = ~Noszona niegdyœ przez jednego z magistrów Mystry, szata ta zaginê³a na stulecia. Niewiadomo w jaki sposób zosta³a odnaleziona. Wielu spekulowa³o, ¿e Mystra osobiœcie j¹ odszuka³a, aby znów ktoœ móg³ j¹ przywdziaæ.
+
+PARAMETRY:
+
+Klasa pancerza: +2
+Specjalne:
+ 2 dodatkowe czary poziomu 2-go i 3-go
+ 30% odpornoœci na magiê
+ +3 do rzutów obronnych
+Waga: 6
+Mo¿e u¿ywaæ:
+ Mag~
+@560  = ~Cep bojowy +3: 'P³omienna œmieræ'~
+@561  = ~Cep ten zosta³ umagiczniony, by zadawaæ obra¿enia od ognia i zwiêkszyæ m¹droœæ w³aœciciela. Sam Amuanator by³by nim zachywony.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Typ obra¿eñ: obuchowe 
+Specjalne:
+ +1 do M¹droœci
+ Zwiêkszona iloœæ ataków
+ 2K3 obra¿eñ od ognia
+Waga: 8
+OpóŸnienie: 3
+Rodzaj Bieg³oœci: bronie z kolcami
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Kap³an
+ Paladyn~
+@562  = ~Œwiêta gwiazda +3~
+@563  = ~Œwiêty morgensztern +3 zosta³ poœwiêcony przez kap³anów ze œwi¹tyni Amuanatora, posiada magiczne w³aœciwoœci i mo¿e byæ u¿ywany tylko przez tych, którzy pod¹¿aj¹ œcie¿k¹ oœwiecenia.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +3
+TraK0: +3
+Specjalne:
+ +1 do M¹droœci
+ Zwiêkszona iloœæ ataków
+ 2K3 obra¿eñ od ch³odu 
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 3
+Rodzaj Bieg³oœci: bronie z kolcami
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Kap³an
+ Paladyn~
+@564  = ~Sztylet +2: 'Nekro'~
+@565  = ~Broñ ta wydaje siê niczym nie odró¿niaæ od zwyk³ych sztyletów, jakich u¿ywaj¹ pocz¹tkuj¹cy magowie. Ten konkretny sztylet nale¿a³ do Szassa Tama. Jakiœ nieszczêsny g³upiec zabra³ go liszowi i nigdy ju¿ wiêcej o nim nie us³yszano.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +2
+TraK0: +2
+Specjalne:
+ 10% szansa na natychmiastowe zabicie ofiary
+ Pozwala rzuciæ nastêpuj¹ce zaklêcia:
+  Animacja martwego
+  Eksploduj¹ca czaszka
+  Wampiryczne dotkniêcie 
+  Pó³materialnoœæ 
+Waga: 4
+OpóŸnienie: 2
+Typ obra¿eñ: k³ute
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Mag (jednoklasowy)
+ Postaæ z³a~
+@566  = ~He³m~
+@567  = ~He³m z g³owy wywerny~
+@568  = ~He³m z g³owy wywerny 
+Obciêta g³owa wywerny jest zarazem przera¿aj¹cym i uspokajaj¹cym widokiem. Strach w cz³owieku zbiera na widok pe³nej k³ów szczêki i iskrz¹cych siê œlepiów i jednoczeœnie jest to pocieszaj¹ce ¿e stwory te mog¹ zostaæ pokonane przez zwyk³ych, s³abych œmiertelników.
+ 
+PARAMETRY:
+
+Klasa Pancerza: +2
+Si³a: +2
+Specjalne: 
+ +25% do odpornoœci na magiê
+ Chroni przed trafieniami krytycznymi
+Waga: 2
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@569  = ~Zbroja skórzana, wbrew obiegowym opiniom, nie jest miêkka i elastyczna, jak skóra s³u¿¹ca do wyrobu butów ³owcy czy szaty druida. Taki rodzaj materii nie daje lepszej ochrony przed atakami ni¿ zwyk³e ubranie.
+
+PARAMETRY:
+
+Klasa Pancerza: 8
+Waga: 15
+Nie mo¿e u¿ywaæ:
+ Mag~
+@570  = ~To jest zbroja Maleniousa Stridera. Plotka g³osi, ¿e jego mêstwo w bitwie pochodzi³o w³aœnie od tego przedmiotu. Poza w³aœciwoœciami zwyk³ej zbroi, posiada równie¿ wiele magicznych mocy. Gdy j¹ zak³adasz, zdajesz siê mieæ nie tylko lepsz¹ ochronê, ale i dodatkow¹ przewagê w walce. Gdy jesteœ w lesie lub w zacienionych obszarach miasta, zbroja sama zdaje siê zlewaæ z cieniem i pozwala wyciszyæ twe ruchy.
+
+PARAMETRY:
+
+Klasa Pancerza: 1
+Specjalne: 
+ +1 do Zrêcznoœci 
+ +20% do krycia siê w cieniu
+Waga: 25
+Mo¿e u¿ywaæ:
+ Wojownik 
+ £owca
+ Druid~
+@571  = ~Zbroja skórzana æwiekowana: 'Nadci¹gaj¹ca Burza'~
+@572  = ~Ta zbroja zosta³a wykonana z osmolonych resztek smoka uderzonego przez b³yskawicê. Ostatnim znanym w³aœcicielem by³ czarownik Shrethu Reogher. Jej obecny w³aœciciel powinien mieæ nadziejê, ¿e czarownik ju¿ nie ¿yje, w przeciwnym razie prêdzej czy póŸniej wróci po sw¹ zgubê.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Specjalne:
+ +3 do rzutów obronnych
+ Odpornoœæ na elektrycznoœæ
+Waga: 4
+Mo¿e u¿ywaæ:
+Druid~
+@573  = ~Kusza~
+@574  = ~Lekka kusza: 'Pochodnia'~
+@575  = ~Kusza jest ³ukiem zatkniêtym poprzecznie na drewnianym lub metalowym drzewcu. Zazwyczaj jest wykonana z jesionu albo cisu. Strzela pociskami, które zwane s¹ be³tami.
+
+PARAMETRY:
+
+Obra¿enia: +2
+Waga: 14
+OpóŸnienie: 10
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid~
+@576  = ~Pochodnia zosta³a stworzona przez szalonego gnoma, który mia³ dziwne ci¹goty ku ogniu. To jedna z kilku rzeczy, które ocala³y z jego laboratorium, które sp³onê³o, gdy testowa³ tê broñ.
+
+PARAMETRY:
+
+Obra¿enia: 2K6
+TraK0: +3
+Specjalne: 
+ Nie potrzebuje amunicji
+OpóŸnienie: 3
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid 
+ Kap³an
+ Mag~
+@577  = ~Mitrylowy m³ot bojowy +3~
+@578  = ~Krasnoludzcy wojownicy i kap³ani szczególnie upodobali sobie mitrylowe m³oty bojowe i wiele z najznakomitszych egzemplarzy tych broni pochodzi z krasnoludzkich kuŸni. Ten konkretny m³ot ma rêkojeœæ ozdobion¹ krasnoludzkimi runami. Zwykle wykonane s¹ ca³kowicie ze stali lub stopu mitrylu, z dyskami, chroni¹cymi i wzmacniaj¹cymi uchwyt. Dyski te s¹ ma³e i metalowe, czêsto uk³adane w dekoracyjne kszta³ty. Drzewiec ma oko³o 60 cm d³ugoœci.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +3 
+TraK0: +3 
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +1K6 obra¿eñ od elektrycznoœci 
+Waga: 6
+OpóŸnienie: 2
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@579  = ~Krasnoludzka mitrylowa zbroja p³ytowa~
+@580  = ~Krasnoludzka mitrylowa zbroja p³ytowa to najlepsza zbroja, jak¹ mo¿na kupiæ. Szkoda tylko, ¿e pasuje ona wy³¹cznie na przedstawicieli niewysokich ras.
+
+PARAMETRY:
+
+Klasa Pancerza: -2
+Specjalne: 
+ +1 do Kondycji
+Waga: 20
+Mo¿e u¿ywaæ:
+ Krasnolud
+ Nizio³ek
+ Gnom~
+@581  = ~Mitrylowa pawê¿ +3~
+@582  = ~Mitrylowe tarcze s³yn¹ ze swej trwa³oœci podczas walki. Mimo ¿e krasnoludy wol¹ nie u¿ywaæ tarcz, tylko machaæ ogromnymi oburêcznymi m³otami lub toporami, wci¹¿ wykonuj¹ te tarcze dla praktykantów i innych ras z Krain.
+
+PARAMETRY:
+
+Klasa Pancerza: +3, +3 przeciw broni strzeleckiej
+Waga: 20
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@583  = ~Pocisk +2: 'KuŸniczy ogieñ'~
+@584  = ~Magia sprawia, ¿e te pociski s¹ l¿ejsze i lepiej wywa¿one ni¿ zwyk³e. 
+
+PARAMETRY
+
+Obra¿enia: 1K4 +2
+TraK0: +2
+Specjalne: 
+ 1K6 obra¿eñ od ognia
+Typ obra¿eñ: pociski (k³ute)
+Waga: 0
+Wyrzutnia: proca~
+@585  = ~Krótki ³uk +3: '£uk Morgotha'~
+@586  = ~Krótki ³uk +3: '£uk Morgotha'
+Morgoth w dawnych czasach by³ wielkim czarodziejem, który kocha³ ³uki i miecze. Powiadaj¹, ¿e posiada³ ogromny arsena³ magicznego orê¿a, ale tylko kilka egzemplarzy dotrwa³o do dnia dzisiejszego. 
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3 na magiczny pocisk (rzut obronny i odpornoœæ na magiê nie wp³ywaj¹ na obra¿enia)
+TraK0: +3
+Specjalne: 
+ Strzela piêcioma magicznymi pociskami
+ £uk nie wymaga amunicji
+ Nieograniczona iloœæ magicznych pocisków 
+Waga: 4
+OpóŸnienie: 1
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Druid
+ Mag~
+@587  = ~Halabarda +3: 'Og³uszacz'~
+@588  = ~Halabardê tê wykonali z najlepszej stali najznakomitsi kowale z ca³ego kraju. Zosta³a dodatkowo ulepszona przez magów i bez w¹tpienia, to najlepsza halabarda, jak¹ mo¿na dostaæ. Gdy uderza w przeciwnika kalecz¹c go choæby odrobinê, og³usza go fala energii, daj¹c atakuj¹cemu znaczn¹ przewagê.
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +3
+TraK0: +2
+Typ obra¿eñ: k³ute 
+Specjalne: 
+ 50% szansa na og³uszenie ofiary na 10 sekund
+Waga: 12
+OpóŸnienie: 7
+Rodzaj bieg³oœci: w³ócznie 
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@589  = ~Zbroja p³ytowa Króla~
+@590  = ~Noszona niegdyœ przez króla Thorina Thalaxxa, zbroja ta na przemian to pojawia³a siê, to znów znika³a na przestrzeni wieków i na ró¿nych planach. Potê¿na magia na³o¿ona na zbrojê zniwelowa³a jej ciê¿ar praktycznie do zera, sprawi³a, ¿e zbroja lœni niczym jakaœ zjawa, i umocni³a j¹ znacz¹co przeciw ciosom wszelkiego rodzaju - w ten sposób, ¿e tylko magiczne bronie maj¹ szansê przebiæ siê przez os³onê, jak¹ zbroja zapewnia.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Waga: 0
+Specjalne:
+ Odpornoœæ na broñ zwyk³¹
+Nie mo¿e u¿ywaæ:
+ Bard
+ Druid
+ Mag
+ Z³odziej~
+@591  = ~Miecz oburêczny +2: 'Gniew'~
+@592  = ~Melchor Hammerthorn by³ krasnoludem, który wierzy³, ¿e bitwy wygrywa siê przemyœlanym szykiem i taktyk¹. Mia³ kilka broni, które po trafieniu nieprzyjaciela sprawia³y, ¿e traci³ on kontrolê i zaczyna³ walczyæ chaotycznie. Problem jednak by³ taki, ¿e gdy nieprzyjaciel wpada³ w sza³ berserk, to zaczyna³ lekcewa¿yæ otrzymywane obra¿enia. Melchor zbyt póŸno przyswoi³ tê lekcjê, gdy ruszy³ na niego ogr przebity dwudziestoma strza³ami. Nawet z toporem Melchora wbitym w sw¹ ogrz¹ pierœ by³ w stanie rozerwaæ go na pó³ swymi ogromnymi ³apami.
+
+PARAMETRY: 
+
+Obra¿enia: 1K10 +2
+TraK0: +3 
+Typ obra¿eñ: sieczne
+Specjalne:
+ 50% szansa ¿e trafiona ofiara wpadnie w berserk
+Waga: 11
+OpóŸnienie: 9 
+Rodzaj bieg³oœci: ciê¿kie miecze 
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ: 
+ Druid 
+ Kap³an 
+ Mag 
+ Z³odziej~
+@593  = ~Topór bojowy +3: 'Moc Duragona'~
+@594  = ~Najbardziej powszechnie u¿ywany rodzaj topora bojowego sk³ada siê ze styliska o d³ugoœci metra do pó³tora z osadzonym szerokim, pó³okr¹g³ym ostrzem, czêsto zaopatrzonym równie¿ w szpice, skierowane do ty³u i ku górze.
+
+PARAMETRY:
+
+Obra¿enia: 1K8
+Typ obra¿eñ: sieczne
+Waga: 7
+OpóŸnienie: 7
+Rodzaj bieg³oœci: topory
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@595  = ~Topór ten nale¿a³ do króla Duragona, nim poleg³ on w bitwie. Broñ by³a obecna w klanie Duragona przez wiele stuleci, nim wreszcie sta³a siê ³upem zabranym z cia³a króla. Jest to topór o wielkiej mocy, poœwiêcony Moradinowi Kowalowi Dusz.
+
+PARAMETRY: 
+
+Obra¿enia: 1K8 +3
+Typ obra¿eñ: sieczne 
+Specjalne:
+ +1 do Si³y
+ +2 pkt. obra¿eñ od elektrycznoœci
+Waga: 7 
+OpóŸnienie: 6 
+Rodzaj bieg³oœci: topory 
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:  
+ Druid  
+ Kap³an   
+ Mag   
+ Z³odziej~
+@596  = ~Morgensztern +3: 'Wekiera Thorgensonsa'~
+@597  = ~Thorgensons by³ kapitanem gwardii klanu Duragona. T¹ wekier¹ powali³ wielu orków i goblinów podczas wojen, które klan Duragona prowadzi³ z tymi nikczemnymi bestiami. W ostatecznej bitwie ze z³ymi potworami osta³o siê tylko kilku krasnoludów, broni¹cych twierdzy z wszelkich si³, jakie im zosta³y. Thorgensons zgin¹³ broni¹c swego lorda Svena Duragona w ostatnich godzinach, nim Warownia Duragona upad³a.
+
+PARAMETRY: 
+
+Obra¿enia: 2K4 +3
+TraK0: +3 
+Typ obra¿eñ: obuchowe 
+Specjalne: 
+ +1 do Kondycji
+Waga: 10 
+OpóŸnienie: 4 
+Rodzaj Bieg³oœci: bronie z kolcami 
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ: 
+ Druid 
+ Mag  
+ Z³odziej~
+@598  = ~Ulepszony nó¿ do mas³a Baldurana~
+@599  = ~Nó¿ do mas³a Baldurana:
+Legendy opowiadaj¹ o no¿u do mas³a Baldurana. Bohater nie pozwala³, by dotykano jego potraw ¿adnym innym sztuæcem. Podobno dosta³ go od swojej matki na swe osiemnaste urodziny.
+
+PARAMETRY: 
+
+Obra¿enia: 1K6 +3
+TraK0: +3
+Typ obra¿eñ: k³ute 
+Waga: 2 
+OpóŸnienie: 0 
+Rodzaj bieg³oœci: lekkie miecze 
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@600  = ~Ulepszona Zguba paj¹ka~
+@601  = ~Zgubê Paj¹ka pierwotnie wyku³y krasnoludy z plemienia Orothiar z kniei Otulisko, pragn¹c w ten sposób potwierdziæ sw¹ dobr¹ wolê w stosunkach z wielkimi ksi¹¿êtami Wrót Baldura. Miecz przez niemal sto lat dzier¿yli ksi¹¿êta, a¿ pewnego dnia zagin¹³ - o ironio - podczas walki z ettercapami i paj¹kami. Nie wiadomo, kto wtedy w³ada³ owym orê¿em, ale jego odnalezienie z pewnoœci¹ u³atwi pokonanie tej inwazji paj¹ków na kniejê Otulisko. 
+
+PARAMETRY:
+
+Obra¿enia: 1K10 +3 
+TraK0: +3 
+Specjalne: 
+ +2 pkt. obra¿eñ od trucizn na sekundê przez 15 sekund przy nieudanym rzucie obronnym przeciw truciznom 
+ Swoboda dzia³ania (kiedy w u¿yciu) - chroni walcz¹c¹ osobê przed wszelkimi magicznymi ograniczeniami ruchu, takimi jak Powstrzymanie czy Pajêczyna
+Typ obra¿eñ: sieczne
+Waga: 10
+OpóŸnienie: 8
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@602  = ~Ulepszony miecz d³ugi +1: 'P³omienny Jêzor'~
+@603  = ~Miecz P³omienny Jêzor: 'Ognista ziemia'
+By³ taki czas zanim Neverwinter sta³o siê gor¹ce i zanim wysch³a wielka Anauroch... a przynajmniej tak siê mówi. Niewiele pozosta³o reliktów, które mog³yby dowieœæ istnienia tej ery, a jeszcze mniej z nich ma daj¹ce siê okreœliæ zastosowanie. Przeznaczenie miecza "Ognista ziemia" jest jednak doœæ proste - pali on ofiary magicznym ogniem, a tajemniczy znak na nim zdaje siê sugerowaæ, ¿e ta moc pochodzi z samej ziemi. Jednak tajemnic¹ pozostaje kto jest jego twórc¹. Miecz robi wra¿enie w pe³ni sprawnej broni, jednak coœ z jego wywa¿eniem lub uchwytem jest... nie w porz¹dku. Wymaga nieco zbyt du¿ego wysi³ku od ramienia i jakby niezbyt dobrze pasuje do d³oni. Nie wp³ywa to na sprawnoœæ pos³uguj¹cego siê nim wojownika, budzi jednak niejasne podejrzenie, ¿e to ostrze nie zosta³o stworzone dla niego... ani dla ¿adnego innego humanoida.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1 
+TraK0: +1
+Typ obra¿eñ: sieczne
+Specjalne:
+ +1 pkt. obra¿eñ od ognia 
+ +2 przeciw istotom obdarzonym zdolnoœci¹ regeneracji
+ +3 przeciw istotom pos³uguj¹cym siê zimnem
+ +4 przeciw martwiakom
+Waga: 4
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag ~
+@604  = ~Ulepszony pa³asz +2~
+@605  = ~Pa³asz +2: 'Pazur Rhashada'
+To ostrze przeby³o dalek¹ drogê od czasu, gdy zosta³o wykute na wybrze¿u Lœni¹cego Morza, jakkolwiek dokumenty dotycz¹ce jego wêdrówki s¹ nieliczne i sk¹pe, a to ze wzglêdu na jego niewielk¹ oryginalnoœæ. Tego typu broñ jest doœæ powszechna i uwa¿ana za zwyczajn¹ wœród bogatej elity dalekiego po³udnia i nie ma wiêkszego znaczenia dla historyków. Takie podejœcie jest mocno niezrozumia³e dla obywateli Wybrze¿a Mieczy, gdzie wielu ginie dla przedmiotów równie lub nawet mniej magicznych. To konkretne ostrze mog³o nale¿eæ do bogatego Vizara lub byæ mo¿e do któregoœ z jego s³ug.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ W³aœciciel pozostaje pod dzia³aniem Przyspieszenia ruchów
+Waga: 3
+OpóŸnienie: 3
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an
+ Mag
+ Z³odziej~
+@606  = ~Ulepszony pierœcieñ odpornoœci na ogieñ~
+@607  = ~Pierœcieñ odpornoœci na ogieñ: 'Paszport Batalisty'
+Wielki mag Batalista opracowa³ ten przedmiot z myœl¹ o u³atwieniu sobie podró¿y do wymiaru ognia. Powiadaj¹, ¿e wielokrotnie przyzywa³ salamandrê z owej przestrzeni, by wspar³y go podczas tworzenia. Batalista znany by³ z braku cierpliwoœci, ale i tak powinien staraæ siê nie denerwowaæ zbytnio swego "nauczyciela". Ponoæ palec z tym pierœcieniem faktycznie przetrwa³ po¿ogê, która objê³a wie¿ê Batalisty. Gdyby palec wci¹¿ by³ czêœci¹ d³oni maga, to z pewnoœci¹ i czarodziejowi powiod³oby siê lepiej.
+
+PARAMETRY:
+
+Odpornoœæ na ogieñ: +60%
+Nie mo¿e u¿ywaæ:~
+@608  = ~Ulepszony He³m Balduran~
+@609  = ~O s³ynnym He³mie Baldurana, legendarnego za³o¿yciela Wrót Baldura, przez wiele lat mówiono, ¿e dysponuje potê¿n¹ ochronn¹ magi¹. W³aœciwa natura tej magii, jednak¿e, nie zosta³a okreœlona.
+
+PARAMETRY:
+
+Klasa Pancerza: +2
+Maksimum punktów ¿ycia: +5
+Rzuty obronne: +1
+TraK0: +1
+Specjalne: chroni przed trafieniami krytycznymi
+Waga: 1
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@610  = ~Ulepszona kolczuga +3~
+@611  = ~Kolczuga +3: 'Kolczuga umar³ych'
+Czarodziej mo¿e staæ siê niezwykle skutecznym zabójc¹, jak to udowodni³ Vorusta ponad 400 lat temu. Tworzy³ on szkielety-wojowników, ubieraj¹c ich w tê magiczn¹ zbrojê i wyposa¿aj¹c w potê¿n¹ broñ, a potem daj¹c diadem mocy upatrzonej ofierze jako przyjacielski podarunek - nie informuj¹c jej oczywiœcie co to jest. Gdy stworzona przez niego maszyna do zabijania upora³a siê ze swym zadaniem, Vorusta zabiera³ ekwipunek i z³oto ofiary i zaczyna³ ca³y proces od pocz¹tku.
+
+PARAMETRY:
+
+Klasa Pancerza: 2
+Waga: 10
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@612  = ~Ulepszony d³ugi ³uk +2~
+@613  = ~D³ugi ³uk jest podobny do krótkiego, choæ o wiele d³u¿szy i mierzy, zale¿nie od wzrostu ³ucznika, od 1.8 do znacznie powy¿ej 2 metrów. Ma wiêkszy zasiêg i lepsz¹ celnoœæ ni¿ ³uk krótki, ale mniejsz¹ szybkostrzelnoœæ.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +3
+Specjalne:
+ +1 do Zrêcznoœci
+Waga: 3
+OpóŸnienie: 6
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@614  = ~Ulepszony £uk or³ów~
+@615  = ~Krótki ³uk or³ów: 'Obroñca Driad'
+Driady z lasu Gulthmere, pragn¹c obroniæ sw¹ spo³ecznoœæ przed wdzieraj¹cymi siê na ich tereny orkami wycinaj¹cymi drzewa, wrêczy³y ten wspania³y ³uk bohaterowi Hannable'owi Bia³emu. Drwale oœmielili siê spróbowaæ œci¹æ wielki d¹b, przy okazji niemal zabijaj¹c mieszkaj¹c¹ w nim driadê; po tym czynie rozgorza³o straszliwe starcie. Z pomoc¹ ¿yj¹cych w lesie zwierz¹t Hannable zabi³ wszystkich bandytów zanim zdo³ali oni wyrz¹dziæ wiêcej szkód. Orki musia³y porzuciæ swój plan, obawiaj¹c siê gniewu lasu i chroni¹cego go bohatera. Nie trzeba chyba mówiæ, ¿e po tym wszystkim Hannable ¿y³ d³ugo i szczêœliwie... nie, BARDZO szczêœliwie!
+
+PARAMETRY:
+
+TraK0: +2
+Obra¿enia: +2
+Specjalne:
+ +1 do Zrêcznoœci
+Waga: 2
+OpóŸnienie: 4
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@616  = ~Ulepszony pas 'Zguba Elfów'~
+@617  = ~Pas przebiæ: 'Zguba Elfów'
+Nies³awny wêdrowiec - Pandar z Doliny Scar - da³ siê poznaæ irytuj¹c elfy z lasu Cormanthor. Rozdra¿nia³ on je jeszcze bardziej, kiedy wykorzystywa³ drzewa od ucieczki przed sprawiedliwoœci¹. A ten¿e pas pomaga³ mu umkn¹æ przed strza³ami elfów. Na nieszczêœcie dla Pandara pu³apki i g³ód okaza³y siê efektywnym, choæ powolniejszym sposobem pozbycia siê go.
+
+PARAMETRY:
+
+Klasa Pancerza: +3 przeciw broniom k³uj¹cym
+Ustala Si³ê na 22
+Waga: 2
+Nie mo¿e u¿ywaæ:~
+@618  = ~Ulepszony topór bojowy +2~
+@619  = ~Topór bojowy +2: 'Topór Mauletara'
+Podczas wojny domowej w Tethyrze "Topór Mauletara" znajdowa³ siê w posiadaniu domu Ossyind. Ta szlachecka rodzina zosta³a zdradzona podczas próby ucieczki z kraju i Mauletar, dowódca ich gwardii i osobisty przyjaciel, uj¹³ topór i ruszy³ do walki, poœwiêcaj¹c swe ¿ycie, by zyskaæ dla przyjació³ czas na ucieczkê. Jego okrzyk bojowy zosta³ us³yszany przez bogów i wzmocniony, odbijaj¹c siê echem po wszystkich l¹dach jako symbol niezachwianej przyjaŸni i lojalnoœci. Topór, którym walczy³ Mauletar zyska³ w³asnoœci magiczne i odt¹d mia³ byæ u¿ywany przeciw tym, którzy brakowa³o honoru i odwagi.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 + 2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne:
+ +10 do P¯
+Waga: 5
+OpóŸnienie: 5
+Rodzaj bieg³oœci: topory
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@620  = ~Zbroja p³ytowa Duragona +4~
+@621  = ~Ta z³ota zbroja nale¿a³a do Króla Svena Duragona. By³ on ostatnim królem z klanu, unicestwionego przez oddzia³ orków i goblinów pod dowództwem duergarów.
+
+PARAMETRY: 
+
+Klasa Pancerza: -1
+Specjalne:
+ +20 do odpornoœci na ogieñ
+ -10 do odpornoœci na ch³ód
+Waga: 18 
+Nie mo¿e u¿ywaæ:  
+ Bard   
+ Druid  
+ Mag  
+ Z³odziej~
+@622  = ~W³ócznia Natury~
+@623  = ~Na tej w³óczni wygrawerowano druidzkie runy, które g³osz¹: "Furia burzy zniszczy tych, którzy nios¹ zgubê Naturze".
+
+PARAMETRY: 
+
+Obra¿enia: 1D6 +2
+TraK0: +2
+Typ obra¿eñ: k³ute
+Specjalne:
+ 10% odpornoœci na elektrycznoœæ
+ 1K6 obra¿eñ od elektrycznoœci
+Waga: 3 
+OpóŸnienie: 3 
+Rodzaj bieg³oœci: w³ócznie  
+Typ: 2-rêczna
+Mo¿e u¿ywaæ: 
+ Druid
+ £owca~
+@624  = ~Kordelas +2: 'Quintus D’ Sol'~
+@625  = ~D³ugie, zakrzywione, jednosieczne ostrze jest charakterystyczne zarówno dla kordelasa, jak i pa³asza, mimo i¿ pochodzenie obu wi¹¿e siê z ró¿nymi krainami Faerun. Po kordelas, ze wzglêdu na jej mniejsz¹ wagê, czêsto siêgaj¹ z³odzieje i bandyci.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: sieczne 
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Bard
+ Kap³an
+ Druid
+ Mag
+ Paladyn~
+@626  = ~Quintus D’ Sol nale¿a³ do kapitana piratów Williama Delvera, zwanego Krwawym Billem. On i jego za³oga lubowali siê w napadaniu na bezbronne statki zabijaj¹c wszystkich wiêŸniów, by pozbyæ siê jakichkolwiek œwiadków ich zbrodni. Pope³ni³ jednak b³¹d atakuj¹c coœ, co wygl¹da³o jak statek kupiecki, a w rzeczywiœcie by³o ³odzi¹ transportuj¹c¹ oddzia³ wojsk. Ci, którzy ocaleli z tej walki, jak i sam kapitan, zostali pojmani, nastêpnie przywi¹zani do statku i utopieni. Teraz ich cia³a do³¹czy³y do ofiar, które sami zatopili, by tam znosiæ wieczyste mêki.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +2
+TraK0: +2
+Typ obra¿eñ: sieczne
+Specjalne: 
+ 2K4 obra¿eñ od ognia 
+Waga: 3 
+OpóŸnienie: 3 
+Rodzaj bieg³oœci: ciê¿kie miecze 
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:  
+ Bard  
+ Kap³an  
+ Druid  
+ Mag  
+ Paladyn~
+@627  = ~M³ot bojowy +2: 'Piek³o'~
+@628  = ~M³ot bojowy to nadmiernie du¿y m³ot stolarski, gdzie piêæ procent masy stanowi drzewce, a dziewiêædziesi¹t piêæ g³owa. Tworzy siê je wed³ug œciœle okreœlonych standardów, dziêki czemu to iœcie przera¿aj¹ca broñ obuchowa.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +2 
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +2 pkt. obra¿eñ od ognia 
+ 10% odpornoœci na ogieñ
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: m³ot bojowy
+Typ: 1-rêczna
+Wymagana si³a: 9
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@629  = ~M³ot bojowy +2: 'K¹sacz mrozu'~
+@630  = ~Ten m³ot bojowy nale¿a³ do lodowego olbrzyma o imieniu Korgrath. Nazwa³ go po swojej udomowionej lodowej wywernie "K¹saczu mrozu". Gdy K¹sacz mrozu zosta³ zabity przez jakiœ niewydarzonych poszukiwaczy przygód, Korgrath zwróci³ siê do swego szamana o przeprowadzenie rytua³u krwi nad tym m³otem, czego efekt jest taki, ¿e teraz dodatkowo zadaje obra¿enia od ch³odu.
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +2
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +2 pkt. obra¿eñ od ch³odu
+Waga: 6
+OpóŸnienie: 4
+Rodzaj bieg³oœci: m³ot bojowy
+Typ: 1-rêczna
+Wymagana si³a: 9
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@631  = ~He³m wojny~
+@632  = ~He³m wojny zosta³ wykonany przez kap³ana Tempusa. Tylko wybrani cz³onkowie jego koœcio³a maj¹ zaszczyt posiadania takiego he³mu. Kap³an prêdzej odda swe ¿ycie, ni¿ ten he³m.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:  
+ Chroni przed trafieniami krytycznymi
+ +1 do TraK0
+Waga: 4
+Nie mo¿e u¿ywaæ:
+  Mag
+  Bard
+  Z³odziej~
+@633  = ~He³m zdrowia~
+@634  = ~He³m ten stworzono, by zapewniæ wojownikowi premiê do kondycji zarówno podczas walki, jak i poszukiwania przygód.
+
+PARAMETRY:
+
+Klasa Pancerza: +1
+Specjalne:  
+ Chroni przed trafieniami krytycznymi 
+ +1 do Kondycji
+Waga: 4
+Nie mo¿e u¿ywaæ:
+ Mag
+ Bard
+ Z³odziej~
+@635  = ~Szata magii~
+@636  = ~Ta potê¿na szata zapewnia ochronê przed wszystkimi formami ataków fizycznych, zwiêkszaj¹c jednoczeœnie odpornoœæ na magiê i rzuty obronne.
+
+PARAMETRY:
+
+Klasa Pancerza: 3
+Rzuty obronne: +1 
+Specjalne:
+ 1 dodatkowy czar z poziomu 1-go i 2-go
+ 15% odpornoœci na magiê
+Waga: 6
+Mo¿e u¿ywaæ:
+ Mag~
+@637  = ~Cep bojowy +2~
+@638  = ~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest b¹dŸ gruby, metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy s¹ zwykle ³¹czone krótkim ³añcuchem lub mocnymi rzemieniami. Ten szczególny egzemplarz jest magiczny. Zawarta w nim magia tworzy wieŸ pomiêdzy broni¹ a w³aœcicielem, daj¹c mu premiê do ataku oraz obra¿eñ zadanych ofierze, szybszy atak, i mo¿liwoœæ ranienia wrogów, którzy s¹ odporni na dzia³anie broni zwyk³ych.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Waga: 13
+OpóŸnienie: 6
+Rodzaj Bieg³oœci: bronie z kolcami
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@639  = ~Wekiera jest w prostej linii spadkobierczyni¹ zwyk³ej maczugi, bêd¹c po prostu drewnianym trzonem, na którym zosta³a osadzona metalowa g³owa. W tym przypadku, g³owa ma kszta³t piramidy i zdaje siê jarzyæ wewnêtrznym b³êkitnym œwiat³em, osadzona na trzonie z wypolerowanego dêbu. Ten szczególny egzemplarz jest magiczny. Zawarta w nim magia tworzy wieŸ pomiêdzy broni¹ a w³aœcicielem, daj¹c mu premiê do ataku oraz obra¿eñ zadanych ofierze, szybszy atak, i mo¿liwoœæ ranienia wrogów, którzy s¹ odporni na dzia³anie broni zwyk³ych.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Waga: 8
+OpóŸnienie: 6
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@640  = ~Morgensztern +2~
+@641  = ~Morgensztern to drewniany uchwyt, zakoñczony metalowym okuciem, zrobionym z solidnego kawa³ka ¿elaza z licznymi szpiczastymi æwiekami. Ta broñ ma oko³o 1,20 do 1,30 metra d³ugoœci. Ten konkretny egzemplarz jest zakoñczony z³ot¹ g³ow¹, która zosta³a magicznie ulepszona co zapewnia lepsz¹ skutecznoœæ i pozwoli³o unikn¹æ plastycznoœci z³ota. Magia zapewnia premiê do ataku oraz obra¿eñ zadanych ofierze, szybszy atak, i mo¿liwoœæ ranienia wrogów, którzy s¹ odporni na dzia³anie broni zwyk³ych 
+
+PARAMETRY:
+
+Obra¿enia: 2K4 +3
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Waga: 10
+OpóŸnienie: 6
+Rodzaj Bieg³oœci: bronie z kolcami
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@642  = ~Cep bojowy +3: 'Zimowa zguba'~
+@643  = ~Ten cep bojowy spowija aura ch³odu. Nikt tak naprawdê nie wie sk¹d pochodzi ta broñ, choæ chodz¹ s³uchy, ¿e przywêdrowa³a z Pó³nocnych Krain, i wykona³y j¹ kap³anki Auril.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3 
+TraK0: +3
+Typ obra¿eñ: obuchowe
+Specjalne:
+ 1K3 obra¿eñ od ch³odu 
+Waga: 7
+OpóŸnienie: 3
+Rodzaj Bieg³oœci: bronie z kolcami
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+@644  = ~Wekiera +3: 'Oczyszczacz'~
+@645  = ~Umieszczony na rêkojeœci wekiery napis g³osi "Oczyszczenie i si³a, z³o nie bêdzie wiod³o prymu". Ta wekiera zosta³a stworzona, by oczyœciæ œwiat ze z³a za pomoc¹ ogieñ.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3 
+TraK0: +3
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +1 pkt. obra¿eñ od ognia
+ +1 do M¹droœci
+Waga: 8
+OpóŸnienie: 6
+Rodzaj bieg³oœci: bronie obuchowe 
+Typ: 1-rêczna
+Mo¿e u¿ywaæ:
+ Kap³an
+ £owca
+ Paladyn~
+@646  = ~Brotus Krwio¿erczy~
+@647  = ~Duergar Kap³an~
+@648  = ~Gorken Krwawy Topór~
+@649  = ~Duergar Wojownik~
+@650  = ~Duergar Z³odziej~
+@651  = ~Marynarz Wally G Hrey~
+@652  = ~Marynarz Willi D Fain~
+@653  = ~Thorengrim Hammerfist~
+@654  = ~Maria Mroczne Ostrze~
+@655  = ~Khan Noonian Singh~
+@656  = ~Quintus Gibki~
+@657  = ~Garak Pan Zguby~
+@658  = ~Gorth~
+@659  = ~Sir Winton~
+@660  = ~Elita Czarnych Szponów~
+@661  = ~Mroczna Silvia~
+@662  = ~Morgan~
+@663  = ~Druid~
+@664  = ~Selene~
+@665  = ~P³on¹cy trup~
+@666  = ~Ashirukuru~
+@667  = ~Wojownik cienia~
+@668  = ~NiedŸwiedŸ górski~
+@669  = ~NiedŸwiedŸ polarny~
+@670  = ~Zargos Flintblade~
+@671  = ~Tristan~
+@672  = ~Malious~
+@673  = ~Phallen Nightsbane~
+@674  = ~Necardian~
+@675  = ~Izolda~
+@676  = ~Mendas~
+@677  = ~Smok~
+@678  = ~Miranda WiedŸma~
+@679  = ~Kieran~
+@680  = ~Wendell~
+@681  = ~Szalona driada~
+@682  = ~Kucharz Martel~
+@683  = ~Goblin~
+@684  = ~Wiêkszy ghul~
+@685  = ~Arcymag Arias~
+@686  = ~Upiorny rycerz~
+@687  = ~Anton Valor~
+@688  = ~Garrett~
+@689  = ~Synthia Malivore~
+@690  = ~Arcymag Natas~
+@691  = ~Dowódca klanu Gnolli~
+@692  = ~Stra¿nik klanu Gnolli~
+@693  = ~Smeagol~
+@694  = ~Upiornik~
+@695  = ~Hobgoblin~
+@696  = ~Hobgoblin Gwardzista~
+@697  = ~Hobgoblin Dowódca~
+@698  = ~Dowódca Czarnych Szponów~
+@699  = ~Kobold~
+@700  = ~Dowódca klanu koboldów~
+@701  = ~Znachor koboldów~
+@702  = ~Magnus~
+@703  = ~Quincy Jubiler~
+@704  = ~Ratava Artsym~
+@705  = ~Stra¿nik~
+@706  = ~Sprawiedliwoœæ zostanie wymierzona szybko i w sposób ostateczny!~ [CMJUST01]
+@707  = ~Vallius~
+@708  = ~Najara~
+@709  = ~Dla mojego boga jesteœ nikim!~ [CMNAJ01] 
+@710  = ~Ja i wszechmocny to jednoœæ!~ [CMNAJ02] 
+@711  = ~Ach!~ [CMNAJ03] 
+@712  = ~Zawiod³am go!~ [CMNAJ05] 
+@713  = ~Ogrzy Mag~
+@714  = ~Stra¿nik Nadzoru~
+@715  = ~Kap³an Nadzoru~
+@716  = ~Wojenny czarodziej Nadzoru~
+@717  = ~Elita Nadzoru~
+@718  = ~Bard Nadzoru~
+@719  = ~BliŸniak Tortur~
+@720  = ~OdŸwierny~
+@721  = ~Halabasher Dhunshar~
+@722  = ~Rocky "Ska³a" Wiewióra~
+@723  = ~Nikita~
+@724  = ~Michael~
+@725  = ~Paul Wolfe~
+@726  = ~Nigdy wiêcej nie przedostaniesz siê przez mury tej fortecy.~ [PAUL7] 
+@727  = ~Ból.~ [PAUL8] 
+@728  = ~Aaach!~ [PAUL3] 
+@729  = ~Nie! Jak to mo¿liwe?!~ [PAUL2]
+@730  = ~Madeline~
+@731  = ~Michael Samuelle~
+@732  = ~Quinn~
+@733  = ~Davenport~
+@734  = ~Andrea~
+@735  = ~George~
+@736  = ~Sir Jones~
+@737  = ~Agent Sekcji~
+@738  = ~Elita Sekcji~
+@739  = ~Lillian Darkwater~
+@740  = ~Szkielet~
+@741  = ~Szkielet Wojownik~
+@742  = ~Rycerz œmierci~
+@743  = ~Ma³a wywerna~
+@744  = ~Beren~
+@745  = ~Luthian~
+@746  = ~Magnus Wares~
+@747  = ~KuŸnia Hammerfista~
+@748  = ~Zak³ad jubilerski Quincy'ego~
+@749  = ~Towary Kierana~
+@750  = ~Magiczny sklep Mystry~
+@751  = ~Trudniejsi wrogowie~
+@752  = ~Zainstalowac Level 40 Rule Pack?~
+@753  = ~Level 40 rule pack (Nie instaluj, gdy posiadasz juz inny zestaw zasad awansow na wysokie poziomy, takie jak ten, ktory wchodzi w sklad DSotSC.)~
+@754	= ~Tylko dla BG1~
+@755	= ~P³aszcz~
+@756	= ~P³aszcze tworzy siê w najrozmaitszych formach i z najbardziej ró¿norakich materia³ów. Najpowszechniej u¿ywanym jest p³aszcz zrobiony z kawa³ka materia³u w kszta³cie okrêgu z wyciêtym po œrodku otworem na g³owê. W modelach bardziej wyszukanych otwór ten jest poszerzony i spinany ³añcuszkiem, brosz¹ lub zapinkami.~
+@757	= ~Cep bojowy~
+@758	= ~Cep bojowy sk³ada siê z solidnego drzewca, s³u¿¹cego za uchwyt, do którego przymocowany jest b¹dŸ gruby, metalowy prêt, b¹dŸ nabijany ostrymi kawa³kami metalu lub kamieni dr¹g lub te¿ ¿elazna kula ze szpikulcami. Te dwa elementy s¹ zwykle ³¹czone krótkim ³añcuchem lub mocnymi rzemieniami.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +1
+Typ obra¿eñ: obuchowe
+Waga: 15
+OpóŸnienie: 7
+Rodzaj bieg³oœci: bronie z kolcami
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag
+ Z³odziej~
+@759	= ~Kij~
+@760	= ~Ta najprostsza z lasek mo¿e mieæ d³ugoœæ od 1.8 do grubo ponad 2 metrów. Wykonuje siê j¹ z dêbowego drewna i czêsto obijana jest metalem na obu koñcach. Do w³adania ni¹ trzeba u¿ywaæ obu r¹k.
+
+PARAMETRY:
+
+Obra¿enia: 1K6
+Typ obra¿eñ: obuchowe
+Waga: 4
+OpóŸnienie: 4
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:~
+@761	= ~Pierœcieñ~
+@762	= ~Pierœcieñ jest ma³¹ obrêcz¹ wykonan¹ z cennego metalu u¿ywanego w bran¿y jubilerskiej. Niektóre z nich nas¹czono zaklêciami, dziêki czemu zyska³y magiczne w³aœciwoœci. Wiele osób, szczególnie tych, paraj¹cych siê poszukiwaniem przygód, stara siê znaleŸæ tego typu rzadk¹ bi¿uteriê.~
+@763	= ~Mikstura~
+@764	= ~Topór~
+@765	= ~Pa³asz~
+@766	= ~Rêkawice~
+@767	= ~Zbroja paskowa~
+@768	= ~M³ot bojowy~
+@769	= ~Zbroja p³ytowa~
+@770	= ~Pawê¿~
+@771	= ~Krótki ³uk~
+@772	= ~Halabarda~
+@773	= ~He³m~
+@774	= ~Miecz oburêczny~
+@775	= ~Cep bojowy~
+@776	= ~Nó¿~
+@777	= ~Miecz d³ugi~
+@778	= ~Pa³asz~
+@779	= ~Pierœcieñ~
+@780	= ~He³m~
+@781	= ~Kolczuga~
+@782	= ~D³ugi ³uk~
+@783	= ~Krótki ³uk~
+@784	= ~Pas~
+@785	= ~Topór bojowy~
+@786	= ~W³ócznia~
+@787	= ~M³ot bojowy~
+@788	= ~Szata~
+@789	= ~Wekiera~
+@790	= ~Morgensztern~
+// New Content
+@791    = ~Garret~
+@792    = ~Allister~
+@793    = ~Zara~
+@794    = ~Hilgaar~
+@795    = ~Taneth~
+@796    = ~Erika~
+@797    = ~Jeneik~
+@798    = ~Elitarny Gnoll Gwardzista~
+@799    = ~Wojownik Weteran Gnolli~
+@800    = ~Jhaeros Auglathla~
+@801    = ~Ygrainne Gwiezdny Wiatr~
+@802    = ~Elfi ochroniarz~
+@803    = ~Kupiec~
+@804    = ~Pani Godfrey~
+@805    = ~Ochroniarz karawany~
+@806    = ~Gwardzista Pana Poranka~
+@807    = ~Mistrz Poranka~
+@808    = ~Pan Poranka~
+
+@809    = ~Jest to malutka sakiewka, doskona³a do przechowywania klejnotów.~
+
+@810    = ~Sakiewka na klejnoty~
+
+@811    = ~W tym mocnym pojemniku mo¿na umieœciæ tuziny zwojów, zabezpieczaj¹c je w ten sposób przed ogniem, deszczem i piorunami - czyli najczêstszymi zagro¿eniami, jakich mo¿e spodziewaæ siê czarodziej szukaj¹cy przygód.~
+
+@812    = ~Tuba na zwoje~
+
+@813    = ~Podobnie jak w przypadku innych magicznych toreb, ta równie¿ wygl¹da jak zwyk³y zgrzebny worek o wymiarach 50 cm na metr. Wewn¹trz sakwy istnieje jednak przestrzeñ pozawymiarowa, dziêki czemu wewn¹trz jest znacznie wiêksza ni¿ wskazywa³yby na to jej zewnêtrzne wymiary. Niezale¿nie co w³o¿y siê do wnêtrza, sakwa zawsze wa¿y tyle samo.~
+
+@814    = ~Torba przechowywania~
+
+@815    = ~Ten pas przewieszany przez ramiê idealnie nadaje siê do trzymania pocisków do procy, strza³ek, strza³ lub be³tów.~
+
+@816    = ~Pas z amunicj¹~
+
+@817    = ~Zwykle noszone przez podró¿nych uzdrowicieli, to pude³ko rozk³ada siê i pozwala w³aœcicielowi przypi¹æ buteleczki z mikstur¹ do jego wyœcie³anego boku przy pomocy licznych skórzanych rzemyków, by bezpiecznie mog³y byæ przechowywane w czasie podró¿y.
+
+PARAMETRY:
+
+Waga: 5~
+
+@818    = ~Futera³ na miksturê~
+@819    = ~Towary Godfrey'a~
+@820    = ~Szata Czerwonego Maga~
+@821    = ~Ta potê¿na szata Czerwonego Maga zapewnia ochronê przed wszystkimi fizycznymi atakami, jednoczeœnie zwiêkszaj¹c niewra¿liwoœæ na magiê i rzuty obronne. Jej magiczna natura jest tak niezwyk³a, ¿e mog¹ j¹ nosiæ tylko magowie o z³ym charakterze. 
+
+PARAMETRY:
+
+Klasa Pancerza: 5
+Niewra¿liwoœæ na magiê: 5%
+Rzuty obronne: +1
+Waga: 6
+Mo¿e u¿ywaæ tylko:
+ Mag
+ Postaæ z³a~
+
+@822    = ~Proca +2~
+@823    = ~Proce istniej¹ od pocz¹tków zapisywanej historii. S¹ wykonywane ze skóry lub rzemienia, zakoñczonego woreczkiem, w który wk³ada siê pocisk. Procarz chwyta oba koñce rzemienia i krêci proc¹ ponad swoj¹ g³ow¹. Kiedy zostaje osi¹gniêta najwiêksza szybkoœæ, puszcza jeden ze sznurków kieruj¹c pocisk w cel.
+
+PARAMETRY:
+
+Obra¿enia: +1 (pocisk)
+TraK0: +1
+Waga: 0
+OpóŸnienie: 5
+Rodzaj bieg³oœci: bronie strzeleckie
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:~
+
+@824    = ~Sztylet +2~
+@825    = ~Sztylet +3~
+@826    = ~Typowy sztylet posiada ostro zakoñczone, dwusieczne ostrze - w odró¿nieniu od no¿a, który jest jednosieczny i nieco krótszy ni¿ sztylet.
+
+PARAMETRY:
+
+Obra¿enia: 1K6 +3
+TraK0: +2
+Typ obra¿eñ: k³ute
+Waga: 2
+OpóŸnienie: 0
+Rodzaj bieg³oœci: lekkie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Kap³an~
+@827    = ~Zbroja Lathandera~
+@828    = ~Elfia kolczuga +1~
+@829    = ~Ta kolczuga, wykonana przez najlepszych elfich rzemieœlników, w dotyku przypomina bardzie tkaninê ni¿ metal. Mog¹ j¹ nosiæ z³odzieje, odczuwaj¹c niewielki dyskomfort, a tak¿e wojownicy-magowie bez utraty zdolnoœci rzucania czarów.
+
+PARAMETRY:
+
+Klasa Pancerza: 4
+Waga: 10
+Nie mo¿e u¿ywaæ:~
+@830    = ~D³ugi miecz elfów +2~
+@831    = ~Do tej kategorii zaliczaj¹ siê obusieczne miecze, miecze wojenne i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w obrêbie jednego narodu, w którym wykuto ostrze. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +2
+TraK0: +1
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@832    = ~D³ugi miecz elfów +1~
+@833    = ~Do tej kategorii zaliczaj¹ siê obusieczne miecze, miecze wojenne i wojskowe. Bardzo czêsto miecze d³ugie s¹ jednosieczne. Nie istnieje jedna wersja broni tego typu; sposób wykonania i d³ugoœæ zale¿y od kultury, a nawet miejsca w obrêbie jednego narodu, w którym wykuto ostrze. Ich najczêœciej wystêpuj¹c¹ wspóln¹ cech¹ jest d³ugoœæ, wahaj¹ca siê od 90 do 110 cm. Wiêkszoœæ mieczy d³ugich jest obusiecznych i ma zaostrzony koniec. Mimo ostrego koñca, miecze te s³u¿¹ do zadawania ran siecznych, a nie k³utych.
+
+PARAMETRY:
+
+Obra¿enia: 1K8 +1
+TraK0: +1
+Typ obra¿eñ: sieczne
+Waga: 4
+OpóŸnienie: 5
+Rodzaj bieg³oœci: ciê¿kie miecze
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag~
+@834    = ~Elfi d³ugi ³uk +2~
+@835    = ~Elfi d³ugi ³uk jest podobny do krótkiego, choæ o wiele d³u¿szy i mierzy, zale¿nie od wzrostu ³ucznika, od 1.8 do znacznie powy¿ej 2 metrów. Ma wiêkszy zasiêg i lepsz¹ celnoœæ ni¿ ³uk krótki, ale mniejsz¹ szybkostrzelnoœæ.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +2
+Specjalne:
+ +1 do Zrêcznoœci
+Waga: 3
+OpóŸnienie: 7
+Rodzaj bieg³oœci: ³uki
+Typ: 2-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Kap³an
+ Mag
+ Z³odziej~
+@836    = ~He³m Lathandera~
+@837    = ~Tarcza Lathandera~
+@838    = ~M³ot Lathandera~
+@839    = ~To typowy m³ot u¿ywany przez Panów Poranka Lathandera. M³ot ten promieniuje magicznym ciep³em, które parzy, gdy dotykasz g³owy m³ota.
+
+PARAMETRY:
+
+Obra¿enia: 1K4 +3 
+TraK0: +2
+Typ obra¿eñ: obuchowe
+Specjalne:
+ +4 pkt. obra¿eñ od ognia
+Waga: 5
+OpóŸnienie: 2
+Rodzaj bieg³oœci: bronie obuchowe
+Typ: 1-rêczna
+Nie mo¿e u¿ywaæ:
+ Druid
+ Mag 
+ Z³odziej~
+ @840  = ~Sintara Al-Mustafa~
+ @841  = ~Towary z Karawany~
+ @842  = ~Dobra cena~
+ @843  = ~101 magicznych drobiazgów Al-Mustafy~
+ @844    = ~Pó³materialnoœæ~
+ @845    = ~Pó³materialnoœæ (Przemiany, Iluzje)
+Poziom: 3
+Zasiêg: 0
+Czas dzia³ania: 2 rundy/poziom
+Czas rzucania: 1
+Obszar dzia³ania: Rzucaj¹cy czar
+Rzut obronny: Brak
+Rzucaj¹cy ten czar mag oraz ca³a jego odzie¿ trac¹ materialn¹ postaæ. Odt¹d mo¿e on paœæ ofiar¹ magicznych lub specjalnych ataków, wliczaj¹c w to broñ co najmniej +1 oraz istoty bêd¹ce w stanie raniæ odpornych na magiczn¹ broñ. Czarodziej uzyskuje równie¿ 25% niewra¿liwoœci na magiê. W tej postaci mag nie mo¿e rzucaæ zaklêæ.~
+
+// New info or error texts
+@890  = ~Wykryto zainstalowane BG:EE.~
+@891  = ~Wykryto zainstalowane Tutu.~
+@892  = ~Wykryto zainstalowane BGT.~
+@893  = ~Prosze zainstalowac BG:EE, Tutu albo BGT.~
+
+/* New in BGEE */
+
+@900 = ~Tak?~ [CMMYST1] 
+@901 = ~Czeka ciê zag³ada!~ [CMMYST2]
+@902 = ~P³aszcz ochrony barda +2~
+@903 = ~Jest to zwyk³y p³aszcz, który zosta³ obdarzony niewielkimi magicznymi w³aœciwoœciami, poprawiaj¹cymi klasê pancerza oraz rzuty obronne w³aœciciela. Jest doskona³y dla magów i innych, którzy nie mog¹ nosiæ ciê¿szych, bardziej ograniczaj¹cych typów pancerza.
+
+PARAMETRY:
+
+Specjalne:
+ +2 do Klasy Pancerza
+ +2 do rzutów obronnych
+Waga: 3~
+@904 = ~D³ugi ³uk barda: 'Drzewo Dale'a'~
+@905 = ~Drzewo Dale'a to osobisty ³uk Morwen, który otrzyma³a od swego mentora, Dale'a Barda. Dale pochodzi³ z Bryn Shander, jednego z Dziesiêciu Miast Doliny Lodowego Wichru. Znany by³ zarówno ze swych przygód jak i epickich opowieœci œpiewanych przy ognisku. Dale zgin¹³ z rêki zabójcy, a œlady jego krwi wci¹¿ widniej¹ na ³uku pomimo up³ywu lat.
+
+PARAMETRY:
+
+Obra¿enia: +2
+TraK0: +3
+Specjalne:
+ 1 dodatkowy atak na rundê
+OpóŸnienie: 5
+Rodzaj bieg³oœci: d³ugi ³uk
+Typ broni: 2-rêczna
+Wymagana si³a: 6~
+@906 = ~Bransolety ³ucznictwa Dale'a Barda~
+@907 = ~Te bransolety nale¿a³y do mentora Morwen, Dale'a Barda, który nawet bez nich potrafi³ zadaæ œmiertelny strza³ z du¿ej odleg³oœci. Œlady jego krwi znacz¹ te bransolety od chwili w której zgin¹³ z rêki zabójcy.
+
+PARAMETRY:
+
+TraK0: +3 (tylko bronie strzeleckie)
+Waga: 2~
+
+@908 = ~Zbroja skórzana æwiekowana Morwen +2~
+@909 = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
+
+PARAMETRY:
+
+Klasa Pancerza: 5 (4 przeciw broniom siecznym, 5 przeciw broniom k³utym i strzeleckim)
+Specjalne:
+ +10 do kradzie¿y kieszonkowej
+Waga: 15
+Wymagana si³a: 6~
+// Nikita
+@910  = ~Nikita~
+@911  = ~Rozumiem.~ [HFTHR029] 
+@912  = ~Nie wygramy.~ [HFTHR001] 
+// No @913, traify oddity 
+@914  = ~Ubezpieczajcie mnie.~ [HFTHR008] 
+@915  = ~Powinniœmy odpocz¹æ. Nie mogê siê doczekaæ, a¿ wyskoczê z tych ³achmanów.~ [HFTHR010] 
+@916  = ~Nie zasz³am tak daleko tylko po to, ¿eby teraz umrzeæ z nudów.~ [HFTHR012] 
+@917  = ~Upuœæmy mu trochê krwi.~ [HFTHR003] 
+@918  = ~Chcesz posmakowaæ mojej stali?~ [HFTHR004] 
+@919  = ~Jesteœ na mnie gotowy?~ [HFTHR005] 
+@920  = ~Masz jakieœ ostatnie ¿yczenie?~ [HFTHR006] 
+@921  = ~Poznasz smak w³asnej krwi.~ [HFTHR007] 
+@922  = ~Ach!~ [HFTHR034] 
+@923  = ~~ [HFTHR037] 
+@924  = ~Jest mi... tak zimno.~ [HFTHR014] 
+@925  = ~Tak?~ [HFTHR016] 
+@926  = ~Jestem.~ [HFTHR017] 
+@927  = ~Chcesz czegoœ ode mnie?~ [HFTHR018] 
+@928  = ~Gotowa na wszystko.~ [HFTHR019] 
+@929  = ~W porz¹dku.~ [HFTHR023] 
+@930  = ~Dobrze.~ [HFTHR024] 
+@931  = ~Tak.~ [HFTHR025] 
+@932  = ~Cokolwiek tylko powiesz.~ [HFTHR026] 
+@933  = ~Zabi³abym kogoœ, byle tylko wyk¹paæ siê w gor¹cej wodzie.~ [HFTHR030] 
+@934  = ~Uwa¿aj, gdzie pchasz tê myszkê.~ [HFTHR031] 
+@935  = ~Argh.~ [HFTHR034] 
+@936  = ~Tylko nie myœl, ¿e bêdê wlec twoje cia³o z powrotem do miasta.~ [HFTHR040] 
+@937  = ~Ju¿ siê robi.~ [HFTHR027]
+@938  = ~Przesz³oœæ NIKITY to coœ, co woli zachowaæ dla siebie. Z tego co uda³o Ci siê dowiedzieæ, to by³a sierot¹ a¿ zosta³a przyjêta do Sekcji jako niemal doros³a nastolatka. Tam zosta³a wyszkolona na charyzmatyczn¹ zabójczyniê, której ofiarami padali przeró¿ni niegodziwcy. Wszystko to w imiê wiêkszego dobra. Z czasem jednak w szeregach Sekcji zaczê³o panoszyæ siê zepsucie i sama organizacja upodobni³a siê do tych, z którymi pocz¹tkowo chcia³a walczyæ. Nikita uwolni³a siê spod wp³ywu Sekcji jak tylko rozprawi³eœ siê z t¹ organizacj¹.~ ~Przesz³oœæ NIKITY to coœ, co woli zachowaæ dla siebie. Z tego co uda³o Ci siê dowiedzieæ, to by³a sierot¹ a¿ zosta³a przyjêta do Sekcji jako niemal doros³a nastolatka. Tam zosta³a wyszkolona na charyzmatyczn¹ zabójczyniê, której ofiarami padali przeró¿ni niegodziwcy. Wszystko to w imiê wiêkszego dobra. Z czasem jednak w szeregach Sekcji zaczê³o panoszyæ siê zepsucie i sama organizacja upodobni³a siê do tych, z którymi pocz¹tkowo chcia³a walczyæ. Nikita uwolni³a siê spod wp³ywu Sekcji jak tylko rozprawi³aœ siê z t¹ organizacj¹.~ 
+// Thorin
+@939  = ~Thorin~
+@940  = ~W koñcu wielcy poszukiwacze przygód stanêli przede mn¹. Czemu zawdziêczam ten zaszczyt?~ 
+@941  = ~Szkoda czasu, w nogi!~ [DMF02] 
+@942  = ~Pad³o ci na oczy!~ [DMF32] 
+@943  = ~Mam nadziejê, ¿e siê tym ud³awisz!~ [DMF33] 
+@944  = ~Kiedy wszystko inne zawodzi, na przód wystawia siê krasnoluda.~ [DMF08] 
+@945  = ~Nied³ugo trza mi bêdzie odpocz¹æ.~ [DMF10] 
+@946  = ~Co, myœlicie, ¿e wróg sam do was przyjdzie?~ [DMF13] 
+@947  = ~Grrrrr!~ [DMF03] 
+@948  = ~Roz³upiê ciê na pó³.~ [DMF04] 
+@949  = ~PodejdŸ tu, nêdzniku!~ [DMF05] 
+@950  = ~Zdychaj!~ [DMF06] 
+@951  = ~W twej krwi wypiorê sw¹ brodê!~ [DMF07] 
+@952  = ~To wszystko, na co ciê staæ?~ [DMF34] 
+@953  = ~Uch!~ [DMF36] 
+@954  = ~Potrzebujê leczenia!~ [DMF14] 
+@955  = ~No?~ [DMF16] 
+@956  = ~Co?~ [DMF17] 
+@957  = ~Tum jest.~ [DMF18] 
+@958  = ~Hmm?~ [DMF19] 
+@959  = ~Gotowy.~ [DMF20] 
+@960  = ~S³yszê.~ [DMF22] 
+@961  = ~Zrobione.~ [DMF23] 
+@962  = ~Dobrze.~ [DMF24] 
+@963  = ~Teraz patrzcie.~ [DMF25] 
+@964  = ~Nie ma sprawy.~ [DMF26] 
+@965  = ~No.~ [DMF27] 
+@966  = ~To wszystko?~ [DMF28] 
+@967  = ~£atwizna-goblizna.~ [DMF29] 
+@968  = ~Nie wiesz, co robiæ, hê?~ [DMF30] 
+@969  = ~Dobrze, nie przeci¹gaj struny!~ [DMF31] 
+@970  = ~Zdychaj!~ [DMF06] 
+@971  = ~Uch.~ [DMF36]
+@972  = ~Zapytany o przesz³oœæ, THORIN ujawnia ¿e pochodzi ze s³awnego klanu Kamienne Ostrze, którego cz³onkowie przez wiele lat s³u¿yli Durlagowi jako dowódcy stra¿y. Jego dziadek by³ ostatnim, którego spotka³ ten zaszczyt, zanim z³e rzeczy przydarzy³y siê Durlagowi i jego ludziom. Thorin chcia³by udaæ siê wraz z dru¿yn¹ do Wie¿y Durlaga, aby odzyskaæ niektóre pami¹tki rodzinne, które wci¹¿ mo¿na tam znaleŸæ, oraz przekonaæ siê co tak naprawdê spotka³o jego dziadka i s³ynnego Durlaga Zabójcê Trolli.~
+// Morven uses the same soundset as Nikita
+@973  = ~Morwen~
+@974  = ~Zapytana o przesz³oœæ, MORWEN wyjaœnia ¿e pochodzi z zamo¿nej rodziny z Neverwinter. Po raz pierwszy zasmakowa³a w epickich poematach i opowieœciach przebywaj¹c u skaldów z pó³nocy, gdy jej rodzina odwiedzi³a okolice Doliny Lodowego Wichru gdy Morwen by³a jeszcze dzieckiem. Od tamtej pory mia³a obsesjê na punkcie ich epickich historii i przygód. Chcia³a uczyæ siê od skaldów ale niestety rzadko odwiedzali oni Neverwinter, a¿ pewnego dnia Dale Bard zatrzyma³ siê w mieœcie na spoczynek. Po raz pierwszy zauwa¿y³a go w jednym z lokalnych pubów, gdy œpiewa³ pieœñ o swych epickich wyczynach. Przedstawi³a siê Dale'owi i wkrótce zosta³ on mentorem Morwen ucz¹c j¹ umiejêtnoœci barda skaldów jak i przekazuj¹c jej sw¹ niezwyk³¹ wiedzê z zakresu pos³ugiwania siê ³ukiem. Po opanowaniu tych umiejêtnoœci, doœæ szybko znudzi³o j¹ nudne ¿ycie elit Neverwinter i zdecydowa³a siê udaæ na po³udnie w rejon Wybrze¿a Mieczy, gdzie - jak s³ysza³a - panowa³ kryzys ¿elaza. Zawêdrowa³a do Beregostu, by tam znaleŸæ kogoœ, kto podobnie jak ona szuka epickiej przygody.~

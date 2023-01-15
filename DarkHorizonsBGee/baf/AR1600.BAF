@@ -1,0 +1,20 @@
+IF
+	Global("CMaddDruids2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMDRU01",[3370.1707],6)
+		CreateCreature("CMDRU04",[3462.1596],5)
+		CreateCreature("CMDRU05",[3244.1481],2)
+		CreateCreature("CMDRU07",[3320.1504],0)
+		CreateCreature("CMDRU04",[3466.1401],6)
+		CreateCreature("CMBEAR01",[3463.1621],2)
+		CreateCreature("CMBEAR02",[3172.1377],1)
+		CreateCreature("CMROCKY",[3132.1588],1)
+		CreateCreature("CMDRY01",[4408.2889],4)
+		CreateCreature("WOLFWI",[3686.2929],6)
+		CreateCreature("WOLFWI",[3709.2956],7)
+		CreateCreature("WOLFWI",[3692.3024],0)
+                CreateCreature("WYVERN",[2150.988],2)
+                CreateCreature("BEARCA",[604.1725],3)
+		SetGlobal("CMaddDruids2","GLOBAL",1)
+END

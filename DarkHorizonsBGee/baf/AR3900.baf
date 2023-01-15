@@ -1,0 +1,10 @@
+IF
+        Global("CmUlcastorGhostsHostile","GLOBAL",1)
+	Global("CmRedWizard3900","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMRWIZ01",[2466.428],7)
+		CreateCreature("CMRWIZ02",[2634.414],8)
+		CreateCreature("CMRWIZ03",[2574.442],6)
+		SetGlobal("CmRedWizard3900","GLOBAL",1)
+END

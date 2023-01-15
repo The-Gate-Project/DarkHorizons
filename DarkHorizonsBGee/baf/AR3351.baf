@@ -1,0 +1,9 @@
+IF
+	Global("CMaddLathanderG3351","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CM330004",[504.321],3)
+		CreateCreature("CM330003",[954.369],6)
+		CreateCreature("CM330007",[254.519],3)
+		SetGlobal("CMaddLathanderG3351","GLOBAL",1)
+END

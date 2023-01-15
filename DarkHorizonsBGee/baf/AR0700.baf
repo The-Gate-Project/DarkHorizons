@@ -1,0 +1,23 @@
+IF
+	Global("CMaddWinton","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CM0700A",[1510.1597],3)
+		SetGlobal("CMaddWinton","GLOBAL",1)
+END
+
+IF
+	Global("AcceptNikitaAid","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door0750",FALSE)
+		Continue()
+END
+
+IF
+	Global("AcceptNikitaAid","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door0750",TRUE)
+		Continue()
+END

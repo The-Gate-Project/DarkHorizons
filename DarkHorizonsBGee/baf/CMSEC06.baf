@@ -1,0 +1,16 @@
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	Global("CmDavenportFight","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CmDavenportFight","GLOBAL",1)
+                Enemy()
+END
+
+IF
+  Global("CmDavenportFight","GLOBAL",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END

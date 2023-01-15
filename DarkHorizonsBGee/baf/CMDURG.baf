@@ -1,0 +1,16 @@
+IF
+	Global("CmDwarfHostile","GLOBAL",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	Global("CmDwarfHostile","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("CmDwarfHostile","GLOBAL",1)
+		Enemy()
+END

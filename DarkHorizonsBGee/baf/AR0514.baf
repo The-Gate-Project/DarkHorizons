@@ -1,0 +1,13 @@
+IF
+	Dead("DeathK")
+	Global("CMaddMaria","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CM01A514",[4300.1126],4)
+		CreateCreature("CM02A514",[4306.1165],4)
+		CreateCreature("CM03A514",[4231.1082],5)
+		CreateCreature("CM04A514",[4168.1107],6)
+		CreateCreature("CM05A514",[4266.1158],6)
+		SetGlobal("CMaddMaria","GLOBAL",1)
+		Continue()
+END

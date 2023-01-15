@@ -1,0 +1,23 @@
+IF
+	Global("CMaddDragQuest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMDRAG",[992.2870],3)
+		CreateCreature("CM3A2100",[3299.1393],4)
+		CreateCreature("CM2A2100",[3434.1450],2)
+		CreateCreature("CM1A2100",[3307.1377],0)
+		SetGlobal("CMaddDragQuest","GLOBAL",1)
+END
+
+IF
+	Global("CMaddAR2100","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("ETTERC",[4528.475],3)
+		CreateCreature("ETTERC",[4552.507],4)
+		CreateCreature("ETTERC",[1782.1320],2)
+		CreateCreature("ETTERC",[1894.1360],0)
+		CreateCreature("ETTERC",[1856.1423],2)
+		CreateCreature("SPIDSW",[4435.535],0)
+		SetGlobal("CMaddAR2100","GLOBAL",1)
+END

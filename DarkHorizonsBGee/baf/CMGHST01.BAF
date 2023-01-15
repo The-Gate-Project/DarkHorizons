@@ -1,0 +1,128 @@
+IF
+	Global("CmGhost01","GLOBAL",0)
+	See(NearestEnemyOf(Myself(Myself)))
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_STONE_SKIN)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_MINOR_GLOBE_OF_INVULNERABILITY)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_GHOST_ARMOR)
+		SetGlobal("CmGhost01","GLOBAL",1)
+END
+
+IF
+	Global("CmGhost01","GLOBAL",1)
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_MAGIC_MISSILE)
+		Wait(1)
+		ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_MAGIC_MISSILE)
+		Wait(1)
+		ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_MAGIC_MISSILE)
+		SetGlobal("CmGhost01","GLOBAL",2)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmGhost01","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_FLAME_ARROW)
+		Wait(2)
+		ForceSpell(SecondNearestEnemyOf(Myself(Myself)),WIZARD_FLAME_ARROW)
+		Wait(1)
+		ForceSpell(SecondNearestEnemyOf(Myself(Myself)),WIZARD_FIREBALL)
+		SetGlobal("CmGhost01","GLOBAL",3)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmGhost01","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_MAGIC_MISSILE)
+		Wait(1)
+                ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_LIGHTNING_BOLT)
+                Wait(1)
+                ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_LIGHTNING_BOLT)
+		SetGlobal("CmGhost01","GLOBAL",4)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmGhost01","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ForceSpell(StrongestOf(GroupOf(Myself)),WIZARD_WEB)
+		Wait(1)
+                ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_CLOUDKILL)
+		SetGlobal("CmGhost01","GLOBAL",5)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmGhost01","GLOBAL",5)
+THEN
+	RESPONSE #100
+		ForceSpell(StrongestOf(GroupOf(Myself)),WIZARD_CHROMATIC_ORB)
+		Wait(1)
+                ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_LIGHTNING_BOLT)
+		SetGlobal("CmGhost01","GLOBAL",6)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmGhost01","GLOBAL",6)
+THEN
+	RESPONSE #100
+		ForceSpell(MostDamagedOf(GroupOf(Myself)),WIZARD_MAGIC_MISSILE)
+		Wait(1)
+                ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_LIGHTNING_BOLT)
+                Wait(1)
+                ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_DIRE_CHARM)
+		SetGlobal("CmGhost01","GLOBAL",7)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	HPPercentLT(Myself(Myself),75)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself(Myself),CLERIC_CURE_SERIOUS_WOUNDS)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmGhost01","GLOBAL",7)
+THEN
+	RESPONSE #50
+		EquipMostDamagingMelee()
+		AttackOneRound(NearestEnemyOf(Myself(Myself)))
+		AttackOneRound(NearestEnemyOf(Myself(Myself)))
+		Continue()
+	RESPONSE #50
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_MELF_ACID_ARROW)
+		Wait(1)
+                ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_LIGHTNING_BOLT)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	NumCreatureGT(NearestEnemyOf(Myself),6)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_LARLOCH_MINOR_DRAIN)
+		Continue()
+END
+
+IF
+	StateCheck(Myself,STATE_SILENCED)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_VOCALIZE)
+END
+

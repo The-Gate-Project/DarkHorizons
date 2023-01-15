@@ -1,0 +1,19 @@
+IF
+	Global("MaMinesSN","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("MADURF01",[2390.951],0) // Gorken Bloodaxe
+		CreateCreature("MADURF02",[2430.962],0) // Duergar Fighter
+		CreateCreature("MADURT01",[2380.1108],3) // Duergar Thief
+		CreateCreature("MADURC01",[2626.1020],3) // Duergar Cleric
+		CreateCreature("MADURC02",[2450.1055],1) // Duergar Cleric
+		CreateCreature("SPIDHU",[1030.2745],0) // Huge Spider
+		CreateCreature("SPIDHU",[1300.2668],4) // Huge Spider
+		CreateCreature("GHOUL",[850.2251],0) // Ghoul
+		CreateCreature("GHOUL",[1000.2270],3) // Ghoul
+		CreateCreature("KOBOLDA",[3000.1968],1) // Kobold
+		CreateCreature("KOBOLDA",[3023.1886],0) // Kobold
+		CreateCreature("KOBOLDA",[2911.2026],2) // Kobold
+		CreateCreature("KOBOLDA",[2440.1846],5) // Kobold
+		SetGlobal("MaMinesSN","GLOBAL",1)
+END

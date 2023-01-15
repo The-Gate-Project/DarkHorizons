@@ -1,0 +1,15 @@
+@0    = ~Plus jamais vous ne franchirez les murs de cette forteresses. Alors, les puissants aventuriers ont finalement révélé leur présence dans le quartier général de la Section 1. Une erreur probablement fatale, si vous n'aviez pas déjà un ordre d'élimination sur vos têtes.~ [PAUL7]
+@1    = ~Pourquoi ai-je un "ordre d'élimination" sur ma tête ? Qu'est-ce que je vous ai fait ?~
+@2    = ~Pourquoi avez-vous essayé de me tuer ? Je ne vous ai rien fait.~
+@3    = ~Vous êtes un être maléfique et dangereux, on ne peut pas vous laisser vivre plus longtemps. Nous aurions tenté de vous supprimer même si nous n'avions pas été contactés par une certaine organisation pour le faire. N'est-ce pas Madeline ?~
+@4    = ~Froide comme toujours, Madeline, c'est ce que j'aime chez toi. Logique, et amorale.~
+@5    = ~Revenons à vous <CHARNAME>. Dommage que vous soyiez maléfique, vous auriez fait un agent très efficace. Ce n'est pas donné à tout le monde d'être capable de vaincre nos agents, ils comptent parmi les individus les mieux entraînés de la Côte des Épées.~
+@6    = ~Pourquoi dites-vous que je suis maléfique ? Qu'est-ce que je vous ai fait ? Si quelqu'un ici est maléfique c'est bien vous et votre organisation.~
+@7    = ~Nous ne sommes pas maléfiques, nous faisons ce qui est nécessaire pour atteindre notre but. S'il fallait tuer une centaine d'innocents pour atteindre un seul être maléfique qui pourrait ensuite en sauver des millions, alors nous le ferions.~
+@8    = ~Votre éthique est stupéfiante. Pardonnez-moi si je ne vous remets pas une médaille pour vos nobles exploits.~
+@9    = ~En effet.~
+@10   = ~Ça suffit ! Tenez-vous tranquille <CHARNAME>, vous ne souffrirez pas... trop..~
+@11   = ~Pourquoi je ne travaillerais pas pour vous ? Je ferai tout ce que vous voudrez mais ne me faites pas de mal !~
+@12   = ~Allez vous faire voir ! Je ne me laisserai pas tuer sans réagir !~
+@13   = ~Vous n'êtes rien. Mourez.~ [PAUL5]
+@14   = ~La douleur vous apprendra beaucoup.~ [PAUL4]

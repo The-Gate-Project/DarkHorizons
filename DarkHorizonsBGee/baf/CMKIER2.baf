@@ -1,0 +1,7 @@
+IF
+	Global("CmKeiranHostile","GLOBAL",1)
+  !Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		Enemy()
+END

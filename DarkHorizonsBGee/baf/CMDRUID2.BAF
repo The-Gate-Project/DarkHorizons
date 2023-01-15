@@ -1,0 +1,105 @@
+IF
+	Global("CmDruid2","GLOBAL",0)
+	See(NearestEnemyOf(Myself(Myself)))
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_RIGID_THINKING)
+		SmallWait(5)
+		ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_ANIMAL_SUMMONING_2)
+		SetGlobal("CmDruid2","GLOBAL",1)
+END
+
+IF
+	Global("CmDruid2","GLOBAL",1)
+	See(NearestEnemyOf(Myself(Myself)))
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_ENTANGLE)
+		SmallWait(5)
+		ForceSpell(SecondNearestEnemyOf(Myself(Myself)),CLERIC_CALL_LIGHTNING)
+		SetGlobal("CmDruid2","GLOBAL",2)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmDruid2","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_ENTANGLE)
+	RESPONSE #100
+		Wait(2)
+		ForceSpell(SecondNearestEnemyOf(Myself(Myself)),CLERIC_FLAME_STRIKE)
+		SetGlobal("CmDruid2","GLOBAL",3)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmDruid2","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ForceSpell(LeaderOf(NearestEnemyOf(Myself)),CLERIC_RIGID_THINKING)
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),CLERIC_CALL_LIGHTNING)
+		SetGlobal("CmDruid2","GLOBAL",4)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmDruid2","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ForceSpell(StrongestOf(NearestEnemyOf(Myself)),CLERIC_CALL_LIGHTNING)
+		SetGlobal("CmDruid2","GLOBAL",5)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmDruid2","GLOBAL",5)
+THEN
+	RESPONSE #100
+		ForceSpell(StrongestOf(NearestEnemyOf(Myself)),CLERIC_CALL_LIGHTNING)
+		SetGlobal("CmDruid2","GLOBAL",6)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmDruid2","GLOBAL",6)
+THEN
+	RESPONSE #100
+		ForceSpell(MostDamagedOf(NearestEnemyOf(Myself)),CLERIC_ENTANGLE)
+		SetGlobal("CmDruid2","GLOBAL",7)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	HPPercentLT(Myself(Myself),75)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself(Myself),CLERIC_CURE_CRITICAL_WOUNDS)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmDruid2","GLOBAL",7)
+THEN
+	RESPONSE #75
+		EquipMostDamagingMelee()
+		AttackOneRound(NearestEnemyOf(Myself(Myself)))
+		AttackOneRound(NearestEnemyOf(Myself(Myself)))
+		Continue()
+	RESPONSE #25
+		ForceSpell(NearestEnemyOf(Myself),CLERIC_CALL_LIGHTNING)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	NumCreatureGT(NearestEnemyOf(Myself),6)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),CLERIC_RIGID_THINKING)
+		Continue()
+END
+
+

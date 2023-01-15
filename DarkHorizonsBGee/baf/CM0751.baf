@@ -1,0 +1,9 @@
+IF
+	Global("CMOversightEndGame","GLOBAL",1)
+	Global("CMSpawn15","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMOSEC15",[884.620],3)
+		CreateCreature("CMOSEC15",[599.310],3)
+		SetGlobal("CMSpawn15","GLOBAL",1)
+END

@@ -1,0 +1,33 @@
+IF
+        Global("FLOODED","GLOBAL",2)
+	Global("CMaddDru2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMDRU03",[182.2071],3)
+		CreateCreature("CMDRU06",[168.2181],0)
+		CreateCreature("CMDRU06",[225.2187],2)
+		CreateCreature("CMDRU06",[169.1944],4)
+		SetGlobal("CMaddDru2","GLOBAL",1)
+END
+
+IF
+	Global("Cmaddmore1800","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMIRONE",[1852.1778],4)
+		CreateCreature("CM1800A1",[1854.1783],6)
+		CreateCreature("CM1800A1",[1855.1780],4)
+		CreateCreature("IRONGU",[319.2317],5)
+		CreateCreature("IRONGU",[1881.1823],5)
+		CreateCreature("IRONGU",[404.2408],6)
+		SetGlobal("Cmaddmore1800","GLOBAL",1)
+END
+
+IF
+	Global("CmaddDryad2","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMDRY01",[1045.3008],12)
+		SetGlobal("CmaddDryad2","GLOBAL",1)
+END
+

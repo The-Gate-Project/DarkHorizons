@@ -1,0 +1,8 @@
+IF
+	Global("MaSailors","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("MASAL01",[819.1018],0)
+		CreateCreature("MASAL02",[898.1069],0)
+		SetGlobal("MaSailors","GLOBAL",1)
+END

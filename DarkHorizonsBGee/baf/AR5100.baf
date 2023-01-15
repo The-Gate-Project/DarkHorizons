@@ -1,0 +1,38 @@
+IF
+	Global("CMaddAR5100","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMGNOL01",[1320.1338],3)
+		CreateCreature("CMGNOL01",[2848.1205],4)
+		CreateCreature("GNOLL_E",[1300.1351],2)
+		CreateCreature("GNOLL_E",[1390.1323],0)
+		CreateCreature("GNOLL",[1250.1305],2)
+		CreateCreature("GNOLL",[1290.1190],0)
+		CreateCreature("CMKOB01",[590.3653],3)
+		CreateCreature("CMKOB01",[600.3591],4)
+		CreateCreature("CMKOB02",[360.3603],6)
+		CreateCreature("CMKOB03",[475.3637],0)
+		CreateCreature("CMKOB03",[360.3606],8)
+		CreateCreature("CMGNOL03",[3719.1301],3)
+		CreateCreature("CMGNOL03",[3808.1325],4)
+		CreateCreature("CMGNOL04",[3766.1405],3)
+		CreateCreature("CMGNOL04",[3748.1267],4)
+		CreateCreature("CMGNOL03",[926.879],6)
+		CreateCreature("CMGNOL03",[823.944],8)
+		CreateCreature("CMGNOL04",[716.1020],3)
+		CreateCreature("CMGNOL04",[816.945],1)
+		SetGlobal("CMaddAR5100","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("CMaddBounty5100","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMBOU08",[3410.2316],3)
+		CreateCreature("CMBOU09",[3369.2314],6)
+		CreateCreature("CMBOU10",[3350.2229],4)
+		CreateCreature("CMBOU11",[3422.2251],5)
+		SetGlobal("CMaddBounty5100","GLOBAL",1)
+		Continue()
+END

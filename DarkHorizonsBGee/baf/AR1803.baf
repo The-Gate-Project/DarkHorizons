@@ -1,0 +1,10 @@
+IF
+	Global("CMaddAR1803","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CM1803A1",[975.575],3)
+		CreateCreature("CM1803A2",[1206.749],6)
+		CreateCreature("CM1803A3",[670.850],7)
+		CreateCreature("CM1803A4",[797.927],9)
+		SetGlobal("CMaddAR1803","GLOBAL",1)
+END

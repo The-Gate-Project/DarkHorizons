@@ -1,0 +1,96 @@
+IF
+	Global("CmMariaAttack","GLOBAL",0)
+	See(NearestEnemyOf(Myself(Myself)))
+THEN
+	RESPONSE #100
+		ForceSpell(Myself,WIZARD_PROTECTION_FROM_NORMAL_MISSILES)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_MINOR_GLOBE_OF_INVULNERABILITY)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_GHOST_ARMOR)
+		Wait(1)
+		ForceSpell(Myself,WIZARD_MIRROR_IMAGE)
+		SetGlobal("CmMariaAttack","GLOBAL",1)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmMariaAttack","GLOBAL",1)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_FLAME_ARROW)
+	RESPONSE #100
+		Wait(2)
+		ForceSpell(SecondNearestEnemyOf(Myself(Myself)),WIZARD_FLAME_ARROW)
+		SetGlobal("CmMariaAttack","GLOBAL",2)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmMariaAttack","GLOBAL",2)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself(Myself)),WIZARD_LIGHTNING_BOLT)
+		SetGlobal("CmMariaAttack","GLOBAL",3)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmMariaAttack","GLOBAL",3)
+THEN
+	RESPONSE #100
+		ForceSpell(StrongestOf(GroupOf(Myself)),WIZARD_WEB)
+		SetGlobal("CmMariaAttack","GLOBAL",4)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmMariaAttack","GLOBAL",4)
+THEN
+	RESPONSE #100
+		ForceSpell(StrongestOf(GroupOf(Myself)),WIZARD_CHROMATIC_ORB)
+		SetGlobal("CmMariaAttack","GLOBAL",5)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmMariaAttack","GLOBAL",5)
+THEN
+	RESPONSE #100
+		ForceSpell(MostDamagedOf(GroupOf(Myself)),WIZARD_MAGIC_MISSILE)
+		SetGlobal("CmMariaAttack","GLOBAL",6)
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	HPPercentLT(Myself(Myself),75)
+THEN
+	RESPONSE #100
+		ForceSpell(Myself(Myself),WIZARD_MAGIC_MISSILE)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	Global("CmMariaAttack","GLOBAL",6)
+THEN
+	RESPONSE #75
+		EquipMostDamagingMelee()
+		AttackOneRound(NearestEnemyOf(Myself(Myself)))
+		AttackOneRound(NearestEnemyOf(Myself(Myself)))
+		Continue()
+	RESPONSE #25
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_MAGIC_MISSILE)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself(Myself)))
+	NumCreatureGT(NearestEnemyOf(Myself),6)
+THEN
+	RESPONSE #100
+		ForceSpell(NearestEnemyOf(Myself),WIZARD_CLOUDKILL)
+		Continue()
+END
+
+

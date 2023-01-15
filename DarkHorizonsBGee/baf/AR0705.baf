@@ -1,0 +1,7 @@
+IF
+	Global("CMaddQuincy","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMMERC02",[481.688],6)
+		SetGlobal("CMaddQuincy","GLOBAL",1)
+END

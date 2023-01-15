@@ -1,0 +1,24 @@
+IF
+	Global("CMaddAR5400","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMBOU01",[2643.572],10)
+		SetGlobal("CMaddAR5400","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("MaCre","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("XVART",[1230.3182],0) // Xvart
+		CreateCreature("XVART",[1290.3260],0) // Xvart
+		CreateCreature("XVART",[1200.3143],2) // Xvart
+		CreateCreature("XVART",[1125.3234],3) // Xvart
+		CreateCreature("KOBOLD",[3600.3058],1) // Kobold
+		CreateCreature("KOBOLD",[3600.3052],0) // Kobold
+		CreateCreature("KOBOLD",[3500.3089],4) // Kobold
+		CreateCreature("KOBOLD",[3500.2961],0) // Kobold
+		SetGlobal("MaCre","GLOBAL",1)
+		Continue()
+END

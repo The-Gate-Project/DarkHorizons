@@ -1,0 +1,25 @@
+IF
+	Global("CmDavenportFight","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door3302",FALSE)
+		Continue()
+END
+
+IF
+	Global("CmDavenportFight","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door3302",TRUE)
+		Continue()
+END
+
+IF
+	Global("CmDavenportFight","GLOBAL",1)
+	Global("CmSec22Spawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMSEC22",[490.480],3)
+                SetGlobal("CmSec22Spawn","GLOBAL",1)
+
+END

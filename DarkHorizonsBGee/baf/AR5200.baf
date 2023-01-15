@@ -1,0 +1,14 @@
+IF
+	Global("CMaddMoreCre5200","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMOGREM1",[210.2641],3)
+		CreateCreature("OGREBERZ",[87.2666],4)
+		CreateCreature("OGREBERZ",[117.2573],4)
+		CreateCreature("OGREGR2",[286.2733],2)
+		CreateCreature("WOLFDI",[3275.2823],3)
+		CreateCreature("WOLFDI",[3180.2909],4)
+		SetGlobal("CMaddMoreCre5200","GLOBAL",1)
+END
+
+

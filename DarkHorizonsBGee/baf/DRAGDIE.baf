@@ -1,0 +1,24 @@
+IF
+	NumCreatureGT([ENEMY],8)
+THEN
+	RESPONSE #100
+		ReallyForceSpell(Myself,TRAP_FIREBALL)
+END
+
+IF
+	Die()
+THEN
+	RESPONSE #65
+		ReallyForceSpell(Myself,TRAP_STINKING_CLOUD)
+		DestroySelf()
+		SetGlobal("CmDragonDead","GLOBAL",1)
+	RESPONSE #10
+		ReallyForceSpell(Myself,TRAP_FIREBALL)
+		ReallyForceSpell(Myself,TRAP_STINKING_CLOUD)
+		DestroySelf()
+		SetGlobal("CmDragonDead","GLOBAL",1)
+	RESPONSE #55
+		ReallyForceSpell(Myself,TRAP_FIREBALL)
+		DestroySelf()
+		SetGlobal("CmDragonDead","GLOBAL",1)
+END

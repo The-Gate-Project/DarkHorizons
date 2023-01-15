@@ -1,0 +1,25 @@
+IF
+	Global("CMOversightEndGame","GLOBAL",0)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door0753",FALSE)
+		Continue()
+END
+
+IF
+	Global("CMOversightEndGame","GLOBAL",1)
+THEN
+	RESPONSE #100
+		TriggerActivation("Door0753",TRUE)
+		Continue()
+END
+
+IF
+	Global("CMOversightEndGame","GLOBAL",1)
+	Global("CMSpawn16","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMOSEC16",[625.481],3)
+		CreateCreature("CMOSEC16",[1010.607],3)
+		SetGlobal("CMSpawn16","GLOBAL",1)
+END

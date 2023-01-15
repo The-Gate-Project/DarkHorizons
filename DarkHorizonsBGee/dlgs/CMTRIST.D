@@ -1,0 +1,14 @@
+BEGIN ~CMTRIST~
+BEGIN ~CMISOLD~
+
+CHAIN
+IF ~True()~ THEN CMTRIST HeyYou
+@0
+== CMISOLD @1
+== CMTRIST @2
+== CMISOLD @3
+== CMTRIST @4
+== CMISOLD @5
+DO ~SetGlobal("TristIsoldFight","GLOBAL",1)
+Enemy()~
+EXIT

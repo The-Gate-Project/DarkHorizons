@@ -1,0 +1,10 @@
+IF
+	Global("MaOgreS","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("MAENC01",[570.2589],0) // Ogre Mage
+		CreateCreature("MAENC02",[650.2508],0) // Ogre
+		CreateCreature("MAENC03",[557.2421],2) // Ogrillon
+		CreateCreature("MAENC04",[450.2366],0) // Brotus Bloodthirsty
+		SetGlobal("MaOgreS","GLOBAL",1)
+END

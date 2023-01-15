@@ -1,0 +1,13 @@
+IF
+	Global("CMaddDruids","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMDRU02",[2240.3095],0)
+		CreateCreature("CMWYBA",[2287.3000],0)
+		CreateCreature("CMWYBA",[2300.3125],2)
+		CreateCreature("CM1800A1",[4096.859],0)
+		CreateCreature("CM1800A1",[4211.890],6)
+		CreateCreature("CM1800A1",[4023.910],2)
+		CreateCreature("CM1800A1",[4320.862],1)
+		SetGlobal("CMaddDruids","GLOBAL",1)
+END

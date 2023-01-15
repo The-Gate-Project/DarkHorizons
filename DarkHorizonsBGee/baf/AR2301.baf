@@ -1,0 +1,15 @@
+IF
+	Global("MaThor","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("MATHOREN",[723.403],0)
+		SetGlobal("MaThor","GLOBAL",1)
+END
+
+IF
+	Global("CmKFC1","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMFOOD1",[1168.502],0)
+		SetGlobal("CmKFC1","GLOBAL",1)
+END

@@ -1,0 +1,13 @@
+IF
+	Global("CmgHalfQuest","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMGSMEAG",[2775.490],3)
+		CreateCreature("CMGGOB1",[320.2946],4)
+		CreateCreature("CMGGO1",[322.2946],4)
+		CreateCreature("KOBOLD_D",[320.2904],2)
+		CreateCreature("KOBOLD_D",[320.3037],0)
+		CreateCreature("KOBCOMM",[230.3000],2)
+		CreateCreature("KOBCOMM",[390.3100],0)
+		SetGlobal("CmgHalfQuest","GLOBAL",1)
+END

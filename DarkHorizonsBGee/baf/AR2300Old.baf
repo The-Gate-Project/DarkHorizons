@@ -1,0 +1,12 @@
+IF
+	Global("Chapter","GLOBAL",3)
+        Global("CMaddNajara","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMNAJARA",[1285.3750],3)
+		CreateCreature("CMNAJAR2",[1245.3800],4)
+		CreateCreature("CMNAJAR3",[1270.3800],2)
+		CreateCreature("CMNAJAR4",[1430.3750],0)
+		SetGlobal("CMaddNajara","GLOBAL",1)
+		Continue()
+END

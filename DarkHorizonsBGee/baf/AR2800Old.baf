@@ -1,0 +1,23 @@
+IF
+	Global("Chapter","GLOBAL",2)
+        Global("CMaddAR2800","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMBOU03",[1982.924],7)
+		CreateCreature("CMBOU04",[2111.912],6)
+		CreateCreature("CMBOU05",[2080.885],6)
+		SetGlobal("CMaddAR2800","GLOBAL",1)
+END
+
+IF
+	Global("CmNajaraHostile","GLOBAL",1)
+	GlobalGT("Chapter","GLOBAL",4)
+        Global("CMaddDavenport","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMSEC06",[1897.390],7)
+		CreateCreature("CMSEC25",[1974.502],6)
+		CreateCreature("CMSEC25",[2099.482],9)
+		CreateCreature("CMSEC25",[1847.514],1)
+		SetGlobal("CMaddDavenport","GLOBAL",1)
+END

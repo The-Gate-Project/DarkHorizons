@@ -1,0 +1,57 @@
+
+Customizing Icewind Dale Sound Personalities
+============================================
+
+The following is a list of the WAV files required to create custom sound
+personality sets.  In the 'Sounds' folder located in the directory in which
+Icewind Dale is installed in, you will need to create a subdirectory that is
+used to store your new character personality.  The new folder can be up to 32
+characters in length.  This folder will be displayed in the game as one
+of the voice set options.  Below is a listing of all the required voice sounds
+that are needed in that new subdirectory.  Replace the xxxxx with a unique name
+that would not be used in other subdirectories.  For example, mysnd01,
+mysnd02, etc.  As long as the xxxxx is unique, the voice sounds will show up
+and work properly in Icewind Dale.
+
+All of the sound files must be 22 kHz, 16-bit, mono WAV files.
+
+xxxxx01.wav	: Morale Failure 1
+xxxxx02.wav	: Morale Failure 2
+xxxxx03.wav	: Battle Cry 1
+xxxxx04.wav	: Battle Cry 2
+xxxxx05.wav	: Battle Cry 3
+xxxxx06.wav	: Battle Cry 4
+xxxxx07.wav	: Battle Cry 5
+xxxxx08.wav	: Becoming Leader 1
+xxxxx09.wav	: Becoming Leader 2
+xxxxx10.wav	: Tired 1
+xxxxx11.wav	: Tired 2
+xxxxx12.wav	: Bored 1
+xxxxx13.wav	: Bored 2
+xxxxx14.wav	: Hurt 1
+xxxxx15.wav	: Hurt 2
+xxxxx16.wav	: Selected Common 1
+xxxxx17.wav	: Selected Common 2
+xxxxx18.wav	: Selected Common 3
+xxxxx19.wav	: Selected Common 4
+xxxxx20.wav	: Selected Common 5
+xxxxx21.wav	: Selected Common 6
+xxxxx22.wav	: Selected Common 7
+xxxxx23.wav	: Selected Action 1
+xxxxx24.wav	: Selected Action 2
+xxxxx25.wav	: Selected Action 3
+xxxxx26.wav	: Selected Action 4
+xxxxx27.wav	: Selected Action 5
+xxxxx28.wav	: Selected Action 6
+xxxxx29.wav	: Selected Action 7
+xxxxx30.wav	: Selected Rare 1
+xxxxx31.wav	: Selected Rare 2
+xxxxx32.wav	: Selected Rare 3
+xxxxx33.wav	: Selected Rare 4
+xxxxx34.wav	: Being hit 1
+xxxxx35.wav	: Being hit 2
+xxxxx36.wav	: Being hit 3
+xxxxx37.wav	: Dying 1
+xxxxx38.wav	: Dying 2
+xxxxx39.wav	: Reaction to partymember dying 1
+xxxxx40.wav	: Reaction to partymember dying 2

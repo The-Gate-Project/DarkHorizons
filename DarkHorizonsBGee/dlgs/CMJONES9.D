@@ -1,0 +1,37 @@
+BEGIN ~CMJONES~
+
+IF ~NumTimesTalkedTo(0)~ THEN BEGIN 1
+SAY @0
+++ @1 + 2
+END
+
+IF ~~ 2
+SAY @2
+++ @3 + 3
+END
+
+IF ~~ 3
+SAY @4 IF ~~ THEN DO ~~ EXTERN ~CMGEORGE~ 1
+END
+
+IF ~~ 4
+SAY @5 IF ~~ THEN DO ~~ EXTERN ~CMGEORGE~ 2
+END
+
+IF ~~ 5
+SAY @6
+++ @7 + 6
+END
+
+IF ~~ 6
+SAY @8
+++ @9 + 7
+END
+
+IF ~~ 7
+SAY @10 IF ~~ THEN DO ~~ EXTERN ~CMGEORGE~ 3
+END
+
+IF ~~ 8
+SAY @11 IF ~~ THEN DO ~~ EXTERN ~CMGEORGE~ 5
+END

@@ -1,0 +1,8 @@
+IF
+	Global("CMaddAR3800","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMBOU02",[3710.3801],7)
+		CreateCreature("CMBOU06",[3875.3800],8)
+		SetGlobal("CMaddAR3800","GLOBAL",1)
+END

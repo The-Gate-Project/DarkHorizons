@@ -1,0 +1,44 @@
+IF
+	Range(NearestEnemyOf(Myself),30)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		Attack(StrongestOf(NearestEnemyOf(Myself)))
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		Attack(NearestEnemyOf(Myself))
+END
+
+IF
+	HPPercentLT(Myself,70)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		Attack(StrongestOf(NearestEnemyOf(Myself)))
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		Attack(StrongestOf(NearestEnemyOf(Myself)))
+		Continue()
+END
+
+IF
+	HPPercentLT(Myself,50)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		Attack(LastHitter(Myself))
+		Continue()
+END
+
+

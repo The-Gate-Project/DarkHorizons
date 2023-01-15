@@ -1,0 +1,19 @@
+IF
+	Global("CmMysAvatar","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMMYSTR",[317.285],0)
+		SetGlobal("CmMysAvatar","GLOBAL",1)
+END
+
+IF
+        Global("CmMystraAt","GLOBAL",2)
+	Global("CmMysHelp","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMSKEL03",[412.238],0)
+		CreateCreature("CMSKEL03",[632.415],0)
+		CreateCreature("CMSKEL04",[302.273],0)
+		CreateCreature("CMSKEL04",[477.256],0)
+		SetGlobal("CmMysHelp","GLOBAL",1)
+END

@@ -1,0 +1,32 @@
+IF
+	Global("CMOversightEndGame","GLOBAL",1)
+        Global("CMaddCM0753","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMSEC08A",[886.853],6)
+		CreateCreature("CMOSEC02",[1216.921],4)
+		CreateCreature("CMOSEC02",[650.1029],2)
+		CreateCreature("CMOSEC02",[582.978],6)
+		CreateCreature("CMOSEC02",[920.579],2)
+		CreateCreature("CMOSEC03",[795.592],6)
+		CreateCreature("CMOSEC06",[717.788],3)
+		CreateCreature("CMOSEC10",[979.616],4)
+		CreateCreature("CMOSEC11",[635.730],6)
+		CreateCreature("CMOSEC04",[675.665],6)
+		CreateCreature("CMOSEC02",[1044.666],8)
+		CreateCreature("CMOSEC02",[525.566],6)
+		CreateCreature("CMOSEC02",[668.465],5)
+		SetGlobal("CMaddCM0753","GLOBAL",1)
+END
+
+IF
+	Global("CMGeorgeEndGame","GLOBAL",1)
+	Global("CMAddMoreSkels","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMSKEL01",[413.559],6)
+		CreateCreature("CMSKEL01",[712.422],6)
+		CreateCreature("SKELICE",[1161.771],2)
+		CreateCreature("SKELFIRE",[819.948],6)
+		SetGlobal("CMAddMoreSkels","GLOBAL",1)
+END

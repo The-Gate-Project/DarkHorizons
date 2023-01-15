@@ -1,0 +1,30 @@
+IF
+	GlobalGT("Chapter","GLOBAL",3)
+        Global("CMaddNajara","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMNAJARA",[1285.3750],3)
+		CreateCreature("CMNAJAR2",[1245.3800],4)
+		CreateCreature("CMNAJAR3",[1270.3800],2)
+		CreateCreature("CMNAJAR4",[1430.3750],0)
+		SetGlobal("CMaddNajara","GLOBAL",1)
+		Continue()
+END
+
+IF
+	Global("CMaddMerchantParty","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMMERC03",[2455.2579],3)
+		CreateCreature("CMMERC04",[2658.2691],8)
+		CreateCreature("CMMERC05",[4511.2135],2)
+		CreateCreature("CMMERC06",[4586.2204],0)
+		CreateCreature("CM2300A1",[2596.2607],3)
+		CreateCreature("CM2300A1",[2553.2683],4)
+		CreateCreature("CM2300A1",[4677.2227],7)
+		CreateCreature("CM2300A1",[4429.2110],5)
+		CreateCreature("CM2300A2",[2670.2541],0)
+		CreateCreature("CM2300A3",[4387.2039],2)
+		SetGlobal("CMaddMerchantParty","GLOBAL",1)
+		Continue()
+END

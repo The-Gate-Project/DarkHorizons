@@ -1,0 +1,16 @@
+IF
+	Global("CoMHalabasher","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMQUEST1",[2169.526],0)
+		SetGlobal("CoMHalabasher","GLOBAL",1)
+END
+
+IF
+	Global("Hurganquest","GLOBAL",1)
+        Global("CmTThorSpawn","GLOBAL",0)
+THEN
+	RESPONSE #100
+		CreateCreature("CMTTHOR",[2183.667],0)
+		SetGlobal("CmTThorSpawn","GLOBAL",1)
+END
