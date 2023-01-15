@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizonsBGee/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~BG:EE v213 BWP Fix~
+VERSION ~BG:EE v215~
 
 README ~DarkHorizonsBGee/readme-dh.htm~
 
@@ -6583,3 +6583,7 @@ COMPILE ~DarkHorizonsBGee/baf/cmtnikit.baf~
 COMPILE ~DarkHorizonsBGee/baf/cmtthor.baf~
 
 COMPILE ~DarkHorizonsBGee/baf/cmtmorw.baf~
+
+// PVRZ
+
+COPY ~DarkHorizonsBGee/PVRZ~ ~override~
