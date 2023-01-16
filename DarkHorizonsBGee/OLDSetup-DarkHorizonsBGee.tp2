@@ -7,7 +7,7 @@ README ~DarkHorizonsBGee/readme-dh.htm~
 
 // Game platform check
 ALWAYS
-ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   /*Tell the player it is using BG:EE stuff */
   PRINT @890 /* BG:EE install detected */
   INCLUDE ~DarkHorizonsBGee\lib\tbgcom_bgee_vars.tpa~
@@ -74,23 +74,6 @@ LANGUAGE ~Francais (traduit par Sanctifer des d'Oghmatiques)~
 
 
 BEGIN @0
-
-// EET compatibility
-
-ACTION_IF GAME_IS ~bgee~
-BEGIN
-	OUTER_SPRINT "area_prefix" AR
-	OUTER_SET isEET = 0
-        INCLUDE ~DarkHorizonsBGee/Lib/g3_bgee_cpmvars.tpa~
-END
-	
-ACTION_IF GAME_IS ~eet~
-BEGIN
-	OUTER_SPRINT "area_prefix" BG
-	OUTER_SET isEET = 1
-	INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
-END
-
 // REQUIRE_PREDICATE GAME_IS ~TotSC BGT Tutu_totsc~ @9
 PRINT @1
 PRINT @2
@@ -115,7 +98,7 @@ END
 /* New and altered areas */
 //COPY ~DarkHorizonsBGee\areas~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM0750.are~ ~override~
-REPLACE_TEXTUALLY ~FW0700~ ~%area_prefix%0700~
+REPLACE_TEXTUALLY ~FW0700~ ~AR0700~
 COPY ~DarkHorizonsBGee\areas\CM0750.BCS~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM0750.mos~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM0750.tis~ ~override~
@@ -157,7 +140,7 @@ REPLACE_TEXTUALLY ~AR3901~ ~AR3901~ (8)
    PATCH_IF ("%actor_name%" STRING_EQUAL "SKELET03") THEN BEGIN
 		SET offset = ("%actors_offset%"+0x110*cnt)
  		WRITE_ASCII (offset+0x80) ~_KELET03~ (9)
-	END
+   END
   END
   FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
   READ_ASCII ("%actors_offset%"+0x110*cnt+0x80)       "actor_name" (5)
@@ -190,7 +173,7 @@ FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
 REPLACE_TEXTUALLY ~SKELET_C~ ~_KELET_C~ (8)
 REPLACE_TEXTUALLY ~Dopple~ ~_Dopple~ (8)
 END ELSE BEGIN
-REPLACE_TEXTUALLY ~AR3901~ ~%area_prefix%3901~ (8)
+REPLACE_TEXTUALLY ~AR3901~ ~AR3901~ (8)
 END
 COPY ~DarkHorizonsBGee\areas\CM2680.mos~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM2680.tis~ ~override~
@@ -237,7 +220,7 @@ REPLACE_TEXTUALLY ~Ghast~ ~_ghast~ (8)
 REPLACE_TEXTUALLY ~Skelet_a~ ~_kelet_a~ (8)
 REPLACE_TEXTUALLY ~SCRL1R~ ~_SCRL1R~ (8)
 END ELSE BEGIN
-REPLACE_TEXTUALLY ~AR3302~ ~%area_prefix%3302~
+REPLACE_TEXTUALLY ~AR3302~ ~AR3302~
 END
 COPY ~DarkHorizonsBGee\areas\CM3370.tis~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM3370.wed~ ~override~
@@ -293,7 +276,7 @@ COPY ~DarkHorizonsBGee\areas\CM3376.wed~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM3376HT.bmp~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM3376LM.bmp~ ~override~
 COPY ~DarkHorizonsBGee\areas\CM3376SR.bmp~ ~override~
-COPY_EXISTING ~%area_prefix%3302.are~ ~override~ 
+COPY_EXISTING ~AR3302.are~ ~override~ 
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -1268,7 +1251,7 @@ SET "info_ext"=0x68
 BUT_ONLY_IF_IT_CHANGES
 
 
-COPY_EXISTING ~%area_prefix%3302.are~ ~override~
+COPY_EXISTING ~AR3302.are~ ~override~
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~%ITM3%~
 SET ~charges1~ = 0
@@ -1278,7 +1261,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY_IF_IT_CHANGES
 
 
-COPY_EXISTING ~%area_prefix%0700.are~ ~override~ 
+COPY_EXISTING ~AR0700.are~ ~override~ 
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -1727,7 +1710,7 @@ BUT_ONLY_IF_IT_CHANGES
 
 
 
-COPY_EXISTING ~%area_prefix%3901.are~ ~override~ 
+COPY_EXISTING ~AR3901.are~ ~override~ 
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -2618,7 +2601,7 @@ SET info_1=1
 
 BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~%area_prefix%3901.are~ ~override~
+COPY_EXISTING ~AR3901.are~ ~override~
 SET ~container_to_add_to~ = 4
 SPRINT ~item_to_add~ ~clck03~
 SET ~charges1~ = 0
@@ -2630,7 +2613,7 @@ BUT_ONLY_IF_IT_CHANGES
 /* Areas that add items to containers. */
 
 
-COPY_EXISTING ~%area_prefix%0502.ARE~ ~override~
+COPY_EXISTING ~AR0502.ARE~ ~override~
 
 SET ~container_to_add_to~ = 8
 SPRINT ~item_to_add~ ~MISC07~
@@ -2641,7 +2624,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~%area_prefix%0503.ARE~ ~override~
+COPY_EXISTING ~AR0503.ARE~ ~override~
 
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~SW1H03~
@@ -2666,7 +2649,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~%area_prefix%0505.ARE~ ~override~
+COPY_EXISTING ~AR0505.ARE~ ~override~
  READ_SHORT 0x76  "items_num"
  READ_LONG  0x78  "items_offset"
  
@@ -2707,7 +2690,7 @@ LAUNCH_PATCH_MACRO ~REPLACE_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~%area_prefix%0511.ARE~ ~override~
+COPY_EXISTING ~AR0511.ARE~ ~override~
  READ_SHORT 0x76  "items_num"
  READ_LONG  0x78  "items_offset"
 
@@ -2893,7 +2876,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~%area_prefix%0512.ARE~ ~override~
+COPY_EXISTING ~AR0512.ARE~ ~override~
 
 SPRINT ~old_item~ ~CLCK14~
 SPRINT ~new_item~ ~CLCK15~
@@ -2925,7 +2908,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~%area_prefix%0513.ARE~ ~override~
+COPY_EXISTING ~AR0513.ARE~ ~override~
 SET ~container_to_add_to~ = 1
 SPRINT ~item_to_add~ ~MAAX1H03~
 SET ~charges1~ = 0
@@ -2943,7 +2926,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~%area_prefix%0514.ARE~ ~override~ 
+COPY_EXISTING ~AR0514.ARE~ ~override~ 
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~MISC07~
 SET ~charges1~ = 0
@@ -2975,7 +2958,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~%area_prefix%1207.ARE~ ~override~ 
+COPY_EXISTING ~AR1207.ARE~ ~override~ 
 READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -3293,7 +3276,7 @@ SET info_1=1
    
 BUT_ONLY
 
-COPY_EXISTING ~%area_prefix%1505.ARE~ ~override~
+COPY_EXISTING ~AR1505.ARE~ ~override~
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~MISC07~
 SET ~charges1~ = 0
@@ -3310,7 +3293,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~%area_prefix%1602.ARE~ ~override~
+COPY_EXISTING ~AR1602.ARE~ ~override~
 
 SPRINT ~old_item~ ~STAF01~
 SPRINT ~new_item~ ~STAF02~
@@ -3342,7 +3325,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~%area_prefix%1603.ARE~ ~override~
+COPY_EXISTING ~AR1603.ARE~ ~override~
 SET ~container_to_add_to~ = 1
 SPRINT ~item_to_add~ ~MACMLE01~
 SET ~charges1~ = 0
@@ -5354,37 +5337,37 @@ COMPILE ~DarkHorizonsBGee/baf/AR3800.baf~
 COMPILE ~DarkHorizonsBGee/baf/AR4000.baf~
 COMPILE ~DarkHorizonsBGee/baf/AR5200.baf~
 */
-COPY_EXISTING ~%area_prefix%1600.are~ ~override~
+COPY_EXISTING ~AR1600.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR1600.baf~
 
-COPY_EXISTING ~%area_prefix%2606.are~ ~override~
+COPY_EXISTING ~AR2606.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR2606.baf~
 
-COPY_EXISTING ~%area_prefix%3302.are~ ~override~
+COPY_EXISTING ~AR3302.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3302.baf~
 
-COPY_EXISTING ~%area_prefix%3800.are~ ~override~
+COPY_EXISTING ~AR3800.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3800.baf~
 
-COPY_EXISTING ~%area_prefix%4000.are~ ~override~
+COPY_EXISTING ~AR4000.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR4000.baf~
 
-COPY_EXISTING ~%area_prefix%5200.are~ ~override~
+COPY_EXISTING ~AR5200.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR5200.baf~
 
-COPY_EXISTING ~%area_prefix%2304.are~ ~override~
+COPY_EXISTING ~AR2304.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR2304.baf~
@@ -5397,47 +5380,47 @@ COMPILE ~DarkHorizonsBGee/baf/cm3373.baf~
 
 /* Append area scripts */
 
-COPY_EXISTING ~%area_prefix%0700.are~ ~override~
+COPY_EXISTING ~AR0700.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar0700.baf~
 
-COPY_EXISTING ~%area_prefix%0705.are~ ~override~
+COPY_EXISTING ~AR0705.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar0705.baf~
 
-COPY_EXISTING ~%area_prefix%0514.are~ ~override~
+COPY_EXISTING ~AR0514.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar0514.baf~
 
-COPY_EXISTING ~%area_prefix%1000.are~ ~override~
+COPY_EXISTING ~AR1000.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1000.baf~
 
-COPY_EXISTING ~%area_prefix%1700.are~ ~override~
+COPY_EXISTING ~AR1700.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1700.baf~
 
-COPY_EXISTING ~%area_prefix%1800.are~ ~override~
+COPY_EXISTING ~AR1800.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1800.baf~
 
-COPY_EXISTING ~%area_prefix%1803.are~ ~override~
+COPY_EXISTING ~AR1803.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1803.baf~
 
-COPY_EXISTING ~%area_prefix%2100.are~ ~override~
+COPY_EXISTING ~AR2100.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar2100.baf~
 
-COPY_EXISTING ~%area_prefix%2300.are~ ~override~
+COPY_EXISTING ~AR2300.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar2300.baf~
@@ -5447,7 +5430,7 @@ DECOMPILE_BCS_TO_BAF
 REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",9999993)~ ~GlobalGT("Chapter","GLOBAL",%chapter3%)~
 COMPILE_BAF_TO_BCS
 
-COPY_EXISTING ~%area_prefix%2800.are~ ~override~
+COPY_EXISTING ~AR2800.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar2800.baf~
@@ -5458,49 +5441,49 @@ REPLACE_TEXTUALLY ~Global("Chapter","GLOBAL",9999992)~ ~Global("Chapter","GLOBAL
 REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",9999994)~ ~GlobalGT("Chapter","GLOBAL",%chapter4%)~
 COMPILE_BAF_TO_BCS
 
-COPY_EXISTING ~%area_prefix%3300.are~ ~override~
+COPY_EXISTING ~AR3300.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar3300.baf~
 
-COPY_EXISTING ~%area_prefix%5100.are~ ~override~
+COPY_EXISTING ~AR5100.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar5100.baf~
 
-COPY_EXISTING ~%area_prefix%5400.are~ ~override~
+COPY_EXISTING ~AR5400.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_TOP ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar5400.baf~
 
-COPY_EXISTING ~%area_prefix%1900.are~ ~override~
+COPY_EXISTING ~AR1900.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/ar1900.baf~
 
-COPY_EXISTING ~%area_prefix%2301.are~ ~override~
+COPY_EXISTING ~AR2301.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/ar2301.baf~
 
 /* ------------------ Version 2.00 Additions ----------  */
 
-COPY_EXISTING ~%area_prefix%0900.are~ ~override~
+COPY_EXISTING ~AR0900.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/ar0900.baf~
 
-COPY_EXISTING ~%area_prefix%3900.are~ ~override~
+COPY_EXISTING ~AR3900.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3900.baf~
 
-COPY_EXISTING ~%area_prefix%3304.are~ ~override~
+COPY_EXISTING ~AR3304.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3304.baf~
 
-COPY_EXISTING ~%area_prefix%3351.are~ ~override~
+COPY_EXISTING ~AR3351.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3351.baf~
@@ -5513,12 +5496,12 @@ COMPILE ~DarkHorizonsBGee/baf/AR1207.baf~
 */
 
 
-COPY_EXISTING ~%area_prefix%5403.are~ ~override~
+COPY_EXISTING ~AR5403.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR5403.baf~
 
-COPY_EXISTING ~%area_prefix%1207.are~ ~override~
+COPY_EXISTING ~AR1207.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR1207.baf~
