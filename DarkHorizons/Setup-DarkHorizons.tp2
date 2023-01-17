@@ -1,26 +1,26 @@
-BACKUP ~DarkHorizonsBGee/backup~
+BACKUP ~DarkHorizons/backup~
 AUTHOR ~"http://www.teambg.net"~
 
 VERSION ~BG:EE v215~
 
-README ~DarkHorizonsBGee/readme-dh.htm~
+README ~DarkHorizons/readme-dh.htm~
 
 // Game platform check
 ALWAYS
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   /*Tell the player it is using BG:EE stuff */
   PRINT @890 /* BG:EE install detected */
-  INCLUDE ~DarkHorizonsBGee\lib\tbgcom_bgee_vars.tpa~
+  INCLUDE ~DarkHorizons\lib\tbgcom_bgee_vars.tpa~
 END ELSE BEGIN
   ACTION_IF GAME_IS ~tutu tututosc~ THEN BEGIN
     /* Tell the player it is using Tutu stuff */
     PRINT @891 /* Tutu install detected. */
-    INCLUDE ~DarkHorizonsBGee\lib\g3_tutu_cpmvars.tpa~
+    INCLUDE ~DarkHorizons\lib\g3_tutu_cpmvars.tpa~
   END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         /* Tell the player it is using BGT stuff */
         PRINT @892 /* BGT install detected. */
-        INCLUDE ~DarkHorizonsBGee\lib\g3_bgt_cpmvars.tpa~
+        INCLUDE ~DarkHorizons\lib\g3_bgt_cpmvars.tpa~
         /* Tell the player it is not Tutu or BGT */
     END ELSE BEGIN FAIL @893 /* Please install on BG:EE, Tutu or BGT. */
     END
@@ -45,31 +45,31 @@ END
   END
 END
 
-AUTO_TRA ~DarkHorizonsBGee/Language/%s/D~
+AUTO_TRA ~DarkHorizons/Language/%s/D~
 
 LANGUAGE ~English~
          ~english~
-         ~DarkHorizonsBGee/Language/english/setup.tra~
+         ~DarkHorizons/Language/english/setup.tra~
 
 LANGUAGE ~Italian~
          ~italian~
-         ~DarkHorizonsBGee/Language/Italian/setup.tra~
+         ~DarkHorizons/Language/Italian/setup.tra~
 
 LANGUAGE ~German~
          ~german~
-         ~DarkHorizonsBGee/Language/German/setup.tra~
+         ~DarkHorizons/Language/German/setup.tra~
 
 LANGUAGE ~Russian~
          ~russian~
-         ~DarkHorizonsBGee/Language/Russian/setup.tra~
+         ~DarkHorizons/Language/Russian/setup.tra~
 
 LANGUAGE ~Polish~
          ~polish~
-         ~DarkHorizonsBGee/Language/polish/setup.tra~
+         ~DarkHorizons/Language/polish/setup.tra~
 
 LANGUAGE ~Francais (traduit par Sanctifer des d'Oghmatiques)~
          ~french~
-         ~DarkHorizonsBGee/Language/french/setup.tra~
+         ~DarkHorizons/Language/french/setup.tra~
 
 
 
@@ -85,49 +85,49 @@ PRINT @7
 PRINT @8
 
 
-COPY ~DarkHorizonsBGee\bams~ ~override~
+COPY ~DarkHorizons\bams~ ~override~
 
-COPY ~DarkHorizonsBGee\images~ ~override~
+COPY ~DarkHorizons\images~ ~override~
 
 ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~polish~ ) = 0 BEGIN
-  COPY ~DarkHorizonsBGee\Language\%LANGUAGE%\sounds~ ~override~
+  COPY ~DarkHorizons\Language\%LANGUAGE%\sounds~ ~override~
 END ELSE BEGIN
-  COPY ~DarkHorizonsBGee\sounds~ ~override~
+  COPY ~DarkHorizons\sounds~ ~override~
 END
 
 /* New and altered areas */
-//COPY ~DarkHorizonsBGee\areas~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0750.are~ ~override~
+//COPY ~DarkHorizons\areas~ ~override~
+COPY ~DarkHorizons\areas\CM0750.are~ ~override~
 REPLACE_TEXTUALLY ~FW0700~ ~AR0700~
-COPY ~DarkHorizonsBGee\areas\CM0750.BCS~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0750.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0750.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0750.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0750HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0750LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0750SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0751.are~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0751.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0751.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0751.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0751HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0751LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0751SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0752.are~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0752.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0752.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0752.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0752HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0752LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0752SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0753.are~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0753.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0753.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0753.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0753HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0753LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM0753SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2680.are~ ~override~
+COPY ~DarkHorizons\areas\CM0750.BCS~ ~override~
+COPY ~DarkHorizons\areas\CM0750.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0750.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0750.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0750HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0750LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0750SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0751.are~ ~override~
+COPY ~DarkHorizons\areas\CM0751.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0751.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0751.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0751HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0751LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0751SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0752.are~ ~override~
+COPY ~DarkHorizons\areas\CM0752.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0752.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0752.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0752HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0752LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0752SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0753.are~ ~override~
+COPY ~DarkHorizons\areas\CM0753.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0753.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0753.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0753HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0753LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0753SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2680.are~ ~override~
 	READ_LONG  0x54  "actors_offset"
  	READ_SHORT 0x58  "actors_num"
 REPLACE_TEXTUALLY ~AMB_M35B~ ~%SND1%~ (8)
@@ -175,13 +175,13 @@ REPLACE_TEXTUALLY ~Dopple~ ~_Dopple~ (8)
 END ELSE BEGIN
 REPLACE_TEXTUALLY ~AR3901~ ~AR3901~ (8)
 END
-COPY ~DarkHorizonsBGee\areas\CM2680.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2680.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2680.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2680HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2680LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2680SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2681.are~ ~override~
+COPY ~DarkHorizons\areas\CM2680.mos~ ~override~
+COPY ~DarkHorizons\areas\CM2680.tis~ ~override~
+COPY ~DarkHorizons\areas\CM2680.wed~ ~override~
+COPY ~DarkHorizons\areas\CM2680HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2680LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2680SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2681.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_M35B~ ~%SND1%~ (8)
 REPLACE_TEXTUALLY ~AMB_M35D~ ~%SND2%~ (8)
 REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
@@ -202,13 +202,13 @@ FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
    END
    END
 END
-COPY ~DarkHorizonsBGee\areas\CM2681.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2681.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2681.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2681HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2681LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM2681SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3370.are~ ~override~
+COPY ~DarkHorizons\areas\CM2681.mos~ ~override~
+COPY ~DarkHorizons\areas\CM2681.tis~ ~override~
+COPY ~DarkHorizons\areas\CM2681.wed~ ~override~
+COPY ~DarkHorizons\areas\CM2681HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2681LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2681SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3370.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_E15A~ ~%SND4%~ (8)
 REPLACE_TEXTUALLY ~AMB_E15B~ ~%SND5%~ (8)
 REPLACE_TEXTUALLY ~AMB_E15C~ ~%SND6%~ (8)
@@ -222,60 +222,60 @@ REPLACE_TEXTUALLY ~SCRL1R~ ~_SCRL1R~ (8)
 END ELSE BEGIN
 REPLACE_TEXTUALLY ~AR3302~ ~AR3302~
 END
-COPY ~DarkHorizonsBGee\areas\CM3370.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3370.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3370.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3370HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3370LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3370SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3371.are~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3371.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3371.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3371.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3371HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3371LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3371SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3372.are~ ~override~
+COPY ~DarkHorizons\areas\CM3370.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3370.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3370.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3370HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3370LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3370SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3371.are~ ~override~
+COPY ~DarkHorizons\areas\CM3371.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3371.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3371.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3371HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3371LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3371SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3372.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_E17B~ ~%SND9%~ (8)
 
-COPY ~DarkHorizonsBGee\areas\CM3372.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3372.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3372.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3372HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3372LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3372SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3373.are~ ~override~
+COPY ~DarkHorizons\areas\CM3372.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3372.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3372.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3372HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3372LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3372SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3373.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
 
-COPY ~DarkHorizonsBGee\areas\CM3373.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3373.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3373.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3373HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3373LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3373SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3374.are~ ~override~
+COPY ~DarkHorizons\areas\CM3373.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3373.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3373.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3373HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3373LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3373SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3374.are~ ~override~
 
-COPY ~DarkHorizonsBGee\areas\CM3374.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3374.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3374.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3374HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3374LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3374SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3375.are~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3375.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3375.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3375.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3375HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3375LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3375SR.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3376.are~ ~override~
+COPY ~DarkHorizons\areas\CM3374.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3374.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3374.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3374HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3374LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3374SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3375.are~ ~override~
+COPY ~DarkHorizons\areas\CM3375.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3375.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3375.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3375HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3375LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3375SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3376.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_E14B~ ~%SND10%~ (8)
-COPY ~DarkHorizonsBGee\areas\CM3376.mos~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3376.tis~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3376.wed~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3376HT.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3376LM.bmp~ ~override~
-COPY ~DarkHorizonsBGee\areas\CM3376SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3376.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3376.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3376.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3376HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3376LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3376SR.bmp~ ~override~
 COPY_EXISTING ~AR3302.are~ ~override~ 
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
@@ -3348,7 +3348,7 @@ SET ~charges3~ = 0
 LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
-//COPY ~DarkHorizonsBGee\areasx~ ~override~
+//COPY ~DarkHorizons\areasx~ ~override~
 
 /* Begin item copying */
 
@@ -3356,62 +3356,62 @@ BUT_ONLY
 
 /* Armor **** */
 
-COPY ~DarkHorizonsBGee/items/CMARQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMARQ01.ITM~ ~override~
   SAY NAME1 @10
   SAY NAME2 @11
   SAY 0x50 @12
   SAY 0x54 @13
 
-COPY ~DarkHorizonsBGee/items/CMARQ02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMARQ02.ITM~ ~override~
   SAY NAME1 @14
   SAY NAME2 @15
   SAY 0x50 @16
   SAY 0x54 @17
 
-COPY ~DarkHorizonsBGee/items/CMARQ03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMARQ03.ITM~ ~override~
   SAY NAME1 @18
   SAY NAME2 @19
   SAY 0x50 @20
   SAY 0x54 @21
 
-COPY ~DarkHorizonsBGee/items/CMARQ04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMARQ04.ITM~ ~override~
   SAY NAME1 @18
   SAY NAME2 @22
   SAY 0x50 @20
   SAY 0x54 @23
 
 
-COPY ~DarkHorizonsBGee/items/CMARQ05.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ05.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @24
   SAY 0x50 @25
   SAY 0x54 @26
 
-COPY ~DarkHorizonsBGee/items/CMARQ06.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ06.itm~ ~override~
   SAY NAME1 @27
   SAY NAME2 @28
   SAY 0x50 @29
   SAY 0x54 @30
 
-COPY ~DarkHorizonsBGee/items/CMARQ07.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ07.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @31
   SAY 0x50 @25
   SAY 0x54 @32
 
-COPY ~DarkHorizonsBGee/items/CMARQ08.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ08.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @33
   SAY 0x50 @25
   SAY 0x54 @34
 
-COPY ~DarkHorizonsBGee/items/CMARQ09.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ09.itm~ ~override~
   SAY NAME1 @35
   SAY NAME2 @36
   SAY 0x50 @37
   SAY 0x54 @38
 
-COPY ~DarkHorizonsBGee/items/CMARQ10.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ10.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @39
   SAY 0x50 @25
@@ -3419,13 +3419,13 @@ COPY ~DarkHorizonsBGee/items/CMARQ10.itm~ ~override~
   
 /* ---------- Version 2.00 Additions ------------ */
 
-COPY ~DarkHorizonsBGee/items/CMARQ11.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ11.itm~ ~override~
   SAY NAME1 @27
   SAY NAME2 @827
   SAY 0x50 @29
   SAY 0x54 @29
   
-COPY ~DarkHorizonsBGee/items/CMARQ12.itm~ ~override~
+COPY ~DarkHorizons/items/CMARQ12.itm~ ~override~
   SAY NAME1 @14
   SAY NAME2 @828
   SAY 0x50 @26
@@ -3433,113 +3433,113 @@ COPY ~DarkHorizonsBGee/items/CMARQ12.itm~ ~override~
   
 /* --------------------------------------     */
 
-COPY ~DarkHorizonsBGee/items/CMCHAN01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMCHAN01.ITM~ ~override~
   SAY NAME1 @41
   SAY NAME2 @42
   SAY 0x50 @43
   SAY 0x54 @44
 
-COPY ~DarkHorizonsBGee/items/CMCHAN02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMCHAN02.ITM~ ~override~
   SAY NAME1 @41
   SAY NAME2 @45
   SAY 0x50 @46
   SAY 0x54 @47
 
-COPY ~DarkHorizonsBGee/items/CMCHAN03.itm~ ~override~
+COPY ~DarkHorizons/items/CMCHAN03.itm~ ~override~
   SAY NAME1 @41
   SAY NAME2 @48
   SAY 0x50 @49
   SAY 0x54 @50
 
-COPY ~DarkHorizonsBGee/items/CMCHAN04.itm~ ~override~
+COPY ~DarkHorizons/items/CMCHAN04.itm~ ~override~
   SAY NAME1 @41
   SAY NAME2 @51
   SAY 0x50 @49
   SAY 0x54 @52
 
-COPY ~DarkHorizonsBGee/items/CMCHAN05.itm~ ~override~
+COPY ~DarkHorizons/items/CMCHAN05.itm~ ~override~
   SAY NAME1 @41
   SAY NAME2 @53
   SAY 0x50 @49
   SAY 0x54 @54
 
-COPY ~DarkHorizonsBGee/items/CMCHAN07.itm~ ~override~
+COPY ~DarkHorizons/items/CMCHAN07.itm~ ~override~
   SAY NAME1 @35
   SAY NAME2 @55
   SAY 0x50 @37
   SAY 0x54 @56
  
-COPY ~DarkHorizonsBGee/items/CMLEAT1.ITM~ ~override~
+COPY ~DarkHorizons/items/CMLEAT1.ITM~ ~override~
   SAY NAME1 @18
   SAY NAME2 @57
   SAY 0x50 @58
   SAY 0x54 @59
 
-COPY ~DarkHorizonsBGee/items/CMLEAT2.itm~ ~override~
+COPY ~DarkHorizons/items/CMLEAT2.itm~ ~override~
   SAY NAME1 @60
   SAY NAME2 @61
   SAY 0x50 @62
   SAY 0x54 @63
 
-COPY ~DarkHorizonsBGee/items/CMLEAT3.itm~ ~override~
+COPY ~DarkHorizons/items/CMLEAT3.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @39
   SAY 0x50 @64
   SAY 0x54 @65
 
-COPY ~DarkHorizonsBGee/items/CMLEAT4.ITM~ ~override~
+COPY ~DarkHorizons/items/CMLEAT4.ITM~ ~override~
   SAY NAME1 @18
   SAY NAME2 @66
   SAY 0x50 @67
   SAY 0x54 @68
   SAY 0x286 @69
 
-COPY ~DarkHorizonsBGee/items/CMLEAT5.ITM~ ~override~
+COPY ~DarkHorizons/items/CMLEAT5.ITM~ ~override~
   SAY NAME1 @70
   SAY NAME2 @71
   SAY 0x50 @72
   SAY 0x54 @73
 
 
-COPY ~DarkHorizonsBGee/items/cmleat6.itm~ ~override~
+COPY ~DarkHorizons/items/cmleat6.itm~ ~override~
   SAY NAME1 @70
   SAY NAME2 @74
   SAY 0x50 @72
   SAY 0x54 @75
 
-COPY ~DarkHorizonsBGee/items/CMPLAT03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMPLAT03.ITM~ ~override~
 
   SAY NAME1 @10
   SAY NAME2 @76
   SAY 0x50 @77
   SAY 0x54 @78
 
-COPY ~DarkHorizonsBGee/items/CMPLAT04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMPLAT04.ITM~ ~override~
   SAY NAME1 @10
   SAY NAME2 @79
   SAY 0x50 @80
   SAY 0x54 @81
 
-COPY ~DarkHorizonsBGee/items/CMPLAT05.itm~ ~override~
+COPY ~DarkHorizons/items/CMPLAT05.itm~ ~override~
   SAY NAME1 @27
   SAY NAME2 @82
   SAY 0x50 @29
   SAY 0x54 @83
 
-COPY ~DarkHorizonsBGee/items/CMPLAT07.itm~ ~override~
+COPY ~DarkHorizons/items/CMPLAT07.itm~ ~override~
   SAY NAME1 @27
   SAY NAME2 @84
   SAY 0x50 @29
   SAY 0x54 @85
 
-COPY ~DarkHorizonsBGee/items/CMPLAT10.itm~ ~override~
+COPY ~DarkHorizons/items/CMPLAT10.itm~ ~override~
 
   SAY NAME1 @10
   SAY NAME2 @86
   SAY 0x50 @87
   SAY 0x54 @88
 
-COPY ~DarkHorizonsBGee/items/CMPLAT11.itm~ ~override~
+COPY ~DarkHorizons/items/CMPLAT11.itm~ ~override~
   SAY NAME1 @27
   SAY NAME2 @89
   SAY 0x50 @29
@@ -3547,19 +3547,19 @@ COPY ~DarkHorizonsBGee/items/CMPLAT11.itm~ ~override~
 
 /*  Belts **** */
 
-COPY ~DarkHorizonsBGee/items/cmbelt02.itm~ ~override~
+COPY ~DarkHorizons/items/cmbelt02.itm~ ~override~
   SAY NAME1 @91
   SAY NAME2 @92
   SAY 0x50 @93
   SAY 0x54 @94
 
-COPY ~DarkHorizonsBGee/items/CMBEQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBEQ01.itm~ ~override~
   SAY NAME1 @91
   SAY NAME2 @95
   SAY 0x50 @93
   SAY 0x54 @96
 
-COPY ~DarkHorizonsBGee/items/CMBEQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMBEQ02.itm~ ~override~
   SAY NAME1 @91
   SAY NAME2 @97
   SAY 0x50 @93
@@ -3567,25 +3567,25 @@ COPY ~DarkHorizonsBGee/items/CMBEQ02.itm~ ~override~
 
 /*  Boots **** */
 
-COPY ~DarkHorizonsBGee/items/CMBOOT01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBOOT01.itm~ ~override~
   SAY NAME1 @99
   SAY NAME2 @100
   SAY 0x50 @101
   SAY 0x54 @102
 
-COPY ~DarkHorizonsBGee/items/cmboot03.itm~ ~override~
+COPY ~DarkHorizons/items/cmboot03.itm~ ~override~
    SAY NAME1 @99
    SAY NAME2  @103
    SAY 0x50 @101
    SAY 0x54 @104
 
-COPY ~DarkHorizonsBGee/items/CMBTQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBTQ01.itm~ ~override~
   SAY NAME1 @105
   SAY NAME2 @106
   SAY 0x50 @101
   SAY 0x54 @107
 
-COPY ~DarkHorizonsBGee/items/CMBTQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMBTQ02.itm~ ~override~
   SAY NAME1 @99
   SAY NAME2 @108
   SAY 0x50 @101
@@ -3594,26 +3594,26 @@ COPY ~DarkHorizonsBGee/items/CMBTQ02.itm~ ~override~
 
 /* Cloaks **** */
 
-COPY ~DarkHorizonsBGee/items/CMCLCK02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMCLCK02.ITM~ ~override~
   SAY NAME1 @755
   SAY NAME2 @110
   SAY 0x50 @756
   SAY 0x54 @111
 
 
-COPY ~DarkHorizonsBGee/items/CMCLCK03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMCLCK03.ITM~ ~override~
   SAY NAME1 @112
   SAY NAME2 @113
   SAY 0x50 @114
   SAY 0x54 @115
 
-COPY ~DarkHorizonsBGee/items/CMCLCK04.itm~ ~override~
+COPY ~DarkHorizons/items/CMCLCK04.itm~ ~override~
   SAY NAME1 @116
   SAY NAME2 @117
   SAY 0x50 @118
   SAY 0x54 @119
 
-COPY ~DarkHorizonsBGee/items/CMCLCK05.ITM~ ~override~
+COPY ~DarkHorizons/items/CMCLCK05.ITM~ ~override~
   SAY NAME1 @116
   SAY NAME2 @120
   SAY 0x50 @118
@@ -3621,14 +3621,14 @@ COPY ~DarkHorizonsBGee/items/CMCLCK05.ITM~ ~override~
 
 /* Version 2.00 addition */
 
-COPY ~DarkHorizonsBGee/items/CMCLCK07.itm~ ~override~
+COPY ~DarkHorizons/items/CMCLCK07.itm~ ~override~
   SAY NAME1 @112
   SAY NAME2 @820
   SAY 0x50 @114
   SAY 0x54 @821
 /* ------------------ */
 
-COPY ~DarkHorizonsBGee/items/CMCLQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMCLQ01.itm~ ~override~
   SAY NAME1 @112
   SAY NAME2 @122
   SAY 0x50 @123
@@ -3638,50 +3638,50 @@ COPY ~DarkHorizonsBGee/items/CMCLQ01.itm~ ~override~
 
 /*  Gloves **** */
 
-COPY ~DarkHorizonsBGee/items/CMBRAC01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBRAC01.itm~ ~override~
   SAY NAME1 @125
   SAY NAME2 @126
   SAY 0x50 @127
   SAY 0x54 @128
 
-COPY ~DarkHorizonsBGee/items/CMBRAC04.itm~ ~override~
+COPY ~DarkHorizons/items/CMBRAC04.itm~ ~override~
   SAY NAME1 @129
   SAY NAME2 @130
   SAY 0x50 @131
   SAY 0x54 @132
 
-COPY ~DarkHorizonsBGee/items/CMBRQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBRQ01.itm~ ~override~
   SAY NAME1 @129
   SAY NAME2 @133
   SAY 0x50 @134
   SAY 0x54 @135
 
-COPY ~DarkHorizonsBGee/items/CMBRQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMBRQ02.itm~ ~override~
   SAY NAME1 @129
   SAY NAME2 @136
   SAY 0x50 @134
   SAY 0x54 @137
 
 
-COPY ~DarkHorizonsBGee/items/CMBRQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMBRQ03.itm~ ~override~
   SAY NAME1 @129
   SAY NAME2 @138
   SAY 0x50 @131
   SAY 0x54 @139
 
-COPY ~DarkHorizonsBGee/items/CMBRQ04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBRQ04.ITM~ ~override~
   SAY NAME1 @129
   SAY NAME2 @140
   SAY 0x50 @131
   SAY 0x54 @141
 
-COPY ~DarkHorizonsBGee/items/CMBRQ05.itm~ ~override~
+COPY ~DarkHorizons/items/CMBRQ05.itm~ ~override~
   SAY NAME1 @125
   SAY NAME2 @142
   SAY 0x50 @127
   SAY 0x54 @143
 
-COPY ~DarkHorizonsBGee/items/CMBRQ06.itm~ ~override~
+COPY ~DarkHorizons/items/CMBRQ06.itm~ ~override~
   SAY NAME1 @125
   SAY NAME2 @144
   SAY 0x50 @127
@@ -3689,43 +3689,43 @@ COPY ~DarkHorizonsBGee/items/CMBRQ06.itm~ ~override~
 
 /* Helms **** */
 
-COPY ~DarkHorizonsBGee/items/CMHELM01.itm~ ~override~
+COPY ~DarkHorizons/items/CMHELM01.itm~ ~override~
   SAY NAME1 @146
   SAY NAME2 @147
   SAY 0x50 @148
   SAY 0x54 @149
 
-COPY ~DarkHorizonsBGee/items/CMHELM02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMHELM02.ITM~ ~override~
   SAY NAME1 @146
   SAY NAME2 @150
   SAY 0x50 @148
   SAY 0x54 @151
 
-COPY ~DarkHorizonsBGee/items/CMHELM03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMHELM03.ITM~ ~override~
   SAY NAME1 @152
   SAY NAME2 @153
   SAY 0x50 @154
   SAY 0x54 @155
 
-COPY ~DarkHorizonsBGee/items/cmhelm04.itm~ ~override~
+COPY ~DarkHorizons/items/cmhelm04.itm~ ~override~
 	SAY NAME1 @146
   SAY NAME2 @156
   SAY 0x50 @157
   SAY 0x54 @158
 
-COPY ~DarkHorizonsBGee/items/CMHMQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMHMQ01.ITM~ ~override~
   SAY NAME1 @146
   SAY NAME2 @159
   SAY 0x50 @160
   SAY 0x54 @161
 
-COPY ~DarkHorizonsBGee/items/CMHMQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMHMQ02.itm~ ~override~
   SAY NAME1 @146
   SAY NAME2 @162
   SAY 0x50 @148
   SAY 0x54 @163
 
-COPY ~DarkHorizonsBGee/items/CMHMQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMHMQ03.itm~ ~override~
   SAY NAME1 @146
   SAY NAME2 @164
   SAY 0x50 @148
@@ -3733,7 +3733,7 @@ COPY ~DarkHorizonsBGee/items/CMHMQ03.itm~ ~override~
 
 /* ---------- Version 2.00 Additions ------------ */
 
-COPY ~DarkHorizonsBGee/items/CMHMQ04.itm~ ~override~
+COPY ~DarkHorizons/items/CMHMQ04.itm~ ~override~
   SAY NAME1 @146
   SAY NAME2 @836
   SAY 0x50 @148
@@ -3743,34 +3743,34 @@ COPY ~DarkHorizonsBGee/items/CMHMQ04.itm~ ~override~
 
 /* Shields **** */
 
-COPY ~DarkHorizonsBGee/items/CMSHLD01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMSHLD01.ITM~ ~override~
 
   SAY NAME1 @166
   SAY NAME2 @167
   SAY 0x50 @168
   SAY 0x54 @169
 
-COPY ~DarkHorizonsBGee/items/CMSHLD03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMSHLD03.ITM~ ~override~
   SAY NAME1 @170
   SAY NAME2 @171
   SAY 0x50 @172
   SAY 0x54 @173
   SAY 0x1F6 @174
 
-COPY ~DarkHorizonsBGee/items/CMSHLD04.itm~ ~override~
+COPY ~DarkHorizons/items/CMSHLD04.itm~ ~override~
   SAY NAME1 @175
   SAY NAME2 @176
   SAY 0x50 @177
   SAY 0x54 @178
 
-COPY ~DarkHorizonsBGee/items/CMSHLD05.itm~ ~override~
+COPY ~DarkHorizons/items/CMSHLD05.itm~ ~override~
 
   SAY NAME1 @166
   SAY NAME2 @179
   SAY 0x50 @168
   SAY 0x54 @180
 
-COPY ~DarkHorizonsBGee/items/CMSHQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMSHQ01.itm~ ~override~
   SAY NAME1 @170
   SAY NAME2 @181
   SAY 0x50 @172
@@ -3778,7 +3778,7 @@ COPY ~DarkHorizonsBGee/items/CMSHQ01.itm~ ~override~
   
 /* ---------- Version 2.00 Additions ------------ */
 
-COPY ~DarkHorizonsBGee/items/CMSHQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMSHQ02.itm~ ~override~
 
   SAY NAME1 @166
   SAY NAME2 @837
@@ -3791,13 +3791,13 @@ COPY ~DarkHorizonsBGee/items/CMSHQ02.itm~ ~override~
 
  /* Arrows **** */
 
-COPY ~DarkHorizonsBGee/items/CMAROW03.itm~ ~override~
+COPY ~DarkHorizons/items/CMAROW03.itm~ ~override~
   SAY NAME1 @183
   SAY NAME2 @184
   SAY 0x50 @185
   SAY 0x54 @186
 
-COPY ~DarkHorizonsBGee/items/CMAARQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAARQ01.ITM~ ~override~
   SAY NAME1 @187
   SAY NAME2 @188
   SAY 0x50 @185
@@ -3805,31 +3805,31 @@ COPY ~DarkHorizonsBGee/items/CMAARQ01.ITM~ ~override~
 
 /* Axes **** */
 
-COPY ~DarkHorizonsBGee/items/CMAX01.itm~ ~override~
+COPY ~DarkHorizons/items/CMAX01.itm~ ~override~
   SAY NAME1 @190
   SAY NAME2 @191
   SAY 0x50 @192
   SAY 0x54 @193
 
-COPY ~DarkHorizonsBGee/items/CMAX02.itm~ ~override~
+COPY ~DarkHorizons/items/CMAX02.itm~ ~override~
   SAY NAME1 @194
   SAY NAME2 @195
   SAY 0x50 @196
   SAY 0x54 @197
 
-COPY ~DarkHorizonsBGee/items/CMAX03.itm~ ~override~
+COPY ~DarkHorizons/items/CMAX03.itm~ ~override~
   SAY NAME1 @194
   SAY NAME2 @195
   SAY 0x50 @198
   SAY 0x54 @199
 
-COPY ~DarkHorizonsBGee/items/CMAX04.itm~ ~override~
+COPY ~DarkHorizons/items/CMAX04.itm~ ~override~
   SAY NAME1 @200
   SAY NAME2 @201
   SAY 0x50 @202
   SAY 0x54 @203
 
-COPY ~DarkHorizonsBGee/items/CMAX05.itm~ ~override~
+COPY ~DarkHorizons/items/CMAX05.itm~ ~override~
   SAY NAME1 @200
   SAY NAME2 @204
   SAY 0x50 @205
@@ -3837,55 +3837,55 @@ COPY ~DarkHorizonsBGee/items/CMAX05.itm~ ~override~
 
 /* Blunt **** */
 
-COPY ~DarkHorizonsBGee/items/CMBLUN01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBLUN01.ITM~ ~override~
   SAY NAME1 @207
   SAY NAME2 @208
   SAY 0x50 @209
   SAY 0x54 @210
 
-COPY ~DarkHorizonsBGee/items/CMBLUN02.itm~ ~override~
+COPY ~DarkHorizons/items/CMBLUN02.itm~ ~override~
   SAY NAME1 @211
   SAY NAME2 @212
   SAY 0x50 @213
   SAY 0x54 @214
 
-COPY ~DarkHorizonsBGee/items/CMBLUN03.itm~ ~override~
+COPY ~DarkHorizons/items/CMBLUN03.itm~ ~override~
   SAY NAME1 @757
   SAY NAME2 @215
   SAY 0x50 @758
   SAY 0x54 @216
 
-COPY ~DarkHorizonsBGee/items/CMBLUN04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBLUN04.ITM~ ~override~
   SAY NAME1 @217
   SAY NAME2 @218
   SAY 0x50 @219
   SAY 0x54 @220
 
-COPY ~DarkHorizonsBGee/items/CMBLUN05.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBLUN05.ITM~ ~override~
   SAY NAME1 @221
   SAY NAME2 @222
   SAY 0x50 @223
   SAY 0x54 @224
  
-COPY ~DarkHorizonsBGee/items/CMFLQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMFLQ01.itm~ ~override~
   SAY NAME1 @221
   SAY NAME2 @225
   SAY 0x50 @226
   SAY 0x54 @227
  
-COPY ~DarkHorizonsBGee/items/CMHAMM01.itm~ ~override~
+COPY ~DarkHorizons/items/CMHAMM01.itm~ ~override~
   SAY NAME1 @228
   SAY NAME2 @229
   SAY 0x50 @230
   SAY 0x54 @231
 
-COPY ~DarkHorizonsBGee/items/CMHAMM02.itm~ ~override~
+COPY ~DarkHorizons/items/CMHAMM02.itm~ ~override~
   SAY NAME1 @232
   SAY NAME2 @233
   SAY 0x50 @234
   SAY 0x54 @235
 
-COPY ~DarkHorizonsBGee/items/CMHAMM03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMHAMM03.ITM~ ~override~
   SAY NAME1 @232
   SAY NAME2 @236
   SAY 0x50 @237
@@ -3893,7 +3893,7 @@ COPY ~DarkHorizonsBGee/items/CMHAMM03.ITM~ ~override~
   
 /* ---------- Version 2.00 Additions ------------ */
 
-COPY ~DarkHorizonsBGee/items/CMHAMM04.itm~ ~override~
+COPY ~DarkHorizons/items/CMHAMM04.itm~ ~override~
   SAY NAME1 @232
   SAY NAME2 @838
   SAY 0x50 @234
@@ -3901,25 +3901,25 @@ COPY ~DarkHorizonsBGee/items/CMHAMM04.itm~ ~override~
   
 /* --------------------------------------     */
  
-COPY ~DarkHorizonsBGee/items/CMHAQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMHAQ01.ITM~ ~override~
   SAY NAME1 @232
   SAY NAME2 @239
   SAY 0x50 @237
   SAY 0x54 @240
 
-COPY ~DarkHorizonsBGee/items/CMHAQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMHAQ02.itm~ ~override~
   SAY NAME1 @232
   SAY NAME2 @241
   SAY 0x50 @242
   SAY 0x54 @243
  
-COPY ~DarkHorizonsBGee/items/CMMSQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMMSQ01.ITM~ ~override~
   SAY NAME1 @211
   SAY NAME2 @244
   SAY 0x50 @213
   SAY 0x54 @245
 
-COPY ~DarkHorizonsBGee/items/CMMSQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMMSQ02.itm~ ~override~
   SAY NAME1 @207
   SAY NAME2 @246
   SAY 0x50 @209
@@ -3927,19 +3927,19 @@ COPY ~DarkHorizonsBGee/items/CMMSQ02.itm~ ~override~
  
 /* Bows **** */
 
-COPY ~DarkHorizonsBGee/items/CMBOW01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBOW01.itm~ ~override~
   SAY NAME1 @248
   SAY NAME2 @249
   SAY 0x50 @250
   SAY 0x54 @251
 
-COPY ~DarkHorizonsBGee/items/CMBOW02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBOW02.ITM~ ~override~
   SAY NAME1 @248
   SAY NAME2 @252
   SAY 0x50 @250
   SAY 0x54 @253
 
-COPY ~DarkHorizonsBGee/items/CMBOW03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBOW03.ITM~ ~override~
 
   SAY NAME1 @254
   SAY NAME2 @255
@@ -3948,7 +3948,7 @@ COPY ~DarkHorizonsBGee/items/CMBOW03.ITM~ ~override~
   
 /* ---------- Version 2.00 Additions ------------ */
 
-COPY ~DarkHorizonsBGee/items/CMBOW04.itm~ ~override~
+COPY ~DarkHorizons/items/CMBOW04.itm~ ~override~
   SAY NAME1 @248
   SAY NAME2 @834
   SAY 0x50 @250
@@ -3956,33 +3956,33 @@ COPY ~DarkHorizonsBGee/items/CMBOW04.itm~ ~override~
   
 /* --------------------------------------     */
  
-COPY ~DarkHorizonsBGee/items/CMBWQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBWQ01.itm~ ~override~
 
   SAY NAME1 @254
   SAY NAME2 @258
   SAY 0x50 @259
   SAY 0x54 @260
 
-COPY ~DarkHorizonsBGee/items/CMBWQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMBWQ02.itm~ ~override~
   SAY NAME1 @248
   SAY NAME2 @261
   SAY 0x50 @262
   SAY 0x54 @263
 
-COPY ~DarkHorizonsBGee/items/CMBWQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMBWQ03.itm~ ~override~
   SAY NAME1 @264
   SAY NAME2 @265
   SAY 0x50 @266
   SAY 0x54 @267
 
 
-COPY ~DarkHorizonsBGee/items/CMBWQ04.itm~ ~override~
+COPY ~DarkHorizons/items/CMBWQ04.itm~ ~override~
   SAY NAME1 @268
   SAY NAME2 @269
   SAY 0x50 @270
   SAY 0x54 @271
 
- COPY ~DarkHorizonsBGee/items/CMXBOW01.itm~ ~override~
+ COPY ~DarkHorizons/items/CMXBOW01.itm~ ~override~
   SAY NAME1 @264
   SAY NAME2 @272
   SAY 0x50 @273
@@ -3990,25 +3990,25 @@ COPY ~DarkHorizonsBGee/items/CMBWQ04.itm~ ~override~
  
 /* Bullets **** */
 
-COPY ~DarkHorizonsBGee/items/cmbul02.itm~ ~override~
+COPY ~DarkHorizons/items/cmbul02.itm~ ~override~
   SAY NAME1 @275
   SAY NAME2 @276
   SAY 0x50 @277
   SAY 0x54 @278
 
-COPY ~DarkHorizonsBGee/items/CMBUQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMBUQ01.itm~ ~override~
   SAY NAME1 @275
   SAY NAME2 @279
   SAY 0x50 @280
   SAY 0x54 @281
 
-COPY ~DarkHorizonsBGee/items/CMBUQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMBUQ02.itm~ ~override~
   SAY NAME1 @275
   SAY NAME2 @282
   SAY 0x50 @277
   SAY 0x54 @283
 
-COPY ~DarkHorizonsBGee/items/CMBUQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMBUQ03.itm~ ~override~
   SAY NAME1 @275
   SAY NAME2 @284
   SAY 0x50 @277
@@ -4016,14 +4016,14 @@ COPY ~DarkHorizonsBGee/items/CMBUQ03.itm~ ~override~
 
 /* Daggers **** */
 
-COPY ~DarkHorizonsBGee/items/CMDAGG01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMDAGG01.ITM~ ~override~
   SAY NAME1 @286
   SAY NAME2 @287
   SAY 0x50 @288
   SAY 0x54 @289
 
 
-COPY ~DarkHorizonsBGee/items/cmdagg02.itm~ ~override~
+COPY ~DarkHorizons/items/cmdagg02.itm~ ~override~
 SAY NAME1 @286
   SAY NAME2 @290
   SAY 0x50 @291
@@ -4031,14 +4031,14 @@ SAY NAME1 @286
   
 /* Version 2.00 addition */
 
-COPY ~DarkHorizonsBGee/items/CMDAGG03.itm~ ~override~
+COPY ~DarkHorizons/items/CMDAGG03.itm~ ~override~
 
   SAY NAME1 @286
   SAY NAME2 @824
   SAY 0x50 @291
   SAY 0x54 @299
 
-COPY ~DarkHorizonsBGee/items/CMDAGG04.itm~ ~override~
+COPY ~DarkHorizons/items/CMDAGG04.itm~ ~override~
 
   SAY NAME1 @286
   SAY NAME2 @825
@@ -4046,32 +4046,32 @@ COPY ~DarkHorizonsBGee/items/CMDAGG04.itm~ ~override~
   SAY 0x54 @826
 /* ------------------ */
 
-COPY ~DarkHorizonsBGee/items/CMDAQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMDAQ01.itm~ ~override~
   SAY NAME1 @286
   SAY NAME2 @293
   SAY 0x50 @291
   SAY 0x54 @294
 
-COPY ~DarkHorizonsBGee/items/CMDAQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMDAQ02.itm~ ~override~
   SAY NAME1 @286
   SAY NAME2 @295
   SAY 0x50 @291
   SAY 0x54 @296
 
-COPY ~DarkHorizonsBGee/items/CMDAQ03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMDAQ03.ITM~ ~override~
   SAY NAME1 @286
   SAY NAME2 @297
   SAY 0x50 @298
   SAY 0x54 @299
 
 
-COPY ~DarkHorizonsBGee/items/CMDAQ04.itm~ ~override~
+COPY ~DarkHorizons/items/CMDAQ04.itm~ ~override~
   SAY NAME1 @286
   SAY NAME2 @300
   SAY 0x50 @291
   SAY 0x54 @301
 
-COPY ~DarkHorizonsBGee/items/CMDAQ05.itm~ ~override~
+COPY ~DarkHorizons/items/CMDAQ05.itm~ ~override~
   SAY NAME1 @302
   SAY NAME2 @303
   SAY 0x50 @304
@@ -4079,19 +4079,19 @@ COPY ~DarkHorizonsBGee/items/CMDAQ05.itm~ ~override~
  
 /* Halberds and Spears **** */
 
-COPY ~DarkHorizonsBGee/items/CMSPQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMSPQ01.itm~ ~override~
   SAY NAME1 @306
   SAY NAME2 @307
   SAY 0x50 @308
   SAY 0x54 @309
 
-COPY ~DarkHorizonsBGee/items/CMSPQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMSPQ02.itm~ ~override~
   SAY NAME1 @306
   SAY NAME2 @310
   SAY 0x50 @308
   SAY 0x54 @311
 
-COPY ~DarkHorizonsBGee/items/CMSPQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMSPQ03.itm~ ~override~
   SAY NAME1 @306
   SAY NAME2 @312
   SAY 0x50 @308
@@ -4099,7 +4099,7 @@ COPY ~DarkHorizonsBGee/items/CMSPQ03.itm~ ~override~
 
 /* Slings **** */
 
-COPY ~DarkHorizonsBGee/items/CMSLQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMSLQ01.itm~ ~override~
 
   SAY NAME1 @314
   SAY NAME2 @315
@@ -4108,7 +4108,7 @@ COPY ~DarkHorizonsBGee/items/CMSLQ01.itm~ ~override~
   
 /* Version 2.00 addition */
 
-COPY ~DarkHorizonsBGee/items/CMSLQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMSLQ02.itm~ ~override~
 
   SAY NAME1 @314
   SAY NAME2 @822
@@ -4119,44 +4119,44 @@ COPY ~DarkHorizonsBGee/items/CMSLQ02.itm~ ~override~
 
 /* Staves **** */
 
-COPY ~DarkHorizonsBGee/items/CMSTAF01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMSTAF01.ITM~ ~override~
 	SAY NAME1 @759
   SAY NAME2 @318
   SAY 0x50 @760
   SAY 0x54 @319
 
-COPY ~DarkHorizonsBGee/items/CMSTQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMSTQ01.ITM~ ~override~
 
   SAY NAME1 @320
   SAY NAME2 @321
   SAY 0x50 @322
   SAY 0x54 @323
 
-COPY ~DarkHorizonsBGee/items/CMSTQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMSTQ02.itm~ ~override~
   SAY NAME1 @324
   SAY NAME2 @325
   SAY 0x50 @326
   SAY 0x54 @327
 
-COPY ~DarkHorizonsBGee/items/CMSTQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMSTQ03.itm~ ~override~
   SAY NAME1 @324
   SAY NAME2 @328
   SAY 0x50 @329
   SAY 0x54 @330
 
-COPY ~DarkHorizonsBGee/items/CMSTQ04.itm~ ~override~
+COPY ~DarkHorizons/items/CMSTQ04.itm~ ~override~
   SAY NAME1 @324
   SAY NAME2 @331
   SAY 0x50 @332
   SAY 0x54 @333
 
-COPY ~DarkHorizonsBGee/items/CMSTQ05.itm~ ~override~
+COPY ~DarkHorizons/items/CMSTQ05.itm~ ~override~
   SAY NAME1 @324
   SAY NAME2 @334
   SAY 0x50 @332
   SAY 0x54 @335
 
-COPY ~DarkHorizonsBGee/items/CMSTQ06.itm~ ~override~
+COPY ~DarkHorizons/items/CMSTQ06.itm~ ~override~
   SAY NAME1 @324
   SAY NAME2 @336
   SAY 0x50 @332
@@ -4164,44 +4164,44 @@ COPY ~DarkHorizonsBGee/items/CMSTQ06.itm~ ~override~
 
 /* Swords **** */
 
-COPY ~DarkHorizonsBGee/items/CMS1H01.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H01.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @339
   SAY 0x50 @340
   SAY 0x54 @341
 
-COPY ~DarkHorizonsBGee/items/CMS1H03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMS1H03.ITM~ ~override~
   SAY NAME1 @342
   SAY NAME2 @343
   SAY 0x50 @344
   SAY 0x54 @345
 
-COPY ~DarkHorizonsBGee/items/CMS1H04.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H04.itm~ ~override~
   SAY NAME1 @346
   SAY NAME2 @347
   SAY 0x50 @348
   SAY 0x54 @349
 
 
-COPY ~DarkHorizonsBGee/items/CMS1H05.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H05.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @350
   SAY 0x50 @340
   SAY 0x54 @351
 
-COPY ~DarkHorizonsBGee/items/CMS1H07.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H07.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @352
   SAY 0x50 @340
   SAY 0x54 @353
 
-COPY ~DarkHorizonsBGee/items/CMS1H08.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H08.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @354
   SAY 0x50 @355
   SAY 0x54 @356
 
-COPY ~DarkHorizonsBGee/items/CMS1H09.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H09.itm~ ~override~
   SAY NAME1 @346
   SAY NAME2 @357
   SAY 0x50 @358
@@ -4209,13 +4209,13 @@ COPY ~DarkHorizonsBGee/items/CMS1H09.itm~ ~override~
   
 /* ---------- Version 2.00 Additions ------------ */
 
-COPY ~DarkHorizonsBGee/items/CMS1H10.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H10.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @830
   SAY 0x50 @340
   SAY 0x54 @831
   
-COPY ~DarkHorizonsBGee/items/CMS1H11.itm~ ~override~
+COPY ~DarkHorizons/items/CMS1H11.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @832
   SAY 0x50 @340
@@ -4223,100 +4223,100 @@ COPY ~DarkHorizonsBGee/items/CMS1H11.itm~ ~override~
   
 /* --------------------------------------     */
  
-COPY ~DarkHorizonsBGee/items/CMSWQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ01.itm~ ~override~
 
   SAY NAME1 @360
   SAY NAME2 @361
   SAY 0x50 @362
   SAY 0x54 @363
 
-COPY ~DarkHorizonsBGee/items/CMSWQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ02.itm~ ~override~
   SAY NAME1 @364
   SAY NAME2 @365
   SAY 0x50 @366
   SAY 0x54 @367
 
-COPY ~DarkHorizonsBGee/items/CMSWQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ03.itm~ ~override~
   SAY NAME1 @342
   SAY NAME2 @368
   SAY 0x50 @369
   SAY 0x54 @370
 
-COPY ~DarkHorizonsBGee/items/CMSWQ04.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ04.itm~ ~override~
   SAY NAME1 @346
   SAY NAME2 @371
   SAY 0x50 @372
   SAY 0x54 @373
 
-COPY ~DarkHorizonsBGee/items/CMSWQ05.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ05.itm~ ~override~
   SAY NAME1 @346
   SAY NAME2 @374
   SAY 0x50 @375
   SAY 0x54 @376
 
-COPY ~DarkHorizonsBGee/items/CMSWQ06.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ06.itm~ ~override~
   SAY NAME1 @346
   SAY NAME2 @377
   SAY 0x50 @375
   SAY 0x54 @378
 
-COPY ~DarkHorizonsBGee/items/CMSWQ07.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ07.itm~ ~override~
   SAY NAME1 @346
   SAY NAME2 @379
   SAY 0x50 @375
   SAY 0x54 @380
 
-COPY ~DarkHorizonsBGee/items/CMSWQ08.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ08.itm~ ~override~
   SAY NAME1 @364
   SAY NAME2 @381
   SAY 0x50 @382
   SAY 0x54 @383
 
-COPY ~DarkHorizonsBGee/items/CMSWQ09.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ09.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @384
   SAY 0x50 @340
   SAY 0x54 @385
   SAY 0x1FE @174
 
-COPY ~DarkHorizonsBGee/items/CMSWQ10.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ10.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @386
   SAY 0x50 @340
   SAY 0x54 @387
 
-COPY ~DarkHorizonsBGee/items/CMSWQ11.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ11.itm~ ~override~
 
   SAY NAME1 @342
   SAY NAME2 @388
   SAY 0x50 @389
   SAY 0x54 @390
 
-COPY ~DarkHorizonsBGee/items/CMSWQ12.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ12.itm~ ~override~
   SAY NAME1 @342
   SAY NAME2 @391
   SAY 0x50 @392
   SAY 0x54 @393
 
-COPY ~DarkHorizonsBGee/items/CMSWQ14.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ14.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @398
   SAY 0x50 @340
   SAY 0x54 @399
 
-COPY ~DarkHorizonsBGee/items/CMSWQ15.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ15.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @400
   SAY 0x50 @401
   SAY 0x54 @402
 
-COPY ~DarkHorizonsBGee/items/CMSWQ16.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ16.itm~ ~override~
   SAY NAME1 @403
   SAY NAME2 @404
   SAY 0x50 @405
   SAY 0x54 @406
 
-COPY ~DarkHorizonsBGee/items/CMSWQ17.itm~ ~override~
+COPY ~DarkHorizons/items/CMSWQ17.itm~ ~override~
   SAY NAME1 @364
   SAY NAME2 @407
   SAY 0x50 @408
@@ -4326,54 +4326,54 @@ COPY ~DarkHorizonsBGee/items/CMSWQ17.itm~ ~override~
 
 /* Amulets **** */
 
-COPY ~DarkHorizonsBGee/items/CMAMQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAMQ01.ITM~ ~override~
 
   SAY NAME1 @410
   SAY NAME2 @411
   SAY 0x50 @412
   SAY 0x54 @413
 
-COPY ~DarkHorizonsBGee/items/CMAMQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMAMQ02.itm~ ~override~
   SAY NAME1 @414
   SAY NAME2 @415
   SAY 0x50 @416
   SAY 0x54 @417
 
-COPY ~DarkHorizonsBGee/items/CMAMQ03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAMQ03.ITM~ ~override~
   SAY NAME1 @418
   SAY NAME2 @419
   SAY 0x50 @420
   SAY 0x54 @421
 
-COPY ~DarkHorizonsBGee/items/CMAMUL01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAMUL01.ITM~ ~override~
   SAY NAME1 @410
   SAY NAME2 @422
   SAY 0x50 @412
   SAY 0x54 @423
 
 
-COPY ~DarkHorizonsBGee/items/CMAMUL02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAMUL02.ITM~ ~override~
   SAY NAME1 @414
   SAY NAME2 @424
   SAY 0x50 @425
   SAY 0x54 @426
 
 
-COPY ~DarkHorizonsBGee/items/CMAMUL03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAMUL03.ITM~ ~override~
   SAY NAME1 @410
   SAY NAME2 @427
   SAY 0x50 @428
   SAY 0x54 @429
 
 
-COPY ~DarkHorizonsBGee/items/CMAMUL04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAMUL04.ITM~ ~override~
   SAY NAME1 @414
   SAY NAME2 @430
   SAY 0x50 @416
   SAY 0x54 @431
 
 
-COPY ~DarkHorizonsBGee/items/CMAMUL05.ITM~ ~override~
+COPY ~DarkHorizons/items/CMAMUL05.ITM~ ~override~
   SAY NAME1 @410
   SAY NAME2 @432
   SAY 0x50 @428
@@ -4381,74 +4381,74 @@ COPY ~DarkHorizonsBGee/items/CMAMUL05.ITM~ ~override~
 
 /* Rings **** */
 
-COPY ~DarkHorizonsBGee/items/CMRING01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMRING01.ITM~ ~override~
   SAY NAME1 @434
   SAY NAME2 @435
   SAY 0x50 @436
   SAY 0x54 @437
 
-COPY ~DarkHorizonsBGee/items/CMRING02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMRING02.ITM~ ~override~
   SAY NAME1 @434
   SAY NAME2 @438
   SAY 0x50 @436
   SAY 0x54 @439
 
-COPY ~DarkHorizonsBGee/items/cmring03.itm~ ~override~
+COPY ~DarkHorizons/items/cmring03.itm~ ~override~
 	SAY NAME1 @761
   SAY NAME2 @440
   SAY 0x50 @762
   SAY 0x54 @441
 
-COPY ~DarkHorizonsBGee/items/cmring04.itm~ ~override~
+COPY ~DarkHorizons/items/cmring04.itm~ ~override~
   SAY NAME1 @434
   SAY NAME2 @442
   SAY 0x50 @436
   SAY 0x54 @443
 
-COPY ~DarkHorizonsBGee/items/CMRING05.ITM~ ~override~
+COPY ~DarkHorizons/items/CMRING05.ITM~ ~override~
   SAY NAME1 @434
   SAY NAME2 @444
   SAY 0x50 @436
   SAY 0x54 @445
 
-COPY ~DarkHorizonsBGee/items/CMRIQ01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMRIQ01.ITM~ ~override~
   SAY NAME1 @434
   SAY NAME2 @446
   SAY 0x50 @436
   SAY 0x54 @447
 
 
-COPY ~DarkHorizonsBGee/items/CMRIQ02.ITM~ ~override~
+COPY ~DarkHorizons/items/CMRIQ02.ITM~ ~override~
   SAY NAME1 @434
   SAY NAME2 @448
   SAY 0x50 @436
   SAY 0x54 @449
 
-COPY ~DarkHorizonsBGee/items/CMRIQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMRIQ03.itm~ ~override~
   SAY NAME1 @434
   SAY NAME2 @450
   SAY 0x50 @436
   SAY 0x54 @451
 
-COPY ~DarkHorizonsBGee/items/CMRIQ04.itm~ ~override~
+COPY ~DarkHorizons/items/CMRIQ04.itm~ ~override~
   SAY NAME1 @434
   SAY NAME2 @452
   SAY 0x50 @453
   SAY 0x54 @454
 
-COPY ~DarkHorizonsBGee/items/CMRIQ05.itm~ ~override~
+COPY ~DarkHorizons/items/CMRIQ05.itm~ ~override~
   SAY NAME1 @434
   SAY NAME2 @455
   SAY 0x50 @436
   SAY 0x54 @456
 
-COPY ~DarkHorizonsBGee/items/CMRIQ06.itm~ ~override~
+COPY ~DarkHorizons/items/CMRIQ06.itm~ ~override~
   SAY NAME1 @434
   SAY NAME2 @457
   SAY 0x50 @436
   SAY 0x54 @458
 
-COPY ~DarkHorizonsBGee/items/CMRIQ07.itm~ ~override~
+COPY ~DarkHorizons/items/CMRIQ07.itm~ ~override~
   SAY NAME1 @434
   SAY NAME2 @459
   SAY 0x50 @436
@@ -4456,49 +4456,49 @@ COPY ~DarkHorizonsBGee/items/CMRIQ07.itm~ ~override~
 
 /* **************************** Scrolls ************************ */
 
-COPY ~DarkHorizonsBGee/items/CMBSCR1.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBSCR1.ITM~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @462
 
-COPY ~DarkHorizonsBGee/items/SCRSEC1.itm~ ~override~
+COPY ~DarkHorizons/items/SCRSEC1.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @463
 
-COPY ~DarkHorizonsBGee/items/SCRSEC2.itm~ ~override~
+COPY ~DarkHorizons/items/SCRSEC2.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @464
 
-COPY ~DarkHorizonsBGee/items/SCRSEC3.itm~ ~override~
+COPY ~DarkHorizons/items/SCRSEC3.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @465
 
-COPY ~DarkHorizonsBGee/items/SCRSEC4.itm~ ~override~
+COPY ~DarkHorizons/items/SCRSEC4.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @466
 
-COPY ~DarkHorizonsBGee/items/SCRSEC5.itm~ ~override~
+COPY ~DarkHorizons/items/SCRSEC5.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @467
 
-COPY ~DarkHorizonsBGee/items/SCRSEC6.itm~ ~override~
+COPY ~DarkHorizons/items/SCRSEC6.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @468
 
-COPY ~DarkHorizonsBGee/items/SCRSEC7.itm~ ~override~
+COPY ~DarkHorizons/items/SCRSEC7.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @469
   
 /* ********************* Food *********************** */ 
 
-COPY ~DarkHorizonsBGee/items/CMFOOD1.ITM~ ~override~
+COPY ~DarkHorizons/items/CMFOOD1.ITM~ ~override~
 
   SAY NAME1 @470
   SAY NAME2 @470
@@ -4506,7 +4506,7 @@ COPY ~DarkHorizonsBGee/items/CMFOOD1.ITM~ ~override~
   SAY 0x54 @471
   SAY 0x10E @473 
 
-COPY ~DarkHorizonsBGee/items/CMFOOD2.itm~ ~override~
+COPY ~DarkHorizons/items/CMFOOD2.itm~ ~override~
 
   SAY NAME1 @474
   SAY NAME2 @474
@@ -4515,7 +4515,7 @@ COPY ~DarkHorizonsBGee/items/CMFOOD2.itm~ ~override~
   SAY 0x10E @473 
   
 
-COPY ~DarkHorizonsBGee/items/CMGRAPE.itm~ ~override~
+COPY ~DarkHorizons/items/CMGRAPE.itm~ ~override~
 
   SAY NAME1 @474
   SAY NAME2 @474
@@ -4523,34 +4523,34 @@ COPY ~DarkHorizonsBGee/items/CMGRAPE.itm~ ~override~
   SAY 0x54 @475
   SAY 0x10E @473 
 
-COPY ~DarkHorizonsBGee/items/CMHEAL1.ITM~ ~override~
+COPY ~DarkHorizons/items/CMHEAL1.ITM~ ~override~
   SAY NAME1 @763
   SAY NAME2 @476
   SAY 0x54 @477
   SAY 0x13E @478
 
-COPY ~DarkHorizonsBGee/items/CMHEAL2.itm~ ~override~
+COPY ~DarkHorizons/items/CMHEAL2.itm~ ~override~
   SAY NAME1 @479
   SAY NAME2 @480
   SAY 0x50 @481
   SAY 0x54 @482
   SAY 0x13E @478
 
-COPY ~DarkHorizonsBGee/items/CMKFC01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMKFC01.ITM~ ~override~
   SAY NAME1 @483
   SAY NAME2 @483
   SAY 0x50 @484
   SAY 0x54 @484
   SAY 0x10E @473 
   
-COPY ~DarkHorizonsBGee/items/CMPOT01.itm~ ~override~
+COPY ~DarkHorizons/items/CMPOT01.itm~ ~override~
   SAY NAME1 @479
   SAY NAME2 @485
   SAY 0x50 @481
   SAY 0x54 @486
 
 
-COPY ~DarkHorizonsBGee/items/CMPOT02.itm~ ~override~
+COPY ~DarkHorizons/items/CMPOT02.itm~ ~override~
   SAY NAME1 @479
   SAY NAME2 @487
   SAY 0x50 @481
@@ -4559,38 +4559,38 @@ COPY ~DarkHorizonsBGee/items/CMPOT02.itm~ ~override~
 
 /* ********************* Wands and other magical devices */
 
-COPY ~DarkHorizonsBGee/items/CMWAQ01.itm~ ~override~
+COPY ~DarkHorizons/items/CMWAQ01.itm~ ~override~
 
   SAY NAME1 @489
   SAY NAME2 @490
   SAY 0x50 @491
   SAY 0x54 @492
 
-COPY ~DarkHorizonsBGee/items/CMWAQ02.itm~ ~override~
+COPY ~DarkHorizons/items/CMWAQ02.itm~ ~override~
   SAY NAME1 @489
   SAY NAME2 @493
   SAY 0x50 @491
   SAY 0x54 @494
 
-COPY ~DarkHorizonsBGee/items/CMWAQ03.itm~ ~override~
+COPY ~DarkHorizons/items/CMWAQ03.itm~ ~override~
   SAY NAME1 @489
   SAY NAME2 @495
   SAY 0x50 @491
   SAY 0x54 @496
 
-COPY ~DarkHorizonsBGee/items/SKLDEAD.ITM~ ~override~
+COPY ~DarkHorizons/items/SKLDEAD.ITM~ ~override~
   SAY NAME1 @497
   SAY NAME2 @498
   SAY 0x50 @499
   SAY 0x54 @500
 
-COPY ~DarkHorizonsBGee/items/CMLUTE.itm~ ~override~
+COPY ~DarkHorizons/items/CMLUTE.itm~ ~override~
   SAY NAME1 @501
   SAY NAME2 @502
   SAY 0x50 @503
   SAY 0x54 @504
 
-COPY ~DarkHorizonsBGee/items/CMCAND1.ITM~ ~override~
+COPY ~DarkHorizons/items/CMCAND1.ITM~ ~override~
   SAY NAME1 @505
   SAY NAME2 @506
   SAY 0x50 @507
@@ -4599,88 +4599,88 @@ COPY ~DarkHorizonsBGee/items/CMCAND1.ITM~ ~override~
   
 /* ********************* Plot items and creature only items *************** */
 
-COPY ~DarkHorizonsBGee/items/CMDAMUL.ITM~ ~override~
+COPY ~DarkHorizons/items/CMDAMUL.ITM~ ~override~
   SAY NAME1 @410
   SAY NAME2 @510
   SAY 0x50 @511
   SAY 0x54 @512
 
-COPY ~DarkHorizonsBGee/items/CMDRAG1.ITM~ ~override~
+COPY ~DarkHorizons/items/CMDRAG1.ITM~ ~override~
   SAY NAME1 @513
   SAY NAME2 @514
   SAY 0x50 @515
   SAY 0x54 @515
 
-COPY ~DarkHorizonsBGee/items/CMDRAG2.ITM~ ~override~
+COPY ~DarkHorizons/items/CMDRAG2.ITM~ ~override~
 
    SAY NAME1 @513
    SAY NAME2 @514
   SAY 0x50 @515
   SAY 0x54 @515
 
-COPY ~DarkHorizonsBGee/items/CMGHST2.ITM~ ~override~
+COPY ~DarkHorizons/items/CMGHST2.ITM~ ~override~
   SAY NAME1 @514
   SAY NAME2 @514
   SAY 0x50 @515
   SAY 0x54 @515
 
-COPY ~DarkHorizonsBGee/items/CMISC01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMISC01.ITM~ ~override~
   SAY NAME1 @516
   SAY NAME2 @516
   SAY 0x50 @517
 
 
-COPY ~DarkHorizonsBGee/items/CMKEY01.itm~ ~override~
+COPY ~DarkHorizons/items/CMKEY01.itm~ ~override~
 
   SAY NAME1 @518
   SAY NAME2 @519
   SAY 0x50 @520
   SAY 0x54 @521
 
-COPY ~DarkHorizonsBGee/items/CMKEY02.itm~ ~override~
+COPY ~DarkHorizons/items/CMKEY02.itm~ ~override~
 
   SAY NAME1 @518
   SAY NAME2 @522
   SAY 0x50 @520
   SAY 0x54 @523
 
-COPY ~DarkHorizonsBGee/items/CMKEY03.itm~ ~override~
+COPY ~DarkHorizons/items/CMKEY03.itm~ ~override~
   SAY NAME1 @524
   SAY NAME2 @525
   SAY 0x50 @526
 
-COPY ~DarkHorizonsBGee/items/CMKEY04.itm~ ~override~
+COPY ~DarkHorizons/items/CMKEY04.itm~ ~override~
   SAY NAME1 @524
   SAY NAME2 @527
   SAY 0x50 @528
   
 /* Bags & Containers New for version 200 */
 
-COPY ~DarkHorizonsBGee/items/CMBAG01.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBAG01.ITM~ ~override~
   SAY NAME1 @810
   SAY NAME2 @810
   SAY 0x50 @809
   SAY 0x54 @809
 
-COPY ~DarkHorizonsBGee/items/CMBAG03.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBAG03.ITM~ ~override~
   SAY NAME1 @812
   SAY NAME2 @812
   SAY 0x50 @811
   SAY 0x54 @811
   
-COPY ~DarkHorizonsBGee/items/CMBAG04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBAG04.ITM~ ~override~
   SAY NAME1 @814
   SAY NAME2 @814
   SAY 0x50 @813
   SAY 0x54 @813
 
-COPY ~DarkHorizonsBGee/items/CMBAG05.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBAG05.ITM~ ~override~
   SAY NAME1 @816
   SAY NAME2 @816
   SAY 0x50 @815
   SAY 0x54 @815
   
-COPY ~DarkHorizonsBGee/items/CMBAG06.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBAG06.ITM~ ~override~
   SAY NAME1 @818
   SAY NAME2 @818
   SAY 0x50 @817
@@ -4688,431 +4688,431 @@ COPY ~DarkHorizonsBGee/items/CMBAG06.ITM~ ~override~
   
 /* BG1 Adventures items */ 
 
-COPY    ~DarkHorizonsBGee/items/maarow01.itm~   ~override/maarow01.itm~
+COPY    ~DarkHorizons/items/maarow01.itm~   ~override/maarow01.itm~
 SAY NAME1 @183
 SAY NAME2 @529
 SAY UNIDENTIFIED_DESC @530
 SAY DESC @531
 
-COPY    ~DarkHorizonsBGee/items/maax1h01.itm~   ~override/maax1h01.itm~ 
+COPY    ~DarkHorizons/items/maax1h01.itm~   ~override/maax1h01.itm~ 
 SAY NAME1	@764
 SAY NAME2 @532
 SAY DESC @533
 
-COPY    ~DarkHorizonsBGee/items/mclck01.itm~   ~override/mclck01.itm~ 
+COPY    ~DarkHorizons/items/mclck01.itm~   ~override/mclck01.itm~ 
 SAY NAME1 @112
 SAY NAME2 @534
 SAY UNIDENTIFIED_DESC @114
 SAY DESC @535
 
-COPY    ~DarkHorizonsBGee/items/ma1sw01.itm~   ~override/ma1sw01.itm~
+COPY    ~DarkHorizons/items/ma1sw01.itm~   ~override/ma1sw01.itm~
 SAY NAME1 @765
 SAY NAME2 @536
 SAY DESC @537
 
-COPY    ~DarkHorizonsBGee/items/ma1sw02.itm~   ~override/ma1sw02.itm~ 
+COPY    ~DarkHorizons/items/ma1sw02.itm~   ~override/ma1sw02.itm~ 
 SAY NAME1 @538
 SAY NAME2 @539
 SAY DESC @540
 
-COPY    ~DarkHorizonsBGee/items/ma2sw01.itm~   ~override/ma2sw01.itm~ 
+COPY    ~DarkHorizons/items/ma2sw01.itm~   ~override/ma2sw01.itm~ 
 SAY NAME1 @394
 SAY NAME2 @541
 SAY UNIDENTIFIED_DESC @542
 SAY DESC @543
 
-COPY    ~DarkHorizonsBGee/items/ma2sw02.itm~   ~override/ma2sw02.itm~ 
+COPY    ~DarkHorizons/items/ma2sw02.itm~   ~override/ma2sw02.itm~ 
 SAY NAME1 @544
 SAY NAME2 @545
 SAY DESC @546
 
-COPY    ~DarkHorizonsBGee/items/maax1h02.itm~   ~override/maax1h02.itm~
+COPY    ~DarkHorizons/items/maax1h02.itm~   ~override/maax1h02.itm~
 SAY NAME1 @764
 SAY NAME2 @532
 SAY DESC @547
 
-COPY    ~DarkHorizonsBGee/items/maax1h03.itm~   ~override/maax1h03.itm~ 
+COPY    ~DarkHorizons/items/maax1h03.itm~   ~override/maax1h03.itm~ 
 SAY NAME1 @200
 SAY NAME2 @548
 SAY UNIDENTIFIED_DESC @205
 SAY DESC @549
 
-COPY    ~DarkHorizonsBGee/items/mabrac01.itm~   ~override/mabrac01.itm~
+COPY    ~DarkHorizons/items/mabrac01.itm~   ~override/mabrac01.itm~
 SAY NAME1 @766
 SAY NAME2 @550
 SAY DESC @551
 
-COPY    ~DarkHorizonsBGee/items/mabrac02.itm~   ~override/mabrac02.itm~ 
+COPY    ~DarkHorizons/items/mabrac02.itm~   ~override/mabrac02.itm~ 
 SAY NAME1 @766
 SAY NAME2 @552
 SAY DESC @553
 
-COPY    ~DarkHorizonsBGee/items/mabull01.itm~   ~override/mabull01.itm~ 
+COPY    ~DarkHorizons/items/mabull01.itm~   ~override/mabull01.itm~ 
 SAY NAME1 @275
 SAY NAME2 @554
 SAY UNIDENTIFIED_DESC @280
 SAY DESC @555
 
-COPY    ~DarkHorizonsBGee/items/machan01.itm~   ~override/machan01.itm~
+COPY    ~DarkHorizons/items/machan01.itm~   ~override/machan01.itm~
 SAY NAME1 @767
 SAY NAME2 @556
 SAY DESC @557
 
-COPY    ~DarkHorizonsBGee/items/maclck01.itm~   ~override/maclck01.itm~ 
+COPY    ~DarkHorizons/items/maclck01.itm~   ~override/maclck01.itm~ 
 SAY NAME1 @116
 SAY NAME2 @558
 SAY DESC @559
 
-COPY    ~DarkHorizonsBGee/items/macmbl01.itm~   ~override/macmbl01.itm~ 
+COPY    ~DarkHorizons/items/macmbl01.itm~   ~override/macmbl01.itm~ 
 SAY NAME1 @221
 SAY NAME2 @560
 SAY DESC @561
 
-COPY    ~DarkHorizonsBGee/items/macmbl02.itm~   ~override/macmbl02.itm~ 
+COPY    ~DarkHorizons/items/macmbl02.itm~   ~override/macmbl02.itm~ 
 SAY NAME1 @207
 SAY NAME2 @562
 SAY DESC @563
 
-COPY    ~DarkHorizonsBGee/items/macmda01.itm~   ~override/macmda01.itm~ 
+COPY    ~DarkHorizons/items/macmda01.itm~   ~override/macmda01.itm~ 
 SAY NAME1 @286
 SAY NAME2 @564
 SAY DESC @565
 
-COPY    ~DarkHorizonsBGee/items/macmhe01.itm~   ~override/macmhe01.itm~ 
+COPY    ~DarkHorizons/items/macmhe01.itm~   ~override/macmhe01.itm~ 
 SAY NAME1 @566
 SAY NAME2 @567
 SAY UNIDENTIFIED_DESC @148
 SAY DESC @568
 
-COPY    ~DarkHorizonsBGee/items/macmle01.itm~   ~override/macmle01.itm~ 
+COPY    ~DarkHorizons/items/macmle01.itm~   ~override/macmle01.itm~ 
 SAY NAME1 @70
 SAY NAME2 @39
 SAY UNIDENTIFIED_DESC @569
 SAY DESC @570
 
-COPY    ~DarkHorizonsBGee/items/macmle02.itm~   ~override/macmle02.itm~ 
+COPY    ~DarkHorizons/items/macmle02.itm~   ~override/macmle02.itm~ 
 SAY NAME1 @70
 SAY NAME2 @571
 SAY UNIDENTIFIED_DESC @569
 SAY DESC @572
 
-COPY    ~DarkHorizonsBGee/items/macmxb01.itm~   ~override/macmxb01.itm~ 
+COPY    ~DarkHorizons/items/macmxb01.itm~   ~override/macmxb01.itm~ 
 SAY NAME1 @573
 SAY NAME2 @574
 SAY UNIDENTIFIED_DESC @575
 SAY DESC @576
 
-COPY    ~DarkHorizonsBGee/items/mahamm01.itm~   ~override/mahamm01.itm~ 
+COPY    ~DarkHorizons/items/mahamm01.itm~   ~override/mahamm01.itm~ 
 SAY NAME1 @768
 SAY NAME2 @577
 SAY DESC @578
 
-COPY    ~DarkHorizonsBGee/items/maplat02.itm~   ~override/maplat02.itm~ 
+COPY    ~DarkHorizons/items/maplat02.itm~   ~override/maplat02.itm~ 
 SAY NAME1 @769
 SAY NAME2 @579
 SAY DESC @580
 
-COPY    ~DarkHorizonsBGee/items/mashld01.itm~   ~override/mashld01.itm~ 
+COPY    ~DarkHorizons/items/mashld01.itm~   ~override/mashld01.itm~ 
 SAY NAME1 @770
 SAY NAME2 @581
 SAY DESC @582
 
-COPY    ~DarkHorizonsBGee/items/mbul01.itm~   ~override/mbul01.itm~
+COPY    ~DarkHorizons/items/mbul01.itm~   ~override/mbul01.itm~
 SAY NAME1 @275
 SAY NAME2 @583
 SAY UNIDENTIFIED_DESC @280
 SAY DESC @584
 
-COPY    ~DarkHorizonsBGee/items/mcmbow01.itm~   ~override/mcmbow01.itm~ 
+COPY    ~DarkHorizons/items/mcmbow01.itm~   ~override/mcmbow01.itm~ 
 SAY NAME1 @771
 SAY NAME2 @585
 SAY DESC @586
 
-COPY    ~DarkHorizonsBGee/items/mhalb01.itm~   ~override/mhalb01.itm~ 
+COPY    ~DarkHorizons/items/mhalb01.itm~   ~override/mhalb01.itm~ 
 SAY NAME1 @772
 SAY NAME2 @587
 SAY DESC @588
 
-COPY    ~DarkHorizonsBGee/items/mplat01.itm~   ~override/mplat01.itm~ 
+COPY    ~DarkHorizons/items/mplat01.itm~   ~override/mplat01.itm~ 
 SAY NAME1 @769
 SAY NAME2 @589
 SAY DESC @590
  
  /* ******************** CoM Forge Items *********************** */
  
- COPY ~DarkHorizonsBGee/items/MACMHE01.itm~  ~override/MACMHE01.itm~
+ COPY ~DarkHorizons/items/MACMHE01.itm~  ~override/MACMHE01.itm~
   SAY NAME1 @773
   SAY NAME2 @567
   SAY DESC @568
 
-COPY ~DarkHorizonsBGee/items/MASWOR02.ITM~  ~override/MASWOR02.ITM~      
+COPY ~DarkHorizons/items/MASWOR02.ITM~  ~override/MASWOR02.ITM~      
   SAY NAME1 @774
   SAY NAME2 @591
   SAY DESC @592
 
-COPY ~DarkHorizonsBGee/items/maaxe001.itm~  ~override/maaxe001.itm~       
+COPY ~DarkHorizons/items/maaxe001.itm~  ~override/maaxe001.itm~       
   SAY NAME1 @200
   SAY NAME2 @593
   SAY UNIDENTIFIED_DESC @594 
   SAY DESC @595
 
-COPY ~DarkHorizonsBGee/items/mablun06.itm~  ~override/mablun06.itm~       
+COPY ~DarkHorizons/items/mablun06.itm~  ~override/mablun06.itm~       
   SAY NAME1 @775
   SAY NAME2 @596
   SAY DESC @597
 
-COPY ~DarkHorizonsBGee/items/MAFORG01.ITM~  ~override/MAFORG01.ITM~
+COPY ~DarkHorizons/items/MAFORG01.ITM~  ~override/MAFORG01.ITM~
   SAY NAME1 @776
   SAY NAME2 @598
   SAY DESC @599
 
-COPY ~DarkHorizonsBGee/items/MAFORG02.ITM~  ~override/MAFORG02.ITM~       
+COPY ~DarkHorizons/items/MAFORG02.ITM~  ~override/MAFORG02.ITM~       
   SAY NAME1 @774
   SAY NAME2 @600
   SAY DESC @601
 
-COPY ~DarkHorizonsBGee/items/MAFORG03.ITM~  ~override/MAFORG03.ITM~       
+COPY ~DarkHorizons/items/MAFORG03.ITM~  ~override/MAFORG03.ITM~       
   SAY NAME1 @777
   SAY NAME2 @602
   SAY DESC @603
 
-COPY ~DarkHorizonsBGee/items/MAFORG04.ITM~  ~override/MAFORG04.ITM~       
+COPY ~DarkHorizons/items/MAFORG04.ITM~  ~override/MAFORG04.ITM~       
 
   SAY NAME1 @778
   SAY NAME2 @604
   SAY DESC @605
 
-COPY ~DarkHorizonsBGee/items/MAFORG05.ITM~  ~override/MAFORG05.ITM~       
+COPY ~DarkHorizons/items/MAFORG05.ITM~  ~override/MAFORG05.ITM~       
   SAY NAME1 @779
   SAY NAME2 @606
   SAY DESC @607
 
-COPY ~DarkHorizonsBGee/items/MAFORG06.ITM~  ~override/MAFORG06.ITM~    
+COPY ~DarkHorizons/items/MAFORG06.ITM~  ~override/MAFORG06.ITM~    
   SAY NAME1 @780
   SAY NAME2 @608
   SAY DESC @609
 
-COPY ~DarkHorizonsBGee/items/MAFORG07.ITM~  ~override/MAFORG07.ITM~      
+COPY ~DarkHorizons/items/MAFORG07.ITM~  ~override/MAFORG07.ITM~      
   SAY NAME1 @781
   SAY NAME2 @610
   SAY DESC @611
 
 
-COPY ~DarkHorizonsBGee/items/MAFORG08.ITM~  ~override/MAFORG08.ITM~       
+COPY ~DarkHorizons/items/MAFORG08.ITM~  ~override/MAFORG08.ITM~       
   SAY NAME1 @782
   SAY NAME2 @612
   SAY DESC @613
 
-COPY ~DarkHorizonsBGee/items/MAFORG09.ITM~  ~override/MAFORG09.ITM~       
+COPY ~DarkHorizons/items/MAFORG09.ITM~  ~override/MAFORG09.ITM~       
   SAY NAME1 @783
   SAY NAME2 @614
   SAY DESC @615
 
-COPY ~DarkHorizonsBGee/items/MAFORG10.ITM~  ~override/MAFORG10.ITM~       
+COPY ~DarkHorizons/items/MAFORG10.ITM~  ~override/MAFORG10.ITM~       
   SAY NAME1 @784
   SAY NAME2 @616
   SAY DESC @617
 
-COPY ~DarkHorizonsBGee/items/MAFORG11.ITM~  ~override/MAFORG11.ITM~       
+COPY ~DarkHorizons/items/MAFORG11.ITM~  ~override/MAFORG11.ITM~       
   SAY NAME1 @785
   SAY NAME2 @618
   SAY DESC @619
 
-COPY ~DarkHorizonsBGee/items/mapla001.itm~  ~override/mapla001.itm~
+COPY ~DarkHorizons/items/mapla001.itm~  ~override/mapla001.itm~
 
   SAY NAME1 @769
   SAY NAME2 @620
   SAY DESC @621
 
-COPY ~DarkHorizonsBGee/items/MASPER01.ITM~  ~override/MASPER01.ITM~       
+COPY ~DarkHorizons/items/MASPER01.ITM~  ~override/MASPER01.ITM~       
   SAY NAME1 @786
   SAY NAME2 @622
   SAY DESC @623
 
-COPY ~DarkHorizonsBGee/items/MASWOR01.ITM~  ~override/MASWOR01.ITM~       
+COPY ~DarkHorizons/items/MASWOR01.ITM~  ~override/MASWOR01.ITM~       
   SAY NAME1 @346
   SAY NAME2 @624
   SAY UNIDENTIFIED_DESC @625
   SAY DESC @626
 
-COPY ~DarkHorizonsBGee/items/MAHAMM01.ITM~  ~override/MAHAMM01.ITM~
+COPY ~DarkHorizons/items/MAHAMM01.ITM~  ~override/MAHAMM01.ITM~
   SAY NAME1 @787
   SAY NAME2 @627
   SAY DESC @628
 
 
-COPY ~DarkHorizonsBGee/items/MAHAMM02.ITM~  ~override/MAHAMM02.ITM~       
+COPY ~DarkHorizons/items/MAHAMM02.ITM~  ~override/MAHAMM02.ITM~       
   SAY NAME1 @787
   SAY NAME2 @629
   SAY DESC @630
 
-COPY ~DarkHorizonsBGee/items/MAHELM01.ITM~  ~override/MAHELM01.ITM~       
+COPY ~DarkHorizons/items/MAHELM01.ITM~  ~override/MAHELM01.ITM~       
   SAY NAME1 @780
   SAY NAME2 @631
   SAY DESC @632
 
-COPY ~DarkHorizonsBGee/items/MAHELM02.ITM~  ~override/MAHELM02.ITM~       
+COPY ~DarkHorizons/items/MAHELM02.ITM~  ~override/MAHELM02.ITM~       
   SAY NAME1 @780
   SAY NAME2 @633
   SAY DESC @634
 
-COPY ~DarkHorizonsBGee/items/MACLOC01.ITM~  ~override/MACLOC01.ITM~       
+COPY ~DarkHorizons/items/MACLOC01.ITM~  ~override/MACLOC01.ITM~       
   SAY NAME1 @788
   SAY NAME2 @635
   SAY DESC @636
 
-COPY ~DarkHorizonsBGee/items/MABLUN01.ITM~  ~override/MABLUN01.ITM~      
+COPY ~DarkHorizons/items/MABLUN01.ITM~  ~override/MABLUN01.ITM~      
   SAY NAME1 @775
   SAY NAME2 @637
   SAY DESC @638
 
-COPY ~DarkHorizonsBGee/items/MABLUN02.ITM~  ~override/MABLUN02.ITM~
+COPY ~DarkHorizons/items/MABLUN02.ITM~  ~override/MABLUN02.ITM~
   SAY NAME1 @789
   SAY NAME2 @208
   SAY DESC @639
 
-COPY ~DarkHorizonsBGee/items/MABLUN03.ITM~  ~override/MABLUN03.ITM~       
+COPY ~DarkHorizons/items/MABLUN03.ITM~  ~override/MABLUN03.ITM~       
   SAY NAME1 @790
   SAY NAME2 @640
   SAY DESC @641
 
-COPY ~DarkHorizonsBGee/items/MABLUN04.ITM~  ~override/MABLUN04.ITM~       
+COPY ~DarkHorizons/items/MABLUN04.ITM~  ~override/MABLUN04.ITM~       
   SAY NAME1 @775
   SAY NAME2 @642
   SAY DESC @643
 
-COPY ~DarkHorizonsBGee/items/MABLUN05.ITM~  ~override/MABLUN05.ITM~
+COPY ~DarkHorizons/items/MABLUN05.ITM~  ~override/MABLUN05.ITM~
   SAY NAME1 @789
   SAY NAME2 @644
   SAY DESC @645
 
  /* ******************** Dialogs ************************* */
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/bilbo.d~  */
+/* COMPILE ~DarkHorizons/dlgs/bilbo.d~  */
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/bungo.d~  */
+/* COMPILE ~DarkHorizons/dlgs/bungo.d~  */
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmandrea.d~
+COMPILE ~DarkHorizons/dlgs/cmandrea.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmboun1.d~
+COMPILE ~DarkHorizons/dlgs/cmboun1.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmboun7.d~
+COMPILE ~DarkHorizons/dlgs/cmboun7.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmdryad.d~
+COMPILE ~DarkHorizons/dlgs/cmdryad.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmgeorg1.d~
+COMPILE ~DarkHorizons/dlgs/cmgeorg1.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmfood1.d~
+COMPILE ~DarkHorizons/dlgs/cmfood1.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmgeorge.d~
+COMPILE ~DarkHorizons/dlgs/cmgeorge.d~
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/cmgrice.d~  */
+/* COMPILE ~DarkHorizons/dlgs/cmgrice.d~  */
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmgsmeag.d~
+COMPILE ~DarkHorizons/dlgs/cmgsmeag.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmjones.d~
+COMPILE ~DarkHorizons/dlgs/cmjones.d~
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/cmmadel.d~ */
+/* COMPILE ~DarkHorizons/dlgs/cmmadel.d~ */
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmmaria.d~
+COMPILE ~DarkHorizons/dlgs/cmmaria.d~
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/cmmike.d~ */
+/* COMPILE ~DarkHorizons/dlgs/cmmike.d~ */
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmmiran.d~
+COMPILE ~DarkHorizons/dlgs/cmmiran.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmmystr.d~
+COMPILE ~DarkHorizons/dlgs/cmmystr.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmnajara.d~
+COMPILE ~DarkHorizons/dlgs/cmnajara.d~
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/cmnikita.d~ */
+/* COMPILE ~DarkHorizons/dlgs/cmnikita.d~ */
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmosec12.d~
+COMPILE ~DarkHorizons/dlgs/cmosec12.d~
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/cmpaul.d~ */
-
-ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizonsBGee/Tutu/dlgs/cmquest1.d~
-END ELSE BEGIN
-COMPILE ~DarkHorizonsBGee/dlgs/cmquest1.d~
-END
-
-COMPILE ~DarkHorizonsBGee/dlgs/cmquincy.d~
-
-COMPILE ~DarkHorizonsBGee/dlgs/cmsec06.d~
-
-COMPILE ~DarkHorizonsBGee/dlgs/cmsec22.d~
+/* COMPILE ~DarkHorizons/dlgs/cmpaul.d~ */
 
 ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizonsBGee/Tutu/dlgs/cmselen.d~
+COMPILE ~DarkHorizons/Tutu/dlgs/cmquest1.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizonsBGee/dlgs/cmselen.d~
+COMPILE ~DarkHorizons/dlgs/cmquest1.d~
 END
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/cmshinay.d~   */
+COMPILE ~DarkHorizons/dlgs/cmquincy.d~
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/cmthor.d~ */
+COMPILE ~DarkHorizons/dlgs/cmsec06.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmtrist.d~
-
-COMPILE ~DarkHorizonsBGee/dlgs/cmwendel.d~
+COMPILE ~DarkHorizons/dlgs/cmsec22.d~
 
 ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizonsBGee/Tutu/dlgs/cmwinton.d~
+COMPILE ~DarkHorizons/Tutu/dlgs/cmselen.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizonsBGee/dlgs/cmwinton.d~
+COMPILE ~DarkHorizons/dlgs/cmselen.d~
 END
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmzarg.d~
+/* COMPILE ~DarkHorizons/dlgs/cmshinay.d~   */
 
-/* COMPILE ~DarkHorizonsBGee/dlgs/frodo.d~  */
+/* COMPILE ~DarkHorizons/dlgs/cmthor.d~ */
 
-COMPILE ~DarkHorizonsBGee/dlgs/kieran.d~
+COMPILE ~DarkHorizons/dlgs/cmtrist.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/oversight.d~
-
-// COMPILE ~DarkHorizonsBGee/dlgs/cmrsec02.d~
-
-COMPILE ~DarkHorizonsBGee/dlgs/CMGHST01.d~
+COMPILE ~DarkHorizons/dlgs/cmwendel.d~
 
 ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizonsBGee/Tutu/dlgs/magnus.d~
+COMPILE ~DarkHorizons/Tutu/dlgs/cmwinton.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizonsBGee/dlgs/magnus.d~
+COMPILE ~DarkHorizons/dlgs/cmwinton.d~
+END
+
+COMPILE ~DarkHorizons/dlgs/cmzarg.d~
+
+/* COMPILE ~DarkHorizons/dlgs/frodo.d~  */
+
+COMPILE ~DarkHorizons/dlgs/kieran.d~
+
+COMPILE ~DarkHorizons/dlgs/oversight.d~
+
+// COMPILE ~DarkHorizons/dlgs/cmrsec02.d~
+
+COMPILE ~DarkHorizons/dlgs/CMGHST01.d~
+
+ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+COMPILE ~DarkHorizons/Tutu/dlgs/magnus.d~
+END ELSE BEGIN
+COMPILE ~DarkHorizons/dlgs/magnus.d~
 END
 
 ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizonsBGee/Tutu/dlgs/mathoren.d~
+COMPILE ~DarkHorizons/Tutu/dlgs/mathoren.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizonsBGee/dlgs/mathoren.d~
+COMPILE ~DarkHorizons/dlgs/mathoren.d~
 END
 
-COMPILE ~DarkHorizonsBGee/dlgs/masal01.d~
+COMPILE ~DarkHorizons/dlgs/masal01.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/magorken.d~
+COMPILE ~DarkHorizons/dlgs/magorken.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/brotus.d~
+COMPILE ~DarkHorizons/dlgs/brotus.d~
 
 /* --------------- Version 2.00 Additions -----------  */
 
-COMPILE ~DarkHorizonsBGee/dlgs/CMMERC03.d~
+COMPILE ~DarkHorizons/dlgs/CMMERC03.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/CMMERC04.d~
+COMPILE ~DarkHorizons/dlgs/CMMERC04.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/CMMERC05.d~
+COMPILE ~DarkHorizons/dlgs/CMMERC05.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/CMMERC06.d~  
+COMPILE ~DarkHorizons/dlgs/CMMERC06.d~  
 
-COMPILE ~DarkHorizonsBGee/dlgs/redwiz.d~
+COMPILE ~DarkHorizons/dlgs/redwiz.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/elves.d~
+COMPILE ~DarkHorizons/dlgs/elves.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmcarav.d~
+COMPILE ~DarkHorizons/dlgs/cmcarav.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmlath.d~
+COMPILE ~DarkHorizons/dlgs/cmlath.d~
 
 /* --------------- BGEE Additions -----------  */
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmsect1.d~
+COMPILE ~DarkHorizons/dlgs/cmsect1.d~
 
 
 /* ************************** Check if Area Script is assigned ******************** */
@@ -5330,100 +5330,100 @@ COMPILE ~DarkHorizonsBGee/dlgs/cmsect1.d~
 /* Compile area scripts */
 
 /*
-COMPILE ~DarkHorizonsBGee/baf/AR1600.baf~
-COMPILE ~DarkHorizonsBGee/baf/AR2606.baf~
-COMPILE ~DarkHorizonsBGee/baf/AR3302.baf~
-COMPILE ~DarkHorizonsBGee/baf/AR3800.baf~
-COMPILE ~DarkHorizonsBGee/baf/AR4000.baf~
-COMPILE ~DarkHorizonsBGee/baf/AR5200.baf~
+COMPILE ~DarkHorizons/baf/AR1600.baf~
+COMPILE ~DarkHorizons/baf/AR2606.baf~
+COMPILE ~DarkHorizons/baf/AR3302.baf~
+COMPILE ~DarkHorizons/baf/AR3800.baf~
+COMPILE ~DarkHorizons/baf/AR4000.baf~
+COMPILE ~DarkHorizons/baf/AR5200.baf~
 */
 COPY_EXISTING ~AR1600.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR1600.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR1600.baf~
 
 COPY_EXISTING ~AR2606.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR2606.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR2606.baf~
 
 COPY_EXISTING ~AR3302.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3302.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3302.baf~
 
 COPY_EXISTING ~AR3800.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3800.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3800.baf~
 
 COPY_EXISTING ~AR4000.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR4000.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR4000.baf~
 
 COPY_EXISTING ~AR5200.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR5200.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR5200.baf~
 
 COPY_EXISTING ~AR2304.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR2304.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR2304.baf~
 
-COMPILE ~DarkHorizonsBGee/baf/cm0750.baf~
-COMPILE ~DarkHorizonsBGee/baf/cm0751.baf~
-COMPILE ~DarkHorizonsBGee/baf/cm0752.baf~
-COMPILE ~DarkHorizonsBGee/baf/cm0753.baf~
-COMPILE ~DarkHorizonsBGee/baf/cm3373.baf~
+COMPILE ~DarkHorizons/baf/cm0750.baf~
+COMPILE ~DarkHorizons/baf/cm0751.baf~
+COMPILE ~DarkHorizons/baf/cm0752.baf~
+COMPILE ~DarkHorizons/baf/cm0753.baf~
+COMPILE ~DarkHorizons/baf/cm3373.baf~
 
 /* Append area scripts */
 
 COPY_EXISTING ~AR0700.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar0700.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar0700.baf~
 
 COPY_EXISTING ~AR0705.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar0705.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar0705.baf~
 
 COPY_EXISTING ~AR0514.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar0514.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar0514.baf~
 
 COPY_EXISTING ~AR1000.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1000.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1000.baf~
 
 COPY_EXISTING ~AR1700.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1700.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1700.baf~
 
 COPY_EXISTING ~AR1800.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1800.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1800.baf~
 
 COPY_EXISTING ~AR1803.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar1803.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1803.baf~
 
 COPY_EXISTING ~AR2100.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar2100.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar2100.baf~
 
 COPY_EXISTING ~AR2300.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar2300.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar2300.baf~
 
 COPY_EXISTING ~%area_script%.bcs~ ~override~
 DECOMPILE_BCS_TO_BAF
@@ -5433,7 +5433,7 @@ COMPILE_BAF_TO_BCS
 COPY_EXISTING ~AR2800.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar2800.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar2800.baf~
 
 COPY_EXISTING ~%area_script%.bcs~ ~override~
 DECOMPILE_BCS_TO_BAF
@@ -5444,428 +5444,428 @@ COMPILE_BAF_TO_BCS
 COPY_EXISTING ~AR3300.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar3300.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar3300.baf~
 
 COPY_EXISTING ~AR5100.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar5100.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar5100.baf~
 
 COPY_EXISTING ~AR5400.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_TOP ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar5400.baf~
+EXTEND_TOP ~%area_script%.bcs~	~DarkHorizons/baf/ar5400.baf~
 
 COPY_EXISTING ~AR1900.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/ar1900.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/ar1900.baf~
 
 COPY_EXISTING ~AR2301.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/ar2301.baf~
+EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizons/baf/ar2301.baf~
 
 /* ------------------ Version 2.00 Additions ----------  */
 
 COPY_EXISTING ~AR0900.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/ar0900.baf~
+EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizons/baf/ar0900.baf~
 
 COPY_EXISTING ~AR3900.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3900.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3900.baf~
 
 COPY_EXISTING ~AR3304.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3304.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3304.baf~
 
 COPY_EXISTING ~AR3351.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR3351.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3351.baf~
 
 /* -----------------------------------------------------------  */
 
 /*
-COMPILE ~DarkHorizonsBGee/baf/AR5403.baf~
-COMPILE ~DarkHorizonsBGee/baf/AR1207.baf~
+COMPILE ~DarkHorizons/baf/AR5403.baf~
+COMPILE ~DarkHorizons/baf/AR1207.baf~
 */
 
 
 COPY_EXISTING ~AR5403.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR5403.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR5403.baf~
 
 COPY_EXISTING ~AR1207.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
-EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizonsBGee/baf/AR1207.baf~
+EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR1207.baf~
 
 /* Compile creature scripts */
 
-COMPILE ~DarkHorizonsBGee/baf/cmbear02.baf~
-/* COMPILE ~DarkHorizonsBGee/baf/cmcleric1.baf~  */
-COMPILE ~DarkHorizonsBGee/baf/cmdrag.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmdru01.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmdru02.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmdruid1.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmdruid2.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmdruid3.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmdurg.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmgeorg1.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmgeorge.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmgeorw1.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmghst01.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmghst05.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmghst06.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmghst07.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmghst08.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmkier1.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmkier2.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmmadel.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmmaria2.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmmariah.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmnajar.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmosec04.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmosec13.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmosec14.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmoversi.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmovers2.baf~
+COMPILE ~DarkHorizons/baf/cmbear02.baf~
+/* COMPILE ~DarkHorizons/baf/cmcleric1.baf~  */
+COMPILE ~DarkHorizons/baf/cmdrag.baf~
+COMPILE ~DarkHorizons/baf/cmdru01.baf~
+COMPILE ~DarkHorizons/baf/cmdru02.baf~
+COMPILE ~DarkHorizons/baf/cmdruid1.baf~
+COMPILE ~DarkHorizons/baf/cmdruid2.baf~
+COMPILE ~DarkHorizons/baf/cmdruid3.baf~
+COMPILE ~DarkHorizons/baf/cmdurg.baf~
+COMPILE ~DarkHorizons/baf/cmgeorg1.baf~
+COMPILE ~DarkHorizons/baf/cmgeorge.baf~
+COMPILE ~DarkHorizons/baf/cmgeorw1.baf~
+COMPILE ~DarkHorizons/baf/cmghst01.baf~
+COMPILE ~DarkHorizons/baf/cmghst05.baf~
+COMPILE ~DarkHorizons/baf/cmghst06.baf~
+COMPILE ~DarkHorizons/baf/cmghst07.baf~
+COMPILE ~DarkHorizons/baf/cmghst08.baf~
+COMPILE ~DarkHorizons/baf/cmkier1.baf~
+COMPILE ~DarkHorizons/baf/cmkier2.baf~
+COMPILE ~DarkHorizons/baf/cmmadel.baf~
+COMPILE ~DarkHorizons/baf/cmmaria2.baf~
+COMPILE ~DarkHorizons/baf/cmmariah.baf~
+COMPILE ~DarkHorizons/baf/cmnajar.baf~
+COMPILE ~DarkHorizons/baf/cmosec04.baf~
+COMPILE ~DarkHorizons/baf/cmosec13.baf~
+COMPILE ~DarkHorizons/baf/cmosec14.baf~
+COMPILE ~DarkHorizons/baf/cmoversi.baf~
+COMPILE ~DarkHorizons/baf/cmovers2.baf~
 
 /* --------------- Version 2.00 Additions -----------  */
 
-COMPILE ~DarkHorizonsBGee/baf/cmredw01.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmredw02.baf~ 
-COMPILE ~DarkHorizonsBGee/baf/cmredw03.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmlath1.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmlath2.baf~
+COMPILE ~DarkHorizons/baf/cmredw01.baf~
+COMPILE ~DarkHorizons/baf/cmredw02.baf~ 
+COMPILE ~DarkHorizons/baf/cmredw03.baf~
+COMPILE ~DarkHorizons/baf/cmlath1.baf~
+COMPILE ~DarkHorizons/baf/cmlath2.baf~
 
 /* ---------------- End ---------------------------- */
 
-COMPILE ~DarkHorizonsBGee/baf/cmsec06.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmsecred.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmtrisd.baf~
-COMPILE ~DarkHorizonsBGee/baf/dragdie.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmmystr.baf~
+COMPILE ~DarkHorizons/baf/cmsec06.baf~
+COMPILE ~DarkHorizons/baf/cmsecred.baf~
+COMPILE ~DarkHorizons/baf/cmtrisd.baf~
+COMPILE ~DarkHorizons/baf/dragdie.baf~
+COMPILE ~DarkHorizons/baf/cmmystr.baf~
 
 /* --------------- Version 2.xx Additions/Fixes -----------  */
 
-COMPILE ~DarkHorizonsBGee/baf/cmlatha.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmlathat.baf~
-COMPILE ~DarkHorizonsBGee/baf/cmsec25.baf~
+COMPILE ~DarkHorizons/baf/cmlatha.baf~
+COMPILE ~DarkHorizons/baf/cmlathat.baf~
+COMPILE ~DarkHorizons/baf/cmsec25.baf~
 
 /*  Creatures  */
 
 /*  Forge Creatures  */
 
-COPY ~DarkHorizonsBGee/cre/MAENC04.cre~ ~override/MAENC04.cre~
+COPY ~DarkHorizons/cre/MAENC04.cre~ ~override/MAENC04.cre~
   SAY NAME1 @646
   SAY NAME2 @646
 
-COPY ~DarkHorizonsBGee/cre/MADURC01.cre~ ~override/MADURC01.cre~
+COPY ~DarkHorizons/cre/MADURC01.cre~ ~override/MADURC01.cre~
   SAY NAME1 @647
   SAY NAME2 @647
 
-COPY ~DarkHorizonsBGee/cre/MADURC02.cre~ ~override/MADURC02.cre~
+COPY ~DarkHorizons/cre/MADURC02.cre~ ~override/MADURC02.cre~
   SAY NAME1 @647
   SAY NAME2 @647
 
-COPY ~DarkHorizonsBGee/cre/MADURF01.cre~ ~override/MADURF01.cre~
+COPY ~DarkHorizons/cre/MADURF01.cre~ ~override/MADURF01.cre~
   SAY NAME1 @648
   SAY NAME2 @648
 
-COPY ~DarkHorizonsBGee/cre/MADURF02.cre~ ~override/MADURF02.cre~
+COPY ~DarkHorizons/cre/MADURF02.cre~ ~override/MADURF02.cre~
   SAY NAME1 @649
   SAY NAME2 @649
 
-COPY ~DarkHorizonsBGee/cre/MADURT01.cre~ ~override/MADURT01.cre~
+COPY ~DarkHorizons/cre/MADURT01.cre~ ~override/MADURT01.cre~
   SAY NAME1 @650
   SAY NAME2 @650
 
-COPY ~DarkHorizonsBGee/cre/MAENC01.cre~ ~override/MAENC01.cre~
+COPY ~DarkHorizons/cre/MAENC01.cre~ ~override/MAENC01.cre~
 
-COPY ~DarkHorizonsBGee/cre/MAENC02.cre~ ~override/MAENC02.cre~
+COPY ~DarkHorizons/cre/MAENC02.cre~ ~override/MAENC02.cre~
 
-COPY ~DarkHorizonsBGee/cre/MAENC03.cre~ ~override/MAENC03.cre~
+COPY ~DarkHorizons/cre/MAENC03.cre~ ~override/MAENC03.cre~
 
-COPY ~DarkHorizonsBGee/cre/MASAL02.cre~ ~override/MASAL02.cre~
+COPY ~DarkHorizons/cre/MASAL02.cre~ ~override/MASAL02.cre~
   SAY NAME1 @651
   SAY NAME2 @651
 
-COPY ~DarkHorizonsBGee/cre/MASAL01.cre~ ~override/MASAL01.cre~
+COPY ~DarkHorizons/cre/MASAL01.cre~ ~override/MASAL01.cre~
   SAY NAME1 @652
   SAY NAME2 @652
 
-COPY ~DarkHorizonsBGee/cre/MATHOREN.cre~ ~override/MATHOREN.cre~
+COPY ~DarkHorizons/cre/MATHOREN.cre~ ~override/MATHOREN.cre~
   SAY NAME1 @653
   SAY NAME2 @653
 
 
-COPY ~DarkHorizonsBGee/cre/CM01A514.CRE~ ~override/CM01A514.CRE~
+COPY ~DarkHorizons/cre/CM01A514.CRE~ ~override/CM01A514.CRE~
   SAY NAME1 @654
   SAY NAME2 @654
 
-COPY ~DarkHorizonsBGee/cre/CM02A514.CRE~ ~override/CM02A514.CRE~
+COPY ~DarkHorizons/cre/CM02A514.CRE~ ~override/CM02A514.CRE~
   SAY NAME1 @655
   SAY NAME2 @655
 
-COPY ~DarkHorizonsBGee/cre/CM03A514.CRE~ ~override/CM03A514.CRE~
+COPY ~DarkHorizons/cre/CM03A514.CRE~ ~override/CM03A514.CRE~
   SAY NAME1 @656
   SAY NAME2 @656
 
-COPY ~DarkHorizonsBGee/cre/CM04A514.CRE~ ~override/CM04A514.CRE~
+COPY ~DarkHorizons/cre/CM04A514.CRE~ ~override/CM04A514.CRE~
   SAY NAME1 @657
   SAY NAME2 @657
 
-COPY ~DarkHorizonsBGee/cre/CM05A514.CRE~ ~override/CM05A514.CRE~
+COPY ~DarkHorizons/cre/CM05A514.CRE~ ~override/CM05A514.CRE~
   SAY NAME1 @658
   SAY NAME2 @658
 
-COPY ~DarkHorizonsBGee/cre/CM0700A.CRE~ ~override/CM0700A.CRE~
+COPY ~DarkHorizons/cre/CM0700A.CRE~ ~override/CM0700A.CRE~
   SAY NAME1 @659
   SAY NAME2 @659
 
-COPY ~DarkHorizonsBGee/cre/CM1800A1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM1800A1.CRE~ ~override~
   SAY NAME1 @660
   SAY NAME2 @660
 
-COPY ~DarkHorizonsBGee/cre/CM1803A1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM1803A1.CRE~ ~override~
   SAY NAME1 @660
   SAY NAME2 @660
 
-COPY ~DarkHorizonsBGee/cre/CM1803A2.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM1803A2.CRE~ ~override~
   SAY NAME1 @660
   SAY NAME2 @660
 
-COPY ~DarkHorizonsBGee/cre/CM1803A3.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM1803A3.CRE~ ~override~
   SAY NAME1 @661
   SAY NAME2 @661
 
-COPY ~DarkHorizonsBGee/cre/CM1803A4.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM1803A4.CRE~ ~override~
   SAY NAME1 @662
   SAY NAME2 @662
 
-COPY ~DarkHorizonsBGee/cre/CM1A2100.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM1A2100.CRE~ ~override~
   SAY NAME1 @663
   SAY NAME2 @663
 
-COPY ~DarkHorizonsBGee/cre/CM2A2100.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM2A2100.CRE~ ~override~
   SAY NAME1 @663
   SAY NAME2 @663
 
-COPY ~DarkHorizonsBGee/cre/CM3A2100.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM3A2100.CRE~ ~override~
   SAY NAME1 @664
   SAY NAME2 @664
 
-COPY ~DarkHorizonsBGee/cre/CMAPOC1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMAPOC1.CRE~ ~override~
   SAY NAME1 @665
   SAY NAME2 @665
 
-COPY ~DarkHorizonsBGee/cre/CMAPOC2.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMAPOC2.CRE~ ~override~
   SAY NAME1 @665
   SAY NAME2 @665
 
-COPY ~DarkHorizonsBGee/cre/CMASHIRU.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMASHIRU.CRE~ ~override~
   SAY NAME1 @666
   SAY NAME2 @667
 
-COPY ~DarkHorizonsBGee/cre/CMBEAR01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBEAR01.CRE~ ~override~
   SAY NAME1 @668
   SAY NAME2 @668
 
-COPY ~DarkHorizonsBGee/cre/CMBEAR02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBEAR02.CRE~ ~override~
   SAY NAME1 @669
   SAY NAME2 @669
 
-COPY ~DarkHorizonsBGee/cre/CMBOU01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU01.CRE~ ~override~
   SAY NAME1 @670
   SAY NAME2 @670
 
-COPY ~DarkHorizonsBGee/cre/CMBOU02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU02.CRE~ ~override~
   SAY NAME1 @671
   SAY NAME2 @671
 
-COPY ~DarkHorizonsBGee/cre/CMBOU03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU03.CRE~ ~override~
   SAY NAME1 @672
   SAY NAME2 @672
 
-COPY ~DarkHorizonsBGee/cre/CMBOU04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU04.CRE~ ~override~
   SAY NAME1 @673
   SAY NAME2 @673
 
-COPY ~DarkHorizonsBGee/cre/CMBOU05.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU05.CRE~ ~override~
   SAY NAME1 @674
   SAY NAME2 @674
 
-COPY ~DarkHorizonsBGee/cre/CMBOU06.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU06.CRE~ ~override~
   SAY NAME1 @675
   SAY NAME2 @675
 
-COPY ~DarkHorizonsBGee/cre/CMBOU07.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU07.CRE~ ~override~
   SAY NAME1 @676
   SAY NAME2 @676
 
-COPY ~DarkHorizonsBGee/cre/CMDRAG.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRAG.CRE~ ~override~
   SAY NAME1 @677
   SAY NAME2 @677
 
-COPY ~DarkHorizonsBGee/cre/CMDRU01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRU01.CRE~ ~override~
   SAY NAME1 @678
   SAY NAME2 @678
 
-COPY ~DarkHorizonsBGee/cre/CMDRU02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRU02.CRE~ ~override~
   SAY NAME1 @679
   SAY NAME2 @679
 
-COPY ~DarkHorizonsBGee/cre/CMDRU03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRU03.CRE~ ~override~
   SAY NAME1 @680
   SAY NAME2 @680
 
-COPY ~DarkHorizonsBGee/cre/CMDRU04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRU04.CRE~ ~override~
   SAY NAME1 @663
   SAY NAME2 @663
 
-COPY ~DarkHorizonsBGee/cre/CMDRU05.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRU05.CRE~ ~override~
   SAY NAME1 @663
   SAY NAME2 @663
 
-COPY ~DarkHorizonsBGee/cre/CMDRU06.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRU06.CRE~ ~override~
   SAY NAME1 @663
   SAY NAME2 @663
 
-COPY ~DarkHorizonsBGee/cre/CMDRU07.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRU07.CRE~ ~override~
   SAY NAME1 @663
   SAY NAME2 @663
 
-COPY ~DarkHorizonsBGee/cre/CMDRY01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMDRY01.CRE~ ~override~
   SAY NAME1 @681
   SAY NAME2 @681
 
-COPY ~DarkHorizonsBGee/cre/CMFOOD1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMFOOD1.CRE~ ~override~
   SAY NAME1 @682
   SAY NAME2 @682
 
-COPY ~DarkHorizonsBGee/cre/CMGGO1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGGO1.CRE~ ~override~
   SAY NAME1 @683
   SAY NAME2 @683
 
-COPY ~DarkHorizonsBGee/cre/CMGGOB1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGGOB1.CRE~ ~override~
   SAY NAME1 @683
   SAY NAME2 @683
 
-COPY ~DarkHorizonsBGee/cre/CMGHAU01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHAU01.CRE~ ~override~
   SAY NAME1 @684
   SAY NAME2 @684
   
-COPY ~DarkHorizonsBGee/cre/CMGHST01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST01.CRE~ ~override~
   SAY NAME1 @685
   SAY NAME2 @685
 
-COPY ~DarkHorizonsBGee/cre/CMGHST02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST02.CRE~ ~override~
   SAY NAME1 @686
   SAY NAME2 @686
 
-COPY ~DarkHorizonsBGee/cre/CMGHST03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST03.CRE~ ~override~
   SAY NAME1 @686
   SAY NAME2 @686
 
-COPY ~DarkHorizonsBGee/cre/CMGHST04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST04.CRE~ ~override~
   SAY NAME1 @686
   SAY NAME2 @686
 
-COPY ~DarkHorizonsBGee/cre/CMGHST05.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST05.CRE~ ~override~
   SAY NAME1 @687
   SAY NAME2 @687
   
-COPY ~DarkHorizonsBGee/cre/CMGHST06.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST06.CRE~ ~override~
   SAY NAME1 @688
   SAY NAME2 @688
   
-COPY ~DarkHorizonsBGee/cre/CMGHST07.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST07.CRE~ ~override~
   SAY NAME1 @689
   SAY NAME2 @689
   
-COPY ~DarkHorizonsBGee/cre/CMGHST08.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGHST08.CRE~ ~override~
   SAY NAME1 @690
   SAY NAME2 @690
 
-COPY ~DarkHorizonsBGee/cre/CMGNOL01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGNOL01.CRE~ ~override~
   SAY NAME1 @691
   SAY NAME2 @691
 
-COPY ~DarkHorizonsBGee/cre/CMGNOL02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGNOL02.CRE~ ~override~
   SAY NAME1 @692
   SAY NAME2 @692
 
-COPY ~DarkHorizonsBGee/cre/CMGSMEAG.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGSMEAG.CRE~ ~override~
   SAY NAME1 @693
   SAY NAME2 @693
 
-COPY ~DarkHorizonsBGee/cre/CMHELM01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMHELM01.CRE~ ~override~
   SAY NAME1 @694
   SAY NAME2 @694
 
-COPY ~DarkHorizonsBGee/cre/CMHOB01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMHOB01.CRE~ ~override~
   SAY NAME1 @695
   SAY NAME2 @695
 
-COPY ~DarkHorizonsBGee/cre/CMHOB02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMHOB02.CRE~ ~override~
   SAY NAME1 @696
   SAY NAME2 @696
 
-COPY ~DarkHorizonsBGee/cre/CMHOB03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMHOB03.CRE~ ~override~
   SAY NAME1 @697
   SAY NAME2 @697
 
-COPY ~DarkHorizonsBGee/cre/CMIRONE.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMIRONE.CRE~ ~override~
   SAY NAME1 @698
   SAY NAME2 @698
 
-COPY ~DarkHorizonsBGee/cre/CMKOB01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMKOB01.CRE~ ~override~
   SAY NAME1 @699
   SAY NAME2 @699
 
-COPY ~DarkHorizonsBGee/cre/CMKOB02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMKOB02.CRE~ ~override~
   SAY NAME1 @700
   SAY NAME2 @700
 
-COPY ~DarkHorizonsBGee/cre/CMKOB03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMKOB03.CRE~ ~override~
   SAY NAME1 @701
   SAY NAME2 @701
 
-COPY ~DarkHorizonsBGee/cre/CMMAGNU.cre~ ~override~
+COPY ~DarkHorizons/cre/CMMAGNU.cre~ ~override~
   SAY NAME1 @702
   SAY NAME2 @702
 
-COPY ~DarkHorizonsBGee/cre/CMMERC02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMMERC02.CRE~ ~override~
   SAY NAME1 @703
   SAY NAME2 @703
   
-COPY ~DarkHorizonsBGee/cre/CMMYSTR.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMMYSTR.CRE~ ~override~
   SAY NAME1 @704
   SAY NAME2 @704
   SAY 0xa4  @900
 
-COPY ~DarkHorizonsBGee/cre/CMNAJAR2.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMNAJAR2.CRE~ ~override~
   SAY NAME1 @705
   SAY NAME2 @705
   SAY 0xc8  @706 
 
-COPY ~DarkHorizonsBGee/cre/CMNAJAR3.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMNAJAR3.CRE~ ~override~
   SAY NAME1 @707
   SAY NAME2 @707
 
-COPY ~DarkHorizonsBGee/cre/CMNAJAR4.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMNAJAR4.CRE~ ~override~
   SAY NAME1 @705
   SAY NAME2 @705
   SAY 0xc8  @706 
 
-COPY ~DarkHorizonsBGee/cre/CMNAJARA.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMNAJARA.CRE~ ~override~
   SAY NAME1 @708
   SAY NAME2 @708
   SAY 0xa4  @709 
@@ -5873,91 +5873,91 @@ COPY ~DarkHorizonsBGee/cre/CMNAJARA.CRE~ ~override~
   SAY 0xec  @711
   SAY 0xf0  @712 
 
-COPY ~DarkHorizonsBGee/cre/CMOGREM1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOGREM1.CRE~ ~override~
   SAY NAME1 @713
   SAY NAME2 @713
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC01.CRE~ ~override~
   SAY NAME1 @714
   SAY NAME2 @714
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC02.CRE~ ~override~
   SAY NAME1 @714
   SAY NAME2 @714
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC03.CRE~ ~override~
   SAY NAME1 @715
   SAY NAME2 @715
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC04.CRE~ ~override~
   SAY NAME1 @716
   SAY NAME2 @716
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC05.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC05.CRE~ ~override~
   SAY NAME1 @717
   SAY NAME2 @717
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC06.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC06.CRE~ ~override~
   SAY NAME1 @717
   SAY NAME2 @717
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC07.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC07.CRE~ ~override~
   SAY NAME1 @717
   SAY NAME2 @717
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC08.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC08.CRE~ ~override~
   SAY NAME1 @718
   SAY NAME2 @718
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC09.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC09.CRE~ ~override~
   SAY NAME1 @715
   SAY NAME2 @715
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC10.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC10.CRE~ ~override~
   SAY NAME1 @719
   SAY NAME2 @719
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC11.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC11.CRE~ ~override~
   SAY NAME1 @719
   SAY NAME2 @719
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC12.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC12.CRE~ ~override~
   SAY NAME1 @720
   SAY NAME2 @720
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC13.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC13.CRE~ ~override~
   SAY NAME1 @716
   SAY NAME2 @716
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC14.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC14.CRE~ ~override~
   SAY NAME1 @716
   SAY NAME2 @716
 
-COPY ~DarkHorizonsBGee/cre/CMOSEC15.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC15.CRE~ ~override~
 	SAY NAME1 @714
 	SAY NAME2 @714
 	
-COPY ~DarkHorizonsBGee/cre/CMOSEC16.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMOSEC16.CRE~ ~override~
 	SAY NAME1 @714
 	SAY NAME2 @714
 
-COPY ~DarkHorizonsBGee/cre/CMQUEST1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMQUEST1.CRE~ ~override~
   SAY NAME1 @721
   SAY NAME2 @721
 
-COPY ~DarkHorizonsBGee/cre/CMROCKY.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMROCKY.CRE~ ~override~
   SAY NAME1 @722
   SAY NAME2 @722
 
-/* COPY ~DarkHorizonsBGee/cre/CMRSEC02.CRE~ ~override~
+/* COPY ~DarkHorizons/cre/CMRSEC02.CRE~ ~override~
   SAY NAME1 @723
   SAY NAME2 @723  */
 
-/* COPY ~DarkHorizonsBGee/cre/CMRSEC04.CRE~ ~override~
+/* COPY ~DarkHorizons/cre/CMRSEC04.CRE~ ~override~
   SAY NAME1 @724
   SAY NAME2 @724  */
 
-COPY ~DarkHorizonsBGee/cre/CMSEC01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC01.CRE~ ~override~
   SAY NAME1 @725
   SAY NAME2 @725
   SAY 0xa4  @726
@@ -5965,329 +5965,329 @@ COPY ~DarkHorizonsBGee/cre/CMSEC01.CRE~ ~override~
   SAY 0xec  @728
   SAY 0xf0  @729
 
-COPY ~DarkHorizonsBGee/cre/CMSEC02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC02.CRE~ ~override~
   SAY NAME1 @723
   SAY NAME2 @723
 
-COPY ~DarkHorizonsBGee/cre/CMSEC03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC03.CRE~ ~override~
   SAY NAME1 @730
   SAY NAME2 @730
 
-COPY ~DarkHorizonsBGee/cre/CMSEC04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC04.CRE~ ~override~
   SAY NAME1 @731
   SAY NAME2 @731
 
-COPY ~DarkHorizonsBGee/cre/CMSEC05.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC05.CRE~ ~override~
   SAY NAME1 @732
   SAY NAME2 @732
 
-COPY ~DarkHorizonsBGee/cre/CMSEC06.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC06.CRE~ ~override~
   SAY NAME1 @733
   SAY NAME2 @733
 
-COPY ~DarkHorizonsBGee/cre/CMSEC07.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC07.CRE~ ~override~
   SAY NAME1 @734
   SAY NAME2 @734
 
-COPY ~DarkHorizonsBGee/cre/CMSEC08.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC08.CRE~ ~override~
   SAY NAME1 @735
   SAY NAME2 @735
   
-COPY ~DarkHorizonsBGee/cre/CMSEC08A.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC08A.CRE~ ~override~
   SAY NAME1 @735
   SAY NAME2 @735
 
-COPY ~DarkHorizonsBGee/cre/CMSEC09.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC09.CRE~ ~override~
   SAY NAME1 @736
   SAY NAME2 @736
 
-COPY ~DarkHorizonsBGee/cre/CMSEC10.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC10.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC10A.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC10A.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC10B.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC10B.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC10C.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC10C.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC11.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC11.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC12.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC12.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC12A.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC12A.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
 
-COPY ~DarkHorizonsBGee/cre/CMSEC12B.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC12B.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC12C.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC12C.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC12D.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC12D.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC13.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC13.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC14.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC14.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
 
-COPY ~DarkHorizonsBGee/cre/CMSEC14A.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC14A.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
 
-COPY ~DarkHorizonsBGee/cre/CMSEC14B.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC14B.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
 
-COPY ~DarkHorizonsBGee/cre/CMSEC15.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC15.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC16.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC16.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC17.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC17.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC18.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC18.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC19.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC19.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
 
-COPY ~DarkHorizonsBGee/cre/CMSEC20.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC20.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC20A.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC20A.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC21.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC21.CRE~ ~override~
   SAY NAME1 @739
   SAY NAME2 @739
 
- COPY ~DarkHorizonsBGee/cre/CMSEC22.CRE~ ~override~
+ COPY ~DarkHorizons/cre/CMSEC22.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC23.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC23.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
 
-COPY ~DarkHorizonsBGee/cre/CMSEC24.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC24.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
 
-COPY ~DarkHorizonsBGee/cre/CMSEC25.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSEC25.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
 
-COPY ~DarkHorizonsBGee/cre/CMSKE01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKE01.CRE~ ~override~
   SAY NAME1 @740
   SAY NAME2 @740
 
-COPY ~DarkHorizonsBGee/cre/CMSKE02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKE02.CRE~ ~override~
   SAY NAME1 @740
   SAY NAME2 @740
 
-COPY ~DarkHorizonsBGee/cre/CMSKE03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKE03.CRE~ ~override~
   SAY NAME1 @740
   SAY NAME2 @740
 
-COPY ~DarkHorizonsBGee/cre/CMSKE04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKE04.CRE~ ~override~
   SAY NAME1 @740
   SAY NAME2 @740
 
-COPY ~DarkHorizonsBGee/cre/CMSKEL01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKEL01.CRE~ ~override~
   SAY NAME1 @741
   SAY NAME2 @741
 
-COPY ~DarkHorizonsBGee/cre/CMSKEL02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKEL02.CRE~ ~override~
   SAY NAME1 @741
   SAY NAME2 @741
 
-COPY ~DarkHorizonsBGee/cre/CMSKEL03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKEL03.CRE~ ~override~
   SAY NAME1 @742
   SAY NAME2 @742
 
-COPY ~DarkHorizonsBGee/cre/CMSKEL04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMSKEL04.CRE~ ~override~
   SAY NAME1 @742
   SAY NAME2 @742
 
-COPY ~DarkHorizonsBGee/cre/CMWYBA.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMWYBA.CRE~ ~override~
   SAY NAME1 @743
   SAY NAME2 @743
 
-COPY ~DarkHorizonsBGee/cre/CMWYBI1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMWYBI1.CRE~ ~override~
   SAY NAME1 @744
   SAY NAME2 @744
 
-COPY ~DarkHorizonsBGee/cre/CMWYBI2.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMWYBI2.CRE~ ~override~
   SAY NAME1 @745
   SAY NAME2 @745
 
 /*    --------------------------- Version 2.00 creatures-----------------      */
 
-COPY ~DarkHorizonsBGee/cre/CMBOU08.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU08.CRE~ ~override~
   SAY NAME1 @791
   SAY NAME2 @791
   
-COPY ~DarkHorizonsBGee/cre/CMBOU09.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU09.CRE~ ~override~
   SAY NAME1 @792
   SAY NAME2 @792
   
-COPY ~DarkHorizonsBGee/cre/CMBOU10.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU10.CRE~ ~override~
   SAY NAME1 @793
   SAY NAME2 @793
   
-COPY ~DarkHorizonsBGee/cre/CMBOU11.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMBOU11.CRE~ ~override~
   SAY NAME1 @794
   SAY NAME2 @794
 
-COPY ~DarkHorizonsBGee/cre/CMRWIZ01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMRWIZ01.CRE~ ~override~
   SAY NAME1 @795
   SAY NAME2 @795
   
-COPY ~DarkHorizonsBGee/cre/CMRWIZ02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMRWIZ02.CRE~ ~override~
   SAY NAME1 @796
   SAY NAME2 @796
   
-COPY ~DarkHorizonsBGee/cre/CMRWIZ03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMRWIZ03.CRE~ ~override~
   SAY NAME1 @797
   SAY NAME2 @797
   
-COPY ~DarkHorizonsBGee/cre/CMGNOL03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGNOL03.CRE~ ~override~
   SAY NAME1 @798
   SAY NAME2 @798
   
-COPY ~DarkHorizonsBGee/cre/CMGNOL04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMGNOL04.CRE~ ~override~
   SAY NAME1 @799
   SAY NAME2 @799
 
-COPY ~DarkHorizonsBGee/cre/CMELF01.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMELF01.CRE~ ~override~
   SAY NAME1 @800
   SAY NAME2 @800
   
-COPY ~DarkHorizonsBGee/cre/CMELF02.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMELF02.CRE~ ~override~
   SAY NAME1 @801
   SAY NAME2 @801
   
-COPY ~DarkHorizonsBGee/cre/CMELF03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMELF03.CRE~ ~override~
   SAY NAME1 @802
   SAY NAME2 @802
   
-COPY ~DarkHorizonsBGee/cre/CMELF04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMELF04.CRE~ ~override~
   SAY NAME1 @802
   SAY NAME2 @802
   
-COPY ~DarkHorizonsBGee/cre/CMELF05.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMELF05.CRE~ ~override~
   SAY NAME1 @802
   SAY NAME2 @802
   
-COPY ~DarkHorizonsBGee/cre/CMMERC03.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMMERC03.CRE~ ~override~
   SAY NAME1 @803
   SAY NAME2 @803
   
-COPY ~DarkHorizonsBGee/cre/CMMERC04.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMMERC04.CRE~ ~override~
   SAY NAME1 @803
   SAY NAME2 @803
 
-COPY ~DarkHorizonsBGee/cre/CMMERC05.CRE~ ~override~
+COPY ~DarkHorizons/cre/CMMERC05.CRE~ ~override~
   SAY NAME1 @840
   SAY NAME2 @840
   
-COPY ~DarkHorizonsBGee/cre/CMMERC06.CRE~ ~override~   
+COPY ~DarkHorizons/cre/CMMERC06.CRE~ ~override~   
   SAY NAME1 @804
   SAY NAME2 @804
   
-COPY ~DarkHorizonsBGee/cre/CM2300A1.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM2300A1.CRE~ ~override~
   SAY NAME1 @805
   SAY NAME2 @805
   
-COPY ~DarkHorizonsBGee/cre/CM2300A2.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM2300A2.CRE~ ~override~
   SAY NAME1 @805
   SAY NAME2 @805
   
-COPY ~DarkHorizonsBGee/cre/CM2300A3.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM2300A3.CRE~ ~override~
   SAY NAME1 @805
   SAY NAME2 @805
   
-COPY ~DarkHorizonsBGee/cre/CM330001.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330001.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
   
-COPY ~DarkHorizonsBGee/cre/CM330002.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330002.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
   
-COPY ~DarkHorizonsBGee/cre/CM330003.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330003.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
 
-COPY ~DarkHorizonsBGee/cre/CM330004.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330004.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
   
-COPY ~DarkHorizonsBGee/cre/CM330005.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330005.CRE~ ~override~
   SAY NAME1 @807
   SAY NAME2 @807
   
-COPY ~DarkHorizonsBGee/cre/CM330006.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330006.CRE~ ~override~
   SAY NAME1 @807
   SAY NAME2 @807
   
-COPY ~DarkHorizonsBGee/cre/CM330007.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330007.CRE~ ~override~
   SAY NAME1 @808
   SAY NAME2 @808
   
-COPY ~DarkHorizonsBGee/cre/CM330008.CRE~ ~override~
+COPY ~DarkHorizons/cre/CM330008.CRE~ ~override~
   SAY NAME1 @808
   SAY NAME2 @808
 
 /*  Stores */
 
-COPY    ~DarkHorizonsBGee/stores/magnus01.sto~     ~override/magnus01.sto~
+COPY    ~DarkHorizons/stores/magnus01.sto~     ~override/magnus01.sto~
   SAY NAME2 @746
   
-COPY    ~DarkHorizonsBGee/stores/mathoren.sto~     ~override/mathoren.sto~
+COPY    ~DarkHorizons/stores/mathoren.sto~     ~override/mathoren.sto~
   SAY NAME2 @747
   
-COPY    ~DarkHorizonsBGee/stores/cmjewel.sto~     ~override/cmjewel.sto~
+COPY    ~DarkHorizons/stores/cmjewel.sto~     ~override/cmjewel.sto~
   SAY NAME2 @748
 
-COPY    ~DarkHorizonsBGee/stores/cmkier.sto~     ~override/cmkier.sto~
+COPY    ~DarkHorizons/stores/cmkier.sto~     ~override/cmkier.sto~
 	SAY NAME2 @749
 	REPLACE_TEXTUALLY ~SCRL1V~ ~%SCRL1%~ (8)
   
   
   
-COPY    ~DarkHorizonsBGee/stores/cmfood1.sto~     ~override/cmfood1.sto~
+COPY    ~DarkHorizons/stores/cmfood1.sto~     ~override/cmfood1.sto~
   SAY NAME2 @682
  
-COPY    ~DarkHorizonsBGee/stores/cmmystr.sto~     ~override/cmmystr.sto~
+COPY    ~DarkHorizons/stores/cmmystr.sto~     ~override/cmmystr.sto~
   SAY NAME2 @750
   
 COPY_EXISTING ~STO0703.sto~ ~override~
@@ -6306,48 +6306,48 @@ ADD_STORE_ITEM ~mabull01~ #40 #0 #0 ~IDENTIFIED~ #100
 
 /*  -------------------------- New stores in 200 ------------  */
 
-COPY    ~DarkHorizonsBGee/BGT/stores/CMBAG01.sto~     ~override~
+COPY    ~DarkHorizons/BGT/stores/CMBAG01.sto~     ~override~
   SAY NAME2 @810
 
-COPY    ~DarkHorizonsBGee/BGT/stores/CMBAG03.sto~     ~override~
+COPY    ~DarkHorizons/BGT/stores/CMBAG03.sto~     ~override~
   SAY NAME2 @812
 
-COPY    ~DarkHorizonsBGee/BGT/stores/CMBAG04.sto~     ~override~
+COPY    ~DarkHorizons/BGT/stores/CMBAG04.sto~     ~override~
   SAY NAME2 @814
   
-COPY    ~DarkHorizonsBGee/BGT/stores/CMBAG05.sto~     ~override~
+COPY    ~DarkHorizons/BGT/stores/CMBAG05.sto~     ~override~
   SAY NAME2 @816
   
-COPY    ~DarkHorizonsBGee/BGT/stores/CMBAG06.sto~     ~override~
+COPY    ~DarkHorizons/BGT/stores/CMBAG06.sto~     ~override~
   SAY NAME2 @818
   
-COPY    ~DarkHorizonsBGee/stores/CMMERC03.sto~     ~override~
+COPY    ~DarkHorizons/stores/CMMERC03.sto~     ~override~
   SAY NAME2 @841
   
-COPY    ~DarkHorizonsBGee/stores/CMMERC04.sto~     ~override~
+COPY    ~DarkHorizons/stores/CMMERC04.sto~     ~override~
   SAY NAME2 @842
 
-COPY    ~DarkHorizonsBGee/stores/CMMERC05.sto~     ~override~
+COPY    ~DarkHorizons/stores/CMMERC05.sto~     ~override~
   SAY NAME2 @843
 
-COPY    ~DarkHorizonsBGee/BGT/stores/CMMERC06.sto~     ~override~  
+COPY    ~DarkHorizons/BGT/stores/CMMERC06.sto~     ~override~  
   SAY NAME2 @819
 
 
 /* ----------------------- Tutu Specifics ------------------------ */
 
 ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-COPY ~DarkHorizonsBGee/Tutu/cre/SKELET02.CRE~ ~override~
+COPY ~DarkHorizons/Tutu/cre/SKELET02.CRE~ ~override~
 END
 
 /* ------------------------ BGT Specifics ------------------------ */
 ACTION_IF (GAME_IS ~BGT~) AND (NOT FILE_EXISTS_IN_GAME ~SCRL1R.itm~) THEN BEGIN
-COPY ~DarkHorizonsBGee/BGT/additems/SCRL1R.ITM~ ~override~
+COPY ~DarkHorizons/BGT/additems/SCRL1R.ITM~ ~override~
   SAY NAME1 @844
   SAY NAME2 @844
   SAY UNIDENTIFIED_DESC @845
   SAY DESC @845
-COPY ~DarkHorizonsBGee/BGT/additems/SPWI315.SPL~ ~override~
+COPY ~DarkHorizons/BGT/additems/SPWI315.SPL~ ~override~
   SAY NAME1 @844
   SAY NAME2 @844
   SAY UNIDENTIFIED_DESC @845
@@ -6355,51 +6355,51 @@ COPY ~DarkHorizonsBGee/BGT/additems/SPWI315.SPL~ ~override~
 END
 
 ACTION_IF (GAME_IS ~BGT~) AND (NOT FILE_EXISTS_IN_GAME ~CSTAF06.bam~) THEN BEGIN
-  COPY ~DarkHorizonsBGee/BGT/additems/CSTAF06.bam~ ~override~
+  COPY ~DarkHorizons/BGT/additems/CSTAF06.bam~ ~override~
 END
 
 ACTION_IF (GAME_IS ~BGT~) AND (NOT FILE_EXISTS_IN_GAME ~CSLNG03.bam~) THEN BEGIN
-  COPY ~DarkHorizonsBGee/BGT/additems/CSLNG03.bam~ ~override~
+  COPY ~DarkHorizons/BGT/additems/CSLNG03.bam~ ~override~
 END
 
 ACTION_IF (GAME_IS ~BGT~) AND (NOT FILE_EXISTS_IN_GAME ~CSHLD19.BAM~) THEN BEGIN
-  COPY ~DarkHorizonsBGee/BGT/additems/CSHLD19.BAM~ ~override~
+  COPY ~DarkHorizons/BGT/additems/CSHLD19.BAM~ ~override~
 END
 
 ACTION_IF (GAME_IS ~BGT~) THEN BEGIN
   COPY_EXISTING ~AR8602.tis~ ~override/CM3373.tis~
-  AT_INTERACTIVE_EXIT ~DarkHorizonsBGee/BGT/Install.bat~
-  AT_INTERACTIVE_UNINSTALL ~DarkHorizonsBGee/BGT/UnInstall.bat~
+  AT_INTERACTIVE_EXIT ~DarkHorizons/BGT/Install.bat~
+  AT_INTERACTIVE_UNINSTALL ~DarkHorizons/BGT/UnInstall.bat~
 END
 
 /* ----------------------- BGEE Exclusives ------------------------ */
-
-COPY ~DarkHorizonsBGee/items/cmtck01.itm~   ~override/cmtck01.itm~
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+COPY ~DarkHorizons/items/cmtck01.itm~   ~override/cmtck01.itm~
 SAY NAME1 @112
 SAY NAME2 @902
 SAY UNIDENTIFIED_DESC @114
 SAY DESC @903
 
-COPY ~DarkHorizonsBGee/items/cmtbow01.itm~   ~override/cmtbow01.itm~
+COPY ~DarkHorizons/items/cmtbow01.itm~   ~override/cmtbow01.itm~
 SAY NAME1 @248
 SAY NAME2 @904
 SAY UNIDENTIFIED_DESC @250
 SAY DESC @905
 
-COPY ~DarkHorizonsBGee/items/cmtbrc01.itm~   ~override/cmtbrc01.itm~
+COPY ~DarkHorizons/items/cmtbrc01.itm~   ~override/cmtbrc01.itm~
 SAY NAME1 @129
 SAY NAME2 @906
 SAY UNIDENTIFIED_DESC @131
 SAY DESC @907
 
-COPY ~DarkHorizonsBGee/items/cmtlea01.itm~   ~override/cmtlea01.itm~
+COPY ~DarkHorizons/items/cmtlea01.itm~   ~override/cmtlea01.itm~
 SAY NAME1 @18
 SAY NAME2 @908
 SAY UNIDENTIFIED_DESC @20
 SAY DESC @909
 
 
-COPY ~DarkHorizonsBGee/cre/CMTNIKIT.cre~ ~override~
+COPY ~DarkHorizons/cre/CMTNIKIT.cre~ ~override~
   SAY NAME1 @910 /* Nikita */
   SAY NAME2 @910 /* Nikita */
   SAY INITIAL_MEETING  @911 /* I see. */
@@ -6449,7 +6449,7 @@ COPY ~DarkHorizonsBGee/cre/CMTNIKIT.cre~ ~override~
   SAY SET_A_TRAP    ~~ []
   SAY BIO @938 /* NIKITA's past is something that she keeps to herself. From what you do know is that she was an orphan for a time until she was brought into Section in her late teens. They trained her to be a charismatic assassin who killed evil individuals. All of this was done for the greater good. But over time Section became corrupt and started to mirror the evil they were fighting. Nikita was liberated from Section when you destroyed the organization. */
 
-COPY ~DarkHorizonsBGee/cre/CMTTHOR.cre~ ~override~
+COPY ~DarkHorizons/cre/CMTTHOR.cre~ ~override~
   SAY NAME1 @939 /* Thorin */
   SAY NAME2 @939 /* Thorin */
   SAY INITIAL_MEETING  @940 /* At last the mighty adventurer stands before me. To what do I owe this honor? */
@@ -6499,7 +6499,7 @@ COPY ~DarkHorizonsBGee/cre/CMTTHOR.cre~ ~override~
   SAY SET_A_TRAP    ~~ []
   SAY BIO @972 /* When asked about his past, THORIN says he's from the famous Stoneblade clan who were once Durlag's captian of the guard for many years. His grandfather was the last to serve Durlag before bad things happen to Durlag and his people. He would like to travel with the party to Durlag's Tower to retrieve some family heirlooms that may still be there and see what happened to his grandfather and the famous Durlag Trollkiller. */
 
-  COPY ~DarkHorizonsBGee/cre/CMTMORW.cre~ ~override~
+  COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
   SAY NAME1 @973 /* Morwen */
   SAY NAME2 @973 /* Morwen */
   SAY INITIAL_MEETING  @911 /* I see. */
@@ -6570,20 +6570,22 @@ APPEND ~interdia.2da~ ~cmtmorw BCMTMORW~
 
 // Dialogs
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmtniki.d~
+COMPILE ~DarkHorizons/dlgs/cmtniki.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmtthori.d~
+COMPILE ~DarkHorizons/dlgs/cmtthori.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmtmorw.d~
+COMPILE ~DarkHorizons/dlgs/cmtmorw.d~
 
 // Scripts
 
-COMPILE ~DarkHorizonsBGee/baf/cmtnikit.baf~
+COMPILE ~DarkHorizons/baf/cmtnikit.baf~
 
-COMPILE ~DarkHorizonsBGee/baf/cmtthor.baf~
+COMPILE ~DarkHorizons/baf/cmtthor.baf~
 
-COMPILE ~DarkHorizonsBGee/baf/cmtmorw.baf~
+COMPILE ~DarkHorizons/baf/cmtmorw.baf~
 
 // PVRZ
 
-COPY ~DarkHorizonsBGee/PVRZ~ ~override~
+COPY ~DarkHorizons/PVRZ~ ~override~
+
+END
