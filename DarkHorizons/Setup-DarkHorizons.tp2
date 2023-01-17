@@ -12,11 +12,16 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   PRINT @890 /* BG:EE install detected */
   INCLUDE ~DarkHorizons\lib\tbgcom_bgee_vars.tpa~
 END ELSE BEGIN
-  ACTION_IF GAME_IS ~tutu tututosc~ THEN BEGIN
+  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN //Tutu
     /* Tell the player it is using Tutu stuff */
     PRINT @891 /* Tutu install detected. */
     INCLUDE ~DarkHorizons\lib\g3_tutu_cpmvars.tpa~
   END ELSE BEGIN
+   /*ACTION_IF FILE_EXISTS ~BGMain2.exe~ THEN BEGIN //BG
+     PRINT ~BG install detected.~
+     INCLUDE ~DarkHorizons/lib/BG1.tpa~
+	OUTER_SET istotsc = 1
+  END ELSE BEGIN*/
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         /* Tell the player it is using BGT stuff */
         PRINT @892 /* BGT install detected. */
@@ -74,7 +79,7 @@ LANGUAGE ~Francais (traduit par Sanctifer des d'Oghmatiques)~
 
 
 BEGIN @0
-// REQUIRE_PREDICATE GAME_IS ~TotSC BGT Tutu_totsc~ @9
+// REQUIRE_PREDICATE GAME_IS ~TotSC BGT Tutu totsc~ @9
 PRINT @1
 PRINT @2
 PRINT @3
@@ -98,7 +103,7 @@ END
 /* New and altered areas */
 //COPY ~DarkHorizons\areas~ ~override~
 COPY ~DarkHorizons\areas\CM0750.are~ ~override~
-REPLACE_TEXTUALLY ~FW0700~ ~AR0700~
+REPLACE_TEXTUALLY ~FW0700~ ~%AR2%~
 COPY ~DarkHorizons\areas\CM0750.BCS~ ~override~
 COPY ~DarkHorizons\areas\CM0750.mos~ ~override~
 COPY ~DarkHorizons\areas\CM0750.tis~ ~override~
@@ -133,8 +138,8 @@ COPY ~DarkHorizons\areas\CM2680.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_M35B~ ~%SND1%~ (8)
 REPLACE_TEXTUALLY ~AMB_M35D~ ~%SND2%~ (8)
 REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
-PATCH_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-REPLACE_TEXTUALLY ~AR3901~ ~AR3901~ (8)
+PATCH_IF GAME_IS ~Tutu totsc~ THEN BEGIN
+REPLACE_TEXTUALLY ~AR3901~ ~%AR3%~ (8)
  	FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
    READ_ASCII ("%actors_offset%"+0x110*cnt+0x80)       "actor_name" (8)
    PATCH_IF ("%actor_name%" STRING_EQUAL "SKELET03") THEN BEGIN
@@ -173,7 +178,7 @@ FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
 REPLACE_TEXTUALLY ~SKELET_C~ ~_KELET_C~ (8)
 REPLACE_TEXTUALLY ~Dopple~ ~_Dopple~ (8)
 END ELSE BEGIN
-REPLACE_TEXTUALLY ~AR3901~ ~AR3901~ (8)
+REPLACE_TEXTUALLY ~AR3901~ ~%AR3%~ (8)
 END
 COPY ~DarkHorizons\areas\CM2680.mos~ ~override~
 COPY ~DarkHorizons\areas\CM2680.tis~ ~override~
@@ -185,7 +190,7 @@ COPY ~DarkHorizons\areas\CM2681.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_M35B~ ~%SND1%~ (8)
 REPLACE_TEXTUALLY ~AMB_M35D~ ~%SND2%~ (8)
 REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
-PATCH_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+PATCH_IF GAME_IS ~Tutu totsc~ THEN BEGIN
 REPLACE_TEXTUALLY ~Ghast~ ~_ghast~ (8)
 FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
   READ_ASCII ("%actors_offset%"+0x110*cnt+0x80)       "actor_name" (6)
@@ -214,13 +219,13 @@ REPLACE_TEXTUALLY ~AMB_E15B~ ~%SND5%~ (8)
 REPLACE_TEXTUALLY ~AMB_E15C~ ~%SND6%~ (8)
 REPLACE_TEXTUALLY ~AMB_E15D~ ~%SND7%~ (8)
 REPLACE_TEXTUALLY ~AMB_S05A~ ~%SND8%~ (8)
-PATCH_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-REPLACE_TEXTUALLY ~AR3302~ ~AR3302~
+PATCH_IF GAME_IS ~Tutu totsc~ THEN BEGIN
+REPLACE_TEXTUALLY ~AR3302~ ~%AR1%~
 REPLACE_TEXTUALLY ~Ghast~ ~_ghast~ (8)
 REPLACE_TEXTUALLY ~Skelet_a~ ~_kelet_a~ (8)
 REPLACE_TEXTUALLY ~SCRL1R~ ~_SCRL1R~ (8)
 END ELSE BEGIN
-REPLACE_TEXTUALLY ~AR3302~ ~AR3302~
+REPLACE_TEXTUALLY ~AR3302~ ~%AR1%~
 END
 COPY ~DarkHorizons\areas\CM3370.tis~ ~override~
 COPY ~DarkHorizons\areas\CM3370.wed~ ~override~
@@ -276,7 +281,7 @@ COPY ~DarkHorizons\areas\CM3376.wed~ ~override~
 COPY ~DarkHorizons\areas\CM3376HT.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3376LM.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3376SR.bmp~ ~override~
-COPY_EXISTING ~AR3302.are~ ~override~ 
+COPY_EXISTING ~%AR1%.are~ ~override~ 
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -1251,7 +1256,7 @@ SET "info_ext"=0x68
 BUT_ONLY_IF_IT_CHANGES
 
 
-COPY_EXISTING ~AR3302.are~ ~override~
+COPY_EXISTING ~%AR1%.are~ ~override~
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~%ITM3%~
 SET ~charges1~ = 0
@@ -1261,7 +1266,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY_IF_IT_CHANGES
 
 
-COPY_EXISTING ~AR0700.are~ ~override~ 
+COPY_EXISTING ~%AR2%.are~ ~override~ 
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -1710,7 +1715,7 @@ BUT_ONLY_IF_IT_CHANGES
 
 
 
-COPY_EXISTING ~AR3901.are~ ~override~ 
+COPY_EXISTING ~%AR3%.are~ ~override~ 
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -2601,7 +2606,7 @@ SET info_1=1
 
 BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~AR3901.are~ ~override~
+COPY_EXISTING ~%AR3%.are~ ~override~
 SET ~container_to_add_to~ = 4
 SPRINT ~item_to_add~ ~clck03~
 SET ~charges1~ = 0
@@ -2613,7 +2618,7 @@ BUT_ONLY_IF_IT_CHANGES
 /* Areas that add items to containers. */
 
 
-COPY_EXISTING ~AR0502.ARE~ ~override~
+COPY_EXISTING ~%AR4%.ARE~ ~override~
 
 SET ~container_to_add_to~ = 8
 SPRINT ~item_to_add~ ~MISC07~
@@ -2624,7 +2629,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~AR0503.ARE~ ~override~
+COPY_EXISTING ~%AR5%.ARE~ ~override~
 
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~SW1H03~
@@ -2649,7 +2654,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~AR0505.ARE~ ~override~
+COPY_EXISTING ~%AR6%.ARE~ ~override~
  READ_SHORT 0x76  "items_num"
  READ_LONG  0x78  "items_offset"
  
@@ -2690,7 +2695,7 @@ LAUNCH_PATCH_MACRO ~REPLACE_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~AR0511.ARE~ ~override~
+COPY_EXISTING ~%AR7%.ARE~ ~override~
  READ_SHORT 0x76  "items_num"
  READ_LONG  0x78  "items_offset"
 
@@ -2876,7 +2881,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~AR0512.ARE~ ~override~
+COPY_EXISTING ~%AR8%.ARE~ ~override~
 
 SPRINT ~old_item~ ~CLCK14~
 SPRINT ~new_item~ ~CLCK15~
@@ -2908,7 +2913,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~AR0513.ARE~ ~override~
+COPY_EXISTING ~%AR9%.ARE~ ~override~
 SET ~container_to_add_to~ = 1
 SPRINT ~item_to_add~ ~MAAX1H03~
 SET ~charges1~ = 0
@@ -2926,7 +2931,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~AR0514.ARE~ ~override~ 
+COPY_EXISTING ~%AR10%.ARE~ ~override~ 
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~MISC07~
 SET ~charges1~ = 0
@@ -2958,7 +2963,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~AR1207.ARE~ ~override~ 
+COPY_EXISTING ~%AR11%.ARE~ ~override~ 
 READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -3276,7 +3281,7 @@ SET info_1=1
    
 BUT_ONLY
 
-COPY_EXISTING ~AR1505.ARE~ ~override~
+COPY_EXISTING ~%AR12%.ARE~ ~override~
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~MISC07~
 SET ~charges1~ = 0
@@ -3293,7 +3298,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~AR1602.ARE~ ~override~
+COPY_EXISTING ~%AR13%.ARE~ ~override~
 
 SPRINT ~old_item~ ~STAF01~
 SPRINT ~new_item~ ~STAF02~
@@ -3325,7 +3330,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~AR1603.ARE~ ~override~
+COPY_EXISTING ~%AR14%.ARE~ ~override~
 SET ~container_to_add_to~ = 1
 SPRINT ~item_to_add~ ~MACMLE01~
 SET ~charges1~ = 0
@@ -5030,7 +5035,7 @@ COMPILE ~DarkHorizons/dlgs/cmosec12.d~
 
 /* COMPILE ~DarkHorizons/dlgs/cmpaul.d~ */
 
-ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+ACTION_IF GAME_IS ~Tutu totsc~ THEN BEGIN
 COMPILE ~DarkHorizons/Tutu/dlgs/cmquest1.d~
 END ELSE BEGIN
 COMPILE ~DarkHorizons/dlgs/cmquest1.d~
@@ -5042,7 +5047,7 @@ COMPILE ~DarkHorizons/dlgs/cmsec06.d~
 
 COMPILE ~DarkHorizons/dlgs/cmsec22.d~
 
-ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+ACTION_IF GAME_IS ~Tutu totsc~ THEN BEGIN
 COMPILE ~DarkHorizons/Tutu/dlgs/cmselen.d~
 END ELSE BEGIN
 COMPILE ~DarkHorizons/dlgs/cmselen.d~
@@ -5056,7 +5061,7 @@ COMPILE ~DarkHorizons/dlgs/cmtrist.d~
 
 COMPILE ~DarkHorizons/dlgs/cmwendel.d~
 
-ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+ACTION_IF GAME_IS ~Tutu totsc~ THEN BEGIN
 COMPILE ~DarkHorizons/Tutu/dlgs/cmwinton.d~
 END ELSE BEGIN
 COMPILE ~DarkHorizons/dlgs/cmwinton.d~
@@ -5074,13 +5079,13 @@ COMPILE ~DarkHorizons/dlgs/oversight.d~
 
 COMPILE ~DarkHorizons/dlgs/CMGHST01.d~
 
-ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+ACTION_IF GAME_IS ~Tutu totsc~ THEN BEGIN
 COMPILE ~DarkHorizons/Tutu/dlgs/magnus.d~
 END ELSE BEGIN
 COMPILE ~DarkHorizons/dlgs/magnus.d~
 END
 
-ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+ACTION_IF GAME_IS ~Tutu totsc~ THEN BEGIN
 COMPILE ~DarkHorizons/Tutu/dlgs/mathoren.d~
 END ELSE BEGIN
 COMPILE ~DarkHorizons/dlgs/mathoren.d~
@@ -5120,7 +5125,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
 /*	COPY_EXISTING ~AR3302.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR3302~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR3302~ (8)
@@ -5129,7 +5134,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
 	COPY_EXISTING ~AR0700.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR0700~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR0700~ (8)
@@ -5138,7 +5143,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
 	COPY_EXISTING ~AR1207.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR1207~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1207~ (8)
@@ -5147,7 +5152,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
 	COPY_EXISTING ~AR1600.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR1600~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1600~ (8)
@@ -5156,7 +5161,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR2606.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR2606~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR2606~ (8)
@@ -5165,7 +5170,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR5403.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR5403~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR5403~ (8)
@@ -5174,7 +5179,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR3800.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR3800~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR3800~ (8)
@@ -5183,7 +5188,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR4000.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR4000~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR4000~ (8)
@@ -5192,7 +5197,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR5200.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR5200~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR5200~ (8)
@@ -5201,7 +5206,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR2301.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR2301~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR2301~ (8)
@@ -5210,7 +5215,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR0705.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR0705~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR0705~ (8)
@@ -5219,7 +5224,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR1900.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR1900~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1900~ (8)
@@ -5228,7 +5233,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR1000.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR1000~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1000~ (8)
@@ -5237,7 +5242,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR1700.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR1700~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1700~ (8)
@@ -5246,7 +5251,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR1800.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR1800~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1800~ (8)
@@ -5255,7 +5260,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR1803.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR1803~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1803~ (8)
@@ -5264,7 +5269,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR2100.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR2100~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR2100~ (8)
@@ -5273,7 +5278,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR2300.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR2300~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR2300~ (8)
@@ -5282,7 +5287,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR2800.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR2800~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR2800~ (8)
@@ -5291,7 +5296,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR3300.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR3300~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR3300~ (8)
@@ -5300,7 +5305,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR5100.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR5100~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR5100~ (8)
@@ -5309,7 +5314,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR5400.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR5400~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR5400~ (8)
@@ -5318,7 +5323,7 @@ COMPILE ~DarkHorizons/dlgs/cmsect1.d~
   COPY_EXISTING ~AR2304.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
-  			PATCH_IF GAME_IS ~Tutu_totsc~ BEGIN
+  			PATCH_IF GAME_IS ~Tutu totsc~ BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~_AR2304~ (8)
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR2304~ (8)
@@ -5337,37 +5342,37 @@ COMPILE ~DarkHorizons/baf/AR3800.baf~
 COMPILE ~DarkHorizons/baf/AR4000.baf~
 COMPILE ~DarkHorizons/baf/AR5200.baf~
 */
-COPY_EXISTING ~AR1600.are~ ~override~
+COPY_EXISTING ~%AR15%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR1600.baf~
 
-COPY_EXISTING ~AR2606.are~ ~override~
+COPY_EXISTING ~%AR16%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR2606.baf~
 
-COPY_EXISTING ~AR3302.are~ ~override~
+COPY_EXISTING ~%AR1%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3302.baf~
 
-COPY_EXISTING ~AR3800.are~ ~override~
+COPY_EXISTING ~%AR18%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3800.baf~
 
-COPY_EXISTING ~AR4000.are~ ~override~
+COPY_EXISTING ~%AR19%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR4000.baf~
 
-COPY_EXISTING ~AR5200.are~ ~override~
+COPY_EXISTING ~%AR20%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR5200.baf~
 
-COPY_EXISTING ~AR2304.are~ ~override~
+COPY_EXISTING ~%AR34%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR2304.baf~
@@ -5380,47 +5385,47 @@ COMPILE ~DarkHorizons/baf/cm3373.baf~
 
 /* Append area scripts */
 
-COPY_EXISTING ~AR0700.are~ ~override~
+COPY_EXISTING ~%AR2%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar0700.baf~
 
-COPY_EXISTING ~AR0705.are~ ~override~
+COPY_EXISTING ~%AR22%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar0705.baf~
 
-COPY_EXISTING ~AR0514.are~ ~override~
+COPY_EXISTING ~%AR10%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar0514.baf~
 
-COPY_EXISTING ~AR1000.are~ ~override~
+COPY_EXISTING ~%AR24%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1000.baf~
 
-COPY_EXISTING ~AR1700.are~ ~override~
+COPY_EXISTING ~%AR25%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1700.baf~
 
-COPY_EXISTING ~AR1800.are~ ~override~
+COPY_EXISTING ~%AR26%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1800.baf~
 
-COPY_EXISTING ~AR1803.are~ ~override~
+COPY_EXISTING ~%AR27%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar1803.baf~
 
-COPY_EXISTING ~AR2100.are~ ~override~
+COPY_EXISTING ~%AR28%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar2100.baf~
 
-COPY_EXISTING ~AR2300.are~ ~override~
+COPY_EXISTING ~%AR29%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar2300.baf~
@@ -5430,7 +5435,7 @@ DECOMPILE_BCS_TO_BAF
 REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",9999993)~ ~GlobalGT("Chapter","GLOBAL",%chapter3%)~
 COMPILE_BAF_TO_BCS
 
-COPY_EXISTING ~AR2800.are~ ~override~
+COPY_EXISTING ~%AR30%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar2800.baf~
@@ -5441,49 +5446,49 @@ REPLACE_TEXTUALLY ~Global("Chapter","GLOBAL",9999992)~ ~Global("Chapter","GLOBAL
 REPLACE_TEXTUALLY ~GlobalGT("Chapter","GLOBAL",9999994)~ ~GlobalGT("Chapter","GLOBAL",%chapter4%)~
 COMPILE_BAF_TO_BCS
 
-COPY_EXISTING ~AR3300.are~ ~override~
+COPY_EXISTING ~%AR31%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar3300.baf~
 
-COPY_EXISTING ~AR5100.are~ ~override~
+COPY_EXISTING ~%AR32%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizons/baf/ar5100.baf~
 
-COPY_EXISTING ~AR5400.are~ ~override~
+COPY_EXISTING ~%AR33%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_TOP ~%area_script%.bcs~	~DarkHorizons/baf/ar5400.baf~
 
-COPY_EXISTING ~AR1900.are~ ~override~
+COPY_EXISTING ~%AR23%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/ar1900.baf~
 
-COPY_EXISTING ~AR2301.are~ ~override~
+COPY_EXISTING ~%AR21%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizons/baf/ar2301.baf~
 
 /* ------------------ Version 2.00 Additions ----------  */
 
-COPY_EXISTING ~AR0900.are~ ~override~
+COPY_EXISTING ~%AR35%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_TOP ~%area_script%.bcs~ ~DarkHorizons/baf/ar0900.baf~
 
-COPY_EXISTING ~AR3900.are~ ~override~
+COPY_EXISTING ~%AR36%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3900.baf~
 
-COPY_EXISTING ~AR3304.are~ ~override~
+COPY_EXISTING ~%AR37%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3304.baf~
 
-COPY_EXISTING ~AR3351.are~ ~override~
+COPY_EXISTING ~%AR38%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR3351.baf~
@@ -5496,12 +5501,12 @@ COMPILE ~DarkHorizons/baf/AR1207.baf~
 */
 
 
-COPY_EXISTING ~AR5403.are~ ~override~
+COPY_EXISTING ~%AR17%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR5403.baf~
 
-COPY_EXISTING ~AR1207.are~ ~override~
+COPY_EXISTING ~%AR11%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR1207.baf~
@@ -6336,7 +6341,7 @@ COPY    ~DarkHorizons/BGT/stores/CMMERC06.sto~     ~override~
 
 /* ----------------------- Tutu Specifics ------------------------ */
 
-ACTION_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
+ACTION_IF GAME_IS ~Tutu totsc~ THEN BEGIN
 COPY ~DarkHorizons/Tutu/cre/SKELET02.CRE~ ~override~
 END
 
@@ -6373,7 +6378,8 @@ ACTION_IF (GAME_IS ~BGT~) THEN BEGIN
 END
 
 /* ----------------------- BGEE Exclusives ------------------------ */
-ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+
+ ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 COPY ~DarkHorizons/items/cmtck01.itm~   ~override/cmtck01.itm~
 SAY NAME1 @112
 SAY NAME2 @902
@@ -6586,6 +6592,5 @@ COMPILE ~DarkHorizons/baf/cmtmorw.baf~
 
 // PVRZ
 
-COPY ~DarkHorizons/PVRZ~ ~override~
-
+ COPY ~DarkHorizons/PVRZ~ ~override~
 END
