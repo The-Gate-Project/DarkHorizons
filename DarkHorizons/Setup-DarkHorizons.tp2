@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizons/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~BG:EE v215~
+VERSION ~DarkHorizons v220~
 
 README ~DarkHorizons/readme-dh.htm~
 
@@ -12,17 +12,15 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   PRINT @890 /* BG:EE install detected */
   INCLUDE ~DarkHorizons\lib\tbgcom_bgee_vars.tpa~
 END ELSE BEGIN
-  /*ACTION_IF GAME_IS ~tutu tututosc~ THEN BEGIN*/
-  ACTION_IF FILE_EXISTS_IN_GAME ~FW0100.are~ THEN BEGIN //Tutu
+  ACTION_IF GAME_IS ~tutu tutu_tosc~ THEN BEGIN
     /* Tell the player it is using Tutu stuff */
     PRINT @891 /* Tutu install detected. */
     INCLUDE ~DarkHorizons\lib\g3_tutu_cpmvars.tpa~
   END ELSE BEGIN
-   /*ACTION_IF FILE_EXISTS ~BGMain2.exe~ THEN BEGIN //BG
+   ACTION_IF FILE_EXISTS ~BGMain2.exe~ THEN BEGIN //BG
      PRINT ~BG install detected.~
      INCLUDE ~DarkHorizons/lib/BG1.tpa~
-	OUTER_SET istotsc = 1
-  END ELSE BEGIN*/
+  END ELSE BEGIN
     ACTION_IF GAME_IS ~bgt~ THEN BEGIN
         /* Tell the player it is using BGT stuff */
         PRINT @892 /* BGT install detected. */
@@ -30,6 +28,7 @@ END ELSE BEGIN
         /* Tell the player it is not Tutu or BGT */
     END ELSE BEGIN FAIL @893 /* Please install on BG:EE, Tutu or BGT. */
     END
+	END
   END
 END
 
@@ -6381,6 +6380,7 @@ END
 /* ----------------------- BGEE Exclusives ------------------------ */
 
  ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+ 
 COPY ~DarkHorizons/items/cmtck01.itm~   ~override/cmtck01.itm~
 SAY NAME1 @112
 SAY NAME2 @902
@@ -6594,4 +6594,5 @@ COMPILE ~DarkHorizons/baf/cmtmorw.baf~
 // PVRZ
 
  COPY ~DarkHorizons/PVRZ~ ~override~
+ 
 END

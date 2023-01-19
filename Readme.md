@@ -1,4 +1,4 @@
-# WIP Dark Horizons WIP
+# Dark Horizons
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
 
@@ -13,7 +13,9 @@
 ## Description:
 ---------------
 
-Quest mod for Baldur's Gate Enhanced Edition (BGEE) and the Enhanced Edition Trilogy (EET) :
+Quest mod for Baldur's Gate Enhanced Edition (BGEE), Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy (EET) :
+
+(This version may work with BG1 with Tosc and Tutu with but it is untested, feedback are welcome...)
 
 Dark Horizons is a WeiDU-based mod for Baldur's Gate with Tales of the Sword Coast. This mod will have one major quest. An organization has been contracted to seek you out and eliminate you by whatever means necessary. Find out who they are before they take you out of play.
 There will be multiple minor quests as well a few "Fed Ex" quests.
@@ -29,7 +31,9 @@ Extract archive contents into your game directory
 
 Though this mod is made using the WeiDU standard, and *should* be compatible with all other WeiDU-based mods, there is always the possibility for conflicts. We suggest you install this mod AFTER the official patches. If you encounter any problems installing the mod, please our forums. 
 
-Install this mod **in your BGEE game BEFORE** EET !
+**EET** : Install this mod **in your BGEE game BEFORE** EET !
+
+**BGT** : Install this mod **in your BG2 game AFTER** BGT!
 
 ## Compatibility :
 ------------------
@@ -80,7 +84,15 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 ## Version History:
 -------------------
 
-- Release. Version BGEE 2.15 "" "", 2023
+- Release. Version BGEE / EET / BGT 2.20 January 19, 2023
+
+    CHANGES
+	
+	Add detection for Enhanced Editions for using new tis and PVRZ or not for other platforms	
+	Add BG1.tpa to lib folder for (maybe) bg1 vanilla compatibility
+	tututosc to tutu_tosc in tp2 for (maybe) Tutu compatibility
+	Add readme.md
+
 
 - Version BGEE 2.15 January 15, 2023
 
