@@ -104,12 +104,20 @@ PRINT @8
 
 COPY ~DarkHorizonsBGee\bams~ ~override~
 
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizonsBGee\bamsBGEE~ ~override~
+END
+
 COPY ~DarkHorizonsBGee\images~ ~override~
 
 ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~polish~ ) = 0 BEGIN
   COPY ~DarkHorizonsBGee\Language\%LANGUAGE%\sounds~ ~override~
 END ELSE BEGIN
   COPY ~DarkHorizonsBGee\sounds~ ~override~
+END
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizonsBGee\soundsBGEE~ ~override~
 END
 
 /* New and altered areas */

@@ -1,4 +1,4 @@
-# WIP Dark Horizons WIP
+# WIP Dark Horizons After-EET WIP
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
 
@@ -83,7 +83,22 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 - Version BGEE / EET 2.50 Release. "" "", 2023
 
     CHANGES
-	
+	Add EET Compat originaly included BY EET
+		- already in BG:EE file, so no needed for BGEE OR EET
+		FIRE_3.bam
+		FIRE_4.bam
+		- Ibrac24.bam renamed to Ibrac24#.bam and reassigned for CMBRQ04.ITM
+		- already in BG2:EE file, so no needed for EET
+		BREGAX02.WAV
+		BREGAX03.WAV
+		BREGAX04.WAV
+		BREGAX05.WAV
+		BREGAX17.WAV
+		FIRE_1.bam  
+		FIRE_3.bam  
+		FIRE_4.bam  
+		FIRE_4G2.bam
+	Modified tp2 and new folder soundsBGEE and bamsBGEE according to the above changes
 	Add g3_bgee_cpmvars.tpa in lib folder
 	Changes to tp2 for EET compatibility (using %area_prefix%)
 
