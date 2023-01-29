@@ -16,3 +16,10 @@ THEN
 	RESPONSE #100
 		Dialogue([PC])
 END
+
+IF
+  GlobalGT("ENDOFBG1","GLOBAL",0)
+THEN
+  RESPONSE #100
+    DestroySelf()
+END
