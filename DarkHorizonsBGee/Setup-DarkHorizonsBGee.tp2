@@ -104,7 +104,7 @@ PRINT @8
 
 COPY ~DarkHorizonsBGee\bams~ ~override~
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 COPY ~DarkHorizonsBGee\bamsBGEE~ ~override~
 END
 
@@ -116,7 +116,7 @@ END ELSE BEGIN
   COPY ~DarkHorizonsBGee\sounds~ ~override~
 END
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
 COPY ~DarkHorizonsBGee\soundsBGEE~ ~override~
 END
 
