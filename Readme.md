@@ -82,6 +82,15 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 
 - Release. Version BGEE 2.15 "" "", 2023  
 
+
+- Version BGEE 2.15 Release. Avril 7, 2023                                                                                                                     
+																																								   
+    CHANGES                                                                                                                                                        
+																																								   
+	Update CMTNIKIT.baf for EET continuity
+	Fix for DarkHorizonsBGee/BGT/stores/CMMERC06.sto thanks to P_zombie and Paladin84
+
+
 - Version BGEE 2.15 Release. January 15, 2023                                                                                                                      
 																																								   
     CHANGES                                                                                                                                                        
