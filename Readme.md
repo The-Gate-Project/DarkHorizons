@@ -82,8 +82,11 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 
 - Version BGEE / EET 2.50 Release. "" "", 2023                                                                                                                     
 																																								   
-    CHANGES                                                                                                                                                        
+   CHANGES                                                                                                                                                         
 																																								   
+	Update CMTNIKIT.baf for EET continuity
+	Fix for DarkHorizonsBGee/BGT/stores/CMMERC06.sto thanks to P_zombie and Paladin84
+	Missing ACTION_IF GAME_IS ~ eet ~
 	Add EET Compat originaly included BY EET                                                                                                                       
 		- already in BG:EE file, so no needed for BGEE OR EET                                                                                                      
 		FIRE_3.bam                                                                                                                                                 
