@@ -5470,6 +5470,7 @@ COPY_EXISTING ~%area_prefix%3300.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~	~DarkHorizonsBGee/baf/ar3300.baf~
+    EVALUATE_BUFFER
 
 COPY_EXISTING ~%area_prefix%5100.are~ ~override~
   READ_ASCII 0x94 area_script
@@ -6595,9 +6596,9 @@ APPEND ~interdia.2da~ ~cmtmorw BCMTMORW~
 
 // Dialogs
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmtniki.d~
+COMPILE EVALUATE_BUFFER ~DarkHorizonsBGee/dlgs/cmtniki.d~
 
-COMPILE ~DarkHorizonsBGee/dlgs/cmtthori.d~
+COMPILE EVALUATE_BUFFER ~DarkHorizonsBGee/dlgs/cmtthori.d~
 
 COMPILE ~DarkHorizonsBGee/dlgs/cmtmorw.d~
 
@@ -6607,7 +6608,7 @@ COMPILE ~DarkHorizonsBGee/baf/cmtnikit.baf~
 
 COMPILE ~DarkHorizonsBGee/baf/cmtthor.baf~
 
-COMPILE ~DarkHorizonsBGee/baf/cmtmorw.baf~
+COMPILE EVALUATE_BUFFER ~DarkHorizonsBGee/baf/cmtmorw.baf~
 
 // PVRZ
 
