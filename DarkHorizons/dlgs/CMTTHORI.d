@@ -34,7 +34,7 @@ END
 
 IF ~~ THEN BEGIN NoJoin
   SAY @13 /* Very well but if change your mind I'll be at Ulgoth's Beard Inn. */
-IF ~~ DO ~EscapeAreaMove("AR1001",892,314,6)~ EXIT
+IF ~~ DO ~EscapeAreaMove("%UlgothsBeard_Inn%",892,314,6)~ EXIT
 END
 
 IF ~NumTimesTalkedToGT(0)~ THEN BEGIN Greet
@@ -58,7 +58,7 @@ END
  
 IF ~~ pt2
  SAY @21 /* Very well, then. Should you change your mind, you may find me downing some ale at Ulgoth's Beard Inn. */
-IF ~~ DO ~SetGlobal("CmTThorinJoined","GLOBAL",0) EscapeAreaMove("AR1001",892,314,6)~ EXIT
+IF ~~ DO ~SetGlobal("CmTThorinJoined","GLOBAL",0) EscapeAreaMove("%UlgothsBeard_Inn%",892,314,6)~ EXIT
 END
 
 IF ~~ pt3
