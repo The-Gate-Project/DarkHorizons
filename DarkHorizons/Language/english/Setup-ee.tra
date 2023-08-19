@@ -3693,10 +3693,12 @@ Saving Throw: None
 When this spell is cast, the wizard and all of his gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons.  The wizard also gains a 25% magic resistance.  While in wraith form the caster is unable to cast spells.~
 
 // New info or error texts
-@890  = ~BG:EE install detected~
+@890  = ~BG:EE install detected.~
 @891  = ~Tutu install detected.~
 @892  = ~BGT install detected.~
 @893  = ~Please install on BG:EE, Tutu or BGT.~
+@894  = ~BG1 install detected.~
+@895  = ~EET install detected.~
 
 /* New in BGEE */
 

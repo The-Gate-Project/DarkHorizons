@@ -3898,10 +3898,12 @@ THAC0:  +2 бонус
 Когда это заклинание брошено, колдующий становится иллюзионным. При этом он подвергается атакам только магическим оружием +1 или выше, или существами, чьи атаки считаются магическими. Колдующий, также, получает сопротивление магии 25%. В такой форме не возможно произносить заклинания.~
 
 // New info or error texts
-@890  = ~BG:EE install detected~
+@890  = ~BG:EE install detected.~
 @891  = ~Tutu install detected.~
 @892  = ~BGT install detected.~
 @893  = ~Please install on BG:EE, Tutu or BGT.~
+@894  = ~BG1 install detected.~
+@895  = ~EET install detected.~
 
 /* New in BGEE */
 
