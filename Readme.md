@@ -13,9 +13,9 @@
 ## Description:
 ---------------
 
-Quest mod for Baldur's Gate Enhanced Edition (BGEE), Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy (EET) :
+Quest mod for Baldur's Gate Enhanced Edition (BG:EE), Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy (EET):
 
-(This version may work with BG1 with Tosc and Tutu with but it is untested, feedback are welcome...)
+(This version may work with BG1 with TotSC and Tutu but it is untested, feedback are welcome...)
 
 Dark Horizons is a WeiDU-based mod for Baldur's Gate with Tales of the Sword Coast. This mod will have one major quest. An organization has been contracted to seek you out and eliminate you by whatever means necessary. Find out who they are before they take you out of play.
 There will be multiple minor quests as well a few "Fed Ex" quests.
@@ -90,7 +90,7 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 	
 	Add detection for Enhanced Editions for using new tis and PVRZ or not for other platforms	  
 	Add BG1.tpa to lib folder for (maybe) bg1 vanilla compatibility  
-	tututosc to tutu_tosc in tp2 for (maybe) Tutu compatibility  
+	tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility  
 	Add readme.md  
 
 
