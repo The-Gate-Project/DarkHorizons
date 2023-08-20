@@ -4884,10 +4884,12 @@ Tiro-salvezza: Nessuno
 Quando questo incantesimo viene lanciato, il mago e i suoi abiti si smaterializzano. Lo stregone è soggetto solo alla magia e agli attacchi speciali, compresi quelli con armi da almeno +1, o da creature in grado di compiere altri attacchi, ma solo con le armi magiche. Il mago acquista anche una resistenza alla magia del 25%. Quando si trova nella Forma incorporea, lo stregone non può lanciare incantesimi.~
 
 // New info or error texts
-@890  = ~Installazione di BG:EE rilevata~
+@890  = ~Installazione di BG:EE rilevata.~
 @891  = ~Installazione di Tutu rilevata.~
 @892  = ~Installazione di BGT rilevata.~
 @893  = ~Per favour installare su BG:EE, Tutu o BGT.~
+@894  = ~Installazione di BG1 rilevata.~
+@895  = ~Installazione di EET rilevata.~
 
 /* New in BGEE */
 

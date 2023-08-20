@@ -7,29 +7,33 @@ README ~DarkHorizons/readme-dh.htm~
 
 // Game platform check
 ALWAYS
+
 ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   /*Tell the player it is using BG:EE stuff */
   PRINT @890 /* BG:EE install detected */
-  INCLUDE ~DarkHorizons/lib/tbgcom_bgee_vars.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/BGEE.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/g3_bgee_cpmvars.tpa~
+END ELSE
+ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
+  /* Tell the player it is using Tutu stuff */
+  PRINT @891 /* Tutu install detected. */
+  INCLUDE ~%MOD_FOLDER%/lib/TuTu.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/g3_tutu_cpmvars.tpa~
+END ELSE
+ACTION_IF GAME_IS ~totsc~ THEN BEGIN
+  /* Tell the player it is using BG1 stuff */
+  PRINT @894
+  INCLUDE ~%MOD_FOLDER%/lib/BG1.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/g3_bg_cpmvars.tpa~
+END ELSE
+ACTION_IF GAME_IS ~bgt~ THEN BEGIN
+  /* Tell the player it is using BGT stuff */
+  PRINT @892 /* BGT install detected. */
+  INCLUDE ~%MOD_FOLDER%/lib/BGT.tpa~
+  INCLUDE ~%MOD_FOLDER%/lib/g3_bgt_cpmvars.tpa~
 END ELSE BEGIN
-  ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-    /* Tell the player it is using Tutu stuff */
-    PRINT @891 /* Tutu install detected. */
-    INCLUDE ~DarkHorizons/lib/g3_tutu_cpmvars.tpa~
-  END ELSE BEGIN
-   ACTION_IF FILE_EXISTS ~BGMain2.exe~ THEN BEGIN //BG
-     PRINT ~BG install detected.~
-     INCLUDE ~DarkHorizons/lib/BG1.tpa~
-  END ELSE BEGIN
-    ACTION_IF GAME_IS ~bgt~ THEN BEGIN
-        /* Tell the player it is using BGT stuff */
-        PRINT @892 /* BGT install detected. */
-        INCLUDE ~DarkHorizons/lib/g3_bgt_cpmvars.tpa~
-        /* Tell the player it is not Tutu or BGT */
-    END ELSE BEGIN FAIL @893 /* Please install on BG:EE, Tutu or BGT. */
-    END
-	END
-  END
+  /* Tell the player it is not Tutu or BGT */
+  FAIL @893 /* Please install on BG:EE, Tutu or BGT. */
 END
 
 ACTION_IF ENGINE_IS ~bgee~ BEGIN
@@ -90,7 +94,7 @@ LANGUAGE ~Francais (traduit par Sanctifer des d'Oghmatiques)~
 
 
 BEGIN @0
-// REQUIRE_PREDICATE GAME_IS ~TotSC BGT Tutu_totsc~ @9
+
 PRINT @1
 PRINT @2
 PRINT @3
@@ -114,7 +118,7 @@ END
 /* New and altered areas */
 //COPY ~DarkHorizons/areas~ ~override~
 COPY ~DarkHorizons/areas/CM0750.are~ ~override~
-REPLACE_TEXTUALLY ~FW0700~ ~%AR2%~
+  REPLACE_TEXTUALLY ~FW0700~ ~%AR2%~
 COPY ~DarkHorizons/areas/CM0750.BCS~ ~override~
 COPY ~DarkHorizons/areas/CM0750.mos~ ~override~
 COPY ~DarkHorizons/areas/CM0750.tis~ ~override~
