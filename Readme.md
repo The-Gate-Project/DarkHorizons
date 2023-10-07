@@ -1,4 +1,4 @@
-# WIP Dark Horizons WIP
+# Dark Horizons BGEE
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
 
