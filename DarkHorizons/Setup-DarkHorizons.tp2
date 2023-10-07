@@ -47,6 +47,7 @@ ACTION_IF ENGINE_IS ~bgee~ BEGIN
 				"italian" => "CP1252"
 				"polish" => "CP1250"
 				"russian" => "CP1251"
+				"spanish" => "CP1252"
 			END
 			ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
 			ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
@@ -90,6 +91,10 @@ LANGUAGE ~Polish~
 LANGUAGE ~Francais (traduit par Sanctifer des d'Oghmatiques)~
          ~french~
          ~DarkHorizons/Language/french/setup.tra~
+
+LANGUAGE ~Spanish~
+         ~spanish~
+         ~DarkHorizons/Language/spanish/setup.tra~
 
 
 
