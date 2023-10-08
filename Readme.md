@@ -80,32 +80,35 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 ## Version History:
 -------------------
 
-- Release. Version BGEE 2.15 "" "", 2023  
+
+- Version BGEE 2.15 Release. October 8, 2023  
+																																								   
+    CHANGES  
+	
+	Add InfinityAutoPackager thanks to AL|EN  
+	Add metadata and label for Project Infinity  
+	Update Italian and German translation thanks to Frenzgyn  
+	Add Spanish translation by AlaisFcZ  
+	Update Russian translation thanks to Paladin84  
+	Update Polish translation thanks to Roberciik  
+	Update CMTNIKIT.baf for EET continuity  
+	Fix for DarkHorizonsBGee/BGT/stores/CMMERC06.sto thanks to P_zombie  
 
 
-- Version BGEE 2.15 Release. Avril 7, 2023                                                                                                                     
+- Version BGEE 2.14 Release. January 15, 2023  
 																																								   
-    CHANGES                                                                                                                                                        
+    CHANGES  
 																																								   
-	Update CMTNIKIT.baf for EET continuity
-	Fix for DarkHorizonsBGee/BGT/stores/CMMERC06.sto thanks to P_zombie and Paladin84
-
-
-- Version BGEE 2.15 Release. January 15, 2023                                                                                                                      
-																																								   
-    CHANGES                                                                                                                                                        
-																																								   
-	Add PVRZ folder with PVRZ from original BGEE / IWDEE	                                                                                                       
-	Change *tis with TIS from original BGEE / IWDEE	                                                                                                               
-	Add COPY ~ DarkHorizonsBGee/PVRZ ~ ~ override ~ to tp2	                                                                                                       
-	A forgotten correction for MABRAC02.itm                                                                                                                        
-																																								   
-	Up setup.exe                                                                                                                                                   
-	Add BWP Fix from BigWorldSetup-Fixpack                                                                                                                         
-		.Items : CMHAQ02, CMS1H01, CMS1H08, CMSTQ02, CMSTQ03, CMSTQ04, CMSTQ05,  CMSWQ14.                                                                          
-		.DLG : CMQUEST1.d                                                                                                                                          
-	Up Russian translation from ArcaneCoast                                                                                                                        
-	Delete Backup                                                                                                                                                  
+	Add PVRZ folder with PVRZ from original BGEE / IWDEE  
+	Change *tis with TIS from original BGEE / IWDEE  
+	Add COPY ~ DarkHorizonsBGee/PVRZ ~ ~ override ~ to tp2  
+	A forgotten correction for MABRAC02.itm  
+	Up setup.exe  
+	Add BWP Fix from BigWorldSetup-Fixpack  
+		.Items : CMHAQ02, CMS1H01, CMS1H08, CMSTQ02, CMSTQ03, CMSTQ04, CMSTQ05,  CMSWQ14.  
+		.DLG : CMQUEST1.d  
+	Up Russian translation from ArcaneCoast  
+	Delete Backup  
 																																								   
 - Version BGEE 2.13 Release. November 29, 2015                                                                                                                     
 																																								   

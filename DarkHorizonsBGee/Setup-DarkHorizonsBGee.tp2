@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizonsBGee/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~BG:EE v215~
+VERSION ~2.15~
 
 README ~DarkHorizonsBGee/readme-dh.htm~
 
@@ -78,6 +78,8 @@ LANGUAGE ~Spanish~
 
 
 BEGIN @0
+DESIGNATED 0
+LABEL ~TeamBG_CoM_Solaufein-DarkHorizonsBGee~
 // REQUIRE_PREDICATE GAME_IS ~TotSC BGT Tutu_totsc~ @9
 PRINT @1
 PRINT @2
