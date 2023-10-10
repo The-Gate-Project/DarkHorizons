@@ -10,9 +10,9 @@
 @9    = ~No parece que tengas instalados BG:EE, TuTu o BGT.~
 @10   = ~Armadura de malla de placas~
 @11   = ~Armadura de placa enana +3~
-@12   = ~La cota de malla es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle. De construcción similar a la cota de malla de bronce, la cota de malla auténtica se compone de cadenas y cuero.
+@12   = ~La Armadura de placas es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle. De construcción similar a la cota de malla de bronce, la cota de malla auténtica se compone de cadenas y cuero.
 
-STATISTICS:
+ESTADÍSTICAS:
 
 Clase de Armadura: 3
 Peso: 50~
@@ -84,7 +84,7 @@ Peso: 8~
 @28   = ~Placa de Emberwilde~
 @29   = ~La armadura de placas es la mejor armadura que un guerrero puede comprar, tanto en apariencia como en protección. Las placas entrelazadas y perfectamente ajustadas están especialmente anguladas para desviar flechas y golpes, y todo el traje está cuidadosamente adornado con ricos grabados y detalles en relieve.
 
-STATISTICS:
+ESTADÍSTICAS:
 
 Clase de Armadura: 1
 Peso: 70~
@@ -105,7 +105,7 @@ Peso: 8~
 @33   = ~Armadura de dragon~
 @34   = ~Armadura de Dragón, la armadura característica de los exploradores de la  Quimera de Élite. Esta armadura está encantada con una magia poderosa que sólo conocen los chamanes quimera. Proporciona al portador protección adicional contra muchas formas de ataque y ayuda a acechar a sus objetivos.
 
-STATISTICS:
+ESTADÍSTICAS:
 
 Clase de Armadura: 4
 Bonificación: + 15% al sigilo
@@ -130,7 +130,7 @@ Tiradas de salvación:+3 bonus
 Permite lanzar hechizos y habilidades de ladrón
 Peso: 5~
 @39   = ~Armadura del bosque~
-@40   = ~Esta es la armadura de un guardabosques desconocido, todo lo que se sabe es que era muy poderoso. Se rumorea que su destreza en la batalla se debe a esta armadura. Se le han otorgado muchos poderes mágicos más allá de los de una armadura normal. Cuando te la pones, no sólo pareces estar mejor protegido, sino que pareces tener una ventaja extra. En los bosques y en las zonas sombrías de las ciudades, esta armadura se presta a la ocultación y al movimiento silencioso.
+@40   = ~Esta es la armadura de un Explorador desconocido, todo lo que se sabe es que era muy poderoso. Se rumorea que su destreza en la batalla se debe a esta armadura. Se le han otorgado muchos poderes mágicos más allá de los de una armadura normal. Cuando te la pones, no sólo pareces estar mejor protegido, sino que pareces tener una ventaja extra. En los bosques y en las zonas sombrías de las ciudades, esta armadura se presta a la ocultación y al movimiento silencioso.
 
 ESTADÍSTICAS:
 
@@ -224,7 +224,7 @@ ESTADÍSTICAS:
 
 Clase de Armadura: 6
 Peso: 40~
-@63   = ~Esta armadura procede de la tundra helada de Icewind Dale. Ha sido bendecida por los chamanes para proteger al usuario de los elementos fríos.
+@63   = ~Esta armadura procede de la tundra helada del Valle del Viento Helado. Ha sido bendecida por los chamanes para proteger al usuario de los elementos fríos.
 
 ESTADÍSTICAS:
 
@@ -237,7 +237,7 @@ ESTADÍSTICAS:
 
 Clase de Armadura: 7
 Peso: 25~
-@65   = ~En las zonas boscosas, esta armadura se presta a esconderse y moverse en silencio. Esto ayudará al druida y al guardabosques en su protección de la naturaleza. 
+@65   = ~En las zonas boscosas, esta armadura se presta a esconderse y moverse en silencio. Esto ayudará al druida y al Explorador en su protección de la naturaleza. 
 
 ESTADÍSTICAS:
 
@@ -263,13 +263,13 @@ Peso: 8~
 @69   = ~No detectado~
 @70   = ~Armadura de cuero~
 @71   = ~Naturaleza divina~
-@72   = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero con el que se fabrican las botas de un guardabosques o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
+@72   = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero con el que se fabrican las botas de un Explorador o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 8
 Peso: 15~
-@73   = ~Sólo los mejores defensores de la naturaleza tienen el privilegio de llevar una armadura como ésta. Se dice que sólo la orden secreta de druidas y guardabosques conocida como Los Guerreros de la Naturaleza tienen esta armadura.
+@73   = ~Sólo los mejores defensores de la naturaleza tienen el privilegio de llevar una armadura como ésta. Se dice que sólo la orden secreta de druidas y Exploradores conocida como Los Guerreros de la Naturaleza tienen esta armadura.
 
 ESTADÍSTICAS:
 
@@ -320,7 +320,7 @@ Golpe de llama
 +20% Resistencia al fuego
 Peso: 20~
 @82   = ~Placa de Balduran~
-@83   = ~Esta placa la llevaba el famoso héroe Balduran. Forma parte de un conjunto de armas y armaduras que fue robado del museo de la ciudad de Baldur's Gate.
+@83   = ~Esta placa la llevaba el famoso héroe Balduran. Forma parte de un conjunto de armas y armaduras que fue robado del museo de la ciudad de Puerta de Baldur.
 
 ESTADÍSTICAS:
 
@@ -438,12 +438,12 @@ ESTADÍSTICAS:
 
 Clase de Armadura: +3 bonus
 Tirada de salvación: +2 bonus
-Especial: Protección contra no muertos
+Especial: Protección contra muertos vivientes
 Peso: 3~
 @112 = ~Capa~
 @113 = ~Capa de Naturaleza~
 @114 = ~La capa se puede hacer de todas las formas posibles con casi cualquier tipo de tela. Las formas más comunes son una pieza circular de tela con un agujero en el centro para la cabeza, y tela drapeada desde el cuello, unida por una cadena, broche, cordón o alfileres.~
-@115 = ~El Manto de la Naturaleza ayudará a proteger a un druida o a un guardabosques de los elementos de la naturaleza.   
+@115 = ~El Manto de la Naturaleza ayudará a proteger a un druida o a un explorador de los elementos de la naturaleza.   
 
 ESTADÍSTICAS:
 
@@ -523,15 +523,15 @@ ESTADÍSTICAS:
 
 Clase de Armadura: 3
 Peso: 2~
-@138 = ~Gloves of Lock Picking~
-@139 = ~Los Brazales de Forzar Cerraduras fueron creados mágicamente por un mago/ladrón llamado Jamaar el Rápido. Estos brazales le sirvieron para abrir cualquier tipo de cerradura. Perdió estos brazales cuando perdió la vida por una trampa de bola de fuego que había en un cofre. Debería haber invertido en un dispositivo mágico que detectara trampas.
+@138 = ~Guantes de ganzuado~
+@139 = ~Los Guantes de ganzuado fueron creados mágicamente por un mago/ladrón llamado Jamaar el Rápido. Estos brazales le sirvieron para abrir cualquier tipo de cerradura. Perdió estos brazales cuando perdió la vida por una trampa de bola de fuego que había en un cofre. Debería haber invertido en un dispositivo mágico que detectara trampas.
 
 ESTADÍSTICAS:
 
 Bonificación por abrir cerraduras: 20%.
 Peso: 2~
 @140 = ~Regalo del Bosque~
-@141 = ~Don de los Bosques:  A lo largo del tiempo, druidas y guardabosques han luchado por proteger la naturaleza de la civilización. En ocasiones, los habitantes de la naturaleza conceden favores a estos fanáticos para ayudarles en sus esfuerzos por protegerla.
+@141 = ~Don de los Bosques:  A lo largo del tiempo, druidas y exploradores han luchado por proteger la naturaleza de la civilización. En ocasiones, los habitantes de la naturaleza conceden favores a estos fanáticos para ayudarles en sus esfuerzos por protegerla.
 
 ESTADÍSTICAS:
 
@@ -657,8 +657,8 @@ Constitución: +2 bonus
 Especial: Protección contra golpes críticos
 Peso: 2~
 @164 = ~Escudo del Dragón Rojo~
-@165 = ~Escudo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de guardabosques quimera, infunden miedo en el corazón del más fiero de los guerreros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de esta armadura elaberate, de alguna manera se las arreglan para desaparecer a voluntad.
-Yelmo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de guardabosques quimera, infunden miedo en el corazón de los guerreros más fieros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de su elaborada armadura, consiguen desaparecer a voluntad. 
+@165 = ~Escudo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de exploradores quimera, infunden miedo en el corazón del más fiero de los guerreros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de esta armadura elaberate, de alguna manera se las arreglan para desaparecer a voluntad.
+Yelmo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de exploradores quimera, infunden miedo en el corazón de los guerreros más fieros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de su elaborada armadura, consiguen desaparecer a voluntad. 
 
 ESTADÍSTICAS:
 
@@ -707,7 +707,7 @@ ESTADÍSTICAS:
 Bonificación por clase de armadura: 1
 Peso: 7~
 @178 = ~Escudo de Balduran +3
-Este escudo lo llevaba el héroe Balduran. Forma parte de un conjunto de armas y armaduras que fue robado del museo de la ciudad de Baldur's Gate.
+Este escudo lo llevaba el héroe Balduran. Forma parte de un conjunto de armas y armaduras que fue robado del museo de la ciudad de Puerta de Baldur.
 
 ESTADÍSTICAS:
 
@@ -789,7 +789,7 @@ Especial: Vuelve a la mano del usuario una vez lanzada
 Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Hacha
-Tipo: Hacha 1-handed~
+Tipo: Hacha 1-mano~
 @194 = ~alabarda~
 @195 = ~Hacha de batalla a dos manos +2~
 @196 = ~La alabarda es, con diferencia, el arma de asta más antigua y utilizada. Consiste en un hacha con forma de cuchilla montada sobre un bastón de unos dos metros de longitud. La hoja del hacha está equilibrada en la parte trasera con una aleta, y coronada por una punta afilada, normalmente de diseño cuadrangular. A veces se sustituye por un gancho para desmontar a la caballería. Una alabarda puede describirse como un cruce entre una lanza y un hacha.
@@ -861,8 +861,8 @@ Tipo de daño: cortante
 Peso: 5
 Factor de velocidad 5
 Tipo de competencia: Hacha
-Tipo: Hacha 1-handed~
-@204 = ~Hacha de Batalla +3, Frostreaver~
+Tipo: Hacha 1-mano~
+@204 = ~Hacha de Batalla +3, Rompehielos~
 @205 = ~La versión más común del hacha de batalla es un palo robusto de unos cuatro pies de largo con una hoja de un solo filo en forma de trompeta montada en un extremo. Las hachas de batalla también se llaman hachas anchas.
 
 ESTADÍSTICAS:
@@ -872,8 +872,8 @@ Tipo de daño: cortante
 Peso: 7
 Factor de velocidad: 7
 Tipo de competencia: Hacha
-Tipo: Hacha 1-handed~
-@206 = ~Frostreaver, Hacha de Batalla +3
+Tipo: Hacha 1-mano~
+@206 = ~Rompehielos, Hacha de Batalla +3
 Esta era el hacha de Illgarth, un Gigante de Hielo que aterrorizó a las comunidades del norte hace mucho tiempo. No se sabe dónde adquirió el arma, pero sentía un placer perverso al descargarla sobre los pequeños, en especial los halflings. El hielo y el ácido mutilaban a los que no morían, y el gigante se reía fríamente si reconocía su obra de una visita anterior. Al final, un grupo consiguió matarlo y, a petición de sus víctimas, el Rompehielos fue enterrado con él.
 
 ESTADÍSTICAS
@@ -911,7 +911,7 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad: 6
 Tipo de competencia: Maza
-Tipo: Maza 1-handed~
+Tipo: Maza 1-mano~
 @211 = ~Estrella de la Mañana~
 @212 = ~Estrella de la Mañana +3~
 @213 = ~La estrella de la mañana es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Las estrellas de la mañana tienen una longitud total de unos cuatro pies. Algunas de estas armas tienen una cabeza redonda, ovalada o cilíndrica con pinchos. De la cabeza de la mayoría de las estrellas matutinas, independientemente de su diseño, sobresale una larga punta para clavar.
@@ -922,7 +922,7 @@ Daño: 2D4
 Tipo de daño: aplastante
 Peso: 12
 Factor de velocidad: 7
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
 @214 = ~La estrella de la mañana es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Las estrellas de la mañana tienen una longitud total de unos cuatro pies. Algunas de estas armas tienen una cabeza redonda, ovalada o cilíndrica con pinchos. De la cabeza de la mayoría de las estrellas matutinas, independientemente de su diseño, sobresale una larga punta para clavar.
 
@@ -933,9 +933,9 @@ Daño 2D4 +3
 Tipo de daño: aplastante
 Peso: 12
 Factor de velocidad: 7
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1-Mano~
-@215 = ~Malete +3 Muerte Roja~
+@215 = ~Mayal +3 Muerte Roja~
 @216 = ~Grabado en las cabezas del mayal dice: "La Muerte Roja domina sobre todos". 
 
 ESTADÍSTICAS:
@@ -946,8 +946,8 @@ Daño 1D6 +3
 Tipo de daño: aplastante
 Peso: 15
 Factor de velocidad: 7
-Tipo de competencia: Mayal/Estrella de la mañana
-Tipo: 1-handed~
+Tipo de competencia: Mayal/Lucero de alba
+Tipo: 1-mano~
 @217 = ~Club~
 @218 = ~Hiedra Venenosa +2~
 @219 = ~La mayoría de las porras son palos robustos de madera dura, estrechos en la empuñadura y más anchos en el extremo. Esta sencilla arma se ha utilizado desde que la humanidad empezó a usar herramientas. Cualquiera puede encontrar un buen trozo de madera y blandirlo; de ahí su uso generalizado.
@@ -974,9 +974,9 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad 3
 Tipo de habilidad: Garrote
-Tipo: Garrote 1-handed~
-@221 = ~Flail~
-@222 = ~Maleta +3 "Miedo"~
+Tipo: Garrote 1-mano~
+@221 = ~Mayal~
+@222 = ~Mayal +3 "Miedo"~
 @223 = ~El mayal es un robusto mango de madera unido a una barra de hierro, una barra de madera con pinchos o una bola de hierro con pinchos. Entre el mango y el implemento hay una bisagra o una cadena de eslabones. Esta arma se utilizaba originalmente para trillar el grano.
 
 ESTADÍSTICAS:
@@ -997,7 +997,7 @@ Especial: +3 daño perforante
 Tipo de daño: aplastante
 Peso: 11
 Factor de velocidad 5
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
 @225 = ~Mayal Santo del Sol~
 @226 = ~El mayal es un robusto mango de madera unido a una barra de hierro, una barra de madera con pinchos, o una bola de hierro con pinchos. Entre el mango y el implemento hay una bisagra o una cadena de eslabones.  Esta arma se utilizaba originalmente para trillar el grano.  
@@ -1008,7 +1008,7 @@ Daño: 1D6 +1
 Tipo de daño: aplastante
 Peso: 15
 Factor de velocidad: 7
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
 @227 = ~Este mayal está consagrado por el templo del sol, posee poderes mágicos, y sólo puede ser utilizado por aquellos que siguen el camino de la iluminación.
 
@@ -1022,7 +1022,7 @@ Especial: 2D3 daño de fuego
 Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad 3
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
 @228 = ~Martillo Brillante~
 @229 = ~Martillo de Guerra +3 "Destino de Asgrim"~
@@ -1030,7 +1030,7 @@ Tipo: 1 mano~
 
 ESTADÍSTICAS:
 Desconocido~
-@231 = ~Este es el legendario martillo de guerra que Asgrim el Grande usó para luchar contra la horda drow de su tierra natal. Muchos drow fueron asesinados ese día por Asgrim y su fiel martillo. Incluso los gigantes temían a Asgrim y su poderoso martillo. Su destino es desconocido. Lo último que se supo de él es que estaba en la región de Icewind Dale buscando tesoros y aventuras. 
+@231 = ~Este es el legendario martillo de guerra que Asgrim el Grande usó para luchar contra la horda drow de su tierra natal. Muchos drow fueron asesinados ese día por Asgrim y su fiel martillo. Incluso los gigantes temían a Asgrim y su poderoso martillo. Su destino es desconocido. Lo último que se supo de él es que estaba en la región del Valle del Viento Helado buscando tesoros y aventuras. 
 
 ESTADÍSTICAS:
 
@@ -1135,7 +1135,7 @@ Factor de velocidad: 2
 Tipo de competencia: Martillo de Guerra
 Tipo: Martillo de guerra 1-mano~
 @244 = ~La Estrella de la Iluminación +3~
-@245 = ~Esta estrella de la mañana está consagrada por el templo del sol, posee poderes mágicos, y sólo puede ser usada por aquellos que siguen el camino de la iluminación.  
+@245 = ~La Estrella de la Iluminación está consagrada por el templo del sol, posee poderes mágicos, y sólo puede ser usada por aquellos que siguen el camino de la iluminación.  
 
 ESTADÍSTICAS:
 
@@ -1148,8 +1148,8 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad 3
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1-handed~
-@246 = ~Maza +2 `Screaming Maiden'~
+Tipo: 1-mano~
+@246 = ~Maza +2 `Doncella Gritona'~
 @247 = ~Maza +2 : 'Doncella Gritona'
 
 La cabeza de obsidiana de esta maza es la de una bonita joven. Al blandirla en combate, el bello rostro se transforma en una mirada lasciva con grandes fauces colmilludas.
@@ -1190,8 +1190,8 @@ Peso: 2
 Factor de velocidad: 6
 Tipo de competencia: Arco Largo
 Tipo: Arco largo 2 manos~
-@252 = ~Arco Largo de Guardabosques +3~
-@253 = ~El regalo de Mielikki fue dado a un guardabosques Rashemi llamado Doran. Doran era conocido por derribar enemigos en gran número con este arco. 
+@252 = ~Arco Largo de Explorador +3~
+@253 = ~El regalo de Mielikki fue dado a un Explorador Rashemi llamado Doran. Doran era conocido por derribar enemigos en gran número con este arco. 
 
 ESTADÍSTICAS:
 
@@ -1225,7 +1225,7 @@ Peso: 2
 Factor de velocidad: 4
 Tipo de competencia: Arco Corto
 Tipo: Arco corto 2 manos~
-@258 = ~Arco Corto 'Icestorm'~
+@258 = ~Arco Corto 'Tormenta de Hielo'~
 @259 = ~Los arcos cortos fueron los primeros en desarrollarse, aunque no se les llamaba así.  Se trata más bien de un término por defecto que se refiere a cualquier cosa que no sea un arco largo.  Las duelas de los arcos cortos tienen una longitud media de unos 5 ' pies.  Con el paso de los años, se intentó aumentar el alcance de los arcos.  Los arcos se dotaron de pentagramas más largos o se aumentó la flexibilidad sin cambiar la longitud.  La primera opción dio lugar a lo que hoy se conoce como arco largo.  
 
 ESTADÍSTICAS:
@@ -1235,7 +1235,7 @@ Peso: 2
 Factor de velocidad: 6
 Tipo de competencia: Arco corto
 Tipo: Arco corto 2 manos~
-@260 = ~Arco corto: 'Icestorm'
+@260 = ~Arco corto: 'Tormenta de Hielo'
 
 Un efímero puesto avanzado de humanos en el Bosque Helado desenterró esta arma, y muchas otras, de las ruinas de un antiguo asentamiento en las profundidades de esa fría tierra. Sin conocer los nombres de sus extintos benefactores, los colonos utilizaron estas "herramientas" para labrarse un gran territorio, aunque al final fue en vano.  Aplastados por un número superior de Hobgoblins, estas desafortunadas almas se han unido a los antiguos en su anonimato. El usuario debe hacer una salvación contra muerte +5 o sufrir el mismo destino que su enemigo.
 
@@ -1271,7 +1271,7 @@ Daño: +2
 Peso: 2
 Factor de velocidad: 5
 Tipo de competencia: Arco Armas
-Tipo: Arco 2-handed~
+Tipo: Arco 2-manos~
 @264 = ~Ballesta Ligera~
 @265 = ~Ballesta Ligera +3 'Picadura de Escorpión'~
 @266 = ~Una ballesta es un arco montado en cruz sobre un asta de madera o metal, esta última llamada caña. El arco suele ser de fresno o tejo.  La ballesta dispara un proyectil (también llamado saeta).
@@ -1337,7 +1337,7 @@ Daño 1D8 +3
 Peso: 5
 Factor de velocidad: 1
 Tipo de competencia: Ballesta
-Tipo: Ballesta 2-handed~
+Tipo: Ballesta 2-manos~
 @275 = ~Bala~
 @276 = ~Bala +1~
 @277 = ~Una bala es simplemente una piedra redondeada y bien equilibrada. 
@@ -1460,7 +1460,7 @@ Especial: Aumenta el número de ataques
 Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Daga
-Tipo: Daga 1-handed~
+Tipo: Daga 1-mano~
 @295 = ~Daga de la Enfermedad~
 @296 = ~La "Daga de la Enfermedad" es una potente espada favorita de los asesinos de todos los Reinos. Esta peculiar arma está enferma y causa daño adicional a la víctima. Cada vez que golpea a un oponente, segrega un virus en el torrente sanguíneo de la criatura. El virus ataca al sistema inmunológico con bastante rapidez.
 Su origen es desconocido.
@@ -1476,7 +1476,7 @@ Peso: 2
 Factor de velocidad: 0
 Tipo de competencia: Daga
 Tipo: Daga 1-mano~
-@297 = ~Daga +2: 'The Shocker'~
+@297 = ~Daga +2: 'La impactante'~
 @298 = ~La daga típica tiene
   una hoja de filo puntiagudo, a diferencia de un cuchillo, que tiene un solo filo y es un poco más corto que la daga. 
 
@@ -1515,7 +1515,7 @@ Especial: 1D8 de daño de frío salvo contra hechizo
 
 Otorga al usuario un 50% de resistencia al frío 
 Tipo de competencia: Daga
-Tipo: Daga 1-handed~
+Tipo: Daga 1-mano~
 @302 = ~Daga Arrojadiza~
 @303 = ~Daga Arrojadiza +3~
 @304 = ~ La hoja de la daga tiene una afilada punta de acero, contrapesada por un mango.
@@ -1540,7 +1540,7 @@ Especial: Vuelve a la mano del usuario una vez lanzada
 Peso: 0
 Factor de velocidad: 1
 Tipo de competencia: Daga
-Tipo: Daga 1-handed~
+Tipo: Daga 1-mano~
 @306 = ~Lanza~
 @307 = ~Lanza Quimera +3~
 @308 = ~Una de las primeras armas del hombre, que se remonta a los tiempos más primitivos, las primeras lanzas eran simplemente palos de madera o varas afiladas en un extremo. Cuando el hombre dominó los metales, las puntas de las lanzas se hicieron de hierro y acero. Una vez llegado a este extremo, los armeros empezaron a experimentar con diferentes tipos de puntas de lanza, lo que condujo al desarrollo de ciertos tipos de armas de asta.
@@ -1554,7 +1554,7 @@ Factor de velocidad: 6
 Tipo de competencia: Lanza
 Tipo: Lanza 2 manos~
 @309 = ~Lanza Quimera +3
-Arma favorita de los guardabosques elfos de la Quimera, estas lanzas están hechas de madera mágica con un extremo espinoso recubierto de un veneno letal. La cruda brutalidad de la Quimera en combate sólo tiene rival entre los elfos silvanos.
+Arma favorita de los exploradores elfos de la Quimera, estas lanzas están hechas de madera mágica con un extremo espinoso recubierto de un veneno letal. La cruda brutalidad de la Quimera en combate sólo tiene rival entre los elfos silvanos.
 
 ESTADÍSTICAS:
 
@@ -1593,7 +1593,7 @@ Tipo de daño: perforante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de competencia: Lanza 
-Tipo: Lanza 2-handed~
+Tipo: Lanza 2-manos~
 @314 = ~Honda~
 @315 = ~Honda Elemental "La Honda de la Abundancia"~
 @316 = ~Las hondas han existido desde el principio de la historia. La honda básica consiste en una correa de cuero o tela con una bolsa para guardar el proyectil.  El arma se sujeta por ambos extremos de la correa y se hace girar alrededor de la cabeza del portador. Cuando se alcanza la velocidad máxima, el misil se lanza soltando uno de los extremos de la correa.
@@ -1613,7 +1613,7 @@ THACO: +2
 Peso: 0
 Factor de velocidad: 1
 Tipo de competencia: Honda
-Tipo: 1-handed~
+Tipo: 1-mano~
 @318 = ~Bastón de Hechicero +3~
 @319 = ~La más simple y humilde de las armas de báculo, el báculo de cuarto es un trozo de madera de entre seis y nueve pies de longitud. Los báculos de alta calidad están hechos de roble robusto y tienen metal en ambos extremos. Debe empuñarse con ambas manos. Este bastón también tiene la capacidad de convertir a los oponentes en piedra.
 
@@ -1627,11 +1627,11 @@ Factor de velocidad 3
 Habilidades especiales:
  Vocaliza
  25% Probabilidad de Petrificar al Enemigo al Golpear
-Tipo de competencia: Quarterstaff
-Tipo: Quarterstaff  2-handed~
+Tipo de competencia: Baston
+Tipo: Baston  2-manos~
 @320 = ~Bastón~
 @321 = ~Bastón De La Naturaleza~
-@322 = ~La más simple y humilde de las armas de asta, el quarterstaff es una longitud de madera que oscila entre seis y nueve pies de largo.  Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos.  Debe empuñarse con ambas manos.  
+@322 = ~La más simple y humilde de las armas de asta, el Baston es una longitud de madera que oscila entre seis y nueve pies de largo.  Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos.  Debe empuñarse con ambas manos.  
 
 ESTADÍSTICAS:
 
@@ -1640,8 +1640,8 @@ Tipo de daño: aplastante
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Bastón
-Tipo: Quarterstaff 2-handed~
-@323 = ~Bastón de la Naturaleza: 'Natures Protector'
+Tipo: Baston 2-manos~
+@323 = ~Bastón de la Naturaleza: 'Protector Natural'
 Este bastón ha sido utilizado por una tribu de druidas durante muchos siglos. Transmitido de líder a líder en la tribu de archidruidas de la tierra de Kazgard. Se dice que este báculo fue forjado por la propia naturaleza y que brilla en verde para demostrar que realmente está hecho con el poder de la naturaleza. Este bastón es muy poderoso y sus antiguos dueños eran gente muy poderosa.
 
 ESTADÍSTICAS:
@@ -1653,7 +1653,7 @@ Peso: 2
 Factor de velocidad: 1
 Tipo de daño: Garrote
 Tipo de competencia: Bastón
-Tipo: Quarterstaff 1-handed~
+Tipo: Baston 2-manos~
 @324 = ~Bastón de Cuarto~
 @325 = ~Bastón Elemental de Aire~
 @326 = ~La más simple y humilde de las armas de asta, el báculo es un trozo de madera de entre seis y nueve pies de longitud. Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos.  Debe empuñarse con ambas manos.
@@ -1691,7 +1691,7 @@ Tipo de daño: aplastante
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Bastón
-Tipo: Quarterstaff 2 manos~
+Tipo: Baston 2 manos~
 @330 = ~Este es uno de los cuatro báculos elementales de los Chanah'Rea que se cree que fueron forjados en los albores del tiempo, cuando nació la propia tierra. Este bastón en particular es del elemento tierra.
 
 ESTADÍSTICAS:
@@ -1707,7 +1707,7 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Bastón
-Tipo: Quarterstaff 2-handed~
+Tipo: Baston 2-manos~
 @331 = ~Bastón Elemental de Fuego~
 @332 = ~La más simple y humilde de las armas de asta, el báculo es un trozo de madera de entre seis y nueve pies de longitud. Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos. Debe empuñarse con ambas manos.
 
@@ -1789,7 +1789,7 @@ Especial:
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Espada Larga
-Tipo: Espada larga 1-handed~
+Tipo: Espada larga 1-mano~
 @342 = ~Cimitarra~
 @343 = ~Cimitarra +2~
 @344 = ~La cimitarra está estrechamente relacionada con el sable, una espada curva de un solo filo con empuñadura protectora. La hoja es más curva y se estrecha hasta una punta alargada y afilada. Se desconocen los orígenes de la cimitarra, pero es muy popular en la región sur de los Reinos Olvidados.
@@ -1801,7 +1801,7 @@ Tipo de daño: Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 5
-Tipo 1-handed~
+Tipo 1-mano~
 @345 = ~Cimitarra +2: 
 
 La cimitarra está estrechamente relacionada con el sable, una espada curva de un solo filo con empuñadura protectora. La hoja es más curva y se estrecha hasta una punta alargada y afilada. Se desconocen los orígenes de la cimitarra, pero es muy popular en la región sur de los Reinos Olvidados.
@@ -1816,10 +1816,10 @@ Tipo de daño Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 2
-Tipo 1-handed~
-@346 = ~Cutlass~
-@347 = ~Cortallamas +3 'Pirate Lords Bounty'~
-@348 = ~La hoja larga, curvada y de un solo filo es característica tanto del alfanje como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
+Tipo 1-mano~
+@346 = ~Sable~
+@347 = ~Sable +3 'Recompensa de los piratas'~
+@348 = ~La hoja larga, curvada y de un solo filo es característica tanto del Sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El Sable, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
 
@@ -1829,7 +1829,7 @@ Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Tipo: Cimitarra 1-mano~
-@349 = ~Clás +3 'Pirate Lords Bounty' La hoja larga, curvada y de un solo filo es característica tanto del alfanje como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
+@349 = ~Sable +3 'Recompensa de los piratas' La hoja larga, curvada y de un solo filo es característica tanto del Sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El Sable, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
 
@@ -1909,7 +1909,7 @@ No utilizable por:
  Druida
  Mago
  Paladín~
-@359 = ~Cuchillo +3 "T'sarren":
+@359 = ~Sable +3 "T'sarren":
 
 Esta es la espada que perteneció a una loca incursora elfa que sembraba la destrucción allá donde iba. Hace tiempo que no se sabe nada de ella, tal vez esté muerta teniendo en cuenta que posees su espada.
 
@@ -2001,9 +2001,9 @@ Tipo de daño Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 1
-Tipo  1-handed~
-@371 = ~Cláster +2 'Scorcher'~
-@372 = ~La hoja larga, curva y de un solo filo es característica tanto del alfanje como de la cimitarra, aunque sus orígenes se sitúen en diferentes partes de Faerûn.  El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
+Tipo  1-mano~
+@371 = ~Sable+2 'Scorcher'~
+@372 = ~La hoja larga, curva y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se sitúen en diferentes partes de Faerûn.  El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
 
@@ -2013,7 +2013,7 @@ Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Tipo: Cimitarra 1 mano~
-@373 = ~Cuchillo +2 'Scorcher' Arrugado y rojo este cuchillo es frío al tacto, las tallas rúnicas sólo dicen 'Scorcher'. Su aspecto ha hecho que muchos aventureros lo confundan con algo gastado, viejo o inútil. Aquellos aventureros más curiosos que la llevaban consigo sólo para estar seguros siempre quedaban gratamente sorprendidos. Verás, el scorcher no se calienta hasta que se balancea, pero una vez que está en movimiento dirigiéndose a un objetivo su nombre es claramente correcto.
+@373 = ~Sable +2 'Scorcher' Arrugado y rojo este cuchillo es frío al tacto, las tallas rúnicas sólo dicen 'Scorcher'. Su aspecto ha hecho que muchos aventureros lo confundan con algo gastado, viejo o inútil. Aquellos aventureros más curiosos que la llevaban consigo sólo para estar seguros siempre quedaban gratamente sorprendidos. Verás, el scorcher no se calienta hasta que se balancea, pero una vez que está en movimiento dirigiéndose a un objetivo su nombre es claramente correcto.
 
 ESTADÍSTICAS:
 
@@ -2025,8 +2025,8 @@ Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Tipo: Cimitarra 1 mano~
-@374 = ~Cláster +3 'Hoja Fantasma'~
-@375 = ~La hoja larga, curvada y de un solo filo es característica tanto del alfanje como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
+@374 = ~Sable +3 'Cuchilla fantasma'~
+@375 = ~La hoja larga, curvada y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
 
@@ -2035,8 +2035,8 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-handed~
-@376 = ~Cuchillo +3 'Ghost Blade' (Hoja Fantasma) 
+Tipo: Cimitarra 1-mano~
+@376 = ~Sable +3 'Cuchilla fantasma' (Hoja Fantasma) 
 Cada vez que un espadachín blande su espada, puede ver ligeras imágenes de ella trazándose por detrás. Esta hoja no es diferente de lo que se ve, pero a diferencia de cualquier hoja normal, parece que las imágenes fantasmales de esta también pueden cortar. Originalmente era propiedad de un tipo bastante cerdo y perezoso llamado Bordger, de quien se rumoreaba que tenía algún historial de entrenamiento mágico antes de convertirse en ladrón.  Teniendo en cuenta lo bien que funciona el encantamiento de esta hoja, habría sido mejor que siguiera siendo mago. 
 
 ESTADÍSTICAS:
@@ -2048,9 +2048,9 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-handed~
-@377 = ~Cláser +3 'Chispas'~
-@378 = ~Cláser +3 'Chispas' Zumbando con energía eléctrica, es fácil ver cómo este alfanje obtuvo su nombre. Se desconocen sus orígenes, pero las historias de tierras extrañas siempre acompañan a cualquier relato sobre esta espada. El primer propietario conocido fue un pirata que acababa de regresar a puerto. Fue asaltado y asesinado mientras se encontraba en estado de embriaguez, e incluso su nombre sigue siendo tan misterioso como el de esta espada.
+Tipo: Cimitarra 1-mano~
+@377 = ~Sable +3 'Chispas'~
+@378 = ~Sable +3 'Chispas' Zumbando con energía eléctrica, es fácil ver cómo este sable obtuvo su nombre. Se desconocen sus orígenes, pero las historias de tierras extrañas siempre acompañan a cualquier relato sobre esta espada. El primer propietario conocido fue un pirata que acababa de regresar a puerto. Fue asaltado y asesinado mientras se encontraba en estado de embriaguez, e incluso su nombre sigue siendo tan misterioso como el de esta espada.
 
 ESTADÍSTICAS:
 
@@ -2061,9 +2061,9 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-handed~
-@379 = ~Cláster +3 'Thud'~
-@380 = ~Cláser +3 'Thud' Más grande que un alfanje normal, Thud parece más una espada ancha que un alfanje. Encargado por un barón ladrón llamado Orrimy que quería "aplastar además de acuchillar", como él decía. El tamaño extragrande le dio los resultados que buscaba, lástima que su primera oportunidad de probarla fuera contra un ogro que le aplastó antes de que pudiera liberarla de su vaina.
+Tipo: Cimitarra 1-mano~
+@379 = ~Sable +3 'Trueno'~
+@380 = ~Sable +3 'Trueno' Más grande que un alfanje normal, Trueno parece más una espada ancha que un sable. Encargado por un barón ladrón llamado Orrimy que quería "aplastar además de acuchillar", como él decía. El tamaño extragrande le dio los resultados que buscaba, lástima que su primera oportunidad de probarla fuera contra un ogro que le aplastó antes de que pudiera liberarla de su vaina.
 
 ESTADÍSTICAS:
 
@@ -2118,7 +2118,7 @@ Habilidades especiales:
 Tipo de competencia: Espada larga
 Tipo: Espada larga 1 mano~
 @386 = ~Espada Larga "Muerdefuegos"~
-@387 = ~Cómo llegó "Muerdefuegos" a este plano es desconocido.
+@387 = ~Cómo llegó "Muerdefuegos" a este plano es un misterio.
 
 Se rumorea que el último dueño se creía tan poderoso que fue a derrotar a la Reina de los Elementales de Fuego. Obviamente, fracasó.
    
@@ -2131,12 +2131,12 @@ THACO: bonificación +1
 Especial:
    +2 vs. Criaturas Regeneradoras
    +3 contra criaturas que usan frío
-   +4 contra no muertos
+   +4 contra muertos vivientes
 Tipo de daño: cortante
 Peso: 4
 Factor de velocidad 3
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-handed~
+Tipo: Espada larga 1-mano~
 @388 = ~Espada del Bosque~
 @389 = ~Cimitarra 'La hoja larga, curva y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se sitúen en diferentes partes de Faerûn. Mientras que el sable estaba destinado principalmente a los jinetes, sobre todo debido a su versatilidad, la cimitarra tiene una mayor influencia oriental. El "shamshir", como se llamaba originalmente, es más grande, tiene una mayor curvatura y se estrecha hasta una punta alargada y afilada. Como consecuencia, es ligeramente más lenta, pero suele ser más eficaz y letal en combate.
 
@@ -2154,7 +2154,7 @@ Peso: 4
 Factor Velocidad: 5
 Tipo de daño: Cuchillada
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-handed~
+Tipo: Cimitarra 1-mano~
 @391 = ~Harval: La Hoja Gris~
 @392 = ~La cimitarra está estrechamente relacionada con el sable, una espada curva de un solo filo con empuñadura protectora. La hoja es más curva y se estrecha hasta una punta alargada y afilada. Se desconocen los orígenes de la cimitarra, pero es muy popular en la región meridional de los Reinos Olvidados. Esta espada en particular parece ser de muy alta calidad debido al tremendo equilibrio que se siente al blandirla.
 
@@ -2180,7 +2180,7 @@ Tipo de Daño: Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 2
-Tipo 1-handed~
+Tipo 1-mano~
 @394 = ~Espada a dos manos~
 @395 = ~Espada a Dos Manos +3, Portador del Infierno~
 @396 = ~La espada a dos manos es un derivado de la espada larga. Los armeros siempre han buscado formas de mejorar las armas existentes. En un esfuerzo por mejorar la espada larga, se alargó la hoja. Con el tiempo, la empuñadura tuvo que alargarse y se hicieron necesarias las dos manos para blandir la espada correctamente. La función principal de las espadas a dos manos es atravesar a los caballeros montados y romper las formaciones de picas.
@@ -2193,7 +2193,7 @@ Peso: 15
 Factor de velocidad: 10
 Tipo de competencia: Espada a dos manos
 Tipo: Espada 2 manos~
-@397 = ~Una espada a dos manos de doble filo llamada Hellbearer que brilla con un resplandor entre negro y burbujeante. Es una de las espadas infernales inteligentes que inflige daño de fuego a su objetivo.
+@397 = ~Una espada a dos manos de doble filo llamada Portador del Infierno, que brilla con un resplandor entre negro y burbujeante. Es una de las espadas infernales inteligentes que inflige daño de fuego a su objetivo.
 ESTADÍSTICAS:
 
 2D4 Daño de Fuego
@@ -2241,7 +2241,7 @@ Tipo de daño: cuchillada
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-handed~
+Tipo: Espada larga 1-mano~
 @403 = ~Espada Bastarda~
 @404 = ~Espada Bastarda +2 "La Víbora"~
 @405 = ~También conocida como espada de mano y media, la espada bastarda deriva su nombre del hecho de que está a medio camino entre la espada de dos manos y la espada larga. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, en la que caben las dos manos si se prefiere.  La longitud total de la espada bastarda oscila entre cuatro pies y cuatro pies y diez pulgadas. 
@@ -2254,7 +2254,7 @@ Peso: 10
 Factor de velocidad: 8
 Tipo de competencia: Espada Bastarda
 Tipo: 1 mano~
-@406 = ~Espada Bastarda +2 La Víbora, el veneno de esta espada es extremadamente letal, extraído de la cola de un wyvern hace un daño extremo en cortos periodos de tiempo.
+@406 = ~Espada Bastarda +2 La Víbora, el veneno de esta espada es extremadamente letal, extraído de la cola de un draco hace un daño extremo en cortos periodos de tiempo.
 
 ESTADÍSTICAS:
 
@@ -2265,8 +2265,8 @@ Tipo de daño: cortante
 Peso: 8
 Factor de velocidad: 7
 Tipo de competencia: Espada Bastarda
-Tipo: 1-handed~
-@407 = ~Espada de Ladrones~
+Tipo: 1-mano~
+@407 = ~Espada del Ladron~
 @408 = ~La espada corta es el primer tipo de espada que surgió. En los términos más simples, una espada corta puede considerarse una daga con una hoja tan larga que ya no puede llamarse daga. El término espada corta no existe en las clasificaciones de espadas. Sin embargo, se ha llegado a utilizar para describir una hoja de doble filo de unos dos pies de longitud.  La punta de la espada suele ser puntiaguda, ideal para empujar.
 
 ESTADÍSTICAS:
@@ -2289,37 +2289,37 @@ Tipo de daño: perforante
 Peso: 2
 Factor de velocidad: 1
 Tipo de competencia: Espada corta
-Tipo: Espada corta 1-handed~
+Tipo: Espada corta 1-mano~
 @410 = ~Amuleto~
-@411 = ~Amuleto de Invocación de Wyvren~
+@411 = ~Amuleto de Invocación de Draco~
 @412 = ~Un collar es una pieza de joyería ornamental de metal normalmente hecha de plata, oro, platino u otro metal precioso, y adornada con gemas. Un collar siempre se lleva en el cuello y puede ser de cualquier longitud.~
-@413 = ~Amuleto de Invocación de Wyvern
+@413 = ~Amuleto de Invocación de Draco
 
-Permite al usuario invocar a un Wyvren a voluntad para que cumpla sus órdenes.~
+Permite al usuario invocar a un Draco a voluntad para que cumpla sus órdenes.~
 @414 = ~Collar~
 @415 = ~Collar tachonado de carterista~
 @416 = ~Un collar es una pieza de joyería ornamental de metal normalmente hecha de plata, oro, platino u otro metal precioso, y adornada con gemas.  Un collar siempre se lleva en el cuello y puede ser de cualquier longitud.  ~
 @417 = ~Collar de carteristas
-Hace unos años Fong Moo un famoso carterista, conocido tanto en Baldur's Gate como en Athkatla, fue encontrado muerto en el camino entre la Puerta y Beregost.  Parece que había robado un artefacto a un poderoso mago e intentó escapar, con poco éxito.  Sus posesiones fueron a parar a manos de un sobrino, que se dedicó al mismo oficio que su tío y se hizo especialmente bueno en el robo de carteras.  Se desconoce si este collar era mágico antes de caer en manos de Fong o si fue imbuido de algún modo con la esencia del maestro. 
+Hace unos años Fong Moo un famoso carterista, conocido tanto en Puerta de Baldur como en Athkatla, fue encontrado muerto en el camino entre la Puerta y Beregost.  Parece que había robado un artefacto a un poderoso mago e intentó escapar, con poco éxito.  Sus posesiones fueron a parar a manos de un sobrino, que se dedicó al mismo oficio que su tío y se hizo especialmente bueno en el robo de carteras.  Se desconoce si este collar era mágico antes de caer en manos de Fong o si fue imbuido de algún modo con la esencia del maestro. 
 
-ESTADÍSTICAS
+ESTADÍSTICAS:
 
 Robar: +20% Bonus~
 @418 = ~Ankh~
 @419 = ~Ankh de la Aceptación~
 @420 = ~Un ankh es un objeto ornamental que se suele llevar en el cuello. Suelen asociarse a los druidas y a menudo están encantados.
-STATISTICS:
+ESTADÍSTICAS:
 
 ~
 @421 = ~Ankh de la Aceptación              
-Una de las nueve ankhs del Sukiem que originalmente se guardaban en el templo de Northkeep, se perdieron cuando éste cayó, y fueron redescubiertas por el Mito Drannor, que las conservó durante siglos. Cuando ese grupo se disolvió, las ankhs volvieron a perderse y no se han vuelto a ver desde entonces.
+Una de las nueve ankhs del Sukiem que originalmente se guardaban en el templo del Alcázar del Norte, se perdieron cuando éste cayó, y fueron redescubiertas por el Mito Drannor, que las conservó durante siglos. Cuando ese grupo se disolvió, las ankhs volvieron a perderse y no se han vuelto a ver desde entonces.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: +1 Bonificación
 Sabiduría: +1 Bonificación
 Especial: Paralizar criatura objetivo
-Especial: Of the True Neutral~
+Especial: De los verdaderos neutrales~
 @422 = ~Amuleto de Habilidad de Ladrón~
 @423 = ~Un raro amuleto que todo ladrón quisiera tener en sus manos. Ayuda al ladrón en sus habilidades oscuras. Los lideres de gremio pagaran mucho dinero para tenerlo en sus manos.
 
@@ -2407,15 +2407,15 @@ Hechizos: Obtener Protección contra el Frío~
 ESTADÍSTICAS:
 
 Hechizos: Obtener Protección contra Electricidad~
-@450 = ~Ring of Archwizardry~
+@450 = ~Anillo de Archimago~
 @451 = ~Hace mucho tiempo, se rumoreaba que un gran mago de Amn había desafiado las limitaciones de Mystra en las artes mágicas. Las leyendas hablaban de que este mago era capaz de lanzar hechizos sin la limitación de la memorización. Al final se descubrió que sus poderes procedían de varios anillos mágicos que se había fabricado.  Su proclamada "memoria eterna" era un engaño, aunque sus anillos siguen siendo uno de los objetos más codiciados de los Reinos.'
 
 ESTADÍSTICAS:
 
 Hechizos: +3 por hechizos de nivel tres que un mago pueda memorizar~
-@452 = ~El Anillo de Fuego - "Burn On"~
+@452 = ~El Anillo de Fuego - "Quemar"~
 @453 = ~Un anillo es una pequeña banda de metal precioso que se usa como joya. Algunos anillos raros tienen encantamientos que les confieren varias habilidades mágicas. Estos anillos son muy codiciados, especialmente~
-@454 = ~El Anillo de Fuego - "Burn On"
+@454 = ~El Anillo de Fuego - "Quemar"
 
 Este anillo fue creado después de que los Harpell tuvieran la oportunidad de estudiar un anillo de energía que encontraron tras la lucha por Mithril Hall. A diferencia de la mayoría de las magias que crea la familia, este anillo realmente funciona y mejora el anillo base. Ahora, no sólo dispara el abrasador de Agannazar, sino que puede invocar un golpe de llama y lanzar bolas de fuego.
 
@@ -2440,13 +2440,13 @@ ESTADÍSTICAS:
 
 Hechizos: +2 hechizos de nivel uno que un mago puede memorizar~
 @459 = ~Anillo de Hechicería 1º a 5º~
-@460 = ~Anillo de hechiceria: 'Evermemory
+@460 = ~Anillo de hechiceria: 'eternamemoria
 Hace mucho tiempo, se rumoreaba que un gran mago de Amn había desafiado las limitaciones de Mystra en las artes mágicas. Las leyendas hablaban de que este mago era capaz de lanzar hechizos sin la limitación de la memorización. Al final se descubrió que sus poderes procedían de varios anillos mágicos que se había fabricado. Su proclamada "memoria eterna" era un engaño, aunque sus anillos siguen siendo uno de los objetos más codiciados de los Reinos.'
 
 ESTADÍSTICAS:
 
 Hechizos: Duplica la cantidad de hechizos de 1º a 5º nivel que un mago puede memorizar~
-@461 = ~Desplazamiento~
+@461 = ~Pergamino~
 @462 = ~AVISO DE RECOMPENSA
 
 Que todos los malintencionados sepan que se ha puesto una recompensa por la cabeza de <CHARNAME>, el hijo adoptivo de Gorion.
@@ -2471,12 +2471,12 @@ Aquellos que regresen con pruebas de la hazaña recibirán no menos de cuatrocient
 M.S.~
 @464 = ~¡Advertencia de Obediencia!
 
-<CARNAME> no ha sido cancelado. El incumplimiento resultará en la suspensión de todos los operativos que estén involucrados en la tarea de cancelar <CHARNAME>. El incumplimiento NO es una opción.
+<CHARNAME> no ha sido eliminado. El incumplimiento resultará en la suspensión de todos los operativos que estén involucrados en la tarea de eliminar a <CHARNAME>. El incumplimiento NO es una opción.
 
 P.W.~
 @465 = ~NOTIFICACIÓN
 
-Por alguna razón, <CHARNAME> no ha sido cancelado. El incumplimiento resultará en una sesión de lo más desagradable conmigo. ¡Hazlo!
+Por alguna razón, <CHARNAME> no ha sido eliminado. El incumplimiento resultará en una sesión de lo más desagradable conmigo. ¡Hazlo!
 
 M~
 @466 = ~NOTIFICACIÓN DE RECOMPENSA
@@ -2547,7 +2547,7 @@ Escucho las señales
 De la luz de la luna para mostrarme
 Soy, porque soy, porque soy~
 @469 = ~Nota para uno mismo:
-  Recuerda que la entrada a la Sección está en Bergost, junto a la Herrería del Martillo del Trueno. Además, recuerda llevar la llave encima en todo momento. Pareceríamos estúpidos si nos quedáramos fuera de la Sección.~
+  Recuerda que la entrada a la Sección está en Bergost, junto a la Herrería del Martillo del Trueno. Además, recuerda llevar la llave encima en todo momento. Pareceríamos estúpidos si nos quedáramos afuera de la Sección.~
 @470 = ~Raspberries~
 @471 = ~Las frambuesas tienen un sabor dulce. Cuando se consumen curan dos puntos de golpe.~
 @472 = ~<SIN TEXTO>~
@@ -2568,8 +2568,8 @@ Esta fruta brilla con una extraña luz interior. Cuando se consume, cura 3 puntos
 @486 = ~Poción que permite reflejar hasta 5 imágenes por nivel de usuario.~
 @487 = ~Poción de Ráfaga de Ácido~
 @488 = ~Al lanzar esta poción a un objetivo lo bañas en un ácido altamente corrosivo que lo carcome.~
-@489 = ~Vara ~
-@490 = ~Vara de Piedra~
+@489 = ~Varita ~
+@490 = ~Varita de Piedra~
 @491 = ~Las varitas miden 1 1/4 pies de largo y son delgadas. Están hechas de marfil, hueso o madera y suelen tener una punta de metal, cristal, piedra, etc. Son frágiles y tienden a romperse. Son frágiles y tienden a romperse con facilidad. Por eso se suelen guardar en estuches.
 
 Las varitas funcionan con cargas, y cada uso cuesta una o más cargas (dependiendo del objeto). Cuando una varita se queda sin carga, se consume y se destruye.~
@@ -2581,7 +2581,7 @@ Especial: De la Carne a la piedra
 Especial De la Piedra a carne
 Alcance: 20 ft
 Área: 1 criatura~
-@493 = ~Vara de Dominación~
+@493 = ~Varita de Dominación~
 @494 = ~Cuando se activa, la varita expulsa una bola de energía mágica que sale disparada y golpea infaliblemente a su objetivo. Esto incluye criaturas enemigas en un combate cuerpo a cuerpo. Sin embargo, la criatura objetivo debe ser vista o detectada para ser golpeada, por lo que una ocultación casi total, como la que ofrecen las saeteras, puede hacer que el hechizo resulte ineficaz.  Contra una criatura, la bola intentará encantar al objetivo de forma similar al hechizo del Sacerdote Dominación.
 
 ESTADÍSTICAS:
@@ -2589,20 +2589,20 @@ ESTADÍSTICAS:
 Especial: Amuleto funesto
 Alcance: 100 ft
 Área: 1 criatura~
-@495 = ~Vara de los Muertos~
-@496 = ~Cuando se activa, la varita invoca las almas de tres guerreros muertos para ayudar al lanzador en combate.
+@495 = ~Vara de los Muertos vivientes~
+@496 = ~Cuando se activa, la varita invoca las almas de tres guerreros muertos vivientes para ayudar al lanzador en combate.
 
 ESTADÍSTICAS:
 
-Especial: Animar Muerto
+Especial: Animar Muertos vivientes
 Alcance: 100 ft
 Área: N/A~
 @497 = ~Cráneo~
 @498 = ~Cráneo de los Muertos~
 @499 = ~Una calavera de aspecto mágico.~
-@500 = ~La Calavera de los Muertos Se usa para invocar a los muertos a voluntad según el Pergamino.
+@500 = ~La Calavera de los Muertos Se usa para invocar a los muertos vivientes a voluntad según el Pergamino.
 
-Animar muertos (Nigromancia)  
+Animar muertos vivientes (Nigromancia)  
 Nivel: 5 
 Alcance 10 yardas  
 Duración: 8 horas  
@@ -2610,12 +2610,12 @@ Tiempo de invocación: 1 asalto
  Área de efecto: Especial  
 Tirada de salvación: Ninguno  
 
-Este hechizo crea el más bajo de los monstruos no muertos, esqueletos o zombis, normalmente a partir de huesos o cuerpos de humanos, semihumanos o humanoides muertos. El hechizo hace que estos restos se animen y obedezcan las simples órdenes verbales del lanzador, independientemente de cómo se comunicaran en vida. Los esqueletos o zombis pueden seguir al lanzador, permanecer en una zona y atacar a cualquier criatura (o sólo a un tipo específico de criatura) que entre en el lugar, etc. Los muertos vivientes permanecen animados hasta que son destruidos en combate, pasan 8 horas o son convertidos; la magia no puede ser disipada. El mago puede animar un esqueleto por cada nivel de experiencia que haya alcanzado.~
-@501 = ~Lute~
+Este hechizo crea el más bajo de los monstruos muertos vivientes, esqueletos o zombis, normalmente a partir de huesos o cuerpos de humanos, semihumanos o humanoides muertos. El hechizo hace que estos restos se animen y obedezcan las simples órdenes verbales del lanzador, independientemente de cómo se comunicaran en vida. Los esqueletos o zombis pueden seguir al lanzador, permanecer en una zona y atacar a cualquier criatura (o sólo a un tipo específico de criatura) que entre en el lugar, etc. Los muertos vivientes permanecen animados hasta que son destruidos en combate, pasan 8 horas o son convertidos; la magia no puede ser disipada. El mago puede animar un esqueleto por cada nivel de experiencia que haya alcanzado.~
+@501 = ~Laúd~
 @502 = ~Canción de la Nyriad~
 @503 = ~Este laúd de delicada manufactura tiene cuerdas plateadas en un marco de madera teñida con incrustaciones de oro. La artesanía parece exquisita, perfecta, casi inhumana. Tanto, que incluso los dedos inexpertos que tocan las cuerdas parecen tocar los acordes más bellos. Curiosamente, no se aprecia ningún método de afinación, como si no fuera necesario. Una sensación de asombro comienza a recorrer la espina dorsal al observar todos los entresijos de este bello instrumento.~
 @504 = ~Se desconocen los orígenes de este laúd, pero su creador parece haber llevado el viejo dicho "La música tiene sus encantos..." a un nuevo nivel. Cuando lo toca un músico hábil, este instrumento produce un sonido que puede dejar al público totalmente embelesado.
-STATISTICS:
+ESTADÍSTICAS:
 
 Especial: Amuleto funesto
 Alcance 100 ft
@@ -2643,8 +2643,8 @@ Bonificación por tirada de salvación: 1~
 @513 = ~Objeto Criatura~
 @514 = ~Objeto Criatura~
 @515 = ~--~
-@516 = ~Cabeza de Wyvern~
-@517 = ~La cabeza cortada de un wyvern es a la vez temible y tranquilizadora. Por horribles que sean sus fauces con colmillos y sus ojos llameantes, consuela saber que pueden ser conquistados por simples y humildes mortales. ~
+@516 = ~Cabeza de Draco~
+@517 = ~La cabeza cortada de un draco es a la vez temible y tranquilizadora. Por horribles que sean sus fauces con colmillos y sus ojos llameantes, consuela saber que pueden ser conquistados por simples y humildes mortales. ~
 @518 = ~Wardstone~
 @519 = ~Lillian's Wardstone~
 @520 = ~A menudo marcadas con glifos, runas o símbolos mágicos, las piedras de guardián son poderosos objetos encantados que permiten a su portador atravesar zonas mágicamente protegidas. Como la mayoria de las piedras de guardia son unicas y especificas en su naturaleza, es raro encontrar una con mas de un proposito.~
@@ -2656,7 +2656,7 @@ Bonificación por tirada de salvación: 1~
 @526 = ~Llave:
 Una llave enjoyada de extraño diseño.~
 @527 = ~Llave de Sir Jones~
-@528 = ~Esta llave puede darte acceso a ciertas areas en Oversight.~
+@528 = ~Esta llave puede darte acceso a ciertas areas en la Supervision.~
 @529 = ~Flecha de Dormir~
 @530 = ~La flecha de vuelo, como su nombre indica, está hecha para la distancia. Son flechas ligeras y se usan a menudo para cazar. La mayoría de estas flechas están hechas de fresno o abedul y miden entre 30 y 40 pulgadas de largo.
 
@@ -2687,9 +2687,9 @@ Tipo de daño: cortante
 Peso: 5
 Factor de velocidad: 1
 Tipo de competencia: Hacha
-Tipo: Hacha 1-handed~
+Tipo: Hacha 1-mano~
 @534 = ~Capa del Bosque~
-@535 = ~Capa del Bosque es el mejor tipo de ropa para los druidas aventureros y guardabosques del bosque.
+@535 = ~Capa del Bosque es el mejor tipo de ropa para los druidas aventureros y Exploradores del bosque.
 
 ESTADÍSTICAS:
 
@@ -2700,7 +2700,7 @@ Peso: 4~
 @536 = ~Cimitarra +3, "Furia de Andarous"~
 @537 = ~Cimitarra +3, "Furia de Andarous"
 
-Andarous era un guardabosques que perdió su bosque a manos de orcos que lo talaron y usaron la madera para construir un fuerte. Mielikki respondió a sus plegarias dándole esta espada para vengarse en nombre de la naturaleza. Él solo destruyó a todos los orcos del campamento.
+Andarous era un Explorador que perdió su bosque a manos de orcos que lo talaron y usaron la madera para construir un fuerte. Mielikki respondió a sus plegarias dándole esta espada para vengarse en nombre de la naturaleza. Él solo destruyó a todos los orcos del campamento.
 ESTADÍSTICAS:
 
 THACO: +3 bonus
@@ -2712,7 +2712,7 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-handed~
+Tipo: Cimitarra 1-mano~
 @538 = ~Katana~
 @539 = ~Katana +3, "El Tel'lerian"~
 @540 = ~Tel'lerian era un gran luchador de Kara-Tur. Era un mercenario que viajaba por los reinos buscando trabajo y luchando contra el mal. Esta katana era una de sus armas favoritas. Perdió esta espada y su vida cuando fue emboscado en su camino a Candelero.
@@ -2779,8 +2779,8 @@ Tipo de daño: cortante
 Peso: 5
 Factor de velocidad: 1
 Tipo de competencia: Hacha
-Tipo: Hacha 1-handed~
-@548 = ~Hacha de Batalla +3 "Ghoul Slayer"~
+Tipo: Hacha 1-mano~
+@548 = ~Hacha de Batalla +3 "Asesino de necrófagos"~
 @549 = ~Hecha por un paladín que odiaba a los muertos vivientes, especialmente a los necrófagos. Esta arma los mata al primer toque.
 
 ESTADÍSTICAS:
@@ -2793,7 +2793,7 @@ Tipo de daño: cortante
 Peso: 7
 Factor de velocidad: 6
 Tipo de competencia: Hacha
-Tipo: Hacha 1-handed~
+Tipo: Hacha 1-mano~
 @550 = ~Guanteletes de Lucha de Mithril~
 @551 = ~Hechos a mano por los enanos de las montañas del norte, estos guanteletes son los mejores amigos de los luchadores. Son los favoritos de los berserkers enanos.
 
@@ -2830,8 +2830,8 @@ Clase de Armadura: -1
 Especial: Protección contra Veneno
 +1 a Inteligencia
 Peso: 18~
-@558 = ~La Túnica del Magister~
-@559 = ~Usada por uno de los Magister de Mystra esta túnica se perdió a través de los tiempos. Como fue encontrada es desconocido. Muchos han especulado que fue la propia Mystra quien la encontró e hizo posible que otro volviera a ponérsela.
+@558 = ~La Túnica del Magistrado~
+@559 = ~Usada por uno de los Magistrados de Mystra esta túnica se perdió a través de los tiempos. Como fue encontrada es desconocido. Muchos han especulado que fue la propia Mystra quien la encontró e hizo posible que otro volviera a ponérsela.
 
 
 ESTADÍSTICAS:
@@ -2841,7 +2841,7 @@ Hechizos de bonificación: 2 hechizos de nivel 2 y 2 hechizos de nivel 3
 Resistencia Mágica  30%
 Tirada de Salvación: +3 bonus
 Peso: 6~
-@560 = ~Malete +3 "Muerte Flamígera"~
+@560 = ~Mayal +3 "Muerte Flamígera"~
 @561 = ~Este mayal está encantado para hacer daño de fuego y aumentar tu sabiduría. Amuanator estaría encantado.
 
 ESTADÍSTICAS:
@@ -2856,8 +2856,8 @@ Peso: 8
 Factor de velocidad 3
 Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
-@562 = ~Santa Estrella +3~
-@563 = ~La Santa Estrella de la Mañana +3 está consagrada por el templo de Amuanator, posee poderes mágicos, y sólo puede ser utilizada por aquellos que siguen el camino de la iluminación.
+@562 = ~Santo Lucero +3~
+@563 = ~El Santo Lucero +3 está consagrada por el templo de Amuanator, posee poderes mágicos, y sólo puede ser utilizada por aquellos que siguen el camino de la iluminación.
 
 ESTADÍSTICAS:
 
@@ -2869,7 +2869,7 @@ Especial: ataques aumentados
 Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad 3
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
 @564 = ~Daga +2 "El Necro"~
 @565 = ~Esta arma parece ser una daga normal del tipo usado por la mayoría de los magos novatos. Esta daga en particular era propiedad de Szass Tam. Algún tonto desafortunado se la quitó al lich y nunca más se supo de él.
@@ -2890,9 +2890,9 @@ Tipo de daño: Perforante
 Tipo de competencia: Daga
 Tipo: Daga 1-mano~
 @566 = ~Yelmo~
-@567 = ~Yelmo Cabeza de Wyvern~
-@568 = ~Yelmo Cabeza de Wyvern
-La cabeza cortada de un wyvern es a la vez temible y tranquilizadora. Por muy espantosas que sean sus fauces con colmillos y sus ojos llameantes, consuela saber que pueden ser conquistadas por simples y humildes mortales.
+@567 = ~Yelmo Cabeza de Draco~
+@568 = ~Yelmo Cabeza de Draco
+La cabeza cortada de un draco es a la vez temible y tranquilizadora. Por muy espantosas que sean sus fauces con colmillos y sus ojos llameantes, consuela saber que pueden ser conquistadas por simples y humildes mortales.
  
 ESTADÍSTICAS:
 
@@ -2901,7 +2901,7 @@ Fuerza: +2 bonus
 Especial +25% Resistencia Mágica
 Especial Protección contra golpes críticos
 Peso: 2~
-@569 = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero usado para hacer las botas de un guardabosques o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
+@569 = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero usado para hacer las botas de un Explorador o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
 
 ESTADÍSTICAS:
 
@@ -2943,7 +2943,7 @@ THACO: +3 bonus
 Especial: No necesita munición
 Factor de velocidad 3
 Tipo de competencia: Ballesta
-Tipo: Ballesta 2-handed~
+Tipo: Ballesta 2-mano~
 @577 = ~Martillo de Guerra de Mithril +3~
 @578 = ~Los guerreros y clérigos enanos son particularmente propensos a usar martillos de guerra de mithril en batalla y algunos de los mejores martillos de guerra son de origen enano. Este en particular muestra runas decorativas enanas en el mango. Suelen estar hechos de acero o aleación de mithril, con rondeles que protegen y refuerzan la empuñadura. Los rondeles son pequeños discos de metal, a menudo con diseños decorativos. El mango mide unos 45 cm de largo.
 
@@ -2983,8 +2983,8 @@ Especial: 1D6 daño de fuego
 Tipo de daño: misil (perforante)
 Peso: 0
 Lanzador: honda~
-@585 = ~Arco Corto +3, "Morgoth's Bow"~
-@586 = ~Arco Corto +3, "Morgoth's Bow"
+@585 = ~Arco Corto +3, "Arco de Morgoth"~
+@586 = ~Arco Corto +3, "Arco de Morgoth"
 
 Morgoth era un gran mago de la antigüedad que amaba los arcos y las espadas. Se dice que tenía un enorme arsenal de armas mágicas, pero muy pocas han salido a la luz. 
 
@@ -3056,8 +3056,8 @@ Tipo de daño: cortante
 Peso: 7 
 Factor de velocidad: 6 
 Tipo de competencia: Hacha 
-Tipo: Hacha 1-handed~
-@596 = ~Estrella de la Mañana +3 'Maza de Thorgensons'~
+Tipo: Hacha 1-mano~
+@596 = ~Lucero de alba +3 'Maza de Thorgensons'~
 @597 = ~Thorgensons era el capitán de la guardia del Clan Duragon. Con esta maza abatió a muchos orcos y goblins en las guerras que el Clan Duragon mantuvo contra las bestias inmundas. En la batalla final contra las bestias malignas, los pocos enanos que quedaban defendieron la fortaleza lo mejor que pudieron. Murió defendiendo a su señor Sven Duragon en las últimas horas antes de que la Fortaleza Duragon cayera.
 
 ESTADÍSTICAS: 
@@ -3082,8 +3082,8 @@ Peso: 2
 Factor de velocidad: 0 
 Tipo de competencia: Daga
 Tipo: Daga 1 mano~
-@600 = ~Asesino de Araña Mejorado~
-@601 = ~La Perdición de la Araña fue forjada originalmente por los enanos de la tribu Orothiar en el Bosque de la Capa. Crearon la espada para fomentar la buena voluntad entre ellos y los Grandes Duques de Puerta de Baldur. Blandida por los Grandes Duques durante aproximadamente un siglo, la espada acabó perdiéndose, irónicamente en una lucha contra ettercaps y arañas. Ahora se desconoce quién empuña la espada, pero su recuperación sería de gran ayuda en la lucha contra la actual plaga de arañas que asola el Bosque de la Capa.
+@600 = ~Perdicion de la Araña Mejorado~
+@601 = ~La Perdición de la Araña fue forjada originalmente por los enanos de la tribu Orothiar en el Bosque de las Capas. Crearon la espada para fomentar la buena voluntad entre ellos y los Grandes Duques de Puerta de Baldur. Blandida por los Grandes Duques durante aproximadamente un siglo, la espada acabó perdiéndose, irónicamente en una lucha contra ettercaps y arañas. Ahora se desconoce quién empuña la espada, pero su recuperación sería de gran ayuda en la lucha contra la actual plaga de arañas que asola el Bosque de la Capa.
 
 ESTADÍSTICAS:
 
@@ -3107,12 +3107,12 @@ Daño: 1D8 +2
 THACO: +1 bonus
 Especial: +2 contra Criaturas Regeneradoras 
 +3 contra criaturas que usan frío
-+4 contra no muertos
++4 contra muertos vivientes
 Tipo de daño: cortante 
 Peso: 4 
 Factor de velocidad 3 
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-handed~
+Tipo: Espada larga 1-mano~
 @604 = ~Cimitarra Mejorada +2~
 @605 = ~Cimitarra +2 : 'Garra de Rhashad'
 
@@ -3136,13 +3136,13 @@ ESTADÍSTICAS:
 
 Resistencia al fuego: +60%~
 @608 = ~Yelmo de Balduran mejorado~
-@609 = ~Se rumorea desde hace tiempo que el legendario yelmo de Balduran, fundador de Baldur's Gate, posee una poderosa magia protectora. La naturaleza exacta de esta magia, sin embargo, aún no se ha determinado.
+@609 = ~Se rumorea desde hace tiempo que el legendario yelmo de Balduran, fundador de Puerta de Baldur, posee una poderosa magia protectora. La naturaleza exacta de esta magia, sin embargo, aún no se ha determinado.
 
 ESTADÍSTICAS: 
 
 Bonificación de clase de armadura: 2 
 Puntos de golpe máximos: +5
-Tiradas de salvación: +1 bonus
+Tiradas de salvación: +1 bono
 THACO: +1 bonus
 Especial: Protección contra golpes críticos
 Peso: 1
@@ -3204,7 +3204,7 @@ Tipo de daño: cortante
 Peso: 5 
 Factor de velocidad 5 
 Tipo de competencia: Hacha 
-Tipo: Hacha 1-handed~
+Tipo: Hacha 1-mano~
 @620 = ~Placa de Duragon +4~
 @621 = ~Esta armadura dorada perteneció al Rey Sven Duragon del Clan Duragon. Duragon fue el último rey del clan antes de su aniquilación total a manos de orcos y goblins liderados por unos enanos duergar.
 
@@ -3229,8 +3229,8 @@ Peso: 3
 Factor de velocidad: 3 
 Tipo de competencia: Lanza  
 Tipo: Lanza 2 manos~
-@624 = ~Cláser +2 "Quintus D' Sol"~
-@625 = ~La hoja larga, curvada y de un solo filo es característica tanto del alfanje como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerûn. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
+@624 = ~Sable +2 "Quintus D' Sol"~
+@625 = ~La hoja larga, curvada y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerûn. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
 
@@ -3268,7 +3268,7 @@ Tipo de competencia: Martillo de guerra
 Tipo: Martillo 1 mano
 Requiere 9 Fuerza~
 @629 = ~Martillo de Guerra +2 "Congelación"~
-@630 = ~Este martillo de guerra perteneció a un gigante de hielo llamado Korgrath. Llamó así a su martillo por su wyvern de escarcha "Mordedura de Escarcha". Cuando Frostbite murió a manos de unos aventureros de las aguas traseras, Korgrath hizo que su chamán realizara un ritual de sangre sobre este martillo con el resultado de que este martillo hace daño de frío.
+@630 = ~Este martillo de guerra perteneció a un gigante de hielo llamado Korgrath. Llamó así a su martillo por su draco de escarcha "Mordedura de Escarcha". Cuando Frostbite murió a manos de unos aventureros de las aguas traseras, Korgrath hizo que su chamán realizara un ritual de sangre sobre este martillo con el resultado de que este martillo hace daño de frío.
 
 ESTADÍSTICAS:
 
@@ -3301,7 +3301,7 @@ Especial:
  Protege contra golpes críticos
  +1 a constitución
 Peso: 4~
-@635 = ~Túnica de Magia~
+@635 = ~Túnica Magica de mago~
 @636 = ~Esta poderosa Túnica de Mago ofrece protección contra todas las formas de ataque físico al mismo tiempo que aumenta la resistencia mágica y las tiradas de salvación.
 
 ESTADÍSTICAS:
@@ -3311,7 +3311,7 @@ Clase de Armadura: 3
 Resistencia Mágica: 15%
 Tirada de salvación: Bonificación +1
 Peso: 6~
-@637 = ~Maleta +2~
+@637 = ~Mayal +2~
 @638 = ~El mayal es un robusto mango de madera unido a una barra de hierro, una barra de madera con pinchos, o una bola de hierro con pinchos. Entre el mango y el implemento hay una bisagra o una cadena de eslabones. El arma ha sido mejorada mágicamente, formando efectivamente un vínculo entre el arma y su portador, dándole una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido, y la capacidad de golpear a los oponentes que son inmunes a las armas normales.
 
 ESTADÍSTICAS:
@@ -3321,7 +3321,7 @@ THAC0: +2
 Tipo de daño: aplastante
 Peso: 13
 Factor de velocidad: 6
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
 @639 = ~La maza es descendiente directa del garrote básico, pues no es más que un asta de madera con una cabeza de hierro montada en el extremo. En este caso, la cabeza es piramidal y parece brillar con una luz interior azul, ya que se asienta sobre un eje de roble pulido. Esta maza ha sido encantada, lo que le otorga una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido y la capacidad de golpear a oponentes inmunes a las armas normales.
 
@@ -3335,7 +3335,7 @@ Factor de velocidad: 6
 Tipo de competencia: Mayal/Lucero de alba 
 Tipo: 1 mano~
 @640 = ~Lucero de alba +2~
-@641 = ~La estrella de la mañana es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Las estrellas de la mañana tienen una longitud total de unos cuatro pies. Esta en particular está montada con una cabeza dorada que ha sido mejorada mágicamente para mejorar su rendimiento y escapar de la maleabilidad del oro. Su encantamiento le otorga una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido y la capacidad de golpear a oponentes inmunes a las armas normales.
+@641 = ~El Lucero de alba es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Los Lucero de alba tienen una longitud total de unos cuatro pies. Esta en particular está montada con una cabeza dorada que ha sido mejorada mágicamente para mejorar su rendimiento y escapar de la maleabilidad del oro. Su encantamiento le otorga una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido y la capacidad de golpear a oponentes inmunes a las armas normales.
 
 ESTADÍSTICAS:
 
@@ -3344,8 +3344,8 @@ THAC0: +2
 Tipo de daño: aplastante
 Peso: 10
 Factor de velocidad: 6
-Tipo de competencia: Mayal/Estrella de la mañana 
-Tipo: 1-handed~
+Tipo de competencia: Mayal/Lucero de alba 
+Tipo: 1-mano~
 @642 = ~Mayal +3 La perdición del invierno~
 @643 = ~Este mayal tiene un aura de frío que lo rodea. Nadie sabe realmente de dónde viene, pero se dice que procede de las Tierras del Norte y que fue fabricado por una sacerdotisa de Auril.
 
@@ -3373,22 +3373,22 @@ Peso: 8
 Factor de velocidad: 6
 Tipo de competencia: Maza
 Tipo: Maza 1 mano~
-@646  = ~Brotus Bloodthirsty~
+@646  = ~Brotus Sanguinario~
 @647  = ~Clerigo Duergar~
-@648  = ~Gorken Bloodaxe~
+@648  = ~Gorken Hachasangrante~
 @649  = ~Guerrero Duergar~
 @650  = ~Ladron Duergar~
-@651  = ~Sailor Wally G Hrey~
-@652  = ~Sailor Willi D Fain~
-@653  = ~Thorengrim Hammerfist~
-@654  = ~Maria Darkblade~
+@651  = ~Marinero Wally G Hrey~
+@652  = ~Marinero Willi D Fain~
+@653  = ~Thorengrim Puñomartillo~
+@654  = ~Maria Hojaoscura~
 @655  = ~Khan Noonian Singh~
-@656  = ~Quintus the Quick~
-@657  = ~Garak the Banelord~
+@656  = ~Quintus el Rápido~
+@657  = ~Garak el señor maligno~
 @658  = ~Gorth~
 @659  = ~Sir Winton~
-@660  = ~Garra Negra Elite~
-@661  = ~Dark Silvia~
+@660  = ~Garra Negra de Elite~
+@661  = ~Silvia la Oscura~
 @662  = ~Morgan~
 @663  = ~Druida~
 @664  = ~Selene~
@@ -3397,10 +3397,10 @@ Tipo: Maza 1 mano~
 @667  = ~Guerrero sombrio~
 @668  = ~Oso de montaña~
 @669  = ~Oso Polar~
-@670  = ~Zargos Flintblade~
+@670  = ~Zargos Filopiedra~
 @671  = ~Tristan~
 @672  = ~Malious~
-@673  = ~Phallen Nightsbane~
+@673  = ~Phallen Perdiciónoscura~
 @674  = ~Necardian~
 @675  = ~Isolde~
 @676  = ~Mendas~
@@ -3409,7 +3409,7 @@ Tipo: Maza 1 mano~
 @679  = ~Kieran~
 @680  = ~Wendell~
 @681  = ~Driada loca~
-@682  = ~Chef Marcel~
+@682  = ~El chef Marcel~
 @683  = ~Goblin~
 @684  = ~Gran Necrofago~
 @685  = ~Archimago Arias~
@@ -3421,10 +3421,10 @@ Tipo: Maza 1 mano~
 @691  = ~Gnoll lider de Clan~
 @692  = ~Gnoll Guardia de clan~
 @693  = ~Smeagol~
-@694  = ~Helmed Horror~
-@695  = ~Duende~
-@696  = ~Duende de Elite~
-@697  = ~Duende General~
+@694  = ~Horror Helado~
+@695  = ~Gran trasgo~
+@696  = ~Gran trasgo de Elite~
+@697  = ~Gran trasgo General~
 @698  = ~Garra Negra General~
 @699  = ~Kobold~
 @700  = ~Lider de Clan Kobold~
@@ -3441,18 +3441,18 @@ Tipo: Maza 1 mano~
 @711  = ~Ahhh~ [CMNAJ03]
 @712  = ~Yo le he fallado!~ [CMNAJ05]
 @713  = ~Ogro Mago~
-@714  = ~Guardia de Vigilancia~
+@714  = ~Guardia de laVigilancia~
 @715  = ~Sacerdote supervisor~
 @716  = ~Mago de la Guerra de la Supervisión~
 @717  = ~Élite de la supervisión~
 @718  = ~Bardo de la supervisión~
 @719  = ~Tortura de gemelos~
-@720  = ~Butler~
+@720  = ~Mayordomo~
 @721  = ~Halabasher Dhunshar~
 @722  = ~La ardilla Rocky "La Roca~
 @723  = ~Nikita~
 @724  = ~Michael~
-@725  = ~Paul Wolfe~
+@725  = ~Paul el Lobo~
 @726  = ~Nunca más romperás los muros de esta fortaleza.~ [PAUL7]
 @727  = ~Dolor.~ [PAUL8]
 @728  = ~Ahhh~ [PAUL3]
@@ -3466,19 +3466,19 @@ Tipo: Maza 1 mano~
 @736  = ~Sir Jones~
 @737  = ~Operario de sección~
 @738  = ~Sección de Elite~
-@739  = ~Lillian Darkwater~
+@739  = ~Lillian Aguaoscura~
 @740  = ~Esqueleto~
 @741  = ~Guerrero Esqueleto~
 @742  = ~Caballero de la Muerte~
-@743  = ~Bebé Wyvern~
+@743  = ~Bebé Draco~
 @744  = ~Beren~
 @745  = ~Luthian~
-@746  = ~Magnus Wares~
-@747  = ~Hammerfist Forge~
-@748  = ~Quincy's el joyero~
-@749  = ~Tienda de Kieran's~
-@750  = ~Tienda magica de Mystra's~
-@751  = ~Harder Enemies~
+@746  = ~Artículos de Magnus~
+@747  = ~herrero Puñomartillo~
+@748  = ~Quincy el joyero~
+@749  = ~Tienda de Kieran~
+@750  = ~Tienda magica de Mystra~
+@751  = ~Enemigos más duros~
 @752  = ~Install Level 40 Rule Pack?~
 @753  = ~Level 40 rule pack (Do not install if you have another rule pack installed like the one that comes with DSotSC.)~
 @754	= ~BG1 Only~
@@ -3493,7 +3493,7 @@ Daño: 1D6 +1
 Tipo de daño: aplastante
 Peso: 15
 Factor de velocidad: 7
-Tipo de competencia: Mayal/Estrella de la mañana
+Tipo de competencia: Mayal/Lucero de alba
 Tipo: 1 mano~
 @759 = ~Báculo~
 @760 = ~La más simple y humilde de las armas de asta, el báculo es un trozo de madera de entre seis y nueve pies de longitud.  Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos.  Debe empuñarse con ambas manos.  
@@ -3512,7 +3512,7 @@ Tipo: Báculo 2 manos~
 @764	= ~Hacha~
 @765	= ~Cimitarra~
 @766	= ~Guanteletes~
-@767	= ~Splint Mail~
+@767	= ~Armadura de ferulas~
 @768	= ~Martillo de guerra~
 @769	= ~Armadura de placas~
 @770	= ~Escudo Largo~
@@ -3528,14 +3528,14 @@ Tipo: Báculo 2 manos~
 @780	= ~Casco~
 @781	= ~Cota de malla~
 @782	= ~Arco Largo~
-@783	= ~Short Bow~
+@783	= ~Arco Corto~
 @784	= ~Cinturon~
 @785	= ~Hacha de batalla~
 @786	= ~Lanza~
 @787	= ~Martillo de Guerra~
 @788	= ~Tunica~
 @789	= ~Mazo~
-@790	= ~Morning Star~
+@790	= ~Lucero de Alba~
 // New Content
 @791    = ~Garret~
 @792    = ~Allister~
@@ -3544,13 +3544,13 @@ Tipo: Báculo 2 manos~
 @795    = ~Taneth~
 @796    = ~Erica~
 @797    = ~Jeneik~
-@798    = ~Gnoll Elite Warrior~
-@799    = ~Gnoll Veteran Warrior~
+@798    = ~Gnoll Guerrero de elite~
+@799    = ~Gnoll Guerrero veterano~
 @800    = ~Jhaeros Auglathla~
-@801    = ~Ygrainne Windstar~
-@802    = ~Elven Body Guard~
+@801    = ~Ygrainne Vientoestrella~
+@802    = ~Guardaespaldas elfo~
 @803    = ~Mercader~
-@804    = ~Ms. Godfrey~
+@804    = ~Señor. Godfrey~
 @805    = ~Guardia de caravana~
 @806    = ~Guardia del Señor de la Mañana~
 @807    = ~Guardia del mañana ~
@@ -3566,7 +3566,7 @@ Tipo: Báculo 2 manos~
 
 @813    = ~Al igual que otras bolsas mágicas, ésta parece ser un saco de tela común de unos 2 por 4 pies de tamaño. El saco se abre en un espacio no dimensional, y su interior es mayor que sus dimensiones exteriores. Independientemente de lo que se ponga en este objeto, la bolsa siempre pesa una cantidad fija.~
 
-@814    = ~Bolsa de Holding~
+@814    = ~Bolsa de contencion~
 
 @815    = ~Este cinturón de hombro es ideal para sujetar balas de honda, dardos, flechas o virotes.~
 
@@ -3579,7 +3579,7 @@ ESTADÍSTICAS:
 Peso: 5~
 
 @818    = ~Estuche de pociones~
-@819    = ~Vienes de Godfrey's~
+@819    = ~Vienes de Godfrey~
 @820    = ~Tunica roja de mago~
 @821    = ~Esta poderosa Túnica de Mago Roja ofrece protección contra todas las formas de ataque físico y, al mismo tiempo, aumenta la resistencia mágica y las tiradas de salvación. Debido a la naturaleza de su encantamiento, sólo puede ser usada por magos de alineamiento maligno..
 
@@ -3614,9 +3614,9 @@ Tipo de daño: Perforante
 Peso: 2
 Factor de velocidad: 0
 Tipo de competencia: Daga
-Tipo: Daga 1-handed~
+Tipo: Daga 1-mano~
 @827 = ~Armadura de Lathander~
-@828 = ~Cadena elfa +1~
+@828 = ~Armadura de mallas elfica +1~
 @829 = ~Hecha a mano por elfos, esta cadena es ligera y resistente. A diferencia de la mayoría de las cotas de malla, la cadena élfica no impide a los usuarios de magia practicar su arte.
 
 ESTADÍSTICAS:
@@ -3659,10 +3659,10 @@ Peso: 3
 Factor de velocidad: 7
 Tipo de competencia: Arco Largo
 Tipo: Arco largo 2-manos~
-@836 = ~Escudo de Lathander~
+@836 = ~Yelmo de Lathander~
 @837 = ~Escudo de Lathander~
 @838 = ~Martillo de Lathander~
-@839 = ~El típico martillo que se entrega a los Morninglords de Lathander. Este martillo irradia un calor mágico que quema cuando tocas la cabeza del martillo.
+@839 = ~El típico martillo que se entrega a los Señores del mañana de Lathander. Este martillo irradia un calor mágico que quema cuando tocas la cabeza del martillo.
 
 ESTADÍSTICAS:
 
@@ -3708,7 +3708,7 @@ Tiradas de salvación: +2
 
 Peso: 3~
 @904 = ~Arco Largo de Bardo: Dalewood~
-@905 = ~Dalewood es el arco personal de Morwen que le regaló su mentor, Dale el Bardo. Dale procedía de Bryn Shander, una de las Diez Ciudades de Icewind Dale. Era conocido por sus hazañas aventureras y por sus relatos épicos cantados alrededor de las hogueras. Murió a manos de un asesino, y su sangre aún mancha este arco después de tantos años.
+@905 = ~Dalewood es el arco personal de Morwen que le regaló su mentor, Dale el Bardo. Dale procedía de Bryn Shander, una de las Diez Ciudades del Valle del Viento Helado Era conocido por sus hazañas aventureras y por sus relatos épicos cantados alrededor de las hogueras. Murió a manos de un asesino, y su sangre aún mancha este arco después de tantos años.
 
 ESTADÍSTICAS:
 
@@ -3786,28 +3786,28 @@ Peso: 15~
 @948  = ~Te escupo.~ [DMF04]
 @949  = ~¡Ven aquí, desgraciado!~ [DMF05]
 @950  = ~Muere!~ [DMF06]
-@951  = ~I'll wash me beard in yer blood!~ [DMF07]
-@952  = ~Is that the best that you can do?~ [DMF34]
+@951  = ~¡Lavaré mi barba con tu sangre!~ [DMF07]
+@952  = ~¿Eso es lo mejor que puedes hacer?~ [DMF34]
 @953  = ~Ugghh!~ [DMF36]
-@954  = ~Aghh! I'm needin' a healer!.~ [DMF14]
-@955  = ~Aye?~ [DMF16]
-@956  = ~What?~ [DMF17]
-@957  = ~I'm here.~ [DMF18]
+@954  = ~¡Aghh! ¡Necesito un sanador!.~ [DMF14]
+@955  = ~Si?~ [DMF16]
+@956  = ~Que?~ [DMF17]
+@957  = ~Estoy aquí.~ [DMF18]
 @958  = ~Hmm?~ [DMF19]
-@959  = ~Ready.~ [DMF20]
-@960  = ~I hear ya.~ [DMF22]
-@961  = ~Done.~ [DMF23]
-@962  = ~Right then.~ [DMF24]
-@963  = ~Watch me go.~ [DMF25]
-@964  = ~Not a problem.~ [DMF26]
-@965  = ~Aye.~ [DMF27]
-@966  = ~Is that all?~ [DMF28]
+@959  = ~Listos.~ [DMF20]
+@960  = ~Te escucho.~ [DMF22]
+@961  = ~Hecho.~ [DMF23]
+@962  = ~De acuerdo.~ [DMF24]
+@963  = ~Mira cómo voy.~ [DMF25]
+@964  = ~No hay problema.~ [DMF26]
+@965  = ~Sí.~ [DMF27]
+@966  = ~¿Eso es todo?~ [DMF28]
 @967  = ~Easy as goblin pie.~ [DMF29]
-@968  = ~You really have no clue, do ye?~ [DMF30]
-@969  = ~That's right keep pushing it.~ [DMF31]
-@970  = ~Die~ [DMF06]
+@968  = ~Realmente no tienes ni idea, ¿verdad?~ [DMF30]
+@969  = ~Así es, sigue presionando.~ [DMF31]
+@970  = ~Muere~ [DMF06]
 @971  = ~Ughh.~ [DMF36]
-@972  = ~Cuando se le pregunta por su pasado, THORIN dice que pertenece al famoso clan Stoneblade, que fue capitán de la guardia de Durlag durante muchos años. Su abuelo fue el último en servir a Durlag antes de que le ocurrieran cosas malas a Durlag y a su gente. Le gustaría viajar con el grupo a la Torre de Durlag para recuperar algunas reliquias familiares que todavía pueden estar allí y ver lo que le pasó a su abuelo y al famoso MataTrolls de Durlag.~
+@972  = ~Cuando se le pregunta por su pasado, THORIN dice que pertenece al famoso clan Filopiedra, que fue capitán de la guardia de Durlag durante muchos años. Su abuelo fue el último en servir a Durlag antes de que le ocurrieran cosas malas a Durlag y a su gente. Le gustaría viajar con el grupo a la Torre de Durlag para recuperar algunas reliquias familiares que todavía pueden estar allí y ver lo que le pasó a su abuelo y al famoso MataTrolls de Durlag.~
 // Morven usa el mismo soundset que Nikita
 @973  = ~Morwen~
-@974  = ~Cuando se le pregunta por su pasado, MORWEN cuenta que procede de una familia acomodada de la ciudad de Neverwinter. Conoció por primera vez los poemas épicos y las historias de los bardos skald del norte cuando su familia visitó la región de Icewind Dale de pequeña. Desde entonces, está obsesionada con sus relatos épicos y sus aventuras. Deseaba aprender de los bardos Skald, pero rara vez venían a Neverwinter, hasta el día en que Dale el Bardo hizo una parada allí. Lo vio por primera vez en una de las tabernas locales, cantando sus épicas hazañas en una canción. Se presentó a Dale y poco después él enseñó a Morwen las habilidades del Bardo Skald, además de ser un excelente arquero. Después de aprender estas habilidades, se aburrió rápidamente de la anodina vida de la alta sociedad de Neverwinter y decidió viajar al sur, a la región de la Costa de la Espada, tras enterarse de la crisis del hierro. Viajó a Beregost para encontrar a alguien que buscara aventuras como ella.~
+@974  = ~Cuando se le pregunta por su pasado, MORWEN cuenta que procede de una familia acomodada de la ciudad de Nuncainvierno. Conoció por primera vez los poemas épicos y las historias de los bardos skald del norte cuando su familia visitó la región del Valle del Viento Helado de pequeña. Desde entonces, está obsesionada con sus relatos épicos y sus aventuras. Deseaba aprender de los bardos Skald, pero rara vez venían a Neverwinter, hasta el día en que Dale el Bardo hizo una parada allí. Lo vio por primera vez en una de las tabernas locales, cantando sus épicas hazañas en una canción. Se presentó a Dale y poco después él enseñó a Morwen las habilidades del Bardo Skald, además de ser un excelente arquero. Después de aprender estas habilidades, se aburrió rápidamente de la anodina vida de la alta sociedad de Neverwinter y decidió viajar al sur, a la región de la Costa de la Espada, tras enterarse de la crisis del hierro. Viajó a Beregost para encontrar a alguien que buscara aventuras como ella.~
