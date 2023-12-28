@@ -81,6 +81,13 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 -------------------
 
 
+- Version BGEE 2.16 Release. December 28, 2023  
+																																								   
+    CHANGES  
+																																								   
+	Add Simplified Chinese translation by Lzw104522773 
+
+
 - Version BGEE 2.15 Release. October 8, 2023  
 																																								   
     CHANGES  

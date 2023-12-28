@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizonsBGee/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~2.15~
+VERSION ~2.16~
 
 README ~DarkHorizonsBGee/readme-dh.htm~
 
@@ -6458,6 +6458,7 @@ COPY ~DarkHorizonsBGee/cre/CMTNIKIT.cre~ ~override~
   SAY SPELL_DISRUPTED   ~~ []
   SAY SET_A_TRAP    ~~ []
   SAY BIO @938 /* NIKITA's past is something that she keeps to herself. From what you do know is that she was an orphan for a time until she was brought into Section in her late teens. They trained her to be a charismatic assassin who killed evil individuals. All of this was done for the greater good. But over time Section became corrupt and started to mirror the evil they were fighting. Nikita was liberated from Section when you destroyed the organization. */
+  WRITE_ASCII 0x280 ~cmnikita~ (8) // Script name / Death variable
 
 COPY ~DarkHorizonsBGee/cre/CMTTHOR.cre~ ~override~
   SAY NAME1 @939 /* Thorin */
@@ -6508,6 +6509,7 @@ COPY ~DarkHorizonsBGee/cre/CMTTHOR.cre~ ~override~
   SAY SPELL_DISRUPTED   ~~ []
   SAY SET_A_TRAP    ~~ []
   SAY BIO @972 /* When asked about his past, THORIN says he's from the famous Stoneblade clan who were once Durlag's captian of the guard for many years. His grandfather was the last to serve Durlag before bad things happen to Durlag and his people. He would like to travel with the party to Durlag's Tower to retrieve some family heirlooms that may still be there and see what happened to his grandfather and the famous Durlag Trollkiller. */
+  WRITE_ASCII 0x280 ~CMTTHOR~ (8) // Script name / Death variable
 
   COPY ~DarkHorizonsBGee/cre/CMTMORW.cre~ ~override~
   SAY NAME1 @973 /* Morwen */
@@ -6558,6 +6560,7 @@ COPY ~DarkHorizonsBGee/cre/CMTTHOR.cre~ ~override~
   SAY SPELL_DISRUPTED   ~~ []
   SAY SET_A_TRAP    ~~ []
   SAY BIO @974 /* When asked about her past, MORWEN says she came from a well to do family from the city of Neverwinter. She got her first taste of the epic poems and stories from the northern Skald bards when her family visited the Icewind Dale region when she was young. Ever since then she has been obsessed with their epic tales and adventures. She wished to learn from the Skald bards but they rarely ever came to Neverwinter, until the day that Dale the Bard made a stop there. She first saw him at one of the local pubs, singing his epic exploits in a song. She introduced herself to Dale and soon after he mentored Morwen in the Skald Bard skills as well as being an excellent archer. After learning these skills, she quickly grew bored of the uneventful Neverwinter high life and decided to travel south to the Sword Coast region after she heard about the iron crisis. She traveled to Beregost to find someone who is seeking adventure like herself. */
+  WRITE_ASCII 0x280 ~CMTMORW~ (8) // Script name / Death variable
 
 // Appends
 APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD~
@@ -6572,11 +6575,11 @@ APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD~
 APPEND ~interdia.2da~ ~cmtthor BCMTTHOR~
   UNLESS ~cmtthor~
   
-/* APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD~
+APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD~
   UNLESS ~cmtmorw~
 
 APPEND ~interdia.2da~ ~cmtmorw BCMTMORW~
-  UNLESS ~cmtmorw~ */
+  UNLESS ~cmtmorw~
 
 // Dialogs
 
