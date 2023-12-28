@@ -6587,20 +6587,42 @@ COPY ~DarkHorizonsBGee/cre/CMTTHOR.cre~ ~override~
   WRITE_ASCII 0x280 ~CMTMORW~ (8) // Script name / Death variable
 
 // Appends
-APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD~
+  
+  ACTION_IF (GAME_IS ~eet~) BEGIN
+PRINT ~              ~
+	PRINT ~APPEND pdialog.2da for EET~
+PRINT ~     
+         ~
+  APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD  ****  ****  ****  ****~
   UNLESS ~cmtnik~
-
-APPEND ~interdia.2da~ ~cmtnik BCMTNIK~
+  
+APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD~  ****  ****  ****  ****
+  UNLESS ~cmtthor~
+  
+APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD  ****  ****  ****  ****~
+  UNLESS ~cmtmorw~
+  
+END ELSE BEGIN // bgee bgt in this case (other exemple in ChaosKnight)
+PRINT ~              ~
+	PRINT ~APPEND pdialog.2da for BGEE or BGT~
+PRINT ~  
+            ~
+  APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD~
   UNLESS ~cmtnik~
   
 APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD~
   UNLESS ~cmtthor~
-
-APPEND ~interdia.2da~ ~cmtthor BCMTTHOR~
-  UNLESS ~cmtthor~
   
 APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD~
   UNLESS ~cmtmorw~
+  
+END
+
+APPEND ~interdia.2da~ ~cmtnik BCMTNIK~
+  UNLESS ~cmtnik~
+
+APPEND ~interdia.2da~ ~cmtthor BCMTTHOR~
+  UNLESS ~cmtthor~
 
 APPEND ~interdia.2da~ ~cmtmorw BCMTMORW~
   UNLESS ~cmtmorw~
