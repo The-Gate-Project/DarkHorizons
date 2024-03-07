@@ -25,7 +25,7 @@ There are many new custom items added to this mod as well as new areas to explor
 
 Extract archive contents into your game directory
 
-    Double click setup-DarkHorizonsBGee.exe and follow the instructions.
+    Double click setup-DarkHorizons.exe and follow the instructions.
 
 Though this mod is made using the WeiDU standard, and *should* be compatible with all other WeiDU-based mods, there is always the possibility for conflicts. We suggest you install this mod AFTER the official patches. If you encounter any problems installing the mod, please our forums. 
 
