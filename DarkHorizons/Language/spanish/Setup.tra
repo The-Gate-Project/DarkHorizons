@@ -12,7 +12,7 @@
 @11   = ~Armadura de placa enana +3~
 @12   = ~La Armadura de placas es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle. De construcción similar a la cota de malla de bronce, la cota de malla auténtica se compone de cadenas y cuero.
 
-STATISTICS:
+ESTADÍSTICAS:
 
 Clase de Armadura: 3
 Peso: 50
@@ -105,7 +105,7 @@ Ladron~
 @28   = ~Placa de Emberwilde~
 @29   = ~La armadura de placas es la mejor armadura que un guerrero puede comprar, tanto en apariencia como en protección. Las placas entrelazadas y perfectamente ajustadas están especialmente anguladas para desviar flechas y golpes, y todo el traje está cuidadosamente adornado con ricos grabados y detalles en relieve.
 
-STATISTICS:
+ESTADÍSTICAS:
 
 Clase de Armadura: 1
 Peso: 70

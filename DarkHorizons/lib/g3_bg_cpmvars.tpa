@@ -480,6 +480,7 @@ ACTION_IF GAME_IS ~bg1 totsc~ THEN BEGIN
     OUTER_SPRINT "HighHedge_House" "AR3201"
     OUTER_SPRINT "HighHedge_ThalanthyrsAbode" "AR3202"
     OUTER_SPRINT "Beregost" "AR3300"
+	OUTER_SPRINT "Beregost_BCS" "AR3300"
     OUTER_SPRINT "Beregost_ThunderhammerSmithy" "AR3301"
     OUTER_SPRINT "Beregost_House19" "AR3302"
     OUTER_SPRINT "Beregost_RedSheaf_L2" "AR3303"
