@@ -67,7 +67,7 @@ IF ~~ letdown
  SAY @25 /* If that is what you wish. I will be at the Friendly Arm Inn if you change you mind. */
   IF ~~ THEN DO ~GiveItem("SCRSEC6",LastTalkedToBy)
 AddexperienceParty(1500)
-EscapeAreaMove("AR2301",580,396,3)~ EXIT
+EscapeAreaMove("%FriendlyArmInn_L1%",580,396,3)~ EXIT
 END
 
 IF ~NumTimesTalkedToGT(0)
@@ -100,7 +100,7 @@ END
  
 IF ~~ pt2
  SAY @32 /* I see. Should you change your mind, you may yet be able to find me at the Friendly Arm Inn for the time being. */
-IF ~~ DO ~SetGlobal("CmTNikJoin","GLOBAL",0) EscapeAreaMove("AR2301",580,396,3)~ EXIT
+IF ~~ DO ~SetGlobal("CmTNikJoin","GLOBAL",0) EscapeAreaMove("%FriendlyArmInn_L1%",580,396,3)~ EXIT
 END
 
 IF ~~ pt3
