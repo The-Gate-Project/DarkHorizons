@@ -92,6 +92,7 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 	Add detection for Enhanced Editions for using new tis and PVRZ and not for other platforms
 	Add BG1.tpa to lib folder for (maybe) BG1 vanilla compatibility
 	tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility
+	Use variables to select game folder
 	Add readme.md
 
 - Version BGEE 2.16 Release. December 28, 2023

@@ -3393,107 +3393,47 @@ COPY ~DarkHorizons/items/CMARQ01.ITM~ ~override~
   SAY 0x50 @12
   SAY 0x54 @13
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMARQ02.ITM~ ~override~
-    SAY NAME1 @14
-    SAY NAME2 @15
-    SAY 0x50 @16
-    SAY 0x54 @17
+COPY ~DarkHorizons/%ItemsFolder%/CMARQ02.ITM~ ~override~
+  SAY NAME1 @14
+  SAY NAME2 @15
+  SAY 0x50 @16
+  SAY 0x54 @17
   
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMARQ02.ITM~ ~override~
-    SAY NAME1 @14
-    SAY NAME2 @15
-    SAY 0x50 @16
-    SAY 0x54 @17
+COPY ~DarkHorizons/%ItemsFolder%/CMARQ03.ITM~ ~override~
+  SAY NAME1 @18
+  SAY NAME2 @19
+  SAY 0x50 @20
+  SAY 0x54 @21
   
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMARQ03.ITM~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @19
-    SAY 0x50 @20
-    SAY 0x54 @21
+COPY ~DarkHorizons/%ItemsFolder%/CMARQ04.ITM~ ~override~
+  SAY NAME1 @18
+  SAY NAME2 @22
+  SAY 0x50 @20
+  SAY 0x54 @23
   
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMARQ03.ITM~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @19
-    SAY 0x50 @20
-    SAY 0x54 @21
-  
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMARQ04.ITM~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @22
-    SAY 0x50 @20
-    SAY 0x54 @23
-  
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMARQ04.ITM~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @22
-    SAY 0x50 @20
-    SAY 0x54 @23
-  
-END
-
 COPY ~DarkHorizons/items/CMARQ05.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @24
   SAY 0x50 @25
   SAY 0x54 @26
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMARQ06.itm~ ~override~
-    SAY NAME1 @27
-    SAY NAME2 @28
-    SAY 0x50 @29
-    SAY 0x54 @30
+COPY ~DarkHorizons/%ItemsFolder%/CMARQ06.itm~ ~override~
+  SAY NAME1 @27
+  SAY NAME2 @28
+  SAY 0x50 @29
+  SAY 0x54 @30
   
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMARQ06.itm~ ~override~
-    SAY NAME1 @27
-    SAY NAME2 @28
-    SAY 0x50 @29
-    SAY 0x54 @30
-  
-END
-
 COPY ~DarkHorizons/items/CMARQ07.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @31
   SAY 0x50 @25
   SAY 0x54 @32
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMARQ08.itm~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @33
-    SAY 0x50 @25
-    SAY 0x54 @34
-  
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMARQ08.itm~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @33
-    SAY 0x50 @25
-    SAY 0x54 @34
-  
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMARQ08.itm~ ~override~
+  SAY NAME1 @18
+  SAY NAME2 @33
+  SAY 0x50 @25
+  SAY 0x54 @34
 
 COPY ~DarkHorizons/items/CMARQ09.itm~ ~override~
   SAY NAME1 @35
@@ -3515,24 +3455,12 @@ COPY ~DarkHorizons/items/CMARQ11.itm~ ~override~
   SAY 0x50 @29
   SAY 0x54 @29
   
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMARQ12.itm~ ~override~
+  SAY NAME1 @14
+  SAY NAME2 @828
+  SAY 0x50 @26
+  SAY 0x54 @829
 
-  COPY ~DarkHorizons/items/CMARQ12.itm~ ~override~
-    SAY NAME1 @14
-    SAY NAME2 @828
-    SAY 0x50 @26
-    SAY 0x54 @829
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMARQ12.itm~ ~override~
-    SAY NAME1 @14
-    SAY NAME2 @828
-    SAY 0x50 @26
-    SAY 0x54 @829
-
-END
-  
 /* --------------------------------------     */
 
 COPY ~DarkHorizons/items/CMCHAN01.ITM~ ~override~
@@ -3577,97 +3505,36 @@ COPY ~DarkHorizons/items/CMLEAT1.ITM~ ~override~
   SAY 0x50 @58
   SAY 0x54 @59
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMLEAT2.itm~ ~override~
+  SAY NAME1 @60
+  SAY NAME2 @61
+  SAY 0x50 @62
+  SAY 0x54 @63
 
-  COPY ~DarkHorizons/items/CMLEAT2.itm~ ~override~
-    SAY NAME1 @60
-    SAY NAME2 @61
-    SAY 0x50 @62
-    SAY 0x54 @63
+COPY ~DarkHorizons/%ItemsFolder%/CMLEAT3.itm~ ~override~
+  SAY NAME1 @18
+  SAY NAME2 @39
+  SAY 0x50 @64
+  SAY 0x54 @65
 
-END ELSE BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMLEAT4.ITM~ ~override~
+  SAY NAME1 @18
+  SAY NAME2 @66
+  SAY 0x50 @67
+  SAY 0x54 @68
+  SAY 0x286 @69
 
-  COPY ~DarkHorizons/BGT/items/CMLEAT2.itm~ ~override~
-    SAY NAME1 @60
-    SAY NAME2 @61
-    SAY 0x50 @62
-    SAY 0x54 @63
+COPY ~DarkHorizons/%ItemsFolder%/CMLEAT5.ITM~ ~override~
+  SAY NAME1 @70
+  SAY NAME2 @71
+  SAY 0x50 @72
+  SAY 0x54 @73
 
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMLEAT3.itm~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @39
-    SAY 0x50 @64
-    SAY 0x54 @65
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMLEAT3.itm~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @39
-    SAY 0x50 @64
-    SAY 0x54 @65
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMLEAT4.ITM~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @66
-    SAY 0x50 @67
-    SAY 0x54 @68
-    SAY 0x286 @69
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMLEAT4.ITM~ ~override~
-    SAY NAME1 @18
-    SAY NAME2 @66
-    SAY 0x50 @67
-    SAY 0x54 @68
-    SAY 0x286 @69
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMLEAT5.ITM~ ~override~
-    SAY NAME1 @70
-    SAY NAME2 @71
-    SAY 0x50 @72
-    SAY 0x54 @73
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMLEAT5.ITM~ ~override~
-    SAY NAME1 @70
-    SAY NAME2 @71
-    SAY 0x50 @72
-    SAY 0x54 @73
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/cmleat6.itm~ ~override~
-    SAY NAME1 @70
-    SAY NAME2 @74
-    SAY 0x50 @72
-    SAY 0x54 @75
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/cmleat6.itm~ ~override~
-    SAY NAME1 @70
-    SAY NAME2 @74
-    SAY 0x50 @72
-    SAY 0x54 @75
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/cmleat6.itm~ ~override~
+  SAY NAME1 @70
+  SAY NAME2 @74
+  SAY 0x50 @72
+  SAY 0x54 @75
 
 COPY ~DarkHorizons/items/CMPLAT03.ITM~ ~override~
   SAY NAME1 @10
@@ -3700,23 +3567,11 @@ COPY ~DarkHorizons/items/CMPLAT10.itm~ ~override~
   SAY 0x50 @87
   SAY 0x54 @88
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMPLAT11.itm~ ~override~
-    SAY NAME1 @27
-    SAY NAME2 @89
-    SAY 0x50 @29
-    SAY 0x54 @90
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMPLAT11.itm~ ~override~
-    SAY NAME1 @27
-    SAY NAME2 @89
-    SAY 0x50 @29
-    SAY 0x54 @90
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMPLAT11.itm~ ~override~
+  SAY NAME1 @27
+  SAY NAME2 @89
+  SAY 0x50 @29
+  SAY 0x54 @90
 
 /*  Belts **** */
 
@@ -3811,224 +3666,79 @@ COPY ~DarkHorizons/items/CMCLQ01.itm~ ~override~
 
 /*  Gloves **** */
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMBRAC01.itm~ ~override~
+  SAY NAME1 @125
+  SAY NAME2 @126
+  SAY 0x50 @127
+  SAY 0x54 @128
 
-  COPY ~DarkHorizons/items/CMBRAC01.itm~ ~override~
-    SAY NAME1 @125
-    SAY NAME2 @126
-    SAY 0x50 @127
-    SAY 0x54 @128
+COPY ~DarkHorizons/%ItemsFolder%/CMBRAC04.itm~ ~override~
+  SAY NAME1 @129
+  SAY NAME2 @130
+  SAY 0x50 @131
+  SAY 0x54 @132
 
-END ELSE BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMBRQ01.itm~ ~override~
+  SAY NAME1 @129
+  SAY NAME2 @133
+  SAY 0x50 @134
+  SAY 0x54 @135
 
-  COPY ~DarkHorizons/BGT/items/CMBRAC01.itm~ ~override~
-    SAY NAME1 @125
-    SAY NAME2 @126
-    SAY 0x50 @127
-    SAY 0x54 @128
+COPY ~DarkHorizons/%ItemsFolder%/CMBRQ02.itm~ ~override~
+  SAY NAME1 @129
+  SAY NAME2 @136
+  SAY 0x50 @134
+  SAY 0x54 @137
 
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMBRQ03.itm~ ~override~
+  SAY NAME1 @129
+  SAY NAME2 @138
+  SAY 0x50 @131
+  SAY 0x54 @139
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMBRQ04.ITM~ ~override~
+  SAY NAME1 @129
+  SAY NAME2 @140
+  SAY 0x50 @131
+  SAY 0x54 @141
 
-  COPY ~DarkHorizons/items/CMBRAC04.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @130
-    SAY 0x50 @131
-    SAY 0x54 @132
+COPY ~DarkHorizons/%ItemsFolder%/CMBRQ05.itm~ ~override~
+  SAY NAME1 @125
+  SAY NAME2 @142
+  SAY 0x50 @127
+  SAY 0x54 @143
 
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBRAC04.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @130
-    SAY 0x50 @131
-    SAY 0x54 @132
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBRQ01.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @133
-    SAY 0x50 @134
-    SAY 0x54 @135
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBRQ01.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @133
-    SAY 0x50 @134
-    SAY 0x54 @135
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBRQ02.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @136
-    SAY 0x50 @134
-    SAY 0x54 @137
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBRQ02.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @136
-    SAY 0x50 @134
-    SAY 0x54 @137
-
-END
-
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBRQ03.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @138
-    SAY 0x50 @131
-    SAY 0x54 @139
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBRQ03.itm~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @138
-    SAY 0x50 @131
-    SAY 0x54 @139
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBRQ04.ITM~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @140
-    SAY 0x50 @131
-    SAY 0x54 @141
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBRQ04.ITM~ ~override~
-    SAY NAME1 @129
-    SAY NAME2 @140
-    SAY 0x50 @131
-    SAY 0x54 @141
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBRQ05.itm~ ~override~
-    SAY NAME1 @125
-    SAY NAME2 @142
-    SAY 0x50 @127
-    SAY 0x54 @143
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBRQ05.itm~ ~override~
-    SAY NAME1 @125
-    SAY NAME2 @142
-    SAY 0x50 @127
-    SAY 0x54 @143
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBRQ06.itm~ ~override~
-    SAY NAME1 @125
-    SAY NAME2 @144
-    SAY 0x50 @127
-    SAY 0x54 @145
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBRQ06.itm~ ~override~
-    SAY NAME1 @125
-    SAY NAME2 @144
-    SAY 0x50 @127
-    SAY 0x54 @145
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMBRQ06.itm~ ~override~
+  SAY NAME1 @125
+  SAY NAME2 @144
+  SAY 0x50 @127
+  SAY 0x54 @145
 
 /* Helms **** */
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMHELM01.itm~ ~override~
+  SAY NAME1 @146
+  SAY NAME2 @147
+  SAY 0x50 @148
+  SAY 0x54 @149
 
-  COPY ~DarkHorizons/items/CMHELM01.itm~ ~override~
-    SAY NAME1 @146
-    SAY NAME2 @147
-    SAY 0x50 @148
-    SAY 0x54 @149
+COPY ~DarkHorizons/%ItemsFolder%/CMHELM02.ITM~ ~override~
+  SAY NAME1 @146
+  SAY NAME2 @150
+  SAY 0x50 @148
+  SAY 0x54 @151
 
-END ELSE BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMHELM03.ITM~ ~override~
+  SAY NAME1 @152
+  SAY NAME2 @153
+  SAY 0x50 @154
+  SAY 0x54 @155
 
-  COPY ~DarkHorizons/BGT/items/CMHELM01.itm~ ~override~
-    SAY NAME1 @146
-    SAY NAME2 @147
-    SAY 0x50 @148
-    SAY 0x54 @149
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMHELM02.ITM~ ~override~
-    SAY NAME1 @146
-    SAY NAME2 @150
-    SAY 0x50 @148
-    SAY 0x54 @151
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMHELM02.ITM~ ~override~
-    SAY NAME1 @146
-    SAY NAME2 @150
-    SAY 0x50 @148
-    SAY 0x54 @151
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMHELM03.ITM~ ~override~
-    SAY NAME1 @152
-    SAY NAME2 @153
-    SAY 0x50 @154
-    SAY 0x54 @155
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMHELM03.ITM~ ~override~
-    SAY NAME1 @152
-    SAY NAME2 @153
-    SAY 0x50 @154
-    SAY 0x54 @155
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/cmhelm04.itm~ ~override~
-    SAY NAME1 @146
-    SAY NAME2 @156
-    SAY 0x50 @157
-    SAY 0x54 @158
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/cmhelm04.itm~ ~override~
-    SAY NAME1 @146
-    SAY NAME2 @156
-    SAY 0x50 @157
-    SAY 0x54 @158
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/cmhelm04.itm~ ~override~
+  SAY NAME1 @146
+  SAY NAME2 @156
+  SAY 0x50 @157
+  SAY 0x54 @158
 
 COPY ~DarkHorizons/items/CMHMQ01.ITM~ ~override~
   SAY NAME1 @146
@@ -4060,118 +3770,45 @@ COPY ~DarkHorizons/items/CMHMQ04.itm~ ~override~
 
 /* Shields **** */
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMSHLD01.ITM~ ~override~
+  SAY NAME1 @166
+  SAY NAME2 @167
+  SAY 0x50 @168
+  SAY 0x54 @169
 
-  COPY ~DarkHorizons/items/CMSHLD01.ITM~ ~override~
-    SAY NAME1 @166
-    SAY NAME2 @167
-    SAY 0x50 @168
-    SAY 0x54 @169
+COPY ~DarkHorizons/%ItemsFolder%/CMSHLD03.ITM~ ~override~
+  SAY NAME1 @170
+  SAY NAME2 @171
+  SAY 0x50 @172
+  SAY 0x54 @173
+  SAY 0x1F6 @174
 
-END ELSE BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMSHLD04.itm~ ~override~
+  SAY NAME1 @175
+  SAY NAME2 @176
+  SAY 0x50 @177
+  SAY 0x54 @178
 
-  COPY ~DarkHorizons/BGT/items/CMSHLD01.ITM~ ~override~
-    SAY NAME1 @166
-    SAY NAME2 @167
-    SAY 0x50 @168
-    SAY 0x54 @169
+COPY ~DarkHorizons/%ItemsFolder%/CMSHLD05.itm~ ~override~
+  SAY NAME1 @166
+  SAY NAME2 @179
+  SAY 0x50 @168
+  SAY 0x54 @180
 
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMSHQ01.itm~ ~override~
+  SAY NAME1 @170
+  SAY NAME2 @181
+  SAY 0x50 @172
+  SAY 0x54 @182
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSHLD03.ITM~ ~override~
-    SAY NAME1 @170
-    SAY NAME2 @171
-    SAY 0x50 @172
-    SAY 0x54 @173
-    SAY 0x1F6 @174
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSHLD03.ITM~ ~override~
-    SAY NAME1 @170
-    SAY NAME2 @171
-    SAY 0x50 @172
-    SAY 0x54 @173
-    SAY 0x1F6 @174
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSHLD04.itm~ ~override~
-    SAY NAME1 @175
-    SAY NAME2 @176
-    SAY 0x50 @177
-    SAY 0x54 @178
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSHLD04.itm~ ~override~
-    SAY NAME1 @175
-    SAY NAME2 @176
-    SAY 0x50 @177
-    SAY 0x54 @178
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSHLD05.itm~ ~override~
-    SAY NAME1 @166
-    SAY NAME2 @179
-    SAY 0x50 @168
-    SAY 0x54 @180
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSHLD05.itm~ ~override~
-    SAY NAME1 @166
-    SAY NAME2 @179
-    SAY 0x50 @168
-    SAY 0x54 @180
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSHQ01.itm~ ~override~
-    SAY NAME1 @170
-    SAY NAME2 @181
-    SAY 0x50 @172
-    SAY 0x54 @182
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSHQ01.itm~ ~override~
-    SAY NAME1 @170
-    SAY NAME2 @181
-    SAY 0x50 @172
-    SAY 0x54 @182
-
-END
-  
 /* ---------- Version 2.00 Additions ------------ */
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMSHQ02.itm~ ~override~
+  SAY NAME1 @166
+  SAY NAME2 @837
+  SAY 0x50 @168
+  SAY 0x54 @168
 
-  COPY ~DarkHorizons/items/CMSHQ02.itm~ ~override~
-    SAY NAME1 @166
-    SAY NAME2 @837
-    SAY 0x50 @168
-    SAY 0x54 @168
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSHQ02.itm~ ~override~
-    SAY NAME1 @166
-    SAY NAME2 @837
-    SAY 0x50 @168
-    SAY 0x54 @168
-
-END
-  
 /* --------------------------------------     */  
  
  /* ************************ Weapons ******************* */
@@ -4242,23 +3879,11 @@ COPY ~DarkHorizons/items/CMBLUN03.itm~ ~override~
   SAY 0x50 @758
   SAY 0x54 @216
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBLUN04.ITM~ ~override~
-    SAY NAME1 @217
-    SAY NAME2 @218
-    SAY 0x50 @219
-    SAY 0x54 @220
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBLUN04.ITM~ ~override~
-    SAY NAME1 @217
-    SAY NAME2 @218
-    SAY 0x50 @219
-    SAY 0x54 @220
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMBLUN04.ITM~ ~override~
+  SAY NAME1 @217
+  SAY NAME2 @218
+  SAY 0x50 @219
+  SAY 0x54 @220
 
 COPY ~DarkHorizons/items/CMBLUN05.ITM~ ~override~
   SAY NAME1 @221
@@ -4266,24 +3891,12 @@ COPY ~DarkHorizons/items/CMBLUN05.ITM~ ~override~
   SAY 0x50 @223
   SAY 0x54 @224
  
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMFLQ01.itm~ ~override~
+  SAY NAME1 @221
+  SAY NAME2 @225
+  SAY 0x50 @226
+  SAY 0x54 @227
 
-  COPY ~DarkHorizons/items/CMFLQ01.itm~ ~override~
-    SAY NAME1 @221
-    SAY NAME2 @225
-    SAY 0x50 @226
-    SAY 0x54 @227
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMFLQ01.itm~ ~override~
-    SAY NAME1 @221
-    SAY NAME2 @225
-    SAY 0x50 @226
-    SAY 0x54 @227
-
-END
- 
 COPY ~DarkHorizons/items/CMHAMM01.itm~ ~override~
   SAY NAME1 @228
   SAY NAME2 @229
@@ -4318,41 +3931,17 @@ COPY ~DarkHorizons/items/CMHAQ01.ITM~ ~override~
   SAY 0x50 @237
   SAY 0x54 @240
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMHAQ02.itm~ ~override~
+  SAY NAME1 @232
+  SAY NAME2 @241
+  SAY 0x50 @242
+  SAY 0x54 @243
 
-  COPY ~DarkHorizons/items/CMHAQ02.itm~ ~override~
-    SAY NAME1 @232
-    SAY NAME2 @241
-    SAY 0x50 @242
-    SAY 0x54 @243
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMHAQ02.itm~ ~override~
-    SAY NAME1 @232
-    SAY NAME2 @241
-    SAY 0x50 @242
-    SAY 0x54 @243
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
- 
-  COPY ~DarkHorizons/items/CMMSQ01.ITM~ ~override~
-    SAY NAME1 @211
-    SAY NAME2 @244
-    SAY 0x50 @213
-    SAY 0x54 @245
-
-END ELSE BEGIN
- 
-  COPY ~DarkHorizons/BGT/items/CMMSQ01.ITM~ ~override~
-    SAY NAME1 @211
-    SAY NAME2 @244
-    SAY 0x50 @213
-    SAY 0x54 @245
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMMSQ01.ITM~ ~override~
+  SAY NAME1 @211
+  SAY NAME2 @244
+  SAY 0x50 @213
+  SAY 0x54 @245
 
 COPY ~DarkHorizons/items/CMMSQ02.itm~ ~override~
   SAY NAME1 @207
@@ -4362,23 +3951,11 @@ COPY ~DarkHorizons/items/CMMSQ02.itm~ ~override~
  
 /* Bows **** */
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMBOW01.itm~ ~override~
-    SAY NAME1 @248
-    SAY NAME2 @249
-    SAY 0x50 @250
-    SAY 0x54 @251
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBOW01.itm~ ~override~
-    SAY NAME1 @248
-    SAY NAME2 @249
-    SAY 0x50 @250
-    SAY 0x54 @251
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMBOW01.itm~ ~override~
+  SAY NAME1 @248
+  SAY NAME2 @249
+  SAY 0x50 @250
+  SAY 0x54 @251
 
 COPY ~DarkHorizons/items/CMBOW02.ITM~ ~override~
   SAY NAME1 @248
@@ -4387,7 +3964,6 @@ COPY ~DarkHorizons/items/CMBOW02.ITM~ ~override~
   SAY 0x54 @253
 
 COPY ~DarkHorizons/items/CMBOW03.ITM~ ~override~
-
   SAY NAME1 @254
   SAY NAME2 @255
   SAY 0x50 @256
@@ -4395,28 +3971,15 @@ COPY ~DarkHorizons/items/CMBOW03.ITM~ ~override~
   
 /* ---------- Version 2.00 Additions ------------ */
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMBOW04.itm~ ~override~
+  SAY NAME1 @248
+  SAY NAME2 @834
+  SAY 0x50 @250
+  SAY 0x54 @835
 
-  COPY ~DarkHorizons/items/CMBOW04.itm~ ~override~
-    SAY NAME1 @248
-    SAY NAME2 @834
-    SAY 0x50 @250
-    SAY 0x54 @835
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMBOW04.itm~ ~override~
-    SAY NAME1 @248
-    SAY NAME2 @834
-    SAY 0x50 @250
-    SAY 0x54 @835
-
-END
-  
 /* --------------------------------------     */
  
 COPY ~DarkHorizons/items/CMBWQ01.itm~ ~override~
-
   SAY NAME1 @254
   SAY NAME2 @258
   SAY 0x50 @259
@@ -4434,31 +3997,18 @@ COPY ~DarkHorizons/items/CMBWQ03.itm~ ~override~
   SAY 0x50 @266
   SAY 0x54 @267
 
-
 COPY ~DarkHorizons/items/CMBWQ04.itm~ ~override~
   SAY NAME1 @268
   SAY NAME2 @269
   SAY 0x50 @270
   SAY 0x54 @271
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMXBOW01.itm~ ~override~
+  SAY NAME1 @264
+  SAY NAME2 @272
+  SAY 0x50 @273
+  SAY 0x54 @274
 
-  COPY ~DarkHorizons/items/CMXBOW01.itm~ ~override~
-    SAY NAME1 @264
-    SAY NAME2 @272
-    SAY 0x50 @273
-    SAY 0x54 @274
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMXBOW01.itm~ ~override~
-    SAY NAME1 @264
-    SAY NAME2 @272
-    SAY 0x50 @273
-    SAY 0x54 @274
-
-END
- 
 /* Bullets **** */
 
 COPY ~DarkHorizons/items/cmbul02.itm~ ~override~
@@ -4494,7 +4044,7 @@ COPY ~DarkHorizons/items/CMDAGG01.ITM~ ~override~
   SAY 0x54 @289
 
 COPY ~DarkHorizons/items/cmdagg02.itm~ ~override~
-SAY NAME1 @286
+  SAY NAME1 @286
   SAY NAME2 @290
   SAY 0x50 @291
   SAY 0x54 @292
@@ -4526,24 +4076,11 @@ COPY ~DarkHorizons/items/CMDAQ02.itm~ ~override~
   SAY 0x50 @291
   SAY 0x54 @296
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMDAQ03.ITM~ ~override~
-    SAY NAME1 @286
-    SAY NAME2 @297
-    SAY 0x50 @298
-    SAY 0x54 @299
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMDAQ03.ITM~ ~override~
-    SAY NAME1 @286
-    SAY NAME2 @297
-    SAY 0x50 @298
-    SAY 0x54 @299
-
-END
-
+COPY ~DarkHorizons/%ItemsFolder%/CMDAQ03.ITM~ ~override~
+  SAY NAME1 @286
+  SAY NAME2 @297
+  SAY 0x50 @298
+  SAY 0x54 @299
 
 COPY ~DarkHorizons/items/CMDAQ04.itm~ ~override~
   SAY NAME1 @286
@@ -4565,23 +4102,11 @@ COPY ~DarkHorizons/items/CMSPQ01.itm~ ~override~
   SAY 0x50 @308
   SAY 0x54 @309
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSPQ02.itm~ ~override~
-    SAY NAME1 @306
-    SAY NAME2 @310
-    SAY 0x50 @308
-    SAY 0x54 @311
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSPQ02.itm~ ~override~
-    SAY NAME1 @306
-    SAY NAME2 @310
-    SAY 0x50 @308
-    SAY 0x54 @311
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMSPQ02.itm~ ~override~
+  SAY NAME1 @306
+  SAY NAME2 @310
+  SAY 0x50 @308
+  SAY 0x54 @311
 
 COPY ~DarkHorizons/items/CMSPQ03.itm~ ~override~
   SAY NAME1 @306
@@ -4616,83 +4141,34 @@ COPY ~DarkHorizons/items/CMSTAF01.ITM~ ~override~
   SAY 0x54 @319
 
 COPY ~DarkHorizons/items/CMSTQ01.ITM~ ~override~
-
   SAY NAME1 @320
   SAY NAME2 @321
   SAY 0x50 @322
   SAY 0x54 @323
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMSTQ02.itm~ ~override~
+  SAY NAME1 @324
+  SAY NAME2 @325
+  SAY 0x50 @326
+  SAY 0x54 @327
 
-  COPY ~DarkHorizons/items/CMSTQ02.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @325
-    SAY 0x50 @326
-    SAY 0x54 @327
+COPY ~DarkHorizons/%ItemsFolder%/CMSTQ03.itm~ ~override~
+  SAY NAME1 @324
+  SAY NAME2 @328
+  SAY 0x50 @329
+  SAY 0x54 @330
 
-END ELSE BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMSTQ04.itm~ ~override~
+  SAY NAME1 @324
+  SAY NAME2 @331
+  SAY 0x50 @332
+  SAY 0x54 @333
 
-  COPY ~DarkHorizons/BGT/items/CMSTQ02.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @325
-    SAY 0x50 @326
-    SAY 0x54 @327
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSTQ03.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @328
-    SAY 0x50 @329
-    SAY 0x54 @330
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSTQ03.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @328
-    SAY 0x50 @329
-    SAY 0x54 @330
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSTQ04.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @331
-    SAY 0x50 @332
-    SAY 0x54 @333
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSTQ04.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @331
-    SAY 0x50 @332
-    SAY 0x54 @333
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSTQ05.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @334
-    SAY 0x50 @332
-    SAY 0x54 @335
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSTQ05.itm~ ~override~
-    SAY NAME1 @324
-    SAY NAME2 @334
-    SAY 0x50 @332
-    SAY 0x54 @335
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMSTQ05.itm~ ~override~
+  SAY NAME1 @324
+  SAY NAME2 @334
+  SAY 0x50 @332
+  SAY 0x54 @335
 
 COPY ~DarkHorizons/items/CMSTQ06.itm~ ~override~
   SAY NAME1 @324
@@ -4702,23 +4178,11 @@ COPY ~DarkHorizons/items/CMSTQ06.itm~ ~override~
 
 /* Swords **** */
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMS1H01.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @339
-    SAY 0x50 @340
-    SAY 0x54 @341
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMS1H01.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @339
-    SAY 0x50 @340
-    SAY 0x54 @341
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMS1H01.itm~ ~override~
+  SAY NAME1 @338
+  SAY NAME2 @339
+  SAY 0x50 @340
+  SAY 0x54 @341
 
 COPY ~DarkHorizons/items/CMS1H03.ITM~ ~override~
   SAY NAME1 @342
@@ -4732,48 +4196,23 @@ COPY ~DarkHorizons/items/CMS1H04.itm~ ~override~
   SAY 0x50 @348
   SAY 0x54 @349
 
-
 COPY ~DarkHorizons/items/CMS1H05.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @350
   SAY 0x50 @340
   SAY 0x54 @351
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMS1H07.itm~ ~override~
+  SAY NAME1 @338
+  SAY NAME2 @352
+  SAY 0x50 @340
+  SAY 0x54 @353
 
-  COPY ~DarkHorizons/items/CMS1H07.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @352
-    SAY 0x50 @340
-    SAY 0x54 @353
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMS1H07.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @352
-    SAY 0x50 @340
-    SAY 0x54 @353
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMS1H08.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @354
-    SAY 0x50 @355
-    SAY 0x54 @356
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMS1H08.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @354
-    SAY 0x50 @355
-    SAY 0x54 @356
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMS1H08.itm~ ~override~
+  SAY NAME1 @338
+  SAY NAME2 @354
+  SAY 0x50 @355
+  SAY 0x54 @356
 
 COPY ~DarkHorizons/items/CMS1H09.itm~ ~override~
   SAY NAME1 @346
@@ -4839,23 +4278,11 @@ COPY ~DarkHorizons/items/CMSWQ07.itm~ ~override~
   SAY 0x50 @375
   SAY 0x54 @380
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSWQ08.itm~ ~override~
-    SAY NAME1 @364
-    SAY NAME2 @381
-    SAY 0x50 @382
-    SAY 0x54 @383
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSWQ08.itm~ ~override~
-    SAY NAME1 @364
-    SAY NAME2 @381
-    SAY 0x50 @382
-    SAY 0x54 @383
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMSWQ08.itm~ ~override~
+  SAY NAME1 @364
+  SAY NAME2 @381
+  SAY 0x50 @382
+  SAY 0x54 @383
 
 COPY ~DarkHorizons/items/CMSWQ09.itm~ ~override~
   SAY NAME1 @338
@@ -4871,47 +4298,22 @@ COPY ~DarkHorizons/items/CMSWQ10.itm~ ~override~
   SAY 0x54 @387
 
 COPY ~DarkHorizons/items/CMSWQ11.itm~ ~override~
-
   SAY NAME1 @342
   SAY NAME2 @388
   SAY 0x50 @389
   SAY 0x54 @390
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMSWQ12.itm~ ~override~
+  SAY NAME1 @342
+  SAY NAME2 @391
+  SAY 0x50 @392
+  SAY 0x54 @393
 
-  COPY ~DarkHorizons/items/CMSWQ12.itm~ ~override~
-    SAY NAME1 @342
-    SAY NAME2 @391
-    SAY 0x50 @392
-    SAY 0x54 @393
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSWQ12.itm~ ~override~
-    SAY NAME1 @342
-    SAY NAME2 @391
-    SAY 0x50 @392
-    SAY 0x54 @393
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMSWQ14.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @398
-    SAY 0x50 @340
-    SAY 0x54 @399
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMSWQ14.itm~ ~override~
-    SAY NAME1 @338
-    SAY NAME2 @398
-    SAY 0x50 @340
-    SAY 0x54 @399
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMSWQ14.itm~ ~override~
+  SAY NAME1 @338
+  SAY NAME2 @398
+  SAY 0x50 @340
+  SAY 0x54 @399
 
 COPY ~DarkHorizons/items/CMSWQ15.itm~ ~override~
   SAY NAME1 @338
@@ -4959,7 +4361,6 @@ COPY ~DarkHorizons/items/CMAMUL01.ITM~ ~override~
   SAY 0x50 @412
   SAY 0x54 @423
 
-
 COPY ~DarkHorizons/items/CMAMUL02.ITM~ ~override~
   SAY NAME1 @414
   SAY NAME2 @424
@@ -4998,23 +4399,11 @@ COPY ~DarkHorizons/items/CMRING02.ITM~ ~override~
   SAY 0x50 @436
   SAY 0x54 @439
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/cmring03.itm~ ~override~
-    SAY NAME1 @761
-    SAY NAME2 @440
-    SAY 0x50 @762
-    SAY 0x54 @441
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/cmring03.itm~ ~override~
-    SAY NAME1 @761
-    SAY NAME2 @440
-    SAY 0x50 @762
-    SAY 0x54 @441
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/cmring03.itm~ ~override~
+  SAY NAME1 @761
+  SAY NAME2 @440
+  SAY 0x50 @762
+  SAY 0x54 @441
 
 COPY ~DarkHorizons/items/cmring04.itm~ ~override~
   SAY NAME1 @434
@@ -5041,23 +4430,11 @@ COPY ~DarkHorizons/items/CMRIQ02.ITM~ ~override~
   SAY 0x50 @436
   SAY 0x54 @449
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMRIQ03.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @450
-    SAY 0x50 @436
-    SAY 0x54 @451
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMRIQ03.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @450
-    SAY 0x50 @436
-    SAY 0x54 @451
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMRIQ03.itm~ ~override~
+  SAY NAME1 @434
+  SAY NAME2 @450
+  SAY 0x50 @436
+  SAY 0x54 @451
 
 COPY ~DarkHorizons/items/CMRIQ04.itm~ ~override~
   SAY NAME1 @434
@@ -5065,59 +4442,23 @@ COPY ~DarkHorizons/items/CMRIQ04.itm~ ~override~
   SAY 0x50 @453
   SAY 0x54 @454
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/CMRIQ05.itm~ ~override~
+  SAY NAME1 @434
+  SAY NAME2 @455
+  SAY 0x50 @436
+  SAY 0x54 @456
 
-  COPY ~DarkHorizons/items/CMRIQ05.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @455
-    SAY 0x50 @436
-    SAY 0x54 @456
+COPY ~DarkHorizons/%ItemsFolder%/CMRIQ06.itm~ ~override~
+  SAY NAME1 @434
+  SAY NAME2 @457
+  SAY 0x50 @436
+  SAY 0x54 @458
 
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMRIQ05.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @455
-    SAY 0x50 @436
-    SAY 0x54 @456
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMRIQ06.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @457
-    SAY 0x50 @436
-    SAY 0x54 @458
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMRIQ06.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @457
-    SAY 0x50 @436
-    SAY 0x54 @458
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMRIQ07.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @459
-    SAY 0x50 @436
-    SAY 0x54 @460
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMRIQ07.itm~ ~override~
-    SAY NAME1 @434
-    SAY NAME2 @459
-    SAY 0x50 @436
-    SAY 0x54 @460
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMRIQ07.itm~ ~override~
+  SAY NAME1 @434
+  SAY NAME2 @459
+  SAY 0x50 @436
+  SAY 0x54 @460
 
 /* **************************** Scrolls ************************ */
 
@@ -5176,7 +4517,6 @@ COPY ~DarkHorizons/items/CMFOOD2.itm~ ~override~
   SAY 0x50 @475
   SAY 0x54 @475
   SAY 0x10E @473 
-  
 
 COPY ~DarkHorizons/items/CMGRAPE.itm~ ~override~
   SAY NAME1 @474
@@ -5211,13 +4551,11 @@ COPY ~DarkHorizons/items/CMPOT01.itm~ ~override~
   SAY 0x50 @481
   SAY 0x54 @486
 
-
 COPY ~DarkHorizons/items/CMPOT02.itm~ ~override~
   SAY NAME1 @479
   SAY NAME2 @487
   SAY 0x50 @481
   SAY 0x54 @488
-
 
 /* ********************* Wands and other magical devices */
 
@@ -5245,23 +4583,11 @@ COPY ~DarkHorizons/items/SKLDEAD.ITM~ ~override~
   SAY 0x50 @499
   SAY 0x54 @500
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/CMLUTE.itm~ ~override~
-    SAY NAME1 @501
-    SAY NAME2 @502
-    SAY 0x50 @503
-    SAY 0x54 @504
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/CMLUTE.itm~ ~override~
-    SAY NAME1 @501
-    SAY NAME2 @502
-    SAY 0x50 @503
-    SAY 0x54 @504
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/CMLUTE.itm~ ~override~
+  SAY NAME1 @501
+  SAY NAME2 @502
+  SAY 0x50 @503
+  SAY 0x54 @504
 
 COPY ~DarkHorizons/items/CMCAND1.ITM~ ~override~
   SAY NAME1 @505
@@ -5368,234 +4694,145 @@ COPY ~DarkHorizons/items/maax1h01.itm~   ~override/maax1h01.itm~
   SAY NAME2 @532
   SAY DESC @533
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/mclck01.itm~   ~override/mclck01.itm~ 
-    SAY NAME1 @112
-    SAY NAME2 @534
-    SAY UNIDENTIFIED_DESC @114
-    SAY DESC @535
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/mclck01.itm~   ~override/mclck01.itm~ 
-    SAY NAME1 @112
-    SAY NAME2 @534
-    SAY UNIDENTIFIED_DESC @114
-    SAY DESC @535
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/mclck01.itm~   ~override/mclck01.itm~ 
+  SAY NAME1 @112
+  SAY NAME2 @534
+  SAY UNIDENTIFIED_DESC @114
+  SAY DESC @535
 
 COPY    ~DarkHorizons/items/ma1sw01.itm~   ~override/ma1sw01.itm~
-SAY NAME1 @765
-SAY NAME2 @536
-SAY DESC @537
+  SAY NAME1 @765
+  SAY NAME2 @536
+  SAY DESC @537
 
 COPY    ~DarkHorizons/items/ma1sw02.itm~   ~override/ma1sw02.itm~ 
-SAY NAME1 @538
-SAY NAME2 @539
-SAY DESC @540
+  SAY NAME1 @538
+  SAY NAME2 @539
+  SAY DESC @540
 
 COPY    ~DarkHorizons/items/ma2sw01.itm~   ~override/ma2sw01.itm~ 
-SAY NAME1 @394
-SAY NAME2 @541
-SAY UNIDENTIFIED_DESC @542
-SAY DESC @543
+  SAY NAME1 @394
+  SAY NAME2 @541
+  SAY UNIDENTIFIED_DESC @542
+  SAY DESC @543
 
 COPY    ~DarkHorizons/items/ma2sw02.itm~   ~override/ma2sw02.itm~ 
-SAY NAME1 @544
-SAY NAME2 @545
-SAY DESC @546
+  SAY NAME1 @544
+  SAY NAME2 @545
+  SAY DESC @546
 
 COPY    ~DarkHorizons/items/maax1h02.itm~   ~override/maax1h02.itm~
-SAY NAME1 @764
-SAY NAME2 @532
-SAY DESC @547
+  SAY NAME1 @764
+  SAY NAME2 @532
+  SAY DESC @547
 
 COPY    ~DarkHorizons/items/maax1h03.itm~   ~override/maax1h03.itm~ 
-SAY NAME1 @200
-SAY NAME2 @548
-SAY UNIDENTIFIED_DESC @205
-SAY DESC @549
+  SAY NAME1 @200
+  SAY NAME2 @548
+  SAY UNIDENTIFIED_DESC @205
+  SAY DESC @549
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/mabrac01.itm~   ~override/mabrac01.itm~
+  SAY NAME1 @766
+  SAY NAME2 @550
+  SAY DESC @551
 
-  COPY ~DarkHorizons/items/mabrac01.itm~   ~override/mabrac01.itm~
-    SAY NAME1 @766
-    SAY NAME2 @550
-    SAY DESC @551
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/mabrac01.itm~   ~override/mabrac01.itm~
-    SAY NAME1 @766
-    SAY NAME2 @550
-    SAY DESC @551
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/mabrac02.itm~   ~override/mabrac02.itm~ 
-    SAY NAME1 @766
-    SAY NAME2 @552
-    SAY DESC @553
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/mabrac02.itm~   ~override/mabrac02.itm~ 
-    SAY NAME1 @766
-    SAY NAME2 @552
-    SAY DESC @553
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/mabrac02.itm~   ~override/mabrac02.itm~ 
+  SAY NAME1 @766
+  SAY NAME2 @552
+  SAY DESC @553
 
 COPY    ~DarkHorizons/items/mabull01.itm~   ~override/mabull01.itm~ 
-SAY NAME1 @275
-SAY NAME2 @554
-SAY UNIDENTIFIED_DESC @280
-SAY DESC @555
+  SAY NAME1 @275
+  SAY NAME2 @554
+  SAY UNIDENTIFIED_DESC @280
+  SAY DESC @555
 
 COPY    ~DarkHorizons/items/machan01.itm~   ~override/machan01.itm~
-SAY NAME1 @767
-SAY NAME2 @556
-SAY DESC @557
+  SAY NAME1 @767
+  SAY NAME2 @556
+  SAY DESC @557
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY    ~DarkHorizons/items/maclck01.itm~   ~override/maclck01.itm~ 
-    SAY NAME1 @116
-    SAY NAME2 @558
-    SAY DESC @559
-
-END ELSE BEGIN
-
-  COPY    ~DarkHorizons/BGT/items/maclck01.itm~   ~override/maclck01.itm~ 
-    SAY NAME1 @116
-    SAY NAME2 @558
-    SAY DESC @559
-
-END
+COPY    ~DarkHorizons/%ItemsFolder%/maclck01.itm~   ~override/maclck01.itm~ 
+  SAY NAME1 @116
+  SAY NAME2 @558
+  SAY DESC @559
 
 COPY    ~DarkHorizons/items/macmbl01.itm~   ~override/macmbl01.itm~ 
-SAY NAME1 @221
-SAY NAME2 @560
-SAY DESC @561
+  SAY NAME1 @221
+  SAY NAME2 @560
+  SAY DESC @561
 
 COPY    ~DarkHorizons/items/macmbl02.itm~   ~override/macmbl02.itm~ 
-SAY NAME1 @207
-SAY NAME2 @562
-SAY DESC @563
+  SAY NAME1 @207
+  SAY NAME2 @562
+  SAY DESC @563
 
 COPY    ~DarkHorizons/items/macmda01.itm~   ~override/macmda01.itm~ 
-SAY NAME1 @286
-SAY NAME2 @564
-SAY DESC @565
+  SAY NAME1 @286
+  SAY NAME2 @564
+  SAY DESC @565
 
 COPY    ~DarkHorizons/items/macmhe01.itm~   ~override/macmhe01.itm~ 
-SAY NAME1 @566
-SAY NAME2 @567
-SAY UNIDENTIFIED_DESC @148
-SAY DESC @568
+  SAY NAME1 @566
+  SAY NAME2 @567
+  SAY UNIDENTIFIED_DESC @148
+  SAY DESC @568
 
 COPY    ~DarkHorizons/items/macmle01.itm~   ~override/macmle01.itm~ 
-SAY NAME1 @70
-SAY NAME2 @39
-SAY UNIDENTIFIED_DESC @569
-SAY DESC @570
+  SAY NAME1 @70
+  SAY NAME2 @39
+  SAY UNIDENTIFIED_DESC @569
+  SAY DESC @570
 
 COPY    ~DarkHorizons/items/macmle02.itm~   ~override/macmle02.itm~ 
-SAY NAME1 @70
-SAY NAME2 @571
-SAY UNIDENTIFIED_DESC @569
-SAY DESC @572
+  SAY NAME1 @70
+  SAY NAME2 @571
+  SAY UNIDENTIFIED_DESC @569
+  SAY DESC @572
 
 COPY    ~DarkHorizons/items/macmxb01.itm~   ~override/macmxb01.itm~ 
-SAY NAME1 @573
-SAY NAME2 @574
-SAY UNIDENTIFIED_DESC @575
-SAY DESC @576
+  SAY NAME1 @573
+  SAY NAME2 @574
+  SAY UNIDENTIFIED_DESC @575
+  SAY DESC @576
 
 COPY    ~DarkHorizons/items/mahamm01.itm~   ~override/mahamm01.itm~ 
-SAY NAME1 @768
-SAY NAME2 @577
-SAY DESC @578
+  SAY NAME1 @768
+  SAY NAME2 @577
+  SAY DESC @578
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY    ~DarkHorizons/%ItemsFolder%/maplat02.itm~   ~override/maplat02.itm~ 
+  SAY NAME1 @769
+  SAY NAME2 @579
+  SAY DESC @580
 
-  COPY    ~DarkHorizons/items/maplat02.itm~   ~override/maplat02.itm~ 
-    SAY NAME1 @769
-    SAY NAME2 @579
-    SAY DESC @580
-
-END ELSE BEGIN
-
-  COPY    ~DarkHorizons/BGT/items/maplat02.itm~   ~override/maplat02.itm~ 
-    SAY NAME1 @769
-    SAY NAME2 @579
-    SAY DESC @580
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY    ~DarkHorizons/items/mashld01.itm~   ~override/mashld01.itm~ 
-    SAY NAME1 @770
-    SAY NAME2 @581
-    SAY DESC @582
-
-END ELSE BEGIN
-
-  COPY    ~DarkHorizons/BGT/items/mashld01.itm~   ~override/mashld01.itm~ 
-    SAY NAME1 @770
-    SAY NAME2 @581
-    SAY DESC @582
-
-END
+COPY    ~DarkHorizons/%ItemsFolder%/mashld01.itm~   ~override/mashld01.itm~ 
+  SAY NAME1 @770
+  SAY NAME2 @581
+  SAY DESC @582
 
 COPY    ~DarkHorizons/items/mbul01.itm~   ~override/mbul01.itm~
-SAY NAME1 @275
-SAY NAME2 @583
-SAY UNIDENTIFIED_DESC @280
-SAY DESC @584
+  SAY NAME1 @275
+  SAY NAME2 @583
+  SAY UNIDENTIFIED_DESC @280
+  SAY DESC @584
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY    ~DarkHorizons/items/mcmbow01.itm~   ~override/mcmbow01.itm~ 
-    SAY NAME1 @771
-    SAY NAME2 @585
-    SAY DESC @586
-
-END ELSE BEGIN
-
-  COPY    ~DarkHorizons/BGT/items/mcmbow01.itm~   ~override/mcmbow01.itm~ 
-    SAY NAME1 @771
-    SAY NAME2 @585
-    SAY DESC @586
-
-END
+COPY    ~DarkHorizons/%ItemsFolder%/mcmbow01.itm~   ~override/mcmbow01.itm~ 
+  SAY NAME1 @771
+  SAY NAME2 @585
+  SAY DESC @586
 
 COPY    ~DarkHorizons/items/mhalb01.itm~   ~override/mhalb01.itm~ 
-SAY NAME1 @772
-SAY NAME2 @587
-SAY DESC @588
+  SAY NAME1 @772
+  SAY NAME2 @587
+  SAY DESC @588
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY    ~DarkHorizons/%ItemsFolder%/mplat01.itm~   ~override/mplat01.itm~ 
+  SAY NAME1 @769
+  SAY NAME2 @589
+  SAY DESC @590
 
-  COPY    ~DarkHorizons/items/mplat01.itm~   ~override/mplat01.itm~ 
-    SAY NAME1 @769
-    SAY NAME2 @589
-    SAY DESC @590
-
-END ELSE BEGIN
-
-  COPY    ~DarkHorizons/BGT/items/mplat01.itm~   ~override/mplat01.itm~ 
-    SAY NAME1 @769
-    SAY NAME2 @589
-    SAY DESC @590
-
-END
- 
  /* ******************** CoM Forge Items *********************** */
  
  COPY ~DarkHorizons/items/MACMHE01.itm~  ~override/MACMHE01.itm~
@@ -5608,23 +4845,11 @@ COPY ~DarkHorizons/items/MASWOR02.ITM~  ~override/MASWOR02.ITM~
   SAY NAME2 @591
   SAY DESC @592
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/maaxe001.itm~  ~override/maaxe001.itm~       
-    SAY NAME1 @200
-    SAY NAME2 @593
-    SAY UNIDENTIFIED_DESC @594 
-    SAY DESC @595
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/maaxe001.itm~  ~override/maaxe001.itm~       
-    SAY NAME1 @200
-    SAY NAME2 @593
-    SAY UNIDENTIFIED_DESC @594 
-    SAY DESC @595
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/maaxe001.itm~  ~override/maaxe001.itm~       
+  SAY NAME1 @200
+  SAY NAME2 @593
+  SAY UNIDENTIFIED_DESC @594 
+  SAY DESC @595
 
 COPY ~DarkHorizons/items/mablun06.itm~  ~override/mablun06.itm~       
   SAY NAME1 @775
@@ -5656,38 +4881,15 @@ COPY ~DarkHorizons/items/MAFORG05.ITM~  ~override/MAFORG05.ITM~
   SAY NAME2 @606
   SAY DESC @607
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+COPY ~DarkHorizons/%ItemsFolder%/MAFORG06.ITM~  ~override/MAFORG06.ITM~    
+  SAY NAME1 @780
+  SAY NAME2 @608
+  SAY DESC @609
 
-  COPY ~DarkHorizons/items/MAFORG06.ITM~  ~override/MAFORG06.ITM~    
-    SAY NAME1 @780
-    SAY NAME2 @608
-    SAY DESC @609
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/MAFORG06.ITM~  ~override/MAFORG06.ITM~    
-    SAY NAME1 @780
-    SAY NAME2 @608
-    SAY DESC @609
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/MAFORG07.ITM~  ~override/MAFORG07.ITM~      
-    SAY NAME1 @781
-    SAY NAME2 @610
-    SAY DESC @611
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/MAFORG07.ITM~  ~override/MAFORG07.ITM~      
-    SAY NAME1 @781
-    SAY NAME2 @610
-    SAY DESC @611
-
-END
-
+COPY ~DarkHorizons/%ItemsFolder%/MAFORG07.ITM~  ~override/MAFORG07.ITM~      
+  SAY NAME1 @781
+  SAY NAME2 @610
+  SAY DESC @611
 
 COPY ~DarkHorizons/items/MAFORG08.ITM~  ~override/MAFORG08.ITM~       
   SAY NAME1 @782
@@ -5709,21 +4911,10 @@ COPY ~DarkHorizons/items/MAFORG11.ITM~  ~override/MAFORG11.ITM~
   SAY NAME2 @618
   SAY DESC @619
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/mapla001.itm~  ~override/mapla001.itm~
-    SAY NAME1 @769
-    SAY NAME2 @620
-    SAY DESC @621
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/mapla001.itm~  ~override/mapla001.itm~
-    SAY NAME1 @769
-    SAY NAME2 @620
-    SAY DESC @621
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/mapla001.itm~  ~override/mapla001.itm~
+  SAY NAME1 @769
+  SAY NAME2 @620
+  SAY DESC @621
 
 COPY ~DarkHorizons/items/MASPER01.ITM~  ~override/MASPER01.ITM~       
   SAY NAME1 @786
@@ -5747,53 +4938,20 @@ COPY ~DarkHorizons/items/MAHAMM02.ITM~  ~override/MAHAMM02.ITM~
   SAY NAME2 @629
   SAY DESC @630
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-COPY ~DarkHorizons/items/MAHELM01.ITM~  ~override/MAHELM01.ITM~       
+COPY ~DarkHorizons/%ItemsFolder%/MAHELM01.ITM~  ~override/MAHELM01.ITM~       
   SAY NAME1 @780
   SAY NAME2 @631
   SAY DESC @632
 
-END ELSE BEGIN
-
-COPY ~DarkHorizons/BGT/items/MAHELM01.ITM~  ~override/MAHELM01.ITM~       
+COPY ~DarkHorizons/%ItemsFolder%/MAHELM02.ITM~  ~override/MAHELM02.ITM~       
   SAY NAME1 @780
-  SAY NAME2 @631
-  SAY DESC @632
+  SAY NAME2 @633
+  SAY DESC @634
 
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/MAHELM02.ITM~  ~override/MAHELM02.ITM~       
-    SAY NAME1 @780
-    SAY NAME2 @633
-    SAY DESC @634
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/MAHELM02.ITM~  ~override/MAHELM02.ITM~       
-    SAY NAME1 @780
-    SAY NAME2 @633
-    SAY DESC @634
-
-END
-
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/MACLOC01.ITM~  ~override/MACLOC01.ITM~       
-    SAY NAME1 @788
-    SAY NAME2 @635
-    SAY DESC @636
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/MACLOC01.ITM~  ~override/MACLOC01.ITM~       
-    SAY NAME1 @788
-    SAY NAME2 @635
-    SAY DESC @636
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/MACLOC01.ITM~  ~override/MACLOC01.ITM~       
+  SAY NAME1 @788
+  SAY NAME2 @635
+  SAY DESC @636
 
 COPY ~DarkHorizons/items/MABLUN01.ITM~  ~override/MABLUN01.ITM~      
   SAY NAME1 @775
@@ -5815,21 +4973,10 @@ COPY ~DarkHorizons/items/MABLUN04.ITM~  ~override/MABLUN04.ITM~
   SAY NAME2 @642
   SAY DESC @643
 
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY ~DarkHorizons/items/MABLUN05.ITM~  ~override/MABLUN05.ITM~
-    SAY NAME1 @789
-    SAY NAME2 @644
-    SAY DESC @645
-
-END ELSE BEGIN
-
-  COPY ~DarkHorizons/BGT/items/MABLUN05.ITM~  ~override/MABLUN05.ITM~
-    SAY NAME1 @789
-    SAY NAME2 @644
-    SAY DESC @645
-
-END
+COPY ~DarkHorizons/%ItemsFolder%/MABLUN05.ITM~  ~override/MABLUN05.ITM~
+  SAY NAME1 @789
+  SAY NAME2 @644
+  SAY DESC @645
 
  /* ******************** Dialogs ************************* */
 
@@ -5876,9 +5023,9 @@ COMPILE ~DarkHorizons/dlgs/cmosec12.d~
 /* COMPILE ~DarkHorizons/dlgs/cmpaul.d~ */
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizons/Tutu/dlgs/cmquest1.d~
+  COMPILE ~DarkHorizons/Tutu/dlgs/cmquest1.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizons/dlgs/cmquest1.d~
+  COMPILE ~DarkHorizons/dlgs/cmquest1.d~
 END
 
 COMPILE ~DarkHorizons/dlgs/cmquincy.d~
@@ -5888,9 +5035,9 @@ COMPILE ~DarkHorizons/dlgs/cmsec06.d~
 COMPILE ~DarkHorizons/dlgs/cmsec22.d~
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizons/Tutu/dlgs/cmselen.d~
+  COMPILE ~DarkHorizons/Tutu/dlgs/cmselen.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizons/dlgs/cmselen.d~
+  COMPILE ~DarkHorizons/dlgs/cmselen.d~
 END
 
 /* COMPILE ~DarkHorizons/dlgs/cmshinay.d~   */
@@ -5902,9 +5049,9 @@ COMPILE ~DarkHorizons/dlgs/cmtrist.d~
 COMPILE ~DarkHorizons/dlgs/cmwendel.d~
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizons/Tutu/dlgs/cmwinton.d~
+  COMPILE ~DarkHorizons/Tutu/dlgs/cmwinton.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizons/dlgs/cmwinton.d~
+  COMPILE ~DarkHorizons/dlgs/cmwinton.d~
 END
 
 COMPILE ~DarkHorizons/dlgs/cmzarg.d~
@@ -5920,15 +5067,15 @@ COMPILE ~DarkHorizons/dlgs/oversight.d~
 COMPILE ~DarkHorizons/dlgs/CMGHST01.d~
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizons/Tutu/dlgs/magnus.d~
+  COMPILE ~DarkHorizons/Tutu/dlgs/magnus.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizons/dlgs/magnus.d~
+  COMPILE ~DarkHorizons/dlgs/magnus.d~
 END
 
 ACTION_IF GAME_IS ~tutu_totsc~ THEN BEGIN
-COMPILE ~DarkHorizons/Tutu/dlgs/mathoren.d~
+  COMPILE ~DarkHorizons/Tutu/dlgs/mathoren.d~
 END ELSE BEGIN
-COMPILE ~DarkHorizons/dlgs/mathoren.d~
+  COMPILE ~DarkHorizons/dlgs/mathoren.d~
 END
 
 COMPILE ~DarkHorizons/dlgs/masal01.d~
@@ -5957,7 +5104,9 @@ COMPILE ~DarkHorizons/dlgs/cmlath.d~
 
 /* --------------- BGEE Additions -----------  */
 
-COMPILE ~DarkHorizons/dlgs/cmsect1.d~
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+  COMPILE ~DarkHorizons/dlgs/cmsect1.d~
+END
 
 
 /* ************************** Check if Area Script is assigned ******************** */
@@ -7152,19 +6301,19 @@ ADD_STORE_ITEM ~mabull01~ #40 #0 #0 ~IDENTIFIED~ #100
 
 /*  -------------------------- New stores in 200 ------------  */
 
-COPY    ~DarkHorizons/BGT/stores/CMBAG01.sto~     ~override~
+COPY    ~DarkHorizons/%StoresFolder%/CMBAG01.sto~     ~override~
   SAY NAME2 @810
 
-COPY    ~DarkHorizons/BGT/stores/CMBAG03.sto~     ~override~
+COPY    ~DarkHorizons/%StoresFolder%/CMBAG03.sto~     ~override~
   SAY NAME2 @812
 
-COPY    ~DarkHorizons/BGT/stores/CMBAG04.sto~     ~override~
+COPY    ~DarkHorizons/%StoresFolder%/CMBAG04.sto~     ~override~
   SAY NAME2 @814
   
-COPY    ~DarkHorizons/BGT/stores/CMBAG05.sto~     ~override~
+COPY    ~DarkHorizons/%StoresFolder%/CMBAG05.sto~     ~override~
   SAY NAME2 @816
   
-COPY    ~DarkHorizons/BGT/stores/CMBAG06.sto~     ~override~
+COPY    ~DarkHorizons/%StoresFolder%/CMBAG06.sto~     ~override~
   SAY NAME2 @818
   
 COPY    ~DarkHorizons/stores/CMMERC03.sto~     ~override~
@@ -7176,37 +6325,29 @@ COPY    ~DarkHorizons/stores/CMMERC04.sto~     ~override~
 COPY    ~DarkHorizons/stores/CMMERC05.sto~     ~override~
   SAY NAME2 @843
   
-ACTION_IF GAME_IS ~bgee~ THEN BEGIN
-
-  COPY    ~DarkHorizons/stores/CMMERC06.sto~     ~override~  
-    SAY NAME2 @819
+COPY    ~DarkHorizons/%StoresFolder%/CMMERC06.sto~     ~override~  
+  SAY NAME2 @819
   
-END ELSE BEGIN
-
-  COPY    ~DarkHorizons/BGT/stores/CMMERC06.sto~     ~override~  
-    SAY NAME2 @819
-  
-END
-
 
 /* ----------------------- Tutu Specifics ------------------------ */
 
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
-COPY ~DarkHorizons/Tutu/cre/SKELET02.CRE~ ~override~
+  COPY ~DarkHorizons/Tutu/cre/SKELET02.CRE~ ~override~
 END
 
 /* ------------------------ BGT Specifics ------------------------ */
 ACTION_IF (GAME_IS ~BGT~) AND (NOT FILE_EXISTS_IN_GAME ~SCRL1R.itm~) THEN BEGIN
-COPY ~DarkHorizons/BGT/additems/SCRL1R.ITM~ ~override~
-  SAY NAME1 @844
-  SAY NAME2 @844
-  SAY UNIDENTIFIED_DESC @845
-  SAY DESC @845
-COPY ~DarkHorizons/BGT/additems/SPWI315.SPL~ ~override~
-  SAY NAME1 @844
-  SAY NAME2 @844
-  SAY UNIDENTIFIED_DESC @845
-  SAY DESC @845
+  COPY ~DarkHorizons/BGT/additems/SCRL1R.ITM~ ~override~
+    SAY NAME1 @844
+    SAY NAME2 @844
+    SAY UNIDENTIFIED_DESC @845
+    SAY DESC @845
+
+  COPY ~DarkHorizons/BGT/additems/SPWI315.SPL~ ~override~
+    SAY NAME1 @844
+    SAY NAME2 @844
+    SAY UNIDENTIFIED_DESC @845
+    SAY DESC @845
 END
 
 ACTION_IF (GAME_IS ~BGT~) AND (NOT FILE_EXISTS_IN_GAME ~CSTAF06.bam~) THEN BEGIN
