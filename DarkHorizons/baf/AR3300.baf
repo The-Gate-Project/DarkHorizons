@@ -7,7 +7,7 @@ THEN
 END
 
 IF
-	Global("RedWizards","AR3300",5)
+	Global("RedWizards","%Beregost_BCS%",5)
         Global("CMaddLathanderG","GLOBAL",0)
 THEN
 	RESPONSE #100

@@ -34,7 +34,7 @@ END
 
 IF ~~ THEN BEGIN NoJoin
   SAY @13 /* Very well but if change your mind I'll be at Ulgoth's Beard Inn. */
-IF ~~ DO ~EscapeAreaMove("AR1001",892,314,6)~ EXIT
+IF ~~ DO ~EscapeAreaMove("%UlgothsBeard_Inn%",892,314,6)~ EXIT
 END
 
 IF ~NumTimesTalkedToGT(0)~ THEN BEGIN Greet
@@ -58,7 +58,7 @@ END
  
 IF ~~ pt2
  SAY @21 /* Very well, then. Should you change your mind, you may find me downing some ale at Ulgoth's Beard Inn. */
-IF ~~ DO ~SetGlobal("CmTThorinJoined","GLOBAL",0) EscapeAreaMove("AR1001",892,314,6)~ EXIT
+IF ~~ DO ~SetGlobal("CmTThorinJoined","GLOBAL",0) EscapeAreaMove("%UlgothsBeard_Inn%",892,314,6)~ EXIT
 END
 
 IF ~~ pt3
@@ -88,18 +88,18 @@ BEGIN ~BCMTTHOR~
 
 CHAIN
 IF ~CombatCounter(0) 
-InParty("imoen")
-See("imoen")
-!StateCheck("imoen",STATE_SLEEPING)
+InParty("%IMOEN_DV%")
+See("%IMOEN_DV%")
+!StateCheck("%IMOEN_DV%",STATE_SLEEPING)
 Global("ThorImoenB1","GLOBAL",0)~ THEN BCMTTHOR ThorImBanter
 @28 /* Imoen, must you always be doing pranks? I grow tired of your foolishness, child. */ DO ~SetGlobal("ThorImoenB1","GLOBAL",1)~
-== BIMOEN @29 /* Me? What did I do this time? */
+== %IMOEN_BANTER% @29 /* Me? What did I do this time? */
 == BCMTTHOR @30 /* You know bloody well what you did! My hand ax has molasses all over it! */
-== BIMOEN @31 /* Well maybe you had the top on loose when you placed the jar in your back pack. */
+== %IMOEN_BANTER% @31 /* Well maybe you had the top on loose when you placed the jar in your back pack. */
 == BCMTTHOR @32 /* I don't like molasses! Why would I have molasses in my backpack when I don't like it? And there was no jar either. It looked like someone poured it on. */
-== BIMOEN @33 /* Why blame me? <CHARNAME> is known as a prankster, maybe <PRO_HESHE> did it. */
+== %IMOEN_BANTER% @33 /* Why blame me? <CHARNAME> is known as a prankster, maybe <PRO_HESHE> did it. */
 == BCMTTHOR @34 /* Because <CHARNAME> wasn't around when it happened? But you were. I'll be watching you child. (Thorin turns and leaves.) */
-== BIMOEN @35 /* Nah! (Imoen sticks her tongue out at Thorin.) */
+== %IMOEN_BANTER% @35 /* Nah! (Imoen sticks her tongue out at Thorin.) */
 = @36 /* (Whispering) Grumpy one he is. What can I do to him next? Hmmm? */
 EXIT
 

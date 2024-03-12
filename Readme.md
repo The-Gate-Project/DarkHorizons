@@ -13,7 +13,9 @@
 ## Description:
 ---------------
 
-Quest mod for Baldur's Gate Enhanced Edition (BGEE) and the Enhanced Edition Trilogy (EET) :
+Quest mod for Baldur's Gate: Enhanced Edition (BG:EE), Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy (EET):
+
+(This version may work with BG1 with TotSC and Tutu but it is untested, feedback are welcome...)
 
 Dark Horizons is a WeiDU-based mod for Baldur's Gate with Tales of the Sword Coast. This mod will have one major quest. An organization has been contracted to seek you out and eliminate you by whatever means necessary. Find out who they are before they take you out of play.
 There will be multiple minor quests as well a few "Fed Ex" quests.
@@ -29,14 +31,16 @@ Extract archive contents into your game directory
 
 Though this mod is made using the WeiDU standard, and *should* be compatible with all other WeiDU-based mods, there is always the possibility for conflicts. We suggest you install this mod AFTER the official patches. If you encounter any problems installing the mod, please our forums. 
 
-Install this mod **in your BGEE game BEFORE** EET !
+**EET** : Install this mod **in your BGEE game BEFORE** EET!
 
-## Compatibility :
+**BGT** : Install this mod **in your BG2 game AFTER** BGT!
+
+## Compatibility:
 ------------------
 
 Dark Horizons should be compatible with most Weidu mods, there is always a chance that incompatibilities will arise. This version works with Baldur's Gate: Enhanced Edition and the Enhanced Edition Trilogy.
 
-## FAQS :
+## FAQS:
 --------
 
 Q: What do I need to use this MOD?
@@ -52,7 +56,7 @@ Q: Rumor has it this mod now incorporates the BG1 Adventures and Forge mods. Tru
 A: True. The original authors were kind enough to add this into Dark Horizons. 
 
 
-## Credits
+## Credits:
 -----------
 
 Many people are to be thanked for their support and contribution to this mod.
@@ -80,16 +84,24 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 ## Version History:
 -------------------
 
+- Version BGEE / BGT WIP
 
-- Version BGEE 2.16 Release. December 28, 2023  
-																																								   
-    CHANGES  
+    CHANGES
+
+	Combined version for BG:EE and BGT
+	Add detection for Enhanced Editions for using new tis and PVRZ and not for other platforms
+	Add BG1.tpa to lib folder for (maybe) BG1 vanilla compatibility
+	tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility
+	Add readme.md
+
+- Version BGEE 2.16 Release. December 28, 2023
+
+    CHANGES
 																																								   
 	Add Simplified Chinese translation by Lzw104522773 
 
-
 - Version BGEE 2.15 Release. October 8, 2023  
-																																								   
+
     CHANGES  
 	
 	Add InfinityAutoPackager thanks to AL|EN  
@@ -101,11 +113,10 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 	Update CMTNIKIT.baf for EET continuity  
 	Fix for DarkHorizonsBGee/BGT/stores/CMMERC06.sto thanks to P_zombie  
 
-
 - Version BGEE 2.14 Release. January 15, 2023  
-																																								   
-    CHANGES  
-																																								   
+
+    CHANGES
+
 	Add PVRZ folder with PVRZ from original BGEE / IWDEE  
 	Change *tis with TIS from original BGEE / IWDEE  
 	Add COPY ~ DarkHorizonsBGee/PVRZ ~ ~ override ~ to tp2  
@@ -116,21 +127,21 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 		.DLG : CMQUEST1.d  
 	Up Russian translation from ArcaneCoast  
 	Delete Backup  
-																																								   
-- Version BGEE 2.13 Release. November 29, 2015                                                                                                                     
-																																								   
-    CHANGES                                                                                                                                                        
-																																								   
-    fixed a few sound issues in CMPAUL.tra and the tp2 file (thanks to Porfirion and cuttooth)                                                                     
-    updated Polish translation for texts from v2.12                                                                                                                
-    addition of voiceover for Polish language                                                                                                                      
+
+- Version BGEE 2.13 Release. November 29, 2015
+
+    CHANGES
+
+    fixed a few sound issues in CMPAUL.tra and the tp2 file (thanks to Porfirion and cuttooth)
+    updated Polish translation for texts from v2.12
+    addition of voiceover for Polish language
     updated to WeiDU 238                                                                                                                                           
 																																								   
 - Version BGEE 2.12 Release. January 21, 2015                                                                                                                      
 																																								   
     CHANGES                                                                                                                                                        
 																																								   
-    Added French translation thanks to Sanctifer (of the d'Oghmatiques)                                                                                            
+    Added French translation thanks to Sanctifer (of the d'Oghmatiques)
     Added Polish translation (from BGT version)                                                                                                                    
     automatic conversion of texts to UTF8 for BGEE                                                                                                                 
     traification of new dialogs and stuff                                                                                                                          

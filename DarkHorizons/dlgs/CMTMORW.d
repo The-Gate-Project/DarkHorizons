@@ -72,7 +72,7 @@ END
  
 IF ~~ pt2
  SAY @24 /* I see. Should you change your mind, you may find me at the Jovial Juggler for the time being. */
-IF ~~ DO ~SetGlobal("CmTMorwenJoin","GLOBAL",0) EscapeAreaMove("AR3304",394,934,3)~ EXIT
+IF ~~ DO ~SetGlobal("CmTMorwenJoin","GLOBAL",0) EscapeAreaMove("%Beregost_JovialJuggler_L1%",394,934,3)~ EXIT
 END
 
 IF ~~ pt3
