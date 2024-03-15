@@ -1,13 +1,13 @@
-@0    = ~Mod "Orizzonti Oscuri" (Richiede Tales of the Sword Coast TuTu o BGT)~
-@1    = ~*****************************************~
-@2    = ~* Dark Horizons Mod Version 2.12        *~
-@3    = ~* http://www.teambg.net                 *~
+@0    = ~Mod "Orizzonti Oscuri"~
+@1    = ~/****************************************~
+@2    = ~* Dark Horizons Mod Version 2.11        *~
+@3    = ~*  http://www.teambg.net       	     *~
 @4    = ~*	Copyright 2015 CoM_Solaufein         *~
 @5    = ~*	 QUESTO FILE INSTALLERÀ              *~
 @6    = ~*    ORIZZONTI OSCURI NELLA TUA         *~
 @7    = ~*         CARTELLA DI GIOCO.            *~
 @8    = ~*****************************************~
-@9    = ~Non sembra che tu abbia installato TotSC TuTu o BGT.~
+@9    = ~Non sembra che tu abbia installato BG:EE EET TotSC TuTu o BGT.~
 @10   = ~Corazza di piastre~
 @11   = ~Corazza di piastre Nanica +3~
 @12   = ~La corazza di piastre è un combinazione tra la corazza di maglia e di piastre che protegge parti vitali come il petto, l'addome e l'inguine. Simile nella struttura alla corazza di piastre di bronzo, la corazza di piastre è una via di mezzo tra maglia e cuoio. 
@@ -3718,126 +3718,14 @@ Tiro-salvezza: Nessuno
 Quando questo incantesimo viene lanciato, il mago e i suoi abiti si smaterializzano. Lo stregone è soggetto solo alla magia e agli attacchi speciali, compresi quelli con armi da almeno +1, o da creature in grado di compiere altri attacchi, ma solo con le armi magiche. Il mago acquista anche una resistenza alla magia del 25%. Quando si trova nella Forma incorporea, lo stregone non può lanciare incantesimi.~
 
 // New info or error texts
-@890  = ~Installazione di BG:EE rilevata~
+@890  = ~Installazione di BG:EE rilevata.~
 @891  = ~Installazione di Tutu rilevata.~
 @892  = ~Installazione di BGT rilevata.~
-@893  = ~Per favore installare su BG:EE, Tutu o BGT.~
+@893  = ~Per favour installare su BG:EE, EET, TotSC, Tutu o BGT.~
+@894  = ~Installazione di BG1 rilevata.~
+@895  = ~Installazione di EET rilevata.~
 
 /* New in BGEE */
 
 @900 = ~Si?~
 @901 = ~Il destino ti sta aspettando!~
-@902 = ~Mantello di Protezione +2 del Bardo~
-@903 = ~Questo semplice mantello é stato imbevuto di alcune piccole proprietà magiche per aiutare a proteggere colui o colei che lo indossa. Influisce sia sui Tiri Salvezza che sulla Classe Armatura. E’ l’ideale per i maghi ed altre classi che non possono utilizzare degli scudi o non possono indossare armature molto protettive.
-
-STATISTICHE:
-
-Abilità durante l’uso:
-Classe Armatura: +2
-Tiri Salvezza: +2
-
-Peso: 3~
-@904 = ~Arco Lungo del Bardo: Dalewood~
-@905 = ~Dalewood é l’arco personale di Morwen che le é stato tramandato dal suo mentore, Dale il Bardo. Dale veniva da Bryn Shander, una delle Dieci Cittadine della Valle del Vento Gelido. Era noto per le sue gesta nelle avventure sia per le sue epiche storie che cantava intorno al fuoco. Morì per mano di un assassino, il suo sangue ancora macchia quest’arco dopo tutti questi anni.
-
-STATISTICHE:
-
-Abilità in combattimento:
-1 attacco extra per round
-
-THAC0: +3
-Danno: +2
-Fattore Velocità: 5
-Tipo di competenza: Arco Lungo
-Tipo: A due mani
-Richiede:
- 6 alla Forza~
-@906 = ~Bracciali dell’Arciere di Dale il Bardo~
-@907 = ~Questi erano i bracciali del mentore di Morwen, il Bardo Dale. Anche senza i suoi bracciali, era un tiratore infallibile dalla lunga distanza. Il suo sangue ancora macchia questi bracciali dopo che fu ucciso da un assassino.
-
-STATISTICHE:
-
-Abilità durante l’uso:
-THAC0: +3 con le armi da lancio
-
-Peso: 2~
-
-@908 = ~Corazza di cuoio borchiata di Morwen +2~
-@909 = ~La corazza di cuoio borchiata non ha molto in comune con la normale corazza di cuoio. Mentre la corazza di cuoio é una corazza indurita, la corazza di cuoio borchiata é morbida e flessibile con sopra centinaia di rivetti. I rivetti sono molto vicini l'uno all'altro in modo da formare un rivestimento flessibile di metallo per schivare attacchi falcianti e taglienti. Lo strato di cuoio morbido non è solo un sostegno su cui attaccare i rivetti.
-
-STATISTICHE:
-
-+10 a Svuotare tasche
-Classe Armatura: 5 (4 contro danni taglienti, 5 contro danni perforanti e da lancio)
-Richiede:
- 6 alla Forza
-
-Weight: 15~
-// Nikita
-@910  = ~Nikita~
-@911  = ~Capisco.~ [HFTHR029]
-@912  = ~Non possiamo vincere.~ [HFTHR001]
-// No @913, traify oddity
-@914  = ~Guardami le spalle.~ [HFTHR008]
-@915  = ~Dovremmo riposare al più presto. Non vedo l’ora di togliermi questi vestiti di dosso.~ [HFTHR010]
-@916  = ~Non ho fatto tutta questa strada per morire di noia.~ [HFTHR012]
-@917  = ~Spargiamo n pò di sangue.~ [HFTHR003]
-@918  = ~Vuoi assaggiare?~ [HFTHR004]
-@919  = ~Siete pronti per me?~ [HFTHR005]
-@920  = ~Un’ultima parola?~ [HFTHR006]
-@921  = ~Morirai.~ [HFTHR007]
-@922  = ~Ughh~ [HFTHR034]
-@923  = ~Muori~ [HFTHR037]
-@924  = ~Sento molto freddo.~ [HFTHR014]
-@925  = ~Si?~ [HFTHR016]
-@926  = ~Sono qui.~ [HFTHR017]
-@927  = ~Vuoi me?~ [HFTHR018]
-@928  = ~Pronta e volenterosa.~ [HFTHR019]
-@929  = ~Pronta.~ [HFTHR023]
-@930  = ~Molto bene.~ [HFTHR024]
-@931  = ~Si?~ [HFTHR025]
-@932  = ~Come dici.~ [HFTHR026]
-@933  = ~Ucciderei per un buon bagno caldo.~ [HFTHR030]
-@934  = ~Attenzione a dove la metti.~ [HFTHR031]
-@935  = ~Argh.~ [HFTHR034]
-@936  = ~Non aspettarti che riporti il suo cadavere in città.~ [HFTHR040]
-@937  = ~Fatto~ [HFTHR027]
-@938  = ~Il passato di NIKITA é un qualcosa che lei tiene per sé. Da quello che riesci a sapere era un’orfana ed aveva appena passato l’adolescenza quando entrò a far parte della Sezione. Nella Sezione l’addestrarono a diventare una carismatica assassina per uccidere i malvagi. Tutto ciò era a fin di bene. Ma nel corso del tempo la corruzione iniziò a serpeggiare nella Sezione che iniziò invece a rispecchiare il male che avrebbe dovuto combattere. Nikita é stata liberata dalla Sezione quando tu hai distrutto l’organizzazione.~
-// Thorin
-@939  = ~Thorin~
-@940  = ~Finalmente il potente avventuriero. A cosa devo questo onore?~ [DMF42]
-@941  = ~E’ inutile, andiamocene!~ [DMF02]
-@942  = ~Dannazione ai tuoi occhi!~ [DMF32]
-@943  = ~Spero che ti ci strozzerai con questa cosa!~ [DMF33]
-@944  = ~Quando tutti falliscono, metti il nano davanti.~ [DMF08]
-@945  = ~Ho bisogno di riposare il prima possibile.~ [DMF10]
-@946  = ~Cosa fai, aspetti che i nostri nemici ci vengono incontro?.~ [DMF13]
-@947  = ~Grrrrr!~ [DMF03]
-@948  = ~Ti sputo sopra.~ [DMF04]
-@949  = ~Vieni qui miserabile!~ [DMF05]
-@950  = ~Muori!~ [DMF06]
-@951  = ~Mi laverò la barba nel tuo sangue!~ [DMF07]
-@952  = ~E’ quest oil meglio che sai fare?~ [DMF34]
-@953  = ~Ugghh!~ [DMF36]
-@954  = ~Aghh! Ho bisogno di un guaritore!.~ [DMF14]
-@955  = ~Si?~ [DMF16]
-@956  = ~Cosa c’é?~ [DMF17]
-@957  = ~Sono qui.~ [DMF18]
-@958  = ~Hmm?~ [DMF19]
-@959  = ~Pronto.~ [DMF20]
-@960  = ~Ti sento.~ [DMF22]
-@961  = ~Fatto.~ [DMF23]
-@962  = ~Bene.~ [DMF24]
-@963  = ~Guardami che vado.~ [DMF25]
-@964  = ~Non c’é nessun problema.~ [DMF26]
-@965  = ~Si.~ [DMF27]
-@966  = ~Tutto qui?~ [DMF28]
-@967  = ~Facile come fare un pasticcio di goblin.~ [DMF29]
-@968  = ~Tu non ne sai niente, vero?~ [DMF30]
-@969  = ~Giusto, continuiamo.~ [DMF31]
-@970  = ~Muori~ [DMF06]
-@971  = ~Ughh.~ [DMF36]
-@972  = ~Quando gli chiedi del suo passato, THORIN dice che lui discende dal famoso clan di Stoneblade i cui membri erano capitani delle guardie di Durlag. Suo nonno è stato l’ultimo a servire Durlag prima che si abbattesse la catastrofe su Durlag e la sua gente. A lui piacerebbe viaggiare con il tuo gruppo fino alla Torre di Durlag per poter recuperare alcuni cimeli di famiglia che potrebbero ancora essere rimasti là e per poter sapere cosa successe a suo nonno ed al famoso Durlag Ammazzatroll.~
-// Morven uses the same soundset as Nikita
-@973  = ~Morwen~
-@974  = ~Quando gli domandi del suo passato, MORWEN dice che proviene da una famiglia agiata della città di Neverwinter. Prese piacere ascoltando per la prima volta i poemi e le storie epiche dai Bardi Skald provenienti dal nord quando la sua famiglia era in visita nella regione della Valle del Vento Gelido e lei era una giovane ragazza. Da allora in poi si appassionò alle loro avventure ed ai loro racconti leggendari. Desiderava molto imparare dai Bardi  Skald ma loro raramente venivano a Neverwinter, fino al giorno in cui il Bardo Dale fece una fermata in quella città. Morwen lo vide per la prima volta in una delle locali taverne, cantando una ballata epica. Lei si presentò a Dale che ben presto la prese come allieva e le insegnò le capacità dei Bardi Skald e l’arte del tiro con l’arco. Dopo aver imparato queste abilità, Morwen ben presto si annoiò della tranquilla vita dell’alta società di Neverwinter e decise di viaggiare verso sud, nella regione della Costa della Spada dove sentì parlare della crisi del ferro. Ha viaggiato verso Beregost per trovare qualcuno in cerca di avventure come lei.~

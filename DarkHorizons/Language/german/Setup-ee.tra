@@ -1,0 +1,3855 @@
+@0   = ~"Dark Horizons" Mod~
+@1   = ~****************************************~
+@2   = ~* Dark Horizons Mod Version 2.12        *~ 
+@3   = ~*http://www.teambg.net                  *~
+@4   = ~*        Copyright 2015 CoM_Solaufein   *~ 
+@5   = ~*        THIS FILE WILL INSTALL         *~
+@6   = ~* THE DARK HORIZONS IN YOUR BG          *~
+@7   = ~*    I DIRECTORY.                       *~ 
+@8   = ~*****************************************~
+@9   = ~Man muss weder Legenden der Schwertküste noch BGT installiert haben, BG1 alleine langt.~ 
+@10  = ~Plattenpanzer~
+@11  = ~Zwergenplattenpanzer +3~
+@12  = ~Ein Plattenpanzer verbindet Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie ein Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 50~ 
+@13  = ~Zwergenplattenpanzer +3
+
+Dieser Plattenpanzer wurde von Zwergen hergestellt. Seine scharfen Linien zeugen von der Jahrhunderte alten Kunst der großen Zwergenschmiede. Wenn man ihn berührt fühlt er sich magisch an.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+Konstitution: +1
+Gewicht: 35~
+@14  = ~Kettenhemd~ 
+@15  = ~Elfenkettenhemd +3~
+@16  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40~
+@17  = ~Die Elfen verstehen es, Werkstücke äußerst grazil und gleichzeitig stabil zu fertigen. Dadurch können sie wunderbare Dinge schaffen, die dennoch praktisch verwendbar sind. Dazu gehören beispielsweise Elfenkettenhemden. Derartige Kettenhemden sind so fein gewebt, dass man sie unauffällig unter normaler Kleidung tragen kann. Sie behindern in keiner Weise und sind so leicht, dass auch Magier und Hexenmeister sie einsetzen können, ohne dass ihre Fähigkeiten eingeschränkt werden.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 10~
+@18  = ~Beschlagenes Lederwams~ 
+@19  = ~Rüstung von Thorn~
+@20  = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 7
+Gewicht: 25~ 
+@21  = ~Diese Rüstung ist ein Geschenk der Nymphen an die Druiden, als Belohnung für deren nie endenden Einsatz zum Schutz des Waldes.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+RW-Bonus: -3
+Gewicht: 4~ 
+@22  = ~Sturmwolke~
+@23  = ~Sturmwolke: "Krakens Fluch"
+
+Diese Lederrüstung wurde aus den verkohlten Überresten eines Drachen gefertigt, der von einem Blitz getroffen wurde. Soweit bekannt ist wurde sie zuletzt von dem Schwarzen Hexer Shrethu Reogher getragen. Man sollte hoffen, dass er tot ist wenn man die Rüstung tragen will, den sollte er noch am Leben sein, so wird er sie mit Sicherheit suchen und auch finden.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+RW-Bonus: -3
+Elektrizitätswiderstand
+Gewicht: 4~ 
+@24  = ~Assassinenrüstung~
+@25  = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 7
+Gewicht: 25~
+@26  = ~Die Assassinenrüstung ist eine beschlagenes Lederwams, das speziell für die tödlichen Assasinen, die Schattenmeister, gefertigt wird. Die Schattenmeister stehen an der Spitze in der Hierarchie der Schattendiebe. Es ist ein Beschlagenes Lederwams +3, das mit den Schatten verschmilzt.
+
+BESONDERHEITEN:
+
+Der Träger ist immun gegen alle Effekte, die seine Bewegungsfreiheit beeinflussen. Dies gilt beispielsweise für "Hast" und "Verlangsamen".
+Der Träger ist immun gegen Gift.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Im Schatten verstecken: +30%
+Gewicht: 8~
+@27  = ~Prunkharnisch ~
+@28  = ~Emberwildes Prunkharnisch~
+@29  = ~Ein Prunkharnisch stellt die prächtigste Rüstung dar, die man sich als Krieger kaufen kann. Sie sieht nicht nur beeindruckend aus, sondern bietet auch den besten Schutz. Die perfekt gearbeiteten Metallplatten sind eng miteinander verbunden und wehren sowohl Schläge als auch Pfeile ab. Die ganze Rüstung ist mit Gravuren und Prägungen verziert.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 70~
+@30  = ~Emberwildes Plattenpanzer, der rote Prunkharnisch der Feuerresistenz. Diese Rüstung wurde von den Meisterschmieden der Zwerge hergestellt, nach den Wünschen des ersten Kommandanten der Phoenixwache, Emberwilde. Sein Aussehen macht ihn zu einem wahren Wunder, einem unverwechselbaren Markenzeichen. Rot leuchtend symbolisiert er die Feuerimunität seines Trägers, die wahre Essenz der Elite der Phoenixwache.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Gewicht: 35~
+@31  = ~Beschlagenes Lederwams +3~
+@32  = ~Diese Rüstung wurde einst von dem berühmten Schneebarbarenprinz, Corbus Denolx von Greyhawk getragen. Wie oder warum sie aus seinem Besitz verschwand ist nicht bekannt.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Gewicht: 8~
+@33  = ~Drachenrüstung~
+@34  = ~Die Drachenrüstung, ist das Markenzeichen der Elite Chimären Waldläufer. Diese Rüstung wurde mit mächtiger Magie verzaubert, welche nur den Chimären Shamanen bekannt ist. Die Magie verleiht dem Träger der Rüstung einen zusätzlichen Schutz vor diversen Angriffsarten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Gewicht: 8~
+@35  = ~Schienenpanzer~
+@36  = ~Schienenpanzer von Oghma~
+@37  = ~Der Schienenpanzer ist dem Bänderpanzer ziemlich ähnlich, jedoch sind die Metallstreifen nicht waagerecht auf das Grundmaterial (entweder Kettenhemd, Leder oder Stoff) aufgebracht, sondern senkrecht. Da der menschliche Oberkörper sich mehr nach vorne und hinten biegt, als dass er sich dreht, erweist sich der Schienenpanzer im Kampf eher als hinderlich.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Gewicht: 40~
+@38  = ~Schienenpanzer von Oghma: "Göttliche Inspiration"
+
+Dieser Schienenpanzer wurde von einem Priester des Oghma gefertigt, der eine Inspiration seines Gottes empfing. Oghma erzählte ihm in einem Traum, dass er am nächsten Morgen den feinsten, verzauberten Schienenpanzer fertigen würde. Seine Inspiration erhebt diese einzigartige Rüstung in eine eigene Klasse. Dieser Schienenpanzer wurde lange Jahre von den Hohepriestern des Oghma getragen.
+
+BESONDERHEITEN:
+
+Zauber: +1 (Grad 1 bis 5)
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+RK-Bonus: -3
+Maximale Lebenspunkte +10
+Gewicht: 5~
+@39  = ~Waldlandrüstung~
+@40  = ~Dies ist die Rüstung eines unbekannten Waldläufers, von dem man nur bekannt ist, dass er sehr mächtig war. Es wird gemunkelt, dass seine Fähigkeiten im Kampf von seiner Rüstung stammten. Fest steht, dass diese Rüstung ihrem Träger einen sehr guten Schutz bietet. Außerdem hat sie noch einen weiteren Vorteil. Wenn sich ihr Träger im Wald oder in dunklen Gegenden aufhält kann er sich leichter im Schatten verstecken.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Geschicklichkeit: +1
+Im Schatten verstecken: +20%
+Gewicht: 25~
+@41  = ~Kettenhemd~
+@42  = ~Kettenhemd +4~
+@43  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40~
+@44  = ~Elfenkettenhemd +4
+
+Die Elfen verstehen es, Werkstücke äußerst grazil und gleichzeitig stabil zu fertigen. Dadurch können sie wunderbare Dinge schaffen, die dennoch praktisch verwendbar sind. Dazu gehören beispielsweise Elfenkettenhemden. Derartige Kettenhemden sind so fein gewebt, dass man sie unauffällig unter normaler Kleidung tragen kann. Sie behindern in keiner Weise und sind so leicht, dass auch Magier und Hexenmeister sie einsetzen können, ohne dass ihre Fähigkeiten eingeschränkt werden.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 9
+
+Kann benutzt werden von:
+ Elfen~
+@45  = ~Mithrilkettenhemd +4~
+@46  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40~
+@47  = ~Mithrilkettenhemd +4
+
+Diese Rüstung wurde aus dem leichtesten und haltbarsten Metall das bekannt ist geschmiedet: Mithril. Nur die Zwerge haben das Geschick so perfekt mit Mithril zu arbeiten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 7~
+@48  = ~Mithrilkettenhemd +3~
+@49  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 5
+Gewicht: 40~
+@50  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 7~
+@51  = ~Durlags Mithrilkettenhemd +4~
+@52  = ~Dieses Kettenhemd gehörte einstmals dem großen Durlag Trolltöter.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Gewicht: 7~
+@53  = ~Kettenhemd +2~
+@54  = ~Ein Kettenhemd besteht aus miteinander verbundenen Metallringen. Es wird immer über einem wattierten Rock oder einem leichten Ledergewand getragen, um schmerzhafte Scheuerstellen zu vermeiden und die Wucht von Schlägen zu dämpfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 10
+
+Kann benutzt werden von:
+ Elfen
+ Halbelfen~
+@55  = ~Schienenpanzer +2~
+@56  = ~Der Schienenpanzer ist dem Bänderpanzer ziemlich ähnlich, jedoch sind die Metallstreifen nicht waagerecht auf das Grundmaterial (entweder Kettenhemd, Leder oder Stoff) aufgebracht, sondern senkrecht. Da der menschliche Oberkörper sich mehr nach vorne und hinten biegt, als dass er sich dreht, erweist sich der Schienenpanzer im Kampf eher als hinderlich.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 20~
+@57  = ~Beschlagenes Lederwams +4: "Geschenk der Natur"~
+@58  = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 7
+Gewicht: 25~
+@59  = ~Beschlagenes Lederwams: "Geschenk der Natur"
+
+Ein besonders gefertigtes Beschlagenes Lederwams, welches nur von wahren Beschützern der Natur getragen werden kann.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 5
+Im Schatten verstecken: +25%
+
+Kann benutzt werden von:
+ Waldläufern
+ Druiden~
+@60  = ~Fellrüstung~
+@61  = ~Rüstung des Nordens~
+@62  = ~Die Fellrüstung wurde aus der dicken Haut eines sehr großen Tieres, eines Elefanten beispielsweise, gefertigt Die Fellrüstung ist viel zu massig und schwer, so dass sie von den Menschen kaum genutzt wird. Allerdings ist die Fellrüstung bei den Barbarenvölker, welche in den dunklen Wäldern und geheimnisvollen Dschungeln der Welt leben weit verbreitet. Letzten Endes bietet eine Fellrüstung ihrem Träger mehr Schutz als eine Lederrüstung. Auch wenn Diebe diese Rüstung tragen können, so beeinträchtigt sie doch ihre Fähigkeiten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 6
+Gewicht: 40~
+@63  = ~Diese Rüstung stammt aus der gefrorenen Tundra des Eiswindtales. Sie wurde von Shamanen gesegnet um ihren Träger vor Kälte zu schützen.
+
+EIGENSCHAFTEN:
+
+Kältewiderstand: 70%
+Rüstungsklasse: 6
+Gewicht: 40~
+@64  = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 7
+Gewicht: 25~
+@65  = ~Diese Rüstung ermöglicht es ihrem Träger sich im Wald zu verstecken und leise zu bewegen. Dies ist ein Vorteil für die Druiden und Waldläufer, welche die Natur schützen wollen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Geschicklichkeit: +1
+Im Schatten verstecken: +20%
+Gewicht: 25
+
+Kann benutzt werden von:
+ Druiden
+ Waldläufern~
+@66  = ~Rüstung der Schattenmeister~
+@67  = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 7
+Gewicht: 25~
+@68  = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+BESONDRHEITEN:
+
+Alle Diebesfertigkeiten werden um 30% erhöht.
+
+Auf dem Träger liegt Unauffindbarkeit.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+RW-Bonus: +5 gg. Tod
+Gewicht: 8~
+@69  = ~Auf dem Träger liegt Unauffindbarkeit.~
+@70  = ~Lederrüstung~
+@71  = ~Göttliche Natur~
+@72  = ~Rüstungsleder wird mit Wachs oder Wasser gehärtet. Es ist dick und fest, nicht weich und geschmeidig wie das Leder, das für die Stiefel eines Waldläufers oder das Gewand eines Druiden verwendet wird. Solches Leder würde nicht mehr Schutz bieten als normale Stoffkleidung.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 8
+Gewicht: 15~
+@73  = ~Nur die auserwählten Verteidiger der Natur haben das Privileg eine Rüstung wie diese zu tragen. Es wird gemunkelt, dass nur die Mitglieder der geheimen Bruderschaft der Naturkrieger, welcher Druiden und Waldläufer angehören, diese Rüstung besitzen.
+
+BESONDERHEITEN:
+
+2 zusätzliche Zauber des 1. Grades.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Gewicht: 1~
+@74  = ~Hobbins Lederrüstung~
+@75  = ~Diese Rüstung wurde Hobbin von seinem Onkel übergeben, einem bekannten und beliebten Abenteurer.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Im Schatten verstecken: +15%
+Schlösser öffnen: +15
+Gewicht: 1~
+@76  = ~Plattenpanzer  +5~
+@77  = ~Ein Plattenpanzer verbindet Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie ein Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 50~
+@78  = ~Elfenschlachtrüstung +5
+
+Diese Rüstung wird von der Elite der Elfentruppen getragen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+Gewicht: 18
+
+Kann benutzt werden von:
+ Elfen~
+@79  = ~Plattenpanzer der Apokalypse~
+@80  = ~Ein Plattenpanzer verbindet Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie ein Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 50~
+@81  = ~Plattenpanzer der Apokalypse
+
+Geschmiedet von Surtr, einem großen Krieger, der das Feuer liebte. Diese Rüstung schützt ihren Träger vor Feuer und ermöglicht es ihm einige Feuerzauber zu wirken.
+
+BESONDERHEITEN:
+
+Der Träger kann folgende Zauber wirken:
+ Brennende Hände
+ Agannazars Flamme
+ Feuerball
+ Flammenschlag
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Gewicht: 20
+Feuerresistenz: +50%~
+@82  = ~Plattenpanzer von Balduran~
+@83  = ~Dieser Plattenpanzer wurde einst von dem legendären Helden Balduran getragen. Er ist Teil einer kompletten Ausrüstung bestehend aus Waffen und Rüstungsteilen und wurde aus dem Museum von Baldurs Tor entwendet.
+
+EIGENSCHAFTEN:
+
+Maximale Lebenspunkte: +4
+Charisma +1
+Rüstungsklasse: -1
+Gewicht: 50
+Mindeststärke: 15~
+@84  = ~Kiels Prunkharnisch +3~
+@85  = ~Diese Rüstung gehörte einst Kiel.
+
+EIGENSCHAFTEN:
+
++5% Magieresistenz
+
+Rüstungsklasse: -2
+Gewicht: 45
+Mindeststärke: 15~
+@86  = ~Najaras Plattenpanzer  +3~
+@87  = ~Ein Plattenpanzer verbindet Kettengeflecht mit Metallplatten, die die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend schützen. Ähnlich in der Bauweise wie ein Bronzepanzer, besteht ein echter Plattenpanzer aus Kettengeflecht und Leder.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 50~
+@88  = ~Dies ist die Rüstung von Najara.
+
+EIGENSCHAFTEN:
+
+Stärke +1
+Rüstungsklasse: 0
+Gewicht: 18~
+@89  = ~Prunkharnisch der Flammen~
+@90  = ~Ein Prunkharnisch stellt die prächtigste Rüstung dar, die man sich als Krieger kaufen kann. Sie sieht nicht nur beeindruckend aus, sondern bietet auch den besten Schutz. Die körpergerecht geformten und eng miteinander verbunden Metallplatten schützen die am meisten gefährdeten Körperbereiche wie Brust-, Bauch- und Leistengegend und wehren sowohl Schläge als auch Pfeile ab. Die ganze Rüstung ist mit Gravuren und Prägungen verziert.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Feuerwiderstand: +50%
+Gewicht: 35~
+@91  = ~Gürtel~
+@92  = ~Gürtel von Sune~
+@93  = ~Ein Gürtel ist ein Band oder Geflecht, das um den Körper getragen wird. Einfache Gürtel bestehen aus Leder oder Stoff und dienen lediglich zum Zusammenhalt der Kleider. Unter Adligen sind Schmuckgürtel aus Seide oder Samt sehr beliebt, während Abenteurer und das Militär stabilere Gürtel aus Leder oder Kettengeflecht zum Befestigen von Schwertscheiden und Taschen verwenden.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2~
+@94  = ~Der Gürtel von Sune ist für jene gedacht, die ihr Charisma erhöhen möchten. Eine Priesterin von Sune fertigte ihn für jene armen Seelen, denen es an Charisma und Schönheit fehlt.
+
+EIGENSCHAFTEN:
+
+Charisma +1
+Gewicht: 2~
+@95  = ~Gürtel der Hügelriesenstärke~
+@96  = ~Der unscheinbare Gürtel macht seinen Träger so stark wie einen Hügelriesen, ohne jedoch seine Größe zu verändern. Schon so manch selbstsicherer Krieger wurde davon überrascht, dass ein deutlich kleinerer Gegner mehr Kraft hatte als er selbst. In vielen Fällen war ein derartiger Gürtel dafür verantwortlich.
+
+EIGENSCHAFTEN:
+
+Stärke: auf 19 gesetzt
+Gewicht: 2~
+@97  = ~Gürtel der Verteidigung~
+@98  = ~Gürtel der Verteidigung: "Goldener Gürtel von Urnst"
+
+Dieser Gürtel wurde von den Goldelfen des Unterreichs gefertigt. Es ist außerordentlich selten, dass ein von ihnen gefertigtes Stück an der Oberfläche auftaucht. Es liegt ein starker Zauber auf dem Gürtel, welcher seinem Träger zusätzlichen Schutz verleiht. Dieser Gürtel wird von vielen Kriegern heiß begehrt.
+
+EIGENSCHAFTEN:
+
+RK-Bonus:
+ -3 gg. Stichwaffen
+ -3 gg. Wuchtwaffen
+ -3 gg. Geschosswaffen~
+@99  = ~Stiefel~
+@100 = ~Schnelle Stiefel des Schutzes~
+@101 = ~Stiefel werden normalerweise von Schuhmachern handgefertigt. Herkömmliche Stiefel werden mit Hilfe einer Form hergestellt, wohingegen qualitativ hochwertige Stiefel dem jeweiligen Fuß nach Maß angepasst werden.
+
+EIGENSCHAFTEN:
+
+Gewicht: 4~
+@102 = ~Stiefel werden normalerweise von Schuhmachern handgefertigt. Herkömmliche Stiefel werden mit Hilfe einer Form hergestellt, wohingegen qualitativ hochwertige Stiefel dem jeweiligen Fuß nach Maß angepasst werden.
+
+BESONDERHEITEN:
+
+Die Bewegungsrate des Träger wird erhöht.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Gewicht: 4~
+@103 = ~Goldene Stiefel des Schutzes~
+@104 = ~Diese Goldenen Stiefel des Schutzes wurden einst von einem noblen Zwergenkönig namens Thrain getragen. Thrain war sehr bekannt und beliebt bei seinem Volk. Als er hörte, dass Freunde in Dornentiefe Hilfe brauchten, sammelte er seine besten Krieger um sich und zog aus um seinen Freunden beizustehen. Weder von ihm noch seinen Freunden hat man je wieder etwas gehört.
+
+EIGENSCHAFTEN:
+
+Leise bewegen: +25
+RK-Bonus: -1 -2 gg. Stichwaffen
+Gewicht: 18
+
+Kann benutzt werden von:
+ Kämpfern
+ Klerikern
+ Paladinen~
+@105 = ~Abgenutzte Stiefel~
+@106 = ~Stiefel der Gesundheit~
+@107 = ~Stiefel der Gesundheit: "Abgehärteter Krieger"
+
+Diese Stiefel wurden vor sehr sehr langer Zeit von einem Kleriker getragen, der in den Bergen von Norheim lebte. Er verzauberte sie so, dass er einmal pro Tag einen Heilzauber wirken konnte. Diese Stiefel sind verschwunden seit der Priester von einem Rudel Wölfe zerfleischt wurde. Zwar konnte er magisch wieder geheilt werden und ein neues paar Stiefel verzaubern, aber das alte war ihm lieber, da es komfortabler war.
+
+BESONDERHEITEN:
+
+Der Träger kann einmal pro Tag kritische Wunden heilen wirken.
+
+Die maximalen Lebenspunkte werden um 10 Punkte erhöht.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+Gewicht: ?
+
+Kann benutzt werden von:
+ Personen mit guter Gesinnung~
+@108 = ~Stiefel der Geschwindigkeit~
+@109 = ~Stiefel der Geschwindigkeit: Der Träger kann sich mit stark erhöhter Geschwindigkeit bewegen.~
+@110 = ~Schutzumhang +3~
+@111 = ~Schutzumhang +3: "Mystras Robe"
+
+Von diesen Roben wird behauptet, dass sie nur an wenige auserwählte Priester der Mystra vergeben werden. Da manche dieser Priester sehr früh gestorben sind, konnten einige Roben außerhalb dieser religiösen Organisation einen Besitzer finden. Der Träger erhält Boni auf körperliche und magische Angriffe sowie Schutz vor Untoten.
+
+BESONDERHEITEN:
+
+Auf dem Träger liegt Schutz vor Untoten.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3
+RW-Bonus: -2
+Gewicht: 3~
+@112 = ~Mantel~
+@113 = ~Mantel der Natur~
+@114 = ~Ein Mantel ist ein leichtes Kleidungsstück, das vor Umwelteinflüssen schützt.~
+@115 = ~Der Mantel der Natur hilft Druiden und Waldläufern sich vor den Elementen der Natur zu schützen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+RW-Bonus: -1
+Feuerresistenz: 25%
+Kälteresistenz: 25%
+Gewicht: 3
+
+Kann benutzt werden von:
+ Druiden
+ Waldläufern~
+@116 = ~Zauberrobe~
+@117 = ~Robe von Shi'nayne~
+@118 = ~Seit den Tagen von Nesseril haben Magier gelernt, alltägliche Objekte, die sie umgeben, mit den verschiedensten magischen Eigenschaften zu versehen. Einer der beliebtesten Gegenstände für die Anwendung von Zaubern ist die gemeine Robe. Sie ist leicht, erschwinglich und behält ihre Verzauberung gut bei, wodurch sie zur idealen Ausrüstung für einen Magier wird. Aufgrund ihres magischen Erbes dürfen jedoch nur Magier diese Roben tragen.~
+@119 = ~Diese machtvolle Robe gehört Shi'nayne. Sie bietet Schutz vor allen physischen Angriffen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -3
+Magieresistenz: 25%
+RW-Bonus: -3
+Gewicht: 6~
+@120 = ~Robe der Erzmagier "Memento Mori"~
+@121 = ~Dies ist eine der überaus mächtigen Roben der Erzmagier von Netheril. Wer diese Robe trägt kann sich 2 Zaubersprüche der 2. Stufe zusätzlich merken.
+
+BESONDERHEITEN:
+
+2 Bonuszauber der Stufe 2.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+Magieresistenz: 15%
+RW_Bonus: -3
+Gewicht: 6~
+@122 = ~Mantel der Assassinen~
+@123 = ~Der Mantel ist ein leichtes Kleidungsstück, das vor Umwelteinflüssen schützt. ~
+@124 = ~Der Mantel der Assassinen bleibt der tödlichen Elite der Schattendiebe, den Schattenmeistern, vorbehalten.
+
+BESONDERHEITEN:
+
+Auf dem Träger liegt Unauffindbarkeit.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+RK-Bonus: -3
+RW-Bonus: -1
+Leise bewegen: +5
+Gewicht: 3~
+@125 = ~Armschützer~
+@126 = ~Armschützer des Kriegers~
+@127 = ~Armschützer sind dicke Bänder aus Metall oder Leder, die mit Gurten oder Riemen an den Unterarmen befestigt werden. In der Regel kommt die magische Kraft, die die Armschützer besitzen, nur im Kampf zum Tragen, da die meisten Armschützer den Träger vor Verletzungen bewahren oder seine Chancen, den Gegner zu treffen, erhöhen. Es gibt jedoch Ausnahmen, auch wenn diese höchst selten sind.~
+@128 = ~Armschützer sind dicke Bänder aus Metall oder Leder, die mit Gurten oder Riemen an den Unterarmen befestigt werden. In der Regel kommt die magische Kraft, die die Armschützer besitzen, nur im Kampf zum Tragen, da die meisten Armschützer den Träger vor Verletzungen bewahren oder seine Chancen, den Gegner zu treffen, erhöhen. Es gibt jedoch Ausnahmen, auch wenn diese höchst selten sind.
+
+EIGENSCHAFTEN:
+
+ETW0 +3
+Schaden +3
+
+Kann benutzt werden von:
+ Kämpfern
+ Waldläufern
+ Paladinen
+ Klerikern~
+@129 = ~Armschützer~
+@130 = ~Armschützer der Nacht~
+@131 = ~Armschützer sind dicke Bänder aus Metall oder Leder, die mit Gurten oder Riemen an den Unterarmen befestigt werden. In der Regel kommt die magische Kraft, die die Armschützer besitzen, nur im Kampf zum Tragen, da die meisten Armschützer den Träger vor Verletzungen bewahren oder seine Chancen, den Gegner zu treffen, erhöhen. Es gibt jedoch Ausnahmen, auch wenn diese höchst selten sind.~
+@132 = ~Die Armschützer der Nacht sind spezielle Armschützer, die extra für die besten der Schattendiebe angefertigt wurden. Wer sie trägt erhält einen Bonus auf Fallen finden und Schlösser öffnen.
+
+EIGENSCHAFTEN:
+
+Fallen finden: +15
+Schlösser Öffnen: +25
+RK-Bonus: -4 gg. Geschosswaffen
+Gewicht: 6
+
+Kann benutzt werden von:
+ Dieben~
+@133 = ~Abwehrarmschützer RK 4~
+@134 = ~Armschützer sind dicke Bänder aus Metall oder Leder, die mit Gurten oder Riemen an den Unterarmen befestigt werden. In der Regel kommt die magische Kraft, die die Armschützer besitzen, nur im Kampf zum Tragen, da die meisten Armschützer den Träger vor Verletzungen bewahren oder seine Chancen, den Gegner zu treffen, erhöhen. Es gibt jedoch Ausnahmen, auch wenn diese höchst selten sind.~
+@135 = ~Abwehrarmschützer RK 4
+
+Diese Armschützer wurden vor langer Zeit von einem unbesiegten Gladiator getragen. Da er sie nur bei den Kämpfen in der Arena trug, wurde er bei einem Überfall außerhalb der Arena getötet. Seit dem Tod des Champions galten die Armschützer als verschollen, auch wenn hin und wieder Gerüchte umgingen, dass die Armschützer von diversen Kämpfern getragen wurden.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Gewicht: 2~
+@136 = ~Abwehrarmschützer RK 3~
+@137 = ~Abwehrarmschützer RK 3
+
+Der Grinsende Glen, bekannt als Ritter der Narren, trug diese Armschützer wenn er Lanzenturniere bestritt. Mit seinen Fähigkeiten, seinem Charme und seinem Draufgängertum, kein anderer Ritter außer ihm verzichtete auf eine Rüstung, wurde er schnell zum Favorit der Damen, welche die Turniere besuchten. Es kam wie es kommen musste. Angestachelt von so viel Angeberei forderte ihn ein Ritter zum Zweikampf. Glen nahm an, vergaß aber in seiner Wut seine Armschützer anzulegen. Er starb mit einem dümmlichen Grinsen auf seinem Gesicht, als ihn das Schwert seines Gegners durchbohrte.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+Gewicht: 2~
+@138 = ~Handschuhe der Dietriche~
+@139 = ~Diese Handschuhe wurden von einem Magier namens Jamaar dem Schnellen angefertigt. Sie halfen ihm jedes Schloss schneller zu öffnen. Er starb als er versuchte eine mit einer Feuerballfalle gesicherte Truhe zu öffnen.
+
+EIGENSCHAFTEN:
+
+Schlösser öffnen: +20%
+Gewicht: 2
+
+Kann benutzt werden von:
+ Dieben~
+@140 = ~Geschenk des Waldes~
+@141 = ~Geschenk des Waldes
+
+Viele Jahre kämpften Druiden und Waldläufer für den Wald, um ihn vor dem immer weiter voranschreitenden Eingriff der Zivilisation in die Natur zu schützen. Aus diesem Grund beschlossen die Waldbewohner, die Helden, die sich so fanatisch für sie einsetzten, mit Armschützern auszustatten, welche ihnen besseren Schutz bieten sollten.
+
+BESONDRHEITEN:
+
+Schutz vor Versteinerung.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+Angriffe/Runde: +1
+Gewicht: 2~
+@142 = ~Armschützer der Hervorrufung~
+@143 = ~Armschützer der Hervorrufung
+
+Dieses paar Armschützer wurde aus Silber und weichem, schwarzen Leder hergestellt. Diese Armschützer sind magisch aufgeladen.
+
+EIGENSCHAFTEN:
+
+Fähigkeit 1: Kleiner Feuerball (1 Ladung)
+Effekt: Die berührte Person wird von einem Feuerball getroffen
+Schaden: 1W8
+Reichweite: Berührung
+Bereich: 1 Wesen
+
+Fähigkeit 2:
+Effekt: Blitzstrahl (1 Ladung)
+Schaden: 6W6 (Rettungswurf: 1/2 (gg. Zauber)
+Reichweite: 100 Meter
+Bereich: 1 Wesen
+
+Gewicht: 1~
+@144 = ~Handschuhe der verbesserten Diebesfähigkeiten~
+@145 = ~Geisterhände
+
+Einstmals befanden sich diese Handschuhe im Besitz von Daerum, dem Geisterhaften, dem Anführer der Diebesgilde von Cormyr. Diese Handschuhe waren der Alptraum und Ruin manchen Händlers. Während man diese Handschuhe aus feinstem Leder trägt, steigern sie die Fähigkeiten des Taschendiebstahls und des Fallenfindens genauso wie die Geschicklichkeit. Ihre mächtigste Fähigkeit ist allerdings, dass sie dem Träger die Fähigkeit geben, Schlösser mit einem Zauberspruch zu öffnen.
+
+EIGENSCHAFTEN:
+
+Geschicklichkeit: +2
+Taschendiebstahl: +20%
+Fallen finden und entschärfen: +20%
+Zauberspruch: Klopfen
+Gewicht: 2
+
+Kann benutzt werden von:
+ Dieben~
+@146 = ~Helm~
+@147 = ~Helm des Schutzes~
+@148 = ~Diese Art eines offenen Helms besteht aus verstärktem Leder oder Metall und bedeckt den Großteil des Kopfes mit Ausnahme des Gesichts und des Nackens. Die meisten dieser Helme sind mit einem Nasenschutz versehen.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Gewicht: 2~
+@149 = ~Diese Art eines offenen Helms besteht aus verstärktem Leder oder Metall und bedeckt den Großteil des Kopfes mit Ausnahme des Gesichts und des Nackens. Die meisten dieser Helme sind mit einem Nasenschutz versehen.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+Schützt vor kritischen Treffern
+Feuerwiderstand: +25%
+Gewicht: 2~
+@150 = ~Elfen Abwehrhelm~
+@151 = ~Elfen Abwehrhelm
+
+Diese Art von Helm wird normalerweise von der Elite der Elfenkrieger getragen.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+RW-Bonus: -1 
+Elektrizitätswiderstand: +25%
+Feuerwiderstand: +25%
+Kältewiderstand: +25%
+Schützt vor kritischen Treffern
+Gewicht: 3
+
+Kann benutzt werden von:
+ Elfen~
+@152 = ~Hut~
+@153 = ~Bardenhut~
+@154 = ~Dieser Filzhut wird gerne von Barden und Dieben getragen, da er einen minimalen Schutz bietet.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+
+Kann benutzt werden von:
+ Barden~
+@155 = ~Dieser Filzhut wird bevorzugt von Barden getragen, da er es ihnen ermöglicht zusätzliche Zauber zu wirken.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+RW-Bonus: -1
+Gegenstände identifizieren: +20%
+2 Bonuszauber der Stufe 1
+2 Bonuszauber der Stufe 2
+Schützt vor kritischen Treffern
+Gewicht: 2
+
+Kann benutzt werden von:
+ Barden~
+@156 = ~Durlags Krone~
+@157 = ~Diese Art eines offenen Helms besteht aus verstärktem Leder oder Metall und bedeckt den Großteil des Kopfes mit Ausnahme des Gesichts und des Nackens. Die meisten dieser Helme sind mit einem Nasenschutz versehen.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Gewicht: 2~
+@158 = ~Dies ist die Krone von Durlags Clan. Durlag selber hat sie niemals getragen, da er zu oft auszog um Abenteuer zu erleben. Selbst als er sein Abenteurerleben beendete, legte er keinen Wert auf seine Krone und Privilegien, sondern zog es vor wie ein gewöhnlicher Zwerg zu leben.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+RW-Bonus: -1
+Schützt vor kritischen Treffern
+Gewicht: 2~
+@159 = ~Helm des Todes~
+@160 = ~Diese Art eines offenen Helms besteht aus verstärktem Leder oder Metall und bedeckt den Großteil des Kopfes mit Ausnahme des Gesichts und des Nackens. Die meisten dieser Helme sind mit einem Nasenschutz versehen.
+
+EIGENSCHAFTEN:
+
+Schützt vor kritischen Treffern
+Gewicht: 2~
+@161 = ~Dieser Helm ist der Schädel eines großen Kriegers, welcher vor über tausend Jahren lebte. Sein Name ging verloren, als die entsprechenden Aufzeichnung bei einem großen Feuer verbrannten. Dem Schädel werden allerdings geheimnisvolle Kräfte angedichtet.
+Der Schädel wurde von Zwergenschmieden in einen Helm mit Metalldornen verwandelt. Mit Hilfe des Schädelhelmes kann man Untote erwecken.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+Schützt vor kritischen Treffern
+Kann Untote erwecken
+Gewicht: 2~
+@162 = ~Helm der Flammen~
+@163 = ~Emberwildes Helm. Dies ist der Helm der Phönixwache Emberwilde. Einst war er der Kommandeur der Wache, bevor er seine Stellung aufgab, verführt von Reichtum und Ruhm.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +1
+Konstitution: +2
+Schützt vor kritischen Treffern
+Gewicht: 2~
+@164 = ~Helm der Roten Drachen~
+@165 = ~Helm der Roten Drachen
+
+Die Roten Drachen sind eine Elitetruppe der Chimären Waldläufer. Viele ihrer Feinde verfallen bereits beim Anblick der roten Drachen in Panik und fliehen vom Schlachtfeld. Die feuerroten Rüstungen und mit Gold verzierten Helme, sind das Markenzeichen der roten Drachen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -2
+Schützt vor kritischen Treffern
+Schützt vor mentalen Angriffen
+Gewicht: 2~
+@166 = ~Langschild~
+@167 = ~Langschild +3~
+@168 = ~Ein Langschild mit einem goldenen Greif als Intarsie. Der Langschild, auch Drachen- oder Turmschild genannt, ist ein riesiger Schild aus Metall oder Holz, der dem Träger vom Fuß bis fast zum Kinn reicht. Er muss gut am Unterarm befestigt sein und jederzeit fest in der Hand gehalten werden, was es natürlich unmöglich macht, mit der Schildhand noch andere Aktionen auszuführen. Magische Verzauberungen haben die Schutzwirkung dieses Schildes erhöht.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1 (-1 gg. Geschosswaffen)
+Gewicht: 15~
+@169 = ~Der Langschild, auch Drachen- oder Turmschild genannt, ist ein riesiger Schild aus Metall oder Holz, der dem Träger vom Fuß bis fast zum Kinn reicht. Er muss gut am Unterarm befestigt sein und jederzeit fest in der Hand gehalten werden, was es natürlich unmöglich macht, mit der Schildhand noch andere Aktionen auszuführen. Magische Verzauberungen haben die Schutzwirkung dieses Schildes erhöht.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3 (-3 gg. Geschosswaffen)
+Gewicht: 15~
+@170 = ~Kleiner Schild~
+@171 = ~Kleiner Schild +5: "Göttlichkeit"~
+@172 = ~Ein kleiner Schild ist in der Regel rund. Man fährt mit dem Unterarm durch den Halteriemen und greift ihn zusätzlich mit der Schildhand. Verglichen mit dem mittleren Schild ist er so leicht, dass man noch einen weiteren Gegenstand tragen kann. Allerdings kann mit der Schildhand keine Waffe mehr geführt werden.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Gewicht: 3~
+@173 = ~Kleiner Schild +5: "Göttlichkeit"
+
+Ein unheimliches, göttliches Glühen geht von diesem Schild aus. Böse Kreaturen können diesen Schild nicht aufheben, egal wie stark sie sind.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -6
+Gewicht: 3~
+@174 = ~Schutz vor Bösem~
+@175 = ~Mittlerer Schild~
+@176 = ~Schild von Balduran~
+@177 = ~Der mittlere Schild wird auf dieselbe Weise getragen wie der kleine Schild, ist jedoch so schwer, dass mit der Schildhand keine anderen Aktionen ausgeführt werden können. Mittlere Schilde bestehen für gewöhnlich aus Metall und haben einen Durchmesser von 90 bis 120 cm. Es gibt sie in zahlreichen Formen; von rund über quadratisch bis zur Form der gespreizten Drachenflügel. Ein typischer mittlerer Schild ist dreieckig, wobei eine Spitze nach unten zeigt.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Gewicht: 7~
+@178 = ~Schild von Balduran +3
+
+Dieser Schild gehörte einst dem berühmten Helden Balduran. Er ist Teil einer kompletten Ausrüstung bestehend aus Waffen und Rüstungsteilen und wurde aus dem Museum von Baldurs Tor entwendet.
+
+EIGENSCHAFTEN:
+
+Stärke +1
+RK-Bonus: -4
+Gewicht: 5
+Mindeststärke: 12~
+@179 = ~Durlags Schild +2~
+@180 = ~Dies war der persönliche Schild von Durlag, mit dem er gegen Drachen kämpfte. Die magischen Eigenschaften des Schildes verhalfen ihm zum Sieg.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3
+-1 gg. Geschosswaffen
+Feuerresistenz +20%
+Gewicht: 4~
+@181 = ~Schild des Feuers +2~
+@182 = ~Dieser Schild wurde bei den berühmten Zwergenschmieden von Emberwilde, von einem renommierten Kommandeur der Phoenixwache, in Auftrag gegeben.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3
+-5 gg. Geschosswaffen
+Gewicht: 4~
+@183 = ~Pfeile~
+@184 = ~Pfeile "Fluch der Natur"~
+@185 = ~Wie schon sein Name andeutet, ist der Flugpfeil für den Fernkampf vorgesehen. Diese Pfeile haben ein geringes Gewicht und werden oft zum Jagen eingesetzt. Sie bestehen meist aus Eschen- oder Birkenholz und sind 70 cm bis 1 m lang.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Geschoss)
+Gewicht: 0
+Schusswaffe: Bogen~
+@186 = ~Dieser Pfeil ist verdreht und schwarz, er strahlt geradezu das Böse aus. Dieser Pfeil wurde nur aus einem einzigen Grund gemacht. Um Waldläufer und Druiden zu töten.
+
+BESONDERHEITEN:
+
+Tötet Druiden und Waldläufer
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Geschoss)
+Gewicht: 0
+Schusswaffe: Bogen
+
+Kann benutzt werden von:
+ Personen mit böser Gesinnung~
+@187 = ~Pfeile~
+@188 = ~Eispfeile~
+@189 = ~Der Eispfeil wurde mit magischen Kräften versehen, die bewirken, dass er sich in eine Kugel aus Eis und Kälte verwandelt, sobald er abgeschossen wird. Beim Auftreffen versetzt der Pfeil seinem Opfer einen Kälteschock, der dessen Körper bis auf die Knochen gefrieren lässt.
+
+BESONDERHEITEN:
+
+Friert das Ziel für 6 Runden ein, sofern diesem kein Rettungswurf gelingt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Geschoss)
+Schadensbonus: +1W6 (Kälte / Kein Rettungswurf)
+Gewicht: 0
+Schusswaffe: Bogen~
+@190 = ~Wurfbeil~
+@191 = ~Wurfbeil +3~
+@192 = ~Das Hand- oder Wurfbeil ist auch als Kriegsbeil bekannt. Die Klinge des Beils ist mit einer scharfen Stahlschneide und einer spitzen Fluke als Gegengewicht versehen. Der kurze Griff hat am unteren Ende eine Spitze und am oberen Ende eventuell einen Dorn.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Klinge)
+Gewicht: 5
+Initiativefaktor: 4
+Fertigkeit: Axt
+Typ: 1-händig~
+@193 = ~Dieses Wurfbeil ist nicht nur präzise ausgewuchtet worden, um es als Fernkampfwaffe einzusetzen, es besitzt auch erhebliche magische Eigenschaften. Daher ist es sowohl zerstörerischer als auch zielgenauer als alle normalen Waffen ähnlicher Art.
+
+BESONDERHEITEN:
+
+Die Waffe kehrt sofort wieder zum Werfer zurück.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Geschosswaffen/Klinge)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 2
+Fertigkeit: Axt
+Typ: 1-händig~
+@194 = ~Hellebarde~
+@195 = ~Hellebarde +2~
+@196 = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Stich)
+Gewicht: 15
+Initiativefaktor: 9
+Fertigkeit: Hellebarde
+Typ: 2-händig~
+@197 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge) +2 (Feuerschaden)
+ETW0-Bonus: -2
+Gewicht: 11
+Initiativefaktor: 7
+Fertigkeit: Axt
+Typ: 2-händig~
+@198 = ~Die Hellebarde ist nach dem Speer die älteste und verbreitetste Stangenwaffe. Sie besteht aus einer Klinge, die einem Henkerbeil ähnelt, welche auf einen durchschnittlich 1,80 m langen Stab aufgesetzt ist. Das Gewicht der Axtklinge wird durch eine Fluke ausgeglichen. Am oberen Ende sitzt ein spitzer Dorn, der gewöhnlich viereckig geformt ist. Manchmal wird die Fluke von einem Haken ersetzt, mit dem berittene Kämpfer vom Pferd geholt werden können. Eine Hellebarde lässt sich am besten als eine Kreuzung zwischen Speer und Axt beschreiben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Stich)
+Gewicht: 15
+Initiativefaktor: 9
+Mindeststärke: 13
+Fertigkeit: Hellebarde
+Typ: 2-händig~
+@199 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge) +2 (Kälteschaden)
+ETW0-Bonus: -2
+Gewicht: 11
+Initiativefaktor: 7
+Fertigkeit: Axt
+Typ: 2-händig~
+@200 = ~Streitaxt~
+@201 = ~Streitaxt +3 "Der Köpfer"~
+@202 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 7
+Initiativefaktor: 7
+Fertigkeit: Axt
+Typ: 1-händig~
+@203 = ~Dies war die Lieblingsstreitaxt von Redrum dem Verfluchten. Der total verrückte Berserker schwang sie in vielen Schlachten. Er mähte die Gegner förmlich mit ihr nieder. Sein Blutdurst war so gross, dass er noch auf seine Gegner einschlug, als sie schon lange tot waren. Dieser Blutdurst wurde ihm allerdings zum Verhängnis. Ein Herzog umstellte mit seinem Heer Redrums Festung und tötete ihn nach langem Kampf, nachdem Redrum in seiner Wut ein paar Kinder eines Dorfes getötet hatte.
+
+BESONDERHEITEN:
+
+Es besteht bei einem Treffer eine Chance von 5%, dass man den Gegner tötet, indem man ihm köpft
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Axt
+Typ: 1-händig~
+@204 = ~Streitaxt +3 "Frostschnitter"~
+@205 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 7
+Initiativefaktor: 7
+Fertigkeit: Axt
+Typ: 1-händig~
+@206 = ~Streitaxt +3 "Frostschnitter"
+
+Dies war die Streitaxt von Illgarth, einem Frostriesen, welcher vor langer Zeit den Norden terrorisierte. Es ist nicht bekannt wie diese Waffe in seinen Besitz gelangte, nur dass es ihm ein perverses Vergnügen bereitete die kleinen Völker, speziell die Halblinge, zu zermatschen. Eines Tages gelang es einer Gruppe Helden ihn zu besiegen, so dass seine Legende allmählich in Vergessenheit geriet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge) +1 (Kälteschaden) +1 (Säureschaden)
+ETW0-Bonus: -3
+Gewicht: 7
+Initiativefaktor: 4
+Mindeststärke: 10
+Fertigkeit: Axt
+Typ: 1-händig~
+@207 = ~Streitkolben~
+@208 = ~Streitkolben +2~
+@209 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein- oder Eisenkopf aufgesetzt ist. Der Kopf kann entweder mit Spitzen versehen, geflanscht oder aber auch pyramidenförmig ausgearbeitet sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Wucht)
+Gewicht: 8
+Initiativefaktor: 7
+Fertigkeit: Streitkolben
+Typ: 1-händig~
+@210 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein- oder Eisenkopf aufgesetzt ist. Der Kopf kann entweder mit Spitzen versehen, geflanscht oder aber auch pyramidenförmig ausgearbeitet sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Wucht)
+ETWO: -2
+Gewicht: 8
+Initiativefaktor: 6
+Fertigkeit: Streitkolben
+Typ: 1-händig~
+@211 = ~Morgenstern~
+@212 = ~Morgenstern +3~
+@213 = ~Ein Morgenstern besteht aus einem hölzernen Schaft, auf den ein mit Eisenspitzen besetzter Metallkopf aufgesetzt ist. Die Gesamtlänge eines Morgensterns beträgt etwa 1,20 m. Der Kopf kann rund, oval oder zylindrisch geformt sein. Unabhängig von der jeweiligen Ausführung ist der Kopf von Morgensternen meist mit einer langen Spitze zum Stoßen versehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Wucht)
+Gewicht: 12
+Initiativefaktor: 7
+Mindeststärke: 11
+Fertigkeit: Morgenstern
+Typ: 1-händig~
+@214 = ~Ein Morgenstern besteht aus einem hölzernen Schaft, auf den ein mit Eisenspitzen besetzter Metallkopf aufgesetzt ist. Die Gesamtlänge eines Morgensterns beträgt etwa 1,20 m. Der Kopf kann rund, oval oder zylindrisch geformt sein. Unabhängig von der jeweiligen Ausführung ist der Kopf von Morgensternen meist mit einer langen Spitze zum Stoßen versehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Wucht) +3
+ETW0-Bonus: -3
+Gewicht: 12
+Initiativefaktor: 7
+Fertigkeit: Flegel
+Typ: 1-händig~
+@215 = ~Flegel +3 "Roter Tod"~
+@216 = ~Auf dem Flegelkopf ist folgender Spruch eingraviert: "Der Rote Tod siegt über jeden".
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: -3
+Gewicht: 15
+Initiativefaktor: 7
+Fertigkeit: Flegel
+Typ: 1-händig~
+@217 = ~Keule~
+@218 = ~Vergifteter Efeu +2~
+@219 = ~Meist besteht eine Keule aus einem festen Stock aus Hartholz, der am Griff schmal ist und zum Ende hin breiter wird. Diese einfache Waffe ist im Gebrauch, seit Menschen Werkzeuge benutzen. Da jeder ein brauchbares festes Holzstück finden und herumschleudern kann, ist die Keule als Waffe weit verbreitet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Wucht)
+Gewicht: 3
+Initiativefaktor: 4
+Fertigkeit: Keule
+Typ: 1-händig~
+@220 = ~Vergifteter Efeu +2
+
+Dies ist eine tödliche Waffe der Schattendruiden, die ihnen dabei hilft die Wälder und deren Geschöpfe zu schützen. Bei jedem Treffen wickeln sich die Ranken um das Ziel und vergiften dieses.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6+2 (Wucht) +1 (Giftschaden alle 8 Sekunden)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Keule
+Typ: 1-händig
+ETW0: +2
+
+Kann benutzt werden von:
+ Druiden
+ Waldläufern~
+@221 = ~Flegel~
+@222 = ~Flegel +3 "Angst"~
+@223 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Wucht)
+Gewicht: 15
+Initiativefaktor: 7
+Fertigkeit: Flegel
+Typ: 1-händig~
+@224 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt.
+
+BESONDERHEITEN:
+
+Bei einem Treffer wird mit einer 50%igen Wahrscheinlichkeit Furcht auf den Gegner gewirkt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 +3 (Säureschaden)
+ETW0-Bonus: -2
+Gewicht: 11
+Initiativefaktor: 5
+Fertigkeit: Flegel
+Typ: 1-händig~
+@225 = ~Heiliger Flegel der Sonne~
+@226 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Wucht)
+Gewicht: 15
+Initiativefaktor: 7
+Fertigkeit: Flegel
+Typ: 1-händig~
+@227 = ~Dieser Flegel wurde vom Tempel der Sonne gesegnet, was seine magische Kraft erklärt. Er kann nur von einem wahren Gläubigen des Lichts benutzt werden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht) + 2W3 (Feuerschaden)
+Angriffe/Runde: +1
+ETW0-Bonus: -3
+Weisheit: +1
+Gewicht: 8
+Initiativefaktor: 3
+Fertigkeit: Flegel
+Typ: 1-händig~
+@228 = ~Strahlender Hammer~
+@229 = ~Kriegshammer +3 "Asgrim's Schicksal"~
+@230 = ~Das blaue Leuchten ist eindeutig magischer Natur.
+
+EIGENSCHAFTEN:
+
+Unbekannt~
+@231 = ~Dies ist der legendäre Kriegshammer den Asgrim der Grosse in den Schlachten gegen die Drow benutzte, um diese aus seiner Heimat zu vertreiben. Viele Drow starben durch diese Waffe. Selbst Riesen fürchteten sich vor Asgrim und seinem mächtigen Hammer. Asgrims Schicksal ist unbekannt. Zuletzt sah man ihn auf der Suche nach Abenteuern und Schätzen im Eiswindtal.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Wucht) +2w4 (Kälteschaden)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@232 = ~Kriegshammer~
+@233 = ~Grosser Kriegshammer +3~
+@234 = ~Ein massiver, unhandlicher Kriegshammer, der mit Zwergenrunen beschriftet ist.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Wucht)
+Gewicht: 8
+Initiativefaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@235 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3 (Wucht)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 14~
+@236 = ~Kriegshammer +2~
+@237 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Wucht)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@238 = ~Kriegshammer +2 "Morgoth"
+
+Dieser Hammer, der vor langer Zeit von Zwergen geschmiedet wurde, strahlt immer noch eine magische Wärme und Güte aus, die man spürt sobald man den Hammer berührt. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Wucht) +1W4 (Feuerschaden)
+ETW0-Bonus: -2
+Gewicht: 5
+Initiativefaktor: 2
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@239 = ~Bec de Corbyn~
+@240 = ~Bec de Corbyn "Rabenschnabel"
+
+Jahrhunderte lang galt die Anwesenheit von Raben auf dem Schlachtfeld als böses Omen. Der Name dieses Hammers ist treffend gewählt, da er seine spezielle Form es seinem Träger ermöglicht die Rüstung seines Feindes mit einem Schlag zu durchdringen und diesen zu töten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Wucht/Stich)
+ETW0-Bonus:
+ Wucht: +3 Bonus
+ Stich: +2 Bonus
+Speziell:
+ Wucht: 25%ige Chance den Gegner bewusstlos zu schlagen
+ Stich: 5%ige Chance den gegner mit einem Streich zu töten
+Gewicht: 5
+Initiativefaktor:
+ Wucht: 2
+ Stich: 1
+Fertigkeit: Stumpfe Waffen/kleine Schwerter
+Typ: 1-händig~
+@241 = ~Mjolnir der Zerstörer~
+@242 = ~Für berittene Kämpfer sind Waffen mit langem Schaft eher ungeeignet, weshalb viele Waffen mit einem kürzeren Schaft versehen wurden, so dass sie mit einer Hand geschwungen werden können. Beispiele dafür sind Streitkolben und Flegel, ein weiteres ist der Kriegshammer. Der Kriegshammer für Reiter wurde aus dem Luzerner Hammer entwickelt. Er besteht ganz aus Stahl und ist mit kleinen Metallscheiben - auch Rondelle genannt - versehen, die zum Schutz und zur Verstärkung des Griffes dienen. Diese Rondelle sind oft schmuckvoll verziert und geformt. Der Schaft hat eine Länge von ungefähr 50 cm.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Wucht)
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@243 = ~Dies ist der legendäre Hammer von Thor, dem nordischen Donnergott. Diese Waffe fertigte der Zwergenschmied Eitri als ein Vermächtnis von Loki und Geschenk der Götter. Diese übertrugen mächtige Magie auf Mjolnir. Der Hammer kann nicht verloren gehen. Direkt nach dem Wurf kehrt er in die Hand des Werfers zurück. Thor verlieh Mjolnir weitere überragende Fähigkeiten. Mjolnir kann nicht zerstört werden und kann Blitze kontrollieren.
+
+BESONDERHEITEN:
+
+Die Waffe kehrt sofort wieder zum Werfer zurück.
+
+Wer diesen Hammer trägt kann folgende Zauber zusätzlich wirken: Blitzstrahl (ohne Begrenzung).
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Wucht/Nah und Fernkampf)   
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 2
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@244 = ~Morgenstern der Erleuchtung +3~
+@245 = ~Dieser Morgernstern wurde vom Sonnentempel geweiht und besitzt magische Kräfte.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Wucht) +2W3 (Kälteschaden)
+ETW0-Bonus: -3
+Weisheit: +1
+Angriffe/Runde: +1
+Gewicht: 8
+Initiativefaktor: 3
+Fertigkeit: Flegel
+Typ: 1-händig~
+@246 = ~Streitkolben +2 Kreischende Jungfrau~
+@247 = ~Streitkolben +2: Kreischende Jungfrau
+
+Der aus Obsidian bestehende Kopf dieses Streitkolbens ist der eines bezaubernd schönen jungen Mädchens. Während einer Schlacht verwandelt sich dieses Gesicht allerdings in eine ekelerregende Fratze mit einem Maul voller Reisszähne.
+Dieser Streitkolben wurde im Abyss geschmiedet. Er ist eine lebende Waffe. Die Kreischende Jungfrau giert nach Blut und beeinflusst ihren Besitzer, damit dieser Chaos und Zerstörung bringt und durch Blut watet.
+Ist der Träger der Waffe zu willensschach, so übernimmt diese die Kontrolle über ihn. Verletzt die Kreischende Jungfrau ein Ziel, so wird ihr Träger minimal geheilt.
+
+BESONDERHEITEN:
+
+Der Streitkolben hat einen vampirischen Effekt, der seinen Träger heilt und dessen maximale Lebenspunkte temporär erhöht. Nach Ende des Kampfes sinken die maximalen Lebenspunkte wieder auf den Normalwert.
+Nach jedem Treffer muss der Träger einen Rettungswurf gegen Zauber bestehen oder er wird zum Berserker, der alles und jeden angreift.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 7
+Initiativefaktor: 5
+Fertigkeit: Streitkolben
+Typ: 1-händig~
+@248 = ~Langbogen~
+@249 = ~Schwarzstabs Magischer Bogen~
+@250 = ~Der Langbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6
+ETW0-Bonus: -1
+Gewicht: 3
+Initiativefaktor: 7
+Fertigkeit: Langbogen
+Typ: 2-händig~
+@251 = ~Gerüchte besagen, dass dieser Bogen von Khelben Schwarzstab erschaffen und ihm gestohlen wurde. Wer auch immer ihn herstellte, muss ein Magier oder Hexenmeister gewesen sein, denn der Bogen erzeugt magische Pfeile.
+
+BESONDERHEITEN:
+
+Diese Waffe benötigt keine Munition.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Geschoss)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 6
+Fertigkeit: Langbogen
+Typ: 2-händig~
+@252 = ~Langbogen der Waldläufer +3~
+@253 = ~Dies war ein Geschenk von Mielikki an Doran, einen Waldläufer aus Rashemen. Doran tötete viele Feinde mit diesen Bogen.
+
+EIGENSCHAFTEN:
+
+Geschicklichkeit: +1
+ETW0-Bonus: -3
+Schaden: +2 (Geschoss)
+Gewicht: 2
+Initiativefaktor: 5
+Fertigkeit: Langbogen
+Typ: 2-händig
+
+Kann benutzt werden von:
+ Waldläufern~
+@254 = ~Kurzbogen~
+@255 = ~Kurzbogen "Der eisige Norden"~
+@256 = ~Der Kurzbogen ist die älteste Form eines Bogens, jedoch wurde er nicht als solcher bezeichnet. Der Begriff "Kurzbogen" ist eher eine Bezeichnung für alle Bögen, die nicht als Langbogen gelten. Ein Kurzbogen ist durchschnittlich etwa 1,50 m lang und daher leichter zu handhaben als größere Bögen.
+
+EIGENSCHAFTEN:
+
+Gewicht: 2
+Initiativefaktor: 6
+Fertigkeit: Kurzbogen
+Typ: 2-händig~
+@257 = ~Kurzbogen "Der eisige Norden"
+
+Dies ist eine der seltesten Arten von Bögen. Soweit bekannt existieren nur 3 Stück davon. Sie wurden von einem Priester der Auril im Eiswindtal erschaffen. Einer von ihnen ist im Besitz von Auril, die anderen zwei gingen in der Nähe des Gletschers Frost der Finsternis verloren.
+
+BESONDERHEITEN:
+
+Das Ziel wird bei einem Treffer für 60 Sekunden eingefroren (kein Rettungswurf).
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Geschoss) +1W6 (Kälteschaden)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 4
+Fertigkeit: Kurzbogen
+Typ: 2-händig~
+@258 = ~Kurzbogen "Eissturm"~
+@259 = ~Der Kurzbogen ist die älteste Form eines Bogens, jedoch wurde er nicht als solcher bezeichnet. Der Begriff "Kurzbogen" ist eher eine Bezeichnung für alle Bögen, die nicht als Langbogen gelten. Ein Kurzbogen ist durchschnittlich etwa 1,50 m lang und daher leichter zu handhaben als größere Bögen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4
+Gewicht: 2
+Initiativefaktor: 6
+Fertigkeit: Kurzbogen
+Typ: 2-händig~
+@260 = ~Kurzbogen "Eissturm"
+
+BESONDERHEITEN:
+
+Das Ziel wird bei einem Treffer für 60 Sekunden eingefroren (kein Rettungswurf).
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Geschoss) +1W6 (Kälteschaden)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 4
+Fertigkeit: Kurzbogen
+Typ: 2-händig~
+@261 = ~Langbogen von "O'Locksley"~
+@262 = ~Der Langbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit.
+
+EIGENSCHAFTEN:
+
+Schaden:
+ETW0-Bonus: -1
+Gewicht: 3
+Initiativefaktor: 7
+Fertigkeit: Langbogen
+Typ: 2-händig~
+@263 = ~Der berühmte, vogelfreie Bogenschütze O'Locksley erschuf diesen Bogen mit Hilfe von befreundeten Magiern um das Land vom Joch der Tyrannei zu befreien. Nach seinem tragischen Tod ging der Bogen in den Besitz seines Neffen Jaen of Southerton über. Jaen benutzte den Bogen über zwei Jahrzehnte um das Böse im Lande zu bekämpfen. Er gab den Bogen einem befreundeten Elfen, als er auszog um eine geheime Mission zu erledigen. Er kehrte nie zurück. Der Elf gab diesen Bogen seiner Königin. Seitdem wurde der Bogen von loyalen Mitgliedern des Elfenrates genutzt. Er ging zwar einige Male verloren, wurde aber von den Elfen immer wieder gefunden und zurückgebracht. Das letzte Mal wurde der Bogen bei einem Angriff auf das Lager des Goblinkönigs benutzt. Beide Baumpirscher und der Bogen sind seitdem verschollen. Die Elfen suchen sie noch heute.
+Dieser Bogen ist von wahrhaft aussergewöhnlicher Qualität. Er wurde aus dem Holz des grossen Weltenbaumes Yggdrassil erschaffen.
+
+EIGENSCHAFTEN:
+
+Schaden: +2 (Geschoss)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 5
+Fertigkeit: Langbogen
+Typ: 2-händig~
+@264 = ~Leichte Armbrust~
+@265 = ~Leichte Armbrust +3 "Stachel des Skorpions"~
+@266 = ~Bei einer Armbrust handelt es sich um einen Bogen, der kreuzförmig auf einem Schaft aus Holz oder Metall befestigt ist. Der Bogen besteht für gewöhnlich aus Eschen- oder Eibenholz. Für diese Waffe werden Bolzen als Geschosse verwendet. Eine leichte Armbrust wiegt nicht nur weniger als eine schwere Armbrust, sondern kann auch öfter abgefeuert werden.
+
+EIGENSCHAFTEN:
+
+Gewicht: 7
+Initiativefaktor: 5
+Fertigkeit: Armbrust
+Typ: 2-händig~
+@267 = ~Diese Armbrust wurde von den Erreth-Akbe für ihren langen Krieg gegen die Hexenmeister erschaffen. Die Armbrust wurde mit der Fähigkeit verzaubert, Giftbolzen zu erschaffen wenn auf ein Ziel gezielt wurde. Nach ihrer Erschaffung bemerkten die Druiden, dass diese Waffe zu chaotisch war, und verboten ihren Gebrauch. Dann wurde sie unter dem Tempel vergraben, um nie wieder gesehen zu werden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Geschoss)  (Benötigt keine Munition) +1W8 (Gift pro Runde bis max. 45)
+ETW0-Bonus: -3
+Gewicht: 6
+Initiativefaktor: 1
+Fertigkeit: Armbrust
+Typ: 2-händig~
+@268 = ~Komposit-Langbogen~
+@269 = ~Ullyses~
+@270 = ~Zu den Komposit-Bögen zählen Lang- und Kurzbögen, die aus mehreren unterschiedlichen Materialien bestehen. Dadurch wird der Bogen flexibler und von ihm verschossene Pfeile richten größeren Schaden an. Dieser Bogen ist eine Weiterentwicklung des einfachen Langbogens.
+
+EIGENSCHAFTEN:
+
+Schaden: +2 (Geschoss)
+Gewicht: 10
+Initiativefaktor: 7
+Fertigkeit: Langbogen
+Typ: 2-händig~
+@271 = ~Dieser Bogen ist der Traum jedes Bogenschützen, da er keine Pfeile benötigt. Wenn man die Sehne spannt, wird ein Feuerpfeil erschaffen und verschossen. Sein Ursprung ist unbekannt, aber seine Bauweise lässt vermuten, dass er von Elfen hergestellt wurde. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 9
+Angriffe/Runde: +1
+Fertigkeit: Langbogen
+Typ: 2-händig~
+@272 = ~Leichte Armbrust +3 "Feuerzahn"~
+@273 = ~Bei einer Armbrust handelt es sich um einen Bogen, der kreuzförmig auf einem Schaft aus Holz oder Metall befestigt ist. Der Bogen besteht für gewöhnlich aus Eschen- oder Eibenholz. Für diese Waffe werden Bolzen als Geschosse verwendet. Eine leichte Armbrust wiegt nicht nur weniger als eine schwere Armbrust, sondern kann auch öfter abgefeuert werden.
+
+EIGENSCHAFTEN:
+
+Gewicht: 7
+Initiativefaktor: 5
+Fertigkeit: Armbrust
+Typ: 2-händig~
+@274 = ~Die magische Bogensehne von Gond verbessert selbst Feuerzahn. Feuerzahn braucht keine Munition.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Geschoss) +2 (Feuerschaden)
+ETW0-Bonus: -3
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Armbrust
+Typ: 2-händig~
+@275 = ~Kugeln~
+@276 = ~Kugeln +1~
+@277 = ~Diese Kugel übt eine besonders schwächende Wirkung auf ihre Opfer aus, denn unmittelbar nach dem Auftreffen explodiert sie in einem riesigen Ball aus Feuer und Splittern, dessen Wirkung sich keiner im Umkreis entziehen kann.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Geschoss)
+Gewicht: 0
+Schusswaffe: Schleuder~
+@278 = ~Im Innern dieser Kugeln fließen magische Ströme, die dafür sorgen, dass sie scheinbar etwas stabiler und leichter auf den Gegner zufliegen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Geschoss)
+ETW0-Bonus: -1
+Gewicht: 0
+Schusswaffe: Schleuder~
+@279 = ~Kugel der Detonation~
+@280 = ~Eine Kugel ist einfach ein abgerundeter, gut ausbalancierter Stein. Kugeln werden als Geschosse für Schleudern verwendet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Geschoss)
+Gewicht: 0
+Schusswaffe: Schleuder~
+@281 = ~Diese Kugel übt eine besonders schwächende Wirkung auf ihre Opfer aus, denn unmittelbar nach dem Auftreffen explodiert sie in einem riesigen Ball aus Feuer und Splittern, dessen Wirkung sich keiner im Umkreis entziehen kann.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +1 (Geschoss)  +6W6 (Feuer 1/2 bei Rettungswurf gg. Zauber)
+Gewicht: 0
+Schusswaffe: Schleuder~
+@282 = ~Feuerkugel~
+@283 = ~Im Innern dieser Kugeln fließen magische Ströme, die dafür sorgen, dass sie scheinbar etwas stabiler und leichter auf den Gegner zufliegen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Geschoss) +1W6 (Feuerschaden)
+ETW0-Bonus: -2
+Gewicht: 0
+Schusswaffe: Schleuder~
+@284 = ~Eiskugel~
+@285 = ~Im Innern dieser Kugeln fließen magische Ströme, die dafür sorgen, dass sie scheinbar etwas stabiler und leichter auf den Gegner zufliegen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Geschoss) +1W6 (Kälteschaden)
+ETW0-Bonus: -1
+Gewicht: 0
+Schusswaffe: Schleuder~
+@286 = ~Dolch~
+@287 = ~Dolch +2 "Nordbiss"~
+@288 = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 (Stich)
+Gewicht: 1
+Initiativefaktor: 2
+Fertigkeit: Dolch
+Typ:  1-händig~
+@289 = ~Dolch +2 "Nordbiss"
+Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch. Dieser Dolch wurde von einem Zwergenschmied in Niewinter geschmiedet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Stich) +1W4 (Kälteschaden)
+ETW0-Bonus: -2 
+Gewicht: 1
+Initiativefaktor: 0
+Kältewiderstand: 50%
+Fertigkeit: Dolch
+Typ: 1-händig~
+@290 = ~Dolch +3: "Kleine Lähmung"~
+@291 = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 (Stich)
+Gewicht: 1
+Initiativefaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig~
+@292 = ~Dieser Dolch wurde von  Evets Nitsua geschmiedet. Er verlieh dem Dolch eine besondere Magie. Der Dolch lähmt das Ziel.
+
+BESONDERHEITEN:
+
+Der Dolch kehrt sofort wieder zum Werfer zurück.
+
+Es besteht eine 10%ige Chance, dass das Ziel für 30 Sekunden gelähmt wird.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Stich/Geschoss)
+ETW0-Bonus: -3
+Gewicht: 2
+Initiativefaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig~
+@293 = ~Yarashs Dolch "Bummerangdolch"~
+@294 = ~Yarash's Dolch
+
+Dieser Bummerangdolch wurde von Yarash dem Hexenmeister erschaffen. Er war die Bezahlung für eine Gruppe von Abenteurern, die Yarash behilflich waren.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Stich Nahkampf/Wurf)
+ETW0-Bonus: +2
+(Kehrt zum Werfer zurück)
+Angriffe/Runde: +1
+Gewicht: 3
+Initiativefaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig~
+@295 = ~Dolch der Krankheit~
+@296 = ~Der Dolch der Krankheit ist eine mächtige Klinge, die bei den Meuchelmördern aller Reiche sehr begehrt ist. Ein Treffer mit dieser besonderen Waffe vergiftet das Opfer. Ihre Herkunft ist unbekannt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Stich) +6 (Giftschaden bis max. 15 Giftschaden)
+Angriffe pro Runde: 2
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig~
+@297 = ~Dolch +2~
+@298 = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 (Stich)
+Gewicht: 1
+Initiativefaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig~
+@299 = ~Es gibt keine Aufzeichnungen über den Schöpfer dieses Dolches, doch geht seine Existenz wohl zurück auf die barbarischen Nomadenstämme der Berge. Die Klinge erinnert an einen blauen Blitz und wurde aus einem geheimnisvollen Metall geschmiedet, wodurch die Waffe blau schimmert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 +2W4 (Elektrischer Schaden - 50% Chance)
+ETW0-Bonus: +2 Bonus
+Gewicht: 1
+Initiativefaktor: 0
+Immunität gg. Elektrizität: 50%
+Fertigkeit: Dolch
+Typ: 1-händig~
+@300 = ~Eisdolch~
+@301 = ~Dolch +2 "Winterzahn"
+
+Es gibt keine Aufzeichnungen über den Schöpfer dieses Dolches, doch geht seine Existenz wohl zurück auf die barbarischen Nomandenstämme der Berge. Die Klinge wurde aus einem geheimnisvollen Metall geschmiedet wodurch die Waffe wie Eis schimmert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 Stich +: 1W8 (Kälteschaden Rettungswurf möglich)
+ETW0-Bonus: -2 
+Gewicht: 1
+Initiativefaktor: 0
+Immunität gg. Kälte: 50%
+Fertigkeit: Dolch
+Typ: 1-händig~
+@302 = ~Wurfdolch~
+@303 = ~Wurfdolch +3~
+@304 = ~Der typische Wurfdolch hat eine spitze, normalerweise zweischneidige Klinge, anders als ein Messer, das eine einschneidige Klinge besitzt und ein bisschen kürzer ist als der Dolch. Im Gegensatz zum Dolch hat der Wurfdolch einen kürzeren Griff und ist anders ausbalanciert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 (Stich)
+Gewicht: 2
+Initiativefaktor: 4
+Fertigkeit: Dolch
+Typ: 1-händig~
+@305 = ~Dieser Wurfdolch wurde nicht nur perfekt ausbalanciert, sondern auch magisch behandelt. Dadurch ist er effektiver als ein vergleichbarer Wurfdolch.
+
+BESONDERHEITEN:
+
+Der Dolch kehrt sofort wieder zum Werfer zurück.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 (Stich / Fernkampf)
+ETW0-Bonus: -3
+Gewicht: 0
+Initiativefaktor: 1
+Fertigkeit: Dolch
+Typ: 1-händig
+Gewicht: 0~
+@306 = ~Speer~
+@307 = ~Chimären Lanze +3~
+@308 = ~Speere zählen zu den ältesten Waffen der Geschichte. Schon die primitivsten Völker benutzten einfache Holzstangen, die an einem Ende angespitzt wurden. Nachdem die Menschen die Metallverarbeitung entdeckt hatten, begannen sie Speerköpfe aus Eisen und Stahl herzustellen. Waffenschmiede experimentierten bald mit unterschiedlichen Formen von Speerköpfen, was zur Entstehung verschiedener Arten von Stangenwaffen führte.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Stich)
+Gewicht: 5
+Initiativefaktor: 6
+Fertigkeit: Speer
+Typ: 2-händig~
+@309 = ~Chimären Lanze +3
+Dies ist die Lieblingswaffe der Waldläufer von Chimmera. Diese Speere wurden aus magischem Holz gefertigt. Danach wurden sie in Gift getaucht. Die ungeschlachte Brutalität der Waldläufer von Chimmera sucht ihresgleichen, lediglich die rivalisierenden Elfen aus Silvan können da nich mithalten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Stich) +18 (Giftschaden) bis zu einem Höchstwert von 27.
+ETWO-Bonus: -3
+Gewicht: 5
+Initiativefaktor: 3
+Fertigkeit: Speer
+Typ: 2-händig~
+@310 = ~Gibbet~
+@311 = ~Gibbet wurde von Mekorig dem Blinden geschmiedet, um zu helfen das Zeitalter der Monster zu beenden. Gibbet ging im Laufe der Jahre des öfteren verloren und tauchte wieder auf. Zuletzt wurde es von einer Gruppe Abentuerer in einem Drachenhort gefunden. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Stich)
+Schadensbonus gg.: Untote, Riesen, Monster und Dämonen
+RK-Bonus: -2
+RK-Bonus gg.: Untote, Riesen, Monster und Dämonen
+Angriffe/Runde: +1
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Speer
+Typ: 2-händig~
+@312 = ~Heilige Lanze~
+@313 = ~Eine der feinsten Waffen, die je für den Kampf des Guten gegen das Böse erschaffen wurde. Da diese Waffen nur von der Heiligen Sukien Garde benutzt werden, sind sie sehr selten und heiss begehrt. Die Hohen Priester der Sukien haben jede einzelne Waffe gesegnet, um sie im Kampf gegen die Verderbtheit zu stärken.
+
+BESONDERHEITEN:
+
+Zusätzlicher ETW0-Bonus gegen Monster und Untote.
+
+Zusätzlicher RK-Bonus gegen Monster und Untote.
+
+Der Träger ist immun gegen Furcht.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Stich)
+ETW0-Bonus: -3
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Speer
+Typ: 2-händig~
+@314 = ~Schleuder~
+@315 = ~Elemantarschleuder~
+@316 = ~Schleudern gibt es seit Menschengedenken. Grundsätzlich bestehen sie aus einem Leder- oder Stoffriemen und einem Beutel für das Geschoss. Die Waffe wird an beiden Enden des Riemens gehalten und über dem Kopf im Kreis geschwungen. Wenn die Höchstgeschwindigkeit erreicht ist, wird das Geschoss abgefeuert, indem man ein Ende des Riemens loslässt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 0
+Initiativefaktor: 6
+Fertigkeit: Schleuder
+Typ:  1-händig~
+@317 = ~Ursprünglich wurde diese Schleuder als Trainingswaffe der "Meister der Kirche der Sonne" verwendet. Sie wurde von Dieben entwendet und wird seit Jahrhunderten bevorzugt von Schurken benutzt. Diese Schleuder erschafft auf magische Weise ihre eigenen Geschosse, so dass man keine mehr mit sich führen muss. Es ist kein Wunder, dass diese Waffe bei Verbrechern so beliebt ist.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 0
+Initiativefaktor: 1
+Fertigkeit: Schleuder
+Typ: 1-händig~
+@318 = ~Stab der Hexenmeister +4~
+@319 = ~Dieser Stab ermöglicht es, sich mehr Zauber als normal zu merken. Ausserdem kann man seine Zauber auch wirken, wenn Stille gewirkt wurde. Da zudem die Geschwindigkeit mit welcher Zauber gewirkt werden können erhöht wird, ist dies eine furchterregende Waffe. Als Krönung kann man seine Feinde noch in Steinstatuen verwandeln.
+
+BESONDERHEITEN:
+
+Verdoppelt die Sprüche der Stufen 1 bis 4, welche der Träger sich merken kann.
+
+Der Träger kann Zauber trotz Stille wirken.
+
+Der Träger kann schneller Zauber wirken.
+
+Es besteht eine 25%ige Chance, dass das Ziel versteinert wird.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Wucht)
+ETW0-Bonus: -3
+Gewicht: 4
+Initiativefaktor: 3
+Fertigkeit: Kampfstab
+Typ:  2-händig~
+@320 = ~Stab~
+@321 = ~Stab der Natur~
+@322 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Wucht)
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@323 = ~Stab der Natur "Beschützer der Natur"
+
+Dieser Stab wurde vor vielen Jahrhunderten von einem Druidenstamm benutzt. Er wurde stets vom Erzdruiden an seinen Nachfolger übergeben im Lande Kazgard. Es wird gemunkelt, dass dieser Stab von der Natur selbst erschaffen wurde. Jedenfalls glüht er in einem mächtigen Grünton.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -3
+Schaden: 2W3 +3 (Wucht)
+Trefferpunkte: +15
+Gegenstände identifizieren: +20
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: 2-händig
+
+Kann benutzt werden von:
+ Druiden~
+@324 = ~Kampfstab~
+@325 = ~Elementarstab der Luft~
+@326 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Auf diesem Stab liegt eine mächtige Verzauberung, die ihn treffsicherer macht. Außerdem richtet er mehr Schaden an. Über den Ursprung dieser Verzauberung lässt sich nichts sagen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Wucht)
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@327 = ~Der Stab der Luft ist einer der vier Elementarstäbe von Chanah'Rea, von denen vermutet wird, dass sie zu der Zeit erschaffen wurden, als die Welt geboren wurde.
+
+BESONDERHEITEN:
+
+Erzeugt ein Geschoss, das elektrischen Schaden verursacht. Halber Schaden bei erfolgreichem Rettungswurf.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+ETW0-Bonus: -3
+Schaden: 1W6 +3 (Wucht) +1w4 (Elektrischer Schaden)
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@328 = ~Elementarstab der Erde~
+@329 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Auf diesem Stab liegt eine mächtige Verzauberung, die ihn treffsicherer macht. Außerdem richtet er mehr Schaden an. Über den Ursprung dieser Verzauberung lässt sich nichts sagen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Wucht)
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@330 = ~Der Stab der Erde ist einer der vier Elementarstäbe von Chanah'Rea, von denen vermutet wird, dass sie zu der Zeit erschaffen wurden, als die Welt geboren wurde.
+
+BESONDERHEITEN:
+
+Erzeugt ein Geschoss, das Säureschaden verursacht. Halber Schaden bei erfolgreichem Rettungswurf.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+ETW0-Bonus: -3
+Schaden: 1W6 +3 (Wucht) +6 (Giftschaden) bis maximal 15 Giftschaden
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@331 = ~Elementarstab des Feuers~
+@332 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Auf diesem Stab liegt eine mächtige Verzauberung, die ihn treffsicherer macht. Außerdem richtet er mehr Schaden an. Über den Ursprung dieser Verzauberung lässt sich nichts sagen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Wucht)
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@333 = ~Der Stab des Feuers ist einer der vier Elementarstäbe von Chanah'Rea, von denen vermutet wird, dass sie zu der Zeit erschaffen wurden, als die Welt geboren wurde.
+
+BESONDERHEITEN:
+
+Erzeugt ein Geschoss, das Feuerschaden verursacht. Halber Schaden bei erfolgreichem Rettungswurf.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+ETW0-Bonus: -3
+Schaden: 1W6 +3 (Wucht) +3W4 (Feuerschaden)
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@334 = ~Elementarstab des Wassers~
+@335 = ~Der Stab des Wassers ist einer der vier Elementarstäbe von Chanah'Rea, von denen vermutet wird, dass sie zu der Zeit erschaffen wurden, als die Welt geboren wurde.
+
+BESONDERHEITEN:
+
+Erzeugt ein Geschoss, das Kälteschaden verursacht. Halber Schaden bei erfolgreichem Rettungswurf.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+ETW0-Bonus: -3
+Schaden: 1W6 +3 (Wucht) + 1w4 +1 (Kälteschaden)
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Kampfstab
+Typ:  2-händig~
+@336 = ~Stab des Lebens~
+@337 = ~Stab des Lebens
+
+Vor unbändiger Macht weiß und golden pulsierend, wurde dieser Stab zu Anbeginn der Zeit von dem ersten Strahl der Sonne, der auf das reine Wasser traf erschaffen. Dieser Stab bietet seinem Träger Schutz.
+
+BESONDERHEITEN:
+
+Schützt vor Zaubern der Stufe 1.
+
+Kann einen Heiltrank erschaffen.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W2 +2 (Wucht)
+RK-Bonus: -2
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 6
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@338 = ~Langschwert~
+@339 = ~Langschwert "Berserker des Nordens"~
+@340 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@341 = ~In der eisigen Kälte des Einswindtales wurde dieses Schwert von dem verrückten Zwerg Asgrim geschmiedet. Der Griff des Schwertes fühlt sich kühl an. Das Schwert selber verströmt solch eine Kälte, so dass sein Träger selbst am heissestem Tag in der heissesten Wüste noch friert. 
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge) +3 (Kälteschaden)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@342 = ~Krummsäbel~
+@343 = ~Krummsäbel +2~
+@344 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Fertigkeit: Krummsäbel
+Initiativefaktor: 5
+Typ: 1-händig~
+@345 = ~Krummsäbel +2
+
+Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Klinge) +1W6 (elektrischer Schaden)
+ETW0-Bonus: -2
+15% Resistenz gegen Blitze
+Gewicht: 4
+Fertigkeit: Krummsäbel
+Initiativefaktor:  2
+Typ: 1-händig~
+@346 = ~Krummsäbel~
+@347 = ~Krummsäbel +3 "Krummsäbel der Piratenkönige"~
+@348 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@349 = ~Krummsäbel +3 "Krummsäbel der Piratenkönige"
+     
+Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -2
+Schaden: 1W6 +3 (Klinge) +1W4 (elektrischer Schaden)
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@350 = ~Langschwert +2 "Sektion 1"~
+@351 = ~Die Schwerter der Sektion 1 zählen zu den besten Schwertern die man finden kann. Sie werden von den Eliteinheiten der sogenannten "Sektion" benutzt. Selbst nur solch ein Schwert zu besitzen, das für die Sektion hergestellt wurde, könnte schon den Tod bedeuten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +2 (Klinge) +2 (elektrischer Schaden)
+ETW0-Bonus: -2
+Gewicht: 7
+Initiativefaktor: 2
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@352 = ~Langschwert "Leben"~
+@353 = ~Nikita persönliches Schwert. Sie hat widerwillig viele Feinde mit diesem fein gestalteten Schwert niedergestreckt.
+
+BESONDERHEITEN:
+
++10 Trefferpunkte wenn man damit ausgerüstet ist.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@354 = ~Langschwert "Tod"~
+@355 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@356 = ~Micheals persönliches Schwert. Er hat viele Feinde mit diesem fein gestalteten Schwert ausgelöscht.
+
+BESONDERHEITEN:
+
+Es besteht eine 10%ige Chance, dass das Ziel den sofortigen Tod erleidet, wenn der Rettungswurf misslingt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@357 = ~Krummsäbel +3 "T'sarren"~
+@358 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@359 = ~Krummsäbel +3 "T'sarren"
+
+Dieses Schwert gehörte einst einer verrückten Elfin, die Zerstörung brachte, wo immer sie sich befand. Von ihr ist einige Zeit nichts gehört worden, vielleicht ist sie bereits tot, wenn man bedenkt, dass Ihr im Besitz ihres Schwertes seid.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Klinge) +1W3 (Feuerschaden)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@360 = ~Säbel~
+@361 = ~Säbel von Artemis~
+@362 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@363 = ~Säbel der Verwundung
+
+BESONDERHEITEN:
+
+Verursacht 1 Trefferpunkt Schaden pro Runde für eine Dauer von 8 Runden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +1 (Klinge)
+ETW0-Bonus: -1
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@364 = ~Kurzschwert~
+@365 = ~Assassinenklinge~
+@366 = ~Das Kurzschwert ist die erste und ursprüngliche Form eines Schwertes. Einfach ausgedrückt ist ein Kurzschwert ein Dolch, bei dem die Klinge so lang ist, dass das Ganze nicht mehr als Dolch bezeichnet werden kann. Der Begriff "Kurzschwert" ist in der Klassifizierung der Schwerter eigentlich nicht bekannt. Er wird jedoch mittlerweile zur Beschreibung einer zweischneidigen Klinge mit einer ungefähren Länge von 60 cm verwendet. Die Klinge ist normalerweise vorne spitz, wodurch sich das Kurzschwert hervorragend zum Stoßen eignet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Stich)
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Kurzschwert
+Typ: 1-händig~
+@367 = ~Eine Assassinenklinge wird meistens von den Assassinen der Schattenmeister benutzt. Sie wurde nie gesehen, aber es wurde nur von ihrer Existenz gemunkelt, wenn man bedenkt welch unglaubliche Dinge damit gemacht wurden. Die Schattenmeister sind der höchste Orden in der Hierarchie der Schattendiebe. Es ist +4 Langschwert.
+
+BESONDERHEITEN:
+
+Mit dieser Waffe hat man 2 Angriffe.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Stich)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 0
+Fertigkeit: Kurzschwert
+Typ: 1-händig
+
+Kann benutzt werden von:
+ Dieben~
+@368 = ~Korsar~
+@369 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Fertigkeit: Krummsäbel
+Initiativefaktor:  5
+Typ: 1-händig~
+@370 = ~Der Korsar ist eine der besten jemals von den Arsenalen Regnas herausgebrachten Waffen. Regnas Schmiede gestalteten somit eine Waffe, die bei der "Steuererhebung" auf hoher See und den Küstenstädten helfen würde.
+
+BESONDERHEITEN:
+
+Mit dieser Waffe werden die Angriffe, die Geschwindigkeit und die Diebesfähigkeiten erhöht.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 4
+Fertigkeit: Krummsäbel
+Initiativefaktor: 1
+Typ: 1-händig~
+@371 = ~Krummsäbel +2 "Fackel"~
+@372 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@373 = ~Krummsäbel +2 "Fackel"
+
+Obwohl es seltsam aussieht und rot gefärbt ist, fühlt sich dieses Entermesser kühl an. Nur die runischen Gravuren bedeuten "Fackel". Sein Aussehen hat viele Abenteurer veranlasst, es als alt und nutzlos anzusehen. Jene neugierigeren Abenteurer, die es aber trugen, wurden immer wieder angenehm überrascht. Die Fackel wird nicht heiss, bis sie geschwungen wird, aber sobald sie in Bewegung auf ein Ziel ist, wird sie ihrem Namen gerecht.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Klinge) +1W3 (Feuerschaden)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@374 = ~Krummsäbel +3 "Geisterklinge"~
+@375 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@376 = ~Krummsäbel +3 "Geisterklinge"
+
+Immer wenn ein Schwertkämpfer diese Klinge schwingt, sind geisterhafte Schemen der Klinge zu sehen, die dem Verlauf der metallenen Klinge folgen. Dieses Schwert unterscheidet sich kaum von anderen, aber die geisterhaften Schemen der Klinge scheinen ebenfalls Schaden zu verursachen. Ursprünglich gehörte dieses Schwert einem ziemlich heruntergekommen und faulen Typen namens Bordger, von dem behauptet wird, dass er eine magische Ausbildung genossen hatte, bevor er sich entschloss ein Dieb zu werden. Zieht man in Betracht wie gut diese Klinge funktioniert, dann wäre es wohl besser gewesen, wenn er ein Magier geblieben wäre.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@377 = ~Krummsäbel +3 "Der Funken"~
+@378 = ~Krummsäbel +3 "Der Funken"
+
+Da es vor elektrischer Energie summt, kann man verstehen, wie dieses Entermesser seinen Namen bekam. Seine Ursprünge sind nicht bekannt, aber Geschichten über ein fremdes Land begleiten die Gerüchte über diese Klinge. Der erste bekannte Eigentümer war ein gerade in den Hafen zurückgekehrter Seeräuber. Er wurde volltrunken beraubt und getötet und selbst sein Name bleibt ebenso ein Geheimnis wie dieses Schwert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge) +1W3 (elektrischer Schaden)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@379 = ~Krummsäbel +3 "Der Mächtige"~
+@380 = ~Krummsäbel +3 "Der Mächtige"
+
+Wenn man diese absonderliche Waffe betrachtet, scheint sie mehr ein Breitschwert als ein Entersäbel zu sein. Es wurde von einem Raubritter mit dem Namen Orrimy in Auftrag gegeben, der damit sowohl niederknüppeln als auch zuschlagen wollte. Die Übergröße dieser Waffe sollte ihm die Resultate bringen, die er sich wünschte. Aber bei der ersten Gelegenheit sie auszuprobieren, geriet er an einen Oger, der ihn niederstreckte, noch bevor er es aus der Scheide ziehen konnte.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@381 = ~Doufas Säbel~
+@382 = ~Das Kurzschwert ist die erste und ursprüngliche Form eines Schwertes. Einfach ausgedrückt ist ein Kurzschwert ein Dolch, bei dem die Klinge so lang ist, dass das Ganze nicht mehr als Dolch bezeichnet werden kann. Der Begriff "Kurzschwert" ist in der Klassifizierung der Schwerter eigentlich nicht bekannt. Er wird jedoch mittlerweile zur Beschreibung einer zweischneidigen Klinge mit einer ungefähren Länge von 60 cm verwendet. Die Klinge ist normalerweise vorne spitz, wodurch sich das Kurzschwert hervorragend zum Stoßen eignet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Stich)
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Kurzschwert
+Typ: 1-händig~
+@383 = ~Doufas Säbel
+
+Dieser Säbel wurde erschaffen, um das perfekte Werkzeug für die Assassinen zu sein. Es wird von denjenigen sehr begehrt, die Meinungsverschiedenheiten üblicherweise mit einer Klinge beilegen, und viele, die es besaßen hatten es nicht lange in ihrem Besitz.
+
+BESONDERHEITEN:
+
+Man hat 2 zusätzliche Angriffe und der Gegner wird festgehalten, falls der Rettungswurf misslingt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Stich) +1W4 (magischer Schaden)
+ETW0-Bonus: -2
+Gewicht: 5
+Initiativefaktor: 0
+Fertigkeit: Kurzschwert
+Typ: 1-händig~
+@384 = ~Langschwert +4, "Draz, der heilige Rächer"~
+@385 = ~Einst unter der Aufsicht des Gez von Helm, hatte dieses starke Schwert einen Ehrenplatz unter den Artefakten im heiligen Tempel von Helm in Baldurs Tor. Unter gewissen Umständen wurde es einem Paladin der Kirche ausgeliehen, wenn Bedarf bestand. Jedoch gab es vor grob dreiundsechzig Jahren eine Unmenge von Diebstählen in der Stadt von Baldurs Tor. Draz wurde gestohlen, bevor es wieder in den Tempel zurück gebracht werden konnte. Alle Versuche es ausfindig zu machen schlugen fehl, doch jetzt befindet es sich in Euren Händen.
+
+BESONDERHEITEN:
+
+Es bietet Schutz vor Bösem in einem 10 Meter Radius, gewährt 50% Magieresistenz und verleiht +1 zur Stärke.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +4 (Klinge)
+ETW0-Bonus: -4
+Gewicht: 4
+Initiativefaktor: 1
+Fertigkeit: Langschwert
+Typ: 1-händig
+
+Kann benutzt werden von:
+ Paladinen~
+@386 = ~Langschwert "Feuerbeisser"~
+@387 = ~Wie "Feuerbeisser" auf diese Welt kam ist unbekannt.
+
+Es wird gemunkelt, dass der letzte Eigentümer glaubte, so mächtig zu sein, dass er auszog um die Königin der Feuerelementare zu besiegen. Offensichtlich scheiterte er.
+
+BESONDERHEITEN:
+
+ +2 Schadensbonus gegen regenerierende Kreaturen
+ +3 Schadensbonus gegen kälteabhängige Kreaturen
+ +4 Schadensbonus gegen Untote
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +1 (Klinge) +1W3 (Feuerschaden)
+ETW0-Bonus: -1
+Angriffe: 2
+Gewicht: 4
+Initiativefaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@388 = ~Schwert des Waldes~
+@389 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4~
+@390 = ~Dieser Krummsäbel sieht auf den ersten Blick wie jeder andere aus. Wird er jedoch von einem 'Kind des Waldes' verwendet, wird die Klinge grün und summt leise.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@391 = ~Harval: Die graue Klinge~
+@392 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht:  4
+Fertigkeit: Krummsäbel
+Initiativefaktor:  5
+Typ:  1-händig~
+@393 = ~Harval gehörte Colbey Calistinsson: Dem Hüter der Balance.
+
+Es wurde ihm vor dem Ragnarok (dem Krieg der Götter) übergeben. Obwohl er kein Gott war, gehörte er doch zu den Unsterblichen. Als Hüter der Balance zwischen Gut und Böse, Gesetz und Chaos, wurde er denoch verachtet, da er sich für keine Seite entscheiden konnte. Sein einziges Interesse war die "Balance" aufrecht zu erhalten. Es ist nicht bekannt, wie dieses Schwert entstanden ist. Aber es wird geraunt, dass es erschien, um Colbey bei seinem Wunsch nach Balance zu helfen. Dieses Schwert kann nur von jenen benutzt werden, die gas gleiche dasselbe "Gleichgewicht" suchen.
+
+Der Rüstungsklassenbonus belegt die Tatsache, dass der Träger der Waffe eine derartige Kontrolle über das Gleichgewicht hat, dass er viele Angriffe abwehren kann, die normalerweise treffen würden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -3
+Angriffe: 2
+Rüstungsklasse: +2 Bonus
+Gewicht: 4
+Fertigkeit: Langschwert
+Initiativefaktor:  2
+Typ: 1-händig~
+@394 = ~Zweihänder~
+@395 = ~Zweihänder +3 "Höllenklinge"~
+@396 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Gewicht: 15
+Initiativefaktor: 10
+Fertigkeit: Zweihänder
+Typ: 2-händig~
+@397 = ~Ein zweischneidges, doppelhändiges Schwert namens Höllenklinge, das purpur bis schwarz erstrahlt. Dies ist eine der intelligenten Höllenklingen. Diese Klinge erhöht die Bewegungsrate und die Kampffähigkeiten ihres Trägers um 100%. Daher hat ein Charakter mit einer Bewegungsrate von 9 , die Bewegungsrate von 18 und auch die Anzahl seiner Angriffe wird verdoppelt. Der Zeitaufwand beim Zaubern wird aber nicht beeinflusst. Es hat zwei Fähigkeiten, die einmal am Tag eingesetzt werden können. Beide Fähigkeiten wirken auf der Stufe des Anwenders: Spiegelbild und verbesserte Unsichtbarkeit. Es hat eine Intelligenz von 17 und ein Ego.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +3 (Klinge)
+ETW0-Bonus: +3 Bonus
+Gewicht:  8
+Initiativefaktor: 4
+Fertigkeit: Zweihänder
+Typ: 2-händig~
+@398 = ~Kroms Langschwert~
+@399 = ~Dieses Schwert wurde von Krom, dem Unsichtbaren getragen. Er verwendete es gegen unzählige Feinde während seiner Herrschaft. Berichte von jenen, die eine Auseinandersetzung mit diesem Schwert überlebten, besagen dass man durch dieses Schwert verlangsamt wurde.
+
+BESONDERHEITEN:
+
+Das Ziel wird bei einem Treffer verlangsamt, wenn der Rettungswurf misslingt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 1
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@400 = ~Rheas Fluch~
+@401 = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@402 = ~Diese Klinge wurde für den Krieger Cuthlan vom Herrn des Feuers Galamar erschaffen. Über die genauen Eigenschaften dieser Klinge ist wenig bekannt, und abgesehen von den eingravierten Runen, sind keine Hinweise auf magische Fähigkeiten zu erkennen. Im Kampf glüht die Klinge in einem schwachen schwärzlichen Rot.
+
+EIGENSCHAFTEN:
+
+Der Täger erhält +1 zur Geschicklichkeit.
+
+Schaden: 1W8 +3 (Klinge)
+ETW0-Bonus: -3
+Armor Bonus: +2
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@403 = ~Bastardschwert~
+@404 = ~Bastardschwert +2 "Die Viper"~
+@405 = ~Das Bastardschwert ist von seiner Art her zwischen dem Zweihänder und dem Langschwert angesiedelt, weshalb es auch als Anderthalbhänder bezeichnet wird. Es besitzt eine zweischneidige Klinge und einen langen Griff, wodurch es auch beidhändig geschwungen werden kann. Die durchschnittliche Länge des Bastardschwertes liegt zwischen 1,40 und 1,60 m.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Klinge)
+Gewicht: 10
+Initiativefaktor: 8
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@406 = ~Bastardschwert +2 "Die Viper"
+
+Das Gift in diesem Schwert ist extrem stark, da es aus dem stacheligen Schwanz von Lindwürmern stammt. Es verursacht extremen Schaden in relativ kurzer Zeitperiode.
+
+BESONDERHEITEN:
+
+Das Ziel wird vergiftet falls ein Rettungswurf gegen Tod misslingt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 8
+Initiativefaktor: 7
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@407 = ~Diebesklinge~
+@408 = ~Das Kurzschwert ist die erste und ursprüngliche Form eines Schwertes. Einfach ausgedrückt ist ein Kurzschwert ein Dolch, bei dem die Klinge so lang ist, dass das Ganze nicht mehr als Dolch bezeichnet werden kann. Der Begriff "Kurzschwert" ist in der Klassifizierung der Schwerter eigentlich nicht bekannt. Er wird jedoch mittlerweile zur Beschreibung einer zweischneidigen Klinge mit einer ungefähren Länge von 60 cm verwendet. Die Klinge ist normalerweise vorne spitz, wodurch sich das Kurzschwert hervorragend zum Stoßen eignet.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Stich)
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Kurzschwert
+Typ: 1-händig~
+@409 = ~Eigentlich wurde diese Klinge für Diebe konzipiert, kann aber auch von anderen angewendet werden. Diese Waffe gibt Dieben in einige Fähigkeiten viele Vorteile.
+
+BESONDERHEITEN:
+
++15 auf alle Diebesfähigkeiten.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Stich)
+ETW0-Bonus: -3
+Special:
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzschwert
+Typ: 1-händig~
+@410 = ~Amulett~
+@411 = ~Amulett des Lindwurmrufes~
+@412 = ~Eine Halskette ist ein Schmuckstück aus Silber, Gold, Platin oder einem ähnlichen Edelmetall. Halsketten werden, wie der Name schon sagt, immer um den Hals getragen. Sie können von beliebiger Länge sein und sind oft mit Edelsteinen verziert.~
+@413 = ~Amulett der Lindwurmrufes
+
+Ermöglicht es dem Benutzer einen Lindwurm zu rufen, der seinen Befehlen folgt.~
+@414 = ~Halskette~
+@415 = ~Besetzte Halskette des Taschendiebstahls~
+@416 = ~Eine Halskette ist ein Schmuckstück aus Silber, Gold, Platin oder einem ähnlichen Edelmetall. Halsketten werden, wie der Name schon sagt, immer um den Hals getragen. Sie können von beliebiger Länge sein und sind oft mit Edelsteinen verziert.~
+@417 = ~Besetzte Halskette des Taschendiebstahls
+
+Vor einigen Jahren wurde Fong Moo, ein berühmter Beutelschneider, der sowohl in Baldurs Tor als auch in Athkatla bekannt war, tot auf der Strasse zwischen dem Tor und Beregost gefunden. Es scheint so, als hätte er hatte ein Artefakt von einem mächtigen Magier gestohlen und erfolglos versucht zu entkommen. Seine Hinterlassenschaften gingen auf seinen Neffen über, der denselben Breuf wie sein Onkel aufnahm. Er wurde besonders gut im Taschendiebstahl. Ob diese Halskette magisch war, bevor sie in die Hände von Fong fiel, ist unbekannt.
+
+EIGENSCHAFTEN:
+
+Taschendiebstahl: +20% Bonus
+
+Kann benutzt werden von:
+ Dieben
+ Barden~
+@418 = ~Ankh~
+@419 = ~Ankh der Akzeptanz~
+@420 = ~Ein Ankh ist ein verzierter Gegenstand, der normalerweise um dem Hals getragen wird. Es wird normalerweise mit Druiden in Verbindung gebracht und sie sind oft verzaubert.
+
+EIGENSCHAFTEN:
+
+~
+@421 = ~Ankh der Akzeptanz
+
+Eines von neun Ankhs der Sukien, welche ursprünglich im Tempel bei Northkeep aufbewahrt wurden. Sie gingen verloren und wurden in Myth Drannor wieder entdeckt, das sie für Jahrhunderte im Besitz hatte. Danach gingen sie erneut verloren und wurden seitdem nicht mehr gesehen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +1 Bonus
+Weisheit: +1 Bonus
+
+Speziell: Das Opfer wird gelähmt~
+@422 = ~Amulett der Diebesfähigkeiten~
+@423 = ~Ein seltenes Amulett, welches Diebe gerne in ihre Hände bekommen würden. Es hilft ihnen bei ihren dunklen Machenschaften. Gildenmeister würden eine hohe Summe bezahlen, wenn sie es in ihre Hände bekommen würden.
+
+BESONDERHEITEN:
+
+ +1 Geschicklichkeit und Infravision wenn man es trägt
+ Unsichtbarkeit für 10 Runden (limiterte Ladung)
+ Fallen finden: +5% Bonus
+ Taschendiebstahl: +5% Bonus
+ Schlösser öffnen: +5% Bonus
+ Im Schatten vertecken: +5% bonus
+
+Kann benutzt werden von:
+ Dieben (Einzel-, Doppel- und Mehrklassig)~
+@424 = ~Amulett von Ulcaster~
+@425 = ~Bei Amuletten handelt es sich meistens um magische Gegenstände, die an einer Kette um den Hals getragen werden. Die Art der dazugehörigen Kette erhöht in der Regel nur den ästhetischen Wert des Gegenstands, jedoch nicht seine magischen Eigenschaften. Es kann jeweils immer nur ein Amulett um den Hals getragen werden.~
+@426 = ~Dieses Amulett wurde von einem grossen Magier namens Ulcaster getragen. In seiner Schule gab es viele verschiedene Artefakte, doch nur wenige wurden je gefunden.
+
+EIGENSCHAFTEN:
+
+2 Bonuszauber der Stufe 4 und 2 Bonuszauber der Stufe 5.
+Magieresistenz: 20%
+
+Kann benutzt werden von:
+ Magiern
+ Hexenmeistern~
+@427 = ~Schutzamulett +2~
+@428 = ~Bei Amuletten handelt es sich meistens um magische Gegenstände, die an einer Kette um den Hals getragen werden. Die Art der dazugehörigen Kette erhöht in der Regel nur den ästhetischen Wert des Gegenstands, jedoch nicht seine magischen Eigenschaften. Es kann jeweils immer nur ein Amulett um den Hals getragen werden.~
+@429 = ~Schutzamulett +2 : "Mein Beschützer"
+
+Der persönlichen Garde von König Pyronan, dem Herrscher von Impiltur, wurde dieses Amulett als Zeichen der Ehre verliehen. Unglücklicherweise konnten sich die Mitglieder der Garde nicht darüber einigen, wem das Amulett zustand. Nach Jahren internen Zwistes ging das Amulett verloren. Als der König dies hörte löste er vor Wut die ganze Garde auf und ersetzte sie durch eine neue.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -2
+RW-Bonus: -1~
+@430 = ~Hobbins Halskette~
+@431 = ~Dies ist Hobbins persönliche Halskette, die er von seinem Grossvater geschenkt bekam.
+
+EIGENSCHAFTEN:
+
+ETW0: -2
+Taschendiebstahl: +10%~
+@432 = ~Amulett der Priesterschaft~
+@433 = ~Amulett der Priesterschaft: "Das Heilige Amulett"
+
+BESONDERHEITEN:
+
+Dieses Amulett erhöht die Zauber die ein Druide oder Kleriker wirken kann.
+
+EIGENSCHAFTEN:
+
+1 Bonuszauber der Stufe 2
+
+Kann benutzt werden von:
+ Druiden
+ Klerikern~
+@434 = ~Ring~
+@435 = ~RIng von Shi'nayne~
+@436 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck am Finger getragen wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Diese Ringe sind heißbegehrt, insbesondere von Abenteurern und Magiern.~
+@437 = ~Shi'nayne Alanadels magischer Ring erlaubt es seinem Träger mehrere Zauber zu wirken.
+
+EIGENSCHAFTEN:
+
+2 Bonuszauber der Stufe 3~
+@438 = ~Schutzring +3~
+@439 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck am Finger getragen wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Diese Ringe sind heißbegehrt, insbesondere von Abenteurern und Magiern.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3
+RW-Bonus: -3~
+@440 = ~Ring der Zauberkundigen~
+@441 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck am Finger getragen wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Diese Ringe sind heißbegehrt, insbesondere von Abenteurern und Magiern.
+
+EIGENSCHAFTEN:
+
+Je 1 Bonuszauber der Stufen 1 bis 4 für Magier, Zauberer und Priester~
+@442 = ~Schutzring +1 "Regina Coeli"~
+@443 = ~Dieser Ring wurde von den Göttern gesendet. Er verleiht seinem Träger himmlischen Schutz.
+
+EIGENSCHAFTEN:
+
+RK-bonus: -1
+RW-bonus: -1
+Elektrizitätsresistenz: +15%~
+@444 = ~Ring der Macht~
+@445 = ~Dieser Ring glüht sehr seltsam. Passt auf, bevor Ihr ihn anlegt.~
+@446 = ~Nemmerles Ring~
+@447 = ~Nemmerle war ein böser Hexenmeister, der anscheinend viele Reisen zu den Reichen des Feuers gemacht haben soll. Dieser Ring gehörte zu seinen Habseligkeiten. Wenn man ihn berührt, bekommt man einen kurzen Kälteschock, der nur kurz andauert. Bei näherer Untersuchung entdeckt man ein eingraviertes Kommandowort auf dem Ring und eine Warnung, die aber fast nicht mehr zu lesen ist. Der verbliebene Teil der Warnung lautet: Die Macht des Feuer hält ewig.
+
+EIGENSCHAFTEN:
+
+Der Träger ist vor Kälte geschützt.~
+@448 = ~Ring des Anführers~
+@449 = ~Über 1000 Jahre sind vergangen, seit sich die Warlocks von Yevaud anmachten, Kontrolle über den Baum von Wisdow zu erlangen. Die Geschichten des darauf folgenden Kampfes werden immer noch von den Druiden der Reiche erzählt. Elgenon wusste, dass er der Macht der Warlocks nicht ohne Hilfe standhalten würde, und betete dem Baum von Weisheit um Hilfe zu bekommen. Seine Gebete wurden erhört, als er diesen Ring in einer Vision sah. Die mächtigste Magie der Warlocks, die Kontrolle der Blitze, schadete den Druiden nicht mehr. Am Ende des Kampfes zogen sich die verbliebenen Warlocks zurück. Elgenons Mut half, den Tag zu gewinnen, aber es war seine Weisheit, welche der entscheidende Faktor zu diesem Sieg war. Das brachte ihm den Namen "Elgenon der Weise" ein.
+
+EIGENSCHAFTEN:
+
+Der Träger ist vor Elektrizität geschützt.~
+@450 = ~Ring der Erzmagier~
+@451 = ~Vor langer Zeit wurde dieser Ring von einem Erzmagier aus Amn erschaffen.
+
+EIGENSCHAFTEN:
+
+Verdoppelt die Sprüche der Stufen 1 bis 3 die sich sein Träger merken kann.~
+@452 = ~Ring des Feuers~
+@453 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck am Finger getragen wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Diese Ringe sind heißbegehrt, insbesondere von Abenteurern und Magiern.~
+@454 = ~Ring des Feuers
+
+Dieser Ring wurde geschaffen, nachdem die Harpells die Chance hatten, einen Ring der Energie zu studieren, welchen sie nach einem Kampf um die Mithril Halle fanden. Im Gegensatz zu den meisten anderen Zaubern, welche die Familie schuf, funktionierte dieser Ring und verbesserte ihn noch. Jetzt schießt nicht nur Agannazars Flamme aus ihm, sondern auch noch Feuersturm und Feuerball.
+
+EIGENSCHAFTEN:
+
+Wer diesen Ring trägt kann folgende Zauber zusätzlich wirken:
+Agnazars Flamme
+Brennende Hände
+Feuerball
+Feuersturm~
+@455 = ~Feuerschutzring~
+@456 = ~Ring des Feuerschildes "Charviraks Glow"
+
+Seit Anbeginn der Zeit haben Zauberer die Elemente um sie herum verwendet, um sowohl anzugreifen als auch zu verteidigen. Dieser Ring war die Handarbeit eines großen Zauberers, Charvirak von Corymer. Es wird gemunkelt, dass er die Essenz eines Feuergolems stahl und sie innerhalb des Rings einschloss.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -4
+Resistenz gegen alle nichtmagischen Waffen~
+@457 = ~Ring der Zauberer~
+@458 = ~Ring der Zauberer: "Kleines Gedächtnis"
+
+Vor langer Zeit erzählte man sich, dass ein Hochmagier aus Amn sich Mystras Beschränkungen der magischen Künste widersetzt hatte. Legenden besagen, dass dieser Zauberer in der Lage war, sich Zaubersprüche ohne Beschränkung zu merken. Letztlich stellte sich heraus, dass seine Kräfte von diversen magischen Ringen kamen, die er für sich selbst gemacht hatte. Sein viel gerühmtes "immer währendes Gedächtnis" war also ein Trick, obwohl seine Ringe immer noch sehr begehrte Artefakte in den Reichen sind.
+
+EIGENSCHAFTEN:
+
+Verdoppelt die Sprüche der Stufen 1 bis 3 die sich sein Träger merken kann.~
+@459 = ~Ring der Zauberer~
+@460 = ~Ring der Zauberer: "Grosses Gedächtnis"
+
+Vor langer Zeit erzählte man sich, dass ein Hochmagier aus Amn sich Mystras Beschränkungen der magischen Künste widersetzt hatte. Legenden besagen, dass dieser Zauberer in der Lage war, sich Zaubersprüche ohne Beschränkung zu merken. Letztlich stellte sich heraus, dass seine Kräfte von diversen magischen Ringen kamen, die er für sich selbst gemacht hatte. Sein viel gerühmtes "immer währendes Gedächtnis" war also ein Trick, obwohl seine Ringe immer noch sehr begehrte Artefakte in den Reichen sind.
+
+EIGENSCHAFTEN:
+
+Verdoppelt die Sprüche der Stufen 1 bis 5 die sich sein Träger merken kann.~
+@461 = ~Brief~
+@462 = ~KOPFGELD AUSGESETZT
+
+Wer Böses im Schilde führt, sei informiert, dass auf <CHARNAME>, dem Ziehkind von Gorion, ein Kopfgeld ausgesetzt wurde.
+
+<CHARNAME> wurde zuletzt im Raum Beregost gesehen und muss schleunigst beseitigt werden.
+
+Wer mit einem Beweis für seine Tat zurückkehrt, wird mit nicht weniger als 600 Goldmünzen belohnt.
+
+Dieses Kopfgeld kann sich jedes Mitglied unserer Gilde verdienen.
+
+Wie immer gilt: Wer diese Pläne den Hütern des Gesetzes zuträgt, wird das Schicksal des Ziels teilen.~
+@463 = ~KOPFGELD AUSGESETZT
+
+Seid informiert, dass auf <CHARNAME>, das Ziehkind von Gorion, ein Kopfgeld ausgesetzt wurde.
+
+<CHARNAME> wurde zuletzt in Kerzenburg gesehen und muss schleunigst beseitigt werden.
+
+Wer mit einem Beweis für seine Tat zurückkehrt, wird mit nicht weniger als 150 Goldmünzen belohnt.
+
+Wie immer gilt: Wer diese Pläne den Hütern des Gesetzes zuträgt, wird das Schicksal des Ziels teilen.
+
+M.S.~
+@464 = ~Warnung!
+
+<CHARNAME> konnte noch nicht getötet werden. Weiteres Versagen wird mit dem Tod der Versager bestraft!
+
+P.W.~
+@465 = ~Brief
+
+Aus irgendeinem Grund, hat <CHARNAME> bisher überlebt. Die Nichteinhaltung dieses Vertrages wird ein sehr unerfreuliches Gespräch mit mir nach sich ziehen. Erledigt Euren Auftrag!
+
+M~
+@466 = ~KOPFGELD AUSGESETZT
+
+Auf <CHARNAME>, das Ziehkind von Gorion, wurde ein Kopfgeld ausgesetzt.
+
+<CHARNAME> wurde zuletzt im Raum Kerzenburg gesehen und muss schleunigst beseitigt werden.
+
+Wer mit einem Beweis für seine Tat zurückkehrt, wird mit nicht weniger als 200 Goldmünzen belohnt.
+
+Wie immer gilt: Wer diese Pläne den Hütern des Gesetzes zuträgt, wird das Schicksal des Ziels teilen.~
+@467 = ~KOPFGELD AUSGESETZT
+
+Najara:
+Auf <CHARNAME>, das Ziehkind von Gorion, wurde ein Kopfgeld ausgesetzt.
+
+<CHARNAME> zerstörte ein Dorf und liess niemanden am Leben. Selbst Frauen und Kinder wurden niedergemetzelt.
+
+<CHARNAME> muss samt Gefolge schnellstens beseitigt werden.
+
+P.W.~
+@468 = ~Die ganze Welt ist eine Bühne.
+
+Die Dunkelheit wird sichtbar.
+
+Eine Zeit für jeden Zweck.
+
+Gebt der Vergangenheit einen Abschiedskuss.
+
+Feund.~
+@469 = ~Merkzettel:
+  Der Eingang zu Sektion ist in Beregost, in der Nähe der Donnerhammerschmiede. Also, denkt daran immer den Schlüssel dabei zu haben. Es wäre dumm sich auszusperren.~
+@470 = ~Himbeeren~
+@471 = ~Himbeeren haben einen süssen Geschmack. Wenn man sie isst, heilen sie 2 Lebenspunkte.~
+@472 = ~<NO TEXT>~
+@473 = ~Gulp!~ [GULP]
+@474 = ~Weintrauben~
+@475 = ~Weintrauben: Diese Früchte glühen von innen heraus. Ihr Verzehr bewirkt eine Heilung von 3 Lebenspunkten. Zudem schmecken sie sehr lecker.~
+@476 = ~Hoch Konzentrierter Heiltrank~
+@477 = ~Wenn man diesen Trank zu sich nimmt, werden 30 Schadenspunkte geheilt. Die Heilung tritt sofort ein und der Trank wird bei der Anwendung komplett aufgebraucht.~
+@478 = ~Geheilt~
+@479 = ~Trank~
+@480 = ~Konzentrierter Heiltrank~
+@481 = ~Tränke werden normalerweise in Keramik, Kristall, Glas oder Metallflaschen oder Violen gefunden. Flaschen oder andere Behälter enthalten im Allgemeinen genug Flüssigkeit, um einer Person eine vollständige Dosis zu liefern, welche die Wirkung der Tränke garantieren.~
+@482 = ~Wenn man diesen Trank zu sich nimmt, werden 27 Schadenspunkte geheilt. Die Heilung tritt sofort ein und der Trank wird bei der Anwendung komplett aufgebraucht.~
+@483 = ~Hühnchen~
+@484 = ~Dies ist ein sehr fein schmeckendes Hühnchen, welches nach einem Rezept der berühmten "Köche Für Cormyr" zubereitet wurde. Es schmeckt knusprig und zart und wurde langsam über dem warmen Feuer geröstet. Wenn man es gänzlich verspeist, regeneriert es 10 Lebenspunkte.~
+@485 = ~Spiegelbildtrank~
+@486 = ~Dieser Zauber erzeugt 5 Abbilder pro Stufe des Anwenders.~
+@487 = ~Säureflasche~
+@488 = ~Wenn diese Flasche auf ein Ziel geworfen wird und zebricht, badet sie das Ziel in hoch konzentrierter Säure, so dass es sich auflöst.~
+@489 = ~Stab~
+@490 = ~Stab der Steinform~
+@491 = ~Zauberstäbe sind 40 cm lang und dünn. Sie bestehen aus Elfenbein, Knochen oder Holz und haben normalerweise eine Spitze aus Metall, Kristall, Stein oder einem anderen Material. Sie sind sehr zerbrechlich und werden daher oft in Etuis aufbewahrt. 
+
+Die Macht eines Zauberstabs ist in Form von Ladungen gespeichert, wobei jede Verwendung (je nach Gegenstand) eine oder mehrere Ladungen kostet. Wenn einem Zauberstab alle Ladungen ausgegangen sind, kann er nicht mehr aufgeladen werden.~
+@492 = ~Wird der Zauberstab aktiviert, dann wird die anvisierte Kreatur entweder versteinert, oder eine versteinerte Kreatur wird wieder zu Fleisch. Fleisch zu Stein kann mit einer erfolgreichen Rettungswurf gegen Zaubersprüche verhindert werden.
+
+EIGENSCHAFTEN:
+
+Erlaubt es dem Benutzer folgende Zauber zu wirken:
+Fleisch zu Stein
+Stein zu Fleisch
+Reichweite: 20 Meter
+Wirkungsbereich: 1 Kreatur~
+@493 = ~Stab der Beherrschung~
+@494 = ~Wenn aktiviert, wirft der Zauberstab einen Ball von magischer Energie aus, die hinausflitzt und ihr Ziel trifft. Dies bezieht feindliche Kreaturen in einem Handgemenge mit ein. Die Zielkreatur muss gesehen oder anderweitig wahrgenommen werden, um getroffen zu werden.
+
+EIGENSCHAFTEN:
+
+Speziell: Beherrschung
+Reichweite: 100 Meter
+Wirkungsbereich: 1 Kreatur~
+@495 = ~Stab der Toten~
+@496 = ~Wenn aktiviert, ruft der Zauberstab die Seelen von drei toten Kriegern herbei, die dem Zaubernden im Kampf helfen.
+
+EIGENSCHAFTEN:
+
+Speziell: Tote erwecken
+Reichweite: 100 Meter
+Wirkungsbereich: N/a~
+@497 = ~Schädel~
+@498 = ~Schädel der Toten~
+@499 = ~Ein magisch aussehender Schädel.~
+@500 = ~Der Schädel der Toten wirkt wie die Spruchrolle "Tote animieren".
+
+Tote animieren (Nekromantie)
+Grad: 5
+Reichweite: 10 Meter
+Dauer: 8 Stunden
+Zeitaufwand: 1 Runde
+Wirkungsbereich: Speziell
+Rettungswurf: Keiner
+
+Mit Hilfe dieses Zaubers werden niedere Untote (Skelette oder Zombies) aus den Leichen von Menschen, Halbmenschen oder Humanoiden erschaffen. Durch den Zauber werden diese Überreste zu Untoten, die einfache verbale Befehle des Magiers befolgen. Dabei spielt es keine Rolle, welche Sprache die Wesen beherrschten, als sie noch am Leben waren. Die Untoten können dem Magier folgen, solange er sich im gleichen Gebiet aufhält. Sie greifen auf Befehl des Magiers jedes Wesen an. Die Untoten existieren so lange, bis sie im Kampf zerstört werden oder durch ein erfolgreiches 'Untote vertreiben' vernichtet werden. 'Magie bannen' ist wirkungslos. Der Magier kann pro Stufe ein Skelett oder einen Zombie beleben.~
+@501 = ~Laute~
+@502 = ~Lied der Nyriade~
+@503 = ~Diese zart gestaltete Laute hat silberne Saiten, die in einem kunstvoll gearbeiteten, vergoldeten Holzrahmen eingespannt sind. Die Kunstfertigkeit ist exquisit, perfekt und fast schon übermenschlich. Selbst wenn ungeübte Finger über die Saiten streichen, erklingen die schönsten Töne. Merkwürdiger weise gibt es keine Vorrichtung um die Saiten zu spannen, als ob es nicht notwendig wäre. Ein Gefühl der Ehrfurcht beginnt Euch zu überkommen, als Ihr die Kompliziertheit dieses schönen Instrument betrachtet.~
+@504 = ~The Herkunft dieser Laute ist nicht bekannt, doch ihr Erschaffer scheint der These "Musik kann verzaubern..." eine neue Bedeutung gegeben zu haben. Wenn es von einem fähigen Musiker gespielt wird, produziert dieses Instrument eine Musik, welche das Publikum völlig in ihren Bann zieht.
+
+EIGENSCHAFTEN:
+
+Speziell: Beherrschung
+Reichweite: 100 Meter
+Wirkungsbereich: 1 Kreatur~
+@505 = ~Kerze~
+@506 = ~Kerze der Weisheit~
+@507 = ~Aufgrund der geheimnisvollen Symbole auf dieser Kerze, ist es klar, dass diese Kerze mit diversen magischen Eigenschaften versehen wurde. Doch welcher Natur diese Verzauberung ist, bleibt Euch unbekannt.~
+@508 = ~Wird diese Kerze angezündet, dann gewährt sie der betreffenden Person zusätzliche Weisheit. Die Kerze ist nach einmaliger Anwendung leider aufgebraucht.
+
+EIGENSCHAFTEN:
+
+Die Weisheit wird permanent um 1 Punkt erhöht.
+Speziell: Die Kerze ist nach einmaliger Anwendung leider aufgebraucht.
+Verwendung: Sie sollte im quick item slot plaziert werden.~
+@509 = ~Die Weisheit wurde permanent um 1 Punkt erhöht~
+@510 = ~Schutzamulett +1~
+@511 = ~Bei Amuletten handelt es sich meistens um magische Gegenstände, die an einer Kette um den Hals getragen werden. Die Art der dazugehörigen Kette erhöht in der Regel nur den ästhetischen Wert des Gegenstands, jedoch nicht seine magischen Eigenschaften. Es kann jeweils immer nur ein Amulett um den Hals getragen werden.~
+@512 = ~Schutzamulett +1 : "Der Beschützer"
+
+Der Leibwache des Königs Pyronan, Herrscher von Impiltur, wurde der "Beschützer" als ehrenhafter Beweis ihres Status gegeben. Unglücklicherweise stritten die Wachen untereinander, wer diesen Anhänger nun bekommen sollte. Nach vielen Jahren interner Streitigkeiten, ging der gegenstand verloren und die Wachen wurden durch weniger gierige Individuen ersetzt.
+
+EIGENSCHAFTEN:
+
+RK-bonus: -1
+RW-bonus: -1~
+@513 = ~Creature Item~
+@514 = ~Creature item~
+@515 = ~---~
+@516 = ~Kopf eines Lindwurms~
+@517 = ~Der abgetrennte Kopf eines Lindwurms ist zwar furchteinflößend, aber zugleich auch beruhigend. Sein mit Fangzähnen bewehrtes Maul und seine stechenden Augen lassen einen erschauern, doch zugleich ist der Gedanke, dass er auch von gewöhnlichen Sterblichen niedriger Stufe besiegt werden kann, sehr beruhigend.~
+@518 = ~Schlüsselstein~
+@519 = ~Lillians Schlüselstein~
+@520 = ~Oft mit magischem Bildzeichen, Runen oder Symbolen gekennzeichnet, sind Schlüsselsteine stark verzauberte Gegenstände, die dazu bestimmt sind, ihrem Träger Durchgang durch magisch geschützte Gebiete zu gewähren. Weil die meisten Schlüsselsteine ziemlich einzigartig und in ihrer Art besonders sind, ist es selten, einen für mehrere Zwecke zu finden.~
+@521 = ~Ein ziemlich gewöhnlich aussehender Schlüselstein. Er könnte für viele Dinge nützlich sein.~
+@522 = ~Schlüsselstein des Torwächters~
+@523 = ~Die blutigen Gravierungen glühen in einem leichten Rot, welches aus dem Inneren des Steines zu kommen scheint. Dies könnte einem Zweck dienen.~
+@524 = ~Schlüssel~
+@525 = ~Merkwürdiger Schlüssel~
+@526 = ~Schlüssel: Ein juwelenbestzer Schlüssel mit merkwürdigem Aussehen.~
+@527 = ~Der Schlüssel von Sir Jones~
+@528 = ~Dieser Schlüssel gewährt Zugang zubestimmten Bereichen.~
+@529 = ~Pfeil des Schlafes~
+@530 = ~Wie schon sein Name andeutet, ist der Flugpfeil für den Fernkampf vorgesehen. Diese Pfeile haben ein geringes Gewicht und werden oft zum Jagen eingesetzt. Sie bestehen meist aus Eschen- oder Birkenholz und sind 70 cm bis 1 m lang.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Geschoss)
+Gewicht:  0
+Abschussvorrichtung: Bogen~
+@531 = ~Wie schon sein Name andeutet, ist der Flugpfeil für den Fernkampf vorgesehen. Diese Pfeile haben ein geringes Gewicht und werden oft zum Jagen eingesetzt. Sie bestehen meist aus Eschen- oder Birkenholz und sind 70 cm bis 1 m lang.
+
+BESONDERHEITEN:
+
+Das Ziel verfällt in einen Schlaf, wenn ein RW gegen Tod misslingt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Geschoss)
+Gewicht: 0
+Schusswaffe: Bogen~
+@532 = ~Mithril Axt +3~
+@533 = ~Waffen aus Mithril sind sehr begehrt, besonders wenn es sich um Äxte von Zwergenschmieden handelt. Diese Axt scheint verzaubert zu sein und verursacht Kälteschaden.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W8 +3 (Klinge) +2 (Kälteschaden)
+ETW0-Bonus: -3
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Axt
+Typ: 1-händig~
+@534 = ~Mantel des Waldes~
+@535 = ~Der Mantel des Waldes ist wie geschaffen für abenteuerlustige Druiden und Waldläufer.
+
+BESONDERHEITEN:
+
+Der Träger bekommt +15% zu der Fähigkeit "Im Schatten verstecken".
+Zusätzlich +5 Rettungswurf gegen Schusswaffen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 4~
+@536 = ~Krummsäbel +3, "Wut des Andarous"~
+@537 = ~Krummsäbel +3, "Wut des Andarous"
+
+Andarous war ein Waldläufer, der seinen Wald an Orks verlor, die ihn abholzten und das Holz zum bau einer Befestigung nutzten. Mielikki beantwortete seine Gebete und gab ihm dieses Schwert um für die Natur Rache zu nehmen. Er vernichtete alle Orks dieser Befestigung.
+
+BESONDERHEITEN:
+
+Das Ziel wird betäubt, es sei denn es gelingt ein Rettungswurf gegen Zaubersprüche.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge) +2W4 (elektrischer Schaden)
+ETW0-Bonus: -3
+RK-Bonus: -2 
+Gewicht: 3
+Initiativefaktor: 2
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@538 = ~Katana~
+@539 = ~Katana +3, "El Tel'lerian"~
+@540 = ~Tel'lerian war ein grosser Kämpfer aus Kara-Tur. Er war ein Söldner, der auf der Suche nach Arbeit durch die Reiche zog um das Böse zu bekämpfen. Dieses Katana war eine seiner Lieblingswaffen. Er verlor dieses Schwert und sein Leben, als erauf seinem Weg nach Kerzenburg überfallen wurde.
+
+BESONDERHEITEN:
+
+Es besteht bei einem erfolgreichen Treffer eine 10%ige Chance der Versteinerung, wenn ein Rettungswurf gegen Versteinerung misslingt.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 10
+Fertigkeit: Langschwert
+Initiativefaktor:  3
+Typ: 2-händig~
+@541 = ~Zweihänder +3 "Khazids Tod"~
+@542 = ~Beim Zweihänder handelt es sich um eine Weiterentwicklung des Langschwertes. Waffenschmiede sind seit jeher daran interessiert, bereits existierende Waffen noch zu verbessern, was beim Langschwert dazu führte, dass die Klinge verlängert wurde. Schließlich musste auch der Griff verlängert werden und man brauchte nun beide Hände, um das Schwert richtig zu schwingen. Der Zweihänder dient hauptsächlich dazu, berittene Krieger schwer zu verletzen und die Stoßformation eines Heeres aufzubrechen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 (Klinge)
+Gewicht: 15
+Initiativefaktor: 10
+Fertigkeit: Langschwert
+Typ:  2-händig~
+@543 = ~Khazids Tod wurde von dem zwergischen Waffenmeister Khazid El Dum angefertigt. He had just created this sword when a group of thieves broke in and killed him with this sword. Ein Teil seiner spirituellen Essenz war zur Zeit seines Todes an diese Waffe gebunden.
+
+EIGENSCHAFTEN:
+
+Speziell: +1 Stärke and Konstitution
+
+Schaden: 1W10 +3 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 12
+Initiativefaktor: 9
+Fertigkeit: Zweihänder
+Typ: 2-händig~
+@544 = ~Grosses Katana~
+@545 = ~Grosses Katana +3 "Toran El Desiade"~
+@546 = ~Es ist nur wenig bekannt über die Geschichte dieses grossen Katana. Im Griff sind alte Runen eingearbeitet, was auf Magie schliessen lässt. Böse Wesen können mit dieser Waffe leider nichts anfangen.
+
+BESONDERHEITEN:
+
+Es besteht eine Chance von 10%, dass das Ziel bei einem Treffer in Panik gerät.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3 (Klinge) +1W4 (Kälteschaden)
+RK-Bonus: -1
+ETW0-Bonus: -3
+Geschicklichkeit: +1
+Gewicht: 8
+Fertigkeit: Langschwert
+Initiativefaktor:  2
+Typ: 2-händig~
+@547 = ~Waffen aus Mithril sind sehr begehrt, besonders wenn es sich um Äxte von Zwergenschmieden handelt. Diese Axt scheint verzaubert zu sein und verursacht Feuerschaden.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W8 +3 (Klinge) +2 (Feuerschaden)
+ETW0-Bonus: -3
+Gewicht: 5
+Initiativefaktor: 1
+Fertigkeit: Axt
+Typ:  1-händig~
+@548 = ~Streitaxt +3 "Ghultöter"~
+@549 = ~Diese Streitaxt wurde von einem Paladin angefertigt der Untote hasste, besonders Ghule. Diese Axt tötet Ghule, sobald diese getroffen werden.
+
+BESONDERHEITEN:
+
+Tötet Ghule sobald diese getroffen werden.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge) +3 (Kälteschaden)
+ETW0-Bonus: -3
+Gewicht: 7
+Initiativefaktor: 6
+Fertigkeit: Axt
+Typ:  1-händig~
+@550 = ~Mithril Kampfhandschuhe~
+@551 = ~Von den Zwergen des nördlichen Gebirges hergestellt, sind diese Handschuhe gute Freunde jedes Kämpfers. Diese hier werden unter den Zwergenberserkern sehr geschätzt.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: +2 Bonus
+Schaden: +2 Bonus
++1 zur Geschicklichkeit
+Gewicht: 1~
+@552 = ~Abwehrarmschützer RK 3~
+@553 = ~Armschützer sind dicke Bänder aus Metall oder Leder, die mit Gurten oder Riemen an den Unterarmen befestigt werden. In der Regel kommt die magische Kraft, die die Armschützer besitzen, nur im Kampf zum Tragen, da die meisten Armschützer den Träger vor Verletzungen bewahren oder seine Chancen, den Gegner zu treffen, erhöhen. Es gibt jedoch Ausnahmen, auch wenn diese höchst selten sind.
+
+EIGENSCHAFTEN:
+
+RK_Bonus: -3
+Gewicht: 2~
+@554 = ~Eiskugeln~
+@555 = ~Im Innern dieser Kugeln fließen magische Ströme, die dafür sorgen, dass sie scheinbar etwas stabiler und leichter auf den Gegner zufliegen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Geschoss) + 1W6 (Säureschaden)
+ETW=: -2
+Gewicht: 0
+Schusswaffe: Schleuder~
+@556 = ~Schienenpanzer: "Mystras Rüstung"~
+@557 = ~Mystras Rüstung:
+
+Diese Art Rüstung wurde meist von den Klerikern, Magiern und Hexenmeistern der Kirche der Mystra getragen. Sie bietet einen guten Schutz und Erhöht die Intelligenz. Nur Magiekundige können sie anlegen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+Speziell: Schutz vor Giften
++1 zur Intelligenz
+Gewicht: 18~
+@558 = ~Die Robe des Magisters~
+@559 = ~Einst getragen von einem Magister der Mystra, ging diese Robe im Laufe der Zeit verloren. Wer sie wieder gefunden hat, ist nicht bekannt.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +2 Bonus
+Bonus Zauber: 2 Sprüche des 2. Grades und 2 Sprüche des 3. Grades
+Magieresistenz: 30%
+Rettungswürfe: +3 Bonus
+Gewicht: 6~
+@560 = ~Flegel +3 "Flammender Tod"~
+@561 = ~Dieser Flegel ist verzaubert, erzeugt Feuerschaden und erhöht Eure Weisheit. Amuanator wäre erfreut.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Wucht), 2W3 Feuerschaden
+ETW0-Bonus: -3
+Weisheit: +1 Bonus
+Special: Increased attacks
+Gewicht: 8
+Initiativefaktor: 3
+Fertigkeit: Flegel
+Typ: 1-händig~
+@562 = ~Heiliger Stern +3~
+@563 = ~Der heilige Morgenstern +3 stammt aus dem Tempel von Amuanator, besitzt magische Eigenschaften und kann nur von denjenigen beutzt werden, die dem Pfad des Lichts folgen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Wucht) +2W3 (Kälteschaden)
+ETW0-Bonus: -3
+Weisheit: +1 Bonus
+Speziell: Erhöht die Angriffsrate
+Gewicht: 8
+Initiativefaktor: 3
+Fertigkeit: Flegel
+Typ: 1-händig~
+@564 = ~Dolch +2 "Necro"~
+@565 = ~Diese Waffe sieht auf den ersten Blick wie ein normaler Dolch aus. Jedoch gehörte er einst Szass Tam. Ein unglicklicher Narr stahl ihn dem Leichnam und wurde nie wieder gesehen.
+
+BESONDERHEITEN:
+
+Erlaubt folgende Sprüche zu sprechen:
+ Tote animieren
+ Schädelfalle
+ Vampirische Berührung
+ Gespensterform
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 + 2 (Stich) (10%ige Chance auf sofortigen Tod des Gegners)
+ETW0-Bonus: -2
+Gewicht: 4
+Initiativefaktor: 2
+Fertigkeit: Dolch
+Typ: 1-händig~
+@566 = ~Helm~
+@567 = ~Lindwurmkopfhelm~
+@568 = ~Lindwurmkopfhelm
+
+Der abgetrennte Kopf eines Lindwurms ist zwar furchteinflößend, aber zugleich auch beruhigend. Sein mit Fangzähnen bewehrtes Maul und seine stechenden Augen lassen einen erschauern, doch zugleich ist der Gedanke, dass er auch von gewöhnlichen Sterblichen niedriger Stufe besiegt werden kann, sehr beruhigend.
+
+BESONDERHEITEN:
+
++25% Magieresistenz
+Schützt gegen kritische Treffer
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +2 Bonus
+Stärke: +2 Bonus
+Gewicht: 2~
+@569 = ~Lederrüstung sind meist nicht weich und biegsam, wie es im allgemeinen angenommen wird. Jedoch liefert diese Art des Leders keinen besonderen Schutz.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 8
+Gewicht: 15~
+@570 = ~Dies ist die Rüstung von Malenious Strider. Gerüchte besagen, dass seine Tapferkeit in Kampf von dieser Rüstung kam. In dieser Rüstung sind viele magische Eigenschaften verborgen. Wenn sie angezogen wird, scheinen Sie nicht nur besseren Schutz zu bieten, sondern auch noch das gewisse Etwas. Bewegt man sich in Wäldern oder den schattigen Bereichen der Städte, kann man sich mit ihr besser verstecken und auch leise bewegen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 1
+Speziell: +1 Geschicklichkeit und +20% im Schatten verstecken.
+Gewicht: 25
+
+Kann benutzt werden von:
+ Kämpfern
+ Waldläufern
+ Druiden~
+@571 = ~Beschlagenes Lederwams "Der kommende Sturm"~
+@572 = ~Dieses Lederwams wurde aus den verkohlten Überresten eines vom Blitz getroffenen Drachen gefertigt. Zuletzt wurde es von Shrethu Reogher getragen, einem Zauberer. Man darf hoffen, dass er tot ist, ansonsten würde er bestimmt danach suchen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 0
+RW-Bonus: -3 
+Speziell: Elektrizitätsresistenz
+Gewicht: 4~
+@573 = ~Armbrust~
+@574 = ~Leichte Armbrust "Die Fackel"~
+@575 = ~Bei einer Armbrust handelt es sich um einen Bogen, der kreuzförmig auf einem Schaft aus Holz oder Metall befestigt ist. Der Bogen besteht für gewöhnlich aus Eschen- oder Eibenholz. Für diese Waffe werden Bolzen als Geschosse verwendet. Eine leichte Armbrust wiegt nicht nur weniger als eine schwere Armbrust, sondern kann auch öfter abgefeuert werden.
+
+EIGENSCHAFTEN:
+
+Schaden: +2 (Geschoss)
+Gewicht: 14
+Initiativefaktor: 10
+Fertigkeit: Armbrust
+Typ:  2-händig~
+@576 = ~Die Fackel wurde von einem Gnom erschaffen, der eine Neigung für Feuer hatte. Sie überstand einen Brand in seinem Laboratorium, nachdem es durch sie bei einem Test in Brand gesetzt wurde.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W6 (Geschoss) (Benötigt keine Munition)
+ETW0-Bonus: -3
+Initiativefaktor: 3
+Fertigkeit: Armbrust
+Typ: 2-händig~
+@577 = ~Mithril Kriegshammer +3~
+@578 = ~Zwergenkrieger und Kleriker sind dafür bekannt Mithrilwaffen bei sich zu führen. Diese besondere Waffe weist Zwergenrunen am Schaft auf.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3 (Wucht) + 1W6 (Elektrischer Schaden)
+ETW0-Bonus: -3
+Gewicht: 6
+Initiativefaktor: 2
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+@579 = ~Zwergen Mithril Plattenpanzer~
+@580 = ~Zwergen Mithril Plattenpanzer sind die besten Rüstungen die man kaufen kann. Zu schade, dass sie für die kleineren Rassen angefertigt wurde.
+
+EIGENSCHAFTEN:
+
+Bonus: +1 to Konstitution
+Rüstungsklasse: -2
+Gewicht: 20~
+@581 = ~Grosser Mithril Schild +3~
+@582 = ~Schilder aus Mithril sind für ihre Bruchfestigkeit bekannt. Aber die meisten Zwerge benutzen keine Schilde, weil sie lieber ihre grossen zweihändigen Hämmer und Äxte schwingen. Daher werden diese Schilde oft nur zu Übungszwecken verwendet.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -3  
++3 gegen Fernkampfwaffen
+Gewicht: 20~
+@583 = ~Kugeln +2 "Feuertaufe"~
+@584 = ~Im Innern dieser Kugeln fließen magische Ströme, die dafür sorgen, dass sie scheinbar etwas stabiler und leichter auf den Gegner zufliegen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +2 (Geschoss) +1W6 (Feuerschaden)
+ETW0-Bonus: -2
+Gewicht: 0
+Schusswaffe: Schleuder~
+@585 = ~Kurzbogen +3, "Morgoths Bogen"~
+@586 = ~Kurzbogen +3, "Morgoths Bogen"
+
+Morgoth war eine grosser Zauberer, der Bögen und Schwerter liebte. Es wird gemunkelt, dass er ein grosses Arsenal an magischen Waffen hergestellt haben soll.
+
+BESONDERHEITEN:
+
+Verschiesst pro Schuss fünf magische Geschosse. Der Bogen benötigt keine Pfeile.
+Die magischen Geschosse sind unbegrenzt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W4 +3 pro magischem Geschoss (kein Rettungswurf gegen Zaubersprüche oder Magieresistenz kann den Schaden vermindern)
+
+ETW0-Bonus: -3
+Gewicht: 4
+Initiativefaktor: 1~
+@587 = ~Hellebarde +3 "Der Betäuber"~
+@588 = ~Diese Hellebarde wurde von den besten Waffenschmieden aus dem besten Metall gefertigt. Von Zauberkundigen wurde sie mit extra Fähigkeiten ausgestattet und ist zweifelsohne eine der besten Hellebarden überhaupt. Wird ein Ziel getroffen, so wird es durch Energieströme betäubt, was einen Vorteil verschafft.
+
+BESONDERHEITEN:
+
+Es besteht eine 50%ige Chance den Gegner für 10 Sekunden zu betäuben.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +3 (Stich)
+ETW0-Bonus: -2
+Gewicht: 12
+Initiativefaktor: 7
+Fertigkeit: Speer
+Typ: 2-händig~
+@589 = ~Plattenpanzer des Königs +5~
+@590 = ~Einst getragen von dem König von Thorin Thalaxx, verschwand diese Rüstung immer wieder und tauchte immer wieder auf. Durch ihre Verzauberung wiegt sie so gut wie nichts, weist ein leichtes Glühen auf und schützt ihren Träger so immens gut, dass nur magische Waffen einen Schaden anrichten können.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -4
+Gewicht: 0
+Immunität gegen nicht-magische Waffen~
+@591 = ~Zweihändiges Schwert +2 "Rage"~
+@592 = ~Melchor Hammerthorn war ein Zwerg, der glaubte Schlachten durch Organisation und gut durchdachte Taktik gewinnen zu können. Er hatte ein paar Waffen verzaubert, die bei jedem Treffer den Gegner die Kontrolle verlieren liessen und völlig chaotisch kämpften.
+
+BESONDERHEITEN:
+
+Es besteht eine 50%ige Chance, dass jeder Treffer das Ziel in einen Berserkerrausch verfallen lässt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +2 (Klinge)
+ETW0-Bonus: -3
+Gewicht: 11
+Initiativefaktor: 9
+Fertigkeit: Zweihänder
+Typ: 2-händig~
+@593 = ~Streitaxt +3 "Duragons Macht"~
+@594 = ~Die gängigste Ausführung einer Streitaxt besteht aus einem dicken Stab von ungefähr 1,20 m Länge mit einer einschneidigen, trompetenförmigen Klinge an einem Ende. Diese Waffe wird auch Breitbeil genannt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 (Klinge)
+Gewicht: 7
+Initiativefaktor: 7
+Fertigkeit: Axt
+Typ: 1-händig~
+@595 = ~Diese Axt gehörte einst König Duragon, bevor er in der Schlacht fiel. Jahrhunderte lang war sie im Besitz des Duragon Clans, bevor sie dem Leichnam des Königs entrissen wurde. Es war eine Axt von grosser Macht, die Moradin dem Seelenschmied geweiht war.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +3 (Klinge) +2 (Elektrischer Schaden)
++1 zur Stärke
+Gewicht: 7
+Initiativefaktor: 6
+Fertigkeit: Axt
+Typ: 1-händig~
+@596 = ~Thorgensons Morgenstern +3~
+@597 = ~Thorgenson war der Kaptain der Wache des Duragon Clans. Er tötete viele Orks und Goblins mit seinem Morgenstern in dem Krieg, den sein Clan gegen die Bestien führte. In der finalen Schlacht, gegen die Brut des Bösen fiel er, in den letzten Stunden der Schlacht, als er seinen König Sven Duragon schützen wollte, kurz bevor Duragon grausam überrannt wurde.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3 (Wucht)
+ETW0-Bonus: -3
+Konstitution: +1
+Gewicht: 10
+Initiativefaktor: 4
+Fertigkeit: Flegel
+Typ: 1-händig~
+@598 = ~Das verbesserte Buttermesser von Balduran~
+@599 = ~Buttermesser von Balduran:
+
+Es gibt zahlreiche Legenden, die sich um Baldurans Brotmesser ranken. Demnach weigerte sich der Held standhaft, seine Brote mit einem anderen Messer zu streichen. Man sagt, dass Baldurans Mutter ihm das wunderbar verzierte Brotmesser als Geschenk zu seinem 18. Geburtstag überreicht hat.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Stich)
+ETW0-Bonus: -3
+Initiativefaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig~
+@600 = ~Verbesserter Spinnenfluch~
+@601 = ~Das Schwert "Spinnenfluch" wurde ursprünglich von den Orothiar-Zwergen im Mantelwald geschmiedet. Es sollte das Verhältnis zwischen dem Zwergenclan und den Großherzögen von Baldurs Tor fördern. Etwa ein Jahrhundert lang wurde es von den Großherzögen geschwungen, bis es schließlich verloren ging, ironischerweise in einem Kampf gegen Waldschrate und Spinnen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W10 +3 (Klinge) +30 (Gift in 15 Sekunden) , sofern der Rettungswurf gegen Gift scheitert
+ETW0-Bonus: -3
+Der Träger ist immun gegen alle Einflüsse, die seine Bewegungsfreiheit einschränken. Dies gilt allerdings nicht für Hast und den Effekt der Siebenmeilenstiefel.
+Gewicht: 10
+Initiativefaktor: 8
+Fertigkeit: Zweihänder
+Typ: 2-händig~
+@602 = ~Verbessertes Langschwert +1, "Flammenzunge"~
+@603 = ~Flammenzungenschwert: "Die brennende Erde"
+
+Es gab eine Zeit, in der es in Niewinter noch nicht warm und in der großen Wüste Anauroch noch nicht trocken war. So behaupten es zumindest die Legenden. Es gibt nur noch wenige Relikte, die Zeugnis dieses Zeitalters ablegen, und nur ein Bruchteil dieser Relikte hat einen Zweck, den man auch heute noch erkennen kann. Das Schwert "Brennende Erde" ist jedoch kein besonders komplizierter Gegenstand: Es verbrennt die Feinde schlicht und einfach mit magischem Feuer. Eine kryptische Rune scheint anzudeuten, dass das Schwert die Energie dazu direkt aus dem Erdreich bezieht. Wer die Waffe konstruiert hat, bleibt ein Rätsel für Euch. Auf den ersten Blick wirkt die Waffe ganz normal, aber irgendwie scheint sie nicht richtig ausbalanciert zu sein. Vielleicht passt auch der Griff nicht. Sie belastet den Unterarm, wenn man sie schwingt und passt nicht so richtig in die Hand. Das stört im Kampf zwar nicht wirklich, doch man kann den lästigen Gedanken nie ganz abschütteln, dass die Waffe vielleicht nicht für humanoide Hände gedacht war.
+
+BESONDERHEITEN:
+
++2 gegen regenerierende Kreaturen
++3 gegen Kreaturen die Kälte benutzen
++4 gegen Untote
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Klinge) +1 (Feuerschaden)
+ETW0-Bonus: -1
+Gewicht: 4
+Initiativefaktor: 3
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@604 = ~Krummsäbel +2~
+@605 = ~Krummsäbel +2 : "Rhashads Klaue"
+
+Der Krummsäbel hat seinen Namen von einem gewissen Prinz Rhashad, der einst ein kleines Fürstentum im Osten regierte. Verärgerte Palastwachen nahmen diese Klinge und einen Großteil der Besitztümer des Prinzen nach seinem Tod an sich. Welche Rolle die Wachen genau bei der ganzen Geschichte gespielt haben, ist unbekannt, aber es gibt Gerüchte, dass alle Wachen innerhalb eines Jahres starben, getötet durch diese Waffe.
+
+BESONDERHEITEN:
+
+Der Träger dieser Waffe unterliegt der Hast.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Klinge)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@606 = ~Verbesserter Ring der Feuerresistenz~
+@607 = ~Ring der Feuerresistenz: "Batalistas Passage"
+Der Großmagier Batalista benutzte diesen Gegenstand, um seine Reisen in die Ebenen des Feuers zu unternehmen. Es wird behauptet, dass er einen Salamander aus dieser Ebene sehr oft beschwor, um an der Fertigstellung dieses Ringes zu arbeiten.
+
+EIGENSCHAFTEN:
+
+Feuerresistenz: +60%~
+@608 = ~Verbesserter Helm von Balduran~
+@609 = ~Um den sagenumwobenen Helm von Balduran, dem legendären Begründer von Baldurs Tor, haben sich lange Zeit Gerüchte gerankt, er verfüge über schützende Zauberkräfte. Die wahre Natur der Zauberkraft dieses Helms ist allerdings noch nicht geklärt worden.
+
+EIGENSCHAFTEN:
+
+ETW0-Bonus: -1
+RK-Bonus: -2
+RW-Bonus: -1
+Trefferpunkte: +5
+Schützt vor kritischen Treffern
+Gewicht: 1~
+@610 = ~Kettenhemd +3~
+@611 = ~Kettenhemd +3: "Kettenhemd der Toten"
+Dieses Kettenhemd wurde in den Ruinen einer alten Stadt wiederendeckt. Es wurde von einem hochrangigem Soldaten getragen. Die Männer, die es fanden, sagen alle, dass der Mann mit diesem Kettenhemd allein war, als sie ihn fanden. Der Grund für seinen Tod ist ein Geheimnis.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 2
+Gewicht: 10~
+@612 = ~Langbogen +2~
+@613 = ~Der Langbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit. Der glatte Schaft dieses Bogens fühlt sich warm an. Dies ist offenbar auf die magische Energie zurück zu führen, die in dem Holz enthalten ist.
+
+EIGENSCHAFTEN:
+
++1 zur Geschicklichkeit
+ETW0-Bonus: -3
+Schaden: +2
+Gewicht: 3
+Initiativefaktor: 6
+Fertigkeit: Bogen
+Typ: 2-händig~
+@614 = ~Verbesster Adlerbogen~
+@615 = ~Kurzbogen, Adlerbogen: "Beschützer der Dryaden"
+
+Um ihre Gemeinschaft vor einem beängstigenden Holzfällerlager der Orks zu schützen, erhielt der Held Hannable der Weiße von den Dryaden aus dem Gulthmerwald diesen prächtigen Bogen. Als die Holzfäller versuchten, eine hohe Eiche zu fällen, wodurch die damit verbundene Dryade fast getötet worden wäre, kam es zu einer tödlichen Auseinandersetzung. Mit Hilfe kampfstarker Waldtiere tötete Hannable ganze Horden von Orks, um weiteren Schaden am Wald zu verhindern. Die Orks waren gezwungen ihre Pläne aufzugeben, wenn sie sich nicht dem fortwährenden Zorn von Hannable und dem Wald aussetzen wollten. Es versteht sich von selbst, dass der Held, der den dankbaren Dryaden zur Hilfe geeilt war, fortan ein glückliches, ja sogar SEHR glückliches Leben führte!'
+
+EIGENSCHAFTEN:
+
+Geschicklichkeit: +1
+Schadensbonus: +2 (Geschoss)
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 1
+Fertigkeit: Kurzbogen
+Typ: 2-händig~
+@616 = ~Verbesserter Gürtel "Fluch der Elfen"~
+@617 = ~Gürtel der Durchdringung: "Fluch der Elfen"
+
+Pandar von Narbental war zu seiner Zeit ein berüchtigter Straßenräuber und machte sich dadurch einen Namen, dass er den Elfen im Wald Cormanthor gehörig zusetzte. Zu ihrem Ärger suchte er im Wald wiederholt Zuflucht vor dem Gesetz und entkam mit Hilfe dieses Gürtels auch den Pfeilen der Elfen. Zu Pandars Pech erwiesen sich Grubenfallen und das allmähliche Aushungern als langsamer aber wirkungsvoller Ersatz.
+
+EIGENSCHAFTEN:
+
+Stärke wird auf 22 gesetzt
+RK-Bonus: -3 gg. (Stichwaffen)
+Gewicht: 2~
+@618 = ~Verbesserte Streitaxt +2~
+@619 = ~Streitaxt +2: "Streitaxt von Mauletar"
+
+Während des tethyrischen Bürgerkriegs war die Streitaxt von Mauletar im Besitz des Hauses von Ossyind. Diese stattliche Familie wurde verraten, als sie versuchte, aus Mauletar zu flüchten. Eine Leibwache und gleichzeitig persönlicher Freund der Familie nahm die Axt und opferte sich selbst, um genug Zeit zu gewinnen, damit die anderen flüchten konnten. Sein Schlachtruf wurde von den Göttern bevorzugt und wurde über die Länder zurückgeworfen als ein Symbol von gewidmeten Freundschaft und Loyalität. Auf diese Art wurde das magische Beil benutzt, um diese gegen jene zu verwendenden Tugenden zu wahren.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Klinge)
+ETW0-Bonus: -2
+Maximale Lebenspunkte: +10
+Gewicht: 5
+Initiativefaktor: 5
+Fertigkeit: Axt
+Typ: 1-händig~
+@620 = ~Duragons Plattenpanzer +4~
+@621 = ~Diese goldene Rüstung gehörte einst König Sven Duragon des Duragon Clans. Duragon war der letzte König des Clans vor seiner totalen Vernichtung durch Orks und Kobolde, die von einigen Duergar Zwergen angeführt wurden.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: -1
+Feuerwiderstand: +20
+Kältewiderstand: -10
+Gewicht: 18~
+@622 = ~Speer der Natur~
+@623 = ~Die eingeätzen druidischen Runen lauten wie folgt: "Die Wut des Sturmes wird den Fluch der Natur zerstören".
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Stich) +1W6 (Schaden durch Elektrizität)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Speer
+Typ: 2-händig
+
+Kann benutzt werden von:
+ Druiden
+ Waldläufern~
+@624 = ~Krummsäbel +2 "Quintus D’ Sol"~
+@625 = ~Sowohl der Säbel als auch der Krummsäbel sind durch eine einseitig scharfe, gekrümmte Klinge charakterisiert, obwohl die beiden Waffen ursprünglich aus unterschiedlichen Regionen Faerûns stammen. Der Säbel wurde aufgrund seiner Vielseitigkeit hauptsächlich von berittenen Kriegern eingesetzt, während die Entwicklung des Krummsäbels durch einen starken orientalischen Einfluss geprägt ist. Der "Shamshir", wie man ihn ursprünglich genannt hat, ist größer und stärker gekrümmt und hat eine langgezogene Spitze. Dadurch kann er zwar nur ein wenig langsamer geschwungen werden, ist aber wesentlich tödlicher.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Klinge)
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@626 = ~Quintus D' Sol gehörte dem Seeräuberkapitän mit dem Namen William Delver, der auch "der blutige Bill" genannt wurde. Er genoss es mit seiner Mannschaft, hilflose Schiffe auf See zu entern und alle Überlebenden zu töten, damit es keine Zeugen gab. Er machte aber den Fehler, ein Schiff anzugreifen, das ein Handelsschiff zu sein schien, aber in Wirklichkeit ein Truppentransporter war. Er und der Rest der überlebenden Mannschaft wurden gefangengenommen. Mit seiner Mannschaft wurden er an ihrem eigenen Schiff festgebunden und sie wurden mit ihm lebendig versenkt. Jetzt leisten ihre Körper den Opfern auf ewig Gesellschaft.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +2 (Klinge) +2W4 (Feuerschaden)
+ETW0-Bonus: -2
+Gewicht: 3
+Initiativefaktor: 3
+Fertigkeit: Krummsäbel
+Typ: 1-händig~
+@627 = ~Kriegshammer +2 "Inferno"~
+@628 = ~Wie die anderen seiner Art besteht dieser Kriegshammer vollständig aus Stahl mit einem Knochen brechenden Kopf auf einem 45 cm langen Schaft. Er wurde jedoch auch mit einigen magischen Eigenschaften versehen, so dass er im Kampf wirkungsvoller ist.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Wucht) +2 (Feuerschaden)
+ETW0-Bonus: -2
+Feuerwiderstand: +10%
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@629 = ~Kriegshammer +2 "Frostbeule"~
+@630 = ~Dieser Kriegshammer gehörte einst dem Frostriesen Korgrath. Er benannte den Hammer nach seinem Lieblingshaustier, dem Frostdrachen "Frostbeule". Als Frostbeule von einigen wackeren Abenteurern getötet wurde befahl Korgrath einen Zauber über seinen Hammer zu verhängen, auf dass er in Zukunft seine Gegner erfrieren liesse.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 (Wucht) +2 (Kälteschaden)
+ETW0-Bonus: -2
+Gewicht: 6
+Initiativefaktor: 4
+Fertigkeit: Kriegshammer
+Typ: 1-händig
+Mindeststärke: 9~
+@631 = ~Kriegshelm~
+@632 = ~Dieser Kriegshelm wurde von einem Priester des Tempus erschaffen. Nur einer Handvoll wahrlich auserlesener Priester wurde die Ehre zuteil einen Helm wie diesen zu tragen. Ein Priester würde eher sterben, als diesen Helm wegzugeben.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+ETW0-Bonus: -1
+Schützt vor kritischen Treffern
+Gewicht: 4~
+@633 = ~Helm der Gesundheit~
+@634 = ~Diese Art dekorativer Helme, die entweder aus verstärktem Leder oder Metall hergestellt sind, bedecken Gesicht und Kopf. Augenschlitze und Atemlöcher erweisen sich daher als äußerst nützlich.
+
+EIGENSCHAFTEN:
+
+RK-Bonus: -1
+Konstitution: +1
+Schutz gegen Kritsche Treffer
+Gewicht: 4~
+@635 = ~Robe der Magie~
+@636 = ~Diese mächtige Robe bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig die eigene Magieresistenz und Rettungswürfe.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 3
+RW-Bonus: -1 
+Magiewiderstand: +5%
+1 Bonuszauber der Stufe 1
+1 Bonuszauber der Stufe 2
+Gewicht: 6~
+@637 = ~Flegel +2~
+@638 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Dieser Flegel wurde magisch verbessert.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 13
+Initiativefaktor: 6
+Fertigkeit: Flegel
+Typ: 1-händig~
+@639 = ~Der Streitkolben ist eine direkte Ableitung der einfachen Keule und besteht lediglich aus einem Holzschaft, auf den ein Stein- oder Eisenkopf aufgesetzt ist. Der Kopf kann entweder mit Spitzen versehen, geflanscht oder aber auch pyramidenförmig ausgearbeitet sein.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht)
+ETW0-Bonus: -2
+Gewicht: 8
+Initiativefaktor: 6
+Fertigkeit: Streitkolben
+Typ: 1-händig~
+@640 = ~Morgenstern +2~
+@641 = ~Ein Morgenstern besteht aus einem hölzernen Schaft, auf den ein mit Eisenspitzen besetzter Metallkopf aufgesetzt ist. Die Gesamtlänge eines Morgensterns beträgt etwa 1,20 m. Der Kopf kann rund, oval oder zylindrisch geformt sein. Unabhängig von der jeweiligen Ausführung ist der Kopf von Morgensternen meist mit einer langen Spitze zum Stoßen versehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 2W4 +3 (Wucht)
+ETW0-Bonus: -2
+Sewicht: 10
+Initiativefaktor: 6
+Fertigkeit: Flegel
+Typ: 1-händig~
+@642 = ~Flegel +3 Fluch des Winters~
+@643 = ~Dieser Flegel hat eine Aura der Kälte. Niemand weiss woher er stammt, aber es wird gemunkelt, dass er von einer Priesterin der Auril angefertigt wurde.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht) +1W3 (Kälteschaden)
+ETW0-Bonus: -3
+Gewicht: 7
+Initiativefaktor: 3
+Fertigkeit: Flegel
+Typ: 1-händig~
+@644 = ~Streitkolben +3 "Der Reinigende"~
+@645 = ~In den Stiel des Streitkolbens ist folgende Inschrift eingearbeitet: "Die mächtige Reinigung wird verhindern, dass das Böse die Welt regiert". Dieser Streitkolben wurde erschaffen um das Böse mit dem Feuer aus dieser Welt zu verbannen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Wucht) +1 (Feuerschaden)
+ETW0-Bonus: -3
+Weisheit +1
+Gewicht: 8
+Initiativefaktor: 6
+Fertigkeit: Streitkolben
+Typ: 1-händig
+
+Kann benutzt werden von:
+ Klerikern
+ Waldläufern
+ Paladinen~
+@646 = ~Brotus Blutdurst~
+@647 = ~Duergarkleriker~
+@648 = ~Gorken Blutaxt~
+@649 = ~Duergarkämpfer~
+@650 = ~Duergardieb~
+@651 = ~Seemann Wally G Hrey~
+@652 = ~Seemann Willi D Fain~
+@653 = ~Thorengrim Hammerfaust~
+@654 = ~Maria Dunkelklinge~
+@655 = ~Khan Noonian Singh~
+@656 = ~Quintus der Schnelle~
+@657 = ~Garak the Banelord~
+@658 = ~Gorth~
+@659 = ~Sir Winton~
+@660 = ~Elite der schwarzen Krallen~
+@661 = ~Schwarze Silvia~
+@662 = ~Morgan~
+@663 = ~Druide~
+@664 = ~Selene~
+@665 = ~Brennender Tod~
+@666 = ~Ashirukuru~
+@667 = ~Schattenkrieger~
+@668 = ~Gebirgsbär~
+@669 = ~Polarbär~
+@670 = ~Zargos Flintblade~
+@671 = ~Tristan~
+@672 = ~Malious~
+@673 = ~Phallen Nightsbane~
+@674 = ~Necardian~
+@675 = ~Isolde~
+@676 = ~Mendas~
+@677 = ~Drache~
+@678 = ~Miranda die Hexe~
+@679 = ~Kieran~
+@680 = ~Wendell~
+@681 = ~Verrückte Dryade~
+@682 = ~Chef Martel~
+@683 = ~Goblin~
+@684 = ~Grosser Ghul~
+@685 = ~Erzmagierin Arias~
+@686 = ~Geisterritter~
+@687 = ~Anton Valor~
+@688 = ~Garrett~
+@689 = ~Synthia Malivore~
+@690 = ~Erzmagier Natas~
+@691 = ~Gnoll Clan Anführer~
+@692 = ~Gnoll Clan Wache~
+@693 = ~Smeagol~
+@694 = ~Behelmter Horror~
+@695 = ~Hobgoblin~
+@696 = ~Hobgoblin Elite~
+@697 = ~Hobgoblin General~
+@698 = ~Black Talon General~
+@699 = ~Kobold~
+@700 = ~Kobold Clan Anführer~
+@701 = ~Kobold Schamane~
+@702 = ~Magnus~
+@703 = ~Juwelier Quincy~
+@704 = ~Ratava Artsym~
+@705 = ~Wache~
+@706 = ~Justice shall be swift and final!~ [CMJUST01]
+@707 = ~Vallius~
+@708 = ~Najara~
+@709 = ~Vor den Augen meines Gottes seid Ihr ein Nichts.~ [CMNAJ01]
+@710 = ~Ich bin der einzig wahre Mächtige!.~ [CMNAJ02]
+@711 = ~Ahhh~ [CMNAJ03]
+@712 = ~Ich habe ihn verfehlt!~ [CMNAJ05]
+@713 = ~Oger Magier~
+@714 = ~Oversight Wache~
+@715 = ~Oversight Priester~
+@716 = ~Oversight Kriegshexer~
+@717 = ~Oversight Elite~
+@718 = ~Oversight Barde~
+@719 = ~Torture Twin~
+@720 = ~Buttler~
+@721 = ~Halabasher Dhunshar~
+@722 = ~Das Eichhörnchen Rocky "Der Fels"~
+@723 = ~Nikita~
+@724 = ~Michael~
+@725 = ~Paul Wolf~
+@726 = ~Nie wieder wird es Euch gelingen die Mauern dieser Festung zu bezwingen.~ [PAUL7]
+@727 = ~Pain.~ [PAUL8]
+@728 = ~Ahhh~ [PAUL3]
+@729 = ~Nein! Wie ist das möglich?~ [PAUL2]
+@730 = ~Madeline~
+@731 = ~Michael Samuelle~
+@732 = ~Quinn~
+@733 = ~Davenport~
+@734 = ~Andrea~
+@735 = ~George~
+@736 = ~Sir Jones~
+@737 = ~Sektion Operative~
+@738 = ~Sektion Elite~
+@739 = ~Lillian Tiefwasser~
+@740 = ~Skelett~
+@741 = ~Skelettkrieger~
+@742 = ~Todesritter~
+@743 = ~Lindwurm Baby~
+@744 = ~Beren~
+@745 = ~Luthian~
+@746 = ~Magnus Wares~
+@747 = ~Hammerfaust Schmiede~
+@748 = ~Juwelier Quincy~
+@749 = ~Kieran's Laden~
+@750 = ~Mystra's Magischer Laden~
+@751 = ~Härtere Gegner~
+@752 = ~Stufe 40 Regelwerk installieren?~
+@753 = ~Stufe 40 Regelwerk (Sollte nicht installiert werden, wenn man bereits ein anderes Regelwerk wie beispielsweise das von DSotSC installiert hat.)~
+@754 = ~Nur BG1~
+@755 = ~Mantel~
+@756 = ~Ein Mantel ist ein leichtes Kleidungsstück, das vor Umwelteinflüssen schützt.~
+@757 = ~Flegel~
+@758 = ~Ein Flegel besteht aus einem kräftigen Holzgriff, der mit einem Eisenstab, einem Dornen besetzten Holzstab oder einer mit Dornen besetzten Eisenkugel verbunden ist. Die beiden Teile sind entweder mit einem Scharnier oder einer Kette verbunden. Ursprünglich wurde diese Waffe zum Dreschen von Getreide benutzt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +1 (Wucht)
+Gewicht: 15
+Initiativefaktor:  7
+Fertigkeit: Flegel
+Typ: 1-händig
+
+Kann nicht benutzt werden von:
+ Druiden
+ Magiern
+ Hexenmeistern
+ Dieben~
+@759 = ~Kampfstab~
+@760 = ~Der Kampfstab ist ein 1,80 bis 2,70 m langer Holzstab und somit die einfachste aller Stangenwaffen. Qualitativ hochwertige Kampfstäbe sind aus festem Eichenholz hergestellt und an beiden Enden mit Metall beschlagen. Der Kampfstab wird mit beiden Händen geschwungen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 (Wucht)
+Gewicht: 4
+Initiativefaktor: 4
+Fertigkeit: Kampfstab
+Typ: 2-händig~
+@761 = ~Ring~
+@762 = ~Ein Ring ist ein kleines Band aus wertvollem Metall, das als Schmuck am Finger getragen wird. Einige Ringe sind verzaubert und verleihen magische Fähigkeiten. Diese Ringe sind heißbegehrt, insbesondere von Abenteurern und Magiern.~
+@763 = ~Trank~
+@764 = ~Axt~
+@765 = ~Krummsäbel~
+@766 = ~Armschützer~
+@767 = ~Schienenpanzer~
+@768 = ~Kriegsammer~
+@769 = ~Plattenpanzer~
+@770 = ~Grosser Schild~
+@771 = ~Kurzbogen~
+@772 = ~Hellebarde~
+@773 = ~Helm~
+@774 = ~Zweihänder~
+@775 = ~Flegel~
+@776 = ~Messer~
+@777 = ~Langschwert~
+@778 = ~Krummsäbel~
+@779 = ~Ring~
+@780 = ~Helm~
+@781 = ~Kettenhemd~
+@782 = ~Langbogen~
+@783 = ~Kurzbogen~
+@784 = ~Gürtel~
+@785 = ~Kriegsaxt~
+@786 = ~Speer~
+@787 = ~Kriegshammer~
+@788 = ~Robe~
+@789 = ~Streitkolben~
+@790 = ~Morgenstern~
+
+// New Content
+@791    = ~Garret~
+@792    = ~Allister~
+@793    = ~Zara~
+@794    = ~Hilgaar~
+@795    = ~Taneth~
+@796    = ~Erica~
+@797    = ~Jeneik~
+@798    = ~Gnoll Elite Krieger~
+@799    = ~Gnoll Veteran~
+@800    = ~Jhaeros Auglathla~
+@801    = ~Ygrainne Windstar~
+@802    = ~Elfen Leibwache~
+@803    = ~Händler~
+@804    = ~Ms. Godfrey~
+@805    = ~Karawanenwächter~
+@806    = ~Wache des Morgengottes~
+@807    = ~Morgenmeister~
+@808    = ~Morgengott~
+
+@809    = ~Der kleine Beutel eignet sich vorzüglich, um Edelsteine darin aufzubewahren.~
+
+@810    = ~Edelsteinbeutel~
+
+@811    = ~In dem stabilen Behälter kann man mehrere Dutzend Schriftrollen verwahren, die so vor Feuer, Regen oder Elektrizität geschützt sind - Gefahren, denen ein Magier, der auf Abenteuer auszieht, regelmäßig ausgesetzt ist~
+
+@812    = ~Schriftrollenbehälter~
+
+@813    = ~Auch dieser magische Beutel wirkt, wie alle magischen Beutel, wie ein einfacher Stoffsack von ungefähr 60 x 120 cm Größe. Der Nimmervolle Beutel öffnet sich in einen außerdimensionalen Raum und ist innen wesentlich größer als außen. Unabhängig davon, was man hineintut, wiegt der Beutel immer das Gleiche.~
+
+@814    = ~Nimmervoller Beutel~
+
+@815    = ~Der Schultergürtel ist ideal dafür geeignet, Kugeln, Wurfpfeile, Pfeile oder Bolzen aufzubewahren..~
+
+@816    = ~Munitionsgürtel~
+
+@817    = ~Diese Ledertasche kann man aufklappen. An den gepolsterten Seiten kann man zahlreiche Tränke mit Lederschnüren sicher festmachen. Eine derartige Tasche wird normalerweise von reisenden Heilern benutzt.
+
+EIGENSCHAFTEN:
+
+Gewicht: 5~
+
+@818    = ~Tränketasche~
+@819    = ~Godfreys Waren~
+@820    = ~Robe der Roten Zauberer~
+@821    = ~Diese mächtige Robe der Roten Zauberer bietet Schutz vor allen Formen körperlicher Angriffe und erhöht gleichzeitig die eigene Magieresistenz und Rettungswürfe. Aufgrund ihrer Verzauberung kann sie nur von Magiern mit böser Gesinnung getragen werden.EIGENSCHAFTEN:
+
+Rüstungsklaase: 5
+Magiewiderstand: +5%
+RW-Bonus: -1 
+Gewicht: 6~
+
+@822    = ~Schleuder +2~
+@823    = ~Schleudern gibt es seit Menschengedenken. Grundsätzlich bestehen sie aus einem Leder- oder Stoffriemen und einem Beutel für das Geschoss. Die Waffe wird an beiden Enden des Riemens gehalten und über dem Kopf im Kreis geschwungen. Wenn die Höchstgeschwindigkeit erreicht ist, wird das Geschoss abgefeuert, indem man ein Ende des Riemens loslässt.
+
+EIGENSCHAFTEN:
+
+Schaden: +1 Geschoss)
+ETW0-Bonus: -1
+Gewicht: 0
+Initiativefaktor: 5
+Fertigkeit: Schleuder
+Typ: 1-händig~
+
+@824    = ~Dolch +2~
+@825    = ~Dolch +3~
+@826    = ~Ein typischer Dolch ist mit einer spitzen, normalerweise zweischneidigen Klinge versehen, wodurch er sich von einem Messer unterscheidet. Ein Messer hat nur eine Schneide und ist etwas kürzer als ein Dolch.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W6 +3 (Stich)
+ETW0-Bonus: -2
+Gewicht: 2
+Initiativefaktor: 0
+Fertigkeit: Dolch
+Typ: 1-händig~
+@827    = ~Rüstung des Lathander~
+@828    = ~Elfenkettenhemd +1~
+@829    = ~Die Elfen verstehen es, Werkstücke äußerst grazil und gleichzeitig stabil zu fertigen. Dadurch können sie wunderbare Dinge schaffen, die dennoch praktisch verwendbar sind. Dazu gehören beispielsweise Elfenkettenhemden. Derartige Kettenhemden sind so fein gewebt, dass man sie unauffällig unter normaler Kleidung tragen kann. Sie behindern in keiner Weise und sind so leicht, dass auch Diebe und Kämpfer/Magier sie einsetzen können, ohne dass ihre Fähigkeiten eingeschränkt werden.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: 4
+Gewicht: 10~
+@830    = ~Elfenlangschwert +2~
+@831    = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +2 (Klinge)
+ETW0-Bonus: -1
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit: Langschwert
+Typ: 1-händig~
+@832    = ~Elfenlangschwert +1~
+@833    = ~Diese Schwerter werden auch als zweischneidige Schwerter, Kriegsschwerter oder Militärschwerter bezeichnet. Es gibt keine einheitliche Form des Langschwertes. Seine Form und Länge sind von Kultur zu Kultur unterschiedlich und können selbst innerhalb einer Kultur je nach Zeitalter variieren. Das grundlegendste Merkmal aller Langschwerter ist ihre Länge, die zwischen 90 cm und 1,20 m beträgt. Im letzteren Fall nimmt die Klinge 1 m der Gesamtlänge ein. Die meisten Langschwerter besitzen eine zweischneidige Klinge mit einer scharfen Spitze. Trotz dieser Spitze ist das Langschwert nicht zum Stoßen, sondern zum Schwingen vorgesehen.
+
+EIGENSCHAFTEN:
+
+Schaden: 1W8 +1 (Klinge)
+ETW0-Bonus: -1
+Gewicht: 4
+Initiativefaktor: 5
+Fertigkeit:Langschwert
+Typ: 1-händig~
+@834    = ~Elfenlangbogen +2~
+@835    = ~Der Elfenlangbogen ist dem Kurzbogen sehr ähnlich. Der einzige Unterschied besteht darin, dass der Bogen fast so groß wie der Bogenschütze ist, normalerweise etwa 1,80 bis 2 m. Obwohl der Langbogen im Einsatz etwas langsamer ist als der Kurzbogen, hat er eine größere Reichweite und eine höhere Treffsicherheit.
+
+EIGENSCHAFTEN:
+
+Schaden: +2
+ETW0-Bonus: -2
+Geschicklichkeit +1
+Gewicht: 3
+Initiativefaktor: 7
+Fertigkeit: Langbogen
+Typ: 2-händig~
+@836    = ~Helm desLathander~
+@837    = ~Schild des Lathander~
+@838    = ~Hammer des Lathander~
+@839    = ~Dieser Hammer ist die typische Waffe der Morgenmeister von Lathander. Dieser Hammer strahlt eine magische Wärme aus, sobald man den Kopf des Hammers berührt.
+
+EIGENSCHAFTEN:
+
+Schaden: 1D4 +3 (Wucht)  +4 (Feuerschaden)
+ETW0-Bonus: -2
+Gewicht: 5
+Initiativefaktor: 2
+Fertigkeit: Kriegshammer
+Typ: 1-händig~
+ @840  = ~Sintara Al-Mustafa~
+ @841  = ~Karawanen Güter~
+ @842  = ~Der Preis stimmt~
+ @843  = ~Al-Mustafa's magische Sachen~
+
+// New for BGT
+@844 = ~Gespensterform~
+@845 = ~Gespensterform (Veränderung, Illusion)
+Grad: 3
+Reichweite: 0
+Dauer: 2 Runden/Stufe
+Zeitaufwand: 1
+Wirkungsbereich: Der Anwender
+Rettungswurf: Keiner
+Wenn dieser Zauberspruch angewendet wird, werden der Zauberer und seine ganze Ausrüstung schemenhaft. Die zaubernde Person ist nur durch magische oder spezielle Angriffe angreifbar, wie durch +1 Waffen oder besser. Oder von Kreaturen, die sonst nur von magischen Waffen verletzbar sind. Der Zaubernde erhält zusätzlich 25% zum Magiewiderstand. In der Gespenstform ist der Zaubernde außerstande Zauber zu wirken.~
+
+// New info or error texts
+@890 = ~BG:EE Installation entdeckt.~
+@891 = ~Tutu Installation entdeckt.~
+@892 = ~BGT Installation entdeckt.~
+@893 = ~Bitte für BG:EE, EET, TotSC, Tutu oder BGT installieren.~
+@894 = ~BG1 Installation entdeckt.~
+@895 = ~EET Installation entdeckt.~
+
+/* New in BGEE */
+
+@900 = ~Ja?~
+@901 = ~Das Verhängnis erwaret Euch!~
+@902 = ~Schutzmantel des Barden +2~
+@903 = ~Dieser einfache Mantel wurde zum Schutz seines Trägers mit geringeren magischen Eigenschaften ausgestattet. Durch ihn werden die Rettungswürfe und die Rüstungsklasse modifiziert. Ideal für Magier und andere Klassen, welche keine schweren Rüstungen oder dergleichen tragen dürfen.
+
+EIGENSCHAFTEN:
+
+Rüstungsklasse: +2
+Rettungswürfe: +2
+
+Gewicht: 3~
+@904 = ~Langbogen des Barden: Dalewood (Talholz)~
+@905 = ~Dalewood ist Morwens persönlicher Bogen, der ihr von ihrem Mentor, Dale dem Barden gegeben wurde. Dale stammte aus Bryn Shander, einer der zehn Städte des Eiswind Tals. Er war bekannt für seine Heldentaten und seine epischen Geschichten, die um die Lagerfeuer herum erzählt und gesungen wurden. Er starb durch die Hände eines gedungenen Mörders und sein Blut klebt nach all diesen Jahren immer noch an diesem Bogen.
+
+EIGENSCHAFTEN:
+
+1 extra Angriff pro Runde
+
+ETW0: +3
+Schaden: +2
+Initiativefaktor: 5
+Fertigkeit: Langbogen
+Typ: 2-händig
+Mindeststärke: 6~
+@906 = ~Armschienen von Dale dem Barden~
+@907 = ~Dies waren die Armschienen von Morwens Mentor, Dale dem Barden. Sogar ohne seine Armschienen konnte er mühelos einen Blattschuss aus großer Entfernung durchführen. Sein Blut klebt immer noch an diesen Armschienen, nachdem er von einem Auftragsmörder getötet wurde.
+
+EIGENSCHAFTEN:
+
+ETW0: +3 bei Fernkampfwaffen
+
+Gewicht: 2~
+
+@908 = ~Morwens beschlagenes Lederwams +2~
+@909 = ~Das beschlagene Lederwams hat wenig mit der normalen Lederrüstung gemeinsam. Die Lederrüstung ist ein gehärteter Panzer, während das beschlagene Lederwams weich und biegsam und mit hunderten von Metallnieten besetzt ist. Die Nieten sind so nahe beieinander, dass sie einen flexiblen Überzug aus hartem Metall bilden, durch den sich Hiebe und Stiche abwehren lassen. Das Grundmaterial aus weichem Leder dient lediglich dazu, die Nieten zusammen zu halten.
+
+EIGENSCHAFTEN:
+
++10 auf Taschendiebstahl
+Rüstungsklasse: 5 (4 gegen Hiebwaffen, 5 gegen Stichwaffen und Geschosse)
+Mindeststärke: 6
+Gewicht: 15~
+// Nikita
+@910 = ~Nikita~
+@911 = ~Ich verstehe.~ [HFTHR029]
+@912 = ~Das können wir nicht gewinnen.~ [HFTHR001]
+// No @913, traify oddity
+@914 = ~Haltet mir den Rücken frei.~ [HFTHR008]
+@915 = ~Wir sollten bald rasten. Ich muss unbedingt aus diesen Sachen raus.~ [HFTHR010]
+@916 = ~Ich habe nicht den ganzen Weg auf mich genommen, um vor Langeweile zu sterben.~ [HFTHR012]
+@917 = ~Lasst uns etwas Blut verspritzen.~ [HFTHR003]
+@918 = ~Wollt Ihr es wirklich probieren?~ [HFTHR004]
+@919 = ~Seid Ihr bereit für mich?~ [HFTHR005]
+@920 = ~Irgendwelche letzten Worte?~ [HFTHR006]
+@921 = ~Ihr werdet bluten.~ [HFTHR007]
+@922 = ~Ughh~ [HFTHR034]
+@923 = ~Tot~ [HFTHR037]
+@924 = ~Mir ist so kalt.~ [HFTHR014]
+@925 = ~Ja?~ [HFTHR016]
+@926 = ~Ich bin hier.~ [HFTHR017]
+@927 = ~Wollt Ihr mich?~ [HFTHR018]
+@928 = ~Bereit und scharfgestellt.~ [HFTHR019]
+@929 = ~In Ordnung.~ [HFTHR023]
+@930 = ~Sehr schön.~ [HFTHR024]
+@931 = ~Ja?~ [HFTHR025]
+@932 = ~Was immer Ihr sagt.~ [HFTHR026]
+@933 = ~Für ein heißes Bad wäre ich sogar zu einem Mord fähig.~ [HFTHR030]
+@934 = ~Seid vorsichtig, wohin Ihr mit dem Ding zielt.~ [HFTHR031]
+@935 = ~Argh.~ [HFTHR034]
+@936 = ~Erwartet nicht, dass ich die Leiche bis zur nächsten Stadt schleppe.~ [HFTHR040]
+@937 = ~Erledigt.~ [HFTHR027]
+@938 = ~NIKITA behält ihre Vergangenheit lieber für sich. Alles was Ihr wisst, ist, dass sie eine Waise war, bis sie als Jugendliche zur Sektion gebracht wurde. Sie bildeten sie zu einer charismatischen Mörderin aus, die böse Individuen tötete. Dies sollte alles einem guten Zweck dienen. Aber mit der Zeit wurde die Sektion korrupt und begann selbst das Übel zu werden, gegen das sie gekämpft hatte. Nikita wurde aus der Sektion befreit, als Ihr die Organisation zerstört habt.~
+// Thorin
+@939 = ~Thorin~
+@940 = ~Endlich steht der mächtige Abenteurer vor mir. Womit habe ich diese Ehre verdient?~ [DMF42]
+@941 = ~Es ist sinnlos, flieht!~ [DMF02]
+@942 = ~Verflucht sei dieser Anblick!~ [DMF32]
+@943 = ~Ich hoffe, Ihr erstickt daran!~ [DMF33]
+@944 = ~Wenn alles fehlschlägt, schickt den Zwerg vor.~ [DMF08]
+@945 = ~Ich werde wohl bald eine Rast brauchen.~ [DMF10]
+@946 = ~Was, erwartet Ihr etwa, dass unsere Feinde zu uns kommen?~ [DMF13]
+@947 = ~Grrrrr!~ [DMF03]
+@948 = ~Ich spucke auf Euch.~ [DMF04]
+@949 = ~Komm her, Du Wicht!~ [DMF05]
+@950 = ~Sterbt!~ [DMF06]
+@951 = ~Ich werde meinen Bart in Eurem Blut waschen!~ [DMF07]
+@952 = ~Ist das schon alles was Ihr könnt?~ [DMF34]
+@953 = ~Ugghh!~ [DMF36]
+@954 = ~Aghh! Ich brauche einen Heiler!~ [DMF14]
+@955 = ~Jep?~ [DMF16]
+@956 = ~Was?~ [DMF17]
+@957 = ~Ich bin hier.~ [DMF18]
+@958 = ~Hmm?~ [DMF19]
+@959 = ~Bereit.~ [DMF20]
+@960 = ~Ich höre Euch.~ [DMF22]
+@961 = ~Erledigt.~ [DMF23]
+@962 = ~Schon gut.~ [DMF24]
+@963 = ~Bin unterwegs.~ [DMF25]
+@964 = ~Gar kein Problem.~ [DMF26]
+@965 = ~Jepp.~ [DMF27]
+@966 = ~Ist das alles?~ [DMF28]
+@967 = ~Goblin-Kinderspiel.~ [DMF29]
+@968 = ~Ihr habt wirklich keine Ahnung, oder?~ [DMF30]
+@969 = ~Das ist richtig, nur weiter so.~ [DMF31]
+@970 = ~Sterbt~ [DMF06]
+@971 = ~Ughh.~ [DMF36]
+@972 = ~Als Ihr ihn nach seiner Vergangenheit fragt, entgegnet Euch THORIN, dass er dem berühmten Steinklingen-Klan angehört, der einst viele Jahre lang Durlags Hauptmann der Wache stellte. Sein Großvater war der letzte, der Durlag diente, bevor das Übel über Durlag und seine Leute kam. Er möchte gerne mit der Gruppe zu Durlags Turm reisen, um einige Familienerbstücke zu bergen, die sich vielleicht noch dort befinden und um zu sehen, was mit seinem Großvater und dem berühmten Durlag Trolltöter geschehen war.~
+// Morven benutzt das gleiche soundset wie Nikita
+@973 = ~Morwen~
+@974 = ~Als ihr sie nach ihrer Vergangenheit fragt, sagt MORWEN, dass sie aus einer gut situierten Famile in Niewinter stammt. Den ersten Eindruck über die Epen und Geschichten der Skaldenbarden aus dem Norden bekam sie, als ihre Familie die Region des Eiswind Tales mit ihr besuchte.
+Seit dem ist sie von den epischen Geschichten und Abenteuern besessen gewesen. Sie wollte von den Skaldenbarden lernen, aber diese kamen leider sehr selten nach Niewinter, bis zu dem Tag, als Dale der Barde dort Zwischenstation machte. Sie sah ihn das erste Mal in einer der ansässigen Tavernen, wo er seine epischen Heldentaten in einem Lied vortrug. Sie stellte sich ihm vor, und kurz darauf unterrichtete er Morwen in den Fertigkeiten der Skalden und sie wurde eine ausgezeichnete Bogenschützin. Nach ihrer Ausbildung wurde sie des langweiligen Nachtlebens in Niewinter überdrüssig und beschloss, südwärts zur Schwertküste zu reisen, nachdem sie von der Eisenkrise hörte. Sie reiste nach Beregost, um jemanden zu finden, der wie sie selbst nach Abenteuern sucht.~

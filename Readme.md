@@ -1,4 +1,4 @@
-# WIP Dark Horizons After-EET WIP
+# Dark Horizons, modification for BG:EE, EET, BGT, TuTu or BG1!
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
 
@@ -13,7 +13,9 @@
 ## Description:
 ---------------
 
-Quest mod for Baldur's Gate Enhanced Edition (BGEE) and the Enhanced Edition Trilogy (EET) :
+Quest mod for Baldur's Gate: Enhanced Edition (BG:EE), Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy (EET):
+
+(This version may work with BG1 with TotSC and Tutu but it is untested, feedback are welcome...)
 
 Dark Horizons is a WeiDU-based mod for Baldur's Gate with Tales of the Sword Coast. This mod will have one major quest. An organization has been contracted to seek you out and eliminate you by whatever means necessary. Find out who they are before they take you out of play.
 There will be multiple minor quests as well a few "Fed Ex" quests.
@@ -29,14 +31,20 @@ Extract archive contents into your game directory
 
 Though this mod is made using the WeiDU standard, and *should* be compatible with all other WeiDU-based mods, there is always the possibility for conflicts. We suggest you install this mod AFTER the official patches. If you encounter any problems installing the mod, please our forums. 
 
-Install this mod **AFTER** EET
+Install this mod 
 
-## Compatibility :
+
+## Compatibility:
 ------------------
 
-Dark Horizons should be compatible with most Weidu mods, there is always a chance that incompatibilities will arise. This version works with Baldur's Gate: Enhanced Edition and the Enhanced Edition Trilogy.
+Dark Horizons should be compatible with most Weidu mods, there is always a chance that incompatibilities will arise. This version works with Baldur's Gate: Enhanced Edition, Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy.
 
-## FAQS :
+**EET** : Install this mod **in your BG2:EE game AFTER** EET!
+
+**BGT** : Install this mod **in your BG2 game AFTER** BGT!
+
+
+## FAQS:
 --------
 
 Q: What do I need to use this MOD?
@@ -52,7 +60,7 @@ Q: Rumor has it this mod now incorporates the BG1 Adventures and Forge mods. Tru
 A: True. The original authors were kind enough to add this into Dark Horizons. 
 
 
-## Credits
+## Credits:
 -----------
 
 Many people are to be thanked for their support and contribution to this mod.
@@ -80,14 +88,21 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 ## Version History:
 -------------------
 
-- Version BGEE / EET 2.50 Release. "" "", 2023                                                                                                                     
-																																								   
-   CHANGES                                                                                                                                                         
-																																								   
+- Version BGEE / EET / BGT - WIP
+
+    CHANGES
+
+	Combined version for BG:EE, EET and BGT
+	Add detection for Enhanced Editions for using new tis and PVRZ and not for other platforms
 	Update CMTNIKIT.baf for EET continuity
-	Fix for DarkHorizonsBGee/BGT/stores/CMMERC06.sto thanks to P_zombie and Paladin84
+	Fix for DarkHorizons/BGT/stores/CMMERC06.sto thanks to P_zombie and Paladin84
 	Missing ACTION_IF GAME_IS ~ eet ~
-	Add EET Compat originaly included BY EET                                                                                                                       
+	Add BG1.tpa to lib folder for (maybe) BG1 vanilla compatibility
+	tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility
+	Use variables to select game folder
+	Add g3_bgee_cpmvars.tpa in lib folder                                                                                                                          
+	Modified tp2 and new folder soundsBGEE and bamsBGEE according to the above changes                                                                             
+    Add EET Compat originaly included BY EET                                                                                                                       
 		- already in BG:EE file, so no needed for BGEE OR EET                                                                                                      
 		FIRE_3.bam                                                                                                                                                 
 		FIRE_4.bam                                                                                                                                                 
@@ -101,42 +116,57 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 		FIRE_1.bam                                                                                                                                                 
 		FIRE_3.bam                                                                                                                                                 
 		FIRE_4.bam                                                                                                                                                 
-		FIRE_4G2.bam                                                                                                                                               
-	Modified tp2 and new folder soundsBGEE and bamsBGEE according to the above changes                                                                             
-	Add g3_bgee_cpmvars.tpa in lib folder                                                                                                                          
-	Changes to tp2 for EET compatibility (using %area_prefix%)                                                                                                     
+		FIRE_4G2.bam
+	Add readme.md
+
+- Version BGEE 2.16 Release. December 28, 2023
+
+    CHANGES
 																																								   
-																																								   
-- Version BGEE 2.15 Release. January 15, 2023                                                                                                                      
-																																								   
-    CHANGES                                                                                                                                                        
-																																								   
-	Add PVRZ folder with PVRZ from original BGEE / IWDEE	                                                                                                       
-	Change *tis with TIS from original BGEE / IWDEE	                                                                                                               
-	Add COPY ~ DarkHorizonsBGee/PVRZ ~ ~ override ~ to tp2	                                                                                                       
-	A forgotten correction for MABRAC02.itm                                                                                                                        
-																																								   
-	Up setup.exe                                                                                                                                                   
-	Add BWP Fix from BigWorldSetup-Fixpack                                                                                                                         
-		.Items : CMHAQ02, CMS1H01, CMS1H08, CMSTQ02, CMSTQ03, CMSTQ04, CMSTQ05,  CMSWQ14.                                                                          
-		.DLG : CMQUEST1.d                                                                                                                                          
-	Up Russian translation from ArcaneCoast                                                                                                                        
-	Delete Backup                                                                                                                                                  
-																																								   
-- Version BGEE 2.13 Release. November 29, 2015                                                                                                                     
-																																								   
-    CHANGES                                                                                                                                                        
-																																								   
-    fixed a few sound issues in CMPAUL.tra and the tp2 file (thanks to Porfirion and cuttooth)                                                                     
-    updated Polish translation for texts from v2.12                                                                                                                
-    addition of voiceover for Polish language                                                                                                                      
+	Add Simplified Chinese translation by Lzw104522773 
+
+- Version BGEE 2.15 Release. October 8, 2023  
+
+    CHANGES  
+	
+	Add InfinityAutoPackager thanks to AL|EN  
+	Add metadata and label for Project Infinity  
+	Update Italian and German translation thanks to Frenzgyn  
+	Add Spanish translation by AlaisFcZ  
+	Update Russian translation thanks to Paladin84  
+	Update Polish translation thanks to Roberciik  
+	Update CMTNIKIT.baf for EET continuity  
+	Fix for DarkHorizonsBGee/BGT/stores/CMMERC06.sto thanks to P_zombie  
+
+- Version BGEE 2.14 Release. January 15, 2023  
+
+    CHANGES
+
+	Add PVRZ folder with PVRZ from original BGEE / IWDEE  
+	Change *tis with TIS from original BGEE / IWDEE  
+	Add COPY ~ DarkHorizonsBGee/PVRZ ~ ~ override ~ to tp2  
+	A forgotten correction for MABRAC02.itm  
+	Up setup.exe  
+	Add BWP Fix from BigWorldSetup-Fixpack  
+		.Items : CMHAQ02, CMS1H01, CMS1H08, CMSTQ02, CMSTQ03, CMSTQ04, CMSTQ05,  CMSWQ14.  
+		.DLG : CMQUEST1.d  
+	Up Russian translation from ArcaneCoast  
+	Delete Backup  
+
+- Version BGEE 2.13 Release. November 29, 2015
+
+    CHANGES
+
+    fixed a few sound issues in CMPAUL.tra and the tp2 file (thanks to Porfirion and cuttooth)
+    updated Polish translation for texts from v2.12
+    addition of voiceover for Polish language
     updated to WeiDU 238                                                                                                                                           
 																																								   
 - Version BGEE 2.12 Release. January 21, 2015                                                                                                                      
 																																								   
     CHANGES                                                                                                                                                        
 																																								   
-    Added French translation thanks to Sanctifer (of the d'Oghmatiques)                                                                                            
+    Added French translation thanks to Sanctifer (of the d'Oghmatiques)
     Added Polish translation (from BGT version)                                                                                                                    
     automatic conversion of texts to UTF8 for BGEE                                                                                                                 
     traification of new dialogs and stuff                                                                                                                          

@@ -1,4 +1,4 @@
-@0    = ~ "Horizontes Oscuros" Mod para Puerta de Baldur: Edición Mejorada~
+@0    = ~"Horizontes Oscuros" Mod~
 @1    = ~****************************************~
 @2    = ~* Dark Horizons Mod Version 2.12       *~
 @3    = ~* http://www.teambg.net                *~
@@ -7,7 +7,7 @@
 @6    = ~* THE DARK HORIZONS IN YOUR GAME       *~
 @7    = ~*      DIRECTORY.                      *~
 @8    = ~*****************************************~
-@9    = ~No parece que tengas instalados BG:EE, TuTu o BGT.~
+@9    = ~No parece que tengas instalados BG:EE, EET, TotSC, TuTu o BGT.~
 @10   = ~Armadura de malla de placas~
 @11   = ~Armadura de placa enana +3~
 @12   = ~La Armadura de placas es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle. De construcción similar a la cota de malla de bronce, la cota de malla auténtica se compone de cadenas y cuero.
@@ -15,7 +15,12 @@
 ESTADÍSTICAS:
 
 Clase de Armadura: 3
-Peso: 50~
+Peso: 50
+No utilizable por:
+ Bardo 
+ Druida
+ Mago
+ Ladrón~
 @13   = ~Armadura de Placa enana +3
 
 Esta Armadura de placa es de fabricación enana, su línea más afilada y su aspecto robusto hablan de los siglos de habilidad de los grandes artesanos enanos. Al sostenerla también se percibe una sensación de magia.
@@ -24,7 +29,9 @@ ESTADÍSTICAS:
 
 Clase de Armadura: -2
 Constitución: +1 Bonificación
-Peso: 35~
+Peso: 35
+Sólo utilizable por:
+ Enano~
 @14   = ~Cota de malla~
 @15   = ~Cota de malla élfica +3~
 @16   = ~La cota de malla está hecha de anillos metálicos entrelazados. Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes.
@@ -32,7 +39,11 @@ Peso: 35~
 ESTADÍSTICAS:
 
 Clase de Armadura: 5
-Peso: 40~
+Peso: 40
+No utilizable por:
+ Druida 
+ Mago 
+ Ladrón~
 @17   = ~Fabricada por elfos, esta cadena es ligera y resistente. A diferencia de la mayoría de las cotas de malla, la cadena élfica no impide a los magos practicar su arte.
 
 ESTADÍSTICAS:
@@ -49,14 +60,18 @@ remaches metálicos. Estos remaches forman un revestimiento flexible de metal dur
 ESTADÍSTICAS:
 
 Clase de Armadura: 7
-Peso: 25~
+Peso: 25
+No utilizable por:
+ Mago~
 @21   = ~Tras una inspección más minuciosa, se descubre que la armadura no está hecha de cuero, sino de un intrincado tejido de lianas y ramas de arbustos espinosos. La armadura es un regalo de las ninfas a los druidas, una muestra de admiración por su interminable protección de los bosques.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 3
 Tiradas de salvación: +3 bonus
-Peso: 4~
+Peso: 4
+Sólo utilizable por:
+Druida (simple, dual y multiclase)~
 @22   = ~Nube Tormentosa~
 @23   = ~Nube Tormentosa "La perdición del Kraken"  Este cuero se fabricó a partir de los restos calcinados de un dragón alcanzado por un rayo. La última vez que se supo que lo llevaba el brujo Shrethu Reogher. Esperemos que esté muerto, porque si se lo quitaron en vida, seguro que vendrá a buscarlo.
 
@@ -65,21 +80,27 @@ ESTADÍSTICAS:
 Clase de Armadura: 3
 Tiradas de salvación: +3 bonus
 Especial: 25% Resistencia Electricidad
-Peso: 4~
+Peso: 4
+Sólo utilizable por:
+Druida~
 @24   = ~Armadura del asesino~
 @25   = ~Las armaduras de cuero con tachonado tienen poco en común con las armaduras de cuero normales. Mientras que la armadura de cuero es un caparazón endurecido, la armadura de cuero tachonado es blanda y flexible, con cientos de remaches metálicos. Los remaches están tan juntos que forman una capa flexible de metal duro que desvía los ataques cortantes. El suave cuero de la armadura es poco más que un medio para asegurar los remaches en su sitio.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 7
-Peso: 25~
+Peso: 25
+No utilizable por:
+ Mago~
 @26   = ~La armadura de asesino es una armadura de cuero tachonado creada para ser usada por los mortíferos asesinos de los Maestros de las Sombras. Nunca se ha visto, sólo se rumorea que existe debido a algunas de las cosas increíbles hechas por este grupo de asesinos de élite. Los maestros de las sombras son de la orden más alta dentro de la jerarquía de los ladrones de las sombras. Es una armadura de cuero tachonado +3 que se funde con las sombras.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 4
 Especial: +30% Esconderse en las sombras, Acción Libre, Inmunidad al veneno.
-Peso: 8~
+Peso: 8
+Sólo utilizable por:
+Ladron~
 @27   = ~Armadura completa de placas~
 @28   = ~Placa de Emberwilde~
 @29   = ~La armadura de placas es la mejor armadura que un guerrero puede comprar, tanto en apariencia como en protección. Las placas entrelazadas y perfectamente ajustadas están especialmente anguladas para desviar flechas y golpes, y todo el traje está cuidadosamente adornado con ricos grabados y detalles en relieve.
@@ -87,21 +108,33 @@ Peso: 8~
 ESTADÍSTICAS:
 
 Clase de Armadura: 1
-Peso: 70~
+Peso: 70
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladron~
 @30   = ~Placa de Emberwilde, la Placa Roja de Resistencia al Fuego. Fabricada por maestros enanos según el diseño específico del primer comandante de la Guardia del Fénix, Emberwilde, esta placa es una auténtica maravilla, desde su característico brillo rojo hasta la inmunidad al fuego, que proporciona al portador la verdadera esencia de la Élite del Fénix. No se guardaron registros, y ninguna magia ha sido capaz de identificar completamente las propiedades de esta placa.
 
 ESTADÍSTICAS:
 
 Resistencia al fuego +20
 Clase de Armadura 0
-Peso: 35~
+Peso: 35
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladron~
 @31   = ~Armadura de cuero tachonado +3~
 @32   = ~Esta armadura era propiedad del famoso Príncipe Bárbaro de las Nieves, Corbus Denolx de Greyhawk. No se sabe cómo ni por qué salió de su posesión.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 4
-Peso: 8~
+Peso: 8
+No utilizable por:
+ Mago~
 @33   = ~Armadura de dragon~
 @34   = ~Armadura de Dragón, la armadura característica de los exploradores de la  Quimera de Élite. Esta armadura está encantada con una magia poderosa que sólo conocen los chamanes quimera. Proporciona al portador protección adicional contra muchas formas de ataque y ayuda a acechar a sus objetivos.
 
@@ -109,7 +142,9 @@ ESTADÍSTICAS:
 
 Clase de Armadura: 4
 Bonificación: + 15% al sigilo
-Peso: 8~
+Peso: 8
+No utilizable por:
+ Mago~
 @35   = ~Armadura de malla~
 @36   = ~Armadura de Oghma~
 @37   = ~La cota de malla es una variante de la cota de mallas en la que las tiras de metal se aplican verticalmente sobre un soporte de cadena, cuero o tela, en lugar de horizontalmente como en la cota de mallas. Dado que el cuerpo humano no gira en medio del torso tanto como se flexiona de atrás hacia delante, la cota de malla es más restrictiva en la batalla.
@@ -117,7 +152,12 @@ Peso: 8~
 ESTADÍSTICAS:
 
 Clase de Armadura: 4
-Peso: 40~
+Peso: 40
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @38   = ~Armadura de Oghma: "Inspiración divina'
 Esta pieza de cota de malla fue hecha una noche por un inspirado sacerdote de Oghma. Esa noche soñó con el mismísimo Oghma. Le dijo que a la mañana siguiente debía conseguir la mejor cota de malla que no estuviera encantada. Entonces se le dijo que reuniera encantamientos mágicos para crear una maravillosa pieza de armadura. Su inspiración encantó la armadura y le dio una clase de armadura única. La cota de malla fue llevada por el sacerdote principal durante muchos años.
 
@@ -128,15 +168,21 @@ Bonificación de hechizos de clérigo 1-5
 Tiradas de salvación:+3 bonus
 +10 puntos de golpe máximos
 Permite lanzar hechizos y habilidades de ladrón
-Peso: 5~
+Peso: 5
+Sólo utilizable por:
+Clérigos Buenos y Neutrales
+(simples, duales, multiclase)
+y Paladines.~
 @39   = ~Armadura del bosque~
-@40   = ~Esta es la armadura de un Explorador desconocido, todo lo que se sabe es que era muy poderoso. Se rumorea que su destreza en la batalla se debe a esta armadura. Se le han otorgado muchos poderes mágicos más allá de los de una armadura normal. Cuando te la pones, no sólo pareces estar mejor protegido, sino que pareces tener una ventaja extra. En los bosques y en las zonas sombrías de las ciudades, esta armadura se presta a la ocultación y al movimiento silencioso.
+@40   = ~Esta es la armadura de un guardabosques desconocido, todo lo que se sabe es que era muy poderoso. Se rumorea que su destreza en la batalla se debe a esta armadura. Se le han otorgado muchos poderes mágicos más allá de los de una armadura normal. Cuando te la pones, no sólo pareces estar mejor protegido, sino que pareces tener una ventaja extra. En los bosques y en las zonas sombrías de las ciudades, esta armadura se presta a la ocultación y al movimiento silencioso.
 
 ESTADÍSTICAS:
 
 Clase de armadura: 1
 Especial: +1 destreza y +20% ocultarse en las sombras.
-Peso: 25~
+Peso: 25
+No utilizable por:
+Mago~
 @41 = ~Armadura de malla~
 @42   = ~Armadura de malla +4~
 @43   = ~Túnica de cota de malla fabricada con algún tipo de metal brillante. Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes.
@@ -144,69 +190,104 @@ Peso: 25~
 ESTADÍSTICAS:
 
 Clase de Armadura: 5
-Peso: 40~
+Peso: 40
+No utilizable por:
+ Druida 
+ Mago 
+ Ladrón~
 @44   = ~Armadura de malla +4:
 La cota de malla élfica +4 permite a un mago élfico lanzar hechizos mientras la lleva puesta. 
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 1
-Peso: 9~
+Peso: 9
+Usable por:
+Sólo Elfos~
 @45   = ~Armadura de malla de mitril +4~
 @46   = ~La cota de malla está hecha de anillos metálicos entrelazados. Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 5
-Peso: 40~
+Peso: 40
+No utilizable por:
+ Druida 
+ Mago
+ Ladrón~
 @47   = ~Cota de malla de mithril +4. Esta armadura está hecha del metal más ligero y duradero conocido como mithril. Sólo los enanos pueden fabricarla con tal perfección.
 
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 1
-Peso: 7~
+Peso: 7
+No utilizable por:
+ Druida 
+ Mago 
+ Ladrón~
 @48   = ~Armadura de malla de mitril +3~
 @49   = ~La cota de malla está hecha de anillos metálicos entrelazados. Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 5
-Peso: 40~
+Peso: 40
+No utilizable por:
+ Druida 
+ Mago 
+ Ladrón~
 @50   = ~La cota de malla está hecha de anillos metálicos entrelazados. Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 2
-Peso: 7~
+Peso: 7
+No utilizable por:
+ Druida 
+ Mago 
+ Ladrón~
 @51   = ~Cota de malla de Mithril de Durlag +4~
 @52   = ~Esta armadura de malla una vez perteneció a la gran Durlag Asesino de Trolls..
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 1
-Peso: 7~
+Peso: 7
+No utilizable por:
+ Druida 
+ Mago 
+ Ladrón~
 @53   = ~Armadura de malla +2~
 @54   = ~La cota de malla está hecha de anillos metálicos entrelazados. Siempre se lleva sobre una capa de tela acolchada o cuero suave para evitar rozaduras y reducir el impacto de los golpes. Esta cota de malla es de fabricación élfica, lo que permite a los magos lanzar magia con ella puesta.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 3
-Peso: 10~
+Peso: 10
+Usable por:
+ Elfos y semielfos~
 @55   = ~Armadura de malla +2~
 @56   = ~La cota de malla es una variante de la cota de mallas en la que las tiras de metal se aplican verticalmente sobre un soporte de cadena, cuero o tela, en lugar de horizontalmente como en la cota de mallas. Dado que el cuerpo humano no gira en medio del torso tanto como se flexiona de atrás hacia delante, la cota de malla es más restrictiva en la batalla.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 2
-Peso: 20~
+Peso: 20
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @57   = ~Armadura de cuero tachonado +4 "Regalo de la naturaleza"~
 @58   = ~Las armaduras de cuero con tachonado tienen poco en común con las armaduras de cuero normales. Mientras que la armadura de cuero es un caparazón endurecido, la armadura de cuero tachonado es blanda y flexible, con cientos de remaches metálicos. Los remaches están tan juntos que forman una capa flexible de metal duro que desvía los ataques cortantes. El suave cuero de la armadura es poco más que un medio para asegurar los remaches en su sitio.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 7
-Peso: 25~
+Peso: 25
+No utilizable por:
+ Mago~
 @59   = ~Armadura de cuero tachonado +4 "Regalo de la naturaleza":
 Una armadura natural de cuero tachonado que sólo pueden llevar los protectores de la naturaleza.
 
@@ -215,7 +296,10 @@ ESTADÍSTICAS:
 Clase de Armadura: 3
 Peso: 5
 +25% Sigilo
-Lanza Santuario~
+Lanza Santuario
+Utilizable por:
+Explorador
+Druida~
 @60   = ~Armadura de pieles~
 @61   = ~Armadura del Norte~
 @62   = ~La armadura de cuero se fabrica con la gruesa piel de un animal muy grande (un elefante, por ejemplo) o con muchas capas de cuero normal de animales comunes, como las vacas. Las armaduras de piel son demasiado voluminosas, inflexibles y pesadas para ser utilizadas en las culturas humanas avanzadas. Sin embargo, entre las masas humanoides bárbaras de los bosques oscuros y las selvas neblinosas del mundo, las armaduras de piel son comunes. Aunque ofrece más protección que la armadura de cuero, hay que superar el olor desagradable y el aspecto de mala calidad para llevarla con eficacia. Aunque los ladrones pueden llevar esta armadura, tiene un efecto negativo en sus habilidades.
@@ -223,34 +307,44 @@ Lanza Santuario~
 ESTADÍSTICAS:
 
 Clase de Armadura: 6
-Peso: 40~
+Peso: 40
+No utilizable por:
+ Mago~
 @63   = ~Esta armadura procede de la tundra helada del Valle del Viento Helado. Ha sido bendecida por los chamanes para proteger al usuario de los elementos fríos.
 
 ESTADÍSTICAS:
 
 70% resistencia al frío
 Clase de armadura 6
-Peso: 40~
+Peso: 40
+No utilizable por:
+ Mago~
 @64   = ~Las armaduras de cuero tachonado tiene poco en común con las armaduras de cuero normales. Mientras que la armadura de cuero es un caparazón endurecido, la armadura de cuero tachonado es blanda y flexible, con cientos de remaches metálicos. Los remaches están tan juntos que forman una capa flexible de metal duro que desvía los ataques cortantes. El suave cuero de la armadura es poco más que un medio para asegurar los remaches en su sitio.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 7
-Peso: 25~
-@65   = ~En las zonas boscosas, esta armadura se presta a esconderse y moverse en silencio. Esto ayudará al druida y al Explorador en su protección de la naturaleza. 
+Peso: 25
+No utilizable por:
+ Mago~
+@65   = ~En las zonas boscosas, esta armadura se presta a esconderse y moverse en silencio. Esto ayudará al druida y al guardabosques en su protección de la naturaleza. 
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 1
 Especial: +1 destreza y +20% ocultarse en las sombras.
-Peso: 25~
+Peso: 25
+Utilizable por:
+Exploradores y Druidas~
 @66   = ~Armadura de los maestros de las sombras~
 @67   = ~Las armaduras de cuero con tachuelas tienen poco en común con las armaduras de cuero normales. Mientras que la armadura de cuero es un caparazón endurecido, la armadura de cuero tachonado es blanda y flexible, con cientos de remaches metálicos. Los remaches están tan juntos que forman una capa flexible de metal duro que desvía los ataques cortantes.  El suave cuero de la armadura es poco más que un medio para asegurar los remaches en su sitio.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 7
-Peso: 25~
+Peso: 25
+No utilizable por:
+ Mago~
 @68   = ~Las armaduras de cuero con tachuelas tienen poco en común con las armaduras de cuero normales. Mientras que la armadura de cuero es un caparazón endurecido, la armadura de cuero tachonado es blanda y flexible, con cientos de remaches metálicos. Los remaches están tan juntos que forman una capa flexible de metal duro que desvía los ataques cortantes.  El suave cuero de la armadura es poco más que un medio para asegurar los remaches en su sitio.
 
 ESTADÍSTICAS:
@@ -259,23 +353,29 @@ Clase de Armadura: 4
 Especial: +30% a todas las habilidades de ladrón
  +5 a Salvar vs. Muerte
 Ofrece no detección
-Peso: 8~
+Peso: 8
+Sólo utilizable por:
+Ladrón (clase única, múltiple y doble)~
 @69   = ~No detectado~
 @70   = ~Armadura de cuero~
 @71   = ~Naturaleza divina~
-@72   = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero con el que se fabrican las botas de un Explorador o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
+@72   = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero con el que se fabrican las botas de un guardabosques o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 8
-Peso: 15~
-@73   = ~Sólo los mejores defensores de la naturaleza tienen el privilegio de llevar una armadura como ésta. Se dice que sólo la orden secreta de druidas y Exploradores conocida como Los Guerreros de la Naturaleza tienen esta armadura.
+Peso: 15
+No utilizable por:
+ Mago~
+@73   = ~Sólo los mejores defensores de la naturaleza tienen el privilegio de llevar una armadura como ésta. Se dice que sólo la orden secreta de druidas y guardabosques conocida como Los Guerreros de la Naturaleza tienen esta armadura.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 2
 Especial: Memoriza 2 hechizos de nivel 1
-Peso: 1~
+Peso: 1
+Sólo utilizable por:
+Druida y Explorador (clase única, múltiple y doble~
 @74   = ~Armadura de cuero de Hobbin~
 @75   = ~Esta armadura se la regaló a Hobbin su tío, un aventurero muy conocido en su época.
 
@@ -283,28 +383,41 @@ ESTADÍSTICAS:
 Clase de Armadura: 2
 Especial +15% Esconderse en las sombras
 Especial +15 Abrir cerraduras
-Peso: 1~
+Peso: 1
+Sólo utilizable por: Hobbin~
 @76   = ~Armadura de Placas +5~
 @77   = ~La cota de malla es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle.  De construcción similar a la cota de malla de bronce, la cota de malla auténtica se compone de cadenas y cuero. 
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 3
-Peso: 50~
+Peso: 50
+No utilizable por:
+ Bardo 
+ Druida
+ Mago
+ Ladrón~
 @78 = ~ Armadura de Batalla Élfica +5. 
 Esta armadura es usada por las fuerzas elfas de élite de Evermeet.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: -2
-Peso: 18~
+Peso: 18
+Usable por:
+Elfos~
 @79   = ~Armadura de Placas "Apocalipsis"~
 @80   = ~La cota de malla es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle. De construcción similar a la cota de malla de bronce, la verdadera cota de malla se compone de una cadena y cuero.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 3
-Peso: 50~
+Peso: 50
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @81   = ~Armadura de Placas "Apocalipsis": 
 Hecha de Surtr, un gran guerrero que amaba el fuego, esta armadura te permitirá lanzar hechizos basados en el fuego y ofrece protección contra el fuego.
 
@@ -318,7 +431,13 @@ Bola de fuego
 Golpe de llama
 
 +20% Resistencia al fuego
-Peso: 20~
+Peso: 20
+
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @82   = ~Placa de Balduran~
 @83   = ~Esta placa la llevaba el famoso héroe Balduran. Forma parte de un conjunto de armas y armaduras que fue robado del museo de la ciudad de Puerta de Baldur.
 
@@ -329,7 +448,12 @@ Habilidades equipadas:
  +1 bonificación de Carisma
 Clase de Armadura: -1
 Peso: 50
-Requiere 15 Fuerza~
+Requiere 15 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @84 = ~Armdura de placas de Kiel +3~
 @85 = ~Esta armadura perteneció una vez a Kiel.
 
@@ -339,14 +463,24 @@ ESTADÍSTICAS:
 
 Clase de Armadura: -2
 Peso: 45
-Requiere 15 Fuerza~
+Requiere 15 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @86 = ~Armadura de Placas de Najara +3~
 @87 = ~La cota de malla es una combinación de armadura de cadenas con placas de metal que cubren las zonas vitales como el pecho, el abdomen y la ingle. Similar en construcción a la cota de malla de bronce, la cota de malla verdadera se compone de cadena y cuero.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 3
-Peso: 50~
+Peso: 50
+No utilizable por:
+ Bardo 
+ Druida
+ Mago
+ Ladrón~
 @88 = ~Esta es la armadura personal de Najara.
 
 ESTADÍSTICAS:
@@ -354,7 +488,13 @@ ESTADÍSTICAS:
 Especiales:
 +1 a la fuerza
 Clase de armadura: 0
-Peso: 18~
+Peso: 18
+No utilizable por:
+ Alineamientos malignos
+ Bardo 
+ Druida
+ Mago
+ Ladrón~
 @89 = ~Armadura de Placas de Llamas~
 @90 = ~La armadura de placas completas es la mejor armadura que un guerrero puede comprar, tanto en apariencia como en protección. Las placas entrelazadas y perfectamente ajustadas están especialmente anguladas para desviar flechas y golpes, y todo el traje está cuidadosamente adornado con ricos grabados y detalles en relieve.
 
@@ -362,20 +502,27 @@ ESTADÍSTICAS:
 
 Clase de Armadura: 1
 50% Resistencia al Fuego
-Peso: 35~
+Peso: 35
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @91 = ~Cinturón~
 @92 = ~Cinturón de Sune~
 @93 = ~Las fajas son generalmente similares a los cinturones. A diferencia de los cinturones, las fajas no se usan para sujetar pantalones y petos, sino para llevar bolsas, vainas y similares.
 
 ESTADÍSTICAS:
 
-Peso: 2~
+Peso: 2
+No utilizable por:~
 @94 = ~El Cinturón de Sune es para aquellos que necesitan una ventaja añadida con su carisma. Una sacerdotisa de Sune lo hizo para aquellas pobres almas que carecen de habilidades carismáticas y belleza.
 
 ESTADÍSTICAS:
 
 +1 a Carisma
-Peso: 2~
+Peso: 2
+No utilizable por:~
 @95 = ~Cinturón de Fuerza de Gigante de Colina~
 @96 = ~Esta faja está diseñada para poderosos guerreros de los reinos que ya no pueden conseguir más poderes de otras formas. Las fajas de fuerza gigante son objetos extremadamente raros. Se fabrican con el pelo o la barba entretejidos del tipo de gigante cuya fuerza desea obtener el artesano.  Esta faja está hecha de pelo de un gigante de las colinas y otorga a su portador la fuerza de un gigante de las colinas.
 
@@ -383,7 +530,9 @@ ESTADÍSTICAS:
 
 Fuerza: 19
 Peso: 2
-~
+No utilizable por: 
+Ladrón 
+Mago~
 @97 = ~Cinturón De Defensa~
 @98 = ~Faja de Defensa: 'Faja Dorada de Urnst'
 Esta faja fue creada por los Elfos Dorados de la Infraoscuridad. Rara vez sus objetos llegan a la superficie, pero este sí. Está fuertemente encantado para desviar ataques de todo tipo. Mucha gente ha llevado esta faja con orgullo, pero la mayoría de las veces ha sido robada por ladrones y vendida en mercados negros. Esta faja sigue siendo buscada por muchos guerreros en busca de protección, pero ninguno llega a encontrarla.
@@ -394,7 +543,7 @@ Bonificación de clase de armadura:
 +3 contra armas cortantes
 +3 contra armas contundentes
 +3 contra armas de proyectiles
-~
+No utilizable por~
 @99 = ~Botas~
 @100 = ~Botas Rápidas de Protección~
 @101 = ~Las botas son normalmente hechas a mano por zapateros. Las botas comunes se hacen usando una forma, pero las buenas botas se diseñan para el pie de un individuo.
@@ -416,7 +565,11 @@ Peso: 4~
 ESTADÍSTICAS: -25 al Sigilo
 Bonificación de clase de armadura: +2 contra armas blancas 
 Bonificación de clase de armadura: +1
-Peso: 18~
+Peso: 18
+Utilizable por: 
+Luchadores
+Clérigos
+Paladines~
 @105 = ~Botas Desgastadas~
 @106 = ~Botas de Salud~
 @107 = ~Botas De Salud: 'Hardy Warrior'
@@ -426,7 +579,9 @@ ESTADÍSTICAS:
 El portador puede lanzar:
 Curar heridas críticas
 +1 Clase de Armadura
-+10 puntos de golpe máximos~
++10 puntos de golpe máximos
+Utilizable por:
+Alineamientos Buenos~
 @108 = ~Botas de Rapidez Asegurada~
 @109 = ~Botas de Rapidez Asegurada:
 Estas botas están encantadas con la seguridad de que su portador siempre será rápido de pies. Se desconoce el origen de estas botas, pero su leyenda se extiende a lo largo de los siglos con historias nobles y sangrientas sobre su uso.~
@@ -439,11 +594,12 @@ ESTADÍSTICAS:
 Clase de Armadura: +3 bonus
 Tirada de salvación: +2 bonus
 Especial: Protección contra muertos vivientes
-Peso: 3~
+Peso: 3
+No utilizable por:~
 @112 = ~Capa~
 @113 = ~Capa de Naturaleza~
 @114 = ~La capa se puede hacer de todas las formas posibles con casi cualquier tipo de tela. Las formas más comunes son una pieza circular de tela con un agujero en el centro para la cabeza, y tela drapeada desde el cuello, unida por una cadena, broche, cordón o alfileres.~
-@115 = ~El Manto de la Naturaleza ayudará a proteger a un druida o a un explorador de los elementos de la naturaleza.   
+@115 = ~El Manto de la Naturaleza ayudará a proteger a un druida o a un guardabosques de los elementos de la naturaleza.   
 
 ESTADÍSTICAS:
 
@@ -451,7 +607,9 @@ Clase de Armadura: +1 bonus
 Tiradas de salvación: +1 bonus
 Resistencia al fuego: 25%
 Resistencia al Frio: 25%
-Peso: 3~
+Peso: 3
+Usable por:
+Druidas y Exploradores solamente~
 @116 = ~Túnica de Mago~
 @117 = ~Túnica de Shi'nayne~
 @118 = ~Desde la era de Netheril, los magos han aprendido a otorgar una amplia variedad de propiedades mágicas a los objetos cotidianos que los rodean. Uno de los objetos favoritos de este tipo de encantamiento es la túnica común. Es ligera, asequible y conserva bien su encanto, lo que la convierte en el equipo ideal para un mago. Sin embargo, debido a su herencia mágica, sólo los magos solteros, duales y multiclase pueden llevar estas túnicas encantadas.~
@@ -474,7 +632,9 @@ Bonificación 2 Hechizos de nivel dos
 Clase de Armadura: Bonificación +2
 Resistencia Mágica: 15%
 Tirada de salvación:  +3 bonus
-Peso: 6~
+Peso: 6
+Sólo utilizable por:
+Mago (simple, dual y multiclase)~
 @122 = ~Capa del Asesino~
 @123 = ~La capa puede hacerse de todas las formas posibles con casi cualquier tipo de tela. Las formas más comunes son una pieza circular de tela con un agujero en el centro para la cabeza, y tela drapeada desde el cuello, conectada por una cadena, broche, cordón o alfileres.~
 @124 = ~La Capa del Asesino fue creada para ser usada por los mortales asesinos de los Maestros de las Sombras. Nunca se ha visto, solo se rumorea que existe debido a algunas de las increibles cosas hechas por este grupo de asesinos de elite. Los maestros sombrios son de la orden más alta dentro de la jerarquía de los ladrones de las sombras.      
@@ -485,7 +645,8 @@ Clase de Armadura: +1 bonus
 THACO: +3 bonus
 Tiradas de Salvación: +1 bonus
 Especial: ofrece No detección y +5 al Sigilo
-Peso: 3~
+Peso: 3
+No utilizable por:~
 @125  = ~Guantes~
 @126  = ~Guantes de guerrero~
 @127  = ~Los guanteletes son guantes blindados. Pueden ser de cuero, placas de metal o cota de malla. Se supone que todas las armaduras incluyen guanteletes del tipo adecuado. Los guanteletes mágicos suelen ser más finos, ligeros y fáciles de llevar que los normales.~
@@ -493,7 +654,13 @@ Peso: 3~
 ESTADÍSTICAS
 
 THAC0 +3
-Daño +3~
+Daño +3
+
+Utilizable por:
+Guerrero
+Exploradores
+Paladines
+Clérigos~
 @129 = ~Brazaletes~
 @130 = ~Brazaletes de la Noche~
 @131 = ~Los brazales son gruesas bandas de metal o cuero que se atan al antebrazo de un personaje. Por lo general, la magia que se infunde en los brazales es buena sólo durante el combate, ya que la mayoría de los brazales ayudan a proteger al portador de heridas, o mejoran las posibilidades de golpear a un oponente. Sin embargo, existen excepciones y cada día se encuentran más.~
@@ -505,7 +672,9 @@ Especial:
  +15 a Encontrar Trampas
  +25 a Abrir Cerraduras
  +4 THAC0 con armas de proyectiles
-Peso: 6~
+Peso: 6
+Utilizable por:
+ Ladrón (de una, varias y dos clases)~
 @133 = ~Bracers de Defensa A.C. 4~
 @134 = ~Los brazales son gruesas bandas de metal o cuero que se sujetan con correas, cinturones o ataduras al antebrazo de un personaje. Generalmente, la magia que se infunde en los brazales es buena sólo durante el combate, ya que la mayoría de los brazales ayudan a proteger al portador de heridas, o mejoran las posibilidades de golpear a un oponente. Sin embargo, existen excepciones y cada día se encuentran más.~
 @135 = ~Brazales de Defensa A.C. 4: 'Brazales a la Protección'
@@ -522,22 +691,29 @@ Glen el Sonriente, el Caballero de los Locos, llevaba estos brazales cuando comp
 ESTADÍSTICAS:
 
 Clase de Armadura: 3
-Peso: 2~
+Peso: 2
+No utilizable por:~
 @138 = ~Guantes de ganzuado~
 @139 = ~Los Guantes de ganzuado fueron creados mágicamente por un mago/ladrón llamado Jamaar el Rápido. Estos brazales le sirvieron para abrir cualquier tipo de cerradura. Perdió estos brazales cuando perdió la vida por una trampa de bola de fuego que había en un cofre. Debería haber invertido en un dispositivo mágico que detectara trampas.
 
 ESTADÍSTICAS:
 
 Bonificación por abrir cerraduras: 20%.
-Peso: 2~
+Peso: 2
+Utilizable por:
+Ladrón ( Clase Única y multiclase)~
 @140 = ~Regalo del Bosque~
-@141 = ~Don de los Bosques:  A lo largo del tiempo, druidas y exploradores han luchado por proteger la naturaleza de la civilización. En ocasiones, los habitantes de la naturaleza conceden favores a estos fanáticos para ayudarles en sus esfuerzos por protegerla.
+@141 = ~Don de los Bosques:  A lo largo del tiempo, druidas y guardabosques han luchado por proteger la naturaleza de la civilización. En ocasiones, los habitantes de la naturaleza conceden favores a estos fanáticos para ayudarles en sus esfuerzos por protegerla.
 
 ESTADÍSTICAS:
 
 Especial: Aumento de Ataques
 Especial: Resistencia a la petrificación aumentada
-Peso: 2~
+Peso: 2
+Sólo utilizable por:
+Druidas (Clase Única)
+Exploradores(Clase Única)
+~
 @142 = ~Guanteletes de Choque~
 @143 = ~Guanteletes de Choque:
 Un par de guanteletes hechos de cota de malla plateada y suave cuero negro. Los guanteletes están cargados de energía eléctrica y esa energía se puede liberar con el tacto o como un poderoso rayo. El toque permite que la energía eléctrica atraviese a la criatura tocada.
@@ -555,7 +731,10 @@ Daño: 6D6 (salvación vs varitas por la mitad)
 Alcance: 100 ft
 Área: 1 criatura
 
-Peso: 1~
+Peso: 1
+Sólo utilizable por: 
+Mago
+Bardo~
 @144 = ~Guanteletes de Ladrón Hábil~
 @145 = ~'Mano de Spooky''
 
@@ -567,7 +746,9 @@ Destreza: Aumentado 2 puntos
 Robar: +20%
 Moverse en silencio: +20%
 Lanzar Golpe
-Peso: 2~
+Peso: 2
+Usable por:
+Ladrón~
 @146 = ~Casco~
 @147 = ~Casco de Protección~
 @148 = ~Esta clase de casco abierto, hecho de cuero reforzado o metal, cubre la mayor parte de la cabeza, excepto la cara y el cuello. Estos cascos suelen ofrecer protección para la nariz.
@@ -576,7 +757,11 @@ ESTADÍSTICAS:
 
 Bonificación por clase de armadura: Ninguna
 Especial: Protección contra golpes críticos
-Peso: 2~
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
 @149 = ~Esta clase de casco abierto, hecho de cuero reforzado o metal, cubre la mayor parte de la cabeza, excepto la cara y el cuello.  Estos cascos suelen ofrecer protección para la nariz.  
 
 ESTADÍSTICAS:
@@ -584,7 +769,11 @@ ESTADÍSTICAS:
 Bonificación por clase de armadura: +2
 Especial: Protección contra golpes críticos
 25% Resistencia al fuego
-Peso: 2~
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
 @150 = ~Yelmo Elfico de Defensa~
 @151 = ~Yelmo Elfico de Defensa:
   
@@ -598,14 +787,18 @@ Resistencia eléctrica  +20%
 Resistencia al frío +20%
 Resistencia al fuego +20%
 Especial: Protección contra golpes críticos
-Peso: 3~
+Peso: 3
+Usable por:
+Elfos~
 @152 = ~Sombrero~
 @153 = ~Sombrero de Bardo~
 @154 = ~El sombrero de fieltro es el favorito de los bardos y ladrones por igual, aunque ofrecen poca protección.
 
 ESTADÍSTICAS:
 
-Peso: 2~
+Peso: 2
+Usable por:
+ Bardo~
 @155 = ~El sombrero de fieltro es uno de los favoritos de los bardos. Este sombrero ha sido encantado para ayudar al bardo en sus hechizos y lore. 
 
 ESTADÍSTICAS:
@@ -616,7 +809,9 @@ Especial
 +2 a hechizos de nivel uno y dos
  Protección contra golpes críticos
  +1 tiradas de salvación
-Peso: 2~
+Peso: 2
+Usable por:
+ Bardo~
 @156 = ~Corona de Durlag~
 @157 = ~Esta clase de casco abierto, hecho de cuero reforzado o metal, cubre la mayor parte de la cabeza, excepto la cara y el cuello.  Estos cascos suelen ofrecer protección para la nariz.
 
@@ -624,14 +819,22 @@ ESTADÍSTICAS:
 
 Bonificación por clase de armadura: Ninguna
 Especial: Protección contra golpes críticos
-Peso: 2~
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
 @158 = ~Esta corona pertenecía al clan de Durlag. Durlag nunca llevó la corona de su familia porque la mayor parte de su tiempo lo dedicaba a las aventuras. Incluso cuando se "retiró" siguió sin llevarla ya que no creía en el título real sino que quería vivir como el enano común.
 
 ESTADÍSTICAS:
 
 Bonificación a la Clase de Armadura: +2
 Especial: +1 Tiradas de Salvación Especial: Protección contra golpes críticos
-Peso: 2~
+Peso: 2
+No utilizable por:
+Ladrón
+Mago
+Druida~
 @159 = ~Casco de los Muertos~
 @160 = ~Esta clase de casco abierto, hecho de cuero reforzado o metal, cubre la mayor parte de la cabeza, excepto la cara y el cuello. Estos cascos suelen ofrecer protección para la nariz.
 
@@ -639,14 +842,22 @@ ESTADÍSTICAS:
 
 Bonificación por clase de armadura: Ninguna
 Especial: Protección contra golpes críticos
-Peso: 2~
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
 @161 = ~Este casco es el cráneo de un gran luchador que hace más de mil años. Su nombre es desconocido ya que los registros fueron destruidos, pero el cráneo contenía poderes místicos.
 Fue moldeado en un yelmo por muchos herreros enanos que le unieron púas y lo convirtieron en un yelmo.
 Te permite animar muertos y te da un bonificador de clase de armadura.
 
 Bonificador de clase de armadura: 2
 Especial: Protege contra golpes críticos, puede lanzar animar muertos.
-Peso: 2~
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
 @162 = ~Escudo de la Llama~
 @163 = ~Yelmo de la Llama, "El Yelmo de Emberwilde" Este es el yelmo de Emberwilde, el guardia rouge del Fénix. Antaño comandante de la guardia, abandonó su puesto seducido por la riqueza y la fama.
 
@@ -655,17 +866,22 @@ ESTADÍSTICAS:
 Clase de Armadura: +1 bonus
 Constitución: +2 bonus
 Especial: Protección contra golpes críticos
-Peso: 2~
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
 @164 = ~Escudo del Dragón Rojo~
-@165 = ~Escudo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de exploradores quimera, infunden miedo en el corazón del más fiero de los guerreros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de esta armadura elaberate, de alguna manera se las arreglan para desaparecer a voluntad.
-Yelmo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de exploradores quimera, infunden miedo en el corazón de los guerreros más fieros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de su elaborada armadura, consiguen desaparecer a voluntad. 
+@165 = ~Escudo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de guardabosques quimera, infunden miedo en el corazón del más fiero de los guerreros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de esta armadura elaberate, de alguna manera se las arreglan para desaparecer a voluntad.
+Yelmo del Dragón Rojo. Los Dragones Rojos, un grupo de élite de guardabosques quimera, infunden miedo en el corazón de los guerreros más fieros. Su brillante armadura roja y su yelmo con adornos dorados son conocidos en todos los reinos. A pesar de su elaborada armadura, consiguen desaparecer a voluntad. 
 
 ESTADÍSTICAS:
 
 Clase de Armadura: +2 bonus
 Especial: Protección contra golpes críticos
 Especial: Protección contra ataques mentales Protección contra ataques mentales
-Peso: 2~
+Peso: 2
+Sólo utilizable por~
 @166 = ~Escudo Grande~
 @167 = ~Escudo +3~
 @168 = ~Un gran escudo con incrustaciones de un grifo dorado. Este escudo, también conocido como escudo cometa o escudo torre, es un enorme escudo de metal que llega casi desde la barbilla hasta la punta de los pies del usuario. Debe estar firmemente sujeto al antebrazo y la mano del escudero debe agarrarlo con firmeza en todo momento. Naturalmente, esto impide el uso de la mano del escudo para otra cosa que no sea sujetar el escudo del cuerpo en su sitio. Curiosamente, este escudo resulta inusualmente ligero para su tamaño.
@@ -674,12 +890,22 @@ ESTADÍSTICAS:
 
 Bonificación por clase de armadura: 1
 Especial: +1 vs. Armas de proyectiles
-Peso: 15~
+Peso: 15
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @169 = ~El escudo corporal, también conocido como escudo cometa o escudo torre, es un enorme escudo de metal o madera que llega casi desde la barbilla hasta la punta del pie del usuario. Debe estar firmemente sujeto al antebrazo y la mano del escudo debe agarrarlo con firmeza en todo momento. Naturalmente, esto impide el uso de la mano del escudo para otra cosa que no sea sujetar el escudo del cuerpo en su sitio. 
 ESTADÍSTICAS:
 Bonificación por clase de armadura: 3
 Especial: +3 contra armas de proyectiles
-Peso: 15~
+Peso: 15
+No utilizable por:
+Bardo
+Druida
+Mago
+Ladrón~
 @170 = ~Escudo Pequeño~
 @171 = ~Escudo Pequeño +5 "Divinidad"~
 @172 = ~Un escudo pequeño suele ser redondo y se lleva en el antebrazo, agarrado con la mano del escudo. Su peso ligero en comparación con un escudo mediano permite al usuario llevar otros objetos en esa mano, aunque no puede empuñar ni llevar otra arma.
@@ -688,7 +914,12 @@ ESTADÍSTICAS:
 
 Bonificación por clase de armadura: 1
 Especial: Sin protección contra armas de proyectiles
-Peso: 3~
+Peso: 3
+No utilizable por:
+ Bardo
+ Druida
+ Mago 
+ Ladrón~
 @173 = ~Pequeño Escudo +5 "Divinidad":
 Un espeluznante resplandor emana de este escudo que no es más que divino. Las criaturas malignas ni siquiera pueden levantarlo por muy fuertes que sean.
 
@@ -696,7 +927,13 @@ ESTADÍSTICAS:
 
 Bonificación de clase de armadura: 6
 Especial: Sin protección contra armas de proyectiles
-Peso: 3~
+Peso: 3
+No utilizable por:
+Alineamientos malignos
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @174 = ~Protegido del Mal~
 @175 = ~Escudo Medio~
 @176 = ~Escudo de Balduran~
@@ -705,7 +942,12 @@ Peso: 3~
 ESTADÍSTICAS:
 
 Bonificación por clase de armadura: 1
-Peso: 7~
+Peso: 7
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @178 = ~Escudo de Balduran +3
 Este escudo lo llevaba el héroe Balduran. Forma parte de un conjunto de armas y armaduras que fue robado del museo de la ciudad de Puerta de Baldur.
 
@@ -715,7 +957,12 @@ Habilidades equipadas:
  +1 a la Fuerza
 Bonificación de clase de armadura: 4
 Peso: 5
-Requiere 12 Fuerza~
+Requiere 12 Fuerza
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @179 = ~Escudo de Durlag +2~
 @180 = ~Este era el escudo personal de Durlag con el que mataba dragones. Las propiedades mágicas le ayudaron a lograr esta hazaña.
 
@@ -725,7 +972,12 @@ Especial:
 +1 contra armas de proyectiles
 +20% Resistencia al fuego
 Bonificación de clase de armadura: 3
-Peso: 4~
+Peso: 4
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @181 = ~Escudo de Fuego +2~
 @182 = ~Este escudo fue encargado a los mejores herreros enanos por Emberwilde, un renombrado comandante de la guardia del Fénix conocido por su incuestionable valor. Se consideró la mayor pérdida que sufrió la guardia cuando Emberwilde los abandonó en busca de grandes riquezas. La artesanía superior queda patente en la forma en que casi se mueve por sí sola frente a los proyectiles.
 
@@ -733,7 +985,12 @@ ESTADÍSTICAS:
 
 Bonificación por clase de armadura: 3
 Especial +5 contra armas de proyectiles
-Peso: 4~
+Peso: 4
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @183 = ~Flecha~
 @184 = ~Flecha de Matanza "Nature's Bane"~
 @185 = ~La flecha de vuelo, como su nombre indica, está hecha para la distancia. Son flechas ligeras y se usan a menudo para cazar. La mayoría de estas flechas están hechas de fresno o abedul y miden entre 30 y 40 pulgadas de largo.
@@ -743,7 +1000,11 @@ ESTADÍSTICAS:
 Daño: 1D6
 Tipo de daño: misil (perforante)
 Peso: 0
-Lanzador: Arco~
+Lanzador: Arco
+No utilizable por:
+ Bardo
+ Druida
+ Mago~
 @186 = ~Esta flecha es retorcida y negra, casi irradiando maldad como si estuviera poseída por algo más grande que ella misma. Fue hecha específicamente para matar un tipo de criatura y sólo un tipo. En este caso los seres desafortunados son los amantes de la naturaleza; Druidas y Exploradores.
 
 ESTADÍSTICAS:
@@ -752,7 +1013,9 @@ Daño: 1D6
 Tipo de daño: misil (perforante)
 Especial: Matar druidas y Exploradores
 Peso: 0
-Lanzador Arco~
+Lanzador Arco
+Usable por:
+Alineamientos malignos~
 @187 = ~Flechas~
 @188 = ~Flechas de Hielo~
 @189 = ~La flecha de hielo está mejorada mágicamente para estallar en una bola rodante de hielo y frío cuando se dispara. Cuando la flecha golpea a su víctima, una descarga de frío recorre su cuerpo, quemándolo y entumeciéndolo hasta la médula. Este frío extremo conmociona el sistema nervioso y congela a la víctima.
@@ -764,7 +1027,11 @@ Tipo de daño: misil (perforante)
 Especial: 1D6 daño de frío (sin salvación)
  Congela (retiene) a la persona durante 6 asaltos a menos que se salve
 Peso: 0
-Lanzador: Arco~
+Lanzador: Arco
+No utilizable por:
+ Clérigo
+ Druida
+ Mago~
 @190 = ~Hacha Arrojadiza~
 @191 = ~Hacha Arrojadiza +3~
 @192 = ~El hacha de mano o hacha arrojadiza también se conoce como hacha de guerra. La hoja del hacha tiene una punta de acero afilada, contrarrestada por una aleta puntiaguda. El mango corto tiene una punta en la parte inferior y la cabeza puede tener un pico en la parte superior.
@@ -776,7 +1043,12 @@ Tipo de daño: misil (perforante)
 Peso: 5
 Factor de velocidad: 4
 Tipo de competencia: Hacha
-Tipo: Hacha 1 mano~
+Tipo: Hacha 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @193 = ~Esta hacha arrojadiza no sólo ha sido finamente equilibrada para su uso como arma de proyectiles, sino que también ha sido objeto de importantes mejoras mágicas. Como resultado, es más dañina y precisa que cualquier arma no mágica de estilo similar. 
 
 ESTADÍSTICAS:
@@ -789,7 +1061,8 @@ Especial: Vuelve a la mano del usuario una vez lanzada
 Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Hacha
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+
 @194 = ~alabarda~
 @195 = ~Hacha de batalla a dos manos +2~
 @196 = ~La alabarda es, con diferencia, el arma de asta más antigua y utilizada. Consiste en un hacha con forma de cuchilla montada sobre un bastón de unos dos metros de longitud. La hoja del hacha está equilibrada en la parte trasera con una aleta, y coronada por una punta afilada, normalmente de diseño cuadrangular. A veces se sustituye por un gancho para desmontar a la caballería. Una alabarda puede describirse como un cruce entre una lanza y un hacha.
@@ -801,7 +1074,12 @@ Tipo de daño: perforante
 Peso: 15
 Factor de velocidad: 9
 Tipo de competencia: Hacha
-Tipo: Hacha 2 manos~
+Tipo: Hacha 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @197 = ~La versión más común del hacha de dos manos es un palo robusto de unos seis pies de largo con una hoja de doble filo en forma de trompeta montada en un extremo.   
 
 ESTADÍSTICAS:
@@ -813,7 +1091,12 @@ Tipo de daño: cortante
 Peso: 11
 Factor de velocidad: 7
 Tipo de competencia: Hacha
-Tipo: Hacha 2 manos~
+Tipo: Hacha 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @198 = ~La alabarda es, con diferencia, el arma de asta más antigua y utilizada. Consiste en un hacha con forma de cuchilla montada sobre un bastón de unos dos metros de longitud.  La hoja del hacha está equilibrada en la parte trasera con una aleta y rematada por una punta afilada, normalmente de diseño cuadrangular.  A veces se sustituye por un gancho para desmontar a la caballería.  Una alabarda puede describirse como un cruce entre una lanza y un hacha.  
 
 ESTADÍSTICAS:
@@ -823,7 +1106,12 @@ Tipo de daño: perforante
 Peso: 15
 Factor de velocidad: 9
 Tipo de competencia: Hacha
-Tipo: Hacha 2 manos~
+Tipo: Hacha 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @199 = ~La versión más común del hacha de dos manos es un palo robusto de unos seis pies de largo con una hoja de doble filo en forma de trompeta montada en un extremo.   
 
 ESTADÍSTICAS:
@@ -835,7 +1123,12 @@ Tipo de daño: cortante
 Peso: 11
 Factor de velocidad: 7
 Tipo de competencia: Hacha
-Tipo: Hacha 2 manos~
+Tipo: Hacha 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @200 = ~Hacha de combate~
 @201 = ~Hacha de Batalla +3 "El Decapitador"~
 @202 = ~La versión más común del hacha de batalla es un palo robusto de unos cuatro pies de longitud con una hoja de un solo filo en forma de trompeta montada en un extremo. Las hachas de batalla también se llaman hachas anchas.
@@ -847,7 +1140,12 @@ Tipo de daño: cortante
 Peso: 7
 Factor de velocidad: 7
 Tipo de competencia: Hacha
-Tipo: Hacha 1 mano~
+Tipo: Hacha 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @203 = ~Esta era el hacha favorita de Redrum the Bane en su arsenal. El enloquecido berserker la usó en muchas batallas y mató a muchos enemigos con ella. Se rumorea que seguía cortando al enemigo mucho después de su muerte. Su sed de sangre acabó metiéndole en problemas. El señor local rodeó su finca y le prendió fuego cuando se negó a rendirse tras ser declarado culpable del asesinato de los niños del pueblo.
 
 ESTADÍSTICAS:
@@ -861,7 +1159,12 @@ Tipo de daño: cortante
 Peso: 5
 Factor de velocidad 5
 Tipo de competencia: Hacha
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @204 = ~Hacha de Batalla +3, Rompehielos~
 @205 = ~La versión más común del hacha de batalla es un palo robusto de unos cuatro pies de largo con una hoja de un solo filo en forma de trompeta montada en un extremo. Las hachas de batalla también se llaman hachas anchas.
 
@@ -872,7 +1175,12 @@ Tipo de daño: cortante
 Peso: 7
 Factor de velocidad: 7
 Tipo de competencia: Hacha
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @206 = ~Rompehielos, Hacha de Batalla +3
 Esta era el hacha de Illgarth, un Gigante de Hielo que aterrorizó a las comunidades del norte hace mucho tiempo. No se sabe dónde adquirió el arma, pero sentía un placer perverso al descargarla sobre los pequeños, en especial los halflings. El hielo y el ácido mutilaban a los que no morían, y el gigante se reía fríamente si reconocía su obra de una visita anterior. Al final, un grupo consiguió matarlo y, a petición de sus víctimas, el Rompehielos fue enterrado con él.
 
@@ -888,7 +1196,12 @@ Peso: 7
 Factor de velocidad 4
 Tipo de competencia: Hacha
 Tipo: Hacha 1 mano
-Requiere 10 Fuerza~
+Requiere 10 Fuerza
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @207 = ~Maza~
 @208 = ~Maza +2~
 @209 = ~La maza es descendiente directa del garrote básico, y no es más que un asta de madera con una cabeza de piedra o hierro montada en el extremo. El diseño de la cabeza varía: algunas tienen púas, otras pestañas y otras tienen pomos piramidales.
@@ -900,7 +1213,11 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad: 7
 Tipo de competencia: Maza
-Tipo: Maza 1 mano~
+Tipo: Maza 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @210 = ~La maza es descendiente directa del garrote básico, y no es más que un asta de madera con una cabeza de hierro montada en el extremo. En este caso, la cabeza es piramidal y parece brillar con una luz interior azul, ya que se asienta sobre un eje de roble pulido.
 
 ESTADÍSTICAS:
@@ -911,7 +1228,11 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad: 6
 Tipo de competencia: Maza
-Tipo: Maza 1-mano~
+Tipo: Maza 1-mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @211 = ~Estrella de la Mañana~
 @212 = ~Estrella de la Mañana +3~
 @213 = ~La estrella de la mañana es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Las estrellas de la mañana tienen una longitud total de unos cuatro pies. Algunas de estas armas tienen una cabeza redonda, ovalada o cilíndrica con pinchos. De la cabeza de la mayoría de las estrellas matutinas, independientemente de su diseño, sobresale una larga punta para clavar.
@@ -923,7 +1244,11 @@ Tipo de daño: aplastante
 Peso: 12
 Factor de velocidad: 7
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @214 = ~La estrella de la mañana es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Las estrellas de la mañana tienen una longitud total de unos cuatro pies. Algunas de estas armas tienen una cabeza redonda, ovalada o cilíndrica con pinchos. De la cabeza de la mayoría de las estrellas matutinas, independientemente de su diseño, sobresale una larga punta para clavar.
 
 ESTADÍSTICAS:
@@ -934,7 +1259,11 @@ Tipo de daño: aplastante
 Peso: 12
 Factor de velocidad: 7
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1-Mano~
+Tipo: 1-Mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @215 = ~Mayal +3 Muerte Roja~
 @216 = ~Grabado en las cabezas del mayal dice: "La Muerte Roja domina sobre todos". 
 
@@ -947,7 +1276,11 @@ Tipo de daño: aplastante
 Peso: 15
 Factor de velocidad: 7
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1-mano~
+Tipo: 1-mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @217 = ~Club~
 @218 = ~Hiedra Venenosa +2~
 @219 = ~La mayoría de las porras son palos robustos de madera dura, estrechos en la empuñadura y más anchos en el extremo. Esta sencilla arma se ha utilizado desde que la humanidad empezó a usar herramientas. Cualquiera puede encontrar un buen trozo de madera y blandirlo; de ahí su uso generalizado.
@@ -959,7 +1292,9 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad: 4
 Tipo de competencia: Garrote
-Tipo: Garrote 1-mano~
+Tipo: Garrote 1-mano
+No utilizable por:
+ Mago~
 @220 = ~Hiedra Venenosa +2
 
 Esta es un arma mortal diseñada por los Druidas de las Sombras para ayudarles en su protección de los bosques y sus criaturas. Con cada golpe, las enredaderas de este garrote se enroscan alrededor del objetivo y causan daño venenoso. 
@@ -974,7 +1309,10 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad 3
 Tipo de habilidad: Garrote
-Tipo: Garrote 1-mano~
+Tipo: Garrote 1-mano
+Utilizado por:
+Druidas 
+Exploradores~
 @221 = ~Mayal~
 @222 = ~Mayal +3 "Miedo"~
 @223 = ~El mayal es un robusto mango de madera unido a una barra de hierro, una barra de madera con pinchos o una bola de hierro con pinchos. Entre el mango y el implemento hay una bisagra o una cadena de eslabones. Esta arma se utilizaba originalmente para trillar el grano.
@@ -986,7 +1324,11 @@ Tipo de daño: aplastante
 Peso: 15
 Factor de velocidad: 7
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @224 = ~El mayal es un robusto mango de madera unido a una barra de hierro, una barra de madera con pinchos o una bola de hierro con pinchos. Entre el mango y el implemento hay una bisagra o una cadena de eslabones. Esta arma se utilizaba originalmente para trillar el grano.
 ESTADÍSTICAS:
 
@@ -998,7 +1340,11 @@ Tipo de daño: aplastante
 Peso: 11
 Factor de velocidad 5
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @225 = ~Mayal Santo del Sol~
 @226 = ~El mayal es un robusto mango de madera unido a una barra de hierro, una barra de madera con pinchos, o una bola de hierro con pinchos. Entre el mango y el implemento hay una bisagra o una cadena de eslabones.  Esta arma se utilizaba originalmente para trillar el grano.  
 
@@ -1009,7 +1355,11 @@ Tipo de daño: aplastante
 Peso: 15
 Factor de velocidad: 7
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @227 = ~Este mayal está consagrado por el templo del sol, posee poderes mágicos, y sólo puede ser utilizado por aquellos que siguen el camino de la iluminación.
 
 ESTADÍSTICAS:
@@ -1023,7 +1373,10 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad 3
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+Sólo utilizable por:
+ Clérigo
+ Paladín~
 @228 = ~Martillo Brillante~
 @229 = ~Martillo de Guerra +3 "Destino de Asgrim"~
 @230 = ~De obvia naturaleza mágica debido a su peculiar iluminación azul.
@@ -1041,7 +1394,11 @@ Tipo de daño: aplastante
 Peso: 6
 Factor de velocidad 4
 Tipo de competencia: Martillo de guerra
-Tipo: Martillo 1 mano~
+Tipo: Martillo 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @232 = ~Martillo de Guerra~
 @233 = ~Gran Martillo de Guerra +3~
 @234 = ~Un enorme y difícil de manejar martillo de guerra inscrito con runas enanas.
@@ -1053,7 +1410,11 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad: 4
 Tipo de competencia: Martillo de guerra
-Tipo: Martillo 1 mano~
+Tipo: Martillo 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @235 = ~Los caballeros montados no pueden usar eficazmente armas de asta larga mientras están a caballo, y como resultado, muchas armas han sido equipadas con astas más cortas para que puedan ser blandidas con una sola mano.  Las mazas y los mayales son dos ejemplos de ello; el martillo de guerra es otro. El martillo de guerra del jinete es descendiente del martillo de Lucerna. Está fabricado íntegramente en acero, con rondeles que protegen y refuerzan la empuñadura. Las rondelas son pequeños discos de metal, a menudo con formas decorativas. El mango mide unos 45 cm".
 
 ESTADÍSTICAS:
@@ -1064,7 +1425,11 @@ Peso: 6
 Factor de velocidad: 4
 Tipo de competencia: Martillo de guerra
 Tipo: Martillo 1 mano
-Requiere 14 Fuerza~
+Requiere 14 Fuerza
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @236 = ~Martillo de Guerra +2~
 @237 = ~Los caballeros montados no pueden usar eficazmente armas de asta larga mientras montan a caballo, y como resultado, muchas armas han sido equipadas con astas más cortas para que puedan ser blandidas con una sola mano.  Las mazas y los mayales son dos ejemplos de ello; el martillo de guerra es otro.  El martillo de guerra del jinete es descendiente del martillo de Lucerna.  Está fabricado íntegramente en acero, con rondeles que protegen y refuerzan la empuñadura.  Las rondelas son pequeños discos de metal, a menudo con formas decorativas.  El mango mide unos 45 cm de largo. ''
 
@@ -1075,7 +1440,11 @@ Tipo de daño: aplastante
 Peso: 6
 Factor de velocidad: 4
 Tipo de competencia: Martillo de guerra
-Tipo: Martillo 1 mano~
+Tipo: Martillo 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @238 = ~Martillo de Guerra +2: 'Morgoth'
 Forjado por enanos de una época muy lejana, este martillo aún irradia un calor mágico que quema cuando tocas la cabeza del martillo. Poco más se sabe de este antiguo artefacto.
 
@@ -1087,7 +1456,11 @@ Tipo de daño: aplastante
 Peso: 5
 Factor de velocidad: 2
 Tipo de competencia: Martillo de guerra
-Tipo: Martillo de guerra 1 mano~
+Tipo: Martillo de guerra 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @239 = ~Bec de Corbyn ~
 @240 = ~Bec de Corbyn: 'Pico de Cuervo'
 Durante siglos, la aparición de un cuervo en el campo de batalla se consideró un presagio de fatalidad.  Este devastador martillo tiene un nombre muy apropiado; la forma de la púa trasera recuerda al pico, mientras que la cara nudosa ayuda a concentrar el golpe en la armadura del oponente.  La púa superior en forma de hoja añade una estocada mortal al repertorio del portador.
@@ -1107,7 +1480,11 @@ Factor de velocidad:
    Aplastante: 2
    Perforación 1
 Tipo de competencia: Martillo de Guerra
-Tipo: Martillo de guerra 1-mano~
+Tipo: Martillo de guerra 1-mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @241 = ~Mjolnir "El Destructor"~
 @242 = ~Los caballeros a caballo no pueden usar armas de asta larga con eficacia, y como resultado, muchas armas han sido equipadas con astas más cortas para que puedan ser blandidas con una sola mano. Las mazas y los mayales son dos ejemplos de ello; el martillo de guerra es otro. El martillo de guerra del jinete es descendiente del martillo de Lucerna. Está fabricado íntegramente en acero, con rondeles que protegen y refuerzan la empuñadura. Las rondelas son pequeños discos de metal, a menudo con formas decorativas. El mango mide unos 45 cm de largo.
 
@@ -1118,7 +1495,11 @@ Tipo de daño: aplastante
 Peso: 6
 Factor de velocidad: 4
 Tipo de competencia: Martillo de guerra
-Tipo: Martillo 1 mano~
+Tipo: Martillo 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @243 = ~Este es el legendario martillo de Thor, dios nórdico del trueno. Fabricado por el herrero enano Eitri por encargo de Loki y presentado a los dioses como un regalo, Mjolnir posee grandes poderes. Nunca puede perderse, vuelve a la mano del lanzador después de ser lanzado, nunca puede ser destruido y fue encantado por el propio Thor con la capacidad de controlar el rayo.
 
 ESTADÍSTICAS:
@@ -1133,7 +1514,11 @@ Especial Lanzar relámpago ilimitadas veces
 Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Martillo de Guerra
-Tipo: Martillo de guerra 1-mano~
+Tipo: Martillo de guerra 1-mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @244 = ~La Estrella de la Iluminación +3~
 @245 = ~La Estrella de la Iluminación está consagrada por el templo del sol, posee poderes mágicos, y sólo puede ser usada por aquellos que siguen el camino de la iluminación.  
 
@@ -1148,7 +1533,10 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad 3
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1-mano~
+Tipo: 1-mano
+Sólo utilizable por:
+ Clérigo
+ Paladín~
 @246 = ~Maza +2 `Doncella Gritona'~
 @247 = ~Maza +2 : 'Doncella Gritona'
 
@@ -1166,7 +1554,11 @@ Factor de velocidad 5
 Tipo de competencia: Maza
 Tipo: Maza 1 mano
 Especial: La maza tiene un efecto vampírico que cura al que la empuña y aumenta temporalmente los puntos de golpe máximos; los puntos de golpe por encima del máximo real se pierden tras el combate.
-Cada vez que la maza impacta, el portador debe hacer una tirada de salvación contra hechizo o entrar en una furia berserking atacando a cualquier cosa cercana, incluidos los amigos.~
+Cada vez que la maza impacta, el portador debe hacer una tirada de salvación contra hechizo o entrar en una furia berserking atacando a cualquier cosa cercana, incluidos los amigos.
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
 @248 = ~Arco Largo~
 @249 = ~Arco de Misiles Mágicos de Báculo Negro~
 @250 = ~El arco largo es similar al arco corto, excepto en que el bastón es tan alto como el arquero, normalmente entre 1,80 y 1,80 metros. Tiene dos ventajas sobre el arco corto: mejor alcance y, por lo tanto, es mucho más preciso. 
@@ -1178,7 +1570,12 @@ THACO: +1
 Peso: 3
 Factor de velocidad: 7
 Tipo de competencia: Arco Largo
-Tipo: Arco largo 2 manos~
+Tipo: Arco largo 2 manos
+No utilizable por:
+ Druida
+ Clerigo
+ Mago
+ Ladrón~
 @251 = ~Se rumorea que este arco fue hecho por Khelban Backstaff y se lo robaron. Bueno, quien lo hizo tuvo que ser un mago ya que había un encantamiento mágico de misil mágico puesto en él.
 
 ESTADÍSTICAS:
@@ -1189,7 +1586,11 @@ Daño: 1D6 +3
 Peso: 2
 Factor de velocidad: 6
 Tipo de competencia: Arco Largo
-Tipo: Arco largo 2 manos~
+Tipo: Arco largo 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @252 = ~Arco Largo de Explorador +3~
 @253 = ~El regalo de Mielikki fue dado a un Explorador Rashemi llamado Doran. Doran era conocido por derribar enemigos en gran número con este arco. 
 
@@ -1201,7 +1602,9 @@ Daño +2
 Peso: 2
 Factor de Velocidad 5
 Tipo de competencia: Arco Largo
-Tipo: Arco largo 2 manos~
+Tipo: Arco largo 2 manos
+Usable por:
+Exploradores solamente~
 @254 = ~Arco Corto~
 @255 = ~Arco Corto "El Norte Helado"~
 @256 = ~Los arcos cortos fueron los primeros en desarrollarse, aunque no se les llamaba así. Se trata más bien de un término por defecto que se refiere a cualquier cosa que no sea un arco largo. Las duelas de los arcos cortos tienen una longitud media de 1,5 metros. Con el paso de los años, se intentó aumentar el alcance de los arcos. Los arcos se dotaron de pentagramas más largos o se aumentó la flexibilidad sin cambiar la longitud. La primera opción dio lugar a lo que hoy se conoce como arco largo.
@@ -1212,7 +1615,11 @@ Daño:
 Peso: 2
 Factor de velocidad: 6
 Tipo de competencia: Arco corto
-Tipo: Arco corto 2 manos~
+Tipo: Arco corto 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @257 = ~Arco Corto "El Norte Helado":
 Este es un arco raro, sólo 3 se sabe que existen. Fueron fabricados por un Sacerdote de Auril en la región del Valle del viento Helado. Uno se lo llevó la propia Auril y el otro se perdió en algún lugar del Glaciar Gloomfrost.
 
@@ -1224,7 +1631,11 @@ Especial: +1D6 daño de frío y congelar(mantener) durante 60 segundos, sin salvac
 Peso: 2
 Factor de velocidad: 4
 Tipo de competencia: Arco Corto
-Tipo: Arco corto 2 manos~
+Tipo: Arco corto 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @258 = ~Arco Corto 'Tormenta de Hielo'~
 @259 = ~Los arcos cortos fueron los primeros en desarrollarse, aunque no se les llamaba así.  Se trata más bien de un término por defecto que se refiere a cualquier cosa que no sea un arco largo.  Las duelas de los arcos cortos tienen una longitud media de unos 5 ' pies.  Con el paso de los años, se intentó aumentar el alcance de los arcos.  Los arcos se dotaron de pentagramas más largos o se aumentó la flexibilidad sin cambiar la longitud.  La primera opción dio lugar a lo que hoy se conoce como arco largo.  
 
@@ -1234,7 +1645,11 @@ Daño:
 Peso: 2
 Factor de velocidad: 6
 Tipo de competencia: Arco corto
-Tipo: Arco corto 2 manos~
+Tipo: Arco corto 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @260 = ~Arco corto: 'Tormenta de Hielo'
 
 Un efímero puesto avanzado de humanos en el Bosque Helado desenterró esta arma, y muchas otras, de las ruinas de un antiguo asentamiento en las profundidades de esa fría tierra. Sin conocer los nombres de sus extintos benefactores, los colonos utilizaron estas "herramientas" para labrarse un gran territorio, aunque al final fue en vano.  Aplastados por un número superior de Hobgoblins, estas desafortunadas almas se han unido a los antiguos en su anonimato. El usuario debe hacer una salvación contra muerte +5 o sufrir el mismo destino que su enemigo.
@@ -1248,7 +1663,11 @@ Especial: +1D6 daño de frío y congelar (mantener) durante 60 segundos, sin salva
 Peso: 2
 Factor de velocidad: 4
 Tipo de competencia: Arco Corto
-Tipo: Arco corto 2 manos~
+Tipo: Arco corto 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @261 = ~Arco Largo de O'Locksley~
 @262 = ~El arco largo es similar al arco corto, excepto en que la vara es tan alta como el arquero, normalmente entre 1,80 y 1,80 metros. Tiene dos ventajas sobre el arco corto: mejor alcance y, por lo tanto, es mucho más preciso.
 
@@ -1259,7 +1678,12 @@ THACO: +1
 Peso: 3
 Factor de velocidad: 7
 Tipo de competencia: Arco Largo
-Tipo: Arco largo 2 manos~
+Tipo: Arco largo 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @263 = ~El famoso arquero y forajido O'Locksley construyó este arco con la ayuda de un mago simpatizante para ayudarle en su intento de librar al país del duro y opresivo amo que mantenía al campesinado en un férreo vicio de miedo. Gran parte de su fama como arquero sin par se debe a los poderes de su maravilloso arco. Tras su trágica muerte, el arco de O'Locksley pasó a su sobrino; Jaen de Southerton Jaen utilizó el arco durante dos décadas para seguir luchando contra la injusticia y el mal en el país. Se lo confió a un amigo elfo antes de partir en una misión secreta de la que nunca regresó. El elfo regaló el arco a su reina, y desde entonces se ha transmitido entre la realeza de la corte de los elfos. Varias veces se ha perdido, pero siempre se ha recuperado gracias a la diligencia de las búsquedas del elfo. La última vez que se utilizó fue en un asalto a la Guarida del Rey Goblin. Tanto Treestalker como el arco se perdieron tras la incursión, y los elfos siguen buscándolos.
 
 El arco es de una calidad excepcional, está hecho de tejo antiguo que algunos dicen que proviene del gran Árbol del Mundo, Yaggissdril. El arco mágico es de tal calidad que nunca necesita ser tensado, ni siquiera después de mojarse. La tensión del arco es ligera como una pluma, por lo que se obtiene fácilmente una precisión y velocidad extremas.
@@ -1271,7 +1695,12 @@ Daño: +2
 Peso: 2
 Factor de velocidad: 5
 Tipo de competencia: Arco Armas
-Tipo: Arco 2-manos~
+Tipo: Arco 2-manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @264 = ~Ballesta Ligera~
 @265 = ~Ballesta Ligera +3 'Picadura de Escorpión'~
 @266 = ~Una ballesta es un arco montado en cruz sobre un asta de madera o metal, esta última llamada caña. El arco suele ser de fresno o tejo.  La ballesta dispara un proyectil (también llamado saeta).
@@ -1281,7 +1710,12 @@ ESTADÍSTICAS:
 Peso: 7
 Factor de velocidad: 5
 Tipo de competencia: Ballesta
-Tipo: Ballesta 2 manos~
+Tipo: Ballesta 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @267 = ~Esta ballesta fue fabricada por los Erreth-Akbe para su larga guerra contra los nigromantes. La ballesta estaba encantada con la habilidad de formar rayos venenosos cuando se apuntaba a un objetivo. Una vez construida, los druidas se dieron cuenta de que era un arma demasiado caótica como para permitir su uso y la enterraron bajo el templo para no volver a verla jamás.
 
 ESTADÍSTICAS:
@@ -1295,7 +1729,12 @@ Especial No requiere pernos
 Peso: 6
 Factor de velocidad: 1
 Tipo de competencia: Ballesta
-Tipo: Ballesta 2 manos~
+Tipo: Ballesta 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @268 = ~Arco Largo Compuesto~
 @269 = ~Ullyses~
 @270 = ~Los arcos compuestos son arcos largos o arcos cortos cuyas duelas están hechas de más de un tipo de material. Esto les confiere mayor flexibilidad y, por tanto, mejor alcance. Se desarrollaron después del arco largo normal.
@@ -1307,7 +1746,12 @@ Bonificación para golpear: +1
 Peso: 10
 Factor de velocidad: 7
 Tipo de competencia: Arco largo
-Tipo: Arco largo 2 manos~
+Tipo: Arco largo 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @271 = ~El sueño de los arqueros. El Ullyses no necesita flechas, dispara rayos de hielo que se forman al tensar la cuerda. Sus orígenes son desconocidos, pero el estilo sugiere que es de fabricación élfica.
 
 ESTADÍSTICAS:
@@ -1317,7 +1761,13 @@ Daño: 1D6 +2
 Peso: 9
 Especial: Velocidad de las armas aumentada
 Tipo de competencia: Arco largo
-Tipo: Arco largo 2 manos~
+Tipo: Arco largo 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron
+ Bardo~
 @272 = ~Ballesta Ligera +3 'Diente de Fuego'~
 @273 = ~Una ballesta es un arco montado transversalmente sobre un asta de madera o metal, esta última llamada caña. El arco suele estar hecho de fresno o tejo. La ballesta dispara un proyectil (también llamado saeta).
 
@@ -1326,7 +1776,12 @@ ESTADÍSTICAS:
 Peso: 7
 Factor de velocidad: 5
 Tipo de competencia: Ballesta
-Tipo: Ballesta 2 manos~
+Tipo: Ballesta 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @274 = ~La cuerda mágica de Gond hace que incluso los misiles encantados de la ballesta Diente de Fuego sean más precisos y potentes. Diente de fuego sólo disparará estos misiles encantados, por lo que no necesita munición.
 
 ESTADÍSTICAS:
@@ -1337,7 +1792,11 @@ Daño 1D8 +3
 Peso: 5
 Factor de velocidad: 1
 Tipo de competencia: Ballesta
-Tipo: Ballesta 2-manos~
+Tipo: Ballesta 2-manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @275 = ~Bala~
 @276 = ~Bala +1~
 @277 = ~Una bala es simplemente una piedra redondeada y bien equilibrada. 
@@ -1409,7 +1868,9 @@ Tipo de daño: perforante
 Peso: 1
 Factor de velocidad: 2 
 Tipo de competencia: Daga
-Tipo: Daga  1 mano~
+Tipo: Daga  1 mano
+No utilizable por:
+ Clerigo~
 @289 = ~Daga +2 "Mordisco del Norte"
 La daga típica tiene una hoja puntiaguda, normalmente de doble filo, a diferencia del cuchillo, que tiene un solo filo y es un poco más corto que la daga. Esta daga vino de Neverwinter de un armero enano. Puso encantamientos en la daga para hacer daño de frío.
 
@@ -1423,7 +1884,9 @@ Factor de velocidad: 0
 Speicals: 
 Da al usuario 50% de resistencia contra el frío 
 Tipo de competencia: Daga
-Tipo: Daga 1 mano~
+Tipo: Daga 1 mano
+No utilizable por:
+ Clerigo~
 @290 = ~Daga +3: "Lil Stunner"~
 @291 = ~La daga típica tiene una hoja puntiaguda, normalmente de doble filo, a diferencia del cuchillo, que tiene un solo filo y es un poco más corto que la daga.
 
@@ -1434,7 +1897,9 @@ Tipo de daño: perforante
 Peso: 1
 Factor de velocidad: 2 
 Tipo de competencia: Daga
-Tipo: Daga 1 mano~
+Tipo: Daga 1 mano
+No utilizable por:
+ Clerigo~
 @292 = ~Creada por un forjador conocido como Evets Nitsua, hizo que esta daga aturdiera al objetivo para poder descuartizarlo lentamente y desangrarlo hasta la muerte.   
 
 ESTADÍSTICAS: 
@@ -1446,7 +1911,9 @@ Tipo de daño: Perforante
 Peso: 2 
 Factor de velocidad: 0 
 Tipo de competencia: Daga
-Tipo: Daga 1 mano Vuelve cuando se lanza~
+Tipo: Daga 1 mano Vuelve cuando se lanza
+No utilizable por:
+ Clerigo~
 @293 = ~Daga de Yarash - Daga de Retorno~
 @294 = ~Daga de Yarash: La daga del regreso fue fabricada por Yarash el Hechicero como pago a una banda de aventureros por los servicios prestados. Muchos creen que es tanto su inusual peso como el encantamiento mágico lo que confiere a la daga su alto nivel de daño.
 
@@ -1460,7 +1927,9 @@ Especial: Aumenta el número de ataques
 Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Daga
-Tipo: Daga 1-mano~
+Tipo: Daga 1-mano
+No utilizable por:
+ Clerigo~
 @295 = ~Daga de la Enfermedad~
 @296 = ~La "Daga de la Enfermedad" es una potente espada favorita de los asesinos de todos los Reinos. Esta peculiar arma está enferma y causa daño adicional a la víctima. Cada vez que golpea a un oponente, segrega un virus en el torrente sanguíneo de la criatura. El virus ataca al sistema inmunológico con bastante rapidez.
 Su origen es desconocido.
@@ -1475,7 +1944,9 @@ Daño de Veneno: 6 puntos por asalto
 Peso: 2
 Factor de velocidad: 0
 Tipo de competencia: Daga
-Tipo: Daga 1-mano~
+Tipo: Daga 1-mano
+No utilizable por:
+ Clerigo~
 @297 = ~Daga +2: 'La impactante'~
 @298 = ~La daga típica tiene
   una hoja de filo puntiagudo, a diferencia de un cuchillo, que tiene un solo filo y es un poco más corto que la daga. 
@@ -1487,7 +1958,9 @@ Tipo de daño: perforante
 Peso: 1
 Factor de velocidad: 2 
 Tipo de competencia: Daga
-Tipo: Daga 1 mano~
+Tipo: Daga 1 mano
+No utilizable por:
+ Clerigo~
 @299 = ~No hay registros del creador de esta arma; sin embargo, su existencia puede rastrearse entre las tribus bárbaras y nómadas de las montañas.  Su hoja de rayo azul fue aparentemente forjada a partir de los metales arcanos y rayos de iluminación para calentarla, dando al arma una apariencia de iluminación azul.
 
 ESTADÍSTICAS:
@@ -1500,7 +1973,9 @@ Especial: 50% de probabilidad de hacer 2D4 de daño eléctrico
 
 Otorga al usuario un 50% de resistencia contra la electricidad
 Tipo de competencia: Daga
-Tipo: Daga 1 mano~
+Tipo: Daga 1 mano
+No utilizable por:
+ Clerigo~
 @300 = ~Daga De Hielo~
 @301 = ~Daga +2: 'Diente de Invierno
 No hay registros del creador de esta arma; sin embargo, su existencia puede rastrearse entre las tribus bárbaras y nómadas del norte.  Su hoja de hielo azul fue aparentemente forjada a partir de los metales arcanos encontrados en el gran norte, dando al arma una apariencia helada.
@@ -1515,7 +1990,9 @@ Especial: 1D8 de daño de frío salvo contra hechizo
 
 Otorga al usuario un 50% de resistencia al frío 
 Tipo de competencia: Daga
-Tipo: Daga 1-mano~
+Tipo: Daga 1-mano
+No utilizable por:
+ Clerigo~
 @302 = ~Daga Arrojadiza~
 @303 = ~Daga Arrojadiza +3~
 @304 = ~ La hoja de la daga tiene una afilada punta de acero, contrapesada por un mango.
@@ -1527,7 +2004,10 @@ Tipo de daño: misil (perforante)
 Peso: 2
 Factor de velocidad: 4
 Tipo de competencia: Daga
-Tipo: Daga 1 mano~
+Tipo: Daga 1 mano
+No utilizable por:
+ Clerigo
+ Druida~
 @305 = ~Esta daga arrojadiza no sólo ha sido finamente equilibrada para su uso como arma de proyectiles, sino que también ha sido objeto de importantes mejoras mágicas. Como resultado, es más dañina y precisa que cualquier arma no mágica de estilo similar. 
 
 ESTADÍSTICAS:
@@ -1540,7 +2020,10 @@ Especial: Vuelve a la mano del usuario una vez lanzada
 Peso: 0
 Factor de velocidad: 1
 Tipo de competencia: Daga
-Tipo: Daga 1-mano~
+Tipo: Daga 1-mano
+No utilizable por:
+ Druida
+ Clérigo~
 @306 = ~Lanza~
 @307 = ~Lanza Quimera +3~
 @308 = ~Una de las primeras armas del hombre, que se remonta a los tiempos más primitivos, las primeras lanzas eran simplemente palos de madera o varas afiladas en un extremo. Cuando el hombre dominó los metales, las puntas de las lanzas se hicieron de hierro y acero. Una vez llegado a este extremo, los armeros empezaron a experimentar con diferentes tipos de puntas de lanza, lo que condujo al desarrollo de ciertos tipos de armas de asta.
@@ -1552,7 +2035,11 @@ Tipo de daño: perforante
 Peso: 5
 Factor de velocidad: 6
 Tipo de competencia: Lanza
-Tipo: Lanza 2 manos~
+Tipo: Lanza 2 manos
+No utilizable por:
+ Clérigo
+ Mago
+ Ladrón~
 @309 = ~Lanza Quimera +3
 Arma favorita de los exploradores elfos de la Quimera, estas lanzas están hechas de madera mágica con un extremo espinoso recubierto de un veneno letal. La cruda brutalidad de la Quimera en combate sólo tiene rival entre los elfos silvanos.
 
@@ -1566,7 +2053,11 @@ Tipo de daño: perforante
 Peso: 5
 Factor de velocidad 3
 Tipo de competencia: Lanza 
-Tipo: Lanza 2-manos~
+Tipo: Lanza 2-manos
+No utilizable por:
+ Clérigo
+ Mago
+ Ladrón~
 @310 = ~Gibbet~
 @311 = ~Un arma sin humor por decir lo menos. Gibbet fue forjada por Mekorig el Ciego para ayudar a acabar con la era de los monstruos y promover la era del hombre. Gibbet a menudo desaparece durante años sólo para ser redescubierta en algún tesoro de dragones por aventureros ambiciosos.  El poder del arma a menudo inspira a estos aventureros a trasladarla a otro tesoro de dragones, donde vuelve a desaparecer durante años.
 
@@ -1579,7 +2070,11 @@ Tipo de daño: perforante
 Peso: 5
 Factor de velocidad: 1
 Tipo de competencia: Lanza 
-Tipo: Lanza 2 manos~
+Tipo: Lanza 2 manos
+No utilizable por:
+ Clérigo
+ Mago
+ Ladrón~
 @312 = ~Lanza Divina~
 @313 = ~Una de las mejores armas jamás creadas para el camino de la luz, esta lanza brilla con el poder del bien que reside en ella. Usada casi exclusivamente por la Guardia Sagrada Sukien, es un tesoro raro y valioso. Los Sumos Sacerdotes de los Sukien encantan cada una de ellas con gran fuerza contra el mal que intentaría destruir su templo sagrado.
 
@@ -1593,7 +2088,11 @@ Tipo de daño: perforante
 Peso: 5
 Factor de Velocidad: 5
 Tipo de competencia: Lanza 
-Tipo: Lanza 2-manos~
+Tipo: Lanza 2-manos
+No utilizable por:
+ Clérigo
+ Mago
+ Ladrón~
 @314 = ~Honda~
 @315 = ~Honda Elemental "La Honda de la Abundancia"~
 @316 = ~Las hondas han existido desde el principio de la historia. La honda básica consiste en una correa de cuero o tela con una bolsa para guardar el proyectil.  El arma se sujeta por ambos extremos de la correa y se hace girar alrededor de la cabeza del portador. Cuando se alcanza la velocidad máxima, el misil se lanza soltando uno de los extremos de la correa.
@@ -1603,7 +2102,8 @@ ESTADÍSTICAS:
 Peso: 0
 Factor de velocidad: 6
 Tipo de competencia: Honda
-Type: 1 mano~
+Type: 1 mano
+No utilizable por:~
 @317 = ~Originalmente creada como arma de entrenamiento por los maestros de la Iglesia del Sol, esta letal honda ha caído en manos de ladrones y canallas durante siglos. La propia honda crea la piedra que se lanzará al girar invocando a los propios elementos que la rodean, lo que elimina la necesidad de llevar munición. No es de extrañar que a los ladrones les guste tanto.
 
 ESTADÍSTICAS:
@@ -1613,7 +2113,8 @@ THACO: +2
 Peso: 0
 Factor de velocidad: 1
 Tipo de competencia: Honda
-Tipo: 1-mano~
+Tipo: 1-mano
+No utilizable por:~
 @318 = ~Bastón de Hechicero +3~
 @319 = ~La más simple y humilde de las armas de báculo, el báculo de cuarto es un trozo de madera de entre seis y nueve pies de longitud. Los báculos de alta calidad están hechos de roble robusto y tienen metal en ambos extremos. Debe empuñarse con ambas manos. Este bastón también tiene la capacidad de convertir a los oponentes en piedra.
 
@@ -1628,7 +2129,9 @@ Habilidades especiales:
  Vocaliza
  25% Probabilidad de Petrificar al Enemigo al Golpear
 Tipo de competencia: Baston
-Tipo: Baston  2-manos~
+Tipo: Baston  2-manos
+Usable por:
+ Mago~
 @320 = ~Bastón~
 @321 = ~Bastón De La Naturaleza~
 @322 = ~La más simple y humilde de las armas de asta, el Baston es una longitud de madera que oscila entre seis y nueve pies de largo.  Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos.  Debe empuñarse con ambas manos.  
@@ -1640,7 +2143,8 @@ Tipo de daño: aplastante
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Bastón
-Tipo: Baston 2-manos~
+Tipo: Baston 2-manos
+No utilizable por:~
 @323 = ~Bastón de la Naturaleza: 'Protector Natural'
 Este bastón ha sido utilizado por una tribu de druidas durante muchos siglos. Transmitido de líder a líder en la tribu de archidruidas de la tierra de Kazgard. Se dice que este báculo fue forjado por la propia naturaleza y que brilla en verde para demostrar que realmente está hecho con el poder de la naturaleza. Este bastón es muy poderoso y sus antiguos dueños eran gente muy poderosa.
 
@@ -1653,7 +2157,9 @@ Peso: 2
 Factor de velocidad: 1
 Tipo de daño: Garrote
 Tipo de competencia: Bastón
-Tipo: Baston 2-manos~
+Tipo: Baston 2-manos
+Usable por:
+Sólo Druida~
 @324 = ~Bastón de Cuarto~
 @325 = ~Bastón Elemental de Aire~
 @326 = ~La más simple y humilde de las armas de asta, el báculo es un trozo de madera de entre seis y nueve pies de longitud. Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos.  Debe empuñarse con ambas manos.
@@ -1665,7 +2171,8 @@ Tipo de daño: aplastante
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Bastón
-Tipo: baston 2 manos~
+Tipo: baston 2 manos
+No utilizable por:~
 @327 = ~Este es uno de los cuatro bastones elementales de los Chanah'Rea, que se cree que fueron forjados en los albores del tiempo, cuando nació la tierra. Este bastón en particular es del elemento aire.
 
 ESTADÍSTICAS:
@@ -1680,7 +2187,8 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Bastón
-Tipo: baston 2-manos~
+Tipo: baston 2-manos
+No utilizable por:~
 @328 = ~Bastón Elemental de Tierra~
 @329 = ~La más simple y humilde de las armas de asta, el báculo es un trozo de madera de entre seis y nueve pies de longitud.  Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos. Debe empuñarse con ambas manos.
 
@@ -1691,7 +2199,8 @@ Tipo de daño: aplastante
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Bastón
-Tipo: Baston 2 manos~
+Tipo: Baston 2 manos
+No utilizable por:~
 @330 = ~Este es uno de los cuatro báculos elementales de los Chanah'Rea que se cree que fueron forjados en los albores del tiempo, cuando nació la propia tierra. Este bastón en particular es del elemento tierra.
 
 ESTADÍSTICAS:
@@ -1707,7 +2216,8 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Bastón
-Tipo: Baston 2-manos~
+Tipo: Baston 2-manos
+No utilizable por:~
 @331 = ~Bastón Elemental de Fuego~
 @332 = ~La más simple y humilde de las armas de asta, el báculo es un trozo de madera de entre seis y nueve pies de longitud. Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos. Debe empuñarse con ambas manos.
 
@@ -1718,7 +2228,8 @@ Tipo de daño: aplastante
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Bastón
-Tipo: baston 2 manos~
+Tipo: baston 2 manos
+No utilizable por:~
 @333 = ~Este es uno de los cuatro bastones elementales de los Chanah'Rea, que se cree que fueron forjados en los albores del tiempo, cuando nació la tierra. Este bastón en particular es del elemento fuego. manos.
 
 ESTADÍSTICAS:
@@ -1733,7 +2244,8 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Bastón
-Tipo: baston 2-manos~
+Tipo: baston 2-manos
+No utilizable por:~
 @334 = ~Bastón Elemental de Agua~
 @335 = ~Este es uno de los cuatro bastones elementales de los Chanah'Rea que se cree que fueron forjados en los albores del tiempo, cuando nació la tierra. Este bastón en particular es del elemento agua.
 ESTADÍSTICAS:
@@ -1748,7 +2260,8 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Bastón
-Tipo: baston  2-manos~
+Tipo: baston  2-manos
+No utilizable por:~
 @336 = ~Bastón de la Vida~
 @337 = ~Bastón de la Vida: 
 Blanca y dorada, con un gran poder, esta vara se formó en los albores del tiempo con el primer rayo de sol que brillaba en una masa de agua pura. Ofrece poca ofensiva, pero proporciona a su portador una poderosa protección.
@@ -1764,7 +2277,10 @@ Tipo de daño: aplastante
 Peso: 3
 Factor de velocidad: 6
 Tipo de competencia: Bastón
-Tipo: Quarterstaff 2 manos~
+Tipo: Quarterstaff 2 manos
+Sólo utilizable por:
+Mago (simple, dual y multiclase)
+Personajes con alineamiento bueno~
 @338 = ~Espada Larga~
 @339 = ~Espada Larga 'El Berserker del Norte'~
 @340 = ~Estas espadas suelen denominarse espadas de doble filo, espadas de guerra o espadas militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión del sable largo; el diseño y la longitud varían de una cultura a otra, y pueden variar dentro de la misma cultura dependiendo de la época. Una de las características más comunes de todas las espadas largas es su longitud, que oscila entre 35 y 47 pulgadas. En este último caso, se sabe que la hoja ocupa 40 pulgadas de la longitud total. La mayoría de las espadas largas tienen una hoja de doble filo y una punta afilada en la punta. A pesar de la punta, la espada larga está diseñada para acuchillar, no para empujar.
@@ -1776,7 +2292,11 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @341 = ~De los gélidos fríos del Valle del Viento helado, esta espada fue forjada por el enano demente, Asgrim. La empuñadura se siente fría y la hoja está helada al tacto, por mucho calor que haga fuera. 
 
 ESTADÍSTICAS:
@@ -1789,7 +2309,11 @@ Especial:
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Espada Larga
-Tipo: Espada larga 1-mano~
+Tipo: Espada larga 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @342 = ~Cimitarra~
 @343 = ~Cimitarra +2~
 @344 = ~La cimitarra está estrechamente relacionada con el sable, una espada curva de un solo filo con empuñadura protectora. La hoja es más curva y se estrecha hasta una punta alargada y afilada. Se desconocen los orígenes de la cimitarra, pero es muy popular en la región sur de los Reinos Olvidados.
@@ -1801,7 +2325,10 @@ Tipo de daño: Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 5
-Tipo 1-mano~
+Tipo 1-mano
+No utilizable por:
+ Clérigo
+ Mago~
 @345 = ~Cimitarra +2: 
 
 La cimitarra está estrechamente relacionada con el sable, una espada curva de un solo filo con empuñadura protectora. La hoja es más curva y se estrecha hasta una punta alargada y afilada. Se desconocen los orígenes de la cimitarra, pero es muy popular en la región sur de los Reinos Olvidados.
@@ -1816,7 +2343,10 @@ Tipo de daño Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 2
-Tipo 1-mano~
+Tipo 1-mano
+No utilizable por:
+ Clérigo
+ Mago~
 @346 = ~Sable~
 @347 = ~Sable +3 'Recompensa de los piratas'~
 @348 = ~La hoja larga, curvada y de un solo filo es característica tanto del Sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El Sable, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
@@ -1828,7 +2358,13 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-mano~
+Tipo: Cimitarra 1-mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @349 = ~Sable +3 'Recompensa de los piratas' La hoja larga, curvada y de un solo filo es característica tanto del Sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El Sable, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
@@ -1840,7 +2376,13 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @350 = ~Espada Larga +2 "Sección Uno"~
 @351 = ~Las espadas de la Sección Uno son las más finas que existen. Las usan las fuerzas de élite del grupo llamado "La Sección". Incluso tener una espada hecha para La Sección podría significar tu muerte.
 
@@ -1853,7 +2395,12 @@ Tipo de daño: cortante
 Peso: 7
 Factor de velocidad: 2
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
 @352 = ~Espada Larga 'Vida'~
 @353 = ~Espada personal de Nikita. Ella ha cancelado a regañadientes a muchos enemigos con esta espada finamente elaborada. 
 
@@ -1867,7 +2414,11 @@ Especial:
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Ladrón~
 @354 = ~Espada Larga 'Muerte'~
 @355 = ~Estas espadas suelen denominarse espadas de doble filo, espadas de guerra o espadas militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión del sable largo; el diseño y la longitud varían de una cultura a otra, y pueden variar dentro de la misma cultura dependiendo de la época. Una de las características más comunes de todas las espadas largas es su longitud, que oscila entre 35 y 47 pulgadas. En este último caso, se sabe que la hoja ocupa 40 pulgadas de la longitud total.  La mayoría de las espadas largas tienen una hoja de doble filo y una punta afilada en la punta. A pesar de la punta, la espada larga está diseñada para acuchillar, no para empujar.
 
@@ -1878,7 +2429,11 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @356 = ~Espada personal de Michael. Ha anulado a muchos enemigos con esta espada finamente elaborada.
 
 ESTADÍSTICAS:
@@ -1891,7 +2446,11 @@ Especial:
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Espada Larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @357 = ~Lable +3 "T'sarren"~
 @358 = ~La hoja larga, curva y de un solo filo es característica tanto del alfanje como de la cimitarra, aunque sus orígenes se sitúen en diferentes partes de Faerûn. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
@@ -1940,7 +2499,11 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Clérigo
+ Mago
+ Ladrón~
 @363 = ~Sable de Herir. 
 
 ESTADÍSTICAS:
@@ -1952,7 +2515,11 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Clérigo
+ Mago
+ Ladrón~
 @364 = ~Espada Corta ~
 @365 = ~Espada de Asesino~
 @366 = ~La espada corta es el primer tipo de espada que surgió. En los términos más simples, una espada corta puede considerarse una daga con una hoja tan larga que ya no puede llamarse daga. El término espada corta no existe en las clasificaciones de espadas. Sin embargo, se ha llegado a utilizar para describir una hoja de doble filo de unos dos pies de longitud. La punta de la espada suele ser puntiaguda, ideal para empujar.
@@ -1964,7 +2531,11 @@ Tipo de daño: perforante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Espada corta
-Tipo: Espada corta 1 mano~
+Tipo: Espada corta 1 mano
+No utilizable por:
+ Clérigo
+ Mago
+ Druida~
 @367 = ~La hoja del asesino es una armadura de espada larga creada para ser usada por los mortales asesinos de los maestros de las sombras. Nunca se han visto, sólo se rumorea que existe debido a algunas de las cosas increíbles hechas por este grupo de asesinos de élite. Los maestros sombrios son de la orden más alta dentro de la jerarquía de los ladrones de las sombras. Es +4 espada larga.
 
 ESTADÍSTICAS:
@@ -1976,7 +2547,9 @@ Tipo de daño: perforante
 Peso: 3 
 Factor de velocidad: 0
 Tipo de competencia: Espada corta
-Tipo: Espada corta 1-mano~
+Tipo: Espada corta 1-mano
+Usable por:
+ Ladrón~
 @368 = ~Corsario~
 @369 = ~La cimitarra está estrechamente relacionada con el sable, una espada curva de un solo filo con empuñadura protectora. La hoja es más curva y se estrecha hasta una punta alargada y afilada. Se desconocen los orígenes de la cimitarra, pero es muy popular en la región sur de los Reinos Olvidados.
 
@@ -1987,7 +2560,10 @@ Tipo de daño: Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad:  5
-Tipo 1 mano~
+Tipo 1 mano
+No utilizable por:
+Mago
+Clérigo~
 @370 = ~Corsair es una de las mejores armas jamás producidas por las armerías de Regnan. Fieles a su naturaleza, los herreros de Regna crearon un arma que ayudaría a su "recaudación de impuestos" imperial en alta mar y en las ciudades costeras.
 
 ESTADÍSTICAS:
@@ -2001,8 +2577,11 @@ Tipo de daño Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 1
-Tipo  1-mano~
-@371 = ~Sable+2 'Scorcher'~
+Tipo  1-mano
+Sólo utilizable por:
+Ladrón (individual, dual o multiclase)
+Druida~
+@371 = ~Sable +2 'Scorcher'~
 @372 = ~La hoja larga, curva y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se sitúen en diferentes partes de Faerûn.  El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
@@ -2012,7 +2591,13 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @373 = ~Sable +2 'Scorcher' Arrugado y rojo este cuchillo es frío al tacto, las tallas rúnicas sólo dicen 'Scorcher'. Su aspecto ha hecho que muchos aventureros lo confundan con algo gastado, viejo o inútil. Aquellos aventureros más curiosos que la llevaban consigo sólo para estar seguros siempre quedaban gratamente sorprendidos. Verás, el scorcher no se calienta hasta que se balancea, pero una vez que está en movimiento dirigiéndose a un objetivo su nombre es claramente correcto.
 
 ESTADÍSTICAS:
@@ -2024,9 +2609,15 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @374 = ~Sable +3 'Cuchilla fantasma'~
-@375 = ~La hoja larga, curvada y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
+@375 = ~La hoja larga, curvada y de un solo filo es característica tanto del alfanje como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerun. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
 ESTADÍSTICAS:
 
@@ -2035,7 +2626,13 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-mano~
+Tipo: Cimitarra 1-mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @376 = ~Sable +3 'Cuchilla fantasma' (Hoja Fantasma) 
 Cada vez que un espadachín blande su espada, puede ver ligeras imágenes de ella trazándose por detrás. Esta hoja no es diferente de lo que se ve, pero a diferencia de cualquier hoja normal, parece que las imágenes fantasmales de esta también pueden cortar. Originalmente era propiedad de un tipo bastante cerdo y perezoso llamado Bordger, de quien se rumoreaba que tenía algún historial de entrenamiento mágico antes de convertirse en ladrón.  Teniendo en cuenta lo bien que funciona el encantamiento de esta hoja, habría sido mejor que siguiera siendo mago. 
 
@@ -2048,7 +2645,13 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-mano~
+Tipo: Cimitarra 1-mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @377 = ~Sable +3 'Chispas'~
 @378 = ~Sable +3 'Chispas' Zumbando con energía eléctrica, es fácil ver cómo este sable obtuvo su nombre. Se desconocen sus orígenes, pero las historias de tierras extrañas siempre acompañan a cualquier relato sobre esta espada. El primer propietario conocido fue un pirata que acababa de regresar a puerto. Fue asaltado y asesinado mientras se encontraba en estado de embriaguez, e incluso su nombre sigue siendo tan misterioso como el de esta espada.
 
@@ -2061,7 +2664,13 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-mano~
+Tipo: Cimitarra 1-mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @379 = ~Sable +3 'Trueno'~
 @380 = ~Sable +3 'Trueno' Más grande que un alfanje normal, Trueno parece más una espada ancha que un sable. Encargado por un barón ladrón llamado Orrimy que quería "aplastar además de acuchillar", como él decía. El tamaño extragrande le dio los resultados que buscaba, lástima que su primera oportunidad de probarla fuera contra un ogro que le aplastó antes de que pudiera liberarla de su vaina.
 
@@ -2074,7 +2683,13 @@ Tipo de daño: cuchillada
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @381 = ~Sable de Doufas~
 @382 = ~La espada corta es el primer tipo de espada en existir. En los términos más simples, una espada corta puede considerarse una daga con una hoja tan larga que ya no puede llamarse daga. El término espada corta no existe en las clasificaciones de espadas. Sin embargo, se ha llegado a utilizar para describir una hoja de doble filo de unos dos pies de longitud. La punta de la espada suele ser puntiaguda, ideal para empujar.
 
@@ -2085,7 +2700,11 @@ Tipo de daño: perforante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Druida
+ Clérigo 
+ Mago ~
 @383 = ~Sable de Doufas
 El Sable de Doufas fue creado para ser la herramienta perfecta de un asesino. Es muy codiciado por los que resuelven diferencias con una espada, y muchos de los que lo poseen no lo hacen por mucho tiempo.
 
@@ -2100,7 +2719,11 @@ Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Tipo: Cimitarra 1 mano
 Especial
  +2 ataques
- +Retiene al oponente a menos que se salve~
+ +Retiene al oponente a menos que se salve
+ No utilizable por:
+ Druida
+ Clérigo 
+ Mago~
 @384 = ~Espada Larga +4, Vengador Sagrado - Draz~
 @385 = ~Antaño propiedad de Gez de Helm, esta poderosa espada ocupó un lugar de honor entre los artefactos guardados en el templo sagrado de Helm en Puerta de Baldur durante siglos, siendo prestada en ocasiones a un paladín de la iglesia cuando surgía la necesidad. Sin embargo, hace unos sesenta y tres años, se produjo una oleada de robos en la ciudad de Puerta de Baldur. Draz fue robado antes de ser devuelto al templo. Todos los intentos de localizarlo fracasaron, pero ahora ha aparecido aquí, en tus manos.
 
@@ -2116,7 +2739,9 @@ Habilidades especiales:
  50% Resistencia Mágica
  +1 a Fuerza
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+Utilizable por:
+Paldin~
 @386 = ~Espada Larga "Muerdefuegos"~
 @387 = ~Cómo llegó "Muerdefuegos" a este plano es un misterio.
 
@@ -2136,7 +2761,11 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad 3
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-mano~
+Tipo: Espada larga 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @388 = ~Espada del Bosque~
 @389 = ~Cimitarra 'La hoja larga, curva y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se sitúen en diferentes partes de Faerûn. Mientras que el sable estaba destinado principalmente a los jinetes, sobre todo debido a su versatilidad, la cimitarra tiene una mayor influencia oriental. El "shamshir", como se llamaba originalmente, es más grande, tiene una mayor curvatura y se estrecha hasta una punta alargada y afilada. Como consecuencia, es ligeramente más lenta, pero suele ser más eficaz y letal en combate.
 
@@ -2154,7 +2783,9 @@ Peso: 4
 Factor Velocidad: 5
 Tipo de daño: Cuchillada
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-mano~
+Tipo: Cimitarra 1-mano
+Utilizado por
+Druida~
 @391 = ~Harval: La Hoja Gris~
 @392 = ~La cimitarra está estrechamente relacionada con el sable, una espada curva de un solo filo con empuñadura protectora. La hoja es más curva y se estrecha hasta una punta alargada y afilada. Se desconocen los orígenes de la cimitarra, pero es muy popular en la región meridional de los Reinos Olvidados. Esta espada en particular parece ser de muy alta calidad debido al tremendo equilibrio que se siente al blandirla.
 
@@ -2165,7 +2796,10 @@ Tipo de daño: Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad:  5
-Tipo  1 mano~
+Tipo  1 mano
+No utilizable por:
+Mago
+Clérigo~
 @393 = ~Harval perteneció a Colbey Calistinsson: El Guardián del Equilibrio.
 Se le dio antes del Ragnarok (La Guerra de los Dioses). Aunque no es un dios, es un Inmortal. Como Guardián del Equilibrio entre el Bien y el Mal, la Ley y el Caos no era del agrado de muchos porque no podía elegir ningún bando. Su único interés era mantener el "Equilibrio". No se sabe cómo surgió esta espada. Pero se rumorea que fue colocada aquí para ayudar a Colby con su deseo de Equilibrio. Porque esta espada solo puede ser usada por aquellos que buscan el mismo "Equilibrio"
 
@@ -2180,7 +2814,11 @@ Tipo de Daño: Cuchillada
 Peso: 4
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
 Factor de velocidad: 2
-Tipo 1-mano~
+Tipo 1-mano
+No utilizable por:
+Alineamiento Maligno o Neutral
+Mago
+Clérigo~
 @394 = ~Espada a dos manos~
 @395 = ~Espada a Dos Manos +3, Portador del Infierno~
 @396 = ~La espada a dos manos es un derivado de la espada larga. Los armeros siempre han buscado formas de mejorar las armas existentes. En un esfuerzo por mejorar la espada larga, se alargó la hoja. Con el tiempo, la empuñadura tuvo que alargarse y se hicieron necesarias las dos manos para blandir la espada correctamente. La función principal de las espadas a dos manos es atravesar a los caballeros montados y romper las formaciones de picas.
@@ -2192,7 +2830,12 @@ Tipo de daño: cortante
 Peso: 15
 Factor de velocidad: 10
 Tipo de competencia: Espada a dos manos
-Tipo: Espada 2 manos~
+Tipo: Espada 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @397 = ~Una espada a dos manos de doble filo llamada Portador del Infierno, que brilla con un resplandor entre negro y burbujeante. Es una de las espadas infernales inteligentes que inflige daño de fuego a su objetivo.
 ESTADÍSTICAS:
 
@@ -2203,7 +2846,9 @@ Tipo de daño: cortante
 Peso: 8
 Factor de velocidad 4
 Tipo de competencia: Espada a dos manos
-Tipo: Espada 2 manos~
+Tipo: Espada 2 manos
+Sólo utilizable por:
+Luchador (simple, doble y multiclase)~
 @398 = ~Espada Larga de Krom~
 @399 = ~Esta espada la llevaba Krom el Invisible. La usó contra innumerables enemigos durante su reinado. Los relatos de los pocos que vivieron después de recibir el impacto de esta espada decían que sentían una fuerza sutil en su interior que los ralentizaba.
 
@@ -2217,7 +2862,11 @@ Especial:
 Peso: 3
 Factor de velocidad: 1
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @400 = ~Asesino de Rea~
 @401 = ~Estas espadas se conocen normalmente como espadas de doble filo, espadas de guerra o espadas militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión del sable largo; el diseño y la longitud varían de una cultura a otra, y pueden variar dentro de la misma cultura dependiendo de la época. Una de las características más comunes de todas las espadas largas es su longitud, que oscila entre 35 y 47 pulgadas.  En este último caso, se sabe que la hoja ocupa 40 pulgadas de la longitud total.  La mayoría de las espadas largas tienen una hoja de doble filo y una punta afilada en la punta.  A pesar de la punta, la espada larga está diseñada para acuchillar, no para empujar.
 
@@ -2228,7 +2877,11 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1 mano~
+Tipo: Espada larga 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @402 = ~Esta espada fue creada para el guerrero Cuthlan Rhea por el Señor del Fuego Galamar. Poco se sabe de los poderes exactos de la espada, y aparte de los grabados rúnicos de la hoja, no muestra ningún signo de habilidades mágicas hasta que se levanta en combate, donde la hoja brilla con un tenue rojo negruzco.
 
 ESTADÍSTICAS:
@@ -2241,7 +2894,11 @@ Tipo de daño: cuchillada
 Peso: 4
 Factor de velocidad: 4
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-mano~
+Tipo: Espada larga 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @403 = ~Espada Bastarda~
 @404 = ~Espada Bastarda +2 "La Víbora"~
 @405 = ~También conocida como espada de mano y media, la espada bastarda deriva su nombre del hecho de que está a medio camino entre la espada de dos manos y la espada larga. La espada bastarda tiene una hoja de doble filo y una empuñadura larga, en la que caben las dos manos si se prefiere.  La longitud total de la espada bastarda oscila entre cuatro pies y cuatro pies y diez pulgadas. 
@@ -2253,7 +2910,12 @@ Tipo de daño: cortante
 Peso: 10
 Factor de velocidad: 8
 Tipo de competencia: Espada Bastarda
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @406 = ~Espada Bastarda +2 La Víbora, el veneno de esta espada es extremadamente letal, extraído de la cola de un draco hace un daño extremo en cortos periodos de tiempo.
 
 ESTADÍSTICAS:
@@ -2265,7 +2927,12 @@ Tipo de daño: cortante
 Peso: 8
 Factor de velocidad: 7
 Tipo de competencia: Espada Bastarda
-Tipo: 1-mano~
+Tipo: 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladron~
 @407 = ~Espada del Ladron~
 @408 = ~La espada corta es el primer tipo de espada que surgió. En los términos más simples, una espada corta puede considerarse una daga con una hoja tan larga que ya no puede llamarse daga. El término espada corta no existe en las clasificaciones de espadas. Sin embargo, se ha llegado a utilizar para describir una hoja de doble filo de unos dos pies de longitud.  La punta de la espada suele ser puntiaguda, ideal para empujar.
 
@@ -2276,7 +2943,11 @@ Tipo de daño: perforante
 Peso: 3
 Factor de velocidad: 3
 Tipo de competencia: Espada corta
-Tipo: Espada corta 1 mano~
+Tipo: Espada corta 1 mano
+No utilizable por:
+ Druida
+ Clérigo 
+ Mago ~
 @409 = ~Esta espada fue hecha especificamente para ladrones, pero puede ser usada por todos los que pueden usarla normalmente. Esta arma da al ladrón muchas ventajas, haciéndole un poco más rápido que sus oponentes y mucho más hábil cuando se trata de ayudar a alguien a conseguir el dinero de alguien.
 
  ESTADÍSTICAS:
@@ -2289,7 +2960,11 @@ Tipo de daño: perforante
 Peso: 2
 Factor de velocidad: 1
 Tipo de competencia: Espada corta
-Tipo: Espada corta 1-mano~
+Tipo: Espada corta 1-mano
+No utilizable por:
+ Druida
+ Clérigo 
+ Mago ~
 @410 = ~Amuleto~
 @411 = ~Amuleto de Invocación de Draco~
 @412 = ~Un collar es una pieza de joyería ornamental de metal normalmente hecha de plata, oro, platino u otro metal precioso, y adornada con gemas. Un collar siempre se lleva en el cuello y puede ser de cualquier longitud.~
@@ -2304,13 +2979,16 @@ Hace unos años Fong Moo un famoso carterista, conocido tanto en Puerta de Baldur
 
 ESTADÍSTICAS:
 
-Robar: +20% Bonus~
+Robar: +20% Bonus
+Usable por:
+ Ladrón
+ Bardo~
 @418 = ~Ankh~
 @419 = ~Ankh de la Aceptación~
 @420 = ~Un ankh es un objeto ornamental que se suele llevar en el cuello. Suelen asociarse a los druidas y a menudo están encantados.
 ESTADÍSTICAS:
 
-~
+No utilizable por:~
 @421 = ~Ankh de la Aceptación              
 Una de las nueve ankhs del Sukiem que originalmente se guardaban en el templo del Alcázar del Norte, se perdieron cuando éste cayó, y fueron redescubiertas por el Mito Drannor, que las conservó durante siglos. Cuando ese grupo se disolvió, las ankhs volvieron a perderse y no se han vuelto a ver desde entonces.
 
@@ -2319,7 +2997,8 @@ ESTADÍSTICAS:
 Clase de Armadura: +1 Bonificación
 Sabiduría: +1 Bonificación
 Especial: Paralizar criatura objetivo
-Especial: De los verdaderos neutrales~
+Especial: De los verdaderos neutrales
+No utilizable por:~
 @422 = ~Amuleto de Habilidad de Ladrón~
 @423 = ~Un raro amuleto que todo ladrón quisiera tener en sus manos. Ayuda al ladrón en sus habilidades oscuras. Los lideres de gremio pagaran mucho dinero para tenerlo en sus manos.
 
@@ -2332,7 +3011,9 @@ Especial:
 Encontrar/Remover trampas: +5% bonificación
 Hurgar bolsillos: +5% bonificación
 Abrir cerraduras: +5% bonus
-Esconderse en las sombras +5% bonus~
+Esconderse en las sombras +5% bonus
+Utilizable por:
+Ladrón (Individual, Múltiple, Doble Clase)~
 @424 = ~Amuleto de lanzador~
 @425 = ~Un collar es una pieza de joyería ornamental de metal normalmente hecha de plata, oro, platino u otro metal precioso, y adornada con gemas. Un collar siempre se lleva en el cuello y puede ser de cualquier longitud.  ~
 @426 = ~Este es el amuleto que llevaba el gran mago llamado Ulcaster. Tenía muchos artefactos en su escuela, pero muy pocos han sido encontrados.
@@ -2341,7 +3022,9 @@ ESTADÍSTICAS:
 
 Bonificación 2 hechizos magicos de nivel 4 y 5
 20% Resistencia Mágica
-Peso: 9~
+Peso: 9
+Usable por:
+Magos~
 @427 = ~Amuleto de Protección +2~
 @428 = ~Los amuletos suelen ser dispositivos mágicos que se suelen llevar alrededor del cuello, suspendidos de una cadena. El tipo de cadena que acompaña a un amuleto suele aumentar el valor estético del objeto, no sus propiedades mágicas. Sólo se puede colgar un amuleto del cuello.  ~
 @429 = ~Amuleto de protección +2 : 'Mi Protector'  
@@ -2364,7 +3047,11 @@ Conocido por su capacidad para mejorar el lanzamiento de hechizos, el Amuleto de
 
 ESTADÍSTICAS:
 
-Especial: Memoriza un hechizo extra de segundo nivel~
+Especial: Memoriza un hechizo extra de segundo nivel
+
+Utilizable por:
+Druidas
+Clérigos~
 @434 = ~Anillo~
 @435 = ~Anillo de Shi'nayne~
 @436 = ~Un anillo es una pequeña banda de metal precioso que se utiliza como joya. Algunos anillos raros tienen encantamientos que les confieren diversas habilidades mágicas. Estos anillos son muy codiciados, especialmente por los aventureros.~
@@ -2379,7 +3066,8 @@ Bonificación de dos hechizos de nivel 3~
 ESTADÍSTICAS:
 
 Clase de Armadura: +3 Bonificación
-Tiradas de Salvación: +3 bonus~
+Tiradas de Salvación: +3 bonus
+No utilizable por:~
 @440 = ~Anillo del Mago/Sacerdote~
 @441 = ~Un anillo es una pequeña banda de metal precioso que se usa como joya. Algunos anillos raros tienen encantamientos que les confieren varias habilidades mágicas.  
 
@@ -2392,7 +3080,8 @@ ESTADÍSTICAS:
 
 15% a la protección contra daño eléctrico
 Clase de armadura: +1 de bonificación
-Tiradas de salvación: +1 bonus~
+Tiradas de salvación: +1 bonus
+No utilizable por:~
 @444 = ~El Anillo de Poder~
 @445 = ~Este anillo tiene un brillo extraño. Ten cuidado antes de ponertelo.~
 @446 = ~Escalofrío de Nemmerle~
@@ -2400,19 +3089,25 @@ Tiradas de salvación: +1 bonus~
 
 ESTADÍSTICAS:
 
-Hechizos: Obtener Protección contra el Frío~
+Hechizos: Obtener Protección contra el Frío
+Sólo utilizable por:
+Alineamiento Maligno~
 @448 = ~Anillo de Conducción~
 @449 = ~Han pasado más de 1000 años desde que los hechiceros de Yevaud intentaron hacerse con el control del Árbol de la sabiduria. Las historias de la batalla que siguió aún se cuentan en cada reunión de druidas de todos los reinos. Elgenon sabía que no podría resistir el poder de los hechiceros sin ayuda y rezó al Árbol de la Sabiduría en busca de guía. Sus plegarias fueron escuchadas cuando vio este anillo en una visión. La magia más poderosa de los hechiceros, el control del rayo, no logró dañar al druida salvaje. Al final del día la batalla había terminado, los hechiceros restantes recogieron lo que pudieron de los caídos y se retiraron. La valentía de Elgenon ayudó a ganar la batalla, pero fue su sabiduría el factor decisivo que le valió el nombre de "Elgenon el Sabio".
 
 ESTADÍSTICAS:
 
-Hechizos: Obtener Protección contra Electricidad~
+Hechizos: Obtener Protección contra Electricidad
+Sólo utilizable por:
+Alineamiento Neutral~
 @450 = ~Anillo de Archimago~
 @451 = ~Hace mucho tiempo, se rumoreaba que un gran mago de Amn había desafiado las limitaciones de Mystra en las artes mágicas. Las leyendas hablaban de que este mago era capaz de lanzar hechizos sin la limitación de la memorización. Al final se descubrió que sus poderes procedían de varios anillos mágicos que se había fabricado.  Su proclamada "memoria eterna" era un engaño, aunque sus anillos siguen siendo uno de los objetos más codiciados de los Reinos.'
 
 ESTADÍSTICAS:
 
-Hechizos: +3 por hechizos de nivel tres que un mago pueda memorizar~
+Hechizos: +3 por hechizos de nivel tres que un mago pueda memorizar.
+Sólo utilizable por:
+Mago (simple, dual y multiclase)~
 @452 = ~El Anillo de Fuego - "Quemar"~
 @453 = ~Un anillo es una pequeña banda de metal precioso que se usa como joya. Algunos anillos raros tienen encantamientos que les confieren varias habilidades mágicas. Estos anillos son muy codiciados, especialmente~
 @454 = ~El Anillo de Fuego - "Quemar"
@@ -2431,21 +3126,27 @@ Golpe de Llama~
 
 ESTADÍSTICAS:
 
-Bonificación de Clase de Armadura +2~
+Bonificación de Clase de Armadura +2
+Sólo utilizable por:
+Druida con Alineamiento Neutral Verdadero~
 @457 = ~Anillo de Hechicería El Primero~
 @458 = ~Anillo de hechicería: 'memoria privilegiada
 Hace mucho tiempo, se rumoreaba que un gran mago de Amn había desafiado las limitaciones de Mystra en las artes mágicas. Las leyendas hablaban de que este mago era capaz de lanzar hechizos sin la limitación de la memorización. Al final se descubrió que sus poderes procedían de varios anillos mágicos que se había fabricado. Su proclamada "memoria eterna" era un engaño, aunque sus anillos siguen siendo uno de los objetos más codiciados de los Reinos.'
 
 ESTADÍSTICAS:
 
-Hechizos: +2 hechizos de nivel uno que un mago puede memorizar~
+Hechizos: +2 hechizos de nivel uno que un mago puede memorizar
+Sólo utilizable por:
+Mago~
 @459 = ~Anillo de Hechicería 1º a 5º~
 @460 = ~Anillo de hechiceria: 'eternamemoria
 Hace mucho tiempo, se rumoreaba que un gran mago de Amn había desafiado las limitaciones de Mystra en las artes mágicas. Las leyendas hablaban de que este mago era capaz de lanzar hechizos sin la limitación de la memorización. Al final se descubrió que sus poderes procedían de varios anillos mágicos que se había fabricado. Su proclamada "memoria eterna" era un engaño, aunque sus anillos siguen siendo uno de los objetos más codiciados de los Reinos.'
 
 ESTADÍSTICAS:
 
-Hechizos: Duplica la cantidad de hechizos de 1º a 5º nivel que un mago puede memorizar~
+Hechizos: Duplica la cantidad de hechizos de 1º a 5º nivel que un mago puede memorizar
+Sólo utilizable por:
+Mago~
 @461 = ~Pergamino~
 @462 = ~AVISO DE RECOMPENSA
 
@@ -2471,7 +3172,7 @@ Aquellos que regresen con pruebas de la hazaña recibirán no menos de cuatrocient
 M.S.~
 @464 = ~¡Advertencia de Obediencia!
 
-<CHARNAME> no ha sido eliminado. El incumplimiento resultará en la suspensión de todos los operativos que estén involucrados en la tarea de eliminar a <CHARNAME>. El incumplimiento NO es una opción.
+<CHARNAME> no ha sido eliminado. El incumplimiento resultará en la suspensión de todos los operativos que estén involucrados en la tarea de eliminar a  <CHARNAME>. El incumplimiento NO es una opción.
 
 P.W.~
 @465 = ~NOTIFICACIÓN
@@ -2580,7 +3281,12 @@ ESTADÍSTICAS:
 Especial: De la Carne a la piedra
 Especial De la Piedra a carne
 Alcance: 20 ft
-Área: 1 criatura~
+Área: 1 criatura
+No utilizable por:
+Luchador
+Clérigo
+Druida
+Ladrón~
 @493 = ~Varita de Dominación~
 @494 = ~Cuando se activa, la varita expulsa una bola de energía mágica que sale disparada y golpea infaliblemente a su objetivo. Esto incluye criaturas enemigas en un combate cuerpo a cuerpo. Sin embargo, la criatura objetivo debe ser vista o detectada para ser golpeada, por lo que una ocultación casi total, como la que ofrecen las saeteras, puede hacer que el hechizo resulte ineficaz.  Contra una criatura, la bola intentará encantar al objetivo de forma similar al hechizo del Sacerdote Dominación.
 
@@ -2588,7 +3294,12 @@ ESTADÍSTICAS:
 
 Especial: Amuleto funesto
 Alcance: 100 ft
-Área: 1 criatura~
+Área: 1 criatura
+No utilizable por:
+Luchador
+Mago
+Bardo
+Ladrón~
 @495 = ~Vara de los Muertos vivientes~
 @496 = ~Cuando se activa, la varita invoca las almas de tres guerreros muertos vivientes para ayudar al lanzador en combate.
 
@@ -2596,7 +3307,12 @@ ESTADÍSTICAS:
 
 Especial: Animar Muertos vivientes
 Alcance: 100 ft
-Área: N/A~
+Área: N/A
+No utilizable por:
+Luchador
+Mago
+Bardo
+Ladrón~
 @497 = ~Cráneo~
 @498 = ~Cráneo de los Muertos~
 @499 = ~Una calavera de aspecto mágico.~
@@ -2619,7 +3335,9 @@ ESTADÍSTICAS:
 
 Especial: Amuleto funesto
 Alcance 100 ft
-Área: 1 criatura~
+Área: 1 criatura
+Sólo utilizable por:
+Bardo~
 @505 = ~Una Vela~
 @506 = ~Vela de la Sabiduría~
 @507 = ~A juzgar por los símbolos arcanos impresos en esta vela, está claro que está imbuida de propiedades mágicas de uno u otro tipo. Sin embargo, hasta que no intentes leerla o identificarla, desconocerás su naturaleza exacta.~
@@ -2656,7 +3374,7 @@ Bonificación por tirada de salvación: 1~
 @526 = ~Llave:
 Una llave enjoyada de extraño diseño.~
 @527 = ~Llave de Sir Jones~
-@528 = ~Esta llave puede darte acceso a ciertas areas en la Supervision.~
+@528 = ~Esta llave puede darte acceso a ciertas areas de la Supervisión.~
 @529 = ~Flecha de Dormir~
 @530 = ~La flecha de vuelo, como su nombre indica, está hecha para la distancia. Son flechas ligeras y se usan a menudo para cazar. La mayoría de estas flechas están hechas de fresno o abedul y miden entre 30 y 40 pulgadas de largo.
 
@@ -2665,7 +3383,11 @@ ESTADÍSTICAS:
 Daño: 1D6
 Tipo de daño: misil (perforante)
 Peso: 0
-Lanzador: Arco~
+Lanzador: Arco
+No utilizable por:
+ Clérigo 
+ Druida
+ Mago~
 @531 = ~La flecha de vuelo, como su nombre indica, está hecha para la distancia. Son flechas ligeras y se utilizan a menudo para la caza. Estas flechas tienen un encantamiento especial que hace que el objetivo se duerma.
 
 ESTADÍSTICAS:
@@ -2674,7 +3396,11 @@ Daño: 1D6
 Tipo de daño: misil (perforante)
 Especial: Sueño a menos que se salve contra la muerte
 Peso: 0
-Lanzador: Arco~
+Lanzador: Arco
+No utilizable por:
+ Clérigo
+ Druida
+ Mago~
 @532 = ~Hacha de Mithril +3~
 @533 = ~Las armas de Mithril son un objeto muy buscado, especialmente las hachas, ya que los enanos las han creado con mucho cuidado. Esta hacha está encantada para hacer daño de frío.
 
@@ -2687,20 +3413,27 @@ Tipo de daño: cortante
 Peso: 5
 Factor de velocidad: 1
 Tipo de competencia: Hacha
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @534 = ~Capa del Bosque~
-@535 = ~Capa del Bosque es el mejor tipo de ropa para los druidas aventureros y Exploradores del bosque.
+@535 = ~Capa del Bosque es el mejor tipo de ropa para los druidas aventureros y explorador del bosque.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 2
 Especial +15% Esconderse en las sombras
 Especial: +5 +5 contra armas de proyectiles
-Peso: 4~
+Peso: 4
+Sólo utilizable por:
+Druidas y Explorador (individual, multi y dual)~
 @536 = ~Cimitarra +3, "Furia de Andarous"~
 @537 = ~Cimitarra +3, "Furia de Andarous"
 
-Andarous era un Explorador que perdió su bosque a manos de orcos que lo talaron y usaron la madera para construir un fuerte. Mielikki respondió a sus plegarias dándole esta espada para vengarse en nombre de la naturaleza. Él solo destruyó a todos los orcos del campamento.
+Andarous era un explorador que perdió su bosque a manos de orcos que lo talaron y usaron la madera para construir un fuerte. Mielikki respondió a sus plegarias dándole esta espada para vengarse en nombre de la naturaleza. Él solo destruyó a todos los orcos del campamento.
 ESTADÍSTICAS:
 
 THACO: +3 bonus
@@ -2712,7 +3445,10 @@ Tipo de daño: cortante
 Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1-mano~
+Tipo: Cimitarra 1-mano
+Sólo utilizable por:
+  Druida
+  Exploradores~
 @538 = ~Katana~
 @539 = ~Katana +3, "El Tel'lerian"~
 @540 = ~Tel'lerian era un gran luchador de Kara-Tur. Era un mercenario que viajaba por los reinos buscando trabajo y luchando contra el mal. Esta katana era una de sus armas favoritas. Perdió esta espada y su vida cuando fue emboscado en su camino a Candelero.
@@ -2727,7 +3463,11 @@ Tipo de daño: Cuchillada
 Peso: 10
 Tipo de competencia: Katana
 Factor de velocidad  3
-Tipo 2 manos~
+Tipo 2 manos
+Sólo utilizable por:
+Cazas 
+Exploradores
+Paladines~
 @541 = ~Espada a dos manos +3 "Muerte de Khazid"~
 @542 = ~La espada a dos manos es un derivado de la espada larga. Los armeros siempre han buscado formas de mejorar las armas existentes. En un esfuerzo por mejorar la espada larga, se alargó la hoja. Con el tiempo, la empuñadura tuvo que alargarse y se hicieron necesarias las dos manos para blandir la espada correctamente. La función principal de las espadas a dos manos es atravesar a los caballeros montados y romper las formaciones de picas.
 
@@ -2738,7 +3478,12 @@ Tipo de daño: cortante
 Peso: 15
 Factor de velocidad: 10
 Tipo de competencia: Espada a dos manos
-Tipo: Espada  2 manos~
+Tipo: Espada  2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
 @543 = ~Khazid Muerte fue creada por un maestro de armas enano, Khazid El Dum. Acababa de crear esta espada cuando un grupo de ladrones entró y lo mató con ella. Parte de su esencia espiritual se unió a esta arma en el momento de su muerte.
 
 ESTADÍSTICAS:
@@ -2750,7 +3495,12 @@ Tipo de daño: cortante
 Peso: 12
 Factor de velocidad: 9
 Tipo de competencia: Espada a dos manos
-Tipo: Espada 2 manos~
+Tipo: Espada 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @544 = ~Gran Katana~
 @545 = ~Gran Katana +3 "Toran El Desiade"~
 @546 = ~Poco se sabe de la historia de esta gran katana. Tiene runas antiguas talladas en el mango que tal vez le dan habilidades mágicas. Cualquiera que sea malvado no puede cogerla por lo que puede ser una katana para el bien.
@@ -2767,7 +3517,11 @@ Tipo de daño Cuchillada
 Peso: 8
 Tipo de competencia: Katana
 Factor de velocidad: 2
-Tipo 2 manos~
+Tipo: 2 manos
+Sólo utilizable por:
+Luchadores
+Exploradores
+Paladines~
 @547 = ~Las armas de mithril son un objeto muy codiciado, especialmente las hachas, ya que los enanos las han creado con mucho cuidado. Esta hacha está encantada para hacer daño de fuego.
 
 ESTADÍSTICAS:
@@ -2779,7 +3533,12 @@ Tipo de daño: cortante
 Peso: 5
 Factor de velocidad: 1
 Tipo de competencia: Hacha
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @548 = ~Hacha de Batalla +3 "Asesino de necrófagos"~
 @549 = ~Hecha por un paladín que odiaba a los muertos vivientes, especialmente a los necrófagos. Esta arma los mata al primer toque.
 
@@ -2793,7 +3552,12 @@ Tipo de daño: cortante
 Peso: 7
 Factor de velocidad: 6
 Tipo de competencia: Hacha
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
 @550 = ~Guanteletes de Lucha de Mithril~
 @551 = ~Hechos a mano por los enanos de las montañas del norte, estos guanteletes son los mejores amigos de los luchadores. Son los favoritos de los berserkers enanos.
 
@@ -2802,14 +3566,19 @@ ESTADÍSTICAS:
 THACO: +2 bonus
 Daño: +2 bonus
 +1 a la Destreza
-Peso: 1~
+Peso: 1
+No utilizable sólo por:
+Druida
+Ladrón
+Mago~
 @552 = ~Guanteletes de Protección +3~
 @553 = ~Los Guanteletes son guantes blindados. Pueden ser de cuero, placas de metal o cota de malla.  Se supone que toda armadura incluye guanteletes del tipo adecuado. Los guanteletes mágicos suelen ser más finos, ligeros y fáciles de llevar que los normales.
 
 ESTADÍSTICAS:
 
 +3 a CA
-Peso: 2~
+Peso: 2
+No utilizable por:~
 @554 = ~Bala de Hielo~
 @555 = ~Corrientes mágicas se incrustan dentro de esta bala para que parezca un poco más equilibrada y ligera mientras salta hacia un oponente.
 
@@ -2829,9 +3598,11 @@ ESTADÍSTICAS:
 Clase de Armadura: -1
 Especial: Protección contra Veneno
 +1 a Inteligencia
-Peso: 18~
+Peso: 18
+Sólo utilizable por:
+Clérigo y Mago (Individual y Multiclase)~
 @558 = ~La Túnica del Magistrado~
-@559 = ~Usada por uno de los Magistrados de Mystra esta túnica se perdió a través de los tiempos. Como fue encontrada es desconocido. Muchos han especulado que fue la propia Mystra quien la encontró e hizo posible que otro volviera a ponérsela.
+@559 = ~Usada por uno de los Magistrado de Mystra esta túnica se perdió a través de los tiempos. Como fue encontrada es desconocido. Muchos han especulado que fue la propia Mystra quien la encontró e hizo posible que otro volviera a ponérsela.
 
 
 ESTADÍSTICAS:
@@ -2840,7 +3611,9 @@ Clase de Armadura: Bonificación +2
 Hechizos de bonificación: 2 hechizos de nivel 2 y 2 hechizos de nivel 3
 Resistencia Mágica  30%
 Tirada de Salvación: +3 bonus
-Peso: 6~
+Peso: 6
+Sólo utilizable por:
+Mago (simple, dual y multiclase)~
 @560 = ~Mayal +3 "Muerte Flamígera"~
 @561 = ~Este mayal está encantado para hacer daño de fuego y aumentar tu sabiduría. Amuanator estaría encantado.
 
@@ -2855,7 +3628,10 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad 3
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+Sólo utilizable por:
+ Clérigo
+ Paladín~
 @562 = ~Santo Lucero +3~
 @563 = ~El Santo Lucero +3 está consagrada por el templo de Amuanator, posee poderes mágicos, y sólo puede ser utilizada por aquellos que siguen el camino de la iluminación.
 
@@ -2870,7 +3646,10 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad 3
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+Sólo utilizable por:
+ Clérigo
+ Paladín~
 @564 = ~Daga +2 "El Necro"~
 @565 = ~Esta arma parece ser una daga normal del tipo usado por la mayoría de los magos novatos. Esta daga en particular era propiedad de Szass Tam. Algún tonto desafortunado se la quitó al lich y nunca más se supo de él.
 
@@ -2888,7 +3667,10 @@ Peso: 4
 Factor de velocidad: 2
 Tipo de daño: Perforante
 Tipo de competencia: Daga
-Tipo: Daga 1-mano~
+Tipo: Daga 1-mano
+Sólo utilizable por:
+Mago de clase única solamente
+Sólo personaje alineado con el mal~
 @566 = ~Yelmo~
 @567 = ~Yelmo Cabeza de Draco~
 @568 = ~Yelmo Cabeza de Draco
@@ -2900,20 +3682,28 @@ Clase de Armadura: +2 bonus
 Fuerza: +2 bonus
 Especial +25% Resistencia Mágica
 Especial Protección contra golpes críticos
-Peso: 2~
-@569 = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero usado para hacer las botas de un Explorador o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
+Peso: 2
+No utilizable por:
+Mago
+Bardo
+Ladrón~
+@569 = ~La armadura de cuero, a pesar de la idea errónea popular, no es suave y flexible como el cuero usado para hacer las botas de un guardabosques o la túnica de un druida. Ese tipo de cuero no ofrece mejor protección que la ropa común.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 8
-Peso: 15~
+Peso: 15
+No utilizable por:
+ Mago~
 @570 = ~Esta es la armadura de Malenious Strider. Se rumorea que su destreza en la batalla proviene de esta armadura. Se le han otorgado muchos poderes mágicos más allá de los de una armadura normal. Cuando te la pones no solo parece que tienes mejor protección sino que parece que tienes esa ventaja extra. En los bosques y en las zonas sombrías de las ciudades, esta armadura se presta a la ocultación y al movimiento silencioso.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: 1
 Especial: +1 destreza y +20% ocultarse en las sombras.
-Peso: 25~
+Peso: 25
+Usable por:
+Luchador, Explorador y Druidas~
 @571 = ~Piel Tachonada "La Tormenta que Viene"~
 @572 = ~Este cuero fue fabricado a partir de los restos calcinados de un dragón alcanzado por un rayo. Se sabe que fue usado por última vez por el brujo Shrethu Reogher. Esperemos que esté muerto, porque si se lo quitaron en vida, seguro que vendrá a buscarlo.
 
@@ -2922,7 +3712,9 @@ ESTADÍSTICAS:
 Clase de Armadura: 3
 Tiradas de salvación: +3 bonus
 Especial: Resistir Electricidad
-Peso: 4~
+Peso: 4
+Sólo utilizable por:
+Druida~
 @573 = ~Ballesta~
 @574 = ~Ballesta de Luz "La Antorcha"~
 @575 = ~Una ballesta es un arco montado transversalmente sobre un asta de madera o metal, esta última llamada caña. El arco suele ser de fresno o tejo. La ballesta dispara un proyectil (también llamado saeta).
@@ -2933,7 +3725,9 @@ Daño: +2 (misil)
 Peso: 14
 Factor de velocidad: 10
 Tipo de competencia: Ballesta
-Tipo: Ballesta  2 manos~
+Tipo: Ballesta  2 manos
+No utilizable por:
+ Druida~
 @576 = ~La Antorcha fue hecha por un gnomo loco que tenía una cosa para el fuego. Esta fue una de las pocas cosas que sobrevivieron de su laboratorio después de que se incendiara por esta arma cuando la estaba probando.
 
 ESTADÍSTICAS:
@@ -2943,7 +3737,11 @@ THACO: +3 bonus
 Especial: No necesita munición
 Factor de velocidad 3
 Tipo de competencia: Ballesta
-Tipo: Ballesta 2-mano~
+Tipo: Ballesta 2-mano
+No utilizable por:
+Druida
+ Clérigo
+ Mago~
 @577 = ~Martillo de Guerra de Mithril +3~
 @578 = ~Los guerreros y clérigos enanos son particularmente propensos a usar martillos de guerra de mithril en batalla y algunos de los mejores martillos de guerra son de origen enano. Este en particular muestra runas decorativas enanas en el mango. Suelen estar hechos de acero o aleación de mithril, con rondeles que protegen y refuerzan la empuñadura. Los rondeles son pequeños discos de metal, a menudo con diseños decorativos. El mango mide unos 45 cm de largo.
 
@@ -2956,7 +3754,11 @@ Tipo de daño: aplastante
 Peso: 6
 Factor de velocidad: 2
 Tipo de competencia: Martillo de guerra
-Tipo: Martillo de guerra 1 mano~
+Tipo: Martillo de guerra 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @579 = ~Armadura dePlaca de Mithril Enana~
 @580 = ~La Placa de Mithril Enana es la mejor armadura que el dinero puede comprar. Es una lástima que esto se hizo para las razas más cortas.
 
@@ -2964,14 +3766,21 @@ ESTADÍSTICAS:
 
 Bonificación: +1 a Constitución
 Clase de Armadura: -2
-Peso: 20~
+Peso: 20
+Sólo utilizable por:
+ Enanos, Medianos y Gnomos~
 @581 = ~Escudo de Mithril Grande +3~
 @582 = ~Los escudos de Mithril son conocidos por ser duraderos durante el combate. Aunque los enanos prefieren no tener escudos, ya que les gusta blandir grandes martillos y hachas a dos manos, siguen fabricando estos escudos para los aprendices y otras razas de los Reinos.
 
 ESTADÍSTICAS:
 
 Clase de Armadura: +3 de bonificación, +3 contra armas de proyectiles
-Peso: 20~
+Peso: 20
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @583 = ~Bala +2 "Fuego de Forja"~
 @584 = ~Corrientes mágicas se incrustan dentro de esta bala para que parezca un poco más equilibrada y ligera mientras salta hacia un oponente.
 
@@ -2997,7 +3806,11 @@ Peso: 4
 Factor de velocidad: 1
 Tipo de competencia: Arco Corto
 Especial: Dispara cinco misiles mágicos; el arco no necesita munición.
-munición; misiles mágicos ilimitados~
+munición; misiles mágicos ilimitados
+No utilizable por:
+Clérigo
+Druida
+Mago~
 @587 = ~Alabarda +3 "La Aturdidora"~
 @588 = ~Esta Alabarda está hecha del mejor acero por los mejores herreros de toda la tierra. Los magos le han dado propiedades extra y es sin duda la mejor alabarda que existe. Cuando golpea a la persona por pequeño que sea el corte la aturde con ondas de energía dando al atacante una gran ventaja.
 
@@ -3010,7 +3823,12 @@ Tipo de daño: perforante
 Peso: 12
 Factor de velocidad: 7
 Tipo de competencia: Alabarda
-Tipo: Alabarda 2 manos~
+Tipo: Alabarda 2 manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
 @589 = ~Malla de Placas del Rey~
 @590 = ~Una vez usada por el Rey de Thorin Thalaxx, esta armadura ha aparecido y desaparecido a través de los tiempos y los planos. Los fuertes encantamientos de la armadura eliminan todo el peso del traje, hacen que brille como si fuera una aparición y la fortalecen enormemente contra golpes de cualquier tipo, hasta el punto de que sólo las armas mágicas tienen alguna posibilidad de penetrar la protección que ofrece.
 
@@ -3018,7 +3836,12 @@ ESTADÍSTICAS:
 
 Clase de Armadura: 2
 Peso: 0
-Inmunidad a Armas No-Mágicas~
+Inmunidad a Armas No-Mágicas
+No utilizable por:
+ Bardo
+ Druida
+ Mago
+ Ladrón~
 @591 = ~Espada de Mano +2 "Furia"~
 @592 = ~Melchor Hammerthorn era un enano que creía que las batallas se ganaban con orden y tácticas bien pensadas. Tenía algunas armas encantadas para que un golpe hiciera que el enemigo perdiera el control y luchara de forma caótica. El problema era que el enemigo se volvía loco y se desentendía de cada golpe que recibía. Melchor aprendió esta lección demasiado tarde cuando se le acercó un ogro que tenía 20 flechas clavadas en el cuerpo. Incluso con el hacha de Melchor clavada en el pecho del ogro, éste fue capaz de partir a Melchor por la mitad con sus grandes manos.
 
@@ -3032,7 +3855,12 @@ Tipo de daño: cortante
 Peso: 11
 Factor de velocidad: 9 
 Tipo de competencia: Espada a dos manos
-Tipo: Espada 2 manos~
+Tipo: Espada 2 manos
+No utilizable por: 
+Druida 
+Clérigo 
+Mago 
+Ladrón~
 @593 = ~Hacha de Batalla +3 Poder de Duragons~
 @594 = ~La versión más común del hacha de batalla es un palo robusto de unos cuatro pies de largo con una hoja de un solo filo en forma de trompeta montada en un extremo.  Las hachas de batalla también se llaman hachas anchas.
 
@@ -3043,7 +3871,12 @@ Tipo de daño: cortante
 Peso: 7
 Factor de velocidad: 7
 Tipo de competencia: Hacha
-Tipo: Hacha 1 mano~
+Tipo: Hacha 1 mano
+No utilizable por: 
+Druida 
+Clérigo 
+Mago 
+Ladrón~
 @595 = ~Esta hacha perteneció al Rey Duragon antes de caer en batalla. Había estado en el Clan Duragon durante siglos antes de que fuera tomada del cadáver del Rey Duragon. Era un hacha de gran poder que fue dedicada a Moradin el Soulforger.
 
 ESTADÍSTICAS: 
@@ -3056,7 +3889,12 @@ Tipo de daño: cortante
 Peso: 7 
 Factor de velocidad: 6 
 Tipo de competencia: Hacha 
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+No utilizable por: 
+Druida 
+Clérigo 
+Mago 
+Ladrón~
 @596 = ~Lucero de alba +3 'Maza de Thorgensons'~
 @597 = ~Thorgensons era el capitán de la guardia del Clan Duragon. Con esta maza abatió a muchos orcos y goblins en las guerras que el Clan Duragon mantuvo contra las bestias inmundas. En la batalla final contra las bestias malignas, los pocos enanos que quedaban defendieron la fortaleza lo mejor que pudieron. Murió defendiendo a su señor Sven Duragon en las últimas horas antes de que la Fortaleza Duragon cayera.
 
@@ -3069,7 +3907,11 @@ Especial: +1 a constitución
 Peso: 10 
 Factor de velocidad 4 
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por: 
+ Druida 
+ Mago  
+ Ladrón~
 @598 = ~Cuchillo de Mantequilla de Balduran Mejorado~
 @599 = ~Cuchillo de Mantequilla de Balduran:
 Las leyendas hablan a menudo del Cuchillo de Mantequilla de Balduran. El héroe no permitía que ningún otro utensilio tocara sus condimentos. Se cree que su madre le dio el adornado cuchillo de mantequilla como regalo de su decimoctavo cumpleaños.
@@ -3081,7 +3923,9 @@ Tipo de daño: Perforante
 Peso: 2 
 Factor de velocidad: 0 
 Tipo de competencia: Daga
-Tipo: Daga 1 mano~
+Tipo: Daga 1 mano
+No utilizable por:
+  Clerigo~
 @600 = ~Perdicion de la Araña Mejorado~
 @601 = ~La Perdición de la Araña fue forjada originalmente por los enanos de la tribu Orothiar en el Bosque de las Capas. Crearon la espada para fomentar la buena voluntad entre ellos y los Grandes Duques de Puerta de Baldur. Blandida por los Grandes Duques durante aproximadamente un siglo, la espada acabó perdiéndose, irónicamente en una lucha contra ettercaps y arañas. Ahora se desconoce quién empuña la espada, pero su recuperación sería de gran ayuda en la lucha contra la actual plaga de arañas que asola el Bosque de la Capa.
 
@@ -3095,7 +3939,12 @@ Tipo de daño: cortante
 Peso: 10
 Factor de velocidad: 8
 Tipo de competencia: Espada a dos manos
-Tipo: Espada 2 manos~
+Tipo: Espada 2 manos
+No utilizable por:
+Druida
+Clérigo
+Mago
+Ladrón~
 @602 = ~Espada Larga Mejorada +1, Lengua de Fuego~
 @603 = ~Espada Lengua de Llama : 'La Tierra Ardiente'
 Hubo un tiempo antes de que Neverwinter fuera cálido y antes de que el gran Anauroch fuera seco... o eso se dice. Quedan pocas reliquias que demuestren que tal época existió, y aún son menos las que tienen un propósito identificable. La "Tierra Ardiente" parece bastante sencilla -quema a una víctima con fuego mágico, y una críptica runa parece sugerir que el poder proviene del propio suelo-, pero quién la construyó sigue siendo un misterio. Parece un arma perfectamente útil, pero algo en el equilibrio o el agarre está... mal. Tensa un poco el antebrazo y no se ajusta bien a la mano. No parece perjudicar el rendimiento de un guerrero, aparte de la duda persistente de que la hoja no está hecha para él... ni para ningún otro humanoide. 
@@ -3112,7 +3961,11 @@ Tipo de daño: cortante
 Peso: 4 
 Factor de velocidad 3 
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-mano~
+Tipo: Espada larga 1-mano
+No utilizable por:
+  Druida 
+  Clérigo  
+  Mago~
 @604 = ~Cimitarra Mejorada +2~
 @605 = ~Cimitarra +2 : 'Garra de Rhashad'
 
@@ -3127,14 +3980,19 @@ Tipo de daño: cortante
 Peso: 3 
 Factor de velocidad 3 
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+  Ladron 
+  Clérigo  
+  Mago~
 @606 = ~Anillo de Resistencia al Fuego Mejorado~
 @607 = ~Anillo de Resistencia al Fuego: 'Pasaporte de Batalista
 El gran mago Batalista pretendía que este objeto le ayudara en sus viajes por el plano del fuego, y se dice que invocó repetidamente a una salamandra de ese reino para que le ayudara en la construcción.  Al no ser conocidos por su paciencia, es probable que no debiera haber molestado tanto a su "instructor". El dedo que portaba el anillo terminado no fue tocado por el infierno que asoló su torre. Si ese dedo hubiera permanecido unido, Batalista habría salido mejor parado.
 
 ESTADÍSTICAS:
 
-Resistencia al fuego: +60%~
+Resistencia al fuego: +60%
+No utilizable por:~
 @608 = ~Yelmo de Balduran mejorado~
 @609 = ~Se rumorea desde hace tiempo que el legendario yelmo de Balduran, fundador de Puerta de Baldur, posee una poderosa magia protectora. La naturaleza exacta de esta magia, sin embargo, aún no se ha determinado.
 
@@ -3146,7 +4004,10 @@ Tiradas de salvación: +1 bono
 THACO: +1 bonus
 Especial: Protección contra golpes críticos
 Peso: 1
-No Usable por ~
+No utilizable por: 
+Mago 
+Bardo 
+Ladrón~
 @610 = ~Malla de Cadenas Mejorada +3~
 @611 = ~Malla de Cadenas +3: 'Malla de los Muertos
 Un mago puede convertirse en un asesino muy eficaz, como demostró Vorusta hace más de 400 años. Creaba guerreros esqueleto equipados con esta armadura encantada y una poderosa espada, y entregaba su circulo de poder al objetivo como regalo amistoso. Cuando la máquina de matar terminaba su trabajo, Vorusta recuperaba el equipo y volvía a empezar todo el proceso.
@@ -3154,7 +4015,11 @@ Un mago puede convertirse en un asesino muy eficaz, como demostró Vorusta hace m
 ESTADÍSTICAS:
 
 Clase de Armadura: 2
-Peso: 10~
+Peso: 10
+No utilizable por:
+ Druida 
+ Mago 
+ Ladrón~
 @612 = ~Arco Largo Mejorado +2~
 @613 = ~El arco largo es similar al arco corto, excepto que el bastón es casi tan alto como el arquero, normalmente de 6 a 6.5 pies. Aunque el arco largo es ligeramente más lento que el corto, tiene más alcance y es más preciso. Éste ha sido mejorado con propiedades mágicas, lo que le confiere un aire de perfección.
 
@@ -3166,7 +4031,12 @@ Daño +2
 Peso: 3 
 Factor de velocidad: 6 
 Tipo de competencia: Arco Largo
-Tipo: Arco largo 2 manos~
+Tipo: Arco largo 2 manos
+No utilizable por:  
+Druida  
+Clérigo  
+Mago  
+Ladrón~
 @614 = ~Arco de Águila Mejorado~
 @615 = ~Arco corto, arco de águila: 'Protector de las dríadas'
 
@@ -3180,7 +4050,11 @@ Daño +2
 Peso: 2 
 Factor de velocidad: 1 
 Tipo de competencia: Arco Corto
-Tipo: Arco corto 2 manos~
+Tipo: Arco corto 2 manos
+No utilizable por:  
+Druida  
+Clérigo 
+Mago~
 @616 = ~Faja Mejorada 'Perdicion de los elfos'~
 @617 = ~Cinturón de perforación: 'Perdicion de los elfos'
 Pandar de Scardale, un salteador de caminos infame en su época, se hizo un nombre fastidiando a los elfos del bosque de Cormanthor. Para su disgusto, utilizaba continuamente el bosque para escapar de la ley; y con la ayuda de esta faja, también de las flechas de los elfos.  Por desgracia para Pandar, las trampas de pozo y el hambre resultaron ser una sustitución más lenta, pero eficaz. Combinado con la poción de fuerza de gigante de fuego ganas la fuerza de uno.
@@ -3189,7 +4063,8 @@ ESTADÍSTICAS:
 
 Fuerza: 22
 Bonificación de clase de armadura: +3 contra armas perforantes
-Peso: 2~
+Peso: 2
+No utilizable por:~
 @618 = ~Hacha de Batalla Mejorada +2~
 @619 = ~Hacha de Batalla +2: 'Hacha de Batalla de Mauletar'
 
@@ -3204,7 +4079,12 @@ Tipo de daño: cortante
 Peso: 5 
 Factor de velocidad 5 
 Tipo de competencia: Hacha 
-Tipo: Hacha 1-mano~
+Tipo: Hacha 1-mano
+No utilizable por:  
+Druida  
+Clérigo  
+Mago   
+Ladrón~
 @620 = ~Placa de Duragon +4~
 @621 = ~Esta armadura dorada perteneció al Rey Sven Duragon del Clan Duragon. Duragon fue el último rey del clan antes de su aniquilación total a manos de orcos y goblins liderados por unos enanos duergar.
 
@@ -3214,7 +4094,11 @@ ESTADÍSTICAS:
 -10 resistencia al frío
 Clase de armadura: -1 
 Peso: 18
-No utilizable por~
+No utilizable por:  
+Bardo   
+Druida  
+Mago  
+Ladrón~
 @622 = ~Lanza de la Naturaleza~
 @623 = ~Tallada en runas druídicas se traduce como "La furia de la tormenta destruirá la perdición de la naturaleza".
 
@@ -3228,7 +4112,9 @@ Especial: 1d6 daño eléctrico
 Peso: 3 
 Factor de velocidad: 3 
 Tipo de competencia: Lanza  
-Tipo: Lanza 2 manos~
+Tipo: Lanza 2 manos
+Usable por: 
+Druida y Exploradores~
 @624 = ~Sable +2 "Quintus D' Sol"~
 @625 = ~La hoja larga, curvada y de un solo filo es característica tanto del sable como de la cimitarra, aunque sus orígenes se encuentran en diferentes partes de Faerûn. El alfanje, debido a su estructura más ligera, es la elección de muchos ladrones y bandidos.
 
@@ -3239,7 +4125,13 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @626 = ~Quintus D' Sol pertenecía al capitán pirata llamado William Delver alias Bloody Bill. Él y su tripulación disfrutaban asaltando barcos indefensos en alta mar y matando a todos los prisioneros para que no hubiera testigos del crimen. Cometió el error de atacar un barco que parecía mercante pero que en realidad era un barco de transporte de tropas. Él y su tripulación, que sobrevivieron al combate, fueron capturados. Él y su tripulación fueron atados a su barco y éste fue hundido con todos ellos aún con vida. Ahora sus cuerpos se unen a las víctimas que enviaron al fondo del mar para ser torturadas eternamente.
 
 ESTADÍSTICAS:
@@ -3251,7 +4143,13 @@ Tipo de daño: cortante
 Peso: 3 
 Factor de velocidad: 3 
 Tipo de competencia: Cimitarra/Wakizashi/Ninjato
-Tipo: Cimitarra 1 mano~
+Tipo: Cimitarra 1 mano
+No utilizable por:
+ Bardo
+ Clérigo
+ Druida
+ Mago
+ Paladín~
 @627 = ~Martillo de Guerra +2 "Inferno"~
 @628 = ~Un martillo de guerra es un martillo de carpintería demasiado grande, que tiene un cinco por ciento de mango y un noventa y cinco por ciento de cabeza. Se forjan con gran precisión y son formidables armas contundentes.
 
@@ -3266,7 +4164,11 @@ Peso: 6
 Factor de velocidad 4
 Tipo de competencia: Martillo de guerra
 Tipo: Martillo 1 mano
-Requiere 9 Fuerza~
+Requiere 9 Fuerza
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @629 = ~Martillo de Guerra +2 "Congelación"~
 @630 = ~Este martillo de guerra perteneció a un gigante de hielo llamado Korgrath. Llamó así a su martillo por su draco de escarcha "Mordedura de Escarcha". Cuando Frostbite murió a manos de unos aventureros de las aguas traseras, Korgrath hizo que su chamán realizara un ritual de sangre sobre este martillo con el resultado de que este martillo hace daño de frío.
 
@@ -3280,7 +4182,11 @@ Peso: 6
 Factor de velocidad 4
 Tipo de competencia: Martillo de guerra
 Tipo: Martillo 1 mano
-Requiere 9 Fuerza~
+Requiere 9 Fuerza
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @631 = ~Yelmo de Guerra~
 @632 = ~Este yelmo de guerra fue hecho por un sacerdote de Tempus. Solo unos pocos elegidos de Su clero tienen el honor de tener un yelmo como este. Un sacerdote moriría antes de renunciar a este yelmo.
 
@@ -3290,7 +4196,11 @@ Bonificación por clase de armadura: +1
 Especial:  
  Protege contra golpes críticos
  +1 a THAC0
-Peso: 4~
+Peso: 4
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @633 = ~Yelmo de Salud~
 @634 = ~Este yelmo fue hecho para dar al guerrero una ventaja en su estamina cuando lucha o en aventuras en general.
 
@@ -3300,7 +4210,11 @@ Bonificación por clase de armadura: +1
 Especial:  
  Protege contra golpes críticos
  +1 a constitución
-Peso: 4~
+Peso: 4
+No utilizable por:
+  Mago
+  Bardo
+  Ladrón~
 @635 = ~Túnica Magica de mago~
 @636 = ~Esta poderosa Túnica de Mago ofrece protección contra todas las formas de ataque físico al mismo tiempo que aumenta la resistencia mágica y las tiradas de salvación.
 
@@ -3310,7 +4224,9 @@ Bonificación de 1 hechizo para los niveles 1 y 2.
 Clase de Armadura: 3
 Resistencia Mágica: 15%
 Tirada de salvación: Bonificación +1
-Peso: 6~
+Peso: 6
+Sólo utilizable por:
+Magos~
 @637 = ~Mayal +2~
 @638 = ~El mayal es un robusto mango de madera unido a una barra de hierro, una barra de madera con pinchos, o una bola de hierro con pinchos. Entre el mango y el implemento hay una bisagra o una cadena de eslabones. El arma ha sido mejorada mágicamente, formando efectivamente un vínculo entre el arma y su portador, dándole una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido, y la capacidad de golpear a los oponentes que son inmunes a las armas normales.
 
@@ -3322,7 +4238,11 @@ Tipo de daño: aplastante
 Peso: 13
 Factor de velocidad: 6
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
 @639 = ~La maza es descendiente directa del garrote básico, pues no es más que un asta de madera con una cabeza de hierro montada en el extremo. En este caso, la cabeza es piramidal y parece brillar con una luz interior azul, ya que se asienta sobre un eje de roble pulido. Esta maza ha sido encantada, lo que le otorga una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido y la capacidad de golpear a oponentes inmunes a las armas normales.
 
 ESTADÍSTICAS:
@@ -3333,9 +4253,13 @@ Tipo de daño: aplastante
 Peso: 8
 Factor de velocidad: 6
 Tipo de competencia: Mayal/Lucero de alba 
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
 @640 = ~Lucero de alba +2~
-@641 = ~El Lucero de alba es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Los Lucero de alba tienen una longitud total de unos cuatro pies. Esta en particular está montada con una cabeza dorada que ha sido mejorada mágicamente para mejorar su rendimiento y escapar de la maleabilidad del oro. Su encantamiento le otorga una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido y la capacidad de golpear a oponentes inmunes a las armas normales.
+@641 = ~El Lucero de alba es un asta de madera rematada con una cabeza de metal formada por una vaina de hierro con pinchos. Los Luceros de alba tienen una longitud total de unos cuatro pies. Esta en particular está montada con una cabeza dorada que ha sido mejorada mágicamente para mejorar su rendimiento y escapar de la maleabilidad del oro. Su encantamiento le otorga una bonificación para golpear y dañar a los oponentes, un factor de velocidad de ataque más rápido y la capacidad de golpear a oponentes inmunes a las armas normales.
 
 ESTADÍSTICAS:
 
@@ -3345,7 +4269,11 @@ Tipo de daño: aplastante
 Peso: 10
 Factor de velocidad: 6
 Tipo de competencia: Mayal/Lucero de alba 
-Tipo: 1-mano~
+Tipo: 1-mano
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
 @642 = ~Mayal +3 La perdición del invierno~
 @643 = ~Este mayal tiene un aura de frío que lo rodea. Nadie sabe realmente de dónde viene, pero se dice que procede de las Tierras del Norte y que fue fabricado por una sacerdotisa de Auril.
 
@@ -3358,7 +4286,11 @@ Tipo de daño: aplastante
 Peso: 7
 Factor de velocidad 3 
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago
+ Ladrón~
 @644 = ~Maza +3 "Purificador"~
 @645 = ~Incorporado en el mango de la maza dice "Purificación y poder, el mal no gobernará supremo". Esta maza fue hecha para purificar el mal del mundo a través del fuego.
 
@@ -3441,7 +4373,7 @@ Tipo: Maza 1 mano~
 @711  = ~Ahhh~ [CMNAJ03]
 @712  = ~Yo le he fallado!~ [CMNAJ05]
 @713  = ~Ogro Mago~
-@714  = ~Guardia de laVigilancia~
+@714  = ~Guardia de la Vigilancia~
 @715  = ~Sacerdote supervisor~
 @716  = ~Mago de la Guerra de la Supervisión~
 @717  = ~Élite de la supervisión~
@@ -3494,7 +4426,11 @@ Tipo de daño: aplastante
 Peso: 15
 Factor de velocidad: 7
 Tipo de competencia: Mayal/Lucero de alba
-Tipo: 1 mano~
+Tipo: 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
 @759 = ~Báculo~
 @760 = ~La más simple y humilde de las armas de asta, el báculo es un trozo de madera de entre seis y nueve pies de longitud.  Los báculos de alta calidad están hechos de roble robusto y llevan metal en ambos extremos.  Debe empuñarse con ambas manos.  
 
@@ -3550,7 +4486,7 @@ Tipo: Báculo 2 manos~
 @801    = ~Ygrainne Vientoestrella~
 @802    = ~Guardaespaldas elfo~
 @803    = ~Mercader~
-@804    = ~Señor. Godfrey~
+@804    = ~Señor Godfrey~
 @805    = ~Guardia de caravana~
 @806    = ~Guardia del Señor de la Mañana~
 @807    = ~Guardia del mañana ~
@@ -3588,7 +4524,10 @@ ESTADÍSTICAS:
 Clase de Armadura: 5
 Resistencia Mágica 5%
 Tirada de salvación: +1 bonus
-Peso: 6~
+Peso: 6
+Sólo utilizable por:
+Mago (simple, dual y multiclase)
+Personajes alineados con el mal~
 
 @822    = ~Honda +2~
 @823    = ~Las hondas han existido desde el principio de la historia. La honda básica consiste en una correa de cuero o tela con una bolsa para guardar el proyectil, aunque ésta ha sido imbuida con un pequeño encantamiento mágico. El arma se sujeta por ambos extremos de la correa y se hace girar alrededor de la cabeza del portador. Cuando se alcanza la velocidad máxima, el misil se lanza soltando uno de los extremos de la correa.
@@ -3600,7 +4539,8 @@ THACO: +1
 Peso: 0
 Factor de velocidad 5
 Tipo de competencia: Honda
-Tipo 1 mano~
+Tipo 1 mano
+No utilizable por:~
 
 @824    = ~Daga +2~
 @825    = ~Daga +3~
@@ -3614,7 +4554,9 @@ Tipo de daño: Perforante
 Peso: 2
 Factor de velocidad: 0
 Tipo de competencia: Daga
-Tipo: Daga 1-mano~
+Tipo: Daga 1-mano
+No utilizable por:
+ Clerigo~
 @827 = ~Armadura de Lathander~
 @828 = ~Armadura de mallas elfica +1~
 @829 = ~Hecha a mano por elfos, esta cadena es ligera y resistente. A diferencia de la mayoría de las cotas de malla, la cadena élfica no impide a los usuarios de magia practicar su arte.
@@ -3622,7 +4564,8 @@ Tipo: Daga 1-mano~
 ESTADÍSTICAS:
 
 Clase de Armadura: 4
-Peso: 10~
+Peso: 10
+No utilizable por:~
 @830 = ~Espada Larga Élfica +2~
 @831 = ~Estas espadas se conocen normalmente como espadas de doble filo, espadas de guerra o espadas militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión del sable largo; el diseño y la longitud varían de una cultura a otra, y pueden variar dentro de la misma cultura dependiendo de la época. Una de las características más comunes de todas las espadas largas es su longitud, que oscila entre 35 y 47 pulgadas. En este último caso, se sabe que la hoja ocupa 40 pulgadas de la longitud total. La mayoría de las espadas largas tienen una hoja de doble filo y una punta afilada en la punta. A pesar de la punta, la espada larga está diseñada para acuchillar, no para empujar.
 
@@ -3634,7 +4577,11 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad 5
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-mano~
+Tipo: Espada larga 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @832 = ~Espada Larga Élfica +1~
 @833 = ~Estas espadas se conocen normalmente como espadas de doble filo, espadas de guerra o espadas militares. En muchos casos, la espada larga tiene una hoja de un solo filo. No existe una única versión del sable largo; el diseño y la longitud varían de una cultura a otra, y pueden variar dentro de la misma cultura dependiendo de la época. Una de las características más comunes de todas las espadas largas es su longitud, que oscila entre 35 y 47 pulgadas. En este último caso, se sabe que la hoja ocupa 40 pulgadas de la longitud total. La mayoría de las espadas largas tienen una hoja de doble filo y una punta afilada en la punta. A pesar de la punta, la espada larga está diseñada para acuchillar, no para empujar.
 
@@ -3646,7 +4593,11 @@ Tipo de daño: cortante
 Peso: 4
 Factor de velocidad: 5
 Tipo de competencia: Espada larga
-Tipo: Espada larga 1-mano~
+Tipo: Espada larga 1-mano
+No utilizable por:
+ Druida
+ Clérigo
+ Mago~
 @834 = ~Arco Largo Élfico +2~
 @835 = ~El arco largo élfico es similar al arco corto, excepto que el bastón es casi tan alto como el arquero, normalmente de 6 a 6.5 pies. Tiene dos ventajas sobre el arco corto: mejor alcance y, por lo tanto, es mucho más preciso.
 
@@ -3658,7 +4609,12 @@ Daño +2
 Peso: 3
 Factor de velocidad: 7
 Tipo de competencia: Arco Largo
-Tipo: Arco largo 2-manos~
+Tipo: Arco largo 2-manos
+No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
 @836 = ~Yelmo de Lathander~
 @837 = ~Escudo de Lathander~
 @838 = ~Martillo de Lathander~
@@ -3672,7 +4628,11 @@ Tipo de daño: aplastante
 Peso: 5
 Factor de velocidad: 2
 Tipo de competencia: Martillo de guerra
-Tipo: Martillo de guerra 1 mano~
+Tipo: Martillo de guerra 1 mano
+No utilizable por:
+ Druida
+ Mago 
+ Ladrón~
  @840 = ~Sintara Al-Mustafa~
  @841 = ~Bienes de Caravana~
  @842 = ~El Precio es Correcto~
@@ -3689,9 +4649,11 @@ Cuando se lanza este hechizo, el hechicero y todo su equipo se vuelven insustanc
 
 // New info or error texts
 @890  = ~BG:EE instalación detectada~
-@891  = ~Tutu instalación detectada.~
+@891  = ~TuTu instalación detectada.~
 @892  = ~Instalación de BGT detectada.~
-@893  = ~Por favor, instala en BG:EE, Tutu o BGT.~
+@893  = ~Por favor, instala en BG:EE, EET, TotSC, TuTu o BGT.~
+@894  = ~BG1 instalación detectada.~
+@895  = ~EET instalación detectada.~
 
 /* New in BGEE */
 
@@ -3721,7 +4683,12 @@ Factor de velocidad 5
 Tipo de competencia: Arco largo
 Tipo: Arco largo A dos manos
 Requiere
- 6 Fuerza~
+ 6 Fuerza
+ No utilizable por:
+ Druida
+ Clérigo
+ Mago
+ Ladrón~
 @906 = ~Brazales de Tiro con Arco de Dale el Bardo~
 @907 = ~Estos eran los brazales del mentor de Morwen, Dale el Bardo. Incluso sin sus brazaletes, era un tirador mortal a larga distancia. Su sangre manchó estos brazales después de que lo matara un asesino.
 
@@ -3730,7 +4697,9 @@ ESTADÍSTICAS:
 Habilidades equipadas:
 THAC0: +3 con armas de proyectiles
 
-Peso: 2~
+Peso: 2
+ No utilizable por:
+ Todos menos Morwen~
 
 @908 = ~Armadura de Morwen de Cuero Tachonado +2~
 @909 = ~La armadura de cuero tachonado tiene poco en común con la armadura de cuero normal. Mientras que la armadura de cuero es un caparazón endurecido, la armadura de cuero tachonado es suave y flexible con cientos de remaches de metal fijados. Los remaches están tan juntos que forman una capa flexible de metal duro que desvía los ataques cortantes. El cuero blando de la armadura es poco más que un medio para asegurar los remaches en su sitio.
@@ -3802,7 +4771,7 @@ Peso: 15~
 @964  = ~No hay problema.~ [DMF26]
 @965  = ~Sí.~ [DMF27]
 @966  = ~¿Eso es todo?~ [DMF28]
-@967  = ~Easy as goblin pie.~ [DMF29]
+@967  = ~Fácil como un pastel de goblin.~ [DMF29]
 @968  = ~Realmente no tienes ni idea, ¿verdad?~ [DMF30]
 @969  = ~Así es, sigue presionando.~ [DMF31]
 @970  = ~Muere~ [DMF06]

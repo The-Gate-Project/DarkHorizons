@@ -1,0 +1,3845 @@
+@0    = ~Mod "Orizzonti Oscuri"~
+@1    = ~*****************************************~
+@2    = ~* Dark Horizons Mod Version 2.12        *~
+@3    = ~* http://www.teambg.net                 *~
+@4    = ~*	Copyright 2015 CoM_Solaufein         *~
+@5    = ~*	 QUESTO FILE INSTALLERÀ              *~
+@6    = ~*    ORIZZONTI OSCURI NELLA TUA         *~
+@7    = ~*         CARTELLA DI GIOCO.            *~
+@8    = ~*****************************************~
+@9    = ~Non sembra che tu abbia installato BG:EE EET TotSC TuTu o BGT.~
+@10   = ~Corazza di piastre~
+@11   = ~Corazza di piastre Nanica +3~
+@12   = ~La corazza di piastre è un combinazione tra la corazza di maglia e di piastre che protegge parti vitali come il petto, l'addome e l'inguine. Simile nella struttura alla corazza di piastre di bronzo, la corazza di piastre è una via di mezzo tra maglia e cuoio. 
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 50~
+@13   = ~ Corazza di piastre Nanica +3
+
+Questa corazza è di fabbricazione nanica, la sua linea affilata e l'aspetto robusto parlano di secoli di abilità possedute dai grandi artigiani nani. Maneggiandola si ha da essa una forte sensazione di magia.
+
+STATISTICHE:
+
+Classe Armatura: -2
+Costituzione: +1 Bonus
+Peso: 35~
+@14   = ~Corazza di maglia~
+@15   = ~Corazza di maglia Elfica +3~
+@16   = ~La corazza di maglia è fatta di anelli metallici intrecciati. Viene sempre indossata sopra uno strato di stoffa imbottita o cuoio morbido per evitare lo strofinamento e per diminuire l'impatto dei colpi.
+
+STATISTICHE:
+
+Classe Armatura: 5
+Peso: 40~
+@17   = ~Realizzata dagli elfi, questa corazza è insieme leggera e resistente. A differenza delle corazze di maglia comuni le corazze elfiche non impediscono agli indossatori maghi di praticare le loro abilità.
+
+STATISTICHE:
+
+Classe Armatura: 2
+Peso: 10~
+@18   = ~Corazza di cuoio borchiata~
+@19   = ~Armatura di Spine~
+@20   = ~La corazza di cuoio borchiata ha poco in comune con una semplice corazza di cuoio. Mentre quella di cuoio è un guscio indurito, quella di cuoio borchiata è morbida e flessibile grazie alle centinaia di chiodi di metallo che vi sono applicati. I chiodi sono così vicini l'uno all'altro da formare un rivestimento flessibile di metallo duro che è in grado di respingere attacchi sferzanti e taglienti. La protezione di cuoio morbido è poco più di un mezzo per tenere al loro posto i chiodi.
+
+STATISTICHE:
+
+Classe Armatura: 7
+Peso: 25~
+@21   = ~Ad un controllo più attento si scopre che l'armatura non è fatta affatto di cuoio, ma da un intricato intreccio di viti e di rami di cespugli spinosi. L'armatura è un dono delle ninfe ai druidi, un segno di ammirazione per la loro protezione senza fine delle foreste.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Tiri Salvezza: +3 bonus
+Peso: 4~
+@22   = ~Nube Tempestosa~
+@23   = ~Nube Tempestosa "Rovina di Kraken"
+Questo cuoio è stato ricavato dai resti carbonizzati di un drago colpito da un fulmine. L'ultimo ad averla indossata è stato Shrethu Reogher lo stregone. Si deve sperare che egli sia morto, perché se gli fosse stata tolta mentre era ancora vivo lui la sta sicuramente cercando.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Tiri Salvezza: +3 bonus
+Speciale: Resiste all'Elettricità 
+Peso: 4~
+@24   = ~Armatura dell'Assassino~
+@25   = ~La corazza di cuoio borchiata non ha molto in comune con la normale corazza di cuoio. Mentre quest'ultima ha un rivestimento rigido, la corazza di cuoio borchiata è morbida e flessibile con sopra centinaia di rivetti. I rivetti sono molto vicini l'uno all'altro in modo da formare un rivestimento flessibile di metallo per schivare attacchi falcianti e taglienti. Lo strato di cuoio morbido non è solo un sostegno su cui attaccare i rivetti.
+
+STATISTICHE:
+
+Classe Armatura: 7
+Peso: 25~
+@26   = ~L'Armatura dell'Assassino è una corazza di cuoio borchiata creata per essere usata dai mortali assassini Maestri dell'Ombra. Nessuno li ha mai visti, ci sono solo delle dicerie a causa di alcune delle cose incredibili svolte da questo gruppo d'élite di assassini. I Maestri dell'Ombra solo l'ordine più alto all'interno della gerarchia dei Ladri Tenebrosi. Si tratta di una corazza di cuoio borchiata +3 capace di fondersi nell'oscurità.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Special: +30% a Nascondersi nelle ombre, Libertà d'Azione, e Immunità al veleno.
+Peso: 8~
+@27   = ~Corazza di piastre completa~
+@28   = ~Corazza di Emberwilde~
+@29   = ~La corazza di piastre completa è la miglior corazza che un guerriero possa acquistare, sia per l'aspetto che per il tipo di protezione. Le piastre, perfettamente attaccate una all'altra, sono inclinate in modo da deviare frecce e colpi e tutto l'abito abbellito con intarsi e ricami.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 70~
+@30   = ~Corazza di Emberwilde, La Corazza Rossa della Resistenza al Fuoco.
+Realizzata dai maestri nani per il ruolo specifico del primo comandante delle Guardie Fenice, Emberwilde, questa corazza è una vera meraviglia, da essa deriva il bagliore rosso simbolico che contrassegna l'immunità al fuoco che fornisce a chi la indossa come vera essenza della élite Fenice. Nessun ricordo è rimasto, e nessuna magia è riuscita ad identificare completamente le proprietà di questa corazza.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Peso: 35~
+@31   = ~Corazza di cuoio borchiata +3~
+@32   = ~Questa armatura era di proprietà del famoso Principe Barbaro della Neve, Corbus Denolx di Greyhawk. Come e perché ha lasciato il suo bene non è noto.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Peso: 8~
+@33   = ~Armatura di Drago~
+@34   = ~Armatura di Drago, l'armatura simbolo dei Ranger élite Chimera. Questa armatura è incantata con magia potente nota solo agli sciamani Chimera. Essa fornisce a chi la indossa protezione aggiuntiva contro le diverse forme di attacco, e li aiuta nelle loro capacità di braccare i loro obiettivi.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Peso: 8~
+@35   = ~Corazza a strisce~
+@36   = ~Corazza a strisce di Oghma~
+@37   = ~La corazza a strisce è una variante della corazza a bande nella quale le strisce di metallo vengono applicate verticalmente su un sopporto di maglia, cuoio o tessuto invece che orizzontalmente come nella corazza a bande. Dato che il corpo umano all'altezza del mezzo busto tende più a flettersi che a ruotare, la corazza a strisce limita molto i movimenti in battaglia.
+
+
+STATISTICHE:
+
+Classe Armatura: 4
+Peso: 40~
+@38   = ~Corazza a strisce di Oghma: “Divina Ispirazione”
+Questo pezzo di corazza a strisce è stata fatta in una notte da un ispirato sacerdote di Oghma. Egli ricevette un sogno quella notte da Oghma stesso. Gli fu detto che la mattina dopo lui avrebbe dovuto prendere la migliore corazza a strisce che non era ancora stata incantata. Poi gli fu detto di raccogliere gli incantesimi magici per creare un meraviglioso pezzo di armatura. Egli stesso nella sua ispirazione incantò l'armatura per dargli una classe armatura unica. La corazza a strisce è stato poi indossata dal capo sacerdote ed è rimasta con lui per molti anni a venire.
+
+STATISTICHE:
+
+Classe Armatura: -1
+Speciale:
+ Incantesimi da Chierico Bonus 1-5
+ Tiri Salvezza: bonus +3 
+ +10 al massimo dei punti ferita
+Permette il lancio di incantesimi e le abilità da ladro
+Peso: 5~
+@39   = ~Armatura del Bosco~
+@40   = ~Questa è l'armatura di un ranger sconosciuto, tutto ciò che si sa è che era molto potente. Si dice che la sua abilità in battaglia derivi da questa corazza. Ø stata dotata di molti poteri magici oltre che di una normale blindatura. Quando la indossi non sembra solo di avere una migliore protezione ma sembra di avere qualcosa in più. Quando ci si trova nei boschi e nelle zone d'ombra della città questa armatura sembra prestarsi a nascondersi e muoversi silenziosamente.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Speciale: +1 alla Destrezza e +20% a nascondersi nelle ombre.
+Peso: 25~
+@41   = ~Corazza di maglia~
+@42   = ~Corazza di maglia +4~
+@43   = ~Una corazza di maglia a tunica creata con un metallo lucido. Deve essere indossata sopra a uno strato di tessuto imbottito o di cuoio morbido, per evitare frizioni e attutire l'impatto dei colpi.  
+
+STATISTICHE:
+
+Classe armatura: 5
+Peso: 40~
+@44   = ~Corazza di maglia +4:
+La Corazza di maglia Elfica +4 permette agli stregoni elfici di lanciare incantesimi mentre la indossano. 
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 9~
+@45   = ~Corazza di maglia di Mithril +4~
+@46   = ~La corazza di maglia è fatta di anelli metallici intrecciati. Viene sempre indossata sopra uno strato di stoffa imbottita o cuoio morbido per evitare lo strofinamento e per diminuire l'impatto dei colpi.
+
+STATISTICHE:
+
+Classe Armatura: 5
+Peso: 40~
+@47   = ~Corazza di maglia di Mithril +4. Questa armatura è stata fatta con il metallo più leggero e più resistente noto come mithril. Solo i nani possono lavorare con tale perfezione il mithril.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 7~
+@48   = ~Corazza di maglia di Mithril +3~
+@49   = ~La corazza di maglia è fatta di anelli metallici intrecciati. Viene sempre indossata sopra uno strato di stoffa imbottita o cuoio morbido per evitare lo strofinamento e per diminuire l'impatto dei colpi.
+
+STATISTICHE:
+
+Classe Armatura: 5
+Peso: 40~
+@50   = ~La corazza di maglia è fatta di anelli metallici intrecciati. Viene sempre indossata sopra uno strato di stoffa imbottita o cuoio morbido per evitare lo strofinamento e per diminuire l'impatto dei colpi.
+
+STATISTICHE:
+
+Classe Armatura: 2
+Peso: 7~
+@51   = ~Corazza di maglia di Mithril di Durlag +4~
+@52   = ~Questa corazza di maglia una volta apparteneva al grande Durlag l'Assassino dei Troll.
+
+STATISTICHE:
+
+Classe Armatura: 1
+Peso: 7~
+@53   = ~Corazza di maglia +2~
+@54   = ~La corazza di maglia è fatta di anelli metallici intrecciati. Viene sempre indossata sopra uno strato di stoffa imbottita o cuoio morbido per evitare lo strofinamento e per diminuire l'impatto dei colpi. Questo corazza di maglia è una creazione elfica, permette le abilità da mago di lanciare incantesimi quando è indossata.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 10~
+@55   = ~Corazza a Strisce +2~
+@56   = ~La corazza a strisce è una variante della corazza a bande nella quale le strisce di metallo vengono applicate verticalmente su un sopporto di maglia, cuoio o tessuto invece che orizzontalmente come nella corazza a bande. Dato che il corpo umano all'altezza del mezzo busto tende più a flettersi che a ruotare, la corazza a strisce limita molto i movimenti in battaglia.
+
+STATISTICHE:
+
+Classe Armatura: 2
+Peso: 20~
+@57   = ~Corazza di cuoio borchiata +4 "Dono della Natura"~
+@58   = ~La corazza di cuoio borchiata non ha molto in comune con la normale corazza di cuoio. Mentre quest'ultima ha un rivestimento rigido, la corazza di cuoio borchiata è morbida e flessibile con sopra centinaia di rivetti. I rivetti sono molto vicini l'uno all'altro in modo da formare un rivestimento flessibile di metallo per schivare attacchi falcianti e taglienti. Lo strato di cuoio morbido non è solo un sostegno su cui attaccare i rivetti.
+
+STATISTICHE:
+
+Classe Armatura: 7
+Peso: 25~
+@59   = ~Corazza di cuoio borchiata +4 "Dono della Natura":
+Un vestito naturale ci cuoio borchiato che solo un vero protettore della natura può indossare.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 5
++25% a Muoversi silenziosamente
+Lancia Santuario~
+@60   = ~Corazza di pelle~
+@61   = ~Armatura del Nord~
+@62   = ~La corazza di pelle è fatta con la pelle spessa di un animale molto grosso (per esempio un elefante) o con molti strati di pellame di animali comuni, come le mucche. L'armatura di pelle è troppo ingombrante, rigida e pesante per essere utilizzata nelle società umane più avanzate. Però è diffusa tra i popoli barbari delle foreste buie e delle giungle immerse nella nebbia. Anche se non offre maggiore protezione della corazza di cuoio, per poterla indossare bisogna sopportare il cattivo odore che emana e il suo aspetto dozzinale. I ladri possono indossarla, ma essa produce un effetto negativo sulle loro abilità.
+
+STATISTICHE:
+
+Classe armatura: 6
+Peso: 40~
+@63   = ~Questa armatura richiama la tundra ghiacciata della Valle del Vento Gelido. Ø stata benedetta dagli sciamani per aiutare a proteggere l'utilizzatore agli elementi del freddo.
+
+STATISTICHE:
+
+70% di Resistenza al Freddo
+Classe Armatura: 6
+Peso: 40~
+@64   = ~La corazza di cuoio borchiata ha poco in comune con una semplice corazza di cuoio. Mentre quella di cuoio è un guscio indurito, quella di cuoio borchiata è morbida e flessibile grazie alle centinaia di chiodi di metallo che vi sono applicati. I chiodi sono così vicini l'uno all'altro da formare un rivestimento flessibile di metallo duro che è in grado di respingere attacchi sferzanti e taglienti. La protezione di cuoio morbido è poco più di un mezzo per tenere al loro posto i chiodi.
+
+STATISTICHE:
+
+Classe Armatura: 7
+Peso: 25~
+@65   = ~Quando ci si trova in una foresta questa armatura sembra prestarsi a nascondersi e muoversi silenziosamente. Questo aiuterà il druido o il ranger nella loro protezione della natura. 
+
+STATISTICHE:
+
+Classe Armatura: 1
+Speciale: +1 alla Destrezza e +20% a Nascondersi nelle Ombre.
+Peso: 25~
+@66   = ~Cuoio del Maestro del l'Ombra~
+@67   = ~La corazza di cuoio borchiata ha poco in comune con una semplice corazza di cuoio. Mentre quella di cuoio è un guscio indurito, quella di cuoio borchiata è morbida e flessibile grazie alle centinaia di chiodi di metallo che vi sono applicati. I chiodi sono così vicini l'uno all'altro da formare un rivestimento flessibile di metallo duro che è in grado di respingere attacchi sferzanti e taglienti. La protezione di cuoio morbido è poco più di un mezzo per tenere al loro posto i chiodi.
+
+STATISTICHE:
+
+Classe Armatura: 7
+Peso: 25~
+@68   = ~La corazza di cuoio borchiata ha poco in comune con una semplice corazza di cuoio. Mentre quella di cuoio è un guscio indurito, quella di cuoio borchiata è morbida e flessibile grazie alle centinaia di chiodi di metallo che vi sono applicati. I chiodi sono così vicini l'uno all'altro da formare un rivestimento flessibile di metallo duro che è in grado di respingere attacchi sferzanti e taglienti. La protezione di cuoio morbido è poco più di un mezzo per tenere al loro posto i chiodi.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Speciale: +30% a tutte le Abilità da Ladro
+ +5 a Salva contro Morte
+Fornisce l'anti-individuazione
+Peso: 8~
+@69   = ~Anti-individuazione~
+@70   = ~Corazza di cuoio~
+@71   = ~Natura Divina~
+@72   = ~La corazza di cuoio, contrariamente a quanto si crede, non utilizza cuoio morbido e flessibile come quello per gli stivali dei ranger o gli abiti dei druidi, perché quel tipo di cuoio non offre protezione migliore dei semplici abiti.
+
+STATISTICHE:
+
+Classe Armatura: 8
+Peso: 15~
+@73   = ~Solo i migliori difensori della natura hanno il privilegio di indossare un'armatura come questa. Si dice che solo i membri del segreto ordine di druidi e ranger noto come I Guerrieri della Natura abbiano questa armatura.   
+
+STATISTICHE:  
+
+Classe Armatura: 0  
+Speciale: Memorizza 2 incantesimi di primo livello extra  
+Peso: 1:  
+ Druidi e Ranger (classe singola, duale e multipla)~
+@74   = ~Corazza di cuoio di Hobbin~
+@75   = ~Questa armatura è stata data ad Hobbin da suo zio, un avventuriero ben noto a suo tempo.
+
+STATISTICHE:
+
+Classe Armatura: 0 
+Speciale: +15% a Nascondersi nelle Ombre
+Speciale: +15% a Scassinare serrature
+Peso: 1~
+@76   = ~Corazza di piastre +5~
+@77   = ~La corazza di piastre è un combinazione tra la corazza di maglia e di piastre che protegge parti vitali come il petto, l'addome e l'inguine. Simile nella struttura alla corazza di piastre di bronzo, la corazza di piastre è una via di mezzo tra maglia e cuoio. 
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 50~
+@78   = ~Armatura da Battaglia Elfica +5. 
+Questa armatura è utilizzata dalle forze d'élite degli elfi di Evermeet.
+
+STATISTICHE:
+
+Classe Armatura: -2
+Peso: 18~
+@79   = ~Corazza di piastre "Apocalisse"~
+@80   = ~La corazza di piastre è un combinazione tra la corazza di maglia e di piastre che protegge parti vitali come il petto, l'addome e l'inguine. Simile nella struttura alla corazza di piastre di bronzo, la corazza di piastre è una via di mezzo tra maglia e cuoio. 
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 50~
+@81   = ~Corazza di piastre "Apocalisse": 
+Fatta per Surtr un grande guerriero che amava il fuoco, questa armatura vi permetterà di lanciare incantesimi basati sul fuoco e vi offrirà protezione dal fuoco.
+
+STATISTICHE:
+
+Classe Armatura: 0
+Peso: 20
+Speciale: Lancia i seguenti incantesimi
+Mani brucianti
+Fiamme Scorticatrici di Agannazar
+Palla di fuoco
+Colonna di fuoco
+
++50% di Resistenza al Fuoco~
+@82   = ~Corazza di Piastre di Balduran~
+@83   = ~Questa corazza di piastre era indossata dal famoso eroe Balduran. Ø parte di un gruppo di armi e armatura che venne rubato dal museo nella città di Baldur's Gate.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+ +4 punti ferita
+ +1 bonus al CARISMA
+Classe Armatura: -1
+Peso: 50
+Richiede: Forza 15~
+@84   = ~Corazza di piastre completa di Kiel +3~
+@85   = ~Questa armatura una volta apparteneva a Kiel.
+
+STATISTICHE:
+   
++5% di Resistenza alla magia
+
+Classe Armatura: -2
+Peso: 45
+Richiede: Forza 15~
+@86   = ~Corazza di piastre di Najara +3~
+@87   = ~La corazza di piastre è un combinazione tra la corazza di maglia e di piastre che protegge parti vitali come il petto, l'addome e l'inguine. Simile nella struttura alla corazza di piastre di bronzo, la corazza di piastre è una via di mezzo tra maglia e cuoio. 
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 50~
+@88   = ~Questa è l'armatura personale di Najara.
+
+STATISTICHE:
+
+Speciale: 
++1 alla Forza
+Classe Armatura: 0
+Peso: 18~
+@89   = ~Armatura di Piastre Completa di Fiamme~
+@90   = ~La corazza di piastre completa è la miglior corazza che un guerriero possa acquistare, sia per l'aspetto che per il tipo di protezione. Le piastre, perfettamente attaccate una all'altra, sono inclinate in modo da deviare frecce e colpi e tutto l'abito abbellito con intarsi e ricami.
+
+STATISTICHE:
+
+Classe Armatura: 0
+50% di Resistenza al Fuoco
+Peso: 35~
+@91   = ~Cinghie~
+@92   = ~Cintura di Sune~
+@93   = ~Le cinghie generalmente somigliano alle cinture. A differenza delle cinture, le cinghie non vengono utilizzate per tenere su pantaloni o tute, ma per trasportare borse, foderi e cose del genere.
+
+STATISTICHE
+
+Peso: 2~
+@94   = ~La Cintura di Sune è per coloro a cui occorre un valore aggiunto con il loro carisma. Una sacerdotessa di Sune fece questa per quelle povere anime che non hanno abilità carismatiche e bellezza.
+
+STATISTICHE:
+
++1 al Carisma
+Peso: 2~
+@95   = ~Cintura della Forza dei Giganti delle Colline~
+@96   = ~Questa cintura è progettata per i potenti guerrieri dei reami che non possono ottenere più potere in altri modi. Le cinture della forza dei giganti sono oggetti molto rari. Esse sono costituite tessendo i capelli o la barba del tipo di gigante la cui forza il creatore vuole guadagnare. Questa cintura è fatta con i capelli di un gigante delle colline e dà a chi la indossa la forza di un gigante delle colline.
+
+STATISTICHE:
+
+Forza: portata a 19
+Peso: 2~
+@97   = ~Cinghie di Difesa~
+@98   = ~Cinghie di Difesa: “La Cintura d'oro di Urnst”
+Questa cintura è stata creata dagli Elfi d'oro del Sottosuolo, di rado uno dei loro oggetti raggiungere il mondo di superficie ma questo oggetto l'ha fatto. Ø stato pesantemente incantato per deviare gli attacchi di ogni tipo. Molte persone hanno indossato questa cintura con orgoglio ma per lo più è stato rubata dai ladri e venduta al mercato nero. Questa cintura è stata anche cercata da molti guerrieri alla ricerca di protezione ma nessuno l'ha mai trovata.
+
+STATISTICHE:
+
+Bonus di Classe Armatura:  
+ +3 contro le armi da taglio
+ +3 contro armi contundenti
+ +3 contro armi da lancio~
+@99   = ~Stivali~
+@100  = ~Stivali di Protezione Veloci~
+@101  = ~Gli stivali vengono di solito fatti a mano dai ciabattini. Gli stivali comuni sono fatti utilizzando una forma, ma quelli di buona qualità sono fatti su misura per il piede di chi li indosserà.
+
+STATISTICHE:
+
+Peso: 4~
+@102  = ~Gli stivali vengono di solito fatti a mano dai ciabattini. Gli stivali comuni sono fatti utilizzando una forma, ma quelli di buona qualità sono fatti su misura per il piede di chi li indosserà. Questi stivali aggiungono velocità e protezione a chi li indossa.
+
+STATISTICHE:
+
++1 alla CA
+Velocità
+Peso: 4~
+@103  = ~Stivali di Protezione d'Oro~
+@104  = ~Questi Stivali di Protezione d'Oro appartenevano ad un nobile re dei Nani anticamente chiamato Thrain. Thrain era un famoso re molto amato dai suoi sudditi Nani. Quando sentì dire che i suoi amici nell'Abisso di Dorn erano nei guai radunò i suoi guerrieri migliori e si diresse là per aiutarli. Di lui e del suo esercito non è si è più sentito nulla.
+
+STATISTICHE:
+
+ -25 a Segretezza
+Bonus di Classe Armatura: +2 contro le armi da taglio
+Bonus di Classe Armatura: +1
+Peso: 18~
+@105  = ~Stivali Consumati~
+@106  = ~Stivali della Salute~
+@107  = ~Stivali della Salute: “Guerriero Robusto”
+Questi stivali sono fatti con pelli dei tessuti morbidi con un fondo rigido in modo da durare a lungo. Sono stati incantati da un prete che viveva nelle montagne Norheim. Il sacerdote usava questi stivali in modo da poter guarire le persone anche quando i suoi incantesimi memorizzati si esaurivano. Essi sono stati cercati, fin da quando lui li perse dopo essere stato attaccato da un branco di lupi. Egli tornò in salute solo per fare un paio di stivali ancora più potente. Ma a lui piacquero meno degli altri perché essi erano più comodi.
+
+STATISTICHE:
+
+Chi lo indossa può lanciare:
+Cura ferite critiche
++1 alla Classe Armatura
++10 ai punti ferita massimi~
+@108  = ~Stivali di Velocità Garantita~
+@109  = ~Stivali di Velocità Garantita: 
+Questi stivali sono incantati con la garanzia che chi li indossa sarà sempre rapido di piedi. Le origini di questi stivali sono sconosciute, ma la loro leggenda attraversa i secoli con racconti sia nobile che sanguinosi del loro utilizzo.~
+@110  = ~Mantello di protezione +3~
+@111  = ~Mantello di protezione +3:  Il Mantello di Mystra  
+Si dice che questi mantelli vengano dati solo a pochi prescelti tra i più degni sacerdoti di Mystra. Tuttavia, a causa della “prematura” scomparsa di alcuni di questi sacerdoti, alcuni mantelli sono stati visti al di fuori delle file di questa organizzazione religiosa. Il mantello dà a chi lo indossa sia bonus contro attacchi fisici e magici sia la protezione dagli attacchi dei non morti.  
+
+STATISTICHE:  
+
+Classe Armatura: bonus +3
+Tiri Salvezza: bonus +2 
+Speciale: Protezione dai Non Morti  
+Peso:  3~
+@112  = ~Mantello~
+@113  = ~Mantello della Natura~
+@114  = ~Il mantello può avere qualsiasi forma ed essere di qualsiasi tipo di stoffa. Le forme più comuni sono un pezzo circolare di tessuto con un foro per la testa e tessuto drappeggiato attorno al collo legato da una catenella, una spilla, una cordicella o spilli.~
+@115  = ~Il mantello della natura aiuterà a proteggere un druido o un ranger dagli elementi della natura.   
+
+STATISTICHE:
+
+Classe Armatura: +1 bonus
+Tiri Salvezza: +1 bonus
+Resistenza al Fuoco: 25%
+Resistenza al freddo: 25%
+Peso: 3~
+@116  = ~Abito del mago~
+@117  = ~Tunica di Shi'nayne~
+@118  = ~Fin dall'era di Netheril, i maghi hanno imparato ad attribuire varie proprietà magiche agli oggetti che li circondano. Uno degli oggetti preferiti per questi incantesimi è il abito comune. E leggero, economico e tiene bene l'incantesimo, facendone l'equipaggiamento ideale per un mago. Per il loro patrimonio magico, tuttavia, solo i maghi di classe singola, duale e multiclasse possono indossare questi abiti incantati.~
+@119  = ~Questa potente tunica appartiene a Shi'nayne. Offre protezione da ogni forma di attacco fisico e allo stesso tempo aumenta la resistenza magica e i tiri salvezza.
+
+STATISTICHE:
+
+Classe Armatura: +3 Bonus
+Resistenza alla Magia: 25%
+Tiri Salvezza: +3 bonus
+Peso: 6~
+@120  = ~Abito dell'arcimago "Memento Mori"~
+@121  = ~Uno dei pochi potenti abiti dell'arcimago da Netheril. Questo dà a chi lo indossa un bonus di incantesimi e la protezione dagli incantesimi. 
+
+STATISTICHE:
+
+2 Incantesimi di livello 2 Bonus
+Classe Armatura: +2 Bonus
+Resistenza alla Magia: 15%
+Tiri Salvezza: +3 bonus
+Peso: 6~
+@122  = ~Mantello dell'Assassino~
+@123  = ~Il mantello può avere qualsiasi forma ed essere di qualsiasi tipo di stoffa. Le forme più comuni sono un pezzo circolare di tessuto con un foro per la testa e tessuto drappeggiato attorno al collo legato da una catenella, una spilla, una cordicella o spilli.~
+@124  = ~Il Mantello dell'Assassino è stato creato per essere usato dai mortali assassini Maestri dell'Ombra. Nessuno li ha mai visti, ci sono solo delle dicerie a causa di alcune delle cose incredibili svolte da questo gruppo d'élite di assassini. I Maestri dell'Ombra solo l'ordine più alto all'interno della gerarchia dei Ladri Tenebrosi.
+
+STATISTICHE:
+
+Classe Armatura: +1 bonus
+THAC0: +3 bonus
+Tiri Salvezza: +1 bonus
+Speciale: Offre Anti-individuazione e +5 a Segretezza
+Peso: 3~
+@125  = ~Guanti~
+@126  = ~Guanti del Guerriero~
+@127  = ~I guanti servono da protezioni per le mani. Possono essere di pelle, di piastre o di maglia. Ogni corazza completa dovrebbe includere guanti del tipo più appropriato. I guanti magici tendono a essere più fini, leggeri e più facilmente indossabili delle varietà normali.~
+@128  = ~I guanti servono da protezioni per le mani. Possono essere di pelle, di piastre o di maglia. Ogni corazza completa dovrebbe includere guanti del tipo più appropriato. I guanti magici tendono a essere più fini, leggeri e più facilmente indossabili delle varietà normali.
+
+STATISTICHE:
+
+THAC0 +3
+Danno +3~
+@129  = ~Bracciali~
+@130  = ~Bracciali della Notte~
+@131  = ~I bracciali sono spesse fasce di metallo o cuoio che vengono fissate, allacciate o legate all'avambraccio di un personaggio. Di solito la magia che viene instillata nei bracciali è valida solo durante un combattimento, in quanto la maggior parte dei bracciali serve a proteggere colui che li indossa dalle ferite o a migliorare le probabilità di colpire un nemico. Esistono delle eccezioni, sebbene questi oggetti particolari siano molto rari.~
+@132  = ~Il Bracciali della Notte sono una serie speciale di bracciali fatta per un famoso ladro al servizio dei Ladri Tenebrosi. Essi hanno scomparti speciali per i grimaldelli e le sonde, per aiutare il portatore ad aprire serrature e trovare le trappole. Essi ospitano anche incantesimi speciali che aiutano a indirizzare meglio le armi da lancio verso i loro obiettivi, così come aiutano il ladro a "liberare" dagli oggetti i loro proprietari originali.
+
+STATISTICHE:
+
+Speciale:
+ +15 a Individuare trappole
+ +25 a Scassinare
+ +4 THAC0 con armi da lancio
+Peso: 6~
+@133  = ~Bracciali di difesa CA 4~
+@134  = ~I bracciali sono spesse fasce di metallo o cuoio che vengono fissate, allacciate o legate all'avambraccio di un personaggio. Di solito la magia che viene instillata nei bracciali è valida solo durante un combattimento, in quanto la maggior parte dei bracciali serve a proteggere colui che li indossa dalle ferite o a migliorare le probabilità di colpire un nemico. Esistono tuttavia delle eccezioni, e se ne scoprono di nuove ogni giorno.~
+@135  = ~Bracciali di difesa C.A. 4: "Bracciali di Protezione”
+Per secoli questi bracciali rimasero in possesso di un gladiatore imbattuto e vennero ampiamente impiegati nell'arena di combattimento. La morte di questo campione coincise con la scomparsa di questo oggetto magico, ma secondo voci insistenti vengono ancora utilizzati per i combattimenti in diverse terre.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Peso: 2~
+@136  = ~Bracciali di difesa CA 3~
+@137  = ~Bracciali di difesa CA 3
+Glen il Sorridente, il Cavaliere dei Folli, indossava questi bracciali quando competeva nei tornei di giostre. Con la sua abilità, il suo fascino, e la sua spacconeria -- nessun altro uomo oltre a lui avrebbe giostrato senza armatura --  divenne ben presto il favorito per le signore che osservavano le prove. Anche troppo favorito sembrerebbe, dato che un pomeriggio fu sorpreso ad amoreggiare con la promessa sposa di un cavaliere. Una sfida fu emessa, ma nella sua fretta Glen dimenticò di indossare i suoi Bracciali. Glen morì con un sorriso confuso sul suo viso quando la spada del cavaliere lo colpì, non conoscendo la sua follia.
+
+STATISTICHE:
+
+Classe Armatura: 3
+Peso: 2~
+@138  = ~Guanti dello Scassinare~
+@139  = ~I Guanti dello Scassinare sono stati creati magicamente da un mago/ladro di nome Jamaar il Rapido. Questi bracciali si adattano bene a scassinare ogni tipo di serratura mai creata. Perse questi bracciali quando perse la sua vita a causa di una trappola palla di fuoco posta su una cassa. Avrebbe dovuto impegnarsi su un dispositivo magico che rileva le trappole.
+
+STATISTICHE:
+
+Bonus a Scassinare Serrature: 20%
+Peso: 2~
+@140  = ~Dono del Bosco~
+@141  = ~Dono del Bosco:
+Sempre i druidi e i ranger hanno lottato per proteggere la natura dalla civiltà invadente. Per questo motivo gli abitanti della natura concedono a questi fanatici dei pegni per aiutarli nei loro sforzi di proteggerli. 
+
+STATISTICHE:
+
+Classe Armatura: 0
+Speciale: Aumenta gli Attacchi
+Speciale: Aumenta la Resistenza alla Pietrificazione
+Peso: 2~
+@142  = ~Guanti della Scarica~
+@143  = ~Guanti della Scarica:  
+Un paio di guanti in maglia d'argento e morbida pelle nera. I guanti sono carichi di energia elettrica e e questa energia può essere rilasciata al tocco o come un potente Fulmine. Il tocco ovviamente consente all'energia elettrica di scorrere nella creatura toccata.
+ 
+STATISTICHE:
+
+Caratteristica 1: Scarica elettrica (niente cariche)
+Effetto: Scocca una Palla di Fuoco
+Danno: 1D8
+Raggio di azione: Tocco
+Area: 1 creatura
+
+Caratteristica 2:
+Effetto: Fulmine (1 carica)
+Danno: 6D6 (Salva contro bacchette per dimezzare)
+Raggio di azione: 30 m
+Area: 1 creatura
+
+Peso: 1~
+@144  = ~Guanti del Furto Specializzato~
+@145  = ~“La Mano di Sinistro”
+Una volta posseduti da Daerum “Sinistro” Estra – maestro ladro e capo della gilda dei ladri di Cormyr allo stesso tempo, questi guanti sono stati la rovina di molti mercanti. Mentre indossa questi guanti di pelle pregiata, la proprie abilità di Svuotare Tasche e di disattivare trappole aumentano, così come la propria destrezza. Comunque, l'abilità più potente di questo oggetto è il potere che conferisce al proprio utilizzatore ad aprire gli oggetti chiusi con l'incantesimo Scassinare.
+
+STATISTICHE:
+
+Destrezza: Incrementata di 2 punti
+Svuotare Tasche: +20%
+Trova/Rimuovi Trappole: +20%
+Lancia Scassinare
+Peso: 2~
+@146  = ~Elmo~
+@147  = ~Elmo della Protezione~
+@148  = ~Questa classe di elmi a viso aperto, fatti di cuoio rinforzato o di metallo, copre quasi tutta la testa, eccetto il volto e il collo. Gli elmi di questo tipo in genere proteggono il naso.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: Nessuno
+Speciale: Protegge da colpi critici
+Peso: 2~
+@149  = ~Questa classe di elmi a viso aperto, fatti di cuoio rinforzato o di metallo, copre quasi tutta la testa, eccetto il volto e il collo. Gli elmi di questo tipo in genere proteggono il naso.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: +2
+Speciale: Protegge da colpi critici
+25% di Resistenza al Fuoco
+Peso: 2~
+@150  = ~Elmo Elfico della Difesa~
+@151  = ~Elmo Elfico della Difesa:
+Tipico elmo indossato dall'élite guerriera elfica.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: +1
+Tiri Salvezza: +1 bonus
+Resistenza elettrica:  +20%
+Resistenza al freddo: +20%
+Resistenza al fuoco: +20%
+Speciale: Protegge contro i colpi critici
+Peso: 3~
+@152  = ~Cappello~
+@153  = ~Cappello del Bardo~
+@154  = ~Il cappello di feltro è il favorito di bardi e ladri, anche se offre poco in termini di protezione.
+
+STATISTICHE:
+
+Peso: 2~
+@155  = ~Il cappello di feltro è il favorito dei bardi. Questo cappello è stato incantato per aiutare il bardo nei suoi incantesimi e nella sua conoscenza. 
+
+STATISTICHE:
+
+Bonus di Classe Armatura: +2
+Speciale:  
+ 20% bonus alla conoscenza
+ +2 incantesimi di livello uno e due
+ +1 ai Tiri Salvezza
+Protegge contro i colpi critici
+ 
+Peso: 2~
+@156  = ~La Corona di Durlag~
+@157  = ~Questa classe di elmi a viso aperto, fatti di cuoio rinforzato o di metallo, copre quasi tutta la testa, eccetto il volto e il collo. Gli elmi di questo tipo in genere proteggono il naso.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: Nessuno
+Speciale: Protegge contro i colpi critici
+Peso: 2~
+@158  = ~Questa corona apparteneva al clan di Durlag. Durlag non ha mai indossato la sua corona di famiglia perché la maggior parte del suo tempo lo spese da avventuriero. Anche quando "si ritirò", egli continuò a non indossarla perché non credeva nel titolo regale, ma voleva vivere come un nano comune.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: +2
+Speciale: +1 ai Tiri Salvezza
+Speciale: Protegge contro i colpi critici
+Peso: 2~
+@159  = ~Elmo della Morte~
+@160  = ~Questa classe di elmi a viso aperto, fatti di cuoio rinforzato o di metallo, copre quasi tutta la testa, eccetto il volto e il collo. Gli elmi di questo tipo in genere proteggono il naso.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: Nessuno
+Speciale: Protegge contro i colpi critici
+Peso: 2~
+@161  = ~Questo elmo è il teschio di un grande combattente di oltre mille anni fa. Il suo nome è sconosciuto dato che i documenti furono distrutti ma il teschio contenute poteri mistici. Ø stata trasformata in un Elmo da molti fabbri nani che hanno attaccato le punte e l'hanno resa un elmo. Permette di animare i morti e dà un bonus di classe armatura.
+
+Bonus di Classe Armatura: 2
+Speciale: Protegge contro i colpi critici, può lanciare Animare morti
+Peso: 2~
+@162  = ~Elmo delle Fiamme~
+@163  = ~Elmo delle Fiamme “L'Elmo di Emberwilde”.
+Questo è l'elmo della Guardia Fenice Emberwilde. Una volta divenuto comandante della guardia abbandonò la sua posizione quando fu sedotto dal richiamo della ricchezza e della fama.
+
+STATISTICHE:
+
+Classe Armatura: +1 bonus
+Costituzione: +2 bonus
+Speciale: Protegge contro i colpi critici
+Peso: 2~
+@164  = ~Elmo del Drago Rosso~
+@165  = ~Elmo del Drago Rosso.
+Un gruppo scelto di Ranger Chimera, i Drago Rosso, incutevano timore nel cuore dei più feroci guerrieri. La loro armatura rossa e il loro elmo con la finitura d'oro erano conosciuti in tutti i Reami. A dispetto di questa armatura elaborata, riuscivano in qualche modo a scomparire a loro volontà.
+
+STATISTICHE:
+
+Classe Armatura: +2 bonus
+Speciale: Protegge contro i colpi critici
+Speciale: Protegge contro i colpi gli Attacchi Mentali
+Peso: 2~
+@166  = ~Scudo grande~
+@167  = ~Scudo +3~
+@168  = ~Un ampio scudo intarsiato con un grifone dorato, noto anche come lo scudo aquilone o torre. Si tratta di un enorme scudo di metallo, che arriva più o meno fino al mento di chi lo usa. Va legato saldamente all'avambraccio e impugnato vigorosamente con la mano senza mai allentare. Ciò ovviamente impedisce di usare la mano per altri movimenti oltre a sorreggere lo scudo. Strano ma vero, nonostante le sue dimensioni questo scudo è molto leggero.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 1
+Speciale: +1 contro Armi da lancio
+Peso: 15~
+@169  = ~Lo scudo grande, conosciuto anche come aquilone o scudo torre, è un enorme scudo di metallo o di legno alto circa dai piedi al mento di chi lo usa. Deve essere legato saldamente all'avambraccio e la mano che lo impugna deve tenerlo strettamente per tutto il tempo. Questo ovviamente preclude l'utilizzo di tale mano per qualcosa di diverso dal mantenere lo scudo grande al suo posto.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 3
+Speciale: +3 contro armi da lancio
+Peso: 15~
+@170  = ~Scudo piccolo~
+@171  = ~Scudo piccolo +5 "Divinità"~
+@172  = ~Uno scudo piccolo è generalmente rotondo e si porta sull'avambraccio, impugnato dalla mano che lo sostiene. Il peso ridotto rispetto a quello di uno scudo medio consente a chi lo usa di tenere in mano anche altri oggetti, ma non di brandire o portare altre armi.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 1
+Speciale: Nessuna protezione dai proiettili
+Peso: 3~
+@173  = ~Scudo piccolo +5 "Divinità":
+Una strana luce sprigiona da questo scudo che non può essere altro che divina. Le creature malvagie non possono nemmeno raccoglierla indipendentemente da quanto sono potenti.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 6
+Speciale: Nessuna protezione dai proiettili
+Peso: 3~
+@174  = ~Protezione dal Male~
+@175  = ~Scudo medio~
+@176  = ~Scudo di Balduran~
+@177  = ~Uno scudo medio si porta come uno scudo piccolo, tuttavia, al contrario di quanto avviene con lo scudo piccolo, il suo peso non consente al personaggio di utilizzare la mano che lo sostiene per nessun altro scopo. Gli scudi medi sono in genere fatti di metallo, il loro diametro va da 90 a 120 cm e possono avere qualsiasi forma, dalla rotonda alla quadrata, a quella delle ali spiegate di un drago. Un tipico scudo medievale ricorda un triangolo con uno dei vertici rivolto verso il basso.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 1
+Peso: 7~
+@178  = ~Scudo di Balduran +3
+Questo scudo era indossato dal famoso eroe Balduran. Ø parte di un gruppo di armi e armatura che venne rubato dal museo nella città di Baldur's Gate.
+
+STATISTICHE:
+
+Abilità durante l'uso:
+ +1 alla Forza
+Bonus di Classe Armatura: 4
+Peso: 5
+Richiede: Forza 12~
+@179  = ~Scudo di Durlag +2~
+@180  = ~Questo era lo scudo personale di Durlag che usò per uccidere i draghi, con le sue proprietà magiche lo aiutò a compiere questa impresa.
+
+STATISTICHE:
+
+Speciale:  
++1 contro armi da lancio
++20% di Resistenza al Fuoco
+Bonus di Classe Armatura: 3
+Peso: 4~
+@181  = ~Scudo di Fuoco +2~
+@182  = ~Questo scudo fu commissionato ai migliori fabbri nani da Emberwilde, un rinomato comandante della guardia Fenice che era conosciuto per il suo indiscutibile coraggio. Si ritiene che la più grande perdita la guardia  l'ha sofferta  quando Emberwilde li lasciò alla ricerca della grande ricchezza. L'artigianato superiore è evidente nel modo in cui quasi si sposta di suo di fronte ai proiettili.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 3
+Speciale: +5 contro le armi da lancio
+Peso: 4~
+@183  = ~Freccia~
+@184  = ~Freccia di uccisione "Rovina della Natura”~
+@185  = ~Le frecce da tiro, come dice il nome, sono state progettate per la distanza. Sono frecce leggere e vengono spesso usate per cacciare. Queste frecce sono in genere di frassino o betulla e lunghe da 75 cm a 1 m.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Proiettile (perforazione)
+Peso: 0
+Dispositivo: Arco~
+@186  = ~Questa freccia è nera, storta e ha un che di diabolico, come se posseduta da qualcosa di molto più grande di lei. Ø stata creata specificatamente per uccidere un solo e unico tipo di creatura. In questo caso gli esseri sfortunati sono gli amanti della natura; Druidi e Ranger.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Armi proiettili (perforazione)
+Speciale: Uccide  Druidi e Ranger
+Peso: 0
+Dispositivo: Arco~
+@187  = ~Freccia~
+@188  = ~Frecce di Congelamento~
+@189  = ~La freccia di ghiaccio ha proprietà magiche tali da trasformarla in una palla di ghiaccio e di freddo roteante. All'impatto, il corpo della vittima è percorso da un'onda di freddo che ne brucerà e intorpidirà le membra. Questo freddo estremo colpisce il sistema nervoso e blocca la vittima.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Armi proiettili (perforazione)
+Speciale: 1D6 di danni di freddo (nessun tiro-salvezza)
+ Gela (Blocca) le persone per 6 round senza tiro salvezza
+Peso: 0
+Dispositivo: Arco~
+@190  = ~Accetta~
+@191  = ~Accetta +3~
+@192  = ~L'accetta è conosciuta anche con il nome di scure. La lama dell'accetta è molto affilata controbilanciata da un gancio appuntito. L'impugnatura è corta e termina con una punta e talvolta in cima c'è anche una sorta di spunzone.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di Danno: Arma da lancio (perforazione)
+Peso: 5
+Fattore Velocità: 4
+Tipo di competenza: Ascia
+Tipo: A 1 mano~
+@193  = ~Questa accetta non è stata solo bilanciata per essere utilizzata come arma da lancio, ma è anche stata sottoposta a notevoli potenziamenti magici. Per questo motivo, provoca più danni ed è più precisa di tutte le armi non magiche dello stesso genere. 
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3
+Tipo di danno (ravvicinato): taglio
+Tipo di danno (gettato): Arma da lancio (perforazione)
+Speciale: Torna in mano dopo il lancio
+Peso: 3
+Fattore Velocità: 2
+Tipo di competenza: Accetta
+Tipo: A 1 mano~
+@194  = ~Alabarda~
+@195  = ~Ascia da battaglia a due mani +2~
+@196  = ~L'alabarda, di sicuro l'arma lunga più antica e maggiormente usata, è costituita da una lama simile a quella di una mannaia montata su un'asta lunga circa 1,8 m. La lama dell'accetta è bilanciata sul retro con una patta ed è sormontata da un chiodo aguzzo, solitamente di forma quadrangolare. La patta è talvolta sostituita da un gancio usato per disarcionare la cavalleria. L'alabarda può essere meglio descritta come un incrocio tra una lancia ed un'accetta.
+
+STATISTICHE:
+
+Danno: 1D10
+Tipo di Danno:  perforazione
+Peso: 15
+Fattore Velocità: 9
+Tipo di competenza: Lancia
+Tipo: A 2 mani~
+@197  = ~La versione più comune della doppia ascia da battaglia è un'asta robusta lunga circa 1,80 m con una lama imbutiforme affilata applicata su una delle due estremità.   
+
+STATISTICHE:
+
+Speciale: +2 di Danno da Fuoco
+Danno: 1D8 +2
+THAC0: +2
+Tipo di Danno: da Taglio
+Peso: 11
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: A 2 mani~
+@198  = ~L'alabarda, di sicuro l'arma lunga più antica e maggiormente usata, è costituita da una lama simile a quella di una mannaia montata su un'asta lunga circa 1,8 m. La lama dell'accetta è bilanciata sul retro con una patta ed è sormontata da un chiodo aguzzo, solitamente di forma quadrangolare. La patta è talvolta sostituita da un gancio usato per disarcionare la cavalleria. L'alabarda può essere meglio descritta come un incrocio tra una lancia ed un'accetta.  
+
+STATISTICHE:
+
+Danno: 1D10
+Tipo di Danno: perforazione
+Peso: 15
+Fattore Velocità: 9
+Tipo di competenza: Lancia
+Tipo: A 2 mani~
+@199  = ~La versione più comune dell'ascia da battaglia è un'asta robusta lunga circa 1,20 m con una lama imbutiforme affilata da una sola parte applicata su una delle due estremità.
+
+STATISTICHE:
+
+Speciale: +2 di Danno da Freddo
+Danno: 1D8 +2
+THAC0: +2
+Tipo di Danno: da Taglio
+Peso: 11
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: A 2 mani~
+@200  = ~Ascia da battaglia~
+@201  = ~Ascia da battaglia +3 "Il Decapitatore"~
+@202  = ~La versione più comune dell'ascia da battaglia è un grosso bastone lungo circa 1,20 m con una lama affilata da una parte montata su un lato. Le asce da battaglia vengono chiamate anche asce larghe.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 7
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: A 1 mano~
+@203  = ~Questa era Redrum l'ascia preferita da Bane nel suo arsenale. Il Berserker pazzo la usò in molte battaglie e uccise molti nemici con quest'ascia. Si dice che potesse fare a pezzi a distanza i nemici anche molto tempo dopo la morte. Il suo sanguinoso modo di fare col tempo gli portò guai. Il signore locale circondò la sua proprietà e la pose d'assedio quando lui si rifiutò di arrendersi dopo che fu giudicato colpevole di aver ucciso i bambini del villaggio.
+
+STATISTICHE:
+
+Abilità di combattimento:
+  5% di possibilità di uccidere istantaneamente un avversario per decapitazione con ogni attacco andato a segno
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Tipo di Danno: da Taglio
+Peso: 5
+Fattore Velocità: 5
+Tipo di competenza: Ascia
+Tipo: A 1 mano~
+@204  = ~Ascia da battaglia +3, Spaccaghiaccio~
+@205  = ~La versione più comune dell'ascia da battaglia è un'asta robusta lunga circa 1,20 m con una lama imbutiforme affilata da una sola parte applicata su una delle due estremità. Le asce da battaglia vengono anche chiamate asce larghe.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: da Taglio
+Peso: 7
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: A 1 Mano~
+@206  = ~Ascia da Battaglia +3, Spaccaghiaccio
+Questa era l'ascia di Illgarth, un Gigante dei Ghiacci che molto tempo fa terrorizzava le comunità del nord. Non si sa dove si procurò l'arma, ma traeva un perverso piacere nello scatenarla sulla gente piccola, specialmente gli halfling. Il ghiaccio ed acido li mutilavano senza ucciderli, ed il gigante rideva freddamente quando riconosceva il lavoretto di una precedente visita. Alla fine un gruppo riuscì ad ucciderlo, e Spaccaghiaccio fu seppellita con lui su richiesta delle sue vittime.
+
+STATISTICHE:
+
+Abilità di combattimento: 
+ + 1 punto di danno da freddo al bersaglio
+ + 1 punto di danno da acido al bersaglio
+THAC0: +3 bonus 
+Danno: 1D8 +3
+Tipo di Danno: da Taglio
+Peso: 7
+Fattore Velocità: 4
+Tipo di competenza: Ascia
+Tipo: A 1 Mano
+Richiede: Forza 10~
+@207  = ~Mazza~
+@208  = ~Mazza +2~
+@209  = ~La mazza è un diretto discendente della clava, non essendo altro che una sbarra di legno sulla cui estremità è montata una punta di pietra o ferro. La forma della punta varia: alcune sono appuntite, altre stondate e altre ancora provviste di punte piramidale.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di Danno: Schiacciamento
+Peso: 8
+Fattore Velocità: 7
+Tipo di competenza: Armi contundenti
+Tipo: A 1 Mano~
+@210  = ~La mazza è un diretto discendente della clava, non essendo altro che una sbarra di legno sulla cui estremità è montata una punta di pietra o ferro. La forma della punta varia: alcune sono appuntite, altre stondate e altre ancora provviste di punte piramidale.
+
+STATISTICHE:
+
+Danno: 1D6 +2
+THAC0: +2
+Tipo di danno: Schiacciamento
+Peso: 8
+Fattore-velocità: 6
+Tipo di competenza: Armi contundenti~
+@211  = ~Morning Star~
+@212  = ~Morning Star +3~
+@213  = ~La morning star è una lancia di legno che termina con una punta di metallo realizzata con una guaina di ferro chiodata. La lunghezza totale della morning star è di circa 1,2 m. Alcune di queste armi hanno punta rotonda, ovale o cilindrica coperta di chiodi. Dalla maggior parte delle punte di morning star si estende una lunga punta per trafiggere, indipendentemente dal modello dell'arma.
+
+STATISTICHE:
+
+Danni: 2D4
+Tipo di danno: Schiacciamento
+Peso: 12
+Fattore-velocità: 7
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@214  = ~La morning star è una lancia di legno che termina con una punta di metallo realizzata con una guaina di ferro chiodata. La lunghezza totale della morning star è di circa 1,2 m. Alcune di queste armi hanno punta rotonda, ovale o cilindrica coperta di chiodi. Dalla maggior parte delle punte di morning star si estende una lunga punta per trafiggere, indipendentemente dal modello dell'arma.
+
+STATISTICHE:
+
+Danni: 2D4 +3
+THAC0 +3
+Tipo di danno: Schiacciamento
+Peso: 12
+Fattore-velocità: 7
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@215  = ~Mazzafrusto +3 La Morte Rossa~
+@216  = ~Incisa sulla testa del flagello si dice: "La Morte Rossa domina su tutto". 
+
+STATISTICHE:
+
+Arma Vorpal?
+THAC0 +3
+Danno: 1D6 +3
+Tipo di Danno: Schiacciamento
+Peso: 15
+Fattore Velocità: 7
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@217  = ~Clava~
+@218  = ~Edera Velenosa +2~
+@219  = ~Le clave sono in genere bastoni di legno stretti all'impugnatura e più larghi all'altra estremità. Queste armi dalla struttura molto semplice sono state tra le prime utilizzate dagli uomini. E facile trovare un buon pezzo di legno con cui colpire ed è per questo che la clava si è diffusa molto.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di danno: Schiacciamento
+Peso: 3
+Fattore-velocità: 4
+Tipo di competenza: Armi contundenti~
+@220  = ~Edera Velenosa +2 
+Quest'arma micidiale è stata progettata dai Druidi Tenebrosi per aiutarli nella loro protezione delle foreste e delle sue creature. Con ogni colpo le viti di questa clava si avvolgeranno intorno al bersaglio e faranno danni da veleno.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1D6 +2
+Speciale: 
+ Il bersaglio colpito da Edera Velenosa riceve 1 danno da veleno per 8 secondi
+Tipo di Danno: Schiacciamento
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Armi Contundenti
+Tipo: A 1 mano~
+@221  = ~Mazzafrusto~
+@222  = ~Mazzafrusto +3 "Paura"~
+@223  = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. L'arma deriva da uno strumento usato originariamente per trebbiare il grano.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di danno: Schiacciamento
+Peso: 15
+Fattore-velocità: 7
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@224  = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. L'arma deriva da uno strumento usato originariamente per trebbiare il grano.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+THAC0: +2
+Speciale: +3 danno da perforazione
+50% di possibilità di causare Paura ad ogni colpo
+Tipo di danno: Schiacciamento
+Peso: 11
+Fattore-velocità: 5
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@225  = ~Sacro Mazzafrusto del Sole~
+@226  = ~Il mazzafrusto è composto da una solida impugnatura di legno collegata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. L'arma deriva da uno strumento usato originariamente per trebbiare il grano.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di danno: Schiacciamento
+Peso: 15
+Fattore-velocità: 7
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@227  = ~Questo mazzafrusto è stato consacrato dal tempio del sole, possiede poteri magici, e può essere utilizzato solo da coloro che seguono il sentiero della luce.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3
+Saggezza: bonus +1 
+Speciale: Aumenta gli Attacchi
+Speciale: 2D3 di Danni da Fuoco
+Tipo di Danno: Schiacciamento
+Peso: 8
+Fattore Velocità: 3
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@228  = ~Martello Incandescente~
+@229  = ~Martello da Guerra +3 "Il Fato di Asgrim"~
+@230  = ~Di evidente natura magica a causa del peculiare bagliore blu.
+
+STATISTICHE:
+
+Sconosciute~
+@231  = ~Questo è il leggendario martello da guerra che Asgrim il Grande utilizzò per combattere l'orda drow dalla sua patria. Molti Drow furono uccisi quel giorno da Asgrim e dal suo fidato martello. Anche i giganti temevano Asgrim e il suo potente martello. Il suo destino è sconosciuto. L'ultima cosa che si è sentita di lui è che si trovava nella regione della Valle del Vento Gelido per cercare tesori e avventure. 
+
+STATISTICHE:
+
+Danno: 1D4 +3
+THAC0 +3
+2D4 Danni da Freddo
+Tipo di Danno: Schiacciamento
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza: Armi Contundenti
+Tipo: A 1 mano~
+@232  = ~Martello da Guerra~
+@233  = ~Grande Martello da Guerra +3~
+@234  = ~Un massiccio Martello da Guerra poco maneggevole decorato con rune naniche.
+
+STATISTICHE:
+
+Danno: 1D4 +1
+Tipo di Danno: Schiacciamento
+Peso: 8
+Fattore Velocità: 4
+Tipo di competenza: Armi Contundenti
+Tipo: A 1 mano~
+@235  = ~I cavalieri non riescono a utilizzare in modo efficace le armi lunghe quando montano a cavallo, pertanto molte armi sono state modificate con l'adozione di lance più corte che possono essere usate con una sola mano. Le mazze e i mazzafrusti sono due esempi precedenti di questa tendenza, il martello da guerra ne è un altro. Il martello da guerra da cavaliere deriva dal martello di Lucerne. E fatto tutto di acciaio con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo, spesso di forma decorativa. La lancia è lunga circa 45 cm.
+
+STATISTICHE:
+
+Danni: 2D4 +3
+Tipo di danno: Schiacciamento
+Peso: 6
+Fattore-velocità: 4
+Tipo di competenza: Martello da Guerra
+Tipo: A 1 mano
+Richiede: Forza 14~
+@236  = ~ Martello da Guerra +2~
+@237  = ~I cavalieri non riescono a utilizzare in modo efficace le armi lunghe quando montano a cavallo, pertanto molte armi sono state modificate con l'adozione di lance più corte che possono essere usate con una sola mano. Le mazze e i mazzafrusti sono due esempi precedenti di questa tendenza, il martello da guerra ne è un altro. Il martello da guerra da cavaliere deriva dal martello di Lucerne. E fatto tutto di acciaio con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo, spesso di forma decorativa. La lancia è lunga circa 45 cm.
+
+STATISTICHE:
+
+Danni: 1D4 +1
+Tipo di danno: Schiacciamento
+Peso: 6
+Fattore-velocità: 4
+Tipo di competenza: Armi contundenti
+Tipo: A 1 mano~
+@238  = ~ Martello da Guerra +2:  “Morgoth”
+Forgiato dai nani di molto tempo fa, questo martello irradia ancora un calore magico che brucia quando si tocca la testa del martello. Poco altro si sa di questo antico manufatto.
+
+STATISTICHE:
+
+Danno: 1D4 +2  (+1D4 di danni da Fuoco)
+THAC0: +2 bonus
+Tipo di Danno: Schiacciamento
+Peso: 5
+Fattore Velocità: 2
+Tipo di competenza: Armi Contundenti
+Tipo: A 1 mano~
+@239  = ~Bec de Corbyn~
+@240  = ~Bec de Corbyn:  “Becco di Corvo”
+Per secoli l'apparire di un corvo sul campo di battaglia è stato considerato un presagio di sventura. Questo devastante martello è giustamente chiamato; la forma della punta posteriore ricorda il becco, mentre la fronte contorta aiuta a concentrare il colpo sull'armatura di un avversario. La punta superiore a forma di foglia aggiunge un colpo mortale per il repertorio dell'utilizzatore.
+
+STATISTICHE:
+
+Danno: 1D4 +3
+THAC0: 
+   Schiacciamento: +3 bonus
+   Perforazione: +2 bonus
+Tipo di Danno: schiacciamento/perforazione
+Speciale: 
+   Schiacciamento: 25% di possibilità di buttare a terra svenuto l'avversario
+   Perforazione: 5% di possibilità di uccidere con un solo colpo
+Peso: 5
+Fattore Velocità: 
+   Schiacciamento: 2
+   Perforazione: 1
+Tipo di competenza: Armi Contundenti/Spada Piccola
+Tipo: A 1 mano~
+@241  = ~Mjolnir  "Il Distruttore"~
+@242  = ~I cavalieri non riescono a utilizzare in modo efficace le armi lunghe quando montano a cavallo, pertanto molte armi sono state modificate con l'adozione di lance più corte che possono essere usate con una sola mano. Le mazze e i mazzafrusti sono due esempi precedenti di questa tendenza, il martello da guerra ne è un altro. Il martello da guerra da cavaliere deriva dal martello di Lucerne. E fatto tutto di acciaio con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo, spesso di forma decorativa. La lancia è lunga circa 45 cm.
+
+STATISTICHE:
+
+Danni: 1D4 +1
+Tipo di danno: Schiacciamento
+Peso: 6
+Fattore-velocità: 4
+Tipo di competenza: Armi contundenti
+Tipo: A 1 mano~
+@243  = ~Questo è il leggendario martello di Thor, il nordico Dio del tuono. Realizzato dal fabbro nano Eitri al lascito di Loki e presentato agli dei come un dono, Mjolnir possiede grandi poteri. Non può essere mai perso, tornerà alla mano del lanciatore dopo essere stato gettato, non può essere distrutto, ed è stato incantato da Thor stesso con l'abilità di controllare i fulmini.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3
+Tipo di danno (ravvicinato): Schiacciamento
+Tipo di danno (gettato): Schiacciamento
+Speciale: Torna in mano dopo il lancio
+Speciale: Lancia Fulmine illimitatamente
+Speciale: Lancia Invocare il fulmine illimitatamente
+Peso: 3
+Fattore Velocità: 2
+Tipo di competenza: Armi Contundenti
+Tipo: A 1 mano~
+@244  = ~La Stella Luminosa +3~
+@245  = ~Questo mazzafrusto è stato consacrato dal tempio del sole, possiede poteri magici, e può essere utilizzato solo da coloro che seguono il sentiero della luce.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3
+Saggezza: +1 bonus
+Speciale: 2D3 di Danni da Freddo
+Speciale: Aumenta gli Attacchi
+Tipo di Danno: Schiacciamento
+Peso: 8
+Fattore Velocità: 3
+Tipo di competenza: Armi Chiodate
+Tipo: A 1 mano
+
+Utilizzabile da:
+ Chierico
+ Paladino~
+@246  = ~Mazza +2 “Fanciulla Urlante”~
+@247  = ~Mazza +2: “Fanciulla Urlante”
+La testa di ossidiana di questa mazza è quella di una bella e giovane ragazza. Quando viene usata in combattimento il bel viso muta in un volto ghignante con grande bocca zannuta. Questa mazza non è un arma del Piano Materiale, è stato forgiata nell'Abisso. Si tratta di un'arma senziente e comunica attraverso la telepatia cercando di influenzare e orientare chi la impugna sulla strada del caos e della distruzione. La fanciulla è sempre affamata di sangue e cerca di far sì che il suo utilizzatore l'aiuti a soddisfare quella fame. Un utilizzatore dalla volontà debole cadrà sotto il controllo della Fanciulla Urlante. Quando la mazza ferisce una vittima beve profondamente ed usa un po' di sangue per curare il suo utilizzatore.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +2
+Tipo di Danno: Schiacciamento
+Peso: 7
+Fattore Velocità: 5
+Tipo di competenza: Armi contundenti
+Tipo: A 1 mano
+Speciale: La mazza ha un effetto vampirico che guarisce il portatore e innalza temporaneamente i punti ferita massimi, i punti ferita oltre il massimo effettivo si perdono dopo il combattimento.
+Ogni volta che la mazza va a segno il portatore deve effettuare un tiro salvezza contro incantesimi o andare in furia berserk attaccando qualsiasi cosa nelle vicinanze, compresi gli amici.~
+@248  = ~Arco lungo~
+@249  = ~Arco dei Dardi Incantati di Blackstaff~
+@250  = ~L'arco lungo è simile a quello corto, ma il sostegno è alto quasi quanto l'arciere, di solito da 1,8 a 2 m. Presenta due vantaggi rispetto all'arco corto: migliore gittata e maggiore precisione.
+
+STATISTICHE:
+
+Danno:  
+THAC0: +1
+Peso: 3
+Fattore Velocità: 7
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@251  = ~Si dice che questo arco sia stato fatto da Khelban Backstaff e che gli sia stato rubato. Beh chi l'ha fatto doveva essere comunque un mago in quanto c'è un incantamento di Dardi Incantati su di esso.
+
+STATISTICHE:
+
+Speciale: Spara 5 Dardi Incantati. Le munizioni non sono necessarie.
+
+THAC0 +3
+Danno: 1D6 +3
+Peso: 2
+Fattore Velocità: 6
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@252  = ~Arco lungo del Ranger +3~
+@253  = ~Il dono di Mielikki è stato dato ad un ranger di Rashaman chiamato Doran. Doran era famoso per aver abbattuto un gran numero di nemici con questo arco. 
+
+STATISTICHE:
+
+Speciale: +1 alla Destrezza
+THAC0: +3
+Danno: +2
+Peso: 2
+Fattore Velocità: 5
+Tipo di competenza: Archi
+Tipo: A 2 mani
+
+Utilizzabile da:
+ Ranger~
+@254  = ~Arco corto~
+@255  = ~Arco corto "Il Gelido Nord"~
+@256  = ~Gli archi corti furono i primi ad apparire, anche se non con questo nome. Più che altro questo è un termine generico che si riferisce a ogni arma di questo tipo che non è un arco lungo. Le aste degli archi corti hanno lunghezza media di 1,5 m. Con il trascorrere degli anni si è cercato di aumentare la gittata degli archi costruendoli con aste più lunghe, oppure con maggiore flessibilità senza modificarne la lunghezza giungendo, nel primo caso, alla creazione dell'arco lungo.  
+
+STATISTICHE:
+
+Danni: 
+Peso: 2
+Fattore-velocità: 6
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@257  = ~ Arco corto "Il Gelido Nord":
+Questo è un arco raro, di 3 soli si conosce l'esistenza. Sono stati fatti da un sacerdote di Auril nella regione della Valle del Vento Gelido. Uno è stata preso da Auril stessa e l'altro è stato perso in qualche parte del ghiacciaio Mestogelo.
+
+STATISTICHE:
+
+Danno: 1d4 +2
+THAC0: +3 bonus
+Speciale: +1D6 di Danni da Freddo e gela (blocca) per 60 secondi, senza tiri salvezza.
+Peso: 2
+Fattore Velocità: 4
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@258  = ~Arco corto “Tormenta di Neve”~
+@259  = ~Gli archi corti furono i primi ad apparire, anche se non con questo nome. Più che altro questo è un termine generico che si riferisce a ogni arma di questo tipo che non è un arco lungo. Le aste degli archi corti hanno lunghezza media di 1,5 m. Con il trascorrere degli anni si è cercato di aumentare la gittata degli archi costruendoli con aste più lunghe, oppure con maggiore flessibilità senza modificarne la lunghezza giungendo, nel primo caso, alla creazione dell'arco lungo.  
+
+STATISTICHE:
+
+Danni: 
+Peso: 2
+Fattore-velocità: 6
+Tipo di competenza: Archi~
+@260  = ~Arco corto, Arco freddo: “Tormenta di Neve”
+Degli umani che crearono per un breve periodo un avamposto nella Foresta Congelata portarono alla luce quest'arma e molte altre dalle rovine di un antico insediamento nel cuore di quella terra fredda. Senza mai conoscere il nome degli scomparsi benefattori, i coloni utilizzarono questi "strumenti" per disboscare un vasto territorio, anche se alla fine i loro sforzi non valsero a molto. Sopraffatti da un gruppo più numeroso di hobgoblin, queste povere anime scomparvero nell'oblio come i loro antenati. L'utilizzatore deve superare un tiro salvezza contro morte a +5 o subire la stessa sorte del suo nemico.
+
+STATISTICHE:
+
+Danno: 1d4 +1,
+1D4 Danni da Freddo
+THAC0: +3 bonus
+Speciale: +1D6 di Danni da Freddo e gela (blocca) per 60 secondi, senza tiri salvezza.
+Peso: 2
+Fattore Velocità: 4
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@261  = ~Arco Lungo di O'Locksley~
+@262  = ~L'arco lungo è simile a quello corto, ma il sostegno è alto quasi quanto l'arciere, di solito da 1,8 a 2 m. Ha gittata migliore rispetto all'arco corto, ma fattore-fuoco inferiore.
+
+STATISTICHE:
+
+Danno:
+THAC0: +1
+Peso: 3
+Fattore-velocità: 7
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@263  = ~Il famoso arciere fuorilegge O'Locksley costruì quest'arco con l'aiuto di un mago amichevole per aiutarlo nella sua missione di liberare il paese dal  crudele e oppressivo padrone che teneva i contadini in una stretta morsa di paura morsa di ferro della paura. Non una piccola parte della sua fama come arciere senza pari è dovuta ai poteri del suo meraviglioso arco. Dopo la sua tragica morte, l'Arco di O'Locksley passò a suo nipote: Jaen di Southerton. Jaen utilizzò l'arco per due decenni continuando a combattere l'ingiustizia e il male nel paese. Egli lo affidò ad un elfo amico prima di partire per una missione segreta da cui non fece più ritorno. L'Elfo diede l'arco alla sua regina, e da allora si è tramandato tra i reali della corte degli Elfi. Diverse volte è andato perduto, ma è sempre stato recuperato grazie all'impegno nelle ricerche degli elfi. Ø stato usato l'ultima volta in una incursione nella Tana del Re Goblin. Sia Treestalker che l'arco furono perduti dopo l'incursione, e gli elfi sono sempre alla ricerca di entrambi.
+
+L'arco è di qualità eccezionale, è fatto di antico tasso che alcuni dicono provenga dal grande Albero del Mondo, Yaggissdril. L'arco magico è di un tipo che non ha mai bisogno di essere tarato o stretto, anche dopo essersi bagnato. Il tiro dell'arco è pulito cosicché l'estrema accuratezza è la velocità sono facilmente ottenibili.
+
+STATISTICHE:
+
+THAC0: +3
+Danno: +2 
+Peso: 2
+Fattore Velocità: 5
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@264  = ~Balestra leggera~
+@265  = ~Balestra leggera +3 “Aculeo dello Scorpione”~
+@266  = ~La balestra è un arco montato trasversalmente su un fusto in legno o metallo e in quest'ultimo caso viene chiamata tiller. L'arco è di solito in legno di frassino o di tasso. La balestra lancia un quadrello (detto anche dardo).
+
+STATISTICHE:
+
+Peso: 7
+Fattore Velocità: 5
+Tipo di competenza: Armi a Proiettili
+Tipo: A 2 mani~
+@267  = ~Questa balestra è stata realizzata da Erreth-Akbe per la loro lunga guerra combattuta contro i negromanti. La balestra è stata incantata con la capacità di formare quadrelli velenosi quando viene rivolta verso un bersaglio. Una volta costruita i druidi si resero conto che era un'arma troppo caotica per loro per consentire il suo utilizzo e fu sepolta sotto il tempio per non essere mai più vista.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3 bonus
+Danno: (proiettile)
+Danno da Veleno: 18 punti per round
+ Fino ad un totale di 45 punti di danno
+Speciale: Non richiede quadrelli
+Peso: 6
+Fattore Velocità: 1
+Tipo di competenza: Armi a Proiettili
+Tipo: A 2 mani~
+@268  = ~Arco Lungo Composito~
+@269  = ~Ullyses~
+@270  = ~Gli archi compositi sono archi lunghi o corti fatti di listelli di più tipi di materiale. Questo conferisce loro più elasticità e pertanto una migliore gittata. Gli archi compositi sono un'evoluzione di quelli lunghi normali.
+
+STATISTICHE:
+
+Danno: +2
+THAC0: +1
+Peso: 10
+Fattore Velocità: 7
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@271  = ~Il sogno degli arcieri. Ullyses non richiede frecce, spara dardi di ghiaccio che si formano quando la corda viene tirata indietro. Le sue origini sono sconosciute ma lo stile suggerisce che sia di fattura Elfica.
+
+STATISTICHE:
+
+THAC0: +2
+Danno: 1D6 +2
+Peso: 9
+Speciale: Aumenta la velocità alle armi
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@272  = ~ Balestra leggera +3 “Dente di Fuoco”~
+@273  = ~La balestra è un arco montato trasversalmente su un fusto in legno o metallo e in quest'ultimo caso viene chiamata tiller. L'arco è di solito in legno di frassino o di tasso. La balestra lancia un quadrello (detto anche dardo).
+
+STATISTICHE:
+
+Peso: 7
+Fattore Velocità: 5
+Tipo di competenza: Armi a Proiettili
+Tipo: A 2 mani~
+@274  = ~La corda magica dell'Arco di Gond  ha reso i quadrelli incantati della balestra del Dente di Fuoco ancora più precisi e potenti. Dente di Fuoco sparerà solo questi Dardi incantati. Dente di Fuoco non ha bisogno di munizioni.
+
+STATISTICHE:
+
+THAC0: +3 bonus
+Danno: 1D6 +3
++2 di Danno da Fuoco
+Peso: 5
+Fattore Velocità: 1
+Tipo di competenza: Balestra
+Tipo: A 2 mani~
+@275  = ~Proiettile~
+@276  = ~Proiettile +1~
+@277  = ~Un proiettile è semplicemente una pietra rotonda ben bilanciata. 
+
+STATISTICHE:
+
+Danno: 1D4 +1
+Tipo di Danno: Proiettili (perforazione)
+Peso: 0
+Dispositivo: Fionda~
+@278  = ~In questo proiettile sono incorporate correnti magiche, di conseguenza sembra un po' più bilanciato e leggero quando scagliato contro un avversario.
+
+STATISTICHE:
+
+Danno: 1D4 +2
+THAC0: +1
+Tipo di Danno: Proiettili (perforazione)
+Peso: 0
+Dispositivo: Fionda~
+@279  = ~Proiettile di detonazione~
+@280  = ~Un proiettile è semplicemente una pietra rotonda ben bilanciata. 
+
+STATISTICHE:
+
+Danno: 1D4 +1
+Tipo di Danno: Proiettili (perforazione)
+Peso: 0
+Dispositivo: Fionda~
+@281  = ~Questo proiettile ha un effetto particolarmente debilitante sulla vittima poiché all'impatto esplode in un enorme palla di fuoco e schegge che investe tutto ciò che si trova nell'aerea.
+
+STATISTICHE:
+
+Danno: 1D4 +1
+Tipo di Danno: Proiettili (perforazione)
+Speciale: 6D6 di esplosione all'impatto (metà danni se si è protetti da salva contro incantesimi)
+Peso: 0
+Dispositivo: Fionda~
+@282  = ~Proiettili di Fuoco~
+@283  = ~In questi proiettili sono presenti forti energie magiche che li rendono più bilanciati e leggeri quando vengono scagliati contro un avversario. Durante il processo di incantamento sono stati collocati in un fuoco ardente.
+
+STATISTICHE:
+
+Danno: 1D4 +3
+THAC0: +2
+Speciale: 1D6 Danni da Fuoco
+Tipo di Danno: Proiettili (perforazione)
+Peso: 0
+Dispositivo: Fionda~
+@284  = ~Proiettili di Ghiaccio~
+@285  = ~In questi proiettili sono presenti forti energie magiche che li rendono più bilanciati e leggeri quando vengono scagliati contro un avversario.
+
+STATISTICHE:
+
+Danno: 1D4 +2
+THAC0: +1
+Speciale: 1D6 Danni da Freddo
+Tipo di Danno: Proiettili (perforazione)
+Peso: 0
+Dispositivo: Fionda~
+@286  = ~Pugnale~
+@287  = ~Pugnale +2 "Morso del Nord"~
+@288  = ~Il pugnale tipico presenta una lama appuntita generalmente a doppio taglio, al contrario del coltello che presenta una lama non a doppio taglio e che è leggermente più corto del pugnale.
+
+STATISTICHE:
+
+Danno: 1D4
+Tipo di Danno: Perforazione
+Peso: 1
+Fattore Velocità: 2 
+Tipo di competenza: Spada Piccola
+Tipo:  A 1 mano~
+@289  = ~Pugnale +2 "Morso del Nord"
+Il pugnale tipico presenta una lama appuntita generalmente a doppio taglio, al contrario del coltello che presenta una lama non a doppio taglio e che è leggermente più corto del pugnale. Questo pugnale proviene da Neverwinter da un fabbro nano. Ha posto sul pugnale incantesimi per fare danni da freddo. 
+
+STATISTICHE:
+
+Danno: 1D4 +2
++1D4 Danni da Freddo
+THAC0: +2 bonus
+Peso: 1
+Fattore Velocità: 0
+Speciale: 
+ Dà all'utilizzatore 50% di Resistenza al Freddo 
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@290  = ~Pugnale +3: "Lil Stordente"~
+@291  = ~Il pugnale tipico presenta una lama appuntita generalmente a doppio taglio, al contrario del coltello che presenta una lama non a doppio taglio e che è leggermente più corto del pugnale.
+
+STATISTICHE:
+
+Danno: 1D4
+Tipo di Danno: Perforazione
+Peso: 1
+Fattore Velocità: 2 
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@292  = ~Creato da un fabbro noto come Evets Nitsua, fece questo pugnale per stordire il bersaglio in modo da poterlo tagliare lentamente e farlo sanguinare a morte.   
+
+STATISTICHE: 
+10% di possibilità che il bersaglio rimanga stordito per 30 secondi
+Ravvicinato: 1d4+3
+Lanciato: 1d4 +3  
+THAC0: +3 bonus
+Tipo di Danno: Perforazione 
+Peso: 2 
+Fattore Velocità: 0 
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano
+Ritorna da chi l'ha lanciato~
+@293  = ~Pugnale di Yarash – Pugnale del Ritorno~
+@294  = ~Il Pugnale di Yarash: Pugnale del Ritorno è stato realizzato da Yarash lo Stregone come pagamento ad un gruppo di avventurieri per i servizi resi. Molti credono che sia molto più il suo insolito peso anziché l'incantamento magico a dare al pugnale il livello elevato di danni.
+
+STATISTICHE:
+
+Danno: 1D4 +3
+THAC0: +2
+Tipo di Danno (ravvicinato e lanciato):  Perforazione
+Speciale: Ritorna nella mano dell'utilizzatore una volta lanciato
+Speciale: Aumenta il numero di Attacchi
+Peso: 3
+Fattore Velocità: 2
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@295  = ~Pugnale della Malattia~
+@296  = ~Il "Pugnale della Malattia" è la potente lama preferita dai sicari in tutto i Reami. Questa particolare arma è malata e dà alla vittima ulteriori danni. Ogni volta che colpisce un avversario secerne un virus nel flusso sanguigno della creatura. Il virus attacca il sistema immunitario abbastanza rapidamente. La sua origine è sconosciuta.
+
+STATISTICHE:
+
+Danno: 1D4 +2
+Numero di Attacchi: 2
+THAC0: +2 bonus
+Danno da Veleno: 6 punti per round
+ Fino ad un totale di 15 punti di danno
+Peso: 2
+Fattore Velocità: 0
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@297  = ~Pugnale +2: “Lo Scuotitore”~
+@298  = ~Il pugnale tipico presenta una lama appuntita generalmente a doppio taglio, al contrario del coltello che presenta una lama non a doppio taglio e che è leggermente più corto del pugnale.
+
+STATISTICHE:
+
+Danno: 1D4
+Tipo di Danno: Perforazione
+Peso: 1
+Fattore Velocità: 2 
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@299  = ~Non ci sono informazioni sul creatore di quest'arma; ciò nonostante, la sua esistenza può essere fatta risalire alle tribù barbare e nomadi delle montagne. La sua lama blu fulmine è stata apparentemente forgiata da metalli arcani e  lampi di luce la scadano, dando all'arma l'aspetto di un fulmine blu.
+
+STATISTICHE:
+
+Danno: 1D4 +2
+THAC0: +2 bonus
+Peso: 1
+Fattore Velocità: 0
+Speciale: 50% di possibilità di fare 2D4 danni da elettricità se non si salva contro bacchette
+Dà all'utilizzatore 50% di Resistenza all'Elettricità
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@300  = ~Pugnale di Ghiaccio~
+@301  = ~Pugnale +2:  “Dente dell'Inverno”
+Non ci sono informazioni sul creatore di quest'arma; ciò nonostante, la sua esistenza può essere fatta risalire alle tribù barbare e nomadi delle montagne. La sua lama azzurro ghiaccio è stata apparentemente forgiata da metalli arcani trovati nel grande nord, dando all'arma l'aspetto del ghiaccio.
+
+STATISTICHE:
+
+Danno: 1D4 +2
+THAC0: +2 bonus
+Peso: 1
+Fattore Velocità: 0
+Speciale: 1D8 di danni da Freddo se non si salva contro incantesimi
+Dà all'utilizzatore 50% di Resistenza al Freddo
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@302  = ~Pugnale da Lancio~
+@303  = ~Pugnale da Lancio +3~
+@304  = ~La lama del pugnale ha una punta acuminata di acciaio, controbilanciata dal manico.
+
+STATISTICHE:
+
+Danno: 1D4
+Tipo di Danno: Proiettili (perforazione)
+Peso: 2
+Fattore Velocità: 4
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@305  = ~Questo pugnale da lancio non solo è stato finemente equilibrato per l'uso come arma da lancio ma è stato anche oggetto di un significativo potenziamento magico. Come risultato, è più dannoso e più accurato di qualsiasi arma non-magica dello stesso tipo. 
+
+STATISTICHE:
+
+Danno: 1D4 +3
+THAC0: +3
+Tipo di Danno (ravvicinato): Perforazione
+Tipo di Danno (lanciato): missile (perforazione)
+Speciale: Ritorna nella mano dell'utilizzatore una volta lanciato
+Peso: 0
+Fattore Velocità: 1
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@306  = ~Lancia~
+@307  = ~Lancia Chimera +3~
+@308  = ~Una delle prime armi usate dall'uomo, che risale ai tempi più primitivi, le prime lance erano semplicemente paletti di legno o bastoni taglienti ad una estremità. Quando l'uomo conobbe il metallo, le punte della lancia furono costruite in ferro ed acciaio. In seguito, gli armaioli iniziarono a sperimentare diversi tipi di punte di lancia, portando così allo sviluppo di alcuni tipi di armi in asta.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Perforazione
+Peso: 5
+Fattore Velocità: 6
+Tipo di competenza: Lancia 
+Tipo: A 2 mani~
+@309  = ~Lancia Chimera +3
+Le armi preferite dai Ranger Elfi della Chimera queste lance sono formate da legno magico con una punta dentata che è rivestita da un veleno letale. La brutalità primitiva dei Chimera in combattimento rivaleggia solo con quella degli Elfi Silvani.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Danno da Veleno: 18 punti per round
+ Fino ad un totale di 27 punti di danno
+Tipo di Danno: Perforazione
+Peso: 5
+Fattore Velocità: 3
+Tipo di competenza: Lancia 
+Tipo: A 2 mani~
+@310  = ~Forca~
+@311  = ~Un'arma seria a dir poco. Forca fu forgiata da Mekorig il Cieco per contribuire a porre fine all'era dei mostri, e promuovere l'era degli uomini. Forca viene spesso perduta per anni solo per venire riscoperta in qualche tesoro di drago da ambiziosi avventurieri. Il potere dell'arma ispira spesso gli avventurieri a muoversi verso un altro tesoro di drago, dove essa viene ancora una volta persa per anni.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+Speciale: Aumenta gli attacchi
+Speciale: +2 bonus alla CA
+Aumenta Danno e THAC0 contro Non morti, Giganti, Mostri, e Demoni
+Tipo di Danno: Perforazione
+Peso: 5
+Fattore Velocità: 1
+Tipo di competenza: Lancia 
+Tipo: A 2 mani~
+@312  = ~Lancia Divina~
+@313  = ~Una delle armi più belle mai create per il sentiero della luce questa lancia riluce della forza del bene che risiede in essa. Utilizzata quasi esclusivamente dalle Sacre Guardie di Sukien, questa è in effetti un tesoro raro e prezioso. I Sommi Sacerdoti di Sukien incantarono ognuna di esse con grande potere contro il male che avrebbe cercato di distruggere il loro sacro tempio.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Speciale: Si ottiene Resistenza alla paura
+Speciale: Aumenta la THAC0 e il Danno contro Mostri e Non morti
+Tipo di Danno: Perforazione
+Peso: 5
+Fattore Velocità: 5
+Tipo di competenza: Lancia 
+Tipo: A 2 mani
+
+Utilizzabile da:
+ Paladino~
+@314  = ~Fionda~
+@315  = ~Fionda Elementale "La Fionda dell'Abbondanza”~
+@316  = ~Le fionde vengono utilizzate da tempo immemorabile. La fionda di base è composta da una banda di cuoio o tessuto con una nicchia per ospitare l'oggetto da lanciare. L'arma deve essere tenuta per le due estremità della banda e avvolta sulla testa di chi la sta adoperando. Raggiunta la velocità di rotazione massima, è sufficiente rilasciare una delle estremità della banda per lanciare l'oggetto.
+
+STATISTICHE:
+
+Peso:: 0
+Fattore Velocità: 6
+Tipo di competenza: Armi da lancio
+Tipo: A 1 mano~
+@317  = ~Originariamente creata come arma di addestramento dai maestri della Chiesa del Sole, questo fionda letale ha in qualche modo trovato la sua strada nelle mani dei ladri e dei furfanti per secoli. La fionda stessa crea la pietra da lanciare quando la si gira intorno per richiamare gli elementi su di essa, eliminando così la necessità di trovare munizioni. C'è poco da meravigliarsi che i ladri l'amino così tanto.
+
+STATISTICHE:
+
+Danno: 1D6 +3 (danno da Proiettile)
+THAC0: +2
+Peso: 0
+Fattore Velocità: 1
+Tipo di competenza: Armi da lancio
+Tipo: A 1 mano~
+@318  = ~Bastone dello stregone +4~
+@319  = ~Questo bastone aumenta la capacità del mago di memorizzare altri incantesimi, consente a lui o a lei di lanciare gli incantesimi anche quando sono sotto l'influenza dell'incantesimo Silenzio, e aumenta la velocità con cui il mago può lanciare questi incantesimi. Essa ha anche la capacità di trasformare gli avversari in pietra.  
+
+STATISTICHE:
+
+Danno: 1D8 +2
+THAC0: +3 bonus
+Tipo di Danno: Schiacciamento
+Peso: 4
+Fattore Velocità: 3
+Abilità speciali:
+ Aumenta la velocità di lancio degli incantesimi
+ Raddoppia gli incantesimi dal 1° al 4° livello
+ Vocalizzazione
+ 25% di possibilità di Pietrificare il Nemico ad ogni colpo
+Tipo di competenza: Armi Contundenti
+Tipo:  A 2 mani
+
+Utilizzabile da:
+ Mago~
+@320  = ~Bastone~
+@321  = ~Bastone della Natura~
+@322  = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.  
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@323  = ~Bastone della Natura: “Protettore della Natura”
+Questo bastone è stato utilizzato da una tribù di druidi per molti secoli ormai. Tramandato di capo in capo della tribù di arcidruidi nella terra di Kazgard. Si dice che questo bastone sia stato forgiato dalla natura stessa e che si illumini di verde per mostrare che il bastone emana davvero il potere della natura. Questo bastone è molto potente e i passati proprietari di questo bastone sono stati effettivamente delle persone molto potenti.
+
+STATISTICHE:
+
+THAC0: +3 bonus
+Danno: 2D3 +3
++15 ai punti ferita massimi
+Conoscenza: +20 bonus
+Peso: 2
+Fattore Velocità: 1
+Tipo di Danno: Contundente
+Tipo di competenza: Armi Contundenti
+Tipo: A 1 mano
+
+Utilizzabile da:
+ Druido~
+@324  = ~Bastone Rinforzato~
+@325  = ~Bastone Elementale dell'Aria~
+@326  = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@327  = ~Questo è uno dei quattro bastoni elementali di Chanah'Rea che si pensa siano stati forgiati all'alba dei tempi quando nacque la terra stessa. Questo in particolare è il bastone dell'elemento aria.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3
+Speciale: +1 Bonus alla CA
+Speciale: 1D4 +1 di Danno da Elettricità
+Speciale: Proietta un dardo di elettricità 
+Danno: (Proiettile) Danno da elettricità, dimezzato se si salva contro bacchette
+Tipo di Danno:  Schiacciamento
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@328  = ~Bastone Elementale della Terra~
+@329  = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@330  = ~Questo è uno dei quattro bastoni elementali di Chanah'Rea che si pensa siano stati forgiati all'alba dei tempi quando nacque la terra stessa. Questo in particolare è il bastone dell'elemento terra.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3
+Speciale: +1 Bonus alla CA
+Danno da veleno: 6 punti per round
+ Fino ad un totale di 15 punti di danno
+Speciale: Proietta un dardo di acido 
+Danno: (Proiettile) Danno da acido, dimezzato se si salva contro bacchette
+Tipo di Danno: Schiacciamento
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@331  = ~Bastone Elementale del Fuoco~
+@332  = ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@333  = ~Questo è uno dei quattro bastoni elementali di Chanah'Rea che si pensa siano stati forgiati all'alba dei tempi quando nacque la terra stessa. Questo in particolare è il bastone dell'elemento fuoco.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3
+Speciale: +1 Bonus alla CA
+Speciale: 3D4 +1 di Danno da Fuoco
+Speciale: Proietta un dardo di fuoco 
+Danno: (Proiettile) Danno da Fuoco, dimezzato se si salva contro bacchette
+Tipo di Danno: Schiacciamento
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@334  = ~Bastone Elementale dell'Acqua~
+@335  = ~Questo è uno dei quattro bastoni elementali di Chanah'Rea che si pensa siano stati forgiati all'alba dei tempi quando nacque la terra stessa. Questo in particolare è il bastone dell'elemento acqua.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3
+Speciale: +1 Bonus alla CA
+Speciale: 1D4 +1 di Danno da Freddo
+Speciale: Proietta un dardo di ghiaccio 
+Danno: (Proiettile) Danno da Freddo, dimezzato se si salva contro bacchette
+Tipo di Danno:  Schiacciamento
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Armi Contundenti
+Tipo:  A 2 mani~
+@336  = ~Bastone di Vita~
+@337  = ~Bastone di Vita: 
+Bianco e oro, pulsante di grande potere questo bastone è stato formato alla notte dei tempi da parte del primo raggio di sole che brillava al largo di un corpo d'acqua pura. Offre poco in termini di offesa, questo bastone fornisce a chi lo impugna una potente protezione.
+
+STATISTICHE:
+
+Danno: 2D2 +2
+THAC0: +2
+Classe Armatura: +2 Bonus
+Speciale: Crea Pozioni di guarigione
+Speciale: Protezione dagli incantesimi di 1° livello
+Tipo di Danno: Schiacciamento
+Peso: 3
+Fattore Velocità: 6
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani
+
+Utilizzabile da:
+ Mago (singolo, duale, e multiclasse)
+ Personaggi di Allineamento Buono~
+@338  = ~Spada lunga~
+@339  = ~ Spada lunga “Il Berserker del Nord”~
+@340  = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. In molti casi la spada lunga ha una lama affilata solo da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura e addirittura possono essere diverse anche nell'ambito di una stessa cultura in epoche diverse. Una tra le caratteristiche più comuni delle spade lunghe è, appunto, la loro lunghezza che va dagli 87 ai 117 cm. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è stata pensata per tagliare, non per infilzare.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@341  = ~Dal glaciale freddo della Valle del Vento Gelido, questa spada è stata forgiata dal nano pazzo, Asgrim. La mano che la impugna diventa insensibile e la lama di ghiaccio è fredda al tocco, a prescindere dal caldo che può esserci all'esterno. 
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Tipo di Danno: Taglio
+Speciale:
+    +3 di Danno da Freddo
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@342  = ~Scimitarra~
+@343  = ~Scimitarra +2~
+@344  = ~La scimitarra è molto simile alla sciabola, una spada curva a lama singola con elsa di protezione. La lama ha una curvatura più accentuata e si assottiglia gradatamente fino a formare una punta molto aguzza. Pur avendo origini perlopiù sconosciute, la scimitarra è molto diffusa nelle regioni meridionali dei Reami perduti.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 4
+Tipo di competenza: Spada grande
+Fattore Velocità: 5
+Tipo: A 1 mano~
+@345  = ~Scimitarra +2: 
+La scimitarra è molto simile alla sciabola, una spada curva a lama singola con elsa di protezione. La lama ha una curvatura più accentuata e si assottiglia gradatamente fino a formare una punta molto aguzza. Pur avendo origini perlopiù sconosciute, la scimitarra è molto diffusa nelle regioni meridionali dei Reami perduti.
+
+STATISTICHE:
+
+Danno: 1D8 +2
+ +1D6 di Danno elettrico
+THAC0: +2 bonus
+15% Resistenza al fulmine
+Tipo di Danno: Taglio
+Peso: 4
+Tipo di competenza: Spada grande
+Fattore Velocità:  2
+Tipo: A 1 mano~
+@346  = ~Coltellaccio~
+@347  = ~Coltellaccio +3 “Generosità dei Signori dei Pirati”~
+@348  = ~La lama lunga e ricurva, affilata da una sola parte, caratterizza sia la sciabola che la scimitarra, anche se sono originarie di due parti diverse di Faerun. Il coltellaccio, a causa della sua struttura leggera, è la scelta di molti ladri e briganti.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@349  = ~Coltellaccio +3 “Generosità dei Signori dei Pirati”
+La lama lunga e ricurva, affilata da una sola parte, caratterizza sia la sciabola che la scimitarra, anche se sono originarie di due parti diverse di Faerun. Il coltellaccio, a causa della sua struttura leggera, è la scelta di molti ladri e briganti.
+
+STATISTICHE:
+
+THAC0: +3 bonus
+Danno: 1D6 +3
+Speciale: 1D4 di Danno elettrico
+Tipo di Danno: Taglio
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@350  = ~Spada Lunga +2 “Sezione 1”~
+@351  = ~Le spade Sezione 1 sono le lame migliori là fuori. Vengono utilizzate dalle forze d'élite del gruppo chiamato "La sezione". Anche avere una spada fatta per La sezione potrebbe significare la tua morte.
+
+STATISTICHE:
+
+Danno: 1D10 +2
+THAC0 bonus: +2
+ +2 danno elettrico
+Tipo di Danno: Taglio
+Peso: 7
+Fattore Velocità: 2
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@352  = ~Spada Lunga “Vita”~
+@353  = ~La spada personale di Nikita. Lei ha ucciso a malincuore molti nemici con questa spada finemente lavorata. 
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Tipo di Danno: Taglio
+Speciale:
+    +10 punti ferita quando equipaggiata
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@354  = ~Spada Lunga “Morte”~
+@355  = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. In molti casi la spada lunga ha una lama affilata solo da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura e addirittura possono essere diverse anche nell'ambito di una stessa cultura in epoche diverse. Una tra le caratteristiche più comuni delle spade lunghe è, appunto, la loro lunghezza che va dagli 87 ai 117 cm. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è stata pensata per tagliare, non per infilzare.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@356  = ~La spada personale di Michael. Lui ha ucciso molti nemici con questa spada finemente lavorata.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Tipo di Danno: Taglio
+Speciale:
+    10% di possibilità di morte se fallisce il tiro salvezza
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@357  = ~Coltellaccio +3 "T'sarren"~
+@358  = ~La lama lunga e ricurva, affilata da una sola parte, caratterizza sia la sciabola che la scimitarra, anche se sono originarie di due parti diverse di Faerun. Il coltellaccio, a causa della sua struttura leggera, è la scelta di molti ladri e briganti.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@359  = ~ Coltellaccio +3 "T'sarren":
+Questa è la spada che apparteneva ad una ladra elfica impazzita che diffondeva la distruzione ovunque andava. Di lei non si è sentito nulla da un po', forse è morta considerando che possiedi la sua spada.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3 bonus
+Speciale: 1D3 Danno da Fuoco
+Tipo di Danno: Taglio
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@360  = ~Sciabola~
+@361  = ~Sciabola di Artemis~
+@362  = ~La lama lunga e ricurva, affilata da una sola parte, caratterizza sia la sciabola che la scimitarra, anche se sono originarie di due parti diverse di Faerun. Dove la sciabola è stata intesa principalmente per i cavalieri, principalmente per la sua versatilità, la scimitarra ha subito una pesante influenza orientale.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@363  = ~Sciabola del Ferimento.
+
+STATISTICHE:
+
+THAC0: +1 bonus
+Danno: 1D8 +1
+Speciale: Provoca il danno di 1 PF/round per 8 round
+Tipo di Danno: Taglio
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@364  = ~Spada corta ~
+@365  = ~Lama dell'Assassino~
+@366  = ~La spada corta fu la prima spada prodotta. Per dare un'idea approssimativa della forma, la spada corta può essere assimilata a una sorta di pugnale con lama così lunga da non poter più essere considerata tale. Il termine spada corta non esiste nella classificazione delle spade. Tuttavia, definisce una lama a doppio taglio di circa 60 cm. Solitamente l'estremità è appuntita, l'ideale per trafiggere.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Perforazione
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada piccola
+Tipo: A 1 mano~
+@367  = ~La Lama dell'Assassino è una spada lunga creata per essere utilizzata dai mortali assassini Maestri dell'Ombra. Nessuno li ha mai visti, ci sono solo delle dicerie a causa di alcune delle cose incredibili svolte da questo gruppo d'élite di assassini. I Maestri dell'Ombra solo l'ordine più alto all'interno della gerarchia dei Ladri Tenebrosi. Si tratta di una spada lunga +4.
+
+STATISTICHE:
+
+Danno: 1D6 +2
+THAC0: +3 bonus
+Special: permette 2 attacchi
+Tipo di Danno: Perforazione
+Peso: 3 
+Fattore Velocità: 0
+Tipo di competenza: Spada piccola
+Tipo: A 1 mano
+
+Utilizzabile da:
+ Ladro~
+@368  = ~Corsaro~
+@369  = ~La scimitarra è molto simile alla sciabola, una spada curva a lama singola con elsa di protezione. La lama ha una curvatura più accentuata e si assottiglia gradatamente fino a formare una punta molto aguzza. Pur avendo origini perlopiù sconosciute, la scimitarra è molto diffusa nelle regioni meridionali dei Reami perduti.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 4
+Tipo di competenza: Spada grande
+Fattore Velocità:  5
+Tipo: A 1 mano~
+@370  = ~ Corsaro è una delle migliori armi mai venute fuori dalla armerie Regnan. Sempre fedele alla sua natura, Regna il fabbro confezionò un'arma che lo aiutasse nella loro imperiale "riscossione delle tasse" in alto mare e nelle città costiere.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Speciale: Aumenta gli attacchi
+Speciale: Aumenta la velocità
+Speciale: Aumenta le abilità da ladro
+Tipo di Danno: Taglio
+Peso: 4
+Tipo di competenza: Spada grande
+Fattore Velocità:  1
+Tipo:  A 1 mano
+
+Utilizzabile da:
+ Ladro (singolo, duale e multiclasse)
+ Druido~
+@371  = ~Coltellaccio +2 “Scottatore”~
+@372  = ~La lama lunga e ricurva, affilata da una sola parte, caratterizza sia la sciabola che la scimitarra, anche se sono originarie di due parti diverse di Faerun. Il coltellaccio, a causa della sua struttura leggera, è la scelta di molti ladri e briganti.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada grande
+Tipo: A 1 mano~
+@373  = ~Coltellaccio +2 “Scottatore”
+Ruvido e rosso questo coltello è freddo al tatto, le incisioni runiche dicono solo “Scottatore”. Il suo aspetto ha portato più di un avventuriero a considerarlo erroneamente usurato, vecchio, o inutile. Gli avventurieri più curiosi che lo hanno tenuto a lungo puoi essere sicuro che sono stati sempre piacevolmente sorpresi. Vedi Scottatore non genera calore fino a quando non viene agitato, ma una volta che viene mosso verso un obiettivo il suo nome diventa chiaramente corretto.
+
+STATISTICHE:
+
+THAC0: +2 bonus
+Danno: 1D6 +2
+Speciale: 1D3 di Danni da Fuoco
+Tipo di Danno: Taglio
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@374  = ~Coltellaccio +3 “Lama Fantasma”~
+@375  = ~La lama lunga e ricurva, affilata da una sola parte, caratterizza sia la sciabola che la scimitarra, anche se sono originarie di due parti diverse di Faerun. Il coltellaccio, a causa della sua struttura leggera, è la scelta di molti ladri e briganti.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@376  = ~Coltellaccio +3 “Lama Fantasma”
+Ogni volta che uno spadaccino rotea la sua lama si può vedere la scia che questa si lascia alle spalle. Questa lama non è diversa per ciò che si vede, ma a differenza di qualsiasi altra lama sembra che la scia spettrale di questa sia anche in grado di tagliare. Apparteneva originariamente ad un tipo piuttosto pigro e sporco di nome Bordger che si diceva avesse avuto un addestramento magico prima di diventare un ladro. Dato come è stata incantata bene questa lama avrebbe reso un miglior servizio rimanendo un mago.
+
+STATISTICHE:
+
+THAC0: +3 bonus
+Danno: 1D8 +3
+Speciale: 1D3 Danni da Taglio
+Tipo di Danno: Taglio
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@377  = ~Coltellaccio +3 “Scintille”~
+@378  = ~Coltellaccio +3 “Scintille”
+Ronzando di energia elettrica, è facile capire come questo coltellaccio ha avuto il suo nome. Le sue origini non sono note, ma le storie di una terra strana accompagnano sempre ogni racconto su questa lama. Il primo proprietario di cui si hanno notizie è stato un pirata appena rientrato in porto. Egli fu derubato e ucciso mentre era in uno stato di torpore alcolico e anche il suo nome resta avvolto nel mistero insieme a  questa spada.
+
+STATISTICHE:
+
+THAC0: +3 bonus
+Danno: 1D8 +3
+Speciale: 1D3 Danni da Elettricità
+Tipo di Danno: Taglio
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@379  = ~Coltellaccio +3 “Tonfo”~
+@380  = ~Coltellaccio +3 “Tonfo”
+Più grande del coltellaccio medio, quando si guarda Tonfo sembra più una spada che un coltellaccio. Commissionato da un barone ladro di nome Orrimy che voleva “fracassare quanto tagliare” per usare le sue parole. Le maggiori dimensioni gli fecero ottenere i risultati che stava cercando, ma la sua prima opportunità di provarlo fu contro un orco che lo schiacciò prima che potesse liberarlo dal fodero.
+
+STATISTICHE:
+
+THAC0: +3 bonus
+Danno: 1D6 +3
+Speciale: 1D3 Danni da Schiacciamento
+Tipo di Danno: Taglio
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@381  = ~Sciabola di Doufas~
+@382  = ~La spada corta fu la prima spada prodotta. Per dare un'idea approssimativa della forma, la spada corta può essere assimilata a una sorta di pugnale con lama così lunga da non poter più essere considerata tale. Il termine spada corta non esiste nella classificazione delle spade. Tuttavia, definisce una lama a doppio taglio di circa 60 cm. Solitamente l'estremità è appuntita, l'ideale per trafiggere.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Perforazione
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada piccola
+Tipo: A 1 mano~
+@383  = ~Sciabola di Doufas
+La Sciabola di Doufas è stata creata per essere lo strumento perfetto dell'assassino. Ø molto ricercata da chi risolve con una lama le divergenze, e molti che la posseggono non lo fanno a lungo.
+
+STATISTICHE:
+
+Danno: 1D8 +3 (+1D4 di Danno Magico)
+THAC0: +2 bonus
+Tipo di Danno: Perforazione
+Peso: 5 
+Fattore Velocità: 0
+Tipo di competenza: Spada piccola
+Tipo: A 1 mano
+Speciale:
+ +2 attacchi
+ +Blocca l'avversario senza tiro salvezza~
+@384  = ~Spada Lunga +4, Il Vendicatore Sacro - Draz~
+@385  = ~Una volta appartenuta a Gez di Helm, questa potente spada ha un posto d'onore tra i reperti conservati nel sacro tempio di Helm a Baldur's Gate da secoli, affinché possa essere ceduta in prestito ad un paladino della chiesa nel caso ci fosse bisogno. Comunque, circa sessantatré anni fa, ci fu una valanga di furti nella città di Baldur's Gate. Draz fu rubata prima che fosse restituita al tempio. Tutti i tentativi di individuarla fallirono, ma ora essa è qui, nelle tue mani.
+
+STATISTICHE:
+
+Danno: 1D8 +4
+THAC0: +4 bonus
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 1
+Abilità Speciali:
+ Protezione dal Male nel raggio di 3 metri
+ 50% di Resistenza alla Magia
+ +1 alla Forza
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano
+
+Utilizzabile da:
+ Paladino~
+@386  = ~ Spada Lunga "Morso di Fuoco"~
+@387  = ~Come "Morso di Fuoco" sia arrivata in questo piano è ignoto. Si dice che l'ultimo proprietario si considerava così potente da andare a sconfiggere la Regina degli Elementali del Fuoco. Ovviamente fallì.
+   
+STATISTICHE:
+
+Danno: 1D8 +1
+THAC0: +1 bonus
+1D3 Danni da Fuoco
+Numero di Attacchi: 2
+Speciale:
+   +2 contro Creature Rigeneranti
+   +3 contro Creature che usano il Freddo
+   +4 contro i Non morti
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 3
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@388  = ~Spada della Foresta~
+@389  = ~Questa lunga lama ricurva con un solo filo riunisce le principali caratteristiche della scimitarra e della sciabola, anche se queste armi provengono da luoghi estremamente distanti su Faerun. La sciabola, a causa della sua versatilità, è principalmente stata creata per il combattimento a cavallo, mentre la scimitarra presenta maggiori influenze orientali. Il "shamshir", come veniva un tempo chiamata quest'arma, è più largo e ricurvo, e presenta una punta lunga ed acuminata. Per questa ragione è leggermente più lenta, ma tende ad essere più efficace e letale in combattimento.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 4~
+@390  = ~Questa scimitarra sembra proprio come ogni altra ad un primo sguardo. Tuttavia, quando viene utilizzata da un “figlio della foresta” la lama diventa verde e ronza sommessamente.
+
+STATISTICHE:
+
+Danno: 1d8 +3
+THAC0: +2
+Peso: 4
+Fattore Velocità: 5
+Tipo di Danno: Taglio
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano
+
+Utilizzabile da:
+ Druido~
+@391  = ~Harval: La Lama Grigia~
+@392  = ~La scimitarra è molto simile alla sciabola, una spada curva a lama singola con elsa di protezione. La lama ha una curvatura più accentuata e si assottiglia gradatamente fino a formare una punta molto aguzza. Pur avendo origini perlopiù sconosciute, la scimitarra è molto diffusa nelle regioni meridionali dei Reami perduti. Questa spada in particolare sembra essere di qualità molto elevata grazie al tremendo equilibrio che hai sentito mentre la maneggiavi.
+
+STATISTICHE:
+
+Danno: 1D8  
+Tipo di Danno: Taglio
+Peso:  4
+Tipo di competenza: Spada Grande
+Fattore Velocità:  5
+Tipo:  A 1 mano~
+@393  = ~Harval apparteneva a Colbey Calistinsson: Il Custode dell'Equilibrio. Gli è stata donata prima del Ragnarok (La Guerra degli Dei). Anche se non è un dio, egli è Immortale. Come Custode dell'Equilibrio tra Bene e Male, Legge e Caos, era malvisto da molti perché non poteva scegliere alcuna parte. Il suo unico interesse era mantenere “l'Equilibrio”. Non si sa come questa spada sia arriva qui. Ma si vocifera che sia stata messa qui per aiutare Colby nella sua ricerca di Equilibrio. Perciò questa spada può essere utilizzata solo da coloro che cercano lo stesso "Equilibrio".
+
+Il bonus alla Classe Armatura è dato dal fatto che il portatore ha controllo e equilibrio perciò egli può deviare molti attacchi che normalmente andrebbero a segno.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Numero di Attacchi: 2 Attacchi
+Speciale: +2 bonus alla Classe Armatura
+Tipo di Danno: Taglio
+Peso: 4
+Tipo di competenza: Spada Grande
+Fattore Velocità:  2
+Tipo: A 1 mano~
+@394  = ~Spada a due mani~
+@395  = ~Spada a due mani +3, Portatore d'Inferno~
+@396  = ~La spada a due mani deriva dalla spada lunga. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente. La funzione principale di una spada a due mani è quella di disarcionare i cavalieri in sella e spezzare le formazioni armate di picche.
+
+STATISTICHE:
+
+Danno: 1D10
+Tipo di Danno: Taglio
+Peso: 15
+Fattore Velocità: 10
+Tipo di competenza: Spada Grande~
+@397  = ~Questa è la spada a due mani a doppio filo Portatore d'Inferno che risplende di una gorgogliante luce nera. Questa è una delle intelligenti Lame infernali che fanno danni da fuoco al loro obiettivo.
+
+STATISTICHE:
+
+2D4 di danni da Fuoco
+Danno: 1D10 +3
+THAC0: +3 bonus
+Tipo di Danno: Taglio
+Peso:  8
+Fattore Velocità: 4
+Tipo di competenza: Spada Grande
+Tipo: A 2 mani
+
+Utilizzabile da:
+ Guerriero (singolo, duale, e multiclasse)~
+@398  = ~Spada Lunga di Krom~
+@399  = ~Questa spada è stata portata da Krom l'Invisibile. La usò contro innumerevoli nemici durante il suo regno. Secondo quel che quei pochi che sono sopravvissuti dopo aver ricevuto la fine di questa lama hanno detto una forza sottile li manovrava dall'interno per rallentarli.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Tipo di Danno: Taglio
+Speciale:
+    Rallenta il nemico ad ogni colpo se fallisce il tiro salvezza
+Peso: 3
+Fattore Velocità: 1
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@400  = ~Rovina di Rhea~
+@401  = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. In molti casi la spada lunga ha una lama affilata solo da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura e addirittura possono essere diverse anche nell'ambito di una stessa cultura in epoche diverse. Una tra le caratteristiche più comuni delle spade lunghe è, appunto, la loro lunghezza che va dagli 87 ai 117 cm. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è stata pensata per tagliare, non per infilzare.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada Grande~
+@402  = ~Questa lama è stata realizzata per il guerriero Cuthlan Rhea dal Signore del Fuoco Galamar. Poco si sa dell'esatto potere della spada, e indipendentemente dalle incisioni runiche sulla lama non mostra alcun segno di caratteristiche magiche fino a che non la si usa in combattimento; quando la lama si illumina di un tenue rosso scuro.
+
+STATISTICHE:
+
+Danno: 1D8 +3
+THAC0: +3 bonus
+Bonus di Classe Armatura: +2
+Speciale: +1 alla Destrezza
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@403  = ~Spada Bastarda~
+@404  = ~Spada Bastarda +2 "La Vipera"~
+@405  = ~Conosciuta anche come spada a una mano e mezza, la spada bastarda deve il suo nome al fatto che è una via di mezzo tra la spada a due mani e quella lunga. La spada bastarda ha una lama a doppio taglio e una lunga impugnatura, sufficientemente grande da accogliere entrambe le mani. La lunghezza complessiva della spada bastarda varia all'incirca da 1,2 a 1,4 m.   
+
+STATISTICHE:
+
+Danno: 2D4
+Tipo di Danno: Taglio
+Peso: 10
+Fattore Velocità: 8
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@406  = ~La Spada Bastarda +2 "La Vipera", il veleno in questa spada è estremamente letale, estratto dalla coda di una Viverna fa danni estremi in pochissimo tempo.
+
+STATISTICHE:
+
+Danno: 1D8 +2
+THAC0: +3 bonus
+Speciale: Avvelena il bersaglio a meno che non salvi contro morte.
+Tipo di Danno: Taglio
+Peso: 8
+Fattore Velocità: 7
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@407  = ~Lama dei Ladri~
+@408  = ~La spada corta fu la prima spada prodotta. Per dare un'idea approssimativa della forma, la spada corta può essere assimilata a una sorta di pugnale con lama così lunga da non poter più essere considerata tale. Il termine spada corta non esiste nella classificazione delle spade. Tuttavia, definisce una lama a doppio taglio di circa 60 cm. Solitamente l'estremità è appuntita, l'ideale per trafiggere.
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Perforazione
+Peso: 3
+Fattore Velocità: 3
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@409  = ~Questa lama è stata fatta appositamente per i ladri, ma può essere utilizzata da tutti coloro che possono normalmente utilizzarla. Quest'arma dà al ladro molti vantaggi, rendendolo un po' più veloce del suo avversario e molto più abile quando viene in soccorso a qualcuno di loro per tirar su qualche soldo.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +3 bonus
+Speciale:
++15 a tutte le abilità da ladro
+Tipo di Danno: Perforazione
+Peso: 2
+Fattore Velocità: 1
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@410  = ~Amuleto~
+@411  = ~Amuleto di Evocazione della Viverna~
+@412  = ~La collana è un elemento metallico ornamentale di gioielleria di solito d'argento, d'oro, di platino o di altri metalli preziosi e adornata con gemme. La collana si porta al collo e può avere qualsiasi lunghezza.~
+@413  = ~Amuleto di Evocazione della Viverna
+
+Permette all'utente di convocare una Viverna sotto il proprio comando.~
+@414  = ~Collana~
+@415  = ~Collana tempestata del Borseggio~
+@416  = ~La collana è un elemento metallico ornamentale di gioielleria di solito d'argento, d'oro, di platino o di altri metalli preziosi e adornata con gemme. La collana si porta al collo e può avere qualsiasi lunghezza.~
+@417  = ~Collana tempestata del Borseggio
+Pochi anni fa Fong Moo uno famoso borseggiatore, conosciuto sia a Baldur's Gate che ad Athkatla, fu trovato morto sulla strada tra Gate e Beregost. Pare che avesse rubato un manufatto ad un potente mago e avesse tentato di fuggire, con poco successo. I suoi beni andarono ad un nipote, che intraprese la stessa strada di suo zio, e divenne particolarmente bravo nel borseggio. Se questa collana sia stata magica prima di cadere nelle mani di Fong o se si fosse in qualche modo imbevuta dell'essenza del maestro non è noto.
+
+STATISTICHE:
+
+Svuotare tasche: +20% Bonus~
+@418  = ~Croce ansata~
+@419  = ~Croce ansata dell'Accettazione~
+@420  = ~Una croce ansata è un oggetto ornamentale di solito portata al collo. Sono di solito associate ai druidi e sono spesso incantate.
+
+STATISTICHE:
+
+~
+@421  = ~Croce ansata dell'Accettazione             
+Una delle nove croci ansate di Sukiem originariamente conservata nel tempio di Northkeep, furono perdute quando esso cadde, e riscoperte da Myth Drannor che le tenne per secoli. Quando il gruppo si sciolse, le croci ansate furono nuovamente perdute, e non sono più state viste da allora.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: +1 
+Saggezza: +1 Bonus
+Speciale: Paralizza la creatura designata
+Speciale: Dei Neutrali~
+@422  = ~Amuleto delle Abilità da Ladro~
+@423  = ~Un amuleto raro su cui ogni ladro vorrebbe mettere le mani. Aiuta il ladro nelle sue oscure abilità. I Capi Gilda pagherebbero una montagna di monete per mettere le mani su di esso.
+
+STATISTICHE:
+
+Speciale:
+ +1 alla Destrezza quando indossato
+ Infravisione quando indossato
+ Invisibilità per 10 turni (cariche limitate)
+Trova/Rimuovi trappole: +5% bonus
+Svuotare Tasche: +5% bonus
+Scassinare serrature: +5% bonus
+Nascondersi nelle Ombre: +5% bonus~
+@424  = ~ Amuleto di Ulcaster~
+@425  = ~La collana è un elemento metallico ornamentale di gioielleria di solito d'argento, d'oro, di platino o di altri metalli preziosi e adornata con gemme. La collana si porta al collo e può avere qualsiasi lunghezza.~
+@426  = ~Questo è l'amuleto indossato dal grande mago chiamato Ulcaster. Aveva molti artefatti nella sua scuola ma ben pochi sono stati ritrovati.
+
+STATISTICHE:
+
+2 Incantesimi bonus di 4° e 5° livello
+20% di Resistenza alla Magia
+Peso: 9
+
+Utilizzabile da:
+ Mago~
+@427  = ~Amuleto di protezione +2~
+@428  = ~Gli amuleti sono di solito oggetti magici che vengono generalmente indossati attorno al collo appesi a una catena. Il tipo di catena utilizzato aumenta solitamente il valore estetico dell'oggetto, ma non le proprietà magiche. E possibile indossare al collo solo un amuleto.~
+@429  = ~Amuleto di protezione +2: “Il Protettore”  
+La guardia reale del Re Pyronan, il sovrano di Impiltur, ricevette "Il Protettore" come onorificenza. Sfortunatamente, i membri della guardia non riuscirono a decidere chi di loro doveva prendere l'amuleto. Dopo anni di contrasti interni, l'oggetto andò perduto e le guardie vennero sostituite con degli elementi meno avidi
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 2
+Bonus ai Tiri Salvezza: 1~
+@430  = ~Collana di Hobbin~
+@431  = ~Questa è la collana personale di Hobbin che gli fu data da suo nonno.
+
+STATISTICHE:
+
+THAC0: +2
+Bonus a Svuotare Tasche: 10%~
+@432  = ~Amuleto del Sacerdote~
+@433  = ~Amuleto del Sacerdote: “Il Consacrato” 
+Noto per la sua capacità di migliorare le abilità magiche, l'Amuleto del Sacerdote è molto ricercato dai chierici e dai druidi.
+
+STATISTICHE:
+
+Speciale: Memorizza un incantesimo extra si 2° livello
+
+Utilizzabile da:
+ Druido
+ Chierico~
+@434  = ~Anello~
+@435  = ~Anello di Shi'nayne~
+@436  = ~Un anello è una piccola fascia di metallo prezioso utilizzata come gioiello. Alcuni anelli rari sono stati incantati e hanno acquisito poteri magici. Questi anelli sono molto ricercati, soprattutto dagli avventurieri.~
+@437  = ~L'Anello magico di Shi'nayne Alanadel che le concede incantesimi extra da mago e da chierico.
+
+STATISTICHE:
+
+2 incantesimi bonus di 3° livello~
+@438  = ~Anello di Protezione +3~
+@439  = ~Un anello è una piccola fascia di metallo prezioso utilizzata come gioiello. Alcuni anelli rari sono stati incantati e hanno acquisito poteri magici. Questi anelli sono molto ricercati, soprattutto dagli avventurieri.
+
+STATISTICHE:
+
+Classe Armatura: +3 Bonus
+Tiri Salvezza: +3 bonus~
+@440  = ~Anello del Mago/Chierico~
+@441  = ~Un anello è una piccola fascia di metallo prezioso utilizzata come gioiello. Alcuni anelli rari sono stati incantati e hanno acquisito poteri magici.  
+
+STATISTICHE:
+
+Aggiunge un incantesimo da mago e uno da chierico per livello dal 1° livello al 4°.~
+@442  = ~ Anello di Protezione +1 “Regina Coeli”~
+@443  = ~Un anello che è stato inviato dagli dei del cielo, esso proteggere chi lo indossa dai danni normali e dai poteri  del cielo. 
+
+STATISTICHE:
+
+15% si protezione dai danni elettrici
+Classe Armatura: +1 bonus
+Tiri Salvezza: +1 bonus~
+@444  = ~L'Anello del Potere~
+@445  = ~Questo anello emana un luce strana. Sii prudete prima di indossarlo.~
+@446  = ~Gelo di Nemmerle~
+@447  = ~Nemmerle, un malvagio negromante, diceva di aver fatto molti viaggi nei regni del fuoco. Anche se si vantava della sua immunità naturale fu sconfitto per mano di Genshur e questo anello fu trovato tra i suoi possedimenti. Toccandolo si riceve una sensazione di forte freddo che dura solo pochi istanti. Un'analisi attenta rivela una parola di comando scolpita sull'anello, e un avvertimento che è parzialmente sbiadito. La parte di avvertimento che è ancora intatta recita “Il Potere sul Fuoco dura in Eterno”.
+
+STATISTICHE:
+
+Incantesimi: Dà protezione dal freddo
+
+Utilizzabile da:
+ Allineamenti Malvagi~
+@448  = ~Anello della Conduzione~
+@449  = ~Più di 1000 anni sono passati da quando gli stregoni di Yevaud tentarono di prendere il controllo dell'Albero della Sapienza. I racconti della battaglia che ne derivò sono ancora ricordati ad ogni riunione di druidi in tutti i Reami. Elgenon sapeva che non avrebbe mai potuto resistere alla potenza degli stregoni senza aiuti e pregò l'Albero della Sapienza in cerca di consigli. Le sue preghiere ebbero risposta quando vide questo anello in una visione. La magia più potente degli stregoni, il controllo dei fulmini, non danneggiò più i druidi selvaggi. Nel giorno in cui finì la battaglia, gli stregoni rimanenti raccolsero quello che potevano nella sconfitta e si ritirarono. Il coraggio di Elgenon aiutò a vincere quel giorno, ma fu la sua saggezza il fattore determinate che gli valse il nome di “Elgenon il Saggio”.
+
+STATISTICHE:
+
+Incantesimi: Dà protezione dall'elettricità
+
+Utilizzabile da:
+ Allineamenti Neutrali~
+@450  = ~Anello dell'Arcimagia~
+@451  = ~Molto tempo fa, si diceva che un grande mago di Amn aveva sfidato i limiti delle arti magiche di Mystra. Secondo la leggenda, questo mago era in grado di lanciare incantesimi senza limiti di memorizzazione. Alla fine si scoprì che i suoi poteri erano originati da una serie di anelli magici creati da lui. Dichiarò che la "Memoria Eterna" era una falsità, ma i suoi anelli continuano a essere gli oggetti più bramati dei Reami.
+
+STATISTICHE:
+
+Incantesimi: Raddoppia l'ammontare di incantesimi dal 1° al 3° livello che un mago può memorizzare
+
+Utilizzabile da:
+ Mago (singolo, duale e multiclasse)~
+@452  = ~L'anello del Fuoco - “Brucia”~
+@453  = ~Un anello è una piccola fascia di metallo prezioso utilizzata come gioiello. Alcuni anelli rari sono stati incantati e hanno acquisito poteri magici. Questi anelli sono molto ricercati, soprattutto dagli avventurieri.~
+@454  = ~L'anello del Fuoco - “Brucia”
+Questo anello fu creato dopo che gli Arpisti ebbero la possibilità di studiare un anello di energia che trovarono dopo la lotta per la Sala di Mithril. Diversamente dalla maggior parte delle magie di questo tipo, questo anello funziona davvero e migliora l'anello base. Ora, non solo può sparare le Fiamme Scorticatrici di Agannazar, ma può anche richiamare una colonna di fuoco e lanciare palle di fuoco.
+
+STATISTICHE:
+
+Abilità speciali:
+ Fiamme Scorticatrici di Agannazar
+ Mani Brucianti
+ Palla di fuoco
+ Colonna di fuoco~
+@455  = ~Anello dello Scudo di Fuoco~
+@456  = ~Anello dello Scudo di Fuoco "Splendore di Charvirak"
+Sin dagli albori dei tempi gli stregoni hanno utilizzato gli elementi che li circondavano sia per attaccare che per difendere. Questo anello è stato realizzato dal grande stregone Charvirak di Corymer. Si dice che avesse rubato l'essenza di un golem di fuoco e l'avesse intrappolata all'interno dell'anello.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: +4
+Speciale: Resistenza alle armi non magiche
+
+Utilizzabile da:
+ Druido~
+@457  = ~Anello della Magia dal 1° al 3°~
+@458  = ~Anello della stregoneria: "Memoria Eterna"
+Molto tempo fa, si diceva che un grande mago di Amn aveva sfidato i limiti delle arti magiche di Mystra. Secondo la leggenda, questo mago era in grado di lanciare incantesimi senza limiti di memorizzazione. Alla fine si scoprì che i suoi poteri erano originati da una serie di anelli magici creati da lui. Dichiarò che la "Memoria Eterna" era una falsità, ma i suoi anelli continuano a essere gli oggetti più bramati dei Reami.
+
+STATISTICHE:
+
+Incantesimi: Raddoppia l'ammontare di incantesimi dal 1° al 3° livello che un mago può memorizzare~
+@459  = ~Anello della Magia dal 1° al 5°~
+@460  = ~Anello della stregoneria: "Memoria Eterna"
+Molto tempo fa, si diceva che un grande mago di Amn aveva sfidato i limiti delle arti magiche di Mystra. Secondo la leggenda, questo mago era in grado di lanciare incantesimi senza limiti di memorizzazione. Alla fine si scoprì che i suoi poteri erano originati da una serie di anelli magici creati da lui. Dichiarò che la "Memoria Eterna" era una falsità, ma i suoi anelli continuano a essere gli oggetti più bramati dei Reami.
+
+STATISTICHE:
+
+Incantesimi: raddoppia il numero di incantesimi dal 1° al 5° livello che un mago può memorizzare~
+@461  = ~Pergamena~
+@462  = ~AVVISO DI TAGLIA
+
+Sia noto a chiunque abbia cattive intenzioni che una taglia è stata posta sulla testa di <CHARNAME>, figlio adottivo di Gorion.
+
+Questa persona, vista l'ultima volta nella regione di Beregost, deve essere uccisa quanto prima possibile.
+
+Il soggetto è da considerarsi pericoloso ed è probabile che abbia compagni di viaggio ben armati.
+
+Questa offerta è stata estesa a tutte le corporazioni appropriate.
+
+Chiunque fornirà prova della sua morte riceverà la considerevole somma di seicentottanta monete d'oro.
+
+Come sempre, coloro che dichiareranno il falso alle forze della legge subiranno lo stesso destino del ricercato.~
+@463  = ~AVVISO DI TAGLIA
+
+Sia noto che una taglia è stata posta sulla testa di <CHARNAME>, figlio adottivo di Gorion.
+
+Questa persona, vista l'ultima volta nell'area di Candlekeep, deve essere uccisa quanto prima possibile.
+
+Chiunque fornirà prova della sua morte riceverà la considerevole somma di quattrocentocinquanta monete d'oro.
+
+M.S.~
+@464  = ~Avviso di eliminazione!
+
+<CHARNAME> non è stato soppresso. Fallire nel compito comporterà l'eliminazione di tutti gli operatori coinvolti nel compito di sopprimere <CHARNAME>. Il fallimento NON è un'opzione.
+
+P.W.~
+@465  = ~AVVISO
+
+Per qualche motivo, <CHARNAME> non è stato soppresso. Fallire nel compito comporterà un colloquio più spiacevole con me. Fatelo!
+
+M~
+@466  = ~AVVISO DI TAGLIA
+
+Sia noto che una taglia è stata posta sulla testa di <CHARNAME>, figlio adottivo di Gorion.
+
+Questa persona, vista l'ultima volta nell'area di Candlekeep, deve essere uccisa quanto prima possibile.  
+
+Chiunque fornirà prova della sua morte riceverà la considerevole somma di duecento monete d'oro.~
+@467  = ~AVVISO DI TAGLIA
+
+Najara:
+
+Una taglia è stata posta sul capo di <CHARNAME>, figlio adottivo di Gorion.
+
+<CHARNAME> ha assaltato un villaggio, non ha lasciato nessuno in vita, inclusi donne e bambini. 
+
+<CHARNAME>, e i banditi al suo seguito, devono essere soppressi immediatamente.
+
+P.W.~
+@468  = ~Tutto il mondo è un palcoscenico.
+
+Tenebre visibili.
+
+Un tempo per ogni scopo.
+
+Bacia la via addio.
+
+Un amico.~
+@469  = ~Nota per se stessi:
+  Ricorda che l'ingresso della Sezione si trova a Beregost accanto alla Fucina Martello di Tuono. Inoltre, ricorda di tenere la chiave con te in ogni momento. Potrebbe sembrare stupido rimanere bloccati fuori dalla Sezione.~
+@470  = ~Lamponi~
+@471  = ~I lamponi hanno un sapore dolce. Se consumati guariscono due punti ferita.~
+@472  = ~<NO TEXT>~
+@473  = ~Gulp!~ [GULP]
+@474  = ~Uva~
+@475  = ~Un grappolo d'uva: 
+Il frutto emana uno strano bagliore interno. Se consumato, guarisce 3 punti ferita. In più è molto gustoso.~
+@476  = ~Pozione di Guarigione Eccellente~
+@477  = ~Quando viene ingerita per intero, questa pozione scura e densa restituisce 30 punti ferita alla persona. L'effetto è istantaneo e la pozione viene distrutta durante il processo.~
+@478  = ~Guarito~
+@479  = ~Pozione~
+@480  = ~Pozione di Guarigione Critica~
+@481  = ~Le pozioni, di solito, vengono trovate in contenitori di ceramica, cristallo, vetro o fiale. I fiaschi o gli altri recipienti normalmente contengono abbastanza fluido in modo da fornire a una persona una dose completa sufficiente per ottenere gli effetti della pozione.~
+@482  = ~Quando viene ingerita per intero, questa pozione restituisce 27 punti ferita alla persona. L'effetto è istantaneo e la pozione viene distrutta durante il processo.~
+@483  = ~Pollo~
+@484  = ~Questo è il miglior pollo di KFC. Contiene 20 erbe e spezie ed è stato arrostito lentamente sul fuoco vivo. Quando viene consumato per intero, questo pollo restituisce 10 punti ferita alla persona.~
+@485  = ~Pozione di Immagini illusorie~
+@486  = ~Questa pozione permette di creare fino a 5 immagini illusorie per livello dell'utilizzatore.~
+@487  = ~Pozione di Esplosione Acida~
+@488  = ~Lanciando questa pozione verso un bersaglio lo bagnerai con un acido altamente corrosivo che lo divorerà.~
+@489  = ~Bacchetta~
+@490  = ~Bacchetta della forma di pietra~
+@491  = ~Le bacchette sono lunghe circa 35 cm e sono sottili. Sono fatte d'avorio, osso o legno e hanno normalmente la punta ricoperta di qualche materiale come metallo, cristallo, pietra, ecc. Sono fragili e si rompono facilmente, spesso vengono tenute in apposite custodie.
+
+Le bacchette sono alimentate da cariche e ogni utilizzo costa una o più cariche (a seconda dell'oggetto). Quando una bacchetta esaurisce le cariche, non è più possibile ricaricarla.~
+@492  = ~Quando attivata, la bacchetta trasforma la creatura bersaglio in pietra, o riporta in carne una creatura pietrificata. Carne in pietra può essere evitato superando un tiro salvezza contro incantesimi.
+
+STATISTICHE:
+
+Speciale: Carne in Pietra
+Speciale: Pietra in Carne
+Raggio d'azione: 6 m
+Area d'effetto: 1 creatura~
+@493  = ~Bacchetta di Dominio~
+@494  = ~Quando attivata, la bacchetta espelle una sfera di energia magica che parte avanti e colpisce infallibilmente il suo obiettivo. Questo include le creature nemiche in una mischia. La creatura bersaglio deve essere vista o almeno rilevata per essere colpita, tuttavia, se è vicina ma completamente occultata, come dietro ad una feritoie, può rendere inefficace l'incantesimo. Contro una creatura, la sfera tenterà di incantare l'obiettivo in modo simile all'incantesimo  Dominio dei Chierici.
+
+STATISTICHE:
+
+Speciale: Charme Distruttivo
+Raggio d'azione: 30 m
+Area d'effetto: 1 creature~
+@495  = ~Bacchetta della Morte~
+@496  = ~Quando attivata, la bacchetta evoca le anime di tre guerrieri morti per aiutare l'incantatore in combattimento.
+
+STATISTICHE:
+
+Speciale: Animare morti
+Raggio d'azione: 30 m
+Area d'effetto: N/a~
+@497  = ~Teschio~
+@498  = ~Teschio della Morte~
+@499  = ~Sembra un teschio magico.~
+@500  = ~Il Teschio della Morte viene utilizzato per evocare i morti a volontà come una Pergamena.
+
+Animare morti (Necromanzia)
+Livello: 5
+Raggio di azione: 9 m
+Durata: 8 ore
+Tempo di lancio: 1 round
+Area d'effetto: Speciale
+Tiro-salvezza: Nessuno
+Questo incantesimo crea i più miseri tra i mostri non morti, scheletri o zombi, generalmente dalle ossa o dai cadaveri di umani, semiumani o umanoidi. L'incantesimo anima questi resti e li fa obbedire agli ordini verbali dello stregone, indipendentemente dal modo in cui comunicavano quando erano vivi. Gli scheletri o gli zombi possono seguire lo stregone, restare in una zona e attaccare tutte le creature (o solo alcuni tipi) che entrano nella zona, ecc. I non morti rimangono animati fino a quando non vengono distrutti in combattimento, scacciati o al termine delle 8 ore; la magia non può essere dissolta. Lo stregone anima uno scheletro o uno zombi per ogni livello di esperienza ottenuto.~
+@501  = ~Liuto~
+@502  = ~Canzone di Nyriad~
+@503  = ~Questo delicato Liuto artigianale ha corde d'argento infilate in una cornice di legno profondamente intarsiata d'oro. L'arte sembra squisita, perfetta, quasi inumana. Tanto che le dita suonando senza esperienza sulle corde sembrano colpire comunque le corde più belle. Stranamente, non esiste alcun metodo visibile per accordarla, come se non fosse necessario. Un senso di timore reverenziale comincia a insinuarsi lungo la tua schiena mentre osservi tutti i meandri di questo bellissimo strumento.~
+@504  = ~Le origini di questo liuto non sono note, però il suo creatore sembra aver portato il vecchio adagio "La musica incanta..." ad un nuovo livello. Quando è suonato da un musicista esperto questo strumento produce un suono che non può che lasciare il pubblico totalmente rapito.
+
+STATISTICHE:
+
+Speciale: Charme Distruttivo
+Raggio d'azione: 30 m
+Area d'effetto: 1 creatura~
+@505  = ~La Candela~
+@506  = ~Candela della Saggezza~
+@507  = ~In base ai simboli dell'arcano stampati sulla copertina, sembra chiaro che questo libro abbia diversi poteri magici. Tuttavia, fino a quando non proverai a leggerlo o a identificarlo, la sua natura ti rimarrà sconosciuta.~
+@508  = ~Questa candela una volta strofinata nel modo giusto accorda alla persona della saggezza aggiuntiva. Purtroppo, questa stessa magia fa sì che la candela scompaia dopo l'uso.
+
+STATISTICHE:
+
+Saggezza: Innalzata di 1 punto in modo permanente
+Speciale: La candela si consuma dopo l'uso
+Uso: Va posto tra gli oggetti veloci~
+@509  = ~La Saggezza è aumentata in modo permanente di 1 punto~
+@510  = ~Amuleto di protezione +1~
+@511  = ~Gli amuleti sono di solito oggetti magici che vengono generalmente indossati attorno al collo appesi a una catena. Il tipo di catena utilizzato aumenta solitamente il valore estetico dell'oggetto, ma non le proprietà magiche. E possibile indossare al collo solo un amuleto.~
+@512  = ~Amuleto di protezione +1: "Il Protettore"
+La guardia reale del Re Pyronan, il sovrano di Impiltur, ricevette "il Protettore" come onorificenza. Sfortunatamente, i membri della guardia non riuscirono a decidere chi di loro doveva prendere l'amuleto. Dopo anni di contrasti interni, l'oggetto andò perduto e le guardie vennero sostituite con degli elementi meno avidi.
+
+STATISTICHE:
+
+Bonus di Classe Armatura: 1
+Bonus di Tiro-salvezza: 1~
+@513  = ~Oggetto della Creatura~
+@514  = ~Oggetto della Creatura~
+@515  = ~--~
+@516  = ~Testa di Viverna~
+@517  = ~La testa decapitata di una viverna è una visione allo stesso tempo pericolosa e tranquillizzante. Nonostante l'orrore delle zanne delle sue mascelle e dei suoi occhi penetranti, anche i poveri mortali di classe sociale più bassa possono conquistarle.~
+@518  = ~Pietra Sigillo~
+@519  = ~Pietra Sigillo di Lillian~
+@520  = ~Le pietre sigillo presentano spesso rune, simboli o glifi magici, e sono oggetti magici di grande potere, creati per consentire al loro portatore di passare all'interno di zone protette con la magia. Visto che nella maggior parte dei casi le pietre sigillo sono oggetti unici e creati con un obiettivo preciso, è difficile trovarne una che serva a più scopi.~
+@521  = ~Sembra una Pietra Sigillo piuttosto generica. Questa potrebbe avere qualsiasi tipo di impiego.~
+@522  = ~Pietra Sigillo del Custode della porta~
+@523  = ~Le sanguigne incisioni brillano di una rossa luce soffusa che sembra provenire da qualche parte dentro la pietra. Essa potrebbe avere un utilizzo.~
+@524  = ~Una chiave~
+@525  = ~Chiave di strana fattura~
+@526  = ~Chiave:
+Una chiave ingioiellata di stana foggia.~
+@527  = ~Chiave di Sir Jones~
+@528  = ~Questa chiave potrebbe dare accesso a determinate zone di Oversight.~
+@529  = ~Frecce del Sonno~
+@530  = ~Le frecce da tiro, come dice il nome, sono state progettate per la distanza. Sono frecce leggere e vengono spesso usate per cacciare. Queste frecce sono in genere di frassino o betulla  e lunghe da 75 cm a 1 m. 
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Proiettile (perforazione)
+Peso: 0
+Arma da lancio: Arco~
+@531  = ~Le frecce da tiro, come dice il nome, sono state progettate per la distanza. Sono frecce leggere e vengono spesso usate per cacciare. Queste frecce hanno un incantesimo speciale su di esse che addormenta il bersaglio   
+
+STATISTICHE:  
+
+Danno: 1D6  
+Tipo di Danno: Proiettile (perforazione)  
+Speciale: Addormentano a meno che non si superi un tiro salvezza su morte  
+Peso: 0  
+Arma da lancio: Arco~
+@532  = ~Ascia di Mithril +3~
+@533  = ~Le armi di mithril sono oggetti ricercati tra cui in particolare le asce per le quali i nani hanno posto grande cura nella creazione. Quest'ascia in particolare è stata incantata per fare danni da freddo.  
+
+STATISTICHE:  
+
+Danno: 2D8 +3 (+2 di danno da Freddo)  
+THAC0: bonus +3  
+Tipo di Danno: Taglio  
+Peso: 5  
+Fattore Velocità: 1  
+Tipo di competenza: Ascia 
+Tipo: A 1 mano~
+@534  = ~Mantello della Foresta~
+@535  = ~Il Mantello della foresta è il miglior abbigliamento per i druidi e i ranger avventurieri della foresta.   
+
+STATISTICHE:  
+
+Classe Armatura: 2  
+Speciale: +15% di Nascondersi nell'Ombra  
+Speciale: +5 contro armi da lancio  
+Peso: 4~
+@536  = ~Scimitarra +3, "La Furia di Andarous"~
+@537  = ~Scimitarra +3, "La Furia di Andarous"  
+Andarous era un ranger che perse i suoi boschi a causa degli orchi che la abbatterono e usarono il legname per costruire una fortezza. Mielikki rispose alle sue preghiere dandogli questa spada per trarre vendetta in nome della natura. Da solo e con le proprie mani lui di strusse tutti gli orchi nel campo. 
+
+STATISTICHE:  
+
+Danno: 1D8 +3 (+2D4 di danno Elettrico)
+THAC0: Bonus +3  
+Classe Armatura: Bonus +2  
+Speciale: Stordisce il bersaglio a meno che non superi un Tiro Salvezza su Incantesimi  
+Tipo di Danno: Taglio  
+Peso: 3  
+Fattore Velocità: 2  
+Tipo di competenza: Spada Grande  
+Tipo: A una mano~
+@538  = ~Katana~
+@539  = ~Katana +3,  "El Tel'lerian"~
+@540  = ~Tel'lerian era un grande combattente di Kara-Tur. Era un mercenario che viaggiò per tutti i reami in cerca di lavoro e lottando contro il male. Questa katana era una delle sue armi preferite. Egli perse questa spada e la sua vita quando subì un'imboscata sulla via per Candlekeep.   
+
+STATISTICHE:  
+
+Speciale: 10% di possibilità di pietrificare ad ogni colpo a segno se il bersaglio fallisce un tiro salvezza contro pietrificazione  
+
+Danno: 2D4 +3 
+THAC0: Bonus +3 
+Tipo di Danno: Taglio  
+Peso: 10  
+Tipo di competenza: Spada Grande  
+Fattore Velocità: 3  
+Tipo: A 2 mani~
+@541  = ~Spada A Due Mani +3 "La Morte di Khazid"~
+@542  = ~La spada a due mani deriva dalla spada lunga. Nell'ambito dei costanti tentativi dei fabbricanti di migliorare gli equipaggiamenti dei guerrieri, la lama della spada lunga è stata allungata e quindi è stato necessario allungare l'impugnatura per poter brandire l'arma agevolmente. La funzione principale di una spada a due mani è quella di disarcionare i cavalieri in sella e spezzare le formazioni armate di picche.  
+
+STATISTICHE:  
+
+Danno: 1D10  
+Tipo di Danno: Taglio  
+Peso: 15  
+Fattore Velocità: 10  
+Tipo di competenza: Spada Grande  
+Tipo: A 2 mani~
+@543  = ~La Morte di Khazid è stata creata da un maestro armaiolo nano, Khazid El Dum. Aveva appena creato questa spada quando un gruppo di ladri irruppe ed essi lo uccisero con la spada. Parte della sua essenza spirituale si legò a quest'arma al momento della sua morte.   
+
+STATISTICHE:  
+
+Danno: 1D10 +3  
+Speciale: Bonus +1 alla Forza e alla Costituzione  
+THAC0: Bonus +3  
+Tipo di Danno: Taglio 
+Peso: 12  
+Fattore Velocità: 9
+Tipo di competenza: Spada Grande  
+Tipo: A 2 mani~
+@544  = ~Grande Katana~
+@545  = ~Grande Katana +3 "Toran El Desiade"~
+@546  = ~Si sa poco sulla storia di questa grande katana. Ha antiche rune incise sul manico forse per darle delle abilità magiche. Chiunque sia malvagio non può prenderla quindi potrebbe essere una katana per il bene.   
+
+STATISTICHE:  
+
+Danno: 2D4 +3 (+1D4 danni da Freddo)  
+THAC0: Bonus +3  
+Speciale: +1 Bonus alla Classe Armatura
+                +1 Bonus alla Destrezza  
+                10% di possibilità di lanciare  Orrore sul bersaglio 
+Tipo di Danno: Taglio 
+Peso: 8  
+Tipo di competenza: Spada Grande 
+Fattore Velocità: 2  
+Tipo: A 2 mani
+
+Utilizzabile da: 
+ Guerriero  
+ Ranger  
+ Paladino~
+@547  = ~Le armi di mithril sono oggetti ricercati tra cui in particolare le asce per le quali i nani hanno posto grande cura nella creazione. Quest'ascia in particolare è stata incantata per fare danni da fuoco.  
+
+STATISTICHE:  
+
+Danno: 2D8 +3 (+2 di danno da Fuoco)  
+THAC0: Bonus +3  
+Tipo di Danno: Taglio  
+Peso: 5  
+Fattore Velocità: 1  
+Tipo di competenza: Ascia  
+Tipo: A 1 mano~
+@548  = ~Ascia da Battaglia +3 "Ammazza Ghoul"~
+@549  = ~Realizzata da un paladino che odiava i non morti, in particolare i ghoul. Quest'arma li ucciderà al primo tocco.  
+
+STATISTICHE:  
+
+Danno: 1D8 +3 (+3 di danno da Freddo)  
+THAC0: +3  
+Speciale: Uccide i Ghoul   
+Tipo di Danno: Taglio  
+Peso: 7  
+Fattore Velocità: 6  
+Tipo di competenza: Ascia  
+Tipo: A 1 mano~
+@550  = ~Guanti d'arme del Combattimento di Mithril~
+@551  = ~Creati dai nani delle montagne del nord questi Guanti d'arme sono i migliori amici dei combattenti. Questi erano i preferiti dei berserker nani.   
+
+STATISTICHE:  
+
+THAC0: Bonus +2  
+Danno: Bonus +2  
++1 Bonus alla Destrezza  
+Peso: 1~
+@552  = ~Guanti d'arme della Protezione +3~
+@553  = ~I guanti servono da protezioni per le mani. Possono essere di pelle, di piastre o di maglia. Ogni corazza completa dovrebbe includere guanti del tipo più appropriato. I guanti magici tendono a essere più fini, leggeri e più facilmente indossabili delle varietà normali.
+
+STATISTICHE:  
+
++3 Bonus alla CA 
+Peso: 2~
+@554  = ~Proiettili di Ghiaccio~
+@555  = ~In questo proiettile sono presenti forti energie magiche che lo rendono più bilanciato e leggero quando viene scagliato contro un avversario.   
+
+STATISTICHE:  
+
+Danno: 1D4 +2  
+THAC0: +2  
+Speciale: 1D6 di danno da freddo  
+Tipo di danno: a distanza (perforante)  
+Peso: 0  
+Arma da lancio: Fionda~
+@556  = ~Corazza a strisce "L'Armatura di Mystra"~
+@557  = ~L'Armatura di Mystra: Questa armatura è stata indossata dai chierici e dai maghi de La Chiesa di Mystra. Essa offre protezione e aumenta l'intelligenza. Solo un praticante della magia può indossarla.   
+
+STATISTICHE:  
+
+Classe Armatura: -1  
+Speciale: Protezione dal Veleno  
+               +1 Bonus all'Intelligenza  
+Peso: 18  
+
+Utilizzabile da:  
+ Chierici e Maghi (classe singola e multipla)~
+@558  = ~La Tunica dei Magisteri~
+@559  = ~Indossata da uno dei Magisteri di Mystra questa tunica è andata perduta nel corso delle ere. Come è stata ritrovata non è noto. Molti hanno speculato che Mystra stessa sia stata colei che l'ha ritrovata e resa di nuovo disponibile per essere indossata da un altro ancora una volta.
+
+STATISTICHE:  
+
+Classe Armatura: Bonus +2  
+Incantesimi Bonus: 2 incantesimi di livello 2 e 2 incantesimi di livello 3  
+Resistenza Magica: 30%  
+Tiri Salvezza: Bonus +3  
+Peso: 6  
+
+Utilizzabile da:  
+ Mago (classe singola, duale e multipla)~
+@560  = ~Mazzafrusto +3 "La Morte Fiammeggiante"~
+@561  = ~Questo mazzafrusto è stato incantato per fare danni da fuoco e aumentare saggezza. Amuanator dovrebbe esserne felice.      
+
+STATISTICHE:  
+
+Danno: 1D8 +3  
+THAC0: +3  
+Saggezza: bonus +1  
+Speciale: Aumenta gli attacchi  
+Speciale: 2D3 di Danno da Fuoco  
+Tipo di Danno: schiacciamento  
+Peso: 8  
+Fattore Velocità: 3  
+Tipo di competenza: Armi Chiodate  
+Tipo: A 1 mano
+  
+Utilizzabile da:  
+ Chierico  
+ Paladino~
+@562  = ~Stella Sacra +3~
+@563  = ~Il Sacro Morning Star +3 è consacrato al tempio di Amuanator, possiede magici poteri, e può essere utilizzato solo da coloro che seguono il percorso dell'illuminazione.     
+
+STATISTICHE:  
+
+Danno: 1D8 +3  
+THAC0: +3  
+Saggezza: bonus +1  
+Speciale: 2D3 di Danno da Freddo 
+Speciale: Aumenta gli attacchi  
+Tipo di Danno: schiacciamento  
+Peso: 8  
+Fattore Velocità: 3  
+Tipo di competenza: Armi Chiodate  
+Tipo: A 1 mano
+  
+Utilizzabile da:  
+ Chierico  
+ Paladino~
+@564  = ~Pugnale +2 "Il Necro"~
+@565  = ~Quest'arma appare come un pugnale normale del tipo utilizzato dalla maggior parte dei giovani maghi. Questo particolare pugnale era di proprietà di Szass Tam. Dello sfortunato sciocco che lo preso al Lich non si è mai più saputo nulla.   
+
+STATISTICHE:  
+
+THAC0: bonus +2  
+Danno: 2D4 +2 (con il 10% di possibilità di dare morte istantanea)  
+Speciale: Permette all'utilizzatore di lanciare i seguenti incantesimi
+Animare morti  
+Trappola del teschio
+Tocco del Vampiro 
+Forma incorporea  
+Peso: 4  
+Fattore Velocità: 2  
+Tipo di danno: Perforazione
+Tipo di competenza: Spada piccola 
+Tipo: A 1 mano
+  
+Utilizzabile da:  
+ Mago (solo classe singola)  
+ Solo personaggi Malvagi~
+@566  = ~Elmo~
+@567  = ~Elmo Testa di Viverna~
+@568  = ~Elmo Testa di Viverna  
+La testa mozzata di una viverna è una vista insieme temibile e rassicurante. Raccapricciante come solo la sua bocca zannuta e i suoi occhi fiammeggianti possono essere, c'è consolazione nella consapevolezza che essa possa essere conquistata da un semplice ed umile mortale.   
+ 
+STATISTICHE:  
+
+Classe Armatura: bonus +2  
+Forza: bonus +2  
+Speciale: +25% di Resistenza Magica  
+Speciale: Protegge contro i Colpi Critici  
+Peso: 2~
+@569  = ~La corazza di cuoio, nonostante le credenze popolari, non è morbida e flessibile come il cuoio usato per fare gli stivali dei ranger o gli abiti dei druidi. Quel tipo di cuoio non garantisce una protezione migliore di un normale indumento.
+
+STATISTICHE:
+
+Classe Armatura: 8
+Peso: 15~
+@570  = ~Questa è l'armatura di Malenious Strider. Le voci dicono che la sua abilità in battaglia derivava da questa corazza. Ø stata dotata di molti poteri magici al di là di quelli delle normali armature. Quando la si indossa non solo sembra di avere una migliore protezione ma sembra anche di avere un contorno extra. Quando ci si trova nei boschi e nelle zone oscure delle città questa armatura sembra avere l'attitudine di nascondere se stessa e di muoversi silenziosamente.
+
+STATISTICHE:  
+
+Classe Armatura: 1  
+Speciale: +1 alla Destrezza e +20% a nascondersi nelle ombre.  
+Peso: 25  
+
+Utilizzabile da:  
+ Guerriero, Ranger e Druido~
+@571  = ~Corazza di cuoio borchiata "Nube Tempestosa"~
+@572  = ~Questa corazza di cuoio è stata confezionata dai resti carbonizzati di un drago colpito da un fulmine. L'ultimo famoso per averla indossata è stato lo stregone Shrethu Reogher. Si deve sperare che egli sia morto, perché se gli è stata tolta mentre era ancora in vita è sicuro che verrà a cercarla.
+
+STATISTICHE:  
+
+Classe Armatura:  0   
+Tiri Salvezza: bonus +3   
+Speciale: Resistenza all'elettricità
+Peso: 4  
+
+Utilizzabile da:  
+ Druido~
+@573  = ~Balestra~
+@574  = ~Balestra Leggera "La Torcia"~
+@575  = ~La balestra è un arco montato trasversalmente su un fusto in legno o metallo e in quest'ultimo caso viene chiamata tiller. L'arco è di solito in legno di frassino o di tasso. La balestra lancia un quadrello (detto anche dardo).  
+
+STATISTICHE:  
+
+Danno: +2 (missile)  
+Peso: 14  
+Fattore Velocità: 10  
+Tipo di competenza: Armi Proiettili  
+Tipo: A 2 mani~
+@576  = ~La Torcia è stata fatta da uno gnomo pazzo che aveva un qualcosa per il fuoco. Questa è stata una delle poche cose sopravvissute del suo laboratorio dopo che prese fuoco a causa di quest'arma mentre la stava testando.  
+
+STATISTICHE:  
+
+Danno: 2D6  
+THAC0: bonus +3  
+Speciale: Non richiede munizioni  
+Fattore Velocità: 3  
+Tipo di competenza: Armi a proiettili 
+Tipo: A 2 mani~
+@577  = ~Martello da Guerra di Mithril +3~
+@578  = ~Guerrieri e chierici Nani sono particolarmente inclini ad usare Martelli da Guerra di Mithril in battaglia e alcuni dei migliori martelli da guerra mai fatti sono nanici in origine. Questo in particolare mostra rune naniche decorative sull'asta. Di solito è  fatto interamente in acciaio o in lega di mithril, con rondelle che proteggono e rinforzano l'impugnatura. Le rondelle sono piccoli dischi di metallo spesso ornati con motivi decorativi. L'asta è lunga circa 54 cm.  
+
+STATISTICHE:  
+
+Danno: 2D4 +3 (+1d6 di danno elettrico)  
+THAC0: +3
+Tipo di Danno: schiacciamento  
+Peso: 6  
+Fattore Velocità: 2  
+Tipo di competenza: Armi Contundenti  
+Tipo: A 1 mano~
+@579  = ~Corazza Nanica di Mithril~
+@580  = ~La Corazza Nanica di Mithril è la miglior armatura che il denaro può comprare. Il suo unico difetto è essere stata fatta per le razze più piccole.  
+
+STATISTICHE:  
+
+Bonus: +1 alla Costituzione  
+Classe Armatura: -2  
+Peso: 20
+  
+Utilizzabile da:  
+ Nani, Halfling e Gnomi~
+@581  = ~Scudo Grande di Mithril +3~
+@582  = ~Gli scudi di mithril sono noti per essere robusti durante il combattimento. Anche se i nani preferiscono non avere scudi, dal momento che preferiscono brandire grandi martelli a due mani e asce, essi fanno ancora questi scudi per i tirocinanti e per le altre razze dei Reami.    
+
+STATISTICHE:  
+
+Classe Armatura: bonus +3, +3 contro le Armi a Proiettili  
+Peso: 20~
+@583  = ~Proiettile +2 "Forgia Fuoco"~
+@584  = ~Correnti magiche sono incorporate all'interno di questo proiettile in modo tale che sembra un po' più equilibrato e leggero quando vine lanciato verso un avversario.   
+
+STATISTICHE:  
+
+Danno: 1D4 +2  
+THAC0: +2  
+Speciale: 1D6 di danno da Fuoco  
+Tipo di danno: a distanza (perforante)  
+Peso: 0  
+Arma da lancio: Fionda~
+@585  = ~Arco Corto +3, "L'Arco di Morgoth"~
+@586  = ~Arco Corto +3, "L'Arco di Morgoth"  
+Morgoth era un grande mago in età antica che ha amato archi e spade. Ø stato narrato che avesse un enorme arsenale di armi magiche ma ne sono state ritrovate pochissime.   
+
+STATISTICHE:  
+
+Danno: 1D4 +3 da dardi incantati (tiri salvezza contro incantesimi e resistenza magica non possono essere applicati per ridurre il danno)  
+THAC0: +3  
+Peso: 4  
+Fattore Velocità: 1  
+Speciale: Lancia 5 dardi incantati; l'arco in sé non richiede munizioni; dardi magici illimitati.~
+@587  = ~Alabarda +3 "La Stordente"~
+@588  = ~Questa alabarda è fatta con il miglior acciaio dai migliori fabbri di tutti i paesi. Ø stata dotata di proprietà extra dai maghi ed è senza dubbio la migliore alabarda tra tutte. Quando colpisce una persona per quanto piccolo sia taglio la stordisce comunque con le onde di energia dando all'attaccante un grande vantaggio.  
+
+STATISTICHE:  
+
+Danno: 1D10 +3  
+Speciale: 50% di possibilità di stordire il nemico per 10 secondi.  
+THAC0: bonus +2  
+Tipo di Danno: perforante  
+Peso: 12  
+Fattore Velocità: 7  
+Tipo di competenza: Lancia  
+Tipo: A 2 mani~
+@589  = ~Corazza di piastre del Re +5~
+@590  = ~Una volta Indossata dal re di Thorin Thalaxx questa armatura è apparsa e scomparsa nel corso dei secoli e dei piani. Poderosi incantesimi sulla corazza hanno eliminato tutto il peso da essa, causando un bagliore tale da far sembrare essa stessa un'apparizione, e fortificandola notevolmente contro colpi di ogni tipo - tanto che solo le armi magiche hanno qualche possibilità di penetrare la protezione che offre.    
+
+STATISTICHE:  
+
+Classe Armatura: -4  
+Peso: 0  
+Immunità alle Armi Non-Magiche~
+@591  = ~Spada a due mani +2 "La Furia"~
+@592  = ~Melchor Hammerthorn era un nano che credeva che le battaglie si vincessero con ordine e tattiche 
+ben congeniate. Egli aveva alcune armi incantate in modo tale che ad ogni colpo il nemico perdeva il controllo e combatteva in maniera caotica. Il problema fu che ciò fece impazzire i nemici che divennero insensibili ad ogni colpo. Melchor imparò questa lezione troppo tardi, quando un orco si avvicinò a lui con 20 frecce conficcate nel suo corpo. Anche con l'ascia di Melchor incastrata nel petto da orco egli fu ancora in grado di lacerare a metà Melchor con le sue grandi mani. 
+
+STATISTICHE: 
+
+50% di possibilità che ogni colpo causi follia nel bersaglio
+
+Danno: 1D10 +2 
+THAC0: Bonus +3 
+Tipo di Danno: Taglio 
+Peso:  11 
+Fattore Velocità: 9 
+Tipo di competenza: Spada Grande
+Tipo: A 2 mani~
+@593  = ~Ascia da battaglia +3 Il Potere di Duragon~
+@594  = ~La versione più comune dell'ascia da battaglia è un grosso bastone lungo circa 1,20 m con una lama affilata da una parte montata su un lato. Le asce da battaglia vengono chiamate anche asce larghe.
+
+STATISTICHE:
+
+Danno: 1D8
+Tipo di Danno: Taglio
+Peso: 7
+Fattore Velocità: 7
+Tipo di competenza: Ascia
+Tipo: A 1 mano~
+@595  = ~Questa ascia apparteneva al re Duragon prima che cadesse in battaglia. Ø rimasta nel Clan Duragon per secoli prima che fosse tolta dal cadavere di re Duragon. Ø stata un'ascia di grande potere dedicata a Moradin il Forgianime.
+
+STATISTICHE: 
+
++1 alla Forza
++2 di danno elettrico
+Danno:  1D8 +3 
+Tipo di Danno: Taglio 
+Peso: 7 
+Fattore Velocità: 6 
+Tipo di competenza: Ascia 
+Tipo: A 1 mano~
+@596  = ~Morning Star +3: La Mazza di Thorgensons~
+@597  = ~Thorgensons era il capitano della guardia del Clan Duragon. Egli abbatté molti Orchi e Goblin con questa Mazza nelle guerre che il Clan Duragon combatté contro le orride bestie. Nello scontro finale con l'orda di orchi i pochi nani guerrieri rimanenti lottarono duramente e morirono ma abbatterono molti orchi prima di morire. Thorgenson morì difendendo il suo signore Sven Duragon nelle ultime ore prima che Duragon Keep cadesse. 
+
+STATISTICHE: 
+
+Danno:  2D4+3 
+THAC0: +3 
+Tipo di Danno: Schiacciamento 
+Speciale: +1 alla Costituzione  
+Peso: 10 
+Fattore Velocità: 4 
+Tipo di competenza: Arma chiodata 
+Tipo: A 1 mano~
+@598  = ~Coltello da burro di Balduran Migliorato~
+@599  = ~Coltello da burro di Balduran:
+Le leggende parlano sovente del coltello da burro di Balduran. L'eroe non usava nessun altro utensile a tavola. Si pensa che fu sua madre a regalarglielo in occasione del suo diciottesimo compleanno.
+
+STATISTICHE: 
+
+Danno:  1D6 +3 
+THAC0: Bonus +3 
+Tipo di Danno: Perforazione 
+Peso: 2 
+Fattore Velocità: 0 
+Tipo di competenza: Spada Piccola
+Tipo: A 1 mano~
+@600  = ~Flagello dei Ragni Migliorato~
+@601  = ~La spada Flagello dei Ragni è stata originariamente forgiata dai nani appartenenti alla tribù Orothiar nel Bosco Ammantato. I nani costruirono la spada per favorire i rapporti fra loro e i Granduchi di Baldur's Gate. Utilizzata dai Granduchi per circa un secolo, la spada andò infine perduta, per ironia della sorte, in un combattimento contro gli ettercap e i ragni. Nessuno sa chi possiede ora la spada. Il suo recupero sarebbe tuttavia di grande aiuto nella lotta contro i ragni che infestano il Bosco Ammantato.
+
+STATISTICHE:
+
+Danno da Veleno: 2 punti di danno ogni secondo per 15 secondi se si fallisce un tiro salvezza contro veleno
+Danno: 1D10 +3
+THAC0: Bonus +3 
+Speciale: Libertà d'azione (mentre è impugnata). Protegge colui che la brandisce dagli incantesimi contro il movimento, quali Blocco e Ragnatela.
+Tipo di Danno: Taglio
+Peso: 10
+Fattore Velocità: 8
+Tipo di competenza: Spada Grande
+Tipo: A 2 mani~
+@602  = ~Spada lunga Migliorata +1, Lingua di Fuoco~
+@603  = ~Spada Lingua di Fuoco: "Terra Rovente"
+Un tempo a Neverwinter non faceva ancora caldo e ad Anauroch non tutto era secco ed arido... o almeno così si dice. Le testimonianze sono rare e conosciamo soltanto alcuni oggetti di quell'epoca. A cosa servisse la "Terra Rovente", per esempio, è chiaro: bruciava le vittime con una fiamma magica. Una pietra runica criptica sembra suggerire che il potere sia emanato dalla terra stessa, ma tutto il resto è un mistero. Sembra un'arma normalissima, ma c'è qualcosa di... insolito nell'impugnatura che, oltre a sottoporre l'avambraccio ad un considerevole sforzo, non è facile da prendere con la mano. Le prestazioni del guerriero non ne risentono molto, ma questa spada non sembra fatta né per lui, né per altri... umanoidi. 
+
+STATISTICHE: 
+
+Danno: 1D8 +2, +1 di danno da fuoco
+THAC0: Bonus +1 
+Speciale: +2 contro le creature che si rigenerano
+                +3 contro le creature che usano il freddo
+                +4 contro i non morti 
+Tipo di Danno: Taglio 
+Peso: 4 
+Fattore Velocità: 3 
+Tipo di competenza: Spada Grande 
+Tipo: A 1 mano~
+@604  = ~Scimitarra Migliorata +2~
+@605  = ~Scimitarra +2: "Artiglio di Rhashad"
+Questa lama ha viaggiato lontano sin dalla sua forgiatura sulle coste del Mare Scintillante. Non esistono tuttavia testimonianze serie in merito, perché si tratta di un oggetto mondano, un'arma molto comune tra le ricche élite dell'estremo sud e certamente non una rarità per gli storici della zona. Ciò è incomprensibile per un cittadino della Costa della Spada, dove la gente muore ancora oggi per oggetti di pari o addirittura minore valore. Quest'arma in particolare potrebbe essere appartenuta a un ricco Visir o forse a un suo servitore.  
+
+STATISTICHE:  
+
+Quando la si impugna si è sotto l'incantesimo Velocità 
+THAC0: Bonus +2 
+Danno: 1D8 +2 
+Tipo di Danno: Taglio 
+Peso: 3 
+Fattore Velocità: 3 
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@606  = ~Anello di resistenza al fuoco Migliorato~
+@607  = ~Anello di resistenza al fuoco: "Passaporto di Batalista"
+Il grande mago Batalista creò questo oggetto per i suoi viaggi nella Pianura del Fuoco e si dice che durante la creazione abbia chiamato più volte una Salamandra da quel reame per farsi aiutare. Le Salamandre non sono rinomate per la loro pazienza, e Batalista non avrebbe dovuto infastidire così il suo "istruttore". Il dito che indossava l'anello finito non venne effettivamente toccato dall'inferno che rivendicò la sua torre. Se il dito fosse rimasto attaccato, forse le cose sarebbero andate meglio anche per Batalista.
+
+STATISTICHE:
+
+Resistenza al fuoco: +60%~
+@608  = ~Elmo di Balduran Migliorato~
+@609  = ~Si ritiene che il favoloso Elmo di Balduran, il leggendario fondatore di Baldur's Gate, disponga di una potente magia protettiva. Tuttavia, l'esatta natura di questa magia non è stata ancora determinata. 
+
+STATISTICHE: 
+
+Bonus Classe Armatura: 2 
+Punti feriti massimi:  +5 
+Tiri salvezza: Bonus +1 
+THAC0: Bonus +1 
+Special: Protegge contro colpi critici 
+Peso: 1~
+@610  = ~Corazza di maglia Migliorata +3~
+@611  = ~Corazza di maglia +3: “Maglia della morte”
+Un mago può trasformarsi in un assassino molto pericoloso, come ha dimostrato Vorusta più di 400 anni fa, la quale creava scheletri guerrieri equipaggiati con una corazza incantata e una spada molto potente e li lanciava contro gli obiettivi. Quando la macchina da guerra aveva terminato l'opera, Vorusta recuperava l'equipaggiamento e ricominciava da capo.  
+
+STATISTICHE:
+
+Classe Armatura: 2
+Peso: 10~
+@612  = ~Arco Lungo Migliorato +2~
+@613  = ~L'arco lungo è simile a quello corto, ma il sostegno è alto quasi quanto l'arciere, di solito da 1,8 a 2 m. L'arco lungo scaglia le frecce a una minore velocità rispetto a quello corto, ma ha una migliore gittata ed è più preciso. Possiede inoltre proprietà magiche che lo rendono quasi perfetto. 
+
+STATISTICHE: 
+
++1 alla Destrezza
+THAC0: +3 
+Danno: +2 
+Peso: 3 
+Fattore Velocità: 6 
+Tipo di competenza: Archi 
+Tipo: A 2 mani~
+@614  = ~Arco d'aquila Migliorato~
+@615  = ~Arco Corto, Arco d'aquila: "Protettore delle Driadi"
+Per proteggere la comunità da un accampamento di orchetti tagliaboschi in attacco, l'eroe Hannable il Bianco ricevette questo meraviglioso arco dalle driadi della Foresta Gulthmere. Un confronto mortale seguì al tentativo dei tagliaboschi di abbattere la grande quercia rischiando di uccidere la driade che vi risiedeva. Con l'aiuto dei forti animali della foresta, Hannable ammazzò intere bande di orchetti prima che il bosco subisse ulteriori danni. Gli orchetti dovettero abbandonare i loro piani per paura della rabbia di Hannable e della foresta. Ovviamente, l'eroe che aiutò le driadi visse per sempre felice... anzi MOLTO felice e contento. 
+
+STATISTICHE: 
+
++1 alla Destrezza 
+THAC0: +2 
+Danno: +2 
+Peso: 2 
+Fattore Velocità: 1 
+Tipo di competenza: Archi 
+Tipo: A 2 mani~
+@616  = ~Cinghia di sfondamento Migliorata: "La Sventura degli Elfi"~
+@617  = ~Cinghia di sfondamento: "La Sventura degli Elfi"
+Ai suoi tempi un ignobile brigante, Pandar di Scardale, si creò una certa fama tormentando gli elfi della foresta di Cormanthor. Contro il loro volere continuava a usare il bosco per sfuggire alla giustizia e, grazie alla cinghia, anche alle frecce degli elfi. Ma per sfortuna di Pandar, le trappole e la fame si rivelarono un lento, ma efficiente, sostituto. Ø stata combinata con una Pozione di forza del gigante del fuoco per ottenerne la forza.
+
+STATISTICHE:
+
+Forza impostata a 22
+Bonus Classe Armatura:  +3 contro armi da perforazione
+Peso: 2~
+@618  = ~Ascia da battaglia Migliorata +2~
+@619  = ~Ascia da battaglia +2: “Ascia da battaglia di Mauletar”
+Durante la guerra civile di Tethyr, l'Ascia da battaglia di Mauletar apparteneva alla casata di Ossyind. Questa nobile famiglia venne tradita mentre stava tentando di abbandonare il paese e Mauletar, capo delle guardie e amico personale, prese l'ascia e si sacrificò per guadagnare tempo in modo da consentire ai suoi amici di scappare. Il suo sacrificio incontrò il favore degli dei e le sue gesta si diffusero per tutte le terre come simbolo di grande amicizia e fedeltà. Poiché l'ascia magica venne usata per difendere queste virtù, dovrà essere usata contro coloro che non sanno cosa siano onore e coraggio. 
+
+STATISTICHE: 
+
++10 punti ferita
+Danno: 1D8 +2 
+THAC0: Bonus +2 
+Tipo di Danno: Taglio 
+Peso: 5 
+Fattore Velocità: 5 
+Tipo di competenza: Ascia 
+Tipo: A 1 mano~
+@620  = ~Corazza di Piastre di Duragon +4~
+@621  = ~Questa armatura d'oro apparteneva a Sven Duragon re del Clan Duragon. Duragon è stato l'ultimo re del clan prima del suo totale annientamento per mano di Orchi e Goblin che erano stati guidati da alcuni nani duergar. 
+
+STATISTICHE: 
+
++20 di Resistenza al Fuoco
+-10 di Resistenza al Freddo
+Classe Armatura: -1 
+Peso: 18~
+@622  = ~Lancia della Natura~
+@623  = ~Etched in rune druidiche si traduce in "La furia della tempesta distruggerà la rovina della natura".  
+
+STATISTICHE: 
+
+10% di danno da fulmine
+Danno: 1D6 +2 
+THAC0: +2 
+Tipo di Danno: Perforazione 
+Speciale: 1d6 di danno elettrico 
+Peso: 3 
+Fattore Velocità: 3 
+Tipo di competenza: Lancia 
+Tipo: A 2 mani
+
+Utilizzabile da: 
+Druido e Ranger~
+@624  = ~Coltellaccio +2 "Quintus D' Sol"~
+@625  = ~La lama lunga e ricurva, affilata da una sola parte, caratterizza sia la sciabola che la scimitarra, anche se sono originarie di due parti diverse di Faerun. Il coltellaccio, a causa della sua struttura leggera, è la scelta di molti ladri e briganti.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@626  = ~Quinto D' Sol apparteneva al capitano pirata di nome William Delver detto Bill il Sanguinario. Lui e il suo equipaggio abbordavano e saccheggiavano i vascelli indifesi nel mare e uccidevano tutti i prigionieri in modo che non fossero testimoni del crimine. Lui fece l'errore di attaccare una nave che sembrava essere una nave mercantile, ma in realtà era una nave da trasporto truppe. Egli e ciò che sopravvisse alla lotta del suo equipaggio furono catturati. Egli e il suo equipaggio furono legati alla loro nave che fu affondata con tutti loro ancora in vita. Ora i loro corpi sono uniti a quelli delle loro vittime che avevano spedito in fondo del mare per essere torturati eternamente. 
+
+STATISTICHE:
+
+THAC0: bonus +2 
+Danno: 1D8 +2 
+Speciale: 2D4 di danno da Fuoco 
+Tipo di Danno: Taglio 
+Peso: 3 
+Fattore Velocità: 3 
+Tipo di competenza: Spada Grande 
+Tipo: A 1 mano~
+@627  = ~Martello da Guerra +2 "Inferno"~
+@628  = ~Un Martello da Guerra è un martello da falegname eccessivamente grande, che è manico al cinque per cento, e al novantacinque per cento testa. Essi sono forgiati in questo esatto standard, e sono delle formidabili armi contundenti.
+
+STATISTICHE:
+
+10% di Resistenza al Fuoco
++2 di danni da fuoco
+Danno: 2D4 +2
+THAC0: +2
+Tipo di Danno:  Schiacciamento
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza:  Martello da Guerra
+Tipo: A 1 mano
+Richiede: Forza 9~
+@629  = ~Martello da Guerra +2 "Morso di Gelo"~
+@630  = ~Questo Martello da Guerra apparteneva al gigante del gelo chiamato Korgrath. Lui diede il nome al suo Martello a causa della sia viverna del gelo "Morso di Gelo". Quando Morso di Gelo morì per mano di alcuni avventurieri, Korgrath comandò al suo sciamano di eseguire un rituale di sangue su questo martello col risultato che questo martello fa danni da freddo.
+
+STATISTICHE:
+
+Danno:  2D4 +2, +2 di danni da freddo
+THAC0: +2
+Tipo di Danno: Schiacciamento
+Peso: 6
+Fattore Velocità: 4
+Tipo di competenza: Martello da Guerra
+Tipo: A 1 mano
+Richiede: Forza 9~
+@631  = ~Elmo di Guerra~
+@632  = ~Questo Elmo di Guerra fu fatto da un sacerdote di Tempus. Solo pochi selezionati nel suo clero hanno l'onore di avere un elmo come questo. Un chierico morirebbe prima di dar via questo elmo. 
+
+STATISTICHE:
+
+Bonus Classe Armatura: +1
+Speciale:  
+ Protegge dai Colpi Critici
+ +1 alla THAC0
+Peso: 4~
+@633  = ~Elmo della Salute~
+@634  = ~Questo elmo  è stata fatto per dare al guerriero un vantaggio alla sua resistenza quando combatte o fa l'avventuriero in generale. 
+
+STATISTICHE:
+
+Bonus Classe Armatura: +1
+Speciale:  
+ Protegge dai Colpi Critici
+ +1 alla Costituzione
+Peso: 4~
+@635  = ~Veste del Prodigio~
+@636  = ~Questo potente abito da mago offre protezione da tutte le forme di attacco fisico aumentando al contempo la resistenza alla magia e i tiri-salvezza dell'individuo.
+
+STATISTICHE:
+
+ 1 incantesimo Bonus per i livelli 1 e 2.
+Classe Armatura: 3
+Resistenza alla magia: 15%
+Tiri Salvezza: bonus +1 
+Peso: 6
+
+Utilizzabile da:
+ Mago~
+@637  = ~Mazzafrusto +2~
+@638  = ~Il mazzafrusto è composto da una solida impugnatura di legno attaccata a una verga di ferro o di legno, oppure a una palla, provvista di spine. Tra l'impugnatura e il resto si trova un perno o un anello. L'arma è stata potenziata magicamente e instaura un effettivo legame con colui che la adopera, dandogli un bonus per colpire e danneggiare gli avversari, un attacco veloce, e la capacità di colpire gli avversari che sono immuni alle armi normali.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +2
+Tipo di Danno: Schiacciamento
+Peso: 13
+Fattore Velocità: 6
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@639  = ~La mazza è un diretto discendente della clava, poiché non è altro che un bastone di legno sulla cui estremità è montata una punta di ferro. In questo caso la punta è conica, montata su un bastone di quercia levigato, e sembra risplendere di una luce blu interna. Questa mazza è stata incantata, dando al possessore un bonus per colpire e danneggiare gli avversari, un attacco veloce, e la capacità di colpire gli avversari che sono immuni alle armi normali.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +2
+Tipo di Danno: Schiacciamento
+Peso: 8
+Fattore Velocità: 6
+Tipo di competenza: Armi contundenti
+Tipo: A 1 mano~
+@640  = ~Morning Star +2~
+@641  = ~La morning star è una lancia di legno che termina con una punta di metallo realizzata con una guaina di ferro chiodata. La lunghezza totale della morning star è di circa 1,2 m. In particolare, questa morning star presenta la punta in oro potenziata magicamente in modo da migliorarne le prestazioni e rimediare alla malleabilità dell'oro. Essa è incantata per dare al possessore un bonus per colpire e danneggiare gli avversari, un attacco veloce, e la capacità di colpire gli avversari che sono immuni alle armi normali.
+
+STATISTICHE:
+
+Danno: 2D4 +3
+THAC0: +2
+Tipo di Danno: Schiacciamento
+Peso: 10
+Fattore Velocità: 6
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@642  = ~Mazzafrusto +3 L'Inverno della Rovina~
+@643  = ~Questo mazzafrusto ha un'aura di freddo che lo circonda. Nessuno sa da dove è venuto, ma è stato detto che è arrivato dalle Terre settentrionali ed è stato fatto da una sacerdotessa di Auril. 
+
+STATISTICHE:
+
+1D3 di danni da Freddo
+Danno: 1D6 +3
+THAC0: +3
+Tipo di Danno: Schiacciamento
+Peso: 7
+Fattore Velocità: 3
+Tipo di competenza: Arma chiodata
+Tipo: A 1 mano~
+@644  = ~Mazza +3 "Purificatore"~
+@645  = ~Inciso sul manico della mazza si legge "Purificazione è potere, il male non regnerà". Questa mazza è stata fatta per purificare il male dal mondo attraverso il fuoco.
+
+STATISTICHE:
+
++1 alla Saggezza
+Danno: 1D6 +3, +1 di danno da Fuoco
+THAC0: +3
+Tipo di Danno: Schiacciamento
+Peso: 8
+Fattore Velocità: 6
+Tipo di competenza: Armi contundenti
+Tipo: A 1 mano
+
+Usabile da:
+ Chierico
+ Ranger
+ Paladino~
+@646  = ~Brotus Bloodthirsty~
+@647  = ~Chierico Duergar~
+@648  = ~Gorken Bloodaxe~
+@649  = ~Guerriero Duergar~
+@650  = ~Ladro Duergar~
+@651  = ~Marinaio Wally G Hrey~
+@652  = ~Marinaio Willi D Fain~
+@653  = ~Thorengrim Hammerfist~
+@654  = ~Maria Darkblade~
+@655  = ~Khan Noonian Singh~
+@656  = ~Quintus lo Svelto~
+@657  = ~Garak il Signore della Rovina~
+@658  = ~Gorth~
+@659  = ~Sir Winton~
+@660  = ~Élite Artigli Neri~
+@661  = ~Silvia Oscura~
+@662  = ~Morgan~
+@663  = ~Druido~
+@664  = ~Selene~
+@665  = ~Morte Bruciante~
+@666  = ~Ashirukuru~
+@667  = ~Guerriero delle Ombre~
+@668  = ~Orso di montagna~
+@669  = ~Orso Polare~
+@670  = ~Zargos Flintblade~
+@671  = ~Tristan~
+@672  = ~Malious~
+@673  = ~Phallen Nightsbane~
+@674  = ~Necardian~
+@675  = ~Isolde~
+@676  = ~Mendas~
+@677  = ~Drago~
+@678  = ~Miranda la Strega~
+@679  = ~Kieran~
+@680  = ~Wendell~
+@681  = ~Driade Pazza~
+@682  = ~Chef Martel~
+@683  = ~Goblin~
+@684  = ~Ghoul Maggiore~
+@685  = ~Arcimago Arias~
+@686  = ~Cavaliere fantasma~
+@687  = ~Anton Valore~
+@688  = ~Garrett~
+@689  = ~Synthia Malivore~
+@690  = ~Arcimago Natas~
+@691  = ~Gnoll Capoclan~
+@692  = ~Gnoll Guardiaclan~
+@693  = ~Smeagol~
+@694  = ~Orrore con Elmo~
+@695  = ~Hobgoblin~
+@696  = ~Élite hobgoblin~
+@697  = ~Generale Hobgoblin~
+@698  = ~Generale Artigli Neri~
+@699  = ~Coboldo~
+@700  = ~Coboldo Capoclan~
+@701  = ~Coboldo Strega Dottore~
+@702  = ~Magnus~
+@703  = ~Quincy il Gioielliere~
+@704  = ~Ratava Artsym~
+@705  = ~Guardia~
+@706  = ~Che sia rapido e definitivo!~ [CMJUST01]
+@707  = ~Vallius~
+@708  = ~Najara~
+@709  = ~Tu non sei niente di fronte al mio Dio.~ [CMNAJ01]
+@710  = ~Sono tutt'uno con le potenze!~ [CMNAJ02]
+@711  = ~Ahhh~ [CMNAJ03]
+@712  = ~L'ho mancato!~ [CMNAJ05]
+@713  = ~Orco magi~
+@714  = ~Guardia di Oversight~
+@715  = ~Chierico di Oversight~
+@716  = ~Mago da Guerra di Oversight~
+@717  = ~Élite di Oversight~
+@718  = ~Bardo di Oversight~
+@719  = ~Tortura Gemella~
+@720  = ~Maggiordomo~
+@721  = ~Halabasher Dhunshar~
+@722  = ~Rocky "The Rock" Squirrel~
+@723  = ~Nikita~
+@724  = ~Michael~
+@725  = ~Paul Wolfe~
+@726  = ~Mai più saranno violate le mura di questa fortezza.~ [PAUL7]
+@727  = ~Dolore.~ [PAUL8]
+@728  = ~Ahhh~ [PAUL3]
+@729  = ~No! Come è possibile?~ [PAUL2]
+@730  = ~Madeline~
+@731  = ~Michael Samuelle~
+@732  = ~Quinn~
+@733  = ~Davenport~
+@734  = ~Andrea~
+@735  = ~George~
+@736  = ~Sir Jones~
+@737  = ~Operativo della Sezione~
+@738  = ~Élite della Sezione~
+@739  = ~Lillian Darkwater~
+@740  = ~Scheletro~
+@741  = ~Scheletro Guerriero~
+@742  = ~Cavaliere della Morte~
+@743  = ~Cucciolo di viverna~
+@744  = ~Beren~
+@745  = ~Luthian~
+@746  = ~Magazzino di Magnus~
+@747  = ~Forgia di Hammerfist~
+@748  = ~Gioielleria di Quincy~
+@749  = ~Negozio di Kieran~
+@750  = ~Negozio Magico di Mystra~
+@751  = ~Nemici più difficili~
+@752  = ~Installare il Pacchetto di Regole di Livello 40?~
+@753  = ~Pacchetto di Regole di Livello 40 (Non installare se hai installato un altro Pacchetto di regole come quello di DSotSC.)~
+@754	= ~Solo BG1~
+@755	= ~Mantello~
+@756	= ~Il mantello può avere qualsiasi forma ed essere di qualsiasi tipo di stoffa. Le forme più comuni sono un pezzo circolare di tessuto con un foro per la testa e tessuto drappeggiato attorno al collo legato da una catenella, una spilla, una cordicella o spilli.~
+@757	= ~Mazzafrusto~
+@758	= ~Il mazzafrusto è una impugnatura di legno robusto applicata a una mazza di ferro, a una mazza di legno con dei chiodi oppure una palla di ferro chiodata. Tra l'impugnatura e il suo strumento c'è una cerniera oppure un anello. L'arma veniva originariamente usata per trebbiare il grano.
+
+STATISTICHE:
+
+Danno: 1D6 +1
+Tipo di Danno: Schiacciamento
+Peso: 15
+Fattore Velocità: 7
+Tipo di competenza: Armi Chiodate
+Tipo: A 1 mano~
+@759	= ~Bastone Rinforzato~
+@760	= ~Il bastone rinforzato è la più semplice e umile delle armi lunghe ed è costituito da un pezzo di legno lungo da 1,8 a 2,7 m. I bastoni rinforzati di alta qualità vengono fatti in duro legno di quercia e sono ricoperti di metallo a entrambe le estremità. Quest'arma deve essere brandita con entrambe le mani. 
+
+STATISTICHE:
+
+Danno: 1D6
+Tipo di Danno: Schiacciamento
+Peso: 4
+Fattore Velocità: 4
+Tipo di competenza: Armi Contundenti
+Tipo: A 2 mani~
+@761	= ~Anello~
+@762	= ~Un anello è una piccola fascia di metallo prezioso utilizzata come gioiello. Alcuni anelli rari sono stati incantati e hanno acquisito poteri magici. Questi anelli sono molto ricercati, soprattutto dagli avventurieri.~
+@763	= ~Pozione~
+@764	= ~Ascia~
+@765	= ~Scimitarra~
+@766	= ~Guanti~
+@767	= ~Corazza a strisce~
+@768	= ~Martello da Guerra~
+@769	= ~Corazza di piastre~
+@770	= ~Scudo Grande~
+@771	= ~Arco corto~
+@772	= ~Alabarda~
+@773	= ~Elmo~
+@774	= ~Spada a due mani~
+@775	= ~Mazzafrusto~
+@776	= ~Coltello~
+@777	= ~Spada Lunga~
+@778	= ~Scimitarra~
+@779	= ~Anello~
+@780	= ~Elmo~
+@781	= ~Corazza di maglia~
+@782	= ~Arco lungo~
+@783	= ~Arco corto~
+@784	= ~Cinghie~
+@785	= ~Ascia da battaglia~
+@786	= ~Lancia~
+@787	= ~Martello da Guerra~
+@788	= ~Costume~
+@789	= ~Mazza~
+@790	= ~Morning Star~
+// New Content
+@791    = ~Garret~
+@792    = ~Allister~
+@793    = ~Zara~
+@794    = ~Hilgaar~
+@795    = ~Taneth~
+@796    = ~Erica~
+@797    = ~Jeneik~
+@798    = ~Élite Guerriera Gnoll~
+@799    = ~Veterano Guerriero Gnoll~
+@800    = ~Jhaeros Auglathla~
+@801    = ~Ygrainne Windstar~
+@802    = ~Guardia del Corpo Elfica~
+@803    = ~Mercante~
+@804    = ~Sig.na Godfrey~
+@805    = ~Guardia della Carovana~
+@806    = ~Guardia del Signore del Mattino~
+@807    = ~Maestro del Mattino~
+@808    = ~Signore del Mattino~
+
+@809    = ~Questa piccola borsa è ideale per contenere delle gemme.~
+
+@810    = ~Borsa delle gemme~
+
+@811    = ~Questo robusto contenitore è fatto in modo che diverse pergamene possano essere messe al suo interno e tenute al sicuro dal fuoco, dalla pioggia o dall'elettricità -- il genere di problemi che un mago avventuriero si trova spesso ad affrontare.~
+
+@812    = ~Custodia della pergamena~
+
+@813    = ~Come nel caso di altre borse magiche, questa a prima vista sembra una semplice sacca di tela di 60 cm. per 120 cm. La borsa conservante si apre invece su uno spazio extradimensionale, ed il suo interno è molto più grande dell'esterno. A prescindere da cosa ci sia stato messo dentro, la borsa pesa sempre allo stesso modo.~
+
+@814    = ~Borsa Conservante~
+
+@815    = ~Questa bandoliera è l'ideale per tenere proiettili, dardi, frecce o quadrelli.~
+
+@816    = ~Cintura delle munizioni~
+
+@817    = ~Solitamente in possesso dei guaritori erranti, questo astuccio di cuoio si srotola e permette a chi lo utilizza di fissare delicate bottigliette per le pozioni, nel suo lato imbottito, con numerose strisce di cuoio per una custodia sicura durante il viaggio.
+
+STATISTICHE:
+
+Peso: 5~
+
+@818    = ~Astuccio per pozioni~
+@819    = ~Articoli di Godfrey~
+@820    = ~Abito del Mago Rosso~
+@821    = ~Questo potente Abito del Mago Rosso offre protezione da ogni forma di attacco fisico e allo stesso tempo aumenta la resistenza magica e i tiri salvezza. A causa della natura del suo incantamento, può essere indossato solo dai maghi di allineamento malvagio.
+
+STATISTICHE:
+
+Classe Armatura: 5
+Resistenza alla Magia: 5%
+Tiri Salvezza: +1 bonus
+Peso: 6~
+
+@822    = ~Fionda +2~
+@823    = ~La fionda esiste dagli albori dell'umanità. La fionda semplice è fatta di un nastro di pelle o stoffa con una sacca per contenere il proiettile. Questa è comunque impregnata di un piccolo incantamento magico. L'arma viene sostenuta da entrambe le estremità del nastro e roteata intorno alla testa di colui che la impugna. Quando si è raggiunta la massima velocità, il proiettile viene lanciato lasciando una delle estremità del nastro.
+
+STATISTICHE:
+
+Danno: +1 (danno da armi a proiettili)
+THAC0: +1
+Peso: 0
+Fattore Velocità: 5
+Tipo di competenza: Armi da lancio
+Tipo: A 1 mano~
+
+@824    = ~Pugnale +2~
+@825    = ~Pugnale +3~
+@826    = ~Il pugnale ha in genere lama appuntita e a doppio taglio, al contrario del coltello, che ha la lama affilata solo da un lato ed è più corto del pugnale.
+
+STATISTICHE:
+
+Danno: 1D6 +3
+THAC0: +2 bonus
+Tipo di Danno: Perforazione
+Peso: 2
+Fattore Velocità: 0
+Tipo di competenza: Spada piccola
+Tipo: A 1 mano~
+@827    = ~Armatura di Lathander~
+@828    = ~Cotta di Maglia Elfica +1~
+@829    = ~Fatta dagli elfi, questa maglia è tanto leggera quanto resistente. A differenza di una Cotta di Maglia  normale quelle elfiche non impediscono agli indossatori di praticare le loro abilità magiche.
+
+STATISTICHE:
+
+Classe Armatura: 4
+Peso: 10~
+@830    = ~Spada Lunga Elfica +2~
+@831    = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. In molti casi la spada lunga ha una lama affilata solo da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura e addirittura possono essere diverse anche nell'ambito di una stessa cultura in epoche diverse. Una tra le caratteristiche più comuni delle spade lunghe è, appunto, la loro lunghezza che va dagli 87 ai 117 cm. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è stata pensata per tagliare, non per infilzare.
+
+STATISTICHE:
+
+Danno: 1D8 +2
+THAC0: +1
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@832    = ~Spada Lunga Elfica +1~
+@833    = ~Queste spade sono spesso chiamate spade a doppia lama, spade da guerra o spade militari. In molti casi la spada lunga ha una lama affilata solo da un lato. Non esiste una versione unica della spada lunga: l'aspetto e la lunghezza variano da cultura a cultura e addirittura possono essere diverse anche nell'ambito di una stessa cultura in epoche diverse. Una tra le caratteristiche più comuni delle spade lunghe è, appunto, la loro lunghezza che va dagli 87 ai 117 cm. In quest'ultimo caso, la lama occupa un metro della lunghezza totale. La maggior parte delle spade lunghe ha lama a doppio taglio e punta affilata. Nonostante la punta, la spada lunga è stata pensata per tagliare, non per infilzare.
+
+STATISTICHE:
+
+Danno: 1D8 +1
+THAC0: +1
+Tipo di Danno: Taglio
+Peso: 4
+Fattore Velocità: 5
+Tipo di competenza: Spada Grande
+Tipo: A 1 mano~
+@834    = ~Arco Lungo Elfico +2~
+@835    = ~L'arco lungo elfico è simile all'arco corto, tranne per il fato che il corpo è alto all'incirca come l'arciere, cioè tra 1,8 e 2 metri. Ha due vantaggi rispetto all'arco corto: migliore gittata e quindi è molto più accurato.
+
+STATISTICHE:
+
+Speciale: +1 alla Destrezza
+THAC0: +2
+Danno: +2
+Peso: 3
+Fattore Velocità: 7
+Tipo di competenza: Archi
+Tipo: A 2 mani~
+@836    = ~Elmo di Lathander~
+@837    = ~Scudo di Lathander~
+@838    = ~Martello di Lathander~
+@839    = ~Il tipico martello che viene affidato al Signore del Mattino di Lathander. Questo martello emana un calore magico che brucia quando si tocca la testa del martello.
+
+STATISTICHE:
+
+Danno: 1D4 +3 (+4 danni da fuoco)
+THAC0: +2 bonus
+Tipo di Danno: Schiacciamento
+Peso: 5
+Fattore Velocità: 2
+Tipo di competenza: Armi Contundenti
+Tipo: A 1 mano~
+@840  = ~Sintara Al-Mustafa~
+@841  = ~Articoli della Carovana~
+@842  = ~Il Prezzo è Giusto~
+@843  = ~Tutto il Magico di Al-Mustafa~
+@844  = ~Forma incorporea~
+@845  = ~Forma incorporea (Alterazione, Illusione)
+Livello: 3
+Raggio di azione: 0 
+Durata: 2 round/livello 
+Tempo di lancio: 1
+Area d'effetto: Lo stregone 
+Tiro-salvezza: Nessuno 
+
+Quando questo incantesimo viene lanciato, il mago e i suoi abiti si smaterializzano. Lo stregone è soggetto solo alla magia e agli attacchi speciali, compresi quelli con armi da almeno +1, o da creature in grado di compiere altri attacchi, ma solo con le armi magiche. Il mago acquista anche una resistenza alla magia del 25%. Quando si trova nella Forma incorporea, lo stregone non può lanciare incantesimi.~
+
+// New info or error texts
+@890  = ~Installazione di BG:EE rilevata.~
+@891  = ~Installazione di Tutu rilevata.~
+@892  = ~Installazione di BGT rilevata.~
+@893  = ~Per favour installare su BG:EE, EET, TotSC, Tutu o BGT.~
+@894  = ~Installazione di BG1 rilevata.~
+@895  = ~Installazione di EET rilevata.~
+
+/* New in BGEE */
+
+@900 = ~Si?~
+@901 = ~Il destino ti sta aspettando!~
+@902 = ~Mantello di Protezione +2 del Bardo~
+@903 = ~Questo semplice mantello é stato imbevuto di alcune piccole proprietà magiche per aiutare a proteggere colui o colei che lo indossa. Influisce sia sui Tiri Salvezza che sulla Classe Armatura. E’ l’ideale per i maghi ed altre classi che non possono utilizzare degli scudi o non possono indossare armature molto protettive.
+
+STATISTICHE:
+
+Abilità durante l’uso:
+Classe Armatura: +2
+Tiri Salvezza: +2
+
+Peso: 3~
+@904 = ~Arco Lungo del Bardo: Dalewood~
+@905 = ~Dalewood é l’arco personale di Morwen che le é stato tramandato dal suo mentore, Dale il Bardo. Dale veniva da Bryn Shander, una delle Dieci Cittadine della Valle del Vento Gelido. Era noto per le sue gesta nelle avventure sia per le sue epiche storie che cantava intorno al fuoco. Morì per mano di un assassino, il suo sangue ancora macchia quest’arco dopo tutti questi anni.
+
+STATISTICHE:
+
+Abilità in combattimento:
+1 attacco extra per round
+
+THAC0: +3
+Danno: +2
+Fattore Velocità: 5
+Tipo di competenza: Arco Lungo
+Tipo: A due mani
+Richiede:
+ 6 alla Forza~
+@906 = ~Bracciali dell’Arciere di Dale il Bardo~
+@907 = ~Questi erano i bracciali del mentore di Morwen, il Bardo Dale. Anche senza i suoi bracciali, era un tiratore infallibile dalla lunga distanza. Il suo sangue ancora macchia questi bracciali dopo che fu ucciso da un assassino.
+
+STATISTICHE:
+
+Abilità durante l’uso:
+THAC0: +3 con le armi da lancio
+
+Peso: 2~
+
+@908 = ~Corazza di cuoio borchiata di Morwen +2~
+@909 = ~La corazza di cuoio borchiata non ha molto in comune con la normale corazza di cuoio. Mentre la corazza di cuoio é una corazza indurita, la corazza di cuoio borchiata é morbida e flessibile con sopra centinaia di rivetti. I rivetti sono molto vicini l'uno all'altro in modo da formare un rivestimento flessibile di metallo per schivare attacchi falcianti e taglienti. Lo strato di cuoio morbido non è solo un sostegno su cui attaccare i rivetti.
+
+STATISTICHE:
+
++10 a Svuotare tasche
+Classe Armatura: 5 (4 contro danni taglienti, 5 contro danni perforanti e da lancio)
+Richiede:
+ 6 alla Forza
+
+Weight: 15~
+// Nikita
+@910  = ~Nikita~
+@911  = ~Capisco.~ [HFTHR029]
+@912  = ~Non possiamo vincere.~ [HFTHR001]
+// No @913, traify oddity
+@914  = ~Guardami le spalle.~ [HFTHR008]
+@915  = ~Dovremmo riposare al più presto. Non vedo l’ora di togliermi questi vestiti di dosso.~ [HFTHR010]
+@916  = ~Non ho fatto tutta questa strada per morire di noia.~ [HFTHR012]
+@917  = ~Spargiamo n pò di sangue.~ [HFTHR003]
+@918  = ~Vuoi assaggiare?~ [HFTHR004]
+@919  = ~Siete pronti per me?~ [HFTHR005]
+@920  = ~Un’ultima parola?~ [HFTHR006]
+@921  = ~Morirai.~ [HFTHR007]
+@922  = ~Ughh~ [HFTHR034]
+@923  = ~Muori~ [HFTHR037]
+@924  = ~Sento molto freddo.~ [HFTHR014]
+@925  = ~Si?~ [HFTHR016]
+@926  = ~Sono qui.~ [HFTHR017]
+@927  = ~Vuoi me?~ [HFTHR018]
+@928  = ~Pronta e volenterosa.~ [HFTHR019]
+@929  = ~Pronta.~ [HFTHR023]
+@930  = ~Molto bene.~ [HFTHR024]
+@931  = ~Si?~ [HFTHR025]
+@932  = ~Come dici.~ [HFTHR026]
+@933  = ~Ucciderei per un buon bagno caldo.~ [HFTHR030]
+@934  = ~Attenzione a dove la metti.~ [HFTHR031]
+@935  = ~Argh.~ [HFTHR034]
+@936  = ~Non aspettarti che riporti il suo cadavere in città.~ [HFTHR040]
+@937  = ~Fatto~ [HFTHR027]
+@938  = ~Il passato di NIKITA é un qualcosa che lei tiene per sé. Da quello che riesci a sapere era un’orfana ed aveva appena passato l’adolescenza quando entrò a far parte della Sezione. Nella Sezione l’addestrarono a diventare una carismatica assassina per uccidere i malvagi. Tutto ciò era a fin di bene. Ma nel corso del tempo la corruzione iniziò a serpeggiare nella Sezione che iniziò invece a rispecchiare il male che avrebbe dovuto combattere. Nikita é stata liberata dalla Sezione quando tu hai distrutto l’organizzazione.~
+// Thorin
+@939  = ~Thorin~
+@940  = ~Finalmente il potente avventuriero. A cosa devo questo onore?~ [DMF42]
+@941  = ~E’ inutile, andiamocene!~ [DMF02]
+@942  = ~Dannazione ai tuoi occhi!~ [DMF32]
+@943  = ~Spero che ti ci strozzerai con questa cosa!~ [DMF33]
+@944  = ~Quando tutti falliscono, metti il nano davanti.~ [DMF08]
+@945  = ~Ho bisogno di riposare il prima possibile.~ [DMF10]
+@946  = ~Cosa fai, aspetti che i nostri nemici ci vengono incontro?.~ [DMF13]
+@947  = ~Grrrrr!~ [DMF03]
+@948  = ~Ti sputo sopra.~ [DMF04]
+@949  = ~Vieni qui miserabile!~ [DMF05]
+@950  = ~Muori!~ [DMF06]
+@951  = ~Mi laverò la barba nel tuo sangue!~ [DMF07]
+@952  = ~E’ quest oil meglio che sai fare?~ [DMF34]
+@953  = ~Ugghh!~ [DMF36]
+@954  = ~Aghh! Ho bisogno di un guaritore!.~ [DMF14]
+@955  = ~Si?~ [DMF16]
+@956  = ~Cosa c’é?~ [DMF17]
+@957  = ~Sono qui.~ [DMF18]
+@958  = ~Hmm?~ [DMF19]
+@959  = ~Pronto.~ [DMF20]
+@960  = ~Ti sento.~ [DMF22]
+@961  = ~Fatto.~ [DMF23]
+@962  = ~Bene.~ [DMF24]
+@963  = ~Guardami che vado.~ [DMF25]
+@964  = ~Non c’é nessun problema.~ [DMF26]
+@965  = ~Si.~ [DMF27]
+@966  = ~Tutto qui?~ [DMF28]
+@967  = ~Facile come fare un pasticcio di goblin.~ [DMF29]
+@968  = ~Tu non ne sai niente, vero?~ [DMF30]
+@969  = ~Giusto, continuiamo.~ [DMF31]
+@970  = ~Muori~ [DMF06]
+@971  = ~Ughh.~ [DMF36]
+@972  = ~Quando gli chiedi del suo passato, THORIN dice che lui discende dal famoso clan di Stoneblade i cui membri erano capitani delle guardie di Durlag. Suo nonno è stato l’ultimo a servire Durlag prima che si abbattesse la catastrofe su Durlag e la sua gente. A lui piacerebbe viaggiare con il tuo gruppo fino alla Torre di Durlag per poter recuperare alcuni cimeli di famiglia che potrebbero ancora essere rimasti là e per poter sapere cosa successe a suo nonno ed al famoso Durlag Ammazzatroll.~
+// Morven uses the same soundset as Nikita
+@973  = ~Morwen~
+@974  = ~Quando gli domandi del suo passato, MORWEN dice che proviene da una famiglia agiata della città di Neverwinter. Prese piacere ascoltando per la prima volta i poemi e le storie epiche dai Bardi Skald provenienti dal nord quando la sua famiglia era in visita nella regione della Valle del Vento Gelido e lei era una giovane ragazza. Da allora in poi si appassionò alle loro avventure ed ai loro racconti leggendari. Desiderava molto imparare dai Bardi  Skald ma loro raramente venivano a Neverwinter, fino al giorno in cui il Bardo Dale fece una fermata in quella città. Morwen lo vide per la prima volta in una delle locali taverne, cantando una ballata epica. Lei si presentò a Dale che ben presto la prese come allieva e le insegnò le capacità dei Bardi Skald e l’arte del tiro con l’arco. Dopo aver imparato queste abilità, Morwen ben presto si annoiò della tranquilla vita dell’alta società di Neverwinter e decise di viaggiare verso sud, nella regione della Costa della Spada dove sentì parlare della crisi del ferro. Ha viaggiato verso Beregost per trovare qualcuno in cerca di avventure come lei.~

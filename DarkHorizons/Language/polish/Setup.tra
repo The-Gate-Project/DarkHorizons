@@ -1,4 +1,4 @@
-@0    = ~Mod "Dark Horizons" (Wymaga Opowiesci z Wybrzeza Mieczy, TuTu albo BGT)~
+@0    = ~Mod "Dark Horizons"~
 @1    = ~****************************************~
 @2    = ~* Dark Horizons Mod Versja 2.12        *~
 @3    = ~* http://www.teambg.net                *~
@@ -7,7 +7,7 @@
 @6    = ~* THE DARK HORIZONS W FOLDERZE         *~
 @7    = ~*      Z GR¥.                          *~
 @8    = ~****************************************~
-@9    = ~Wyglada na to, ze nie masz zainstalowanych BG:EE, TuTu albo BGT.~
+@9    = ~Wyglada na to, ze nie masz zainstalowanych BG:EE, EET, BG:OzWM, TuTu albo BGT.~
 @10   = ~Zbroja p³ytowa~
 @11   = ~Zbroja krasnoludzka +3~
 @12   = ~Zbroja p³ytowa sk³ada siê z metalowych p³yt, ochraniaj¹cych najwa¿niejsze czêœci cia³a, takie jak klatka piersiowa, brzuch i podbrzusze. Poszczególne jej elementy s¹ osadzone na kolczudze. Prawdziwa zbroja p³ytowa, o budowie podobnej do zbroi p³ytowej z br¹zu, sk³ada siê z kolczugi i skóry.
@@ -3793,117 +3793,11 @@ Rzucaj¹cy ten czar mag oraz ca³a jego odzie¿ trac¹ materialn¹ postaæ. Odt¹d mo¿e
 @890  = ~Wykryto zainstalowane BG:EE.~
 @891  = ~Wykryto zainstalowane Tutu.~
 @892  = ~Wykryto zainstalowane BGT.~
-@893  = ~Prosze zainstalowac BG:EE, Tutu albo BGT.~
+@893  = ~Prosze zainstalowac BG:EE, EET, BG:OzWM, TuTu albo BGT.~
+@894  = ~Wykryto zainstalowane BG1.~
+@895  = ~Wykryto zainstalowane EET.~
 
 /* New in BGEE */
 
 @900 = ~Tak?~ [CMMYST1] 
 @901 = ~Czeka ciê zag³ada!~ [CMMYST2]
-@902 = ~P³aszcz ochrony barda +2~
-@903 = ~Jest to zwyk³y p³aszcz, który zosta³ obdarzony niewielkimi magicznymi w³aœciwoœciami, poprawiaj¹cymi klasê pancerza oraz rzuty obronne w³aœciciela. Jest doskona³y dla magów i innych, którzy nie mog¹ nosiæ ciê¿szych, bardziej ograniczaj¹cych typów pancerza.
-
-PARAMETRY:
-
-Specjalne:
- +2 do Klasy Pancerza
- +2 do rzutów obronnych
-Waga: 3~
-@904 = ~D³ugi ³uk barda: 'Drzewo Dale'a'~
-@905 = ~Drzewo Dale'a to osobisty ³uk Morwen, który otrzyma³a od swego mentora, Dale'a Barda. Dale pochodzi³ z Bryn Shander, jednego z Dziesiêciu Miast Doliny Lodowego Wichru. Znany by³ zarówno ze swych przygód jak i epickich opowieœci œpiewanych przy ognisku. Dale zgin¹³ z rêki zabójcy, a œlady jego krwi wci¹¿ widniej¹ na ³uku pomimo up³ywu lat.
-
-PARAMETRY:
-
-Obra¿enia: +2
-TraK0: +3
-Specjalne:
- 1 dodatkowy atak na rundê
-OpóŸnienie: 5
-Rodzaj bieg³oœci: d³ugi ³uk
-Typ broni: 2-rêczna
-Wymagana si³a: 6~
-@906 = ~Bransolety ³ucznictwa Dale'a Barda~
-@907 = ~Te bransolety nale¿a³y do mentora Morwen, Dale'a Barda, który nawet bez nich potrafi³ zadaæ œmiertelny strza³ z du¿ej odleg³oœci. Œlady jego krwi znacz¹ te bransolety od chwili w której zgin¹³ z rêki zabójcy.
-
-PARAMETRY:
-
-TraK0: +3 (tylko bronie strzeleckie)
-Waga: 2~
-
-@908 = ~Zbroja skórzana æwiekowana Morwen +2~
-@909 = ~Zbroja skórzana æwiekowana ma niewiele wspólnego ze zwyk³¹ zbroj¹ skórzan¹. Podczas gdy zbroja skórzana jest utwardzan¹ skorup¹, zbroja æwiekowana jest miêkka i wzmocniona setkami, nabitych w niewielkich odleg³oœciach nitów. Znajduj¹ siê one tak blisko siebie, ¿e tworz¹ trudn¹ do przebicia metalow¹ zaporê, która œwietnie powstrzymuje sieczne i k³ute ataki. Miêkkie skórzane podbicie s³u¿y jedynie do utrzymania nitów w miejscu.
-
-PARAMETRY:
-
-Klasa Pancerza: 5 (4 przeciw broniom siecznym, 5 przeciw broniom k³utym i strzeleckim)
-Specjalne:
- +10 do kradzie¿y kieszonkowej
-Waga: 15
-Wymagana si³a: 6~
-// Nikita
-@910  = ~Nikita~
-@911  = ~Rozumiem.~ [HFTHR029] 
-@912  = ~Nie wygramy.~ [HFTHR001] 
-// No @913, traify oddity 
-@914  = ~Ubezpieczajcie mnie.~ [HFTHR008] 
-@915  = ~Powinniœmy odpocz¹æ. Nie mogê siê doczekaæ, a¿ wyskoczê z tych ³achmanów.~ [HFTHR010] 
-@916  = ~Nie zasz³am tak daleko tylko po to, ¿eby teraz umrzeæ z nudów.~ [HFTHR012] 
-@917  = ~Upuœæmy mu trochê krwi.~ [HFTHR003] 
-@918  = ~Chcesz posmakowaæ mojej stali?~ [HFTHR004] 
-@919  = ~Jesteœ na mnie gotowy?~ [HFTHR005] 
-@920  = ~Masz jakieœ ostatnie ¿yczenie?~ [HFTHR006] 
-@921  = ~Poznasz smak w³asnej krwi.~ [HFTHR007] 
-@922  = ~Ach!~ [HFTHR034] 
-@923  = ~~ [HFTHR037] 
-@924  = ~Jest mi... tak zimno.~ [HFTHR014] 
-@925  = ~Tak?~ [HFTHR016] 
-@926  = ~Jestem.~ [HFTHR017] 
-@927  = ~Chcesz czegoœ ode mnie?~ [HFTHR018] 
-@928  = ~Gotowa na wszystko.~ [HFTHR019] 
-@929  = ~W porz¹dku.~ [HFTHR023] 
-@930  = ~Dobrze.~ [HFTHR024] 
-@931  = ~Tak.~ [HFTHR025] 
-@932  = ~Cokolwiek tylko powiesz.~ [HFTHR026] 
-@933  = ~Zabi³abym kogoœ, byle tylko wyk¹paæ siê w gor¹cej wodzie.~ [HFTHR030] 
-@934  = ~Uwa¿aj, gdzie pchasz tê myszkê.~ [HFTHR031] 
-@935  = ~Argh.~ [HFTHR034] 
-@936  = ~Tylko nie myœl, ¿e bêdê wlec twoje cia³o z powrotem do miasta.~ [HFTHR040] 
-@937  = ~Ju¿ siê robi.~ [HFTHR027]
-@938  = ~Przesz³oœæ NIKITY to coœ, co woli zachowaæ dla siebie. Z tego co uda³o Ci siê dowiedzieæ, to by³a sierot¹ a¿ zosta³a przyjêta do Sekcji jako niemal doros³a nastolatka. Tam zosta³a wyszkolona na charyzmatyczn¹ zabójczyniê, której ofiarami padali przeró¿ni niegodziwcy. Wszystko to w imiê wiêkszego dobra. Z czasem jednak w szeregach Sekcji zaczê³o panoszyæ siê zepsucie i sama organizacja upodobni³a siê do tych, z którymi pocz¹tkowo chcia³a walczyæ. Nikita uwolni³a siê spod wp³ywu Sekcji jak tylko rozprawi³eœ siê z t¹ organizacj¹.~ ~Przesz³oœæ NIKITY to coœ, co woli zachowaæ dla siebie. Z tego co uda³o Ci siê dowiedzieæ, to by³a sierot¹ a¿ zosta³a przyjêta do Sekcji jako niemal doros³a nastolatka. Tam zosta³a wyszkolona na charyzmatyczn¹ zabójczyniê, której ofiarami padali przeró¿ni niegodziwcy. Wszystko to w imiê wiêkszego dobra. Z czasem jednak w szeregach Sekcji zaczê³o panoszyæ siê zepsucie i sama organizacja upodobni³a siê do tych, z którymi pocz¹tkowo chcia³a walczyæ. Nikita uwolni³a siê spod wp³ywu Sekcji jak tylko rozprawi³aœ siê z t¹ organizacj¹.~ 
-// Thorin
-@939  = ~Thorin~
-@940  = ~W koñcu wielcy poszukiwacze przygód stanêli przede mn¹. Czemu zawdziêczam ten zaszczyt?~ 
-@941  = ~Szkoda czasu, w nogi!~ [DMF02] 
-@942  = ~Pad³o ci na oczy!~ [DMF32] 
-@943  = ~Mam nadziejê, ¿e siê tym ud³awisz!~ [DMF33] 
-@944  = ~Kiedy wszystko inne zawodzi, na przód wystawia siê krasnoluda.~ [DMF08] 
-@945  = ~Nied³ugo trza mi bêdzie odpocz¹æ.~ [DMF10] 
-@946  = ~Co, myœlicie, ¿e wróg sam do was przyjdzie?~ [DMF13] 
-@947  = ~Grrrrr!~ [DMF03] 
-@948  = ~Roz³upiê ciê na pó³.~ [DMF04] 
-@949  = ~PodejdŸ tu, nêdzniku!~ [DMF05] 
-@950  = ~Zdychaj!~ [DMF06] 
-@951  = ~W twej krwi wypiorê sw¹ brodê!~ [DMF07] 
-@952  = ~To wszystko, na co ciê staæ?~ [DMF34] 
-@953  = ~Uch!~ [DMF36] 
-@954  = ~Potrzebujê leczenia!~ [DMF14] 
-@955  = ~No?~ [DMF16] 
-@956  = ~Co?~ [DMF17] 
-@957  = ~Tum jest.~ [DMF18] 
-@958  = ~Hmm?~ [DMF19] 
-@959  = ~Gotowy.~ [DMF20] 
-@960  = ~S³yszê.~ [DMF22] 
-@961  = ~Zrobione.~ [DMF23] 
-@962  = ~Dobrze.~ [DMF24] 
-@963  = ~Teraz patrzcie.~ [DMF25] 
-@964  = ~Nie ma sprawy.~ [DMF26] 
-@965  = ~No.~ [DMF27] 
-@966  = ~To wszystko?~ [DMF28] 
-@967  = ~£atwizna-goblizna.~ [DMF29] 
-@968  = ~Nie wiesz, co robiæ, hê?~ [DMF30] 
-@969  = ~Dobrze, nie przeci¹gaj struny!~ [DMF31] 
-@970  = ~Zdychaj!~ [DMF06] 
-@971  = ~Uch.~ [DMF36]
-@972  = ~Zapytany o przesz³oœæ, THORIN ujawnia ¿e pochodzi ze s³awnego klanu Kamienne Ostrze, którego cz³onkowie przez wiele lat s³u¿yli Durlagowi jako dowódcy stra¿y. Jego dziadek by³ ostatnim, którego spotka³ ten zaszczyt, zanim z³e rzeczy przydarzy³y siê Durlagowi i jego ludziom. Thorin chcia³by udaæ siê wraz z dru¿yn¹ do Wie¿y Durlaga, aby odzyskaæ niektóre pami¹tki rodzinne, które wci¹¿ mo¿na tam znaleŸæ, oraz przekonaæ siê co tak naprawdê spotka³o jego dziadka i s³ynnego Durlaga Zabójcê Trolli.~
-// Morven uses the same soundset as Nikita
-@973  = ~Morwen~
-@974  = ~Zapytana o przesz³oœæ, MORWEN wyjaœnia ¿e pochodzi z zamo¿nej rodziny z Neverwinter. Po raz pierwszy zasmakowa³a w epickich poematach i opowieœciach przebywaj¹c u skaldów z pó³nocy, gdy jej rodzina odwiedzi³a okolice Doliny Lodowego Wichru gdy Morwen by³a jeszcze dzieckiem. Od tamtej pory mia³a obsesjê na punkcie ich epickich historii i przygód. Chcia³a uczyæ siê od skaldów ale niestety rzadko odwiedzali oni Neverwinter, a¿ pewnego dnia Dale Bard zatrzyma³ siê w mieœcie na spoczynek. Po raz pierwszy zauwa¿y³a go w jednym z lokalnych pubów, gdy œpiewa³ pieœñ o swych epickich wyczynach. Przedstawi³a siê Dale'owi i wkrótce zosta³ on mentorem Morwen ucz¹c j¹ umiejêtnoœci barda skaldów jak i przekazuj¹c jej sw¹ niezwyk³¹ wiedzê z zakresu pos³ugiwania siê ³ukiem. Po opanowaniu tych umiejêtnoœci, doœæ szybko znudzi³o j¹ nudne ¿ycie elit Neverwinter i zdecydowa³a siê udaæ na po³udnie w rejon Wybrze¿a Mieczy, gdzie - jak s³ysza³a - panowa³ kryzys ¿elaza. Zawêdrowa³a do Beregostu, by tam znaleŸæ kogoœ, kto podobnie jak ona szuka epickiej przygody.~

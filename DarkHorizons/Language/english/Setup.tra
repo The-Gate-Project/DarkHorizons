@@ -1,13 +1,13 @@
-@0    = ~ "Dark Horizons" Mod for Baldur's Gate: Enhanced Edition~
-@1    = ~****************************************~
-@2    = ~* Dark Horizons Mod Version 2.12       *~
-@3    = ~* http://www.teambg.net                *~
-@4    = ~*	Copyright 2015 CoM_Solaufein        *~
-@5    = ~*	THIS FILE WILL INSTALL              *~
-@6    = ~* THE DARK HORIZONS IN YOUR GAME       *~
-@7    = ~*      DIRECTORY.                      *~
+@0    = ~"Dark Horizons" Mod~
+@1    = ~/****************************************~
+@2    = ~* Dark Horizons Mod                     *~
+@3    = ~* http://www.teambg.net                 *~
+@4    = ~*  Copyright 2015 CoM_Solaufein         *~
+@5    = ~*  THIS FILE WILL INSTALL               *~
+@6    = ~* THE DARK HORIZONS IN YOUR GAME        *~
+@7    = ~*      DIRECTORY.                       *~
 @8    = ~*****************************************~
-@9    = ~You do not appear to have BG:EE, TuTu or BGT installed.~
+@9    = ~You do not appear to have BG:EE, EET, TotSC, TuTu or BGT installed.~
 @10   = ~Plate Mail Armor~
 @11   = ~Dwarven Plate +3~
 @12   = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin. Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.
@@ -15,7 +15,12 @@
 STATISTICS:
 
 Armor Class: 3
-Weight: 50~
+Weight: 50
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief~
 @13   = ~Dwarven Plate +3
 
 This plate is of dwarven manufacture, its sharper line and sturdy appearance speak of the centuries of skill possessed by the great dwarven craftsmen. Holding it you get a sense of magic about it as well.
@@ -24,7 +29,9 @@ STATISTICS:
 
 Armor Class: -2
 Constitution: +1 Bonus
-Weight: 35~
+Weight: 35
+Usable Only By:
+ Dwarf~
 @14   = ~Chain Mail~
 @15   = ~Elven Chain Mail +3~
 @16   = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
@@ -32,13 +39,16 @@ Weight: 35~
 STATISTICS:
 
 Armor Class: 5
-Weight: 40~
+Weight: 40
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
 @17   = ~Crafted by elves, this chain is both light and resilient. Unlike most chain mail elven chain does not restrict magic users from practicing their craft.
 
 STATISTICS:
 
 Armor Class: 2
-Bonus: +1 Dexterity
 Weight: 10
 Not Usable By:~
 @18   = ~Studded Leather~
@@ -49,37 +59,47 @@ metal rivets. These rivets form a flexible coating of hard metal that turns asid
 STATISTICS:
 
 Armor Class: 7
-Weight: 25~
+Weight: 25
+Not Usable By:
+ Mage~
 @21   = ~Upon closer inspection one discovers that the armor is not made from leather at all, but from an intricate weave of vines and thorn bush branches. The armor is a gift from the nymphs to the druids, a token of admiration for their endless protection of the forests.
 
 STATISTICS:
 
-Armor Class: 3
+Armor Class: 0
 Saving Throws: +3 bonus
-Weight: 4~
+Weight: 4
+Only usable by:
+Druid (single, dual, & multi-class)~
 @22   = ~Stormcloud~
 @23   = ~Stormcloud "Kraken's Bane"  This leather was fashioned from the charred remains of a dragon struck down by lightning. Last known to be worn by Shrethu Reogher the warlock. One must hope that he is dead, for if it were removed from him while he was still alive he is sure to come looking for it.
 
 STATISTICS:
 
-Armor Class: 3
+Armor Class: 0
 Saving Throws: +3 bonus
-Special: 25% Resist Electricity
-Weight: 4~
+Special: Resist Electricity
+Weight: 4
+Only usable by:
+Druid~
 @24   = ~Assassin's Armor~
 @25   = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
 
 STATISTICS:
 
 Armor Class: 7
-Weight: 25~
+Weight: 25
+Not Usable By:
+ Mage~
 @26   = ~Assassin's armor is studded leather armor created for use by the deadly assassins of the Shadowmasters. It has never been seen just rumored to exist due to some of the incredible things done by this very elite group of assassins. The Shadowmasters are of the highest order within the Shadow Thief hierarchy. It is +3 studded leather armor that melds into shadows.
 
 STATISTICS:
 
 Armor Class: 4
 Special: +30% Hide in Shadows, Free action, Immunity to poison.
-Weight: 8~
+Weight: 8
+Only Usable By:
+Thief~
 @27   = ~Full Plate Mail~
 @28   = ~Emberwilde's Plate~
 @29   = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.
@@ -87,29 +107,41 @@ Weight: 8~
 STATISTICS:
 
 Armor Class: 1
-Weight: 70~
+Weight: 70
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @30   = ~Emberwilde's Plate, The Red Plate of Fire Resistance. Crafted by dwarven masters to the specific design of the first commander of the Phoenix Guards, Emberwilde, this plate is a true marvel, from it's trademark red glow to the immunity to fire it provides the wearer with the true essence of the Phoenix Elite. No records were kept, and no magic has been able to completely identify the properties of this plate.
 
 STATISTICS:
 
-Fire Resistance +20
 Armor Class: 0
-Weight: 35~
+Weight: 35
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @31   = ~Studded Leather Armor +3~
 @32   = ~This armor was the property of the famous Snow Barbarian Prince, Corbus Denolx of Greyhawk. How or why it left his possession is not known.
 
 STATISTICS:
 
 Armor Class: 4
-Weight: 8~
+Weight: 8
+Not Usable By:
+ Mage~
 @33   = ~Dragon Armor~
 @34   = ~Dragon Armor, the trademark armor of the Elite Chimera Rangers. This armor is enchanted with powerful magic known only to the Chimera Shamans. It provides the wearer with added protection against many forms of attack, and aids in their ability to stalk their targets.
 
 STATISTICS:
 
 Armor Class: 4
-Bonus: + 15% to stealth
-Weight: 8~
+Weight: 8
+Not Usable By:
+Mage~
 @35   = ~Splint Mail~
 @36   = ~Splint Mail of  Oghma~
 @37   = ~Splint Mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail. Since the human body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle.
@@ -117,7 +149,12 @@ Weight: 8~
 STATISTICS:
 
 Armor Class: 4
-Weight: 40~
+Weight: 40
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @38   = ~Splintmail Of Oghma: 'Divine Inspiration'
 This piece of splintmail was made one night by an inspired priest of Oghma. He had a dream that night from Oghma himself. He was told that in the next morning he should get the finest splintmail around which wasn't enchanted. He then was told to gather magical enchantments to create a wonderful piece of armor. His inspiration itslf enchanted the armor which gave its unique armor class. The splintmail was then worn by the head priest and was on him for many years to come.
 
@@ -128,7 +165,11 @@ Bonus Cleric Spells 1-5
 Saving Throws:+3 bonus
 +10 max hit points
 Allows spellcasting and thieving abilities
-Weight: 5~
+Weight: 5
+Usable Only By:
+Good and Neutral Clerics
+(single,dual,multi-class)
+and Paladins.~
 @39   = ~Woodland Armor~
 @40   = ~This is the armor of an unknown ranger, all that is known is that he was very powerful. The rumor goes that his prowess in battle stems from this armor. It has been given many magical powers beyond that of normal armor. When put on you seem not only to have better protection but you seem to have that extra edge. When in the forests and the shadowy areas of towns this armor seems to lend itself to hiding and moving silently.
 
@@ -136,7 +177,9 @@ STATISTICS:
 
 Armour Class: 1
 Special: +1 dexterity and +20% hide in the shadows.
-Weight: 25~
+Weight: 25
+Not Usable by:
+Mage~
 @41   = ~Chainmail Armor~
 @42   = ~Chainmail +4~
 @43   = ~A chain mail tunic fashioned from some sort of bright metal. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
@@ -144,69 +187,104 @@ Weight: 25~
 STATISTICS:
 
 Armor Class: 5
-Weight: 40~
+Weight: 40
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
 @44   = ~Chain Mail +4:
 Elven chainmail +4 enables a elven wizard to cast spells while its being worn. 
 
 STATISTICS:
 
 Armor Class: 1
-Weight: 9~
+Weight: 9
+Usable By:
+Elves Only~
 @45   = ~Mithril Chain Mail +4~
 @46   = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
 
 STATISTICS:
 
 Armor Class: 5
-Weight: 40~
+Weight: 40
+Not Usable By:
+ Druid 
+ Mage
+ Thief~
 @47   = ~Mithril Chain Mail +4. This is armor was made from the lightest, most durable metal known as mithril. Only the dwarves can craft such perfection from mithril.
 
 
 STATISTICS:
 
 Armor Class: 1
-Weight: 7~
+Weight: 7
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
 @48   = ~Mithril Chain Mail +3~
 @49   = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
 
 STATISTICS:
 
 Armor Class: 5
-Weight: 40~
+Weight: 40
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
 @50   = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows.
 
 STATISTICS:
 
 Armor Class: 2
-Weight: 7~
+Weight: 7
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
 @51   = ~Durlag's Mithril Chainmail +4~
 @52   = ~This chanmail armor once belong to the great Durlag Trollkiller himself.
 
 STATISTICS:
 
 Armor Class: 1
-Weight: 7~
+Weight: 7
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
 @53   = ~Chainmail +2~
 @54   = ~Chain mail is made of interlocking metal rings. It is always worn over a layer of padded fabric or soft leather to prevent chafing and lessen the impact of blows. This chanmail is of elven make, allowing mages the ability to cast magic while this is worn.
 
 STATISTICS:
 
 Armor Class: 3
-Weight: 10~
+Weight: 10
+Usable By:
+ Elf and half elves~
 @55   = ~Splint Mail +2~
 @56   = ~Splint Mail is a variant of banded mail in which the metal strips are applied vertically to the backing of chain, leather, or cloth rather than horizontally as in banded mail. Since the human body does not swivel in mid-torso as much as it flexes back to front, splint mail is more restrictive in battle.
 
 STATISTICS:
 
 Armor Class: 2
-Weight: 20~
+Weight: 20
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @57   = ~Studded Leather Armor +4 "Nature's Gift"~
 @58   = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
 
 STATISTICS:
 
 Armor Class: 7
-Weight: 25~
+Weight: 25
+Not Usable By:
+ Mage~
 @59   = ~Studded Leather Armor +4 "Nature's Gift":
 A natureal suit of studded leather armor that only nature's protectors can wear.
 
@@ -215,7 +293,10 @@ STATISTICS:
 Armor Class: 3
 Weight: 5
 +25% Stealth
-Cast Sanctuary~
+Cast Sanctuary
+Usable by:
+Ranger
+Druid~
 @60   = ~Hide Armor~
 @61   = ~Armor of the North~
 @62   = ~Hide Armor is made from the thick hide of a very large animal (an elephant for example) or from many layers of normal leather from common animals, like cows. Hide armor is far too bulky, inflexible and heavy to be used much in advanced human cultures. Although, among the barbaric humanoid masses throughout the dark forests and misty jungles of the world, hide armor is common. Even though it does offer more protection then leather armor, one must get by the offensive odor and shoddy appearance in order to wear it effectively. Even though thieves can wear this armor, it has a negative effect on their abilities.
@@ -223,34 +304,44 @@ Cast Sanctuary~
 STATISTICS:
 
 Armor Class: 6
-Weight: 40~
+Weight: 40
+Not Usable By:
+ Mage~
 @63   = ~This armor hails from the frozen tundra of Icewind Dale. It has been bless by shamans to help protect the user from the cold elements.
 
 STATISTICS:
 
 70% cold resistance
 Armor Class: 6
-Weight: 40~
+Weight: 40
+Not Usable By:
+ Mage~
 @64   = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
 
 STATISTICS:
 
 Armor Class: 7
-Weight: 25~
+Weight: 25
+Not Usable By:
+ Mage~
 @65   = ~When in the forest areas this armor seems to lend itself to hiding and moving silently. This will help out the druid and ranger in their protection of nature. 
 
 STATISTICS:
 
 Armor Class: 1
 Special: +1 dexterity and +20% hide in the shadows.
-Weight: 25~
+Weight: 25
+Usable by:
+Rangers and Druids~
 @66   = ~Shadow Masters Leather~
 @67   = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks.  The soft leather backing is little more than a means of securing the rivets in place.
 
 STATISTICS:
 
 Armor Class: 7
-Weight: 25~
+Weight: 25
+Not Usable By:
+ Mage~
 @68   = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks.  The soft leather backing is little more than a means of securing the rivets in place.
 
 STATISTICS:
@@ -259,7 +350,9 @@ Armor Class: 4
 Special: +30% to all Thief Skills
  +5 to Save vs. Death
 Offers Non-Detection
-Weight: 8~
+Weight: 8
+Only Usable By:
+Thief (single, multi and dual class)~
 @69   = ~Non-detected~
 @70   = ~Leather Armor~
 @71   = ~Nature's Divine~
@@ -268,14 +361,18 @@ Weight: 8~
 STATISTICS:
 
 Armor Class: 8
-Weight: 15~
+Weight: 15
+Not Usable By:
+ Mage~
 @73   = ~Only the best of nature's defenders have the privilege to wear armor like this. It has been said that only the secret order of druids and rangers known as The Nature Warriors have this armor.
 
 STATISTICS:
 
 Armor Class: 2
 Special: Memorize 2 level 1 spells
-Weight: 1~
+Weight: 1
+Only Usable By:
+Druid and Ranger (single, multi and dual class~
 @74   = ~Hobbin's Leather Armor~
 @75   = ~This armor was given to Hobbin by his uncle, a well known adventurer in his time.
 
@@ -283,42 +380,61 @@ STATISTICS:
 Armor Class: 2
 Special: +15% Hide in Shadows
 Special +15 Pick Locks
-Weight: 1~
+Weight: 1 
+Only Usable By: Hobbin~
 @76   = ~Plate Mail +5~
 @77   = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin.  Similar in construction to bronze plate mail, true plate mail comprises of chain and leather. 
 
 STATISTICS:
 
 Armor Class: 3
-Weight: 50~
+Weight: 50
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief~
 @78   = ~Elven Battle Armor +5. 
 This armor is used by the elite elven forces of Evermeet.
 
 STATISTICS:
 
 Armor Class: -2
-Weight: 18~
+Weight: 18
+Usable By:
+Elves~
 @79   = ~Plate Mail "Apocalypse"~
 @80   = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin. Similar in construction to bronze plate mail , true plate mail comprises of a chain and leather.
 
 STATISTICS:
 
 Armor Class: 3
-Weight: 50~
+Weight: 50
+Not usable by:
+ Bard
+ Druid
+ Mage
+ Thief~
 @81   = ~Plate Mail "Apocalypse": 
 Made from Surtr a great warrior who loved fire, this armor will enable you to cast fire based spells and offers protection from fire.
 
 STATISTICS:
 
 Armor Class: 0
+Weight: 20
 Special: Cast the following spells
 Burning Hands
 Agannazar's Scorcher
 Fire Ball
 Flame Strike
 
-+20% Fire resistance
-Weight: 20~
++20% Fire resistance 
+
+Not usable by:
+ Bard
+ Druid
+ Mage
+ Thief~
 @82   = ~Plate of Balduran~
 @83   = ~This plate was worn by the famous hero Balduran. It is part of a set of weapons and armor that was stolen from the museum in the city of Baldur's Gate.
 
@@ -329,7 +445,12 @@ Equipped Abilities:
  +1 Charisma bonus
 Armor Class: -1
 Weight: 50
-Requires: 15 Strength~
+Requires: 15 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @84   = ~Kiel's Full Plate Mail +3~
 @85   = ~This armor once belong to Kiel.
 
@@ -339,22 +460,38 @@ STATISTICS:
 
 Armor Class: -2
 Weight: 45
-Requires: 15 Strength~
+Requires: 15 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @86   = ~Najara's Plate Mail +3~
 @87   = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin. Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.
 
 STATISTICS:
 
 Armor Class: 3
-Weight: 50~
+Weight: 50
+Not Usable By:
+ Bard 
+ Druid
+ Mage
+ Thief~
 @88   = ~This is Najara's personal armor.
 
 STATISTICS:
 
-Special:
+Special: 
 +1 to strength
 Armor Class: 0
-Weight: 18~
+Weight: 18
+Not Usable By:
+ Evil alignments
+ Bard 
+ Druid
+ Mage
+ Thief~
 @89   = ~Full Plate Mail of Flame~
 @90   = ~Full plate armor is the best armor a warrior can buy, both in appearance and protection. The perfectly fitted interlocking plates are specially angled to deflect arrows and blows, and the entire suit is carefully adorned with rich engraving and embossed detail.
 
@@ -362,20 +499,27 @@ STATISTICS:
 
 Armor Class: 1
 50% Fire Resistance
-Weight: 35~
+Weight: 35
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @91   = ~Girdle~
 @92   = ~Belt of Sune~
 @93   = ~Girdles are generally similar to belts. Unlike belts, girdles are not used to hold up pants and dungarees, but to carry pouches, scabbards, and the like.
 
 STATISTICS:
 
-Weight: 2~
+Weight: 2
+Not usable by:~
 @94   = ~The Belt of Sune is for those who need an added edge with their charisma. A priestess of Sune made this for those poor souls who lack charismatic skills and beauty.
 
 STATISTICS:
 
 +1 to Charisma
-Weight: 2~
+Weight: 2
+Not usable by:~
 @95   = ~Girdle of Hill Giant Strength~
 @96   = ~This belt is designed for powerful warriors of the realms who can't get more powers anymore other ways. Girdles of giant strength are extremely rare items. They are made from the woven hair or beard of the giant type whose strength the crafter wishes to gain.  This girdle is made of hair from a hill giant and gives its wearer the strength of a hill giant.
 
@@ -383,7 +527,9 @@ STATISTICS:
 
 Strength: set to 19
 Weight: 2
-~
+Not usable by: 
+Thief 
+Mage~
 @97   = ~Girdle Of Defense~
 @98   = ~Girdle of Defense: 'Golden girdle of Urnst'
 This girdle was created by the Gold Elves of the Underdark rarely any of their items reach the surface world but this item has. It is heavily enchanted to deflect attacks of every type. Many people have worn this belt with pride but mostly it has been stolen by thieves and sold at black markets. This girdle is still searched for by many warriors searching for protection but none ever finding it.
@@ -394,7 +540,7 @@ Armor Class Bonus:
 +3 vs. slashing weapons
 +3 vs. blunt weapon
 +3 vs. Missle weapons
-~
+Not usable by~
 @99   = ~Boots~
 @100  = ~Fast Boots of Protection~
 @101  = ~Boots are normally hand-made by cobblers. Common boots are made by using a form, but good boots are designed for the foot of an individual.
@@ -416,7 +562,11 @@ Weight: 4~
 STATISTICS:  -25 to Stealth
 Armor Class Bonus: +2 vs. slashing weapons 
 Armor Class Bonus: +1
-Weight: 18~
+Weight: 18
+Usable By: 
+Fighters
+Clerics
+Paladins~
 @105  = ~Worn Out Boots~
 @106  = ~Boots Of Health~
 @107  = ~Boots Of Health: 'Hardy Warrior'
@@ -426,9 +576,11 @@ STATISTICS:
 Wearer can Cast:
 Cure Critical Wounds
 +1 Armor Class
-+10 max hit points~
++10 max hit points
+Usable By:
+Good Alignments~
 @108  = ~Boots of Ensured Quickness~
-@109  = ~Boots of Ensured Quickness:
+@109  = ~Boots of Ensured Quickness: 
 These boots are enchanted with the assurance that the wearer will always be swift of foot. The origins of these boots is unknown, but their legend spans the centuries with both noble and bloody tales of their usage.~
 @110  = ~Cloak of Protection +3~
 @111  = ~Cloak of protection +3:  'Mystra's Cloak'
@@ -439,7 +591,8 @@ STATISTICS:
 Armor Class: +3 bonus
 Saving Throw: +2 bonus
 Special: Protection from Undead
-Weight: 3~
+Weight: 3
+Not usable by:~
 @112  = ~Cloak~
 @113  = ~Cloak of Nature~
 @114  = ~The cloak can be made in every possible shape with just about every type of fabric. The most common forms are a circular piece of fabric with a hole in the center for the head, and fabric draped from neck, connected by a chain, brooch, cord, or pins.~
@@ -451,7 +604,9 @@ Armor Class: +1 bonus
 Saving Throws: +1 bonus
 Fire Resistance: 25%
 Cold Resistance: 25%
-Weight: 3~
+Weight: 3
+Usable by:
+Druids and Rangers only~
 @116  = ~Mage Robe~
 @117  = ~Shi'nayne's Robe~
 @118  = ~Since the age of Netheril, mages have learned to bestow a wide variety of magical properties upon the everyday objects that surround them. A favorite item of such enchantment is the common robe. It is lightweight, affordable, and holds its enchantment well, thereby making it ideal equipment for a mage. Due to their magical heritage, however, only single, dual, and multi-class mages may wear these enchanted robes.~
@@ -474,7 +629,9 @@ Bonus 2 Level two spells
 Armor Class: +2 Bonus
 Magic Resistance: 15%
 Saving Throw:  +3 bonus
-Weight: 6~
+Weight: 6
+Only usable by:
+Mage (single, dual, & multi-class)~
 @122  = ~Cloak of the Assassin~
 @123  = ~The cloak can be made in every possible shape with just about every type of fabric. The most common forms are a circular piece of fabric with a hole in the center for the head, and fabric draped from neck, connected by a chain, brooch, cord, or pins.~
 @124  = ~Cloak of the Assassin was created for use by the deadly assassins of the Shadowmasters. It has never been seen just rumored to exist due to some of the incredible things done by this very elite group of assassins. The Shadowmasters are of the highest order within the Shadow Thief hierarchy.
@@ -485,7 +642,8 @@ Armor Class: +1 bonus
 THACO: +3 bonus
 Saving Throws: +1 bonus
 Special: offers Non-detection and +5 to Stealth
-Weight: 3~
+Weight: 3
+Not usable by:~
 @125  = ~Gauntlets~
 @126  = ~Warrior Gloves~
 @127  = ~Gauntlets are armored gloves. They can be made of leather, metal plates, or chain mail. Every suit of armor is assumed to include gauntlets of an appropriate type. Magical gauntlets tend to be finer, lighter, and more easily worn than normal varieties.~
@@ -494,7 +652,13 @@ Weight: 3~
 STATISTICS
 
 THAC0 +3
-Damage +3~
+Damage +3
+
+Usable by:
+Fighters
+Rangers
+Paladins
+Clerics~
 @129  = ~Bracers~
 @130  = ~Bracers of the Night~
 @131  = ~Bracers are thick bands of metal or leather that are strapped, belted, or tied to a character's forearm. Generally, the magic that is instilled in bracers is good only during combat, since most bracers help protect the wearer from injury, or improve chances to strike at an opponent. Exceptions do exist, however, and more are found each day.~
@@ -506,7 +670,9 @@ Special:
  +15 to Find Traps
  +25 to Open Locks
  +4 THAC0 with missile weapons
-Weight: 6~
+Weight: 6
+Usable By:
+ Thief (Single-, Multi-, and Dual-Classed)~
 @133  = ~Bracers of Defense A.C. 4~
 @134  = ~Bracers are thick bands of metal or leather that are strapped, belted, or tied to a character's forearm. Generally, the magic that is instilled in bracers is good only during combat, since most bracers help protect the wearer from injury, or improve chances to strike at an opponent. Exceptions do exist, however, and more are found each day.~
 @135  = ~Bracers of Defense A.C. 4:  'Bracers to Protection'
@@ -523,24 +689,32 @@ Grinning Glen, the Knight of Fools, wore these bracers while competing in jousti
 STATISTICS:
 
 Armor Class: 3
-Weight: 2~
+Weight: 2
+Not Usable By:~
 @138  = ~Gloves of Lock Picking~
 @139  = ~Bracers of Lock Picking were magically created by a mage/thief named Jamaar the Quick. These bracers suited him well in picking any type of lock ever created. He lost these bracers when he lost his life to a fireball trap that on a chest. He should have invested in a magical device that detects traps.
 
 STATISTICS:
 
 Open Locks Bonus: 20%
-Weight: 2~
+Weight: 2
+Usable By:
+Thief (Single and multi-class)~
 @140  = ~Gift of the Woods~
-@141  = ~Gift of the Woods:  Throughout time druids and rangers have struggled to protect the wild from the ever encroaching civilization. On occasion the dwellers of the wild do grant these zealots with favors to aid them in their endeavors to protect them.
+@141  = ~Gift of the Woods:  Throughout time druids and rangers have struggled to protect the wild from the ever encroaching civilization. On occasion the dwellers of the wild do grant these zealots with favors to aid them in their endeavors to protect them. 
 
 STATISTICS:
 
+Armor Class: 0
 Special: Increased Attacks
 Special: Increased Resistance to Petrification
-Weight: 2~
+Weight: 2
+Usable Only By:
+Druids (Single Class Only)
+Rangers(Single Class Only)
+~
 @142  = ~Gauntlets of Shocking~
-@143  = ~Gauntlets of Shocking:
+@143  = ~Gauntlets of Shocking:  
 A pair of gauntlets made of silver chainmail and soft black leather. The gauntlets are charged with electric energy and that energy can be released by touch or as a mighty lightning bolt. The touch lets electric energy course through the touched creature.
  
 STATISTICS:
@@ -556,7 +730,10 @@ Damage: 6D6 (save vs. wands for half)
 Range: 100 ft
 Area: 1 creature
 
-Weight: 1~
+Weight: 1
+Only usable by: 
+Mage
+Bard~
 @144  = ~Gauntlets of Skilled Thievery~
 @145  = ~'Spooky's Hand's'
 
@@ -566,9 +743,11 @@ STATISTICS:
 
 Dexterity: Increased 2 points
 Pick Pockets: +20%
-Move Silently: +20%
+Find/Remove Traps: +20%
 Cast Knock
-Weight: 2~
+Weight: 2
+Usable by:
+Thief~
 @146  = ~Helmet~
 @147  = ~Helm of Protection~
 @148  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck. These helmets commonly provide protection for the nose.
@@ -577,7 +756,11 @@ STATISTICS:
 
 Armor Class Bonus: None
 Special: Protects Against Critical Hits
-Weight: 2~
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
 @149  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck.  These helmets commonly provide protection for the nose.  
 
 STATISTICS:
@@ -585,7 +768,11 @@ STATISTICS:
 Armor Class Bonus: +2
 Special: Protects Against Critical Hits
 25% Fire resistance
-Weight: 2~
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
 @150  = ~Elven Helmet of Defense~
 @151  = ~Elven Helm of Defense:
   
@@ -599,14 +786,18 @@ Electrical resistance:  +20%
 Cold resistance: +20%
 Fire resistance: +20%
 Special: Protects Against Critical Hits
-Weight: 3~
+Weight: 3
+Usable By:
+Elves~
 @152  = ~Hat~
 @153  = ~Bard's Hat~
 @154  = ~The felt hat is a favorite of the bards and thieves alike, though they offer little in the way of protection.
 
 STATISICS:
 
-Weight: 2~
+Weight: 2
+Usable By:
+ Bard~
 @155  = ~The felt hat is a favorite of the bards. This hat has been enchanted to help the bard in their spells and lore. 
 
 STATISTICS:
@@ -617,7 +808,9 @@ Special:
 +2 to level one and two spells
  Protects Against Critical Hits
  +1 Saving Throws
-Weight: 2~
+Weight: 2
+Usable By:
+ Bard~
 @156  = ~Durlag's Crown~
 @157  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck.  These helmets commonly provide protection for the nose.
 
@@ -625,14 +818,22 @@ STATISTICS:
 
 Armor Class Bonus:  None
 Special: Protects Against Critical Hits
-Weight: 2~
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
 @158  = ~This crown belonged to Durlag's clan. Durlag never wore his family crown because most of his time was spent adventuring. Even when he "retired" he still did not wear it since he did not believe in the royal title but wanted to live like the common dwarf.
 
 STATISTICS:
 
 Armor Class Bonus: +2
 Special: +1 Saving Throws Special: Protects Against Critical Hits
-Weight: 2~
+Weight: 2
+Not Usable By:
+Thief
+Mage
+Druid~
 @159  = ~Helmet of The Dead~
 @160  = ~This class of open-face helmet, made of reinforced leather or metal, covers most of the head, save the face and neck. These helmets commonly provide protection for the nose.
 
@@ -640,14 +841,22 @@ STATISTICS:
 
 Armor Class Bonus: None
 Special: Protects Against Critical Hits
-Weight: 2~
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
 @161  = ~This helmet is the skull of a great fighter that over a thousand years ago. His name is unknown as the records were destroyed but the skull contained mystical powers.
 It was fashioned into a helmet by many dwarvern metal smiths who attached spikes and made it into a helmet.
 It lets you animate dead and gives an armor class bonus.
 
 Armor Class Bonus: 2
 Special: Protects Against Critical Hits, can cast animate dead
-Weight: 2~
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
 @162  = ~Helm of the Flame~
 @163  = ~Helm of the Flame, "Emberwilde's Helm" This is the helm of the rouge Phoenix guard Emberwilde. Once the commander of the guard itself he abandoned his position when seduced by the lure of riches and fame.
 
@@ -656,7 +865,11 @@ STATISTICS:
 Armor Class: +1 bonus
 Constitution: +2 bonus
 Special: Protects Against Critical Hits
-Weight: 2~
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
 @164  = ~Helm of the Red Dragon~
 @165  = ~Helm of the Red Dragon. An Elite group of Chimera Rangers, the Red Dragon strike fear into the heart of the most feirce of warriors. Thier bright red armor and helm with gold trim are known throughout the realms. Inspite of this elaberate armoring, they somehow manage to disapear at will.
 Helm of the Red Dragon. An Elite group of Chimera Rangers, the Red Dragon strike fear into the heart of the fiercest of warriors. Their bright red armor and helm with gold trim are known throughout the realms. In spite of this elaborate armoring, they somehow manage to disappear at will. 
@@ -666,7 +879,8 @@ STATISTICS:
 Armor Class: +2 bonus
 Special: Protects Against Critical Hits
 Special: Protects Against Mental Attacks
-Weight: 2~
+Weight: 2
+Usable Only By~
 @166  = ~Large Shield~
 @167  = ~Shield +3~
 @168  = ~A large shield inlaid with a golden griffin. This shield, also known as the kite or tower shield, is a massive metal shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place. Strangely enough, this shield feels unusually light for its size.
@@ -675,12 +889,22 @@ STATISTICS:
 
 Armor Class Bonus: 1
 Special: +1 vs. Missile Weapons
-Weight: 15~
+Weight: 15
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @169  = ~The body shield, also known as the kite or tower shield, is a massive metal or wooden shield reaching nearly from the chin to the toe of the user. It must be firmly fastened to the forearm and the shield hand must firmly grip it at all times. Naturally, this precludes use of the shield hand for anything but holding the body shield in place. 
 STATISTICS:
 Armor Class Bonus: 3
 Special: +3 vs. Missile Weapons
-Weight: 15~
+Weight: 15
+Not Usable By:
+Bard
+Druid
+Mage
+Thief~
 @170  = ~Small Shield~
 @171  = ~Small Shield +5 "Divinity"~
 @172  = ~A small shield is usually round and is carried on the forearm, gripped with the shield hand. Its light weight as compared to a medium shield permits the user to carry other items in that hand, although he cannot wield or carry another weapon.
@@ -689,7 +913,12 @@ STATISTICS:
 
 Armor Class Bonus: 1
 Special: No Missile Weapon Protection
-Weight: 3~
+Weight: 3
+Not Usable By:
+ Bard
+ Druid
+ Mage 
+ Thief~
 @173  = ~Small Shield +5 "Divinity":
 An eerie glow emits from this shield that is nothing but divine. Evil creatures can not even pick it up no matter how strong they are.
 
@@ -697,7 +926,13 @@ STATISTICS:
 
 Armor Class Bonus: 6
 Special: No Missile Weapon Protection
-Weight: 3~
+Weight: 3
+Not Usable By:
+Evil alignments
+ Bard
+ Druid
+ Mage
+ Thief~
 @174  = ~Protected from Evil~
 @175  = ~Medium Shield~
 @176  = ~Shield of Balduran~
@@ -706,7 +941,12 @@ Weight: 3~
 STATISTICS:
 
 Armor Class Bonus: 1
-Weight: 7~
+Weight: 7
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @178  = ~Shield of Balduran +3
 This shield was worn by the hero Balduran. It is part of a set of weapons and armor that was stolen from the museum in the city of Baldur's Gate.
 
@@ -716,7 +956,12 @@ Equipped Abilities:
  +1 to Strength
 Armor Class Bonus: 4
 Weight: 5
-Requires: 12 Strength~
+Requires: 12 Strength
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @179  = ~Durlag's Shield +2~
 @180  = ~This was Durlag's personal shield that he used to slay dragons with. The magical properties helped him accomplish this feat.
 
@@ -726,7 +971,12 @@ Special:
 +1 vs. Missile Weapons
 +20% Fire Resistance
 Armor Class Bonus: 3
-Weight: 4~
+Weight: 4
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @181  = ~Shield of Fire +2~
 @182  = ~This shield was commissioned from the finest dwarven smiths by Emberwilde, a renowned commander of the Phoenix guard who was known for his unquestioning courage. It was considered the greatest loss that the guard suffered when Emberwilde left them in search of great wealth. The superior craftsmanship is clear in the way it almost moves in front of missiles on its own.
 
@@ -734,7 +984,12 @@ STATISTICS:
 
 Armor Class Bonus: 3
 Special: +5 vs. Missile Weapons
-Weight: 4~
+Weight: 4
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @183  = ~Arrow~
 @184  = ~Arrow of Slaying "Nature's Bane"~
 @185  = ~The flight arrow, as its name implies, is built for distance. These are lightweight arrows and are often used for hunting. Most of these arrows are made of ash or birch and are 30 to 40 inches long.
@@ -744,7 +999,11 @@ STATISTICS:
 Damage: 1D6
 Damage type: missile (piercing)
 Weight: 0
-Launcher: Bow~
+Launcher: Bow
+Not usable by:
+ Cleric
+ Druid
+ Mage~
 @186  = ~This arrow is twisted and black, almost radiating evil as if possessed by something larger then itself. It was made specifically to kill one type of creature and one type only. In this case the unlucky beings are nature lovers; Druids and Rangers.
 
 STATISTICS:
@@ -753,7 +1012,9 @@ Damage: 1D6
 Damage type: missile (piercing)
 Special: Slay Druids and  Rangers
 Weight: 0
-Launcher: Bow~
+Launcher: Bow
+Usable by:
+Evil alignments~
 @187  = ~Arrows~
 @188  = ~Arrows of Freezing~
 @189  = ~The arrow of ice is magically enhanced so as to burst into a rolling ball of ice and cold when fired. When the arrow strikes its victim, a shock of cold will travel through its body, both burning and numbing to the very core. This extreme cold shocks the nervous system and freezes the victim.
@@ -765,7 +1026,11 @@ Damage type: missile (piercing)
 Special: 1D6 cold damage (no save)
  Freezes (Holds) person for 6 rounds unless save
 Weight: 0
-Launcher: Bow~
+Launcher: Bow
+Not usable by:
+ Cleric
+ Druid
+ Mage~
 @190  = ~Throwing Axe~
 @191  = ~Throwing Axe +3~
 @192  = ~The hand axe or throwing axe is also known as a hatchet. The axe blade has a sharp steel tip, counterbalanced by a pointed fluke. The short handle has a point of the bottom and the head may have a spike on the top.
@@ -777,7 +1042,12 @@ Damage type: missile (piercing)
 Weight: 5
 Speed Factor: 4
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @193  = ~This throwing axe has not only been finely balanced for use as a missile weapon but has also been the subject of significant magical enhancement. As a result, it is both more damaging and more accurate than any non-magical weapon of a similar style. 
 
 STATISTICS:
@@ -790,7 +1060,12 @@ Special: Returns to users hand once thrown
 Weight: 3
 Speed Factor: 2
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @194  = ~Halberd~
 @195  = ~Two Handed Battle Axe +2~
 @196  = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length. The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design. The fluke is sometimes replaced by a hook used to dismount cavalry. A halberd can be best described as a cross between a spear and an axe.
@@ -801,8 +1076,13 @@ Damage: 1D10
 Damage type: piercing
 Weight: 15
 Speed Factor: 9
-Proficiency Type: Axe
-Type: 2-handed~
+Proficiency Type: Spear
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @197  = ~The most common version of the two battle axe is a stout pole about six feet in length with a double-edged, trumpet-shaped blade mounted on one end.   
 
 STATISTICS:
@@ -814,7 +1094,12 @@ Damage type: slashing
 Weight: 11
 Speed Factor: 7
 Proficiency Type: Axe
-Type: 2-handed~
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @198  = ~By far the oldest and most often used pole-arm, the halberd consists of a cleaver-like axe blade mounted on a staff averaging six feet in length.  The axe blade is balanced at the rear with a fluke, and surmounted by a sharp spike, usually of quadrangular design.  The fluke is sometimes replaced by a hook used to dismount cavalry.  A halberd can be best described as a cross between a spear and an axe.  
 
 STATISTICS:
@@ -823,8 +1108,13 @@ Damage: 1D10
 Damage type: piercing
 Weight: 15
 Speed Factor: 9
-Proficiency Type: Axe
-Type: 2-handed~
+Proficiency Type: Spear
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @199  = ~The most common version of the two battle axe is a stout pole about six feet in length with a double-edged, trumpet-shaped blade mounted on one end.   
 
 STATISTICS:
@@ -836,7 +1126,12 @@ Damage type: slashing
 Weight: 11
 Speed Factor: 7
 Proficiency Type: Axe
-Type: 2-handed~
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @200  = ~Battle Axe~
 @201  = ~Battle Axe +3 "The Decapitator"~
 @202  = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end. Battle axes are also called broad axes.
@@ -848,7 +1143,12 @@ Damage type: slashing
 Weight: 7
 Speed Factor: 7
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @203  = ~This was Redrum the Bane's favorite axe in his arsenal. The crazed berserker used it many battles and killed many foes with this axe. Rumor has it he would keep hacking away at an enemy long after death. His bloody thirsty ways eventually got him in trouble. The local lord surrounded his estate and set it ablaze when he refused to surrender after he was found guilty of murdering the children in the village.
 
 STATISTICS:
@@ -862,7 +1162,12 @@ Damage type: slashing
 Weight: 5
 Speed Factor: 5
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @204  = ~Battle Axe +3, Frostreaver~
 @205  = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end. Battle axes are also called broad axes.
 
@@ -873,7 +1178,12 @@ Damage type: slashing
 Weight: 7
 Speed Factor: 7
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @206  = ~Frostreaver, Battle Axe +3
 This was the axe of Illgarth, a Frost Giant that terrorized northern communities long ago. It is not known where he acquired the weapon, but he took a perverse pleasure in unleashing it upon small folk, particularly halflings. Ice and acid maimed those not killed, and the giant would laugh coldly if he recognized his handiwork from a previous visit. Ultimately a group did manage to kill him, and at the request of his victims Frostreaver was buried with him.
 
@@ -889,7 +1199,12 @@ Weight: 7
 Speed Factor: 4
 Proficiency Type: Axe
 Type: 1-handed
-Requires: 10 Strength~
+Requires: 10 Strength
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @207  = ~Mace~
 @208  = ~Mace +2~
 @209  = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with a stone or iron head mounted on the end. The head design varies; some being spiked, others flanged, and still others have pyramidal knobs.
@@ -900,8 +1215,12 @@ Damage: 1D6 +1
 Damage type: crushing
 Weight: 8
 Speed Factor: 7
-Proficiency Type: Mace
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage
+ Thief~
 @210  = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with an iron head mounted on the end. In this case, the head is pyramidal and seems to glow with an inner blue light, as it sits atop a polished oak shaft.
 
 STATISTICS:
@@ -911,8 +1230,12 @@ THACO: +2
 Damage type: crushing
 Weight: 8
 Speed Factor: 6
-Proficiency Type: Mace
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage
+ Thief~
 @211  = ~Morning Star~
 @212  = ~Morning Star +3~
 @213  = ~The morning star is a wooden shaft topped with a metal head made up of a spiked iron sheath. Morning stars have an overall length of about four feet. Some such weapons have a round, oval, or cylindrical shaped head studded with spikes. Extending from most morning star heads, regardless of design, is a long point for thrusting.
@@ -923,8 +1246,12 @@ Damage: 2D4
 Damage type: crushing
 Weight: 12
 Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @214  = ~The morning star is a wooden shaft topped with a metal head made up of a spiked iron sheath. Morning stars have an overall length of about four feet. Some such weapons have a round, oval, or cylindrical shaped head studded with spikes. Extending from most morning star heads, regardless of design, is a long point for thrusting.
 
 STATISTICS:
@@ -934,8 +1261,12 @@ Damage: 2D4 +3
 Damage type: crushing
 Weight: 12
 Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @215  = ~Flail +3 Red Death~
 @216  = ~Engraved on the flail heads it says: "The Red Death holds sway over all". 
 
@@ -947,8 +1278,12 @@ Damage: 1D6 +3
 Damage type: crushing
 Weight: 15
 Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @217  = ~Club~
 @218  = ~Poison Ivy  +2~
 @219  = ~Most clubs are stout, hardwood sticks, narrow at the grip and wider at the end. This simple weapon has been used since mankind first began using tools. Anyone can find a good stout piece of wood and swing it; hence the club's widespread use.
@@ -959,10 +1294,12 @@ Damage: 1D6
 Damage type: crushing
 Weight: 3
 Speed Factor: 4
-Proficiency Type: Club
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Mage~
 @220  = ~Poison Ivy +2
-
+ 
 Th is a deadly weapon designed by the Shadow Druids to assist them in their protection of the forests and its creatures. With each hit the vines of this club will wrap itself around the target and do poison damage. 
 
 STATISTICS:
@@ -974,8 +1311,11 @@ Target hit by Poison Ivy receives 1 poison damage for 8 seconds
 Damage type: crushing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Club
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Usable By:
+Druids 
+Rangers~
 @221  = ~Flail~
 @222  = ~Flail +3 "Fear"~
 @223  = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain.
@@ -986,8 +1326,12 @@ Damage: 1D6 +1
 Damage type: crushing
 Weight: 15
 Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @224  = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon was originally used as a tool for threshing grain.
 STATISTICS:
 
@@ -998,8 +1342,12 @@ Special: +3 piercing damage
 Damage type: crushing
 Weight: 11
 Speed Factor: 5
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @225  = ~Holy Flail of the Sun ~
 @226  = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link.  The weapon was originally used as a tool for threshing grain.  
 
@@ -1009,13 +1357,17 @@ Damage: 1D6 +1
 Damage type: crushing
 Weight: 15
 Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @227  = ~This flail is consecrated by the temple of the sun, it possesses magical powers, and can only be used by those who follow the path of enlightenment.
 
 STATISTICS:
 
-Damage: 1D6 +3
+Damage: 1D8 +3
 THACO: +3
 Wisdom: +1 bonus
 Special: Increased attacks
@@ -1023,8 +1375,11 @@ Special: 2D3 Fire Damage
 Damage type: crushing
 Weight: 8
 Speed Factor: 3
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Usable Only By:
+ Cleric
+ Paladin~
 @228  = ~Glowing Hammer~
 @229  = ~War Hammer +3 "Asgrim's Fate"~
 @230  = ~Of obvious magical nature due to peculiar blue illumination.
@@ -1041,8 +1396,12 @@ THAC0 +3
 Damage type: crushing
 Weight: 6
 Speed Factor: 4
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @232  = ~War Hammer~
 @233  = ~Large War Hammer +3~
 @234  = ~A massive, unwieldy warhammer inscribed with dwarven runes.
@@ -1053,8 +1412,12 @@ Damage: 1D4 +1
 Damage type: crushing
 Weight: 8
 Speed Factor: 4
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @235  = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another. The horseman's war hammer is a descendant of the Lucerne hammer. It is made entirely of steel, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is about 18 inches long.'
 
 STATISTICS:
@@ -1065,7 +1428,11 @@ Weight: 6
 Speed Factor: 4
 Proficiency Type: War Hammer
 Type: 1-handed
-Requires: 14 Strength~
+Requires: 14 Strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @236  = ~War Hammer +2~
 @237  = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand.  Maces and flails are two previous examples of this - the war hammer is another.  The horseman's war hammer is the descendent of the Lucerne hammer.  It is made entirely of steel, with rondels protecting and strengthening the grip.  Rondels are small disks of metal, often shaped into decorative designs.  The shaft is about 18 inches long. ''
 
@@ -1075,9 +1442,13 @@ Damage: 1D4 +1
 Damage type: crushing
 Weight: 6
 Speed Factor: 4
-Proficiency Type: War Hammer
-Type: 1-handed~
-@238  = ~War hammer +2: 'Morgoth'
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
+@238  = ~War hammer +2:  'Morgoth'
 Forged by dwarves of a long ago time, this hammer still radiates a magic warmth that burns when you touch the head of the hammer. Little else is known of this ancient artifact.
 
 STATISTICS:
@@ -1087,10 +1458,14 @@ THACO: +2 bonus
 Damage type: crushing
 Weight: 5
 Speed Factor: 2
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @239  = ~Bec de Corbyn ~
-@240  = ~Bec de Corbyn: 'Raven's Beak'
+@240  = ~Bec de Corbyn:  'Raven's Beak'
 For centuries the appearance of a raven on the field of battle was considered an omen of doom.  This devastating hammer is aptly named; the shape of the back spike echoes the beak while the gnarled face helps concentrate the blow on an opponent's armor.  The leaf shaped top spike adds a deadly thrust to the wielders repertoire.
 
 STATISTICS:
@@ -1107,8 +1482,12 @@ Weight: 5
 Speed Factor: 
    Crushing: 2
    Piercing: 1
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons/Small Swords
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @241  = ~Mjolnir  "The Destroyer"~
 @242  = ~Mounted knights cannot effectively use long pole weapons while on horseback, and as a result, many weapons have been fitted with shorter shafts so they may be wielded with just one hand. Maces and flails are two previous examples of this - the war hammer is another. The horseman's war hammer is the descendent of the Lucerne hammer. It is made entirely of steel, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is about 18 inches long.
 
@@ -1118,8 +1497,12 @@ Damage: 1D4 +1
 Damage type: crushing
 Weight: 6
 Speed Factor: 4
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @243  = ~This is the legendary hammer of Thor, Norse God of thunder. Crafted by a dwarven blacksmith Eitri at the bequest of Loki and presented to the gods as a gift, Mjolnir posses great powers. It can never be lost, it will return to the throwers hand after being thrown, can never be destroyed, and was enchanted by Thor himself with the ability to control lightning.
 
 STATISTICS:
@@ -1133,8 +1516,12 @@ Special: Cast Lightning Bolt unlimited times
 Special: Cast Call Lightning unlimited times
 Weight: 3
 Speed Factor: 2
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @244  = ~The Enlightenment Star +3~
 @245  = ~This morning star is consecrated by the temple of the sun, it possesses magical powers, and can only be used by those who follow the path of enlightenment.   
 
@@ -1148,8 +1535,11 @@ Special: Increased attacks
 Damage type: crushing
 Weight: 8
 Speed Factor: 3
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Usable Only By:
+ Cleric
+ Paladin~
 @246  = ~Mace +2 `Screaming Maiden´~
 @247  = ~Mace +2 : 'Screaming Maiden'
 
@@ -1164,10 +1554,14 @@ THACO: +2
 Damage type: crushing
 Weight: 7
 Speed Factor: 5
-Proficiency Type: Mace
+Proficiency Type: Blunt Weapons
 Type: 1-handed
 Special: The mace has a vampiric effect that heals the wielder and temporarily raises maximum hit points, hit points over the actual maximum are lost after combat.
-Whenever the mace scores a hit the wielder must make a saving throw versus spell or go into a berserking fury attacking anything nearby, including friends.~
+Whenever the mace scores a hit the wielder must make a saving throw versus spell or go into a berserking fury attacking anything nearby, including friends.
+Not Usable By:
+ Druid
+ Mage
+ Thief~
 @248  = ~Long Bow~
 @249  = ~Blackstaff's Magic Missile Bow~
 @250  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet. It has two advantages over the short bow: better range and hence, it is much more accurate.
@@ -1178,8 +1572,13 @@ Damage:
 THACO: +1
 Weight: 3
 Speed Factor: 7
-Proficiency Type: Longbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @251  = ~Rumor has it that this bow was made by Khelban Backstaff and it was stolen from him. Well who ever made it had to be a mage since there was a magical enchantment of magic missile put on it.
 
 STATISTICS:
@@ -1189,8 +1588,12 @@ THAC0 +3
 Damage: 1D6 +3
 Weight: 2
 Speed Factor: 6
-Proficiency Type: Longbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @252  = ~Ranger's Long Bow +3~
 @253  = ~The gift of Mielikki was given to a Rashaman ranger named Doran. Doran was well known for bringing down enemies in large numbers with this bow. 
 
@@ -1201,8 +1604,10 @@ THACO: +3
 Damage: +2
 Weight: 2
 Speed Factor: 5
-Proficiency Type: Longbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Usable By:
+Rangers only~
 @254  = ~Short Bow~
 @255  = ~Short Bow "The Frozen North"~
 @256  = ~Short bows were the first to be developed, although they were not called such. This is more of a default term that refers to anything which is not a long bow. Short bow staves are about 5 ' feet long on the average. As the years passed, attempts were made to increase bow ranges. Bows were either given longer staves or flexibility was increased with no change to the length. The former resulted in what is now called the long bow.
@@ -1212,8 +1617,12 @@ STATISTICS:
 Damage: 
 Weight: 2
 Speed Factor: 6
-Proficiency Type: Shortbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @257  = ~Short Bow "The Frozen North":
 This is a rare bow, only 3 are known to exist. They were made by a Priest of Auril in the Icewind Dale region. One was taken by Auril herself and the other was lost somewhere in the Gloomfrost Glacier.
 
@@ -1224,8 +1633,12 @@ THAC0: +3 bonus
 Special: +1D6 cold damage and freeze(hold) for 60 seconds, no save.
 Weight: 2
 Speed Factor: 4
-Proficiency Type: Shortbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @258  = ~Short Bow 'Icestorm'~
 @259  = ~Short bows were the first to be developed, although they were not called such.  This is more of a default term that refers to anything which is not a long bow.  Short bow staves are about 5 ' feet long on the average.  As the years passed, attempts were made to increase bow ranges.  Bows were either given longer staves or flexibility was increased with no change to the length.  The former resulted in what is now called the long bow.  
 
@@ -1234,24 +1647,32 @@ STATISTICS:
 Damage: 
 Weight: 2
 Speed Factor: 6
-Proficiency Type: Shortbow
-Type: 2-handed~
-@260  = ~Shortbow:  'Icestorm'
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@260  = ~Short bow, cold bow:  'Icestorm'
 
-A short-lived outpost of humans in the Frozen Forest unearthed this weapon, and many others, from the ruins of an ancient settlement deep within that cold land. Never knowing the names of their extinct benefactors, the colonists used these "tools" to carve a large territory for themselves, though in the end it was for naught.  Crushed by a superior number of Hobgoblins, these unfortunate souls have joined the ancients in their anonymity. User must make a save vs. death +5 or suffer the same fate as its enemy.
+A short-lived outpost of humans in the Frozen Forest unearthed this weapon, and many others, from the ruins of an ancient settlement deep within that cold land.  Never knowing the names of their extinct benefactors, the colonists used these "tools" to carve a large territory for themselves, though in the end it was for naught.  Crushed by a superior number of Hobgoblins, these unfortunate souls have joined the ancients in their anonymity. User must make a save vs. death +5 or suffer the same fate as its enemy.
 
 STATISTICS:
 
-Damage: 1d4 +1
+Damage: 1d4 +1,
 1D4 cold damage
 THAC0: +3 bonus
-Special: +1D6 cold damage and freeze (hold) for 60 seconds, no save.
+Special: +1D6 cold damage and freeze(hold) for 60 seconds, no save.
 Weight: 2
 Speed Factor: 4
-Proficiency Type: Shortbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @261  = ~Long Bow of O'Locksley~
-@262  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet. It has two advantages over the short bow: better range and hence, it is much more accurate.
+@262  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet.  It has two advantages over the short bow: better range and hence, it is much more accurate.  
 
 STATISTICS:
 
@@ -1259,8 +1680,13 @@ Damage:
 THACO: +1
 Weight: 3
 Speed Factor: 7
-Proficiency Type: Longbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @263  = ~The famed archer and outlaw O'Locksley constructed this bow with the aid of a sympathetic mage to aid in his quest to rid the country of the harsh and oppressive master that held the peasantry in an iron vice of fear. Not a small portion of his fame as an archer without peer is due to the powers of his wondrous bow. After his tragic death, O'Locksley's bow was passed on to his nephew; Jaen of Southerton Jaen used the bow for two decades to continue to fight injustice and evil in the country. He entrusted it to an elven friend before setting out on a secret mission from which he never returned. The elf gave the bow to his queen, and it has since been passed down among royalty of the elven court. Several times it has been lost, but it has always been recovered due to the diligence of the elve's searches. It was last used in a raid on the Goblin King's Lair. Both Treestalker and the bow were lost after the raid, and the elves are continually searching for both.
 
 Thee bow is of exceptional quality, it is made of ancient yew that some say came from thee the great World Tree, Yaggissdril. The magic bow is of such that it never needs to be restrung or tightened, even after getting wet. The draw of the bow is feather light so extreme accuracy and speed is easily obtained.
@@ -1272,7 +1698,12 @@ Damage: +2
 Weight: 2
 Speed Factor: 5
 Proficiency Type: Bow Weapons
-Type: 2-handed~
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @264  = ~Light Crossbow~
 @265  = ~Light Crossbow +3 'Scorpion's Sting'~
 @266  = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller. The bow is usually made of ash or yew.  The crossbow fires a quarrel (also called a bolt).
@@ -1281,8 +1712,13 @@ STATISTICS:
 
 Weight: 7
 Speed Factor: 5
-Proficiency Type: Crossbow
-Type: 2-handed~
+Proficiency Type: Missile Weapon
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @267  = ~This crossbow was crafted by the Erreth-Akbe for their long fought war against the necromancers. The crossbow was enchanted with the ability to form poison bolts when aimed at a target. Once built the druids realized that it was to chaotic a weapon for them to permit its use and it was buried beneath the temple never to be seen again.
 
 STATISTICS:
@@ -1295,8 +1731,13 @@ Poison Damage: 18 points per round
 Special: Requires no bolts
 Weight: 6
 Speed Factor: 1
-Proficiency Type: Crossbow
-Type: 2-handed~
+Proficiency Type: Missile Weapon
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @268  = ~Composite Long Bow~
 @269  = ~Ullyses~
 @270  = ~Composite bows are long bows or short bows whose staves are made from more than one type of material. This gives greater flexibility, and thus better range. These were developed after the normal long bow.
@@ -1307,8 +1748,14 @@ Damage: +2
 To Hit Bonus: +1
 Weight: 10
 Speed Factor: 7
-Proficiency Type: Longbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief
+ Bard~
 @271  = ~The archers dream. Ullyses requires no arrows, firing bolts of ice formed when the string is drawn back. Its origins are unknown but the style suggests Elvish make.
 
 STATISTICS:
@@ -1317,8 +1764,14 @@ THACO: +2
 Damage: 1D6 +2
 Weight: 9
 Special: Increased weapons speed
-Proficiency Type: Longbow
-Type: 2-handed~
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief
+ Bard~
 @272  = ~Light Crossbow +3 'Firetooth'~
 @273  = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller. The bow is usually made of ash or yew. The crossbow fires a quarrel (also called a bolt).
 
@@ -1326,19 +1779,28 @@ STATISTICS:
 
 Weight: 7
 Speed Factor: 5
-Proficiency Type: Crossbow
-Type: 2-handed~
+Proficiency Type: Missile Weapon
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @274  = ~The magical bowstring of Gond makes even the Firetooth Crossbow's enchanted missiles more accurate and more powerful. Firetooth will only fire these enchanted missiles, so there is no need for ammunition.
 
 STATISTICS:
 
 THAC0: +3 bonus
-Damage: 1D8 +3
+Damage: 1D6 +3
 +2 Fire damage
 Weight: 5
 Speed Factor: 1
 Proficiency Type: Crossbow
-Type: 2-handed~
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @275  = ~Bullet~
 @276  = ~Bullet +1~
 @277  = ~A bullet is simply a rounded, well-balanced stone. 
@@ -1409,10 +1871,12 @@ Damage: 1D4
 Damage type: piercing
 Weight: 1
 Speed Factor: 2 
-Proficiency Type: Dagger
-Type:  1-handed~
+Proficiency Type: Small Sword
+Type:  1-handed
+Not Usable By:
+ Cleric~
 @289  = ~Dagger +2 "Northern Bite"
-The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. This dagger came from Neverwinter from a dwarf weaponsmith. He put enchantments on the dagger to do cold damage.
+The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. This dagger came from Neverwinter from a dwarf weaponsmith. He put enchantments on the dagger to do cold damage. 
 
 STATISTICS:
 
@@ -1423,10 +1887,12 @@ Weight: 1
 Speed Factor: 0
 Speicals: 
 Gives the user 50% resistance vs cold 
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Cleric~
 @290  = ~Dagger +3: "Lil Stunner"~
-@291  = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger.
+@291  = ~The typical dagger has a pointed, usually double-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. 
 
 STATISTICS:
 
@@ -1434,8 +1900,10 @@ Damage: 1D4
 Damage type: piercing
 Weight: 1
 Speed Factor: 2 
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Cleric~
 @292  = ~Created by a forger known as Evets Nitsua, he made this dagger stun the target so he could slowly carve them up and bleed them to death.   
 
 STATISTICS: 
@@ -1446,8 +1914,10 @@ THACO: +3 bonus
 Damage type: Piercing 
 Weight: 2 
 Speed Factor: 0 
-Proficiency Type: Dagger
-Type: 1-handed Returns when thrown~
+Proficiency Type: Small Sword 
+Type: 1-handed Returns when thrown
+Not Usable By: 
+Cleric~
 @293  = ~Yarash's Dagger - Dagger of Returning~
 @294  = ~Yarash's Dagger: The dagger of returning was crafted by Yarash the Sorcerer as payment to a band of adventures for the services rendered. Many believe that it is as much it's unusual weight as the magical enchantment that gives the dagger it high level of damage.
 
@@ -1460,8 +1930,10 @@ Special: Returns to users hand once thrown
 Special: Increases number of attacks
 Weight: 3
 Speed Factor: 2
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: small sword
+Type: 1-handed
+Not Usable By:
+ Cleric~
 @295  = ~Dagger of Disease~
 @296  = ~The "Dagger of Disease" is a potent blade favored by assassins all across the Realms. This peculiar weapon is diseased and gives the victim additional damage. Every time it hits an opponent it secretes a virus into the blood stream of the creature. The virus attacks the immune system quite rapidly.
 Its origin is unknown.
@@ -1475,9 +1947,11 @@ Poison Damage: 6 points per round
  Up to a total of 15 damage
 Weight: 2
 Speed Factor: 0
-Proficiency Type: Dagger
-Type: 1-handed~
-@297  = ~Dagger +2: 'The Shocker'~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Cleric~
+@297  = ~Dagger +2:  'The Shocker'~
 @298  = ~The typical dagger has
   a pointed-edged blade, as opposed to a knife, which has a single edge and is a bit shorter than the dagger. 
 
@@ -1487,8 +1961,10 @@ Damage: 1D4
 Damage type: piercing
 Weight: 1
 Speed Factor: 2 
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Cleric ~
 @299  = ~There are no records of this weapon's creator; nevertheless, its existence can be traced back among the barbaric and nomad tribes of the mountains.  Its blade of blue bolt was apparently forged from the arcane metals and bolts of lighting to heat it, giving the weapon an appearance blue lighting.
 
 STATISTICS:
@@ -1497,13 +1973,15 @@ Damage: 1D4 +2
 THACO: +2 bonus
 Weight: 1
 Speed Factor: 0
-Special: 50% chance to do 2D4 of electrical damage 
+Special: 50% chance to do 2D4 of electrical damage save vs wand
 
 Gives the user 50% resistance vs electricity
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Clerics~
 @300  = ~Dagger Of Ice~
-@301  = ~Dagger +2: 'Winters Tooth'
+@301  = ~Dagger +2:  'Winters Tooth'
 There are no records of this weapon's creator; nevertheless, its existence can be traced back among  the barbaric and nomad tribes of the north.  Its blade of blue ice was apparently forged from the arcane metals found in the great north, giving the weapon an appearance ice.
 
 STATISTICS:
@@ -1515,8 +1993,10 @@ Speed Factor: 0
 Special: 1D8 of cold damage save vs spell
 
 Gives the user 50% resistance vs cold 
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Cleric~
 @302  = ~Throwing Dagger~
 @303  = ~Throwing Dagger +3~
 @304  = ~ The dagger blade has a sharp steel tip, counterbalanced by a handle.
@@ -1527,8 +2007,11 @@ Damage: 1D4
 Damage type: missile (piercing)
 Weight: 2
 Speed Factor: 4
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Short Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric ~
 @305  = ~This throwing dagger has not only been finely balanced for use as a missile weapon but has also been the subject of significant magical enhancement. As a result, it is both more damaging and more accurate than any non-magical weapon of a similar style. 
 
 STATISTICS:
@@ -1540,8 +2023,12 @@ Damage type(thrown): missile (piercing)
 Special: Returns to users hand once thrown
 Weight: 0
 Speed Factor: 1
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: short sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Throwing~
 @306  = ~Spear~
 @307  = ~Chimera Lance +3~
 @308  = ~One of man's earliest weapons, dating back to the most primitive of times, the first spears were simply wooden poles or sticks sharpened at one end. When man mastered metals, spearheads were made from iron and steel. Having reached this end, weaponers began experimenting with different types of spear heads, thus leading to the development of certain polearm types.
@@ -1552,8 +2039,12 @@ Damage: 1D6
 Damage type: piercing
 Weight: 5
 Speed Factor: 6
-Proficiency Type: Spear
-Type: 2-handed~
+Proficiency Type: Spear 
+Type: 2-handed
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
 @309  = ~Chimera Lance +3
 Favorite weapon of the Elven Rangers of the Chimera these lances are fashioned from magical wood with a barbed end that is coated in a lethal poison. The raw brutality of the Chimera in combat is only rivaled by the Silvan elfs.
 
@@ -1567,7 +2058,11 @@ Damage type: piercing
 Weight: 5
 Speed Factor: 3
 Proficiency Type: Spear 
-Type: 2-handed~
+Type: 2-handed
+Not Usable Only By:
+Cleric
+Mage
+Thief~
 @310  = ~Gibbet~
 @311  = ~A humorless weapon to say the least. Gibbet was forged by Mekorig the Blind to help end the age of monsters, and promote the age of man. Gibbet often goes missing for years only to be rediscovered in some dragons hoard by ambitious adventurers.  The power of the weapon often inspires such adventurers to move it to another dragons hoard, where it once again goes missing for years.
 
@@ -1576,11 +2071,16 @@ STATISTICS:
 Damage: 1D8 +3
 Special: Increased attacks
 Special: +2 AC bonus
+Increased Damage & THACO vs. Undead, Giants, Monsters, & Demons
 Damage type: piercing
 Weight: 5
 Speed Factor: 1
 Proficiency Type: Spear 
-Type: 2-handed~
+Type: 2-handed
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
 @312  = ~Divine Lance~
 @313  = ~One of the finest weapons ever created for the path of the light this lance glows with the power of good that resides within it. Used almost exclusively by the Sukien Holy Guard, this is a rare and valuable treasure indeed. The High Priests of the Sukien enchant each one of these with great strength against the evil that would try to destroy their holy temple.
 
@@ -1594,7 +2094,9 @@ Damage type: piercing
 Weight: 5
 Speed Factor: 5
 Proficiency Type: Spear 
-Type: 2-handed~
+Type: 2-handed
+Usable Only By:
+ Paladin~
 @314  = ~Sling~
 @315  = ~Elemental Sling "The Sling of Plenty"~
 @316  = ~Slings have existed since the beginning of recorded history. The basic sling consists of a leather or fabric strap with a pouch for holding the missile.  The weapon is held by both ends of the strap and twirled around the wielder's head. When top speed is attained, the missile is launched by releasing one of the strap's ends.
@@ -1603,8 +2105,9 @@ STATISTICS:
 
 Weight: 0
 Speed Factor: 6
-Proficiency Type: Sling
-Type: 1-handed~
+Proficiency Type: Missile Weapons
+Type: 1-handed
+Not Usable By:~
 @317  = ~Originally created as a training weapon by the masters of the Church of the Sun, this lethal sling has somehow found its way into the hands of thieves and scoundrels for centuries. The sling itself creates the stone to be launched when it is whirled around by summoning upon the very elements about it, thus eliminating the need to carry ammo. It's little wonder that thieves do love it so.
 
 STATISTICS:
@@ -1613,8 +2116,9 @@ Damage: 1D6 +3 (missile damage)
 THACO: +2
 Weight: 0
 Speed Factor: 1
-Proficiency Type: Sling
-Type: 1-handed~
+Proficiency Type: Missile Weapons
+Type: 1-handed
+Not Usable By:~
 @318  = ~Sorcerer's Staff +3~
 @319  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaves are made of stout oak and are shod with metal at both ends. The quarterstaff must be wielded with both hands. This staff also has a chance of turning opponents to stone.
 
@@ -1628,8 +2132,10 @@ Speed Factor: 3
 Special Abilities:
  Vocalize
  25% Chance to Petrify Enemy on Hit
-Proficiency Type: Quarterstaff
-Type:  2-handed~
+Proficiency Type: Blunt Weapons
+Type:  2-handed
+Usable By:
+ Mage~
 @320  = ~Staff~
 @321  = ~Staff Of Nature~
 @322  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.  
@@ -1640,8 +2146,9 @@ Damage: 1D6
 Damage type: crushing
 Weight: 4
 Speed Factor: 4
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @323  = ~Staff Of Nature: 'Natures Protector'
 This staff has been used by a tribe of Druids for many centuries now. Passed down from leader to leader on the tribe of archdruids in the land of Kazgard. It is said that this staff was forged by nature itself and it glows green to show this staff truly is off natures power. This staff is very powerful and the passed owners of this staff were very powerful people indeed.
 
@@ -1653,8 +2160,10 @@ Lore:+20 bonus
 Weight: 2
 Speed Factor: 1
 Damage type: Bludgeon
-Proficiency Type: Quarterstaff
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Usable By:
+Druid Only~
 @324  = ~Quarter Staff~
 @325  = ~Elemental Staff of Air~
 @326  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.
@@ -1665,8 +2174,9 @@ Damage: 1D6
 Damage type: crushing
 Weight: 4
 Speed Factor: 4
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @327  = ~This is one of the four elemental staffs of the Chanah'Rea believed to have been forged at the dawn of time when the earth itself was born. This particular staff is of the element air.
 
 STATISTICS:
@@ -1680,8 +2190,9 @@ Damage: (Projectile) Electrical Damage half if save vs. wands
 Damage type:  crushing
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @328  = ~Elemental Staff of Earth~
 @329  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends. The quarterstaff must be wielded with both hands.
 
@@ -1691,8 +2202,9 @@ Damage: 1D6
 Damage type: crushing
 Weight: 4
 Speed Factor: 4
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @330  = ~This is one of the four elemental staffs of the Chanah'Rea believed to have been forged at the dawn of time when the earth itself was born. This particular staff is of the element earth.
 
 STATISTICS:
@@ -1707,8 +2219,9 @@ Damage: (Projectile) Acid Damage half if save vs. wands
 Damage type: crushing
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @331  = ~Elemental Staff of Fire~
 @332  = ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length. High quality quarterstaves are made of stout oak and are shod with metal at both ends. The quarterstaff must be wielded with both hands.
 
@@ -1718,8 +2231,9 @@ Damage: 1D6
 Damage type: crushing
 Weight: 4
 Speed Factor: 4
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @333  = ~This is one of the four elemental staffs of the Chanah'Rea believed to have been forged at the dawn of time when the earth itself was born. This particular staff is of the element fire.
 
 STATISTICS:
@@ -1727,14 +2241,15 @@ STATISTICS:
 Damage: 1D6 +3
 THACO: +3
 Special: AC Bonus +1
-Special: 1D4 Fire Damage
+Special: 3D4 +1 Fire Damage
 Special: Project a bolt of fire 
 Damage: (Projectile) Fire Damage half if save vs. wands
 Damage type: crushing
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @334  = ~Elemental Staff of Water~
 @335  = ~This is one of the four elemental staffs of the Chanah'Rea believed to have been forged at the dawn of time when the earth itself was born. This particular staff is of the element water.
 
@@ -1749,8 +2264,9 @@ Damage: (Projectile) Cold Damage half if save vs. wands
 Damage type:  crushing
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Quarterstaff
-Type:  2-handed~
+Proficiency Type: Blunt Weapons
+Type:  2-handed
+Not Usable By:~
 @336  = ~Staff of Life~
 @337  = ~Staff of Life: 
 White and gold, pulsing with great power this staff was formed at the dawn of time by the first ray of the sun as it glistened off of a pure body of water. Offering little in the way of offence, this staff does provide its wielder with powerful protections.
@@ -1765,8 +2281,11 @@ Special: Protection from level 1 spells
 Damage type: crushing
 Weight: 3
 Speed Factor: 6
-Proficiency Type: Quarterstaff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Only usable by:
+Mage (single, dual, & multi-class)
+Good-aligned characters~
 @338  = ~Long Sword~
 @339  = ~Long Sword 'The Northern Berserker'~
 @340  = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
@@ -1777,8 +2296,12 @@ Damage: 1D8
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @341  = ~From the frigid colds of Icewind Dale, this sword was forged by the insane dwarf, Asgrim. The hand grip feels cool and the blade is ice cold to the feel, regardless how hot it may be outside. 
 
 STATISTICS:
@@ -1790,8 +2313,12 @@ Special:
     +3 cold damage
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @342  = ~Scimitar~
 @343  = ~Scimitar +2~
 @344  = ~The scimitar is closely related to the sabre, a single edged curved sword with protective hilt. The blade has a greater curve to it and is tapered to an elongated, sharp point. The origins of the scimitar are largely unknown however they have been very popular in the southern region of the Forgotten Realms.
@@ -1801,9 +2328,12 @@ STATISTICS:
 Damage: 1D8
 Damage type: Slashing
 Weight: 4
-Proficiency type: Scimitar/Wakizashi/Ninjato
+Proficiency type: Large Swords
 Speed Factor: 5
-Type: 1-handed~
+Type: 1-handed
+Not usable by:
+Mage
+Cleric~
 @345  = ~Scimitar +2: 
 
 The scimitar is closely related to the sabre, a single edged curved sword with protective hilt. The blade has a greater curve to it and is tapered to an elongated, sharp point. The origins of the scimitar are largely unknown however they have been very popular in the southern region of the Forgotten Realms.
@@ -1816,9 +2346,13 @@ THACO: +2 bonus
 15% Resistance to lightning
 Damage type: Slashing
 Weight: 4
-Proficiency type: Scimitar/Wakizashi/Ninjato
+Proficiency type: Large Swords
 Speed Factor:  2
-Type: 1-handed~
+Type: 1-handed
+
+Not usable by:
+Mage
+Cleric~
 @346  = ~Cutlass~
 @347  = ~Cutlass +3 'Pirate Lords Bounty'~
 @348  = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
@@ -1829,9 +2363,15 @@ Damage: 1D6
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
-@349  = ~Cutlass +3 'Pirate Lords Bounty'     The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
+@349  = ~Cutlass +3  'Pirate Lords Bounty'     The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
 STATISTICS:
 
@@ -1841,10 +2381,16 @@ Special: 1D4 Electrical Damage
 Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
-@350  = ~Long Sword +2 "Section One"~
-@351  = ~Section One Swords are the finest blades out there. They are used by the elite forces of the group called "The Section". To even have a sword made for The Section could mean your death.
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
+@350  = ~Long Sword +2 "Section 1"~
+@351  = ~Section 1 Swords are the finest blades out there. They are used by the elite forces of the group called "The Section". To even have a sword made for The Section could mean your death.
 
 STATISTICS:
 
@@ -1854,8 +2400,13 @@ THAC0 bonus: +2
 Damage type: slashing
 Weight: 7
 Speed Factor: 2
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @352  = ~Long Sword 'Life'~
 @353  = ~Nikita's personal sword. She has reluctantly cancelled many enemies with this finely crafted sword. 
 
@@ -1868,8 +2419,12 @@ Special:
     +10 hit points while equipped.
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @354  = ~Long Sword 'Death'~
 @355  = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
 
@@ -1879,8 +2434,12 @@ Damage: 1D8
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @356  = ~Michael's personal sword. He has cancelled many enemies with this finely crafted sword.
 
 STATISTICS:
@@ -1892,8 +2451,12 @@ Special:
     10% death if fail save.
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @357  = ~Cutlass +3 "T'sarren"~
 @358  = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
@@ -1923,7 +2486,7 @@ Special: 1D3 Fire Damage
 Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
+Proficiency Type: Large Sword
 Type: 1-handed
 Not Usable By:
  Bard
@@ -1941,8 +2504,12 @@ Damage: 1D8
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
 @363  = ~Saber of Wounding. 
 
 STATISTICS:
@@ -1953,8 +2520,12 @@ Special: Wounding damage of 1 HP/round for 8 rounds
 Damage type:  slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Cleric
+ Mage
+ Thief~
 @364  = ~Short Sword ~
 @365  = ~Assassin's Blade~
 @366  = ~The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting.
@@ -1965,8 +2536,12 @@ Damage: 1D6
 Damage type: piercing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Short Sword
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric 
+ Mage~
 @367  = ~Assassin's blade is a longsword armor created for use by the deadly assassins of the Shadowmasters. It has never been seen just rumored to exist due to some of the incredible things done by this very elite group of assassins. The Shadowmasters are of the highest order within the Shadow Thief hierarchy. It is +4 long sword.
 
 STATISTICS:
@@ -1977,8 +2552,10 @@ Special: allows 2 attacks
 Damage type piercing
 Weight: 3 
 Speed Factor: 0
-Proficiency Type: Short Sword
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Usable By:
+ Thief~
 @368  = ~Corsair~
 @369  = ~The scimitar is closely related to the sabre, a single edged curved sword with protective hilt. The blade has a greater curve to it and is tapered to an elongated, sharp point. The origins of the scimitar are largely unknown however they have been very popular in the southern region of the Forgotten Realms.
 
@@ -1987,9 +2564,12 @@ STATISTICS:
 Damage: 1D8
 Damage type: Slashing
 Weight: 4
-Proficiency type: Scimitar/Wakizashi/Ninjato
+Proficiency type: Large Swords
 Speed Factor:  5
-Type: 1-handed~
+Type: 1-handed
+Not usable by:
+Mage
+Cleric~
 @370  = ~Corsair is one of the finest weapons ever turned out by the Regnan armories. Ever true to their nature, Regna's smiths fashioned a weapon that would aid their imperial "tax collection" on the high seas and coastal towns.
 
 STATISTICS:
@@ -2001,9 +2581,12 @@ Special: Increased speed
 Special: Increased thieving skills
 Damage type: Slashing
 Weight: 4
-Proficiency type: Scimitar/Wakizashi/Ninjato
+Proficiency type: Large Swords
 Speed Factor:  1
-Type:  1-handed~
+Type:  1-handed
+Usable only by:
+Thief (single, dual or multi-class)
+Druid~
 @371  = ~Cutlass +2 'Scorcher'~
 @372  = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun.  The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
@@ -2013,8 +2596,14 @@ Damage: 1D6 +1
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
 @373  = ~Cutlass +2 'Scorcher'  Wrinkled and red this cutlass is cold to the touch, the runic carvings only say 'Scorcher'. Its appearance has caused many an adventurer to mistaken it as worn out, old, or useless. Those more inquisitive adventurers who carried it along just to be sure were always pleasantly surprised. You see scorcher does not get hot until swung, but once it is in motion heading for a target its name becomes clearly correct.
 
 STATISTICS:
@@ -2025,8 +2614,14 @@ Special: 1D3 Fire Damage
 Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
 @374  = ~Cutlass +3  'Ghost Blade'~
 @375  = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerun. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
@@ -2036,8 +2631,14 @@ Damage: 1D6 +1
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
 @376  = ~Cutlass +3  'Ghost Blade' 
 Anytime a swordsman swings their blade they can see slight images of it tracing along behind. This blade is no different it what is seen, but unlike any average blade it seems the ghostly images of this one also can cut. It was originally owned by a rather porkish and lazy fellow named Bordger who was rumored to have some history of magical training before he had become a thief.  Given how well this blades enchantment works he might have been better served to stay a mage. 
 
@@ -2049,8 +2650,14 @@ Special: 1D3 Slashing Damage
 Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
 @377  = ~Cutlass +3 'Sparks'~
 @378  = ~Cutlass +3 'Sparks'   Humming with electrical energy, it is easy to see how this cutlass got its name. The origins of it are not known, but stories of a strange land always accompany any recount of this blade. The first known owner was a pirate just returned to port. He was robbed and killed while in a drunken stupor and even his name remains as much a mystery as this sword.
 
@@ -2062,8 +2669,14 @@ Special: 1D3 Electrical Damage
 Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
 @379  = ~Cutlass +3 'Thud'~
 @380  = ~Cutlass +3 'Thud'  Larger the the average cutlass, when looked upon Thud seems more a broad sword the a cutlass. Commissioned by a robber baron named Orrimy who wanted to 'smash as well as slash' as he put it. The extra large size got him the results he was seeking, to bad his first chance to try it was against an ogre who smashed him before he could free it from its scabbard.
 
@@ -2075,8 +2688,14 @@ Special: 1D3 Crushing Damage
 Damage type: slashing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
 @381  = ~Doufas' Sabre~
 @382  = ~The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length. The sword tip is usually pointed, ideal for thrusting.
 
@@ -2086,8 +2705,12 @@ Damage: 1D6
 Damage type: piercing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric 
+ Mage ~
 @383  = ~Doufas' Sabre
 The Doufas' Sabre was created to be the perfect assassin's tool. It is highly sought after by any who settle differences with a blade, and many that possess it do not do so for long.
 
@@ -2098,11 +2721,15 @@ THACO: +2 bonus
 Damage type piercing
 Weight: 5 
 Speed Factor: 0
-Proficiency Type: Scimitar/Wakizashi/Ninjato
+Proficiency Type: Small Sword
 Type: 1-handed
 Special:
  +2 attacks
- +Holds opponent unless save~
+ +Holds opponent unless save
+Not Usable By:
+ Druid
+ Cleric 
+ Mage~
 @384  = ~Long Sword +4, Holy Avenger - Draz~
 @385  = ~Once the property of Gez of Helm, this mighty sword held a place of honor among the artifacts kept in the holy temple of Helm in Baldur's Gate for centuries, on occasion being loaned out to a paladin of the church when the need arose. However, roughly sixty-three years ago, there was a rash of thefts in the city of Baldur's Gate. Draz was stolen before it had been returned to the temple. All attempts to locate it failed, but now it has shown up here, in your hands.
 
@@ -2117,10 +2744,12 @@ Special Abilities:
  Protection from evil 10' radius
  50% Magic Resistance
  +1 to Strength
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Usable By:
+Paldin~
 @386  = ~Long Sword "Fire Biter"~
-@387  = ~How "Fire Biter" came to this plane is unknown.
+@387  = ~How "Fire Biter" came to this plane is unknown. 
 
 It is rumored that the last owner believed himself so powerful that he went to defeat the Queen of Fire Elementals. Obviously he failed.
    
@@ -2137,8 +2766,12 @@ Special:
 Damage type: slashing
 Weight: 4
 Speed Factor: 3
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @388  = ~Sword of the Forest~
 @389  = ~Scimitar 'The long, curved, single edged blade is characteristic of both the sabre and the scimitar, even though their origins lie in different part of Faerun. Where as the sabre was intended mainly for horsemen, mainly due to its versatility, the scimitar has a heavier oriental influence. The "shamshir", as it was originally called, is larger, has a greater curve to it, and is tapered to an elongated, sharp point. The effect of this is that it is slightly slower but tends to be more effective and deadly in combat.
 
@@ -2155,8 +2788,10 @@ THACO: +2
 Weight: 4
 Speed Factor: 5
 Damage Type: slashing
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: long sword
+Type: 1-handed
+Usable by
+Druid~
 @391  = ~Harval: The Grey Blade~
 @392  = ~The scimitar is closely related to the sabre, a single edged curved sword with protective hilt. The blade has a greater curve to it and is tapered to an elongated, sharp point. The origins of the scimitar are largely unknown however they have been very popular in the southern region of the Forgotten Realms. This particular sword seems to be of very high quality due to the tremendous balance felt while swinging it
 
@@ -2165,24 +2800,31 @@ STATISTICS:
 Damage: 1D8  
 Damage type: Slashing
 Weight:  4
-Proficiency type: Scimitar/Wakizashi/Ninjato
+Proficiency type: Large Swords
 Speed Factor:  5
-Type:  1-handed~
+Type:  1-handed
+Not usable by:
+Mage
+Cleric~
 @393  = ~Harval belonged to Colbey Calistinsson: The Keeper of Balance.
 It was given to prior to the Ragnarok (The War of the Gods). Although not a god he is an Immortal. As the Keeper of Balance between Good and Evil, Law and Chaos he was disliked by many because he could chose no side. His only interest was keeping the "Balance". It is not known how this sword came to be. But is rumored to have been placed here to help Colby with his desire for Balance. For this sword may only be used by those who seek the same "Balance"
 
 The Armor Class bonus is do to the fact that the wielder has such control and balance that he can deflect many attacks that would normally hit.
 STATISTICS:
 
-Damage: 1D8 +2
+Damage: 1D8 +3
 THACO: +3 bonus
-# of Attacks: 1 Attacks
-Special: +1 Armor Class bonus
+# of Attacks: 2 Attacks
+Special: +2 Armor Class bonus
 Damage type: Slashing
 Weight: 4
-Proficiency type: Scimitar/Wakizashi/Ninjato
+Proficiency type: Large Sword
 Speed Factor:  2
-Type: 1-handed~
+Type: 1-handed
+Not usable by:
+Evil or Neutral Alignment
+Mage
+Cleric~
 @394  = ~Two Handed Sword~
 @395  = ~Two Handed Sword +3, Hellbearer~
 @396  = ~The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
@@ -2193,8 +2835,13 @@ Damage: 1D10
 Damage type: slashing
 Weight: 15
 Speed Factor: 10
-Proficiency Type: Two-handed Sword
-Type: 2-handed~
+Proficiency Type: Large Sword
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @397  = ~A doubled-edged two-handed sword named Hellbearer that glows with a black to burble radiance. This is one of the intelligent hellblades that does fire damage against its target.
 STATISTICS:
 
@@ -2204,8 +2851,10 @@ THACO: +3 bonus
 Damage Type: slashing
 Weight:  8
 Speed Factor: 4
-Proficiency Type: Two-handed Sword
-Type: 2-handed~
+Proficiency Type: Large Sword
+Type: 2-handed
+Only usable by:
+Fighter (single, dual, & multi-class)~
 @398  = ~Krom's Longsword~
 @399  = ~This sword was carried by Krom the Invisible. He used it against countless foes during his reign. Accounts from those few who lived after being on the receiving end of this blade said that they a subtle force working inside them to slow them down.
 
@@ -2218,8 +2867,12 @@ Special:
     Slow target on hit if save failed
 Weight: 3
 Speed Factor: 1
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @400  = ~Rhea's Bane~
 @401  = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches.  In the latter case, the blade is known to take up 40 inches of the total length.  Most long swords have a double-edged blade and a sharp point at the tip.  Despite the tip, the long sword is designed for slashing, not thrusting.
 
@@ -2229,8 +2882,12 @@ Damage: 1D8
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @402  = ~This blade was crafted for the warrior Cuthlan Rhea by the Lord of Fire Galamar. Little is known of the blades exact powers, and aside from the runic carvings on the blade it shows no sign of magical abilities until raised in combat; where the blade glows a faint blackish red.
 
 STATISTICS:
@@ -2242,8 +2899,12 @@ Special: +1 Dexterity
 Damage type: slashing
 Weight: 4
 Speed Factor: 4
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
 @403  = ~Bastard Sword~
 @404  = ~Bastard Sword +2 "The Viper"~
 @405  = ~Also known as the hand-and-a-half sword, the bastard sword derives its name from the fact that it is halfway between the two-handed sword and the long sword. The bastard sword has a double-edged blade and a long grip, which can accommodate both hands if preferred.  The overall length of the bastard sword ranges between four feet and four feet ten inches.   
@@ -2254,8 +2915,13 @@ Damage: 2D4
 Damage type: slashing
 Weight: 10
 Speed Factor: 8
-Proficiency Type: Bastard Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @406  = ~Bastard Sword +2 The Viper, the poison in this sword is extremely lethal, extracted from the tail of a wyvern it does extreme damage in short periods of time.
 
 STATISTICS:
@@ -2266,8 +2932,13 @@ Special: Inflicts target with poison unless the save vs. death.
 Damage type: slashing
 Weight: 8
 Speed Factor: 7
-Proficiency Type: Bastard Sword
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @407  = ~Thieves Blade~
 @408  = ~The short sword is the first type of sword to come into existence. In the simplest of terms, a short sword can be considered a dagger with a blade so long that it can no longer be called a dagger. The term short sword does not exist in sword classifications. However, it has come to be used to describe a double-edged blade about two feet in length.  The sword tip is usually pointed, ideal for thrusting.
 
@@ -2277,8 +2948,12 @@ Damage: 1D6
 Damage type: piercing
 Weight: 3
 Speed Factor: 3
-Proficiency Type: Short Sword
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric 
+ Mage ~
 @409  = ~This blade was made specifically for thieves, but can be used by all who can use it normally. This weapons gives the thief many advantages, making him that bit faster than his opponents and that much more skillful when it comes to helping someone them selves to someone's money.
 
  STATISTICS:
@@ -2290,8 +2965,12 @@ Special:
 Damage type: piercing
 Weight: 2
 Speed Factor: 1
-Proficiency Type: Short Sword
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric 
+ Mage~
 @410  = ~Amulet~
 @411  = ~Amulet of Wyvren Summoning~
 @412  = ~A necklace is a piece of ornamental metal jewelry usually made of silver, gold, platinum, or other precious metal, and adorned with gems. A necklace is always worn on the neck and can be of any length.~
@@ -2306,14 +2985,17 @@ A few years back Fong Moo a famous cutpurse, known in both Baldur's Gate and Ath
 
 STATISTICS
 
-Pick Pocketing: +20% Bonus~
+Pick Pocketing: +20% Bonus
+Usable By:
+ Thief
+ Bard~
 @418  = ~Ankh~
 @419  = ~Ankh of Acceptance~
 @420  = ~An ankh is an ornamental item usually worn about the neck. They are usually associated with druids and are often enchanted.
 
 STATISTICS:
 
-~
+Not Usable By:~
 @421  = ~Ankh of Acceptance              
 One of the nine ankhs of the Sukiem originally kept in the temple at Northkeep, they were lost when it fell, and rediscovered by the Myth Drannor who held them for centuries. When that group dissolved, the ankhs were again lost, and have not been seen since.
 
@@ -2322,7 +3004,8 @@ STATISTICS:
 Armor Class: +1 Bonus
 Wisdom: +1 Bonus
 Special: Paralyze Target Creature
-Special: Of the True Neutral~
+Special: Of the True Neutral
+Not Usable By:~
 @422  = ~Amulet of Thief Skill~
 @423  = ~A rare amulet that every thief would like to get their hands on. It helps the thief in their dark skills. Guild leaders will pay top coin to get their hands on this.
 
@@ -2335,7 +3018,9 @@ Special:
 Find/Remove traps: +5% bonus
 Pick pockets: +5% bonus
 Pick locks: +5% bonus
-Hide in shadows: +5% bonus~
+Hide in shadows: +5% bonus
+Usable by:
+Thief (Single, Multi, Dual Class)~
 @424  = ~Ulcaster's Amulet~
 @425  = ~A necklace is a piece of ornamental metal jewelry usually made of silver, gold, platinum, or other precious metal, and adorned with gems. A necklace is always worn on the neck and can be of any length.  ~
 @426  = ~This is the amulet worn by the great mage named Ulcaster. He had many artifacts at his school but very few have ever been found.
@@ -2344,7 +3029,9 @@ STATISTICS:
 
 Bonus 2 level 4 and level 5 spells
 20% Magic Resistance
-Weight: 9~
+Weight: 9
+Usable By:
+Mages~
 @427  = ~Amulet of Protection +2~
 @428  = ~Amulets are usually magical devices that are commonly worn around the neck, suspended from a chain. The type of chain that comes with an amulet generally increases the item's aesthetic value, not its magical properties. Only one amulet can be dangled from the neck.  ~
 @429  = ~Amulet of protection +2 : 'My Protector'  
@@ -2367,7 +3054,11 @@ Known for its ability to enhance spellcasting, the Amulet of Priesthood is highl
 
 STATISTICS:
 
-Special: Memorize one extra second level spell~
+Special: Memorize one extra second level spell
+
+Usable by:
+Druids
+Clerics~
 @434  = ~Ring~
 @435  = ~Shi'nayne's Ring~
 @436  = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.~
@@ -2382,7 +3073,8 @@ Bonus two level 3 spells~
 STATISTICS:
 
 Armor Class: +3 Bonus
-Saving Throws: +3 bonus~
+Saving Throws: +3 bonus.
+Not Usable by:~
 @440  = ~Ring of the Mage/Priest~
 @441  = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities.  
 
@@ -2395,7 +3087,8 @@ STATISTICS:
 
 15% to electrical damage protection
 Armor Class: +1 bonus
-Saving Throws: +1 bonus~
+Saving Throws: +1 bonus
+Not usable by:~
 @444  = ~The Ring of Power~
 @445  = ~This ring has a strange glow to it. Becareful before you put it on.~
 @446  = ~Nemmerle's Chill~
@@ -2403,19 +3096,25 @@ Saving Throws: +1 bonus~
 
 STATISTICS:
 
-Spells: Gain Protection from Cold~
+Spells: Gain Protection from Cold
+Only usable by:
+Evil Alignment~
 @448  = ~Ring of Conduction~
 @449  = ~Over 1000 years have passed since the warlocks of Yevaud moved to seize control of the Tree of Wisdow. The tales of the ensuing battle are still told at every meeting of druids across the realms. Elgenon knew he would never withstand the power of the warlocks without some assistance and prayed to the Tree of Wisdom seeking guidance. His prayers were answered when he saw this ring in a vision. The warlocks most powerful magic, the control of lightning, failed to harm the wildly druid. By days end the battle was over, the remaining warlocks gathered what they could from the fallen and retreated. Elgenons bravery helped win the day, but it was his wisdom that was the deciding factor and earned him the name 'Elgenon the Wise'
 
 STATISTICS:
 
-Spells: Gain Protection from Electricity~
+Spells: Gain Protection from Electricity
+Only usable by:
+Neutral Alignment~
 @450  = ~Ring of Archwizardry~
 @451  = ~Long ago, a grand wizard from Amn was rumored to have defied Mystra's limitations on the magical arts. Legends spoke of this wizard being able to cast spells without the limitation of memorization. In the end it was found that his powers stemmed from the several magical rings that he had made for himself.  His proclaimed "everlasting memory" was a hoax, though his rings continue to be one of the most sought after items in the Realms.'
 
 STATISTICS:
 
-Spells: +3 for level three spells a mage can memorize~
+Spells: +3 for level three spells a mage can memorize.
+Only usable by:
+Mage (single, dual & multi-class)~
 @452  = ~The Ring of Fire - "Burn On"~
 @453  = ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially~
 @454  = ~The Ring of Fire - "Burn On"
@@ -2434,21 +3133,27 @@ Flame Strike~
 
 STATISTICS:
 
-Armor Class Bonus +2~
+Armor Class Bonus +2
+Only usable by:
+True Neutral Druid~
 @457  = ~Ring of Wizardry The First~
 @458  = ~Ring of wizardry: 'Evermemory'
 Long ago, a grand wizard from Amn was rumored to have defied Mystra's limitations on the magical arts. Legends spoke of this wizard being able to cast spells without the limitation of memorization. In the end it was found that his powers stemmed from the several magical rings that he had made for himself. His proclaimed "everlasting memory" was a hoax, though his rings continue to be one of the most sought after items in the Realms.'
 
 STATISTICS:
 
-Spells: +2 level one spells a mage can memorize~
+Spells: +2 level one spells a mage can memorize
+Only usable by:
+Mage~
 @459  = ~Ring of Wizardry 1st thru 5th~
 @460  = ~Ring of wizardry: 'Evermemory'
 Long ago, a grand wizard from Amn was rumored to have defied Mystra's limitations on the magical arts. Legends spoke of this wizard being able to cast spells without the limitation of memorization. In the end it was found that his powers stemmed from the several magical rings that he had made for himself. His proclaimed "everlasting memory" was a hoax, though his rings continue to be one of the most sought after items in the Realms.'
 
 STATISTICS:
 
-Spells: Doubles the amount of 1st thru 5th level spells a mage can memorize~
+Spells: Doubles the amount of 1st thru 5th level spells a mage can memorize
+Only usable by:
+Mage~
 @461  = ~Scroll~
 @462  = ~BOUNTY NOTICE
 
@@ -2500,55 +3205,15 @@ A bounty has been placed upon the head of <CHARNAME>, the foster child of Gorion
 <CHARNAME> and the bandits that follow, are to be cancelled immediately.
 
 P.W.~
-@468  = ~Breathe, follow my command
-Believe, that is in your hands
-Grieve, as death by moon is slow
-Heat of seventh sun will show
+@468  = ~All the world's a stage.
 
-I am the white-tailed dove
-Who understands
-You are the reason
-I harness these commands
+Darkness visible.
 
-Breathe the air while you still can
-Leave all tomorrow's plans
-Here, the calm before the storm
-Heed the message of the Dawn
+A time for every purpose.
 
-I am the wind and rain
-I the summer snow
-You are the glistening
-In the afterglow
-I follow patiently
-I watch destruction grow
-I listen for the signs
-Of moonlight to show me
-I am, because I am, because I am
+Kiss the pass goodbye.
 
-Feel the earth tremble at night
-We believe that we're all right
-We gather for the storm
-We will die before we're born
-
-I am the white-tailed dove
-Who understands
-You are the reason
-I harness these commands
-
-Breathe, follow my command
-Believe, that is in your hands
-Grieve, as death by moon is slow
-Heat of seventh sun will show
-
-I am the wind and rain
-I the summer snow
-You are the glistening
-In the afterglow
-I follow patiently
-I watch destruction grow
-I listen for the signs
-Of moonlight to show me
-I am, because I am, because I am~
+Friend.~
 @469  = ~Note to self:
   Remember that the entrance to Section is in Bergost next to the Thunderhammer Smithy. Also, remember to keep that key on you at all times. We would look stupid getting locked out of Section.~
 @470  = ~Raspberries~
@@ -2583,7 +3248,12 @@ STATISTICS:
 Special: Flesh to Stone
 Special: Stone to Flesh
 Range: 20 ft
-Area: 1 creature~
+Area: 1 creature
+Not usable by:
+Fighter
+Cleric
+Druid
+Thief~
 @493  = ~Wand of Domination~
 @494  = ~When activated, the wand will eject a ball of magical energy that darts forth and unerringly strike its target. This includes enemy creatures in a melee. The target creature must be seen or otherwise detected to be hit, however, so near-total concealment, such as that offered by arrow slits, can render the spell ineffective.  Against a creature, the ball will attempt to charm the target similar to the Priest spell Domination.
 
@@ -2591,7 +3261,12 @@ STATISTICS:
 
 Special: Dire Charm
 Range: 100 ft
-Area: 1 creature~
+Area: 1 creature
+Not usable by:
+Fighter
+Mage
+Bard
+Thief~
 @495  = ~Wand of the Dead~
 @496  = ~When activated, the wand will summon forth the souls of three dead warriors to aid the caster in combat.
 
@@ -2599,7 +3274,12 @@ STATISTICS:
 
 Special: Animate Dead
 Range: 100 ft
-Area: N/A~
+Area: N/a
+Not usable by:
+Fighter
+Mage
+Bard
+Thief~
 @497  = ~Skull~
 @498  = ~Skull of the Dead~
 @499  = ~A magical looking skull.~
@@ -2623,7 +3303,9 @@ STATISTICS:
 
 Special: Dire Charm
 Range: 100 ft
-Area: 1 creature~
+Area: 1 creature
+Usable Only By:
+Bard~
 @505  = ~A Candle~
 @506  = ~Candle of Wisdom~
 @507  = ~Judging by the arcane symbols printed on this candle, it is clear that this candle is imbued with magical properties of one sort or another. Until you attempt to either read or identify it, however, its precise nature will remain unknown to you.~
@@ -2669,7 +3351,11 @@ STATISTICS:
 Damage: 1D6
 Damage type: missile (piercing)
 Weight: 0
-Launcher: Bow~
+Launcher: Bow
+Not usable by:
+ Cleric 
+ Druid
+ Mage~
 @531  = ~The flight arrow, as its name implies, is built for distance. These are lightweight arrows and are often used for hunting. These arrows have a special enchantment on them that render the target asleep.
 
 STATISTICS:
@@ -2678,7 +3364,11 @@ Damage: 1D6
 Damage type: missile (piercing)
 Special: Sleep unless save vs. death
 Weight: 0
-Launcher: Bow~
+Launcher: Bow
+Not usable by:
+ Cleric
+ Druid
+ Mage~
 @532  = ~Mithril Axe +3~
 @533  = ~Mithril weapons are a sought after item especially axes since great care has been given in creating them by dwarves. This axe happens to be enchanted to do cold damage.
 
@@ -2691,7 +3381,12 @@ Damage type: slashing
 Weight: 5
 Speed Factor: 1
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @534  = ~Cloak of the Forest~
 @535  = ~Cloak of the Forest is the best type of clothing for the adventuring druids and rangers of the forest.
 
@@ -2700,7 +3395,9 @@ STATISTICS:
 Armor Class: 2
 Special: +15% Hide in Shadows
 Special: +5 vs. Missile Weapons
-Weight: 4~
+Weight: 4
+Only Usable By:
+Druids & Ranger (single, multi and dual)~
 @536  = ~Scimitar +3, "Andarous' Fury"~
 @537  = ~Scimitar +3, "Andarous' Fury"
 
@@ -2716,8 +3413,11 @@ Special: Stun target unless save vs. Spell
 Damage type: slashing
 Weight: 3
 Speed Factor: 2
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword
+Type: 1-handed
+Usable Only By:
+  Druid
+  Rangers~
 @538  = ~Katana~
 @539  = ~Katana +3,  "El Tel'lerian"~
 @540  = ~Tel'lerian was a grand fighter from Kara-Tur. He was a mercenary who traveled throughout the realms looking for work and fighting evil. This katana was one of his favorite weapons. He lost this sword and his life when he was ambushed on his way to Candlekeep.
@@ -2730,9 +3430,13 @@ Damage: 2D4 +3
 THACO: +3 bonus
 Damage type: Slashing
 Weight: 10
-Proficiency type: Katana
+Proficiency type: Large Swords
 Speed Factor:  3
-Type: 2-handed~
+Type: 2-handed
+Only usable by:
+Fighters 
+Rangers
+Paladins~
 @541  = ~Two Handed Sword +3 "Khazid's Death "~
 @542  = ~The two-handed sword is a derivative of the long sword. Weaponsmiths have always looked for ways to improve existing weapons. In an effort to improve the long sword, the blade was lengthened. Eventually, the handle had to be extended and two hands became necessary to properly swing the sword. The primary function of two-handed swords is cleaving mounted knights and breaking up pike formations.
 
@@ -2742,8 +3446,13 @@ Damage: 1D10
 Damage type: slashing
 Weight: 15
 Speed Factor: 10
-Proficiency Type: Two-handed Sword
-Type:  2-handed~
+Proficiency Type: Large Sword
+Type:  2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @543  = ~Khazid Death was created by a dwarven weapon master, Khazid El Dum. He had just created this sword when a group of thieves broke in and killed him with this sword. Part of his spiritual essence was bonded to this weapon at the time of his death.
 
 STATISTICS:
@@ -2754,8 +3463,13 @@ THACO: +3 bonus
 Damage type: slashing
 Weight: 12
 Speed Factor: 9
-Proficiency Type: Two-handed Sword
-Type: 2-handed~
+Proficiency Type: Large Sword
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @544  = ~Large Katana~
 @545  = ~Large Katana +3 "Toran El Desiade"~
 @546  = ~Little is known about this large katanas history. It has ancient runes carved on the handle perhaps giving it magical abilities. Anyone who is evil can not pick it up so it may be a katana for good.
@@ -2770,9 +3484,13 @@ Special: +1 Armor Class bonus
          10% Chance Horror cast on target
 Damage type: Slashing
 Weight: 8
-Proficiency type: Katana
+Proficiency type: Large Sword
 Speed Factor:  2
-Type: 2-handed~
+Type: 2-handed
+Only usable by:
+Fighters
+Rangers
+Paladins~
 @547  = ~Mithril weapons are a sought after item especially axes since great care has been given in creating them by dwarves. This axe happens to be enchanted to do fire damage.
 
 STATISTICS:
@@ -2784,7 +3502,12 @@ Damage type: slashing
 Weight: 5
 Speed Factor: 1
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @548  = ~Battle Axe +3 "Ghoul Slayer"~
 @549  = ~Made by a paladin who hated the undead, especially ghouls. This weapon will slay them upon first touch.
 
@@ -2798,7 +3521,12 @@ Damage type: slashing
 Weight: 7
 Speed Factor: 6
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @550  = ~Mithril Gauntlets of Fighting~
 @551  = ~Crafted by the dwarves of the northern mountains these gauntlets are a fighters best friend. These are a favorite of dwarven berserkers.
 
@@ -2807,14 +3535,19 @@ STATISTICS:
 THACO: +2 bonus
 Damage: +2 bonus
 +1 to Dexterity
-Weight: 1~
+Weight: 1
+Not Usable Only By:
+Druid
+Thief
+Mage~
 @552  = ~Gauntlets of Protection +3~
 @553  = ~Gauntlets are armored gloves. They can be made of leather, metal plates, or chain mail.  Every suit of armor is assumed to include gauntlets of an appropriate type. Magical gauntlets tend to be finer, lighter, and more easily worn than normal varieties.
 
 STATISTICS:
 
 +3 to AC
-Weight: 2~
+Weight: 2
+Not usable by:~
 @554  = ~Ice Bullets~
 @555  = ~Magical currents are embedded inside this bullet so that it seems a little more balanced and lighter as it jumps towards an opponent.
 
@@ -2834,7 +3567,9 @@ STATISTICS:
 Armor Class: -1
 Special: Protection from Poison
 +1 to Intelligence
-Weight: 18~
+Weight: 18
+Usable Only By:
+Cleric & Mage (Single and Multiclass)~
 @558  = ~The Magister's Robe~
 @559  = ~Worn by one of the Magister’s of Mystra this robe was lost through out the ages. How it was found is unknown. Many have speculated that Mystra Herself is the one who found it and made possible for another to don it once again.
 
@@ -2845,7 +3580,9 @@ Armor Class: +2 Bonus
 Bonus Spells: 2 level 2 spells and 2 level 3 spells
 Magic Resistance:  30%
 Saving Throw: +3 bonus
-Weight: 6~
+Weight: 6
+Only usable by:
+Mage (single, dual, & multi-class)~
 @560  = ~Flail +3 "Flaming Death"~
 @561  = ~This flail is enchanted to do fire damage and increase your wisdom. Amuanator would be pleased.
 
@@ -2859,8 +3596,11 @@ Special: 2D3 Fire Damage
 Damage type: crushing
 Weight: 8
 Speed Factor: 3
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Usable Only By:
+ Cleric
+ Paladin~
 @562  = ~Holy Star +3~
 @563  = ~The Holy Morning Star +3 is consecrated by the temple of Amuanator, it possesses magical powers, and can only be used by those who follow the path of enlightenment.
 
@@ -2874,8 +3614,11 @@ Special: Increased attacks
 Damage type: crushing
 Weight: 8
 Speed Factor: 3
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Usable Only By:
+ Cleric
+ Paladin~
 @564  = ~Dagger +2 "The Necro"~
 @565  = ~This weapon appears to be a normal dagger of the type used by most fledgling mages. This particular dagger was the property of Szass Tam. Some unfortunate fool took it from the lich and was never heard from again.
 
@@ -2892,8 +3635,11 @@ Special: Allows user to cast the following spells at will
 Weight: 4
 Speed Factor: 2
 Damage type: piercing
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Only usable by:
+Mage single class only
+Evil-aligned character only~
 @566  = ~Helm~
 @567  = ~Wyvern Head Helm~
 @568  = ~Wyvern Head Helm
@@ -2905,20 +3651,28 @@ Armor Class: +2 bonus
 Strength: +2 bonus
 Special: +25% Magic Resistance
 Special: Protects Against Critical Hits
-Weight: 2~
+Weight: 2
+Not Usable By:
+Mage
+Bard
+Thief~
 @569  = ~Leather armor, despite the popular misconception, is not soft and supple like the leather used to make a ranger's boots or a druid's robe. That kind of leather offers no better protection than common clothing.
 
 STATISTICS:
 
 Armor Class: 8
-Weight: 15~
+Weight: 15
+Not Usable By:
+ Mage~
 @570  = ~This is the armor of Malenious Strider. The rumor goes that his prowess in battle stems from this armor. It has been given many magical powers beyond that of normal armor. When put on you seem not only to have better protection but you seem to have that extra edge. When in the forests and the shadowy areas of towns this armor seems to lend itself to hiding and moving silently.
 
 STATISTICS:
 
 Armor Class: 1
 Special: +1 dexterity and +20% hide in the shadows.
-Weight: 25~
+Weight: 25
+Usable by:
+Fighter, Ranger and Druids~
 @571  = ~Studded Leather "The Coming Storm"~
 @572  = ~This leather was fashioned from the charred remains of a dragon struck down by lightning. Last known to be worn by Shrethu Reogher the warlock. One must hope that he is dead, for if it were removed from him while he was still alive he is sure to come looking for it.
 
@@ -2927,7 +3681,9 @@ STATISTICS:
 Armor Class: 3
 Saving Throws: +3 bonus
 Special: Resist Electricity
-Weight: 4~
+Weight: 4
+Only usable by:
+Druid~
 @573  = ~Crossbow~
 @574  = ~Light Crossbow "The Torch"~
 @575  = ~A crossbow is a bow mounted crosswise on a wooden or metal shaft, the latter called a tiller. The bow is usually made of ash or yew. The crossbow fires a quarrel (also called a bolt).
@@ -2937,8 +3693,10 @@ STATISTICS:
 Damage: +2 (missile)
 Weight: 14
 Speed Factor: 10
-Proficiency Type: Crossbow
-Type:  2-handed~
+Proficiency Type: Missile Weapon
+Type:  2-handed
+Not Usable By:
+ Druid~
 @576  = ~The Torch was made by a insane gnome who had a thing for fire. This was one of the few things to survive from his laboratory after it caught on fire by this weapon when he was testing it.
 
 STATISTICS:
@@ -2947,8 +3705,12 @@ Damage: 2D6
 THACO: +3 bonus
 Special: Needs no ammunition
 Speed Factor: 3
-Proficiency Type: Crossbow
-Type: 2-handed~
+Proficiency Type: Missile Weapon
+Type: 2-handed
+Not Usable By:
+Druid
+ Cleric
+ Mage~
 @577  = ~Mithril War Hammer +3~
 @578  = ~Dwarven warriors and clerics are particularly prone to use mithril warhammers in battle and some of the finest made war hammers are dwarven in origin. This particular one displays decorative dwarven runes on the shaft. Usually they are made entirely of steel or mithril alloy, with rondels protecting and strengthening the grip. Rondels are small disks of metal, often shaped into decorative designs. The shaft is about 18 inches long.
 
@@ -2960,8 +3722,12 @@ Damage: 2D4 +3
 Damage type: crushing
 Weight: 6
 Speed Factor: 2
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @579  = ~Dwarven Mithril Plate~
 @580  = ~Dwarven Mithril Plate is the best armor that money can buy. Its too bad this was made for the shorter races.
 
@@ -2969,14 +3735,21 @@ STATISTICS:
 
 Bonus: +1 to Constitution
 Armor Class: -2
-Weight: 20~
+Weight: 20
+Usable Only By:
+ Dwarves, Halflings and Gnomes~
 @581  = ~Large Mithril Shield +3~
 @582  = ~Mithril shields are known to be durable during combat. Even though dwarves prefer not to have shields, since they like swinging large 2 handed hammers and axes, they still make these shields for trainees and other races in the Realms.
 
 STATISTICS:
 
 Armor Class: +3 bonus, +3 vs. Missile Weapons
-Weight: 20~
+Weight: 20
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @583  = ~Bullet +2 "Forge Fire"~
 @584  = ~Magical currents are embedded inside this bullet so that it seems a little more balanced and lighter as it jumps towards an opponent.
 
@@ -3000,9 +3773,12 @@ applied to reduce damage)
 Thac0: +3
 Weight: 4
 Speed Factor: 1
-Proficiency Type: Short Bow
 Special: Shoots five magical missiles; bow itself requires no
-ammunition; unlimited magic missiles~
+ammunition; unlimited magic missiles.
+Not Usable by:
+Cleric
+Druid
+Mage~
 @587  = ~Halberd +3 "The Stunner"~
 @588  = ~This Halberd is made of the made of the finest steel by the finest weapon smiths in all the land. It was given extra properties by mages and is undoubtedly the finest halberd around. When it hits the person however small the cut it stuns them with waves of energy giving the attacker a great advantage.
 
@@ -3014,8 +3790,13 @@ THACO: +2 bonus
 Damage type: piercing
 Weight: 12
 Speed Factor: 7
-Proficiency Type: Halberd
-Type: 2-handed~
+Proficiency Type: Spear
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
 @589  = ~King's Plate Mail~
 @590  = ~Once worn by the King of Thorin Thalaxx this armor has appeared and disappeared throughout the ages and planes. Heavy enchantments on the armor remove all weight from the suit, cause it to glow as if an apparition itself, and fortify it greatly against blows of any kind - so much so that only magical weapons have any chance of penetrating the protection it affords.
 
@@ -3023,7 +3804,12 @@ STATISTICS:
 
 Armor Class: 2
 Weight: 0
-Immunity to Non-Magical Weapons~
+Immunity to Non-Magical Weapons
+Not Usable By:
+ Bard
+ Druid
+ Mage
+ Thief~
 @591  = ~Handed Sword +2 "Rage"~
 @592  = ~Melchor Hammerthorn was a dwarf who believed that battles were won with order and well thought out tactics. He had a few weapons enchanted so that a hit would make the enemy lose control and fight in a chaotic manner. The problem with this caused  the enemy to go berserk and shrug off each hit on them. Melchor learned this lesson to late when an ogre approached him that had 20 arrows sticking out of his body. Even with Melchor’s axe embedded in the ogres chest he was still able to tear Melchor in half with his large hands.
 
@@ -3036,8 +3822,13 @@ THACO: +3 bonus
 Damage Type: slashing 
 Weight: 11
 Speed Factor: 9 
-Proficiency Type: Two-handed Sword
-Type: 2-handed~
+Proficiency Type: Large Sword 
+Type: 2-handed
+Not usable by: 
+Druid 
+Cleric 
+Mage 
+Thief~
 @593  = ~Battle Axe +3 Duragons Power~
 @594  = ~The most common version of the battle axe is a stout pole about four feet in length with a single-edged, trumpet-shaped blade mounted on one end.  Battle axes are also called broad axes.
 
@@ -3048,7 +3839,12 @@ Damage type: slashing
 Weight: 7
 Speed Factor: 7
 Proficiency Type: Axe
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage 
+ Thief~
 @595  = ~This axe belonged to King Duragon before he fell in battle. It had been in the Duragon Clan for centuries before it was taken off King Duragons corpse. It was an axe of great power that was dedicated to Moradin the Soulforger.
 
 STATISTICS: 
@@ -3056,12 +3852,16 @@ STATISTICS:
 +2 electrical damage
 
 Damage: 1D8 +3
-THAC0: +3
 Damage type: slashing 
 Weight: 7 
 Speed Factor: 6 
 Proficiency Type: Axe 
-Type: 1-handed~
+Type: 1-handed
+Not Usable By:  
+Druid  
+Cleric  
+Mage   
+Thief~
 @596  = ~Morning Star +3 'Thorgensons Mace'~
 @597  = ~Thorgensons was the captain of the guard of the Duragon Clan. He felled many orcs and goblins with this mace in the wars that the Duragon Clan had against the foul beasts. In the final battle with the evil beasts what few of the dwarves that were left defended the keep as best as they could. He died defending his lord Sven Duragon in the final hours before the Duragon Keep fell.
 
@@ -3073,8 +3873,12 @@ Damage type: crushing
 Special: +1 to constitution
 Weight: 10 
 Speed Factor: 4 
-Proficiency Type: Flail/Morning Star 
-Type: 1-handed~
+Proficiency Type: Spiked Weapons 
+Type: 1-handed
+Not Usable By: 
+ Druid 
+ Mage  
+ Thief~
 @598  = ~Improved Butter Knife of Balduran~
 @599  = ~Butter Knife of Balduran:
 Legends often speak of Balduran's Butter Knife. The hero would allow no other utensil to touch his condiments. It is believed that his mother gave the ornate butter knife to him as an eighteenth birthday gift.
@@ -3085,8 +3889,10 @@ THACO: +3 bonus
 Damage type: Piercing 
 Weight: 2 
 Speed Factor: 0 
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword 
+Type: 1-handed
+Not Usable By:
+  Cleric~
 @600  = ~Improved Spider’s Bane~
 @601  = ~Spider's Bane was originally forged by the dwarves of the Orothiar tribe in Cloakwood. They created the blade to help foster good will between them and the Grand Dukes of Baldur's Gate. Wielded by the Grand Dukes for about a century, the sword was eventually lost, ironically in a fight against ettercaps and spiders. Who wields the blade is now unknown, but its recovery would aid greatly in fighting the current spider infestation that plagues the Cloakwood.
 
@@ -3099,13 +3905,18 @@ Special: Free Action (while equipped) - protects the wielder from any magics tha
 Damage Type: slashing
 Weight: 10
 Speed Factor: 8
-Proficiency Type: Two-handed Sword
-Type: 2-handed~
+Proficiency Type: Large Sword
+Type: 2-handed
+Not usable by:
+Druid
+Cleric
+Mage
+Thief~
 @602  = ~Improved Long Sword +1, Flame Tongue~
 @603  = ~Flame Tongue Sword : 'The Burning Earth'
 There was a time before Neverwinter was warm and before the great Anauroch was dry...or so it is said. Few relics remain to prove such an age existed, and fewer still have an identifiable purpose. "The Burning Earth" seems straightforward enough -it burns a victim with magical fire, and a cryptic rune seems to suggest that the power comes from the ground itself- but whom ever constructed it remains a mystery. It looks a perfectly serviceable weapon, but something in the balance or grip is...wrong. It strains the forearm a touch, and does not fit the hand just right. It doesn't seem to hurt a warrior's performance, aside from the nagging doubt that the blade was not made for him...or any other humanoid. 
 
-STATISTICS:
+STATISTICS: 
 
 Damage: 1D8 +2
 +1 fire damage
@@ -3116,12 +3927,16 @@ Special: +2 vs. Regenerating Creatures
 Damage type: slashing 
 Weight: 4 
 Speed Factor: 3 
-Proficiency Type: Long Sword
-Type: 1-handed~
+Proficiency Type: Large Sword 
+Type: 1-handed
+Not Usable By:
+  Druid 
+  Cleric  
+  Mage~
 @604  = ~Improved Scimitar +2~
 @605  = ~Scimitar +2 : 'Rhashad's Talon'
 
-This blade has traveled far since its forging on the shores of the Shining Sea, though documentation of its passage is sketchy because of the mundane nature of the item. Such weapons are considered commonplace among the rich elite of the far south, and are of little consequence to historians of the area. This attitude is incomprehensible to a citizen of the Sword Coast, where people routinely die for items of equal or lesser enchantment. This particular blade may have belonged to a wealthy Vizar, or perhaps his attendant.
+This blade has traveled far since its forging on the shores of the Shining Sea, though documentation of its passage is sketchy because of the mundane nature of the item. Such weapons are considered commonplace among the rich elite of the far south, and are of little consequence to historians of the area. This attitude is incomprehensible to a citizen of the Sword Coast, where people routinely die for items of equal or lesser enchantment. This particular blade may have belonged to a wealthy Vizar, or perhaps his attendant.  
 
 STATISTICS:  
 
@@ -3131,15 +3946,20 @@ Damage: 1D8 +2
 Damage type: slashing 
 Weight: 3 
 Speed Factor: 3 
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword 
+Type: 1-handed
+Not Usable By:  
+Cleric 
+Mage  
+Thief~
 @606  = ~Improved Ring of Fire Resistance~
 @607  = ~Ring of fire resistance:  'Batalista's Passport'
 The grand mage Batalista intended this item to aid in his travels in the plane of fire, and it is said he repeatedly summoned a Salamander from that realm to aid in the construction.  Not being known for their patience, it is likely he should not have pestered his "instructor" quite so much. The finger bearing the finished ring was indeed untouched by the inferno that claimed his tower. Had that finger still been attached, Batalista himself might have fared better.
 
 STATISTICS:
 
-Fire Resistance: +60%~
+Fire Resistance: +60%
+Not usable by:~
 @608  = ~Improved Helm of Balduran~
 @609  = ~The fabled helm of Balduran, legendary founder of Baldur's Gate, has long been rumored to wield powerful protective magic. The exact nature of this magic, however, has not yet been determined.
 
@@ -3150,8 +3970,11 @@ Hit Point Max: +5
 Saving Throws: +1 bonus
 THACO: +1 bonus
 Special: Protects Against Critical Hits
-Weight: 1
-Not Usabl~
+Weight: 1 
+Not Usable By: 
+Mage 
+Bard 
+Thief~
 @610  = ~Improved Chainmail +3~
 @611  = ~Chain mail +3: 'Mail of the Dead'
 A mage can make an extremely effective assassin, as Vorusta illustrated over 400 years ago. He would create skeleton warriors equipped with this enchanted armor and a powerful blade, and give their circlet of power to the target as a friendly gift. When the killing machine was through with its work, Vorusta retrieved the equipment and started the entire process over.
@@ -3159,19 +3982,28 @@ A mage can make an extremely effective assassin, as Vorusta illustrated over 400
 STATISTICS:
 
 Armor Class: 2
-Weight: 10~
+Weight: 10
+Not Usable By:
+ Druid 
+ Mage 
+ Thief~
 @612  = ~Improved Long Bow +2~
 @613  = ~The long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet. Even though the longbow is slightly slower then the short bow, it has more range and is more accurate. This one has been enhanced with magical properties, giving it an air of perfection.
 
-STATISTICS:
+STATISTICS: 
 
 +1 to dexterity
 THACO: +3 
 Damage: +2
 Weight: 3 
 Speed Factor: 6 
-Proficiency Type: Long Bow
-Type: 2-handed~
+Proficiency Type: Bow Weapons 
+Type: 2-handed
+Not Usable By:  
+Druid  
+Cleric  
+Mage  
+Thief~
 @614  = ~Improved Eagle Bow~
 @615  = ~Short bow, eagle bow:  'Protector of the Dryads'
 
@@ -3184,17 +4016,22 @@ THAC0: +2
 Damage: +2 
 Weight: 2 
 Speed Factor: 1 
-Proficiency Type: Short Bow
-Type: 2-handed~
+Proficiency Type: Bow Weapons 
+Type: 2-handed
+Not Usable By:  
+Druid  
+Cleric 
+Mage~
 @616  = ~Improved Girdle ‘Elves’ Bane’~
 @617  = ~Girdle of piercing: 'Elves' Bane'
-An infamous highwayman in his day, Pandar of Scardale made quite a name for himself vexing the elves of Cormanthor forest. To their annoyance he continually used the wood to escape the law; and with the aid of this girdle, the elves' arrows as well.  Unfortunately for Pandar, pit-traps and starvation proved a slower, but effective, substitution. Combined with potion of fire giant strength you gain the strength of one.
+An infamous highwayman in his day, Pandar of Scardale made quite a name for himself vexing the elves of Cormanthor forest.  To their annoyance he continually used the wood to escape the law; and with the aid of this girdle, the elves' arrows as well.  Unfortunately for Pandar, pit-traps and starvation proved a slower, but effective, substitution. Combined with potion of fire giant strength you gain the strength of one.
 
 STATISTICS:
 
 Strength set to 22
 Armor Class Bonus: +3 vs. piercing weapons
-Weight: 2~
+Weight: 2
+Not usable by:~
 @618  = ~Improved Battle Axe +2~
 @619  = ~Battle axe +2: 'Battleaxe of Mauletar'
 
@@ -3209,8 +4046,13 @@ Damage type: slashing
 Weight: 5 
 Speed Factor: 5 
 Proficiency Type: Axe 
-Type: 1-handed~
-@620  = ~Duragon's Plate +4~
+Type: 1-handed
+Not Usable By:  
+Druid  
+Cleric  
+Mage   
+Thief~
+@620  = ~Duragons Plate +4~
 @621  = ~This golden armor belonged to King Sven Duragon of the Duragon Clan. Duragon was the last king of the clan before its total annihilation at the hands of orcs and goblins who were lead by some duergar dwarves.
 
 STATISTICS: 
@@ -3218,12 +4060,16 @@ STATISTICS:
 +20 fire resistance
 -10 cold resistance
 Armor Class: -1 
-Weight: 18
-Not Usable~
+Weight: 18 
+Not Usable By:  
+Bard   
+Druid  
+Mage  
+Thief~
 @622  = ~Spear of Nature~
 @623  = ~Etched in druidic runes it translates to "The fury of the storm will destroy the bane of nature".
 
-STATISTICS:
+STATISTICS: 
 
 10% lightning damage
 Damage: 1D6 +2
@@ -3233,9 +4079,11 @@ Special: 1d6 electrical damage
 Weight: 3 
 Speed Factor: 3 
 Proficiency Type: Spear  
-Type: 2-handed~
+Type: 2-handed
+Usable By: 
+Druid and Rangers~
 @624  = ~Cutlass +2 "Quintus D’ Sol"~
-@625  = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerûn. The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
+@625  = ~The long, curved, single edged blade is characteristic of both the cutlass and the scimitar, even though their origins lie in different part of Faerûn.  The cutlass, because of its lighter frame, is the choice of many a thief and brigand.
 
 STATISTICS:
 
@@ -3243,9 +4091,15 @@ Damage: 1D6 +1
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
-@626  = ~Quintus D’ Sol belonged to the pirate captain named William Delver aka Bloody Bill. He and his crew did enjoy blundering helpless vessels at sea and killing all the prisoners so there would be no witnesses to the crime. He made the mistake of attacking a ship that appeared to be a merchant vessel but was in fact a troop transport ship. His and his crew that survived the fighting were captured. He and his crew were strapped to their ship and it was sunk with them all still alive. Now their bodies join the victims they sent to the bottom of the sea to be tortured eternally.
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Bard
+ Cleric
+ Druid
+ Mage
+ Paladin~
+@626  = ~Quintus D’ Sol belonged to the pirate captain named William Delver aka Bloody Bill. He and his crew did enjoy blundering  helpless vessels at sea and killing all the prisoners so there would be no witnesses to the crime. He made the mistake of attacking a ship that appeared to be a merchant vessel but was in fact a troop transport ship. His and his crew that survived the fighting were captured. He and his crew were strapped to their ship and it was sunk with them all still alive. Now their bodies join the victims they sent to the bottom of the sea to be tortured eternally.
 
 STATISTICS:
 
@@ -3255,8 +4109,14 @@ Special: 2D4 Fire Damage
 Damage type: slashing 
 Weight: 3 
 Speed Factor: 3 
-Proficiency Type: Scimitar/Wakizashi/Ninjato
-Type: 1-handed~
+Proficiency Type: Large Sword 
+Type: 1-handed
+Not Usable By:  
+Bard  
+Cleric  
+Druid  
+Mage  
+Paladin~
 @627  = ~War Hammer +2 "Inferno"~
 @628  = ~A warhammer is an overly large carpentry hammer, that is five percent shaft, and ninety-five percent head. They are smithied to exacting standards, and are formidable bludgeoning weapons.
 
@@ -3271,7 +4131,11 @@ Weight: 6
 Speed Factor: 4
 Proficiency Type: War Hammer
 Type: 1-handed
-Requires: 9 Strength~
+Requires: 9 Strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @629  = ~War Hammer +2 "Frostbite"~
 @630  = ~This war hammer belonged to a frost giant named Korgrath. He named his hammer after his pet frost wyvern "Frostbite". When Frostbite died at the hands of some back water adventurers, Korgrath had his shaman perform a blood ritual over this hammer with the results that this hammer does cold damage.
 
@@ -3285,7 +4149,11 @@ Weight: 6
 Speed Factor: 4
 Proficiency Type: War Hammer
 Type: 1-handed
-Requires: 9 Strength~
+Requires: 9 Strength
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @631  = ~War Helm~
 @632  = ~This war helm was made by a priest of Tempus. Only a selected few in His clergy have the honor to have a helm like this. A priest would die before giving up this helm.
 
@@ -3295,7 +4163,11 @@ Armor Class Bonus: +1
 Special:  
  Protects against Critical Hits
  +1 to THAC0
-Weight: 4~
+Weight: 4
+Not Usable By:
+  Mage
+  Bard
+  Thief~
 @633  = ~Helm of Health~
 @634  = ~This helm was made to give the warrior an advantage in his/her stamina when fighting or in adventuring in general.
 
@@ -3305,7 +4177,11 @@ Armor Class Bonus: +1
 Special:  
  Protects against Critical Hits
  +1 to constitution
-Weight: 4~
+Weight: 4
+Not Usable By:
+  Mage
+  Bard
+  Thief~
 @635  = ~Mage Robe of Magic~
 @636  = ~This powerful Mage Robe offers protection from all forms of physical attack while at the same time increasing one's magical resistance and saving throws.
 
@@ -3315,7 +4191,9 @@ Bonus 1 spell for levels 1 and 2.
 Armor Class: 3
 Magic Resistance: 15%
 Saving Throw: +1 bonus
-Weight: 6~
+Weight: 6
+Only usable by:
+Mages~
 @637  = ~Flail +2~
 @638  = ~The flail is a sturdy wooden handle attached to an iron rod, a wooden rod with spikes, or a spiked iron ball. Between the handle and its implement is either a hinge or chain link. The weapon has been enhanced magically, effectively forming a bond between the weapon and its wielder, giving it a bonus to hit and damage opponents, a faster attack speed factor, and the ability to strike opponents that are immune to normal weapons.
 
@@ -3326,9 +4204,13 @@ THAC0: +2
 Damage type: crushing
 Weight: 13
 Speed Factor: 6
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
-@639  = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with an iron head mounted on the end. In this case, the head is pyramidal and seems to glow with an inner blue light, as it sits atop a polished oak shaft. This mace has been enchanted, giving it a bonus to hit and damage opponents, a faster attack speed factor, and the ability to strike opponents that are immune to normal weapons.
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage
+ Thief~
+@639  = ~The mace is a direct descendant of the basic club, being nothing more than a wooden shaft with an iron head mounted on the end.  In this case, the head is pyramidal and seems to glow with an inner blue light, as it sits atop a polished oak shaft. This mace has been enchanted, giving it a bonus to hit and damage opponents, a faster attack speed factor, and the ability to strike opponents that are immune to normal weapons.
 
 STATISTICS:
 
@@ -3337,8 +4219,12 @@ THAC0: +2
 Damage type: crushing
 Weight: 8
 Speed Factor: 6
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage
+ Thief~
 @640  = ~Morning Star +2~
 @641  = ~The morning star is a wooden shaft topped with a metal head made up of a spiked iron sheath. Morning stars have an overall length of about four feet. This particular one is mounted with a golden head that has been magically enhanced so as to improve performance and escape the malleability of gold. Its enchantment gives it a bonus to hit and damage opponents, a faster attack speed factor, and the ability to strike opponents that are immune to normal weapons.
 
@@ -3349,8 +4235,12 @@ THAC0: +2
 Damage type: crushing
 Weight: 10
 Speed Factor: 6
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage
+ Thief~
 @642  = ~Flail +3 Winters Bane~
 @643  = ~This flail has an aura of cold surrounding it. No one really knows where it came from but its been said it came from the Northlands and was made by a priestess of Auril.
 
@@ -3362,8 +4252,12 @@ THAC0: +3
 Damage type: crushing
 Weight: 7
 Speed Factor: 3
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @644  = ~Mace +3 "Purifier"~
 @645  = ~Embedded on the handle of the mace it says "Purification and might, evil will not rule supreme". This mace was made for purifying evil from the world through fire.
 
@@ -3376,8 +4270,12 @@ THAC0: +3
 Damage type: crushing
 Weight: 8
 Speed Factor: 6
-Proficiency Type: Mace
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Usable By:
+Clerics
+Rangers
+Paladins~
 @646  = ~Brotus Bloodthirsty~
 @647  = ~Duergar Cleric~
 @648  = ~Gorken Bloodaxe~
@@ -3438,7 +4336,7 @@ Type: 1-handed~
 @703  = ~Quincy the Jeweler~
 @704  = ~Ratava Artsym~
 @705  = ~Guard~
-@706  = ~Justice shall be swift and final!~ [CMJUST01]
+@706  = ~Just shall be swift and final!~ [CMJUST01]
 @707  = ~Vallius~
 @708  = ~Najara~
 @709  = ~You are nothing before my god.~ [CMNAJ01]
@@ -3498,8 +4396,12 @@ Damage: 1D6 +1
 Damage type: crushing
 Weight: 15
 Speed Factor: 7
-Proficiency Type: Flail/Morning Star
-Type: 1-handed~
+Proficiency Type: Spiked Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
 @759	= ~Staff~
 @760	= ~The simplest and humblest of staff weapons, the quarterstaff is a length of wood ranging six to nine feet in length.  High quality quarterstaves are made of stout oak and are shod with metal at both ends.  The quarterstaff must be wielded with both hands.  
 
@@ -3509,8 +4411,9 @@ Damage: 1D6
 Damage type: crushing
 Weight: 4
 Speed Factor: 4
-Proficiency Type: Staff
-Type: 2-handed~
+Proficiency Type: Blunt Weapons
+Type: 2-handed
+Not Usable By:~
 @761	= ~Ring~
 @762	= ~A ring is a small band of precious metal that is used as jewelry. Some rare rings have had enchantments placed upon them that confer various magical abilities. These rings are highly sought after, especially by those of the adventuring profession.~
 @763	= ~Potion~
@@ -3593,7 +4496,10 @@ STATISTICS:
 Armor Class: 5
 Magic Resistance: 5%
 Saving Throw: +1 bonus
-Weight: 6~
+Weight: 6
+Only usable by:
+Mage (single, dual, & multi-class)
+Evil-aligned characters~
 
 @822    = ~Sling +2~
 @823    = ~Slings have existed since the beginning of recorded history. The basic sling consists of a leather or fabric strap with a pouch for holding the missile, however this one has been imbued with a small magical enchantment. The weapon is held by both ends of the strap and twirled around the wielder's head. When top speed is attained, the missile is launched by releasing one of the strap's ends.
@@ -3604,8 +4510,9 @@ Damage: +1 (missile damage)
 THACO: +1
 Weight: 0
 Speed Factor: 5
-Proficiency Type: Sling
-Type: 1-handed~
+Proficiency Type: Missile Weapons
+Type: 1-handed
+Not Usable By:~
 
 @824    = ~Dagger +2~
 @825    = ~Dagger +3~
@@ -3618,8 +4525,10 @@ THACO: +2 bonus
 Damage type: Piercing
 Weight: 2
 Speed Factor: 0
-Proficiency Type: Dagger
-Type: 1-handed~
+Proficiency Type: Small Sword
+Type: 1-handed
+Not Usable By:
+ Cleric~
 @827    = ~Lathander Armor~
 @828    = ~Elven Chain Mail +1~
 @829    = ~Crafted by elves, this chain is both light and resilient. Unlike most chain mail elven chain does not restrict magic users from practicing their craft.
@@ -3627,9 +4536,10 @@ Type: 1-handed~
 STATISTICS:
 
 Armor Class: 4
-Weight: 10~
-@830 = ~Elven Longsword +2~
-@831 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
+Weight: 10
+Not Usable By:~
+@830    = ~Elven Longsword +2~
+@831    = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
 
 STATISTICS:
 
@@ -3638,10 +4548,14 @@ THAC0: +1
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Long Sword
-Type: 1-handed~
-@832 = ~Elven Longsword +1~
-@833 = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@832    = ~Elven Longsword +1~
+@833    = ~These swords are usually referred to as doubled-edged swords, war swords, or military swords. In many cases, the long sword has a single-edged blade. There is no single version of the long sword; the design and length vary from culture to culture, and may vary within the same culture depending on the era. Among the most common characteristics of all long swords is their length, which ranges from 35 inches to 47 inches. In the latter case, the blade is known to take up 40 inches of the total length. Most long swords have a double-edged blade and a sharp point at the tip. Despite the tip, the long sword is designed for slashing, not thrusting.
 
 STATISTICS:
 
@@ -3650,24 +4564,33 @@ THAC0: +1
 Damage type: slashing
 Weight: 4
 Speed Factor: 5
-Proficiency Type: Long Sword
-Type: 1-handed~
-@834 = ~Elven Longbow +2~
-@835 = ~The elven long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet. It has two advantages over the short bow: better range and hence, it is much more accurate.
+Proficiency Type: Large Sword
+Type: 1-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage~
+@834    = ~Elven Longbow +2~
+@835    = ~The elven long bow is similar to the short bow, except that the staff is about as high as the archer is, usually 6 to 6.5 feet. It has two advantages over the short bow: better range and hence, it is much more accurate.
 
 STATISTICS:
 
 Special +1 to Dexterity
-THACO: +3
+THACO: +2
 Damage: +2
 Weight: 3
 Speed Factor: 7
-Proficiency Type: Long Bow
-Type: 2-handed~
-@836 = ~Helm of Lathander~
-@837 = ~Shield of Lathander~
-@838 = ~Hammer of Lathander~
-@839 = ~Your typical hammer that is issued to the Morninglords of Lathander. This hammer radiates a magic warmth that burns when you touch the head of the hammer.
+Proficiency Type: Bow Weapons
+Type: 2-handed
+Not Usable By:
+ Druid
+ Cleric
+ Mage
+ Thief~
+@836    = ~Helm of Lathander~
+@837    = ~Shield of Lathander~
+@838    = ~Hammer of Lathander~
+@839    = ~Your typical hammer that is issued to the Morninglords of Lathander. This hammer radiates a magic warmth that burns when you touch the head of the hammer.
 
 STATISTICS:
 
@@ -3676,14 +4599,18 @@ THACO: +2 bonus
 Damage type: crushing
 Weight: 5
 Speed Factor: 2
-Proficiency Type: War Hammer
-Type: 1-handed~
+Proficiency Type: Blunt Weapons
+Type: 1-handed
+Not Usable By:
+ Druid
+ Mage 
+ Thief~
  @840  = ~Sintara Al-Mustafa~
  @841  = ~Caravan Goods~
  @842  = ~The Price is Right~
  @843  = ~Al-Mustafa's All Things Magical~
- @844  = ~Wraith Form~
- @845  = ~Wraithform (Alteration, Illusion)
+ @844    = ~Wraith Form~
+ @845    = ~Wraithform (Alteration, Illusion) 
 Level: 3
 Range: 0 
 Duration: 2 rounds/level 
@@ -3693,126 +4620,14 @@ Saving Throw: None
 When this spell is cast, the wizard and all of his gear become insubstantial. The caster is subject only to magical or special attacks, including those by weapons of +1 or better, or by creatures otherwise able to affect those struck only by magical weapons.  The wizard also gains a 25% magic resistance.  While in wraith form the caster is unable to cast spells.~
 
 // New info or error texts
-@890  = ~BG:EE install detected~
+@890  = ~BG:EE install detected.~
 @891  = ~Tutu install detected.~
 @892  = ~BGT install detected.~
-@893  = ~Please install on BG:EE, Tutu or BGT.~
+@893  = ~Please install on BG:EE, EET, TotSC, Tutu or BGT.~
+@894  = ~BG1 install detected.~
+@895  = ~EET install detected.~
 
 /* New in BGEE */
 
 @900 = ~Yes?~
 @901 = ~Doom awaits thee!~
-@902 = ~Bard's Cloak of Protection +2~
-@903 = ~This simple cloak has been imbued with some small magical properties to help protect its wearer. It does so by affecting both Saving Throws and Armor Class. It is ideal for Mages and others who cannot wear bulkier or more restrictive types of armor.
-
-STATISTICS:
-
-Equipped abilities:
-Armor Class: +2
-Saving Throws: +2
-
-Weight: 3~
-@904 = ~Bard's Longbow: Dalewood~
-@905 = ~Dalewood is Morwen's personal bow that was given to her by her mentor, Dale the Bard. Dale hailed from Bryn Shander, one of the Ten Towns of Icewind Dale. He was well known for his adventuring exploits as well as his epic tales sung around campfires. He died at the hands of an assassin, his blood still stains this bow after all of these years.
-
-STATISTICS:
-
-Combat abilities:
-1 extra attack per round
-
-THAC0: +3
-Damage: +2
-Speed Factor: 5
-Proficiency Type: Longbow
-Type: Two-handed
-Requires:
- 6 Strength~
-@906 = ~Dale the Bard's Bracers of Archery~
-@907 = ~These were the bracers of Morwen's mentor, Dale the Bard. Even without his bracers, he was still a dead shot from a long distance. His blood stains these bracers after he was killed by an assassin.
-
-STATISTICS:
-
-Equipped abilities:
-THAC0: +3 with missile weapons
-
-Weight: 2~
-
-@908 = ~Morwen's Studded Leather Armor +2~
-@909 = ~Studded leather armor has little in common with normal leather armor. While leather armor is a hardened shell, studded leather armor is soft and supple with hundreds of metal rivets affixed. The rivets are so close together that they form a flexible coating of hard metal that turns aside slashing and cutting attacks. The soft leather backing is little more than a means of securing the rivets in place.
-
-STATISTICS:
-
-+10 to pickpocket
-Armor Class: 5 (4 vs. slashing, 5 vs. piercing and missile)
-Requires:
- 6 Strength
-
-Weight: 15~
-// Nikita
-@910  = ~Nikita~
-@911  = ~I see.~ [HFTHR029]
-@912  = ~We can't win this.~ [HFTHR001]
-// No @913, traify oddity
-@914  = ~Watch my back.~ [HFTHR008]
-@915  = ~We should rest soon. I'm dying to get out of these clothes.~ [HFTHR010]
-@916  = ~I didn't come all of this way to die of boredom.~ [HFTHR012]
-@917  = ~Lets spill some blood.~ [HFTHR003]
-@918  = ~You wanna taste of this?~ [HFTHR004]
-@919  = ~Are you ready for me?~ [HFTHR005]
-@920  = ~Any last words?~ [HFTHR006]
-@921  = ~You're gonna bleed.~ [HFTHR007]
-@922  = ~Ughh~ [HFTHR034]
-@923  = ~Dead~ [HFTHR037]
-@924  = ~I feel so cold.~ [HFTHR014]
-@925  = ~Yes?~ [HFTHR016]
-@926  = ~I'm here.~ [HFTHR017]
-@927  = ~You want me?~ [HFTHR018]
-@928  = ~Ready and willing.~ [HFTHR019]
-@929  = ~Right.~ [HFTHR023]
-@930  = ~Very well.~ [HFTHR024]
-@931  = ~Yes?~ [HFTHR025]
-@932  = ~Whatever you say.~ [HFTHR026]
-@933  = ~I'd kill for a hot bath right about now.~ [HFTHR030]
-@934  = ~Be careful where you point that thing.~ [HFTHR031]
-@935  = ~Argh.~ [HFTHR034]
-@936  = ~Don't expect me to carry the corpse back into town.~ [HFTHR040]
-@937  = ~Done~ [HFTHR027]
-@938  = ~NIKITA's past is something that she keeps to herself. From what you do know is that she was an orphan for a time until she was brought into Section in her late teens. They trained her to be a charismatic assassin who killed evil individuals. All of this was done for the greater good. But over time Section became corrupt and started to mirror the evil they were fighting. Nikita was liberated from Section when you destroyed the organization.~
-// Thorin
-@939  = ~Thorin~
-@940  = ~At last the mighty adventurer stands before me. To what do I owe this honor?~ [DMF42]
-@941  = ~It's no use, flee!~ [DMF02]
-@942  = ~Damn your eyes!~ [DMF32]
-@943  = ~I hope you choke on that thing!~ [DMF33]
-@944  = ~When all else fails, put the dwarf up front.~ [DMF08]
-@945  = ~I'll be needin' rest soon.~ [DMF10]
-@946  = ~What, you expect our enemies to come to us?.~ [DMF13]
-@947  = ~Grrrrr!~ [DMF03]
-@948  = ~I spit at you.~ [DMF04]
-@949  = ~Come 'ere you wretch!~ [DMF05]
-@950  = ~Die!~ [DMF06]
-@951  = ~I'll wash me beard in yer blood!~ [DMF07]
-@952  = ~Is that the best that you can do?~ [DMF34]
-@953  = ~Ugghh!~ [DMF36]
-@954  = ~Aghh! I'm needin' a healer!.~ [DMF14]
-@955  = ~Aye?~ [DMF16]
-@956  = ~What?~ [DMF17]
-@957  = ~I'm here.~ [DMF18]
-@958  = ~Hmm?~ [DMF19]
-@959  = ~Ready.~ [DMF20]
-@960  = ~I hear ya.~ [DMF22]
-@961  = ~Done.~ [DMF23]
-@962  = ~Right then.~ [DMF24]
-@963  = ~Watch me go.~ [DMF25]
-@964  = ~Not a problem.~ [DMF26]
-@965  = ~Aye.~ [DMF27]
-@966  = ~Is that all?~ [DMF28]
-@967  = ~Easy as goblin pie.~ [DMF29]
-@968  = ~You really have no clue, do ye?~ [DMF30]
-@969  = ~That's right keep pushing it.~ [DMF31]
-@970  = ~Die~ [DMF06]
-@971  = ~Ughh.~ [DMF36]
-@972  = ~When asked about his past, THORIN says he's from the famous Stoneblade clan who were once Durlag's captian of the guard for many years. His grandfather was the last to serve Durlag before bad things happen to Durlag and his people. He would like to travel with the party to Durlag's Tower to retrieve some family heirlooms that may still be there and see what happened to his grandfather and the famous Durlag Trollkiller.~
-// Morven uses the same soundset as Nikita
-@973  = ~Morwen~
-@974  = ~When asked about her past, MORWEN says she came from a well to do family from the city of Neverwinter. She got her first taste of the epic poems and stories from the northern Skald bards when her family visited the Icewind Dale region when she was young. Ever since then she has been obsessed with their epic tales and adventures. She wished to learn from the Skald bards but they rarely ever came to Neverwinter, until the day that Dale the Bard made a stop there. She first saw him at one of the local pubs, singing his epic exploits in a song. She introduced herself to Dale and soon after he mentored Morwen in the Skald Bard skills as well as being an excellent archer. After learning these skills, she quickly grew bored of the uneventful Neverwinter high life and decided to travel south to the Sword Coast region after she heard about the iron crisis. She traveled to Beregost to find someone who is seeking adventure like herself.~
