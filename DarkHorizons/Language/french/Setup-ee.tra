@@ -12,14 +12,14 @@
 @11   = ~Armure de plates naine +3~
 @12   = ~L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 3
 Poids : 50~
 @13   = ~Armure de plates naine +3
 Cette armure de plates est de facture naine, ses lignes claires et son apparence solide témoignent des compétences séculaires détenues par les maîtres forgerons nains. Vous sentez également en la portant qu’elle a quelque chose de magique.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : -2
 Constitution : bonus de +1
@@ -28,13 +28,13 @@ Poids : 35~
 @15   = ~Cotte de mailles elfique +3~
 @16   = ~L'armure en cottes de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 5
 Poids : 40~
 @17   = ~Forgée par les elfes, cette cotte de mailles est à la fois légère et résistante. Contrairement à la plupart des cottes de mailles, la maille elfique n’empêche pas les mages d’exercer leur art.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 2
 Bonus : +1 à la Dextérité
@@ -43,13 +43,13 @@ Poids : 10~
 @19   = ~Armure d’épines~
 @20   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 7
 Poids : 25~
 @21   = ~En y regardant de plus près on peut se rendre compte que cette armure n’est pas faite de cuir mais d’un canevas de lianes, de branches et d’épines. L’armure est un don des nymphes aux druides, en signe de gratitude pour leur constante protection des forêts.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 3
 Jets de sauvegarde : bonus de +3
@@ -58,7 +58,7 @@ Poids : 4~
 @23   = ~Nimbus "Fléau du Kraken" 
 Cette armure de cuir fut façonnée à partir des restes calcinés d’un dragon foudroyé en plein orage, et fut pour la dernière fois aperçue sur son porteur Shrethu Reogher le sorcier. Reste à espérer qu’il soit mort, car si l’armure lui a été volée, il est certainement à sa recherche...
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 3
 Jets de sauvegarde : bonus de +3
@@ -67,13 +67,13 @@ Poids : 4~
 @24   = ~Armure d’assassin~
 @25   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 7
 Poids : 25~
 @26  = ~L’armure d’assassin est une besantine créée à l’intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n’était qu'une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d’élite. Les Maîtres des Ombres constituent l’ordre le plus important dans la hiérarchie des voleurs de l’ombre. Il s’agit d’une besantine +3 qui peut se fondre dans les ombres.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 4
 Spécial : +30 % en furtivité, action libre, immunité au poison.
@@ -82,14 +82,14 @@ Poids : 8~
 @28   = ~Plates de Folbraise~
 @29   = ~L'armure de plates complète est la meilleure armure qu'un guerrier puisse acheter, aussi bien d'un point de vue esthétique que pratique. Les plaques parfaitement fixées et imbriquées les unes dans les autres sont inclinées de façon à détourner les flèches et les coups, et l'ensemble de la tunique est soigneusement orné de riches gravures et de détails en relief. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 1
 Poids : 70~
 @30  = ~Plates de Folbraise, l’armure rouge de résistance au feu
 Forgée par les maîtres nains à l’intention du premier commandant des gardes phénix, Folbraise, cette armure de plates est une pure merveille, de son chatoiement rouge si caractéristique à la résistance au feu qu’elle procure à son porteur par l’essence même de l’élite des phénix. Aucune magie n’a pu complètement identifier les propriétés de cette armure, et aucune trace historique n’a pu être retrouvée.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Résistance au feu : +20
 Classe d’Armure : 0
@@ -97,14 +97,14 @@ Poids : 35~
 @31   = ~Besantine +3~
 @32   = ~Cette armure était la propriété du célèbre prince des barbares des neiges, Corbus Denolx de Faucongris. On ignore cependant pourquoi elle n’est plus en sa possession.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 4
 Poids : 8~
 @33   = ~Armure Dragon~
 @34   = ~L’armure Dragon, armure typique de l’élite des rôdeurs de Chimera, a été enchantée d’une puissante magie connue des seuls chamans de Chimera. Elle procure à son porteur une protection contre une variété d’attaques, et l’aide à traquer efficacement ses proies.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 4
 Bonus : +15 % en furtivité
@@ -113,14 +113,14 @@ Poids : 8~
 @36   = ~Armure feuilletée d’Oghma~
 @37   = ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps humain ne pivote pas au niveau du torse autant qu'il peut se courber en avant, l'armure feuilletée limite les mouvements lors des combats. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 4
 Poids : 40~
 @38   = ~Armure feuilletée d’Oghma : "Inspiration Divine"
 Cette armure feuilletée fut créée une nuit par un prêtre d’Oghma, inspiré par un rêve émanant de son dieu lui-même. Oghma lui ordonna de trouver dès le matin l’armure feuilletée de la meilleure qualité aux alentours, puis de rassembler de puissants enchantements pour créer cette magnifique armure. C’est son inspiration elle-même qui enchanta l’armure, lui accordant cette classe d’armure unique. L’armure feuilletée fut ensuite portée par le grand prêtre pendant des années.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : -1
 Spécial : 
@@ -132,7 +132,7 @@ Poids : 5~
 @39   = ~Armure des Bois~
 @40   = ~Il s’agit de l’armure d’un rôdeur inconnu, tout ce que l’on sait, c’est qu’il était très puissant. La rumeur prétend que ses prouesses au combat étaient surtout dues à cette dernière. Elle a reçu bien des pouvoirs magiques. Lorsqu'on la porte, elle assure non seulement une excellente protection, mais permet aussi d'accroître la dextérité. Lorsque son porteur est dans les bois ou dans des zones d'ombre, sa couleur semble se modifier pour lui permettre de se dissimuler et de se déplacer sans être vu.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 1
 Spécial :
@@ -143,76 +143,76 @@ Poids : 25~
 @42   = ~Cotte de mailles +4~
 @43   = ~Une tunique de mailles faite d'une sorte de métal brillant. Elle se porte sur une couche de tissu rembourré ou de cuir léger pour ne pas irriter la peau et amortir les impacts des coups. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 5
 Poids : 40~
 @44   = ~Cotte de mailles +4
 Cette cotte de mailles elfique +4 permet à un magicien elfe de lancer des sorts quand il la porte. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 1
 Poids : 9~
 @45   = ~Cottes de mailles en Mithril +4~
 @46   = ~L'armure en cottes de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 5
 Poids : 40~
 @47  = ~Cottes de mailles en Mithril +4
 Cette armure est faite du métal le plus léger et durable, connu sous le nom de mithril. Seuls les nains sont capables de forger une telle perfection à partir du mithril.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 1
 Poids : 7~
 @48   = ~ Cottes de mailles en Mithril +3~
 @49   = ~L'armure en cottes de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 5
 Poids : 40~
 @50   = ~L'armure en cottes de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 2
 Poids : 7~
 @51   = ~Cottes de mailles en Mithril de Durlag +4~
 @52   = ~Cette cotte de mailles appartenait au grand Durlag Tueur de Trolls lui-même.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 1
 Poids : 7~
 @53    = ~Cotte de mailles +2~
 @54   = ~L'armure en cottes de mailles est constituée d'anneaux métalliques imbriqués les uns dans les autres. Elle est toujours portée par-dessus une couche de tissu matelassé ou de cuir souple pour empêcher le frottement et réduire l'impact des chocs. Cette cotte de mailles est de facture elfique et permet aux mages de lancer des sorts tout en la portant.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 3
 Poids : 10~
 @55   = ~Armure feuilletée +2~
 @56   = ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps humain ne pivote pas au milieu du torse autant qu'il peut se courber en avant, l'armure feuilletée est plus limitée dans les combats.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 2
 Poids : 20~
 @57   = ~Besantine +4 "Don de la Nature"~
 @58   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 7
 Poids : 25~
 @59   = ~ Besantine +4 "Don de la Nature" :
 Une besantine naturelle que seuls les protecteurs de la Nature peuvent porter.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 3
 Poids : 5
@@ -223,26 +223,26 @@ Spécial :
 @61   = ~Armure du Nord~
 @62   = ~L'armure de peau est fabriquée à partir de la peau épaisse d'un grand animal (un éléphant, par exemple) ou avec de nombreuses couches de peau provenant d'animaux courants (vaches, etc.). Cette armure est bien trop encombrante, raide et lourde pour être utilisée dans les civilisations évoluées. Mais parmi les masses humanoïdes barbares qui peuplent les sombres forêts et les jungles, l'armure de peau est courante. Bien qu'elle offre une meilleure protection que l'armure en cuir, il faut pouvoir surmonter sa puanteur et son aspect miteux pour arriver à en tirer profit. Les voleurs peuvent porter cette armure, mais elle a des effets négatifs sur leurs aptitudes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'armure : 6
 Poids : 40~
 @63   = ~Cette armure est originaire des plaines gelées du Val de Bise. Elle a été bénie par des chamans pour protéger son porteur du froid.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 70 % de résistance au froid
 Classe d’Armure : 6
 Poids : 40~
 @64   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 7
 Poids : 25~
 @65   = ~Dans les zones forestières, cette armure semble idéale pour se cacher et se déplacer furtivement. De quoi aider les druides et rôdeurs à protéger la Nature. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 1
 Spécial : 
@@ -252,13 +252,13 @@ Poids : 25~
 @66   = ~Cuir des Maîtres de l’Ombre~
 @67   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 7
 Poids : 25~
 @68  = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 4
 Spécial : 
@@ -271,13 +271,13 @@ Poids : 8~
 @71   = ~Divinité Naturelle~
 @72   = ~En dépit de la croyance populaire, l'armure de cuir n'est pas aussi souple que le cuir utilisé pour fabriquer les bottes de rôdeur ou une robe de druide et n'offre pas de meilleure protection que les vêtements traditionnels. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 8
 Poids : 15~
 @73   = ~Seuls les meilleurs défenseurs de la nature ont le privilège de porter une armure telle que celle-ci. Une rumeur dit que ces armures sont gardées au sein d'un ordre secret de druides et de rôdeurs connu sous le nom de Guerriers de la Nature.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 2
 Spécial : Confère deux sorts supplémentaires de clerc de niveau 1
@@ -285,7 +285,7 @@ Poids : 1~
 @74   = ~Armure de cuir de Hobbin~
 @75   = ~Cette armure fut offerte à Hobbin par son oncle, un aventurier célèbre en son temps.
 
-PARAMØTRES : 
+PARAMÈTRES : 
 
 Classe d’Armure : 2 
 Spécial : +15 % en furtivité
@@ -294,28 +294,28 @@ Poids : 1 ~
 @76   = ~Armure de plates +5~
 @77   = ~L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 3
 Poids : 50~
 @78  = ~Armure elfique de bataille +5. 
 Cette armure est utilisée par les forces d’élite des elfes d’Éternelle-Rencontre.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : -2
 Poids : 18~
 @79   = ~Armure de plates "Apocalypse"~
 @80   = ~ L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 3
 Poids : 50~
 @81   = ~Armure de plates "Apocalypse" : 
 Créée pour Surtr, un grand guerrier qui adorait le feu, cette armure vous permettra de lancer des sorts de feu et vous offrira une protection contre le feu.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 0
 Poids : 20
@@ -328,7 +328,7 @@ Spécial : lance les sorts suivants
 @82   = ~Armure de plates de Baldurien~
 @83   = ~Cette armure de plates appartenait au célèbre Baldurien. Elle fait partie des objets volés au musée de la ville de la Porte de Baldur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités d’équipement :
  +4 points de vie
@@ -339,7 +339,7 @@ Force requise : 15~
 @84   = ~Armure de plates complète de Kiel +3~
 @85   = ~Cette armure appartenait à Kiel.
 
-PARAMØTRES :
+PARAMÈTRES :
    
 +5 % de résistance à la magie
 
@@ -349,13 +349,13 @@ Force requise : 15~
 @86   = ~Armure de plates de Najara +3~
 @87   = ~L'armure de plates est une combinaison de cottes de mailles et de plaques métalliques recouvrant les zones vitales telles que le torse, l'abdomen et l'aine. De fabrication semblable à l'armure de plates en bronze, la véritable armure de plates est constituée de mailles et de cuir. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 3
 Poids : 50~
 @88   = ~Il s’agit de l’armure personnelle de Najara.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : bonus de +1 en force
 Classe d’Armure : 0
@@ -363,7 +363,7 @@ Poids : 18~
 @89   = ~Armure de plates complète des Flammes~
 @90   = ~L'armure de plates complète est la meilleure que puisse acheter un guerrier, tant pour son prestige que pour sa protection. Elle est faite de plaques parfaitement ajustées, qui dévient les flèches comme les coups et elle est toute entière ornée de fines gravures en relief.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 1
 50 % de résistance au feu
@@ -372,19 +372,19 @@ Poids : 35~
 @92   = ~Ceinturon de Sunie~
 @93   = ~Les ceinturons ressemblent généralement aux ceintures. Mais à la différence de ces dernières, ils ne servent pas à retenir les pantalons ou les salopettes, mais à porter bourses, fourreaux et choses de ce genre. 
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 2~
 @94   = ~Le ceinturon de Sunie est destiné à ceux qui ont besoin d’un avantage en terme de charisme. Une prêtresse de Sunie l’a fabriqué pour les pauvres âmes manquant de beauté et de charme.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus de +1 au charisme
 Poids : 2~
 @95   = ~Ceinturon de force de géant des collines~
 @96   = ~Ce ceinturon est destiné aux puissant guerriers des Royaumes qui ne peuvent plus acquérir davantage de puissance par d’autres moyens. Les ceinturons de force de géant sont extrêmement rares. Ils sont fabriqués à partir de la chevelure ou de la barbe du type de géant dont l’artisan souhaite obtenir la force. Ce ceinturon est constitué de cheveux d’un géant des collines et en donne la force à son porteur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Force fixée à 19
 Poids : 2~
@@ -392,7 +392,7 @@ Poids : 2~
 @98   = ~Ceinture de défense : “Ceinture dorée d’Urnst”
 Cette ceinture fut créée par les elfes dorés de l’Ombreterre. Leurs créations atteignent rarement la surface. Elle est puissamment enchantée pour repousser des attaques de tout type. Elle fut portée avec fierté par de nombreuses personnes, mais elle fut la plupart du temps volée et revendue au marché noir. Cette ceinture est encore recherchée par de nombreux guerriers en quête de protection efficace, mais rares sont ceux qui la trouvent.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d’Armure :  
  +3 contre les armes tranchantes
@@ -402,12 +402,12 @@ Bonus à la Classe d’Armure :
 @100  = ~Bottes lestes de Protection~
 @101  = ~Les bottes sont généralement fabriquées artisanalement par des cordonniers. Les bottes ordinaires sont fabriquées à l'aide d'un moule, mais les bottes de qualité supérieure sont faites sur mesure. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 4~
 @102  = ~Les bottes sont généralement fabriquées artisanalement par des cordonniers. Les bottes ordinaires sont fabriquées à l'aide d'un moule, mais les bottes de qualité supérieure sont faites sur mesure. Ces bottes offrent à leur porteur rapidité et protection.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus de +1 à la CA
 Hâte
@@ -415,7 +415,7 @@ Poids : 4~
 @103  = ~Bottes dorées de Protection~
 @104  = ~Ces bottes dorées de protection appartenaient à un noble souverain des nains appelé Thrain. Thrain était réputé et aimé de ses sujets nains. Quand il apprit que ses alliés de Profondorn étaient en danger, il rassembla ses meilleurs guerriers pour s’y rendre et les aider. On n’entendit plus jamais parler de lui ou de son armée.
 
-PARAMØTRES : 
+PARAMÈTRES : 
 
 Malus de -25 % en furtivité
 Bonus à la Classe d’Armure : +2 contre les armes tranchantes
@@ -426,7 +426,7 @@ Poids : 18~
 @107  = ~Bottes de santé : “Guerrier hardi”
 Ces bottes sont faites d’un tissu doux au fond solide, pour qu’elles soient durables et résistantes. Elles ont été enchantées par un prêtre des montagnes des îles de Norheim, qui utilisait ces bottes pour pouvoir soigner les gens même après avoir utilisé tous ses sorts. On est à leur recherche depuis que le prêtre les a perdues en se faisant mettre en pièces par une meute de loups, parce que, même s’il a été ramené à la vie et en a enchantées de plus puissantes, ses anciennes bottes lui manquent : elles étaient si confortables.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : bonus de +1
 Le porteur peut lancer le sort de Soin des Blessures Critiques
@@ -438,7 +438,7 @@ Ces bottes sont enchantées avec l’assurance que leur porteur sera toujours ra
 @111  = ~Cape de Protection +3 : Cape de Mystra
 On dit que ces capes n'ont été données qu'à quelques élus parmi les prêtres les plus fameux de Mystra. Cependant, le décès "prématuré" de certains de ces prêtres a entraîné la sortie de plusieurs de ces capes des rangs de cette organisation religieuse. La cape donne à son porteur des bonus contre les attaques physiques et magiques, ainsi qu'une protection contre les morts-vivants.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : bonus de +3
 Jets de Sauvegarde : bonus de +2
@@ -449,7 +449,7 @@ Poids : 3~
 @114  = ~La cape peut être fabriquée dans presque n'importe quel type de tissu et prendre n'importe quelle forme. Les capes les plus courantes sont faites d'un morceau de tissu circulaire troué en son centre pour passer la tête et d'un tissu drapé à partir du cou, attaché par une chaîne, une broche, une ficelle ou des épingles.~
 @115  = ~Le manteau de la Nature protège un druide ou un rôdeur des éléments naturels.   
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : bonus de +1
 Jets de Sauvegarde : bonus de +1
@@ -461,7 +461,7 @@ Poids : 3~
 @118  = ~Depuis l'ère de Néthéril, les mages ont appris à conférer aux objets quotidiens qui les entouraient une grande variété de propriétés magiques. L'un des plus usités de ces objets est la robe courante. Elle est légère, peu onéreuse et conserve bien ses enchantements. Cela en fait une parure de mage idéale. Cependant, en raison de leur héritage magique, ces robes enchantées ne peuvent être portées que par des mages monoclassés, à classes jumelées ou multiclassés.~
 @119  = ~Cette robe puissante appartient à Shi'nayne. Elle offre une protection face à toutes les formes d’attaque physique tout en augmentant la résistance magique et les jets de sauvegarde de son porteur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : bonus de +3
 Résistance à la magie : +25 %
@@ -470,7 +470,7 @@ Poids : 6~
 @120  = ~Robe d’archimage "Memento Mori"~
 @121  = ~L’une des puissantes robes d’archimage de Néthéril, elle offre des sorts supplémentaires et une résistance à la magie. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Deux sorts de niveau 2 supplémentaires
 Classe d’Armure : bonus de +2
@@ -481,7 +481,7 @@ Poids : 6~
 @123  = ~La cape peut être fabriquée dans presque n'importe quel type de tissu et prendre n'importe quelle forme. Les capes les plus courantes sont faites d'un morceau de tissu circulaire troué en son centre pour passer la tête et d'un tissu drapé à partir du cou, attaché par une chaîne, une broche, une ficelle ou des épingles.~
 @124  = ~Le manteau d’assassin a été créé à l’intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n’était qu'une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d’élite. Les Maîtres des Ombres constituent l’ordre le plus important dans la hiérarchie des voleurs de l’ombre.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : bonus de +1
 TAC0 : bonus de +3
@@ -493,7 +493,7 @@ Poids : 3~
 @127  = ~Les gantelets sont des gants blindés. Il en existe en cuir, en plaques de métal et en cotte de mailles. Chaque armure complète doit comporter des gantelets d'un type approprié. Les gantelets magiques ont tendance à être plus fins, plus légers et plus confortables que les modèles ordinaires.~
 @128  = ~Les gantelets sont des gants blindés. Il en existe en cuir, en plaques de métal et en cotte de mailles. Chaque armure complète doit comporter des gantelets d'un type approprié. Les gantelets magiques ont tendance à être plus fins, plus légers et plus confortables que les modèles ordinaires.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : bonus de +3~
@@ -502,7 +502,7 @@ Dégâts : bonus de +3~
 @131  = ~Les bracelets sont d'épaisses lanières de métal ou de cuir que l'on se noue ou s'attache autour de l'avant-bras. En général, la magie transmise aux bracelets n'a d'effet que lors des combats. La plupart des bracelets préservent ceux qui les portent des blessures ou améliorent leurs chances de frapper l'adversaire. Des exceptions existent cependant et chaque jour qui passe en est témoin.~
 @132  = ~Les bracelets nocturnes furent fabriqués spécialement pour un célèbre voleur au service des Voleurs de l’Ombre. Ils comportent des compartiments pour les crochets et les sondes qui aident leur porteur à crocheter les serrures et détecter les pièges. Ils contiennent aussi des enchantements qui guident les projectiles vers leur cible avec une efficacité accrue, dans le but d’aider le voleur à "libérer" des objets de leur propriétaire.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial :
  +15 % en pièges
@@ -514,7 +514,7 @@ Poids : 6~
 @135  = ~ Bracelets de défense CA 4 : “Bracelets de protection”
 Ces bracelets furent détenus pendant des décennies par un gladiateur invaincu, tant ils étaient utiles en combat d’arène. La mort de ce champion entraîna la disparition de l’objet magique, mais des rumeurs persistent encore aujourd’hui à propos de leur utilisation au cours de combats sportifs dans les Royaumes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 4
 Poids : 2~
@@ -522,14 +522,14 @@ Poids : 2~
 @137  = ~Bracelets de défense CA 3
 Glen le souriant, chevalier des fous, portait ces bracelets dans les tournois. Avec son talent, son charme, et son audace (personne d'autre ne joutait sans armure), il devint vite un favori des dames qui assistaient à ces rencontres. Trop favori même, puisqu'il fut surpris un après-midi en train de batifoler avec la fiancée d'un autre chevalier. Il fut défié sur-le-champ, et dans la précipitation oublia d'enfiler ses bracelets. Glen mourut sans comprendre son erreur, un sourire étonné au visage quand le chevalier le transperça de son épée.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 3
 Poids : 2~
 @138  = ~Gants de crochetage~
 @139  = ~Les bracelets de crochetage furent créés par un mage-voleur du nom de Jamaar le Vif. Ces bracelets lui servirent à crocheter tous les types de serrures jamais inventés. Il les perdit en même temps que la vie à cause d’un coffre piégé par une boule de feu : il aurait dû aussi investir dans un artefact détectant les pièges.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 +20 % en crochetage des serrures 
 Poids : 2~
@@ -537,7 +537,7 @@ Poids : 2~
 @141  = ~Don des bois
 Depuis l’aube des temps, les druides et les rôdeurs ont lutté pour protéger les étendues sauvages de la civilisation grandissante, et parfois les êtres sauvages de ces contrées offrent à ces défenseurs des présents pour les aider à continuer leur combat de protection.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial :
   attaques accrues
@@ -547,7 +547,7 @@ Poids : 2~
 @143  = ~Gantelets de décharge
 Il s’agit d’une paire de gantelets en maille d’argent et cuir noir. Ces gantelets sont chargés d’énergie électrique qui peut être libérée au contact ou en un puissant éclair. Le contact libère l’énergie électrique qui parcourt le corps de la créature touchée.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacité 1 : Décharge électrique (pas de charges)
  Effet : tire une Boule de Feu
@@ -566,7 +566,7 @@ Poids : 1~
 @145  = ~”Mains de Spooky”
 Propriété de Daerum "Spooky" Estra, maître-voleur et chef de la guilde des voleurs de Cormyr, ces gants furent le cauchemar de bien des marchands. En les portant, l’on voit ses compétences de vol à la tire et de connaissance des pièges augmenter, ainsi que sa dextérité. Pourtant, la propriété la plus intéressante de cet objet est qu’il permet à son porteur d’ouvrir les objets verrouillés grâce à un sort de déblocage.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dextérité : +2
 Vol à la tire : +20 %
@@ -577,14 +577,14 @@ Poids : 2~
 @147  = ~Heaume de Protection~
 @148  = ~Cette catégorie de cabasset, fabriquée en cuir ou en métal renforcé, couvre presque l'ensemble de la tête, à l'exception du visage et du cou. Ces casques protègent bien le nez. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : aucun
 Spécial : protège contre les coups critiques
 Poids : 2~
 @149  = ~Cette catégorie de cabasset, fabriquée en cuir ou en métal renforcé, couvre presque l'ensemble de la tête, à l'exception du visage et du cou. Ces casques protègent bien le nez. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +2
 Spécial : protège contre les coups critiques
@@ -594,7 +594,7 @@ Poids : 2~
 @151  = ~Heaume de défense elfique
 Heaume typique porté par l’élite des guerriers elfes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +1
 Jets de Sauvegarde : bonus de +1
@@ -607,12 +607,12 @@ Poids : 3~
 @153  = ~Chapeau de barde~
 @154  = ~Les chapeaux de feutre sont très prisés par les bardes comme les voleurs, bien qu’ils n’offrent que peu de protection.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 2~
 @155  = ~Les chapeaux de feutre sont très prisés par les bardes. Ce chapeau a été enchanté pour améliorer les sorts et les connaissances des bardes. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +2
 Spécial :  
@@ -624,14 +624,14 @@ Poids : 2~
 @156  = ~Couronne de Durlag~
 @157  = ~Cette catégorie de cabasset, fabriquée en cuir ou en métal renforcé, couvre presque l'ensemble de la tête, à l'exception du visage et du cou. Ces casques protègent bien le nez. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : aucun
 Spécial : protège contre les coups critiques
 Poids : 2~
 @158  = ~Cette couronne appartenait au clan de Durlag. Durlag lui-même ne la porta jamais, passant la majorité de son temps à l’aventure, et même une fois "retraité" continua à refuser de la porter, préférant vivre comme un nain ordinaire car il ne croyait pas aux titres royaux.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +2
 Spécial : bonus de +1 aux Jets de Sauvegarde
@@ -640,14 +640,14 @@ Poids : 2~
 @159  = ~Heaume des morts~
 @160  = ~Cette catégorie de cabasset, fabriquée en cuir ou en métal renforcé, couvre presque l'ensemble de la tête, à l'exception du visage et du cou. Ces casques protègent bien le nez. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : aucun
 Spécial : protège contre les coups critiques
 Poids : 2~
 @161  = ~Ce heaume est en fait le crâne d’un grand guerrier mort il y a plusieurs siècles. On ne connaît pas son nom mais ce crâne est empli de puissance mystique. Des forgerons nains l’ont transformé en heaume, en y ajoutant notamment des piques de métal. Il confère un bonus à la classe d’armure et permet de réanimer les morts.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +2
 Spécial : protège contre les coups critiques
@@ -657,7 +657,7 @@ Poids : 2~
 @163  = ~Heaume de flammes, "Heaume de Folbraise" 
 Il s’agit du heaume de Folbraise, le garde phénix renégat. Alors qu’il était commandant des gardes il abandonna son poste, séduit par l’appel de la gloire et de la richesse.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +1
 Constitution : bonus de +2
@@ -667,7 +667,7 @@ Poids : 2~
 @165  = ~Heaume du Dragon Rouge
 Un groupe de rôdeurs d’élite de Chimera, le Dragon Rouge, inspirait la peur au plus courageux des guerriers. Leurs armures et heaumes rouge vif bordés d’or sont bien connus à travers les Royaumes. Malgré cet ensemble de protection "sophistiqué", ils arrivaient toujours à disparaître à l’envi.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +2
 Spécial : protège contre les coups critiques 
@@ -677,14 +677,14 @@ Poids : 2~
 @167  = ~Grand bouclier +3~
 @168  = ~Un grand bouclier orné d'un griffon doré en incrustation. Ce bouclier, également appelé pavois, est un bouclier métallique de grande taille protégeant son propriétaire quasiment du menton jusqu'aux pieds. Il doit être fixé fermement sur l'avant-bras et tenu énergiquement en permanence. Evidemment, la main qui tient le bouclier devient donc inutilisable à toute autre fin. Chose étonnante, ce bouclier est exceptionnellement léger pour sa taille.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +1
 Spécial : +1 contre les armes à projectiles
 Poids : 15~
 @169  = ~Le pavois est un bouclier massif en métal ou en bois couvrant le guerrier pratiquement du menton jusqu'aux doigts de pied. Il doit être bien attaché sur l'avant-bras et maintenu solidement. Naturellement, la main prise ne peut servir qu'à maintenir le pavois en place. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +3
 Spécial : +3 contre les armes à projectiles
@@ -693,7 +693,7 @@ Poids : 15~
 @171  = ~Rondache +5 "Divinité"~
 @172  = ~La rondache est généralement ronde et se tient à bout de bras par la poignée. Comme elle est légère comparée à un écu, le combattant peut porter d'autres objets dans la même main, mais ne peut manier ou porter une autre arme. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +1
 Spécial : pas de protection contre les armes à projectiles
@@ -701,7 +701,7 @@ Poids : 3~
 @173  = ~Rondache +5 "Divinité"
 Ce bouclier positivement divin émet une lueur inquiétante. Les créatures du mal ne peuvent même pas s’en saisir, quelle que soit leur puissance.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +6
 Spécial : pas de protection contre les armes à projectiles
@@ -711,14 +711,14 @@ Poids : 3~
 @176  = ~Bouclier de Baldurien~
 @177  = ~L'écu se porte comme la rondache. Mais contrairement à la rondache, son poids ne permet pas au combattant de porter autre chose. Les écus sont généralement fabriqués en métal ; ils mesurent entre 90 cm et 1,20 m de diamètre et peuvent avoir n'importe quelle forme (carrée, ronde ou comme les ailes déployées d'un dragon). Un bouclier médiéval typique ressemble à un triangle dont un des angles pointerait vers le bas. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +1
 Poids : 7~
 @178  = ~ Bouclier de Baldurien +3
 Ce bouclier appartenait au héros Baldurien. Il fait partie des objets volés au musée de la ville de la Porte de Baldur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités d’équipement :
  +1 en Force
@@ -728,7 +728,7 @@ Force nécessaire : 12~
 @179  = ~Bouclier de Durlag +2~
 @180  = ~Voici le bouclier personnel de Durlag, dont les propriétés magiques l’aidèrent à occire des dragons.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial :  
   +1 contre les armes à projectiles
@@ -738,7 +738,7 @@ Poids : 4~
 @181  = ~Bouclier de feu +2~
 @182  = ~Ce bouclier fut commandé aux meilleurs forgerons nains par Folbraise, célèbre commandant des gardes phénix, réputé pour son courage indéfectible. La démission de Folbraise en quête de fortune fut considérée comme la pire perte endurée par la garde. Ce bouclier est clairement d’une facture haut de gamme, on pourrait presque le voir se diriger seul vers les projectiles.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +3
 Spécial : +5 contre les armes à projectiles
@@ -747,7 +747,7 @@ Poids : 4~
 @184  = ~Flèche tueuse "Fléau de la Nature"~
 @185  = ~La flèche légère, comme son nom l'indique, est conçue pour la distance. C'est une flèche rapide et très utilisée pour la chasse. La plupart des flèches sont fabriquées en bois de bouleau ou de frêne et mesurent de 75 cm à 1 m de long. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : projectile (perforant)
@@ -755,7 +755,7 @@ Poids : 0
 Arme de jet : arc~
 @186  = ~Cette flèche noire, tordue, semble irradier le mal, comme si elle était possédée. Elle fut conçue pour tuer un type de créature spécifique. Dans le cas présent, il s'agit des adorateurs de la nature ; les druides et les rôdeurs.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : projectile (perforant)
@@ -766,7 +766,7 @@ Arme de jet : arc~
 @188  = ~Flèches glaciales~
 @189  = ~Cette flèche a été enchantée de façon à se transformer en une énorme boule de glace et de froid dès qu'on la décoche. Quand elle frappe sa cible, celle-ci est submergée par une vague de froid qui l'engourdit et la brûle entièrement. Ce froid extrême choque le système nerveux et immobilise la victime.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : projectile (perforant)
@@ -778,7 +778,7 @@ Arme de jet : arc~
 @191  = ~Hache de jet +3~
 @192  = ~La hache à main, ou hache de jet, est également connue sous l'appellation de hachette. Sa lame comporte une lame d'acier tranchante, contrebalancée par une barbelure pointue. La courte poignée comporte une pointe en bas et la tête comporte parfois une pointe en haut.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : projectile (perforant)
@@ -788,7 +788,7 @@ Type de compétence : hache
 Type : arme à une main~
 @193  = ~Cette hache de jet n'a pas seulement été parfaitement équilibrée en tant qu'arme de lancer, elle est également (et puissamment) enchantée. De ce fait, elle inflige des dégâts supérieurs, et elle est plus précise, qu'une arme non magique du même type.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -803,7 +803,7 @@ Type : arme à une main~
 @195  = ~Hache d'armes à deux mains +2~
 @196  = ~De loin l'arme d'hast la plus ancienne et la plus répandue, la hallebarde se compose d'une hache en forme de couperet montée sur un bâton de 1,80 m de long. La hache est équilibrée à l'arrière par un barbillon et surmontée d'une pointe acérée, généralement de forme quadrangulaire. Le barbillon est parfois remplacé par un crochet utilisé pour faire tomber l'ennemi de cheval. La hallebarde est en réalité un croisement entre la lance et la hache.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D10
 Type de dégâts : perforant
@@ -813,7 +813,7 @@ Type de compétence : lance
 Type : arme à deux mains~
 @197  = ~La version la plus répandue de la hache d'armes à deux mains est une grande hampe d'environ 1,80 mètres de long comportant une lame à double tranchant et en forme de trompette montée sur une extrémité.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : +2 dégâts de feu
 Dégâts : 1D8 +2
@@ -825,7 +825,7 @@ Type de compétence : hache
 Type : arme à deux mains~
 @198  = ~De loin l'arme d'hast la plus ancienne et la plus répandue, la hallebarde se compose d'une hache en forme de couperet montée sur un bâton de 1,80 m de long. La hache est équilibrée à l'arrière par un barbillon et surmontée d'une pointe acérée, généralement de forme quadrangulaire. Le barbillon est parfois remplacé par un crochet utilisé pour faire tomber l'ennemi de cheval. La hallebarde est en réalité un croisement entre la lance et la hache.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D10
 Type de dégâts : perforant
@@ -835,7 +835,7 @@ Type de compétence : lance
 Type : arme à deux mains~
 @199  = ~La version la plus répandue de la double hache d'armes est une grande hampe d'environ 1,80 mètres de long comportant une lame à double tranchant et en forme de trompette montée sur une extrémité.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : +2 dégâts de froid
 Dégâts : 1D8 +2
@@ -849,7 +849,7 @@ Type : arme à deux mains~
 @201  = ~Hache d’armes +3 "Le bourreau"~
 @202  = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètres de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -859,7 +859,7 @@ Type de compétence : hache
 Type : arme à une main~
 @203  = ~Cette hache était la favorite de Redrum le Fléau. Ce berserker dément la mania dans de nombreuses batailles, et tua de nombreux ennemis avec elle. La rumeur prétend qu’il s’acharnait sur le corps de ses adversaires même longtemps après qu’ils soient morts. Ses comportements sanguinaires finirent par lui attirer des ennuis ; un seigneur local fit encercler son domaine et y mit le feu lorsqu’il refusa de se rendre après avoir été déclaré coupable du massacre des enfants du village.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités de combat :
  5 % de chances de tuer instantanément l’adversaire par décapitation à chaque coup réussi
@@ -873,7 +873,7 @@ Type : arme à une main~
 @204  = ~Hache d'armes +3, Froide-Faucheuse~
 @205  = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètres de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -884,7 +884,7 @@ Type : arme à une main~
 @206  = ~Froide-Faucheuse, hache d’armes +3
 Il s'agit de la hache d'Illgarth, un géant du givre qui terrorisait les villages du nord il y a longtemps. On ne sait pas comment il s'était procuré cette arme, mais il prenait un malin plaisir à la déchaîner sur les pauvres gens, particulièrement les petites-personnes. La glace et l'acide mutilaient ceux qui ne mourraient pas, et le géant ricanait en voyant les séquelles de ces visites précédentes. Un groupe finit par parvenir à l'occire, et à la demande de ses victimes Froide-Faucheuse fut enterrée avec lui.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités de combat :
  +1 point de dégât de froid
@@ -901,7 +901,7 @@ Force nécessaire : 10~
 @208  = ~Masse +2~
 @209  = ~La masse descend directement du simple gourdin. C'est une simple hampe de bois avec une tête en pierre ou en fer fixée à son extrémité. La forme de la tête varie : certaines sont pointues, d'autres à rebord, et d'autres encore ont une tête pyramidale.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : contondant
@@ -911,7 +911,7 @@ Type de compétence : masse
 Type : arme à une main~
 @210  = ~La masse descend directement du simple gourdin. C'est une simple hampe de bois avec une tête en pierre ou en fer fixée à son extrémité. La forme de la tête varie : certaines sont pointues, d'autres à rebord. Celle-ci est un pommeau pyramidal, monté au bout d'une hampe en chêne poli, qui brille d'un éclat bleuté.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +2
 TAC0 : bonus de +2
@@ -924,7 +924,7 @@ Type : arme à une main~
 @212  = ~Morgenstern +3~
 @213  = ~Le morgenstern est un manche en bois couronné d'une tête en métal constituée d'une gaine de fer cloutée. Les morgensterns mesurent environ 1,20 m. Certaines de ces armes possèdent une tête de forme ronde, ovale ou cylindrique garnie de clous. Sur la plupart des têtes des morgensterns, quelle que soit leur forme, se trouve une longue pointe pour porter une attaque perforante.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D4
 Type de dégâts : contondant
@@ -934,7 +934,7 @@ Type de compétence : fléau/étoile du matin
 Type : arme à une main~
 @214  = ~Le morgenstern est un manche en bois couronné d'une tête en métal constituée d'une gaine de fer cloutée. Les morgensterns mesurent environ 1,20 m. Certaines de ces armes possèdent une tête de forme ronde, ovale ou cylindrique garnie de clous. Sur la plupart des têtes des morgensterns, quelle que soit leur forme, se trouve une longue pointe pour porter une attaque perforante.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D4 +3
 TAC0 : bonus de +3
@@ -946,7 +946,7 @@ Type : arme à une main~
 @215  = ~Fléau +3 “Mort Rouge”~
 @216  = ~Gravé sur la tête du fléau, on peut lire : "La Mort Rouge étend son emprise sur tous". 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Arme Vorpale ?
 Dégâts : 1D6 +3
@@ -960,7 +960,7 @@ Type : arme à une main~
 @218  = ~L’Empoisonneuse +2~
 @219  = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'homme a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : contondant 
@@ -971,7 +971,7 @@ Type : arme à une main~
 @220  = ~L’Empoisonneuse +2
 Voici une arme mortelle créée par les Druides de l’Ombre pour les aider dans leur combat de protection des forêts et leurs créatures. À chaque coup, les lianes de ce gourdin entourent la cible pour lui infliger des dégâts de poison. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +2
 TAC0: bonus de +2
@@ -986,7 +986,7 @@ Type : arme à une main~
 @222  = ~Fléau +3 "Peur"~
 @223  = ~Le fléau est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une balle en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : contondant
@@ -996,7 +996,7 @@ Type de compétence : fléau/étoile du matin
 Type : arme à une main~
 @224  = ~Le fléau est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une balle en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 TAC0 : bonus de +2
@@ -1010,7 +1010,7 @@ Type : arme à une main~
 @225  = ~Fléau sacré du Soleil~
 @226  = ~Le fléau est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une balle en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : contondant
@@ -1020,7 +1020,7 @@ Type de compétence : fléau/étoile du matin
 Type : arme à une main~
 @227  = ~Ce fléau a été béni par le temple du soleil, il possède des propriétés magiques et ne peut être manié que par ceux qui suivent la voie de la lumière.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -1036,11 +1036,11 @@ Type : arme à une main~
 @229  = ~Marteau de guerre +3 "Destin d’Asgrim"~
 @230  = ~Indéniablement de nature magique, au vu de cette lumière bleue si particulière.
 
-PARAMØTRES :
+PARAMÈTRES :
  Inconnus~
 @231  = ~Voici le légendaire marteau de guerre qu’Asgrim le Grand utilisa pour repousser les hordes drow de sa terre natale. Beaucoup d’elfes noirs furent tués ce jour par Asgrim et son fidèle marteau. Même les géants les craignaient. On ne sait pas ce qu’il advint de lui ; il fut aperçu pour la dernière fois à la recherche d’aventure et de trésors dans le Val de Bise.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +3
 TAC0 : bonus de +3
@@ -1054,7 +1054,7 @@ Type : arme à une main~
 @233  = ~Grand marteau de guerre +3~
 @234  = ~Un marteau de guerre massif et peu maniable, recouvert de runes naines.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : contondant
@@ -1064,7 +1064,7 @@ Type de compétence : marteau de guerre
 Type : arme à une main~
 @235  = ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être portées d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution, le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de long.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D4 +3
 Type de dégâts : contondant
@@ -1076,7 +1076,7 @@ Force nécessaire : 14~
 @236  = ~Marteau de guerre +2~
 @237  = ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être saisis d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution ; le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de longueur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : contondant
@@ -1087,7 +1087,7 @@ Type : arme à une main~
 @238  = ~Marteau de guerre +2 : “Morgoth”
 Forgé par des nains des temps antiques, ce marteau émet encore une chaleur magique qui brûle quand vous touchez sa tête. On sait très peu de choses de cet ancien artéfact.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2 (+1D4 points de dégâts de feu)
 TAC0 : bonus de +2
@@ -1100,7 +1100,7 @@ Type : arme à une main~
 @240  = ~Bec de Corbin
 Durant des siècles, l’apparition d’un corbeau sur un champ de bataille fut considérée comme un présage de défaite. Et ce marteau destructeur porte bien son nom : la forme de son piquant arrière rappelle celle d’un bec et sa face tordue aide à concentrer le coup sur l’armure de l’adversaire. La pique au sommet ajoute au répertoire de son porteur la possibilité d’un coup mortel.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +3
 TAC0 : 
@@ -1119,7 +1119,7 @@ Type : arme à une main~
 @241  = ~Mjolnir "Le Destructeur"~
 @242  = ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être saisis d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution ; le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de longueur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : contondant
@@ -1129,7 +1129,7 @@ Type de compétence : marteau de guerre
 Type : arme à une main~
 @243  = ~Voici le légendaire marteau de Thor, dieu nordique du Tonnerre. Forgé par un artisan nain à la demande de Loki et présenté aux dieux en cadeau, Mjolnir possède de grands pouvoirs. Il ne peut se perdre, car il revient toujours à la main qui l’a lancé, ne peut être détruit et a été enchanté par Thor lui-même du pouvoir de contrôler la foudre.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1145,7 +1145,7 @@ Type : arme à une main~
 @244  = ~L’Étoile d’Illumination +3~
 @245  = ~Ce morgenstern a été béni par le temple du soleil, il possède des propriétés magiques et ne peut être manié que par ceux qui suivent la voie de la lumière.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1162,7 +1162,7 @@ Type : arme à une main~
 La tête d’obsidienne de cette masse représente le visage d’une belle jeune fille. Quand on la manie au combat, ce beau visage se tord en une face menaçante fendue d’une gueule pleine de crocs.
 Cette masse n’est pas une arme du plan matériel, elle fut forgée dans les Abysses. Il s’agit d’une arme consciente qui communique par télépathie avec son porteur pour tenter de l’attirer vers le chaos et la destruction. La Vierge a toujours soif de sang et fait en sorte que son porteur étanche cette soif. Quand la masse blesse une victime, elle boit goulument et utilise une partie du sang pour soigner son porteur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +2
@@ -1178,7 +1178,7 @@ Type : arme à une main~
 @249  = ~Arc de projectiles magiques de Khelben Bâton Noir~
 @250  = ~L'arc long est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Sa portée et sa précision sont supérieures à celles de l'arc court.
 
-PARAMØTRES :
+PARAMÈTRES :
  
 TAC0 : bonus de +1
 Poids : 3
@@ -1187,7 +1187,7 @@ Type de compétence : arc long
 Type : arme à deux mains~
 @251  = ~La rumeur prétend que cet arc fut créé par Khelben Bâton Noir, à qui il fut ensuite volé. En tous cas, son créateur était forcément un mage, puisque l’enchantement de cet arc provient du sort de projectiles magiques.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : tire 5 Projectiles Magiques. Ne nécessite pas de flèches
 Dégâts : 1D6 +3
@@ -1199,7 +1199,7 @@ Type : arme à deux mains~
 @252  = ~Arc long de rôdeur +3~
 @253  = ~Le don de Mielikki à un rôdeur de Rashéménie appelé Doran. Doran fut réputé pour sa capacité à abattre ses ennemis grâce à cet arc. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : +1 à la Dextérité
 Dégâts : bonus de +2
@@ -1212,7 +1212,7 @@ Type : arme à deux mains~
 @255  = ~Arc court "Grand Nord"~
 @256  = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 2
 Facteur de vitesse : 6
@@ -1221,7 +1221,7 @@ Type : arme à deux mains~
 @257  = ~Arc court "Grand Nord" :
 Il s’agit d’un arc rare, on n’en connaît que trois exemplaires. Ils furent créés par un prêtre d’Aurile dans le Val de Bise. La déesse elle-même en prit un, et le troisième fut perdu quelque part dans le Glacier de Morneglace.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : +1D6 points de dégâts de froid et gèle (immobilise) pendant 60 secondes, sans jet de sauvegarde
 Dégâts : 1D4 +2
@@ -1233,7 +1233,7 @@ Type : arme à deux mains~
 @258  = ~Arc court "Tempête de glace"~
 @259  = ~Les arcs courts ont été fabriqués avant les autres, même s'ils ne s'appelaient pas ainsi. Ce terme est utilisé par défaut pour désigner tout ce qui n'est pas arc long. Les branches d'arc court mesurent 1,50 m en moyenne. Avec les années, on s'est efforcé d'améliorer la portée de l'arc. Tantôt on augmentait la longueur des branches, tantôt on améliorait leur flexibilité sans modifier leur longueur. La première expérience a engendré ce qui s'appelle aujourd'hui l'arc long. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 2
 Facteur de vitesse : 6
@@ -1243,7 +1243,7 @@ Type : arme à deux mains~
 Un avant-poste humain de la Forêt Gelée déterra cette arme, ainsi que d’autres, dans les ruines d’un ancien village de ces terres gelées. Les colons se servirent de ces armes pour se défricher un grand territoire, sans jamais connaître le nom de leurs défunts bienfaiteurs. Au final, leur entreprise se révéla toutefois totalement inutile. Ils furent en effet complètement écrasés par des hobgobelins supérieurs en nombre, et finirent eux aussi dans l'anonymat.
 L’utilisateur doit réussir un jet de sauvegarde contre la mort à +5 ou subir les mêmes effets que ses ennemis.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : +1D6 points de dégâts de froid et gèle (immobilise) pendant 60 secondes, sans jet de sauvegarde
 Dégâts : 1D4 +1, +1D4 de dégâts de froid
@@ -1255,7 +1255,7 @@ Type : arme à deux mains~
 @261  = ~Arc long d’O'Locksley~
 @262  = ~L'arc long est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Sa portée et sa précision sont supérieures à celles de l'arc court. 
 
-PARAMØTRES :
+PARAMÈTRES :
  
 TAC0 : bonus de +1
 Poids : 3
@@ -1266,7 +1266,7 @@ Type : arme à deux mains~
 
 Cet arc est d’une facture exceptionnelle, fait d’ancien if provenant, selon certains, du grand arbre monde, Yaggissdril. Il n’a pas besoin d’être retendu ou redressé, même après avoir été mouillé, et il est si léger qu’il est facile de tirer avec une vitesse et une précision extrêmes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : bonus de +2 
 TAC0 : bonus de +3
@@ -1278,7 +1278,7 @@ Type : arme à deux mains~
 @265  = ~Arbalète légère +3 “Dard du scorpion”~
 @266  = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau). 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 7
 Facteur de vitesse : 5
@@ -1286,7 +1286,7 @@ Type de compétence : arbalète
 Type : arme à deux mains~
 @267  = ~Cette arbalète fut fabriquée par les Erreth-Akbe durant leur longue guerre contre les nécromanciens. Elle fut enchantée pour créer ses propres carreaux empoisonnés. Une fois terminée, les druides réalisèrent que cette arme était trop chaotique pour qu’ils permettent son utilisation, et elle fut enterrée sous le temple, pour toujours.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : Ne nécessite pas de carreaux
 Dégâts : 1D6 +3
@@ -1300,7 +1300,7 @@ Type : arme à deux mains~
 @269  = ~Ulysse~
 @270  = ~Les arcs composés sont des arcs longs ou courts dont les branches sont faites de plusieurs matériaux. Cela rend l'arc plus souple, ce qui accroît sa portée. Ceux-ci ont été conçus après l'arc long ordinaire.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : bonus de +2
 TAC0 : bonus de +1
@@ -1310,7 +1310,7 @@ Type de compétence : arc long
 Type : arme à deux mains~
 @271  = ~Le rêve de tous les archers. Ulysse ne nécessite aucune flèche, tirant ses traits de glace qui se forment dès qu’on en tire la corde. Ses origines restent inconnues, mais son style suggère un savoir-faire elfique.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +2
 TAC0 : bonus de +2
@@ -1321,7 +1321,7 @@ Type : arme à deux mains~
 @272  = ~Arbalète légère +3 "Dent de feu"~
 @273  = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau). 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 7
 Facteur de vitesse : 5
@@ -1329,7 +1329,7 @@ Type de compétence : arbalète
 Type : arme à deux mains~
 @274  = ~L'utilisation de la corde de Gond a rendu la légendaire Dent de feu encore plus "mordante". L'une des arbalètes les plus puissantes du royaume, Dent de feu n'a pas besoin de munitions car elle tire des carreaux de feu.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0: bonus de +3
 Dégâts : 1D8 +3, +2 dégâts de feu
@@ -1341,7 +1341,7 @@ Type : arme à deux mains~
 @276  = ~Bille +1~
 @277  = ~Une bille est une pierre ronde et calibrée. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : projectile (perforant)
@@ -1349,7 +1349,7 @@ Poids : 0
 Arme de jet : fronde~
 @278  = ~L'énergie magique contenue dans cette bille la rend plus précise et plus légère lorsqu'elle file vers un adversaire.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2
 TAC0 : bonus de +1
@@ -1359,7 +1359,7 @@ Arme de jet : fronde~
 @279  = ~Bille explosive~
 @280  = ~Une bille est une pierre ronde et calibrée. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : projectile (perforant)
@@ -1367,7 +1367,7 @@ Poids : 0
 Arme de jet : fronde~
 @281  = ~Cette bille est particulièrement efficace car elle explose dès l'impact en une grosse boule de feu et de shrapnel qui affecte toutes les créatures de la zone.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : projectile (perforant)
@@ -1377,7 +1377,7 @@ Arme de jet : fronde~
 @282  = ~Bille de feu~
 @283  = ~L'énergie magique contenue dans cette bille la rend plus précise et plus légère lorsqu'elle file vers un adversaire. Elle fut placée dans un feu ardent pendant l’enchantement.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +3
 TAC0 : bonus de +2
@@ -1388,7 +1388,7 @@ Arme de jet : fronde~
 @284  = ~Bille de glace~
 @285  = ~L'énergie magique contenue dans cette bille la rend plus précise et plus légère lorsqu'elle file vers un adversaire.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2
 TAC0 : bonus de +1
@@ -1400,7 +1400,7 @@ Arme de jet : fronde~
 @287  = ~Dague +2 "Morsure nordique"~
 @288  = ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4
 Type de dégâts : perforant
@@ -1411,7 +1411,7 @@ Type : arme à une main~
 @289  = ~Dague +2 "Morsure nordique"
 La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court. Cette dague vient d’un armurier nain de Padhiver, qui l’a enchantée pour qu’elle inflige des dégâts de froid.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2, +1D4 dégâts de froid
 TAC0 : bonus de +2
@@ -1424,7 +1424,7 @@ Type : arme à une main~
 @290  = ~Dague +3 : "Étourdisseuse"~
 @291  = ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4
 Type de dégâts : perforant
@@ -1434,7 +1434,7 @@ Type de compétence : dague
 Type : arme à une main~
 @292  = ~Créée par un faussaire du nom d’Evets Nitsua, il fit en sorte que cette dague étourdisse sa cible pour qu’il puisse ensuite la tailler en pièces et la saigner à mort.
  
-PARAMØTRES : 
+PARAMÈTRES : 
 
 10 % de chance d’étourdir la cible pendant 30 secondes
 Dégâts (corps à corps & lancer) : 1D4 +3
@@ -1448,7 +1448,7 @@ Type : arme à une main (revient dans la main du lanceur)~
 @294  = ~Dague de Yarash : 
 La dague de retour fut fabriquée par Yarash le Sorcier en paiement à un groupe d’aventuriers pour leur services. Beaucoup pensent que les énormes dégâts causés par la dague sont dus tant à ses enchantements magiques qu’à son poids inhabituel.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +3
 TAC0 : bonus de +2
@@ -1462,7 +1462,7 @@ Type : arme à une main ~
 @295  = ~Dague d’infection~
 @296  = ~La dague d’infection est une lame puissante aimée des assassins à travers les Royaumes. Cette arme particulière est infectée et inflige des dégâts supplémentaires à ses victimes. Chaque fois qu’elle touche un adversaire, elle injecte un virus dans le sang de la créature qui attaque son système immunitaire. Son origine est inconnue.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2
 Nombre d’attaques : 2
@@ -1475,7 +1475,7 @@ Type : arme à une main~
 @297  = ~Dague +2 : "Choc"~
 @298  = ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4
 Type de dégâts : perforant
@@ -1485,7 +1485,7 @@ Type de compétence : dague
 Type : arme à une main~
 @299  = ~Il n’existe aucune trace du créateur de cette arme, mais on peut faire remonter son histoire jusqu’aux tribus barbares nomades des montagnes. Sa lame bleue fut certainement forgée à partir de métaux arcaniques et de carreaux de foudre pour les chauffer, donnant à l’arme sa couleur bleu électrique.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2
 TAC0 : bonus de +2
@@ -1500,7 +1500,7 @@ Type : arme à une main~
 @301  = ~Dague +2 : “Dent de l’hiver”
 Il n’existe aucune trace du créateur de cette arme, mais on peut faire remonter son histoire jusqu’aux tribus barbares nomades des montagnes. Sa lame bleue fut certainement forgée à partir de métaux arcaniques trouvés dans le grand Nord, donnant à l’arme sa couleur bleu glaciale.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2
 TAC0 : bonus de +2
@@ -1515,7 +1515,7 @@ Type : arme à une main~
 @303  = ~Dague de jet +3~
 @304  = ~La lame de cette dague est très pointue, et contrebalancée par une poignée.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4
 Type de dégâts : projectile (perforant)
@@ -1525,7 +1525,7 @@ Type de compétence : dague
 Type : arme à une main~
 @305  = ~Cette dague de jet n'a pas seulement été parfaitement équilibrée en tant qu'arme de lancer, elle est également (et puissamment) enchantée. De ce fait, elle inflige des dégâts supérieurs, et elle est plus précise, qu'une arme non magique du même type.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +3
 TAC0 : bonus de +3
@@ -1540,7 +1540,7 @@ Type : arme à une main~
 @307  = ~Lance de Chimera +3~
 @308  = ~ La lance, l'une des premières armes de l'homme, remonte aux temps les plus reculés et était initialement constituée d'un pic ou d'un bâton de bois taillé en pointe à une extrémité. Avec la découverte et la maîtrise des métaux, les hommes ont commencé à remplacer les pointes en bois par des pointes en fer et en acier. Les armuriers ont alors pu essayer différents types de pointes, ce qui a permis l'élaboration de certains types d'armes d'hast.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : perforant
@@ -1551,7 +1551,7 @@ Type : arme à deux mains~
 @309  = ~Lance de Chimera +3
 Arme favorite des rôdeurs elfes de Chimera, ces lances sont fabriquées à partir de bois magique et possèdent une pointe barbelée enduite de poison mortel. La brutalité de ces rôdeurs au combat est uniquement égalée par celle des elfes sylvains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1564,7 +1564,7 @@ Type : arme à deux mains~
 @310  = ~Gibet~
 @311  = ~Une arme dépourvue d’humour, c’est le moins qu’on puisse dire. Gibet fut forge par Mekorig l’Aveugle pour précipiter la fin de l’âge des monstres et développer l’âge des hommes. Gibet disparaît souvent pendant plusieurs années, pour ensuite être découverte par un aventurier ambitieux dans l’antre de quelque dragon. Et le pouvoir de l’arme a tendance à inciter ce genre d’aventurier à partir à l’assaut de l’antre d’un autre dragon, où Gibet peut se retrouver à attendre à nouveau quelques années...
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 Spécial : attaques accrues
@@ -1577,7 +1577,7 @@ Type : arme à deux mains~
 @312  = ~Lance Divine~
 @313  = ~Parmi les meilleures armes jamais créées pour la Lumière, cette lance rayonne du pouvoir du bien qui réside en elle. Presqu’exclusivement utilisée par la garde sacrée de Sukien, il s’agit d’un trésor rare et précieux. Les grands prêtres de Sukien bénissent chacune de ces lances pour éliminer le mal qui voudrait détruire leur temple.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1592,7 +1592,7 @@ Type : arme à deux mains~
 @315  = ~Fronde élémentale "la fronde d’abondance"~
 @316  = ~Les frondes existent depuis la nuit des temps. La fronde de base se compose d'une courroie en cuir ou en tissu comportant une bourse pouvant contenir un projectile. L'utilisateur tient la fronde par ses deux extrémités et la fait tournoyer autour de sa tête. Lorsque la vitesse maximale est atteinte, il suffit de relâcher l'une des extrémités de la courroie pour larguer le projectile.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Poids : 0
 Facteur de vitesse : 6
@@ -1600,7 +1600,7 @@ Type de compétence : fronde
 Type : arme à une main~
 @317  = ~À l’origine créée comme arme d’entraînement par les maîtres de l’Eglise du Soleil, cette fronde mortelle a fini par se retrouver entre les mains de voleurs et de scélérats depuis des siècles. C’est la fronde elle-même qui crée la pierre qu’elle va lancer quand elle tournoie, faisant appel aux éléments alentours, et éliminant le besoin de s’encombrer de munitions. Pas étonnant que les voleurs l’adorent.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3 (dégâts des projectiles)
 TAC0 : bonus de +2
@@ -1611,7 +1611,7 @@ Type : arme à une main~
 @318  = ~Bâton du Sorcier +3~
 @319  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains. Il est également possible que la bâton transforme ses adversaires en pierre.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +2
 TAC0 : bonus de +3
@@ -1627,7 +1627,7 @@ Type : arme à deux mains~
 @321  = ~Bâton de la Nature~
 @322  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : contondant
@@ -1638,7 +1638,7 @@ Type : arme à deux mains~
 @323  = ~Bâton de la Nature : “Protecteur de la Nature”
 Ce bâton est utilisé par une tribu de druides depuis des siècles, légué de meneur en meneur parmi les archidruides de Kazguard. On dit que c’est la Nature elle-même qui l’aurait fabriqué, et sa lumière de couleur verte ne fait que confirmer ses pouvoirs naturels. Il s’agit d’une arme très puissante, tout comme l’étaient ses précédents propriétaires.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 2D3 +3
@@ -1653,7 +1653,7 @@ Type : arme à une main~
 @325  = ~Bâton élémentaire de l’Air~
 @326  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : contondant
@@ -1663,7 +1663,7 @@ Type de compétence : bâton
 Type : arme à deux mains~
 @327  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément de l’air.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -1679,7 +1679,7 @@ Type : arme à deux mains~
 @328  = ~Bâton élémentaire de la Terre~
 @329  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : contondant
@@ -1689,7 +1689,7 @@ Type de compétence : bâton
 Type : arme à deux mains~
 @330  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément de la terre.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -1705,7 +1705,7 @@ Type : arme à deux mains~
 @331  = ~Bâton élémentaire du Feu~
 @332  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : contondant
@@ -1715,7 +1715,7 @@ Type de compétence : bâton
 Type : arme à deux mains~
 @333  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément du feu.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -1731,7 +1731,7 @@ Type : arme à deux mains~
 @334  = ~Bâton élémentaire de l’Eau~
 @335  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément de l’eau.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -1748,7 +1748,7 @@ Type : arme à deux mains~
 @337  = ~Bâton de vie
 Blanc et or, rayonnant d’une grande puissance, ce bâton fut formé à l’aube des temps par le premier des rayons du soleil qui chatoya sur l’eau la plus pure. Ayant peu à offrir en terme d’attaque, ce bâton fournit néanmoins de puissantes protections à son porteur.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D2 +2
 TAC0 : bonus de +2
@@ -1764,7 +1764,7 @@ Type : arme à deux mains~
 @339  = ~Épée longue “le Berserker du Nord”~
 @340  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -1774,7 +1774,7 @@ Type de compétence : épée longue
 Type : arme à une main~
 @341  = ~Cette lame fut forgée par le nain dément Asgrim, dans les neiges éternelles du Val de Bise. Sa poignée semble fraîche et sa lame est glaciale, quelle que soit la température ambiante. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1788,7 +1788,7 @@ Type : arme à une main~
 @343  = ~Cimeterre +2~
 @344  = ~Le cimeterre est une arme qui s'apparente beaucoup au sabre, avec sa garde en coquille et sa lame à un seul tranchant, à la courbure accentuée, et terminée par une pointe. L'origine du cimeterre reste inconnue, mais c'est une arme répandue dans le sud des Royaumes Oubliés.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -1799,7 +1799,7 @@ Type : arme à une main~
 @345  = ~Cimeterre +2
 Le cimeterre est une arme qui s'apparente beaucoup au sabre, avec sa garde en coquille et sa lame à un seul tranchant, à la courbure accentuée, et terminée par une pointe. L'origine du cimeterre reste inconnue, mais c'est une arme répandue dans le sud des Royaumes Oubliés.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +2, +1D6 points de dégâts électriques
 TAC0 : bonus de +2
@@ -1813,7 +1813,7 @@ Type : arme à une main~
 @347  = ~Coutelas +3 “Butin du seigneur pirate"~
 @348  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : tranchant
@@ -1824,7 +1824,7 @@ Type : arme à une main~
 @349  = ~Coutelas +3 : “Butin du seigneur pirate"
 La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -1837,7 +1837,7 @@ Type : arme à une main~
 @350  = ~Épée longue +2 "Section Une"~
 @351  = ~Les épées Section Une sont d’excellentes armes, utilisées par l’élite de l’organisation appelée « le Section ». Le simple fait de la posséder pourrait même signer votre arrêt de mort.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D10 +2
 +2 points de dégâts électriques
@@ -1850,7 +1850,7 @@ Type : arme à une main~
 @352  = ~Épée longue “Vie”~
 @353  = ~L’épée personnelle de Nikita. C’est à contrecoeur qu’elle a supprimé de nombreux adversaires avec cette lame finement ouvragée.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1863,7 +1863,7 @@ Type : arme à une main~
 @354  = ~Épée longue “Mort”~
 @355  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -1873,7 +1873,7 @@ Type de compétence : épée longue
 Type : arme à une main~
 @356  = ~L’épée personnelle de Michael. Il a supprimé de nombreux adversaires avec cette lame finement ouvragée. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1886,7 +1886,7 @@ Type : arme à une main~
 @357  = ~Coutelas +3 "T'sarren"~
 @358  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : tranchant
@@ -1897,7 +1897,7 @@ Type : arme à une main~
 @359  = ~Coutelas +3 "T'sarren"
 Cette épée appartenait à une pilleuse elfe démente qui répandait la destruction partout où elle passait. On n’a plus entendu parler d’elle depuis longtemps, elle est certainement morte, puisque vous êtes en possession de son épée.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -1911,7 +1911,7 @@ Type : arme à une main~
 @361  = ~Sabre d’Artemis~
 @362  = ~La longue lame simple et incurvée est la caractéristique des sabres et des cimeterres, bien qu'ils n'aient pas la même origine dans Féérune. Alors que le sabre était fait essentiellement pour les cavaliers, notamment pour sa polyvalence, le cimeterre est issu d'une influence plus orientale.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -1921,7 +1921,7 @@ Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
 @363  = ~Sabre sanglant.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +1
 TAC0 : bonus de +1
@@ -1935,7 +1935,7 @@ Type : arme à une main~
 @365  = ~Lame d’assassin~
 @366  = ~L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans les catégories d'épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la range donc parmi les armes perforantes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : perforant
@@ -1945,7 +1945,7 @@ Type de compétence : épée courte
 Type : arme à une main~
 @367  = ~La lame d’assassin est une épée courte créée à l’intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n’était une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d’élite. Les Maîtres des Ombres constituent l’ordre le plus important dans la hiérarchie des voleurs de l’ombre. Il s’agit d’une épée courte +4.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +2
 TAC0 : bonus de +3
@@ -1958,7 +1958,7 @@ Type : arme à une main~
 @368  = ~Corsaire~
 @369  = ~Le cimeterre est une arme qui s'apparente beaucoup au sabre, avec sa garde en coquille et sa lame à un seul tranchant, à la courbure accentuée, et terminée par une pointe. L'origine du cimeterre reste inconnue, mais c'est une arme répandue dans le sud des Royaumes Oubliés.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -1968,7 +1968,7 @@ Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
 @370  = ~Corsaire est l’une des meilleures armes créées par les armureries de Regna. Fidèles à leur nature, les forgerons de Regna fabriquèrent une arme qui aiderait à "collecter les taxes" en haute mer et dans les villes côtières.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -1983,7 +1983,7 @@ Type : arme à une main~
 @371  = ~Coutelas +2 “Incinérateur”~
 @372  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : tranchant
@@ -1994,7 +1994,7 @@ Type : arme à une main~
 @373  = ~Coutelas +2 “Incinérateur”
 Rouge et strié, ce coutelas est froid au toucher, des runes à sa surface indiquant simplement “Incinérateur”. Son apparence a mené bien des aventuriers à le prendre pour une arme vieille, usée et inutile, mais les plus curieux d’entre eux, ceux qui l’emportèrent avec eux “juste au cas où” furent toujours agréablement surpris. L’Incinérateur a beau rester froid tant qu’on ne le manie pas, une fois en mouvement en plein combat, on comprend d’où il tire son nom plus qu’approprié.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +2
 TAC0 : bonus de +2
@@ -2007,7 +2007,7 @@ Type : arme à une main~
 @374  = ~Coutelas +3 “Lame fantôme”~
 @375  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : tranchant
@@ -2018,7 +2018,7 @@ Type : arme à une main~
 @376  = ~Coutelas +3 “Lame fantôme”
 Chaque épéiste a déjà fait l’expérience de voir les traînées, les images résiduelles de sa lame lorsqu’il la manie rapidement. Cette épée n’est pas différente, si ce n’est que ces images fantomatiques semblent être aussi tranchantes que la lame réelle. Elle appartenait à l’origine à un homme paresseux et gras du nom de Bordger, supposé avoir été initié aux arts magiques avant de tomber dans la carrière de voleur. Vu la qualité de cet enchantement, il eut été bien inspiré de rester magicien.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -2032,7 +2032,7 @@ Type : arme à une main~
 @378  = ~Coutelas +3 “Étincelle”
 Bourdonnant d’énergie électrique, il est facile de comprendre d’où vient le nom de ce coutelas. Ses origines demeurent inconnues, mais on y attache toujours des histoires de contrée étrange. Son premier propriétaire connu était un pirate, fraîchement rentré au port, qui fut dépouillé et tué en pleine ivresse, si vite que même son nom demeure aussi mystérieux que la véritable histoire de cette lame.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -2046,7 +2046,7 @@ Type : arme à une main~
 @380  = ~Coutelas +3 “Assomoir”
 Plus gros que le coutelas moyen, l’assomoir ressemble plus à une épée large qu’à un coutelas, et fut commandé par un bandit du nom d’Orrimy qui souhaitait "écraser autant que couper", selon ses propres mots. C’est cette taille immense qui lui fournit le résultat souhaité. Dommage que son premier coup d’essai se déroula contre un ogre, qui l’écrasa avant même qu’il ait le temps de dégainer...
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -2059,7 +2059,7 @@ Type : arme à une main~
 @381  = ~Sabre de Doufas~
 @382  = ~L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans les catégories d'épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la range donc parmi les armes perforantes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : perforant
@@ -2070,7 +2070,7 @@ Type : arme à une main~
 @383  = ~Sabre de Doufas
 Le sabre de Doufas fut créé pour être l’outil parfait de l’assassin. Il est très convoité par ceux qui règlent les différends à l'épée et, en général, reste peu de temps entre les mains d'une même personne.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3 (+1D4 points de dégâts magiques)
 TAC0 : +2
@@ -2085,7 +2085,7 @@ Type : arme à une main~
 @384  = ~Épée longue +4, Sainte Lame - Draz~
 @385  = ~Propriété de Gez de Heaum, cette puissante épée a tenu une place d’honneur parmi les artéfacts conservés au temple de Heaum de la Porte de Baldur pendant des siècles, parfois prêtée à un paladin de l’église si le besoin s’en faisait sentir. Pourtant, il y a soixante-trois ans, il y eut une recrudescence des vols à la Porte de Baldur, et Draz fut dérobée. Toutes les tentatives de la retrouver furent vaines, mais la voici à présent, entre vos mains.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +4
 TAC0 : bonus de +4
@@ -2102,7 +2102,7 @@ Type : arme à une main~
 @387  = ~Comment "Brûlure" a pu arriver dans ce plan reste un mystère.
 La rumeur prétend que son dernier propriétaire se croyait si puissant qu’il partit combattre la reine des élémentaires de feu. Visiblement, il a échoué.
    
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +1
 TAC0 : bonus de +1
@@ -2121,14 +2121,14 @@ Type : arme à une main~
 @389  = ~Cimeterre
 La longue lame simple et incurvée est la caractéristique des sabres et des cimeterres, bien qu'ils n'aient pas la même origine dans Féérune. Alors que le sabre était fait essentiellement pour les cavaliers, notamment pour sa polyvalence, le cimeterre est issu d'une influence plus orientale. Le "shamshir", comme on l'appelait au début, est plus grand et plus recourbé, et il s'effile sur une pointe très allongée. Cela le rend un peu plus lent, mais plus efficace et mortel en combat.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
 Poids : 4~
 @390  = ~Ce cimeterre n’est pas différent d’un autre à première vue, mais lorsqu’il est manié par un "enfant de la forêt", sa lame devient verte et bourdonne doucement.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +2
@@ -2140,7 +2140,7 @@ Type : arme à une main~
 @391  = ~Harval : La lame grise~
 @392  = ~Le cimeterre est une arme qui s'apparente beaucoup au sabre, avec sa garde en coquille et sa lame à un seul tranchant, à la courbure accentuée, et terminée par une pointe. L'origine du cimeterre reste inconnue, mais c'est une arme répandue dans le sud des Royaumes Oubliés. Cette lame particulière semble être d’une qualité exceptionnelle et extrêmement bien équilibrée.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8  
 Type de dégâts : tranchant
@@ -2153,7 +2153,7 @@ Elle lui fut donnée avant le Ragnarok (la guerre des dieux). Bien que n'étant 
 
 Le bonus à la classe d’armure est dû au fait que le porteur possède un tel contrôle et un tel équilibre qu’il est capable de parer des attaques qui l’auraient normalement touché.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +2
 TAC0 : bonus de +3
@@ -2168,7 +2168,7 @@ Type : arme à une main~
 @395  = ~Épée à deux mains +3, Infernus~
 @396  = ~L'épée à 2 mains est un dérivé de l'épée longue. Les armuriers ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à 2 mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D10
 Type de dégâts : tranchant 
@@ -2178,7 +2178,7 @@ Type de compétence : épée à deux mains
 Type : arme à deux mains~
 @397  = ~Il s’agit d’une épée à deux mains et à double tranchant nommée Infernus et qui brille d’un éclat noir et pourpre. C’est l’une des lames infernales conscientes qui infligent des dégâts de feu à leur cible.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D10 +3 +2D4 points de dégâts de feu
 TAC0 : bonus de +3
@@ -2190,7 +2190,7 @@ Type : arme à deux mains~
 @398  = ~Épée longue de Krom~
 @399  = ~Cette épée appartenait à Krom l’Invisible. Il l’utilisa contre d’innombrables ennemis durant son règne. Le peu d’entre eux qui survécut à une rencontre avec la lame parlèrent d’une force subtile qui les ralentissait de l’intérieur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -2204,7 +2204,7 @@ Type : arme à une main~
 @400  = ~Fléau de Rhea~
 @401  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +1
 Poids : 4
@@ -2213,7 +2213,7 @@ Type de compétence : épée longue
 Type : arme à une main~
 @402  = ~Cette lame fut forgée pour le guerrier Cuthlan Rhea par le seigneur du feu Galamar. On sait peu de choses sur les pouvoirs exacts de cette lame, et à part les runes qui y sont gravées, elle montre peu de signes d’enchantement, sauf quand elle est brandie en combat : la lame se met alors à luire d’un rouge sombre.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
@@ -2228,7 +2228,7 @@ Type : arme à une main~
 @404  = ~Épée bâtarde +2 "la Vipère"~
 @405  = ~Également connue sous le nom d'épée à une main et demie, l'épée bâtarde tire son nom de son aspect intermédiaire entre l'épée à 2 mains et l'épée longue. Elle possède une lame à double tranchant et une longue poignée, qui peut éventuellement accueillir les deux mains. La longueur de l'épée bâtarde varie entre 1,20 m et 1,50 m.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D4
 Type de dégâts : tranchant
@@ -2239,7 +2239,7 @@ Type : arme à une main~
 @406  = ~Épée bâtarde +2 "la Vipère"
 Le poison de cette épée est particulièrement mortel, extrait de la queue d’une wiverne, il inflige d’énormes dégâts en très peu de temps.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +2
 TAC0 : bonus de +3
@@ -2252,7 +2252,7 @@ Type : arme à une main~
 @407  = ~Lame de voleur~
 @408  = ~L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans les catégories d'épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la range donc parmi les armes perforantes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : perforant
@@ -2262,7 +2262,7 @@ Type de compétence : épée courte
 Type : arme à une main~
 @409  = ~Cette lame a été créée à l’intention des voleurs, mais peut être utilisée par tous ceux qui peuvent la manier. Elle donne de nombreux avantages aux voleurs, les rendant un peu plus rapides que leurs adversaires et beaucoup plus aptes à accéder aux possessions qu’ils convoitent.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -2283,7 +2283,7 @@ Elle permet à son porteur d’invoquer à volonté une wiverne à son service.~
 @417  = ~Collier clouté de subtilisation
 Il y a quelques années, Fong Moo, un voleur à la tire célèbre aussi bien à la Porte de Baldur qu'à Athkatla, a été retrouvé mort sur la route entre la Porte et Bérégost. Il semblerait qu'il ait volé un artefact à un mage puissant et ait tenté de s'enfuir, sans grand succès. Ses affaires sont revenues à un de ses neveux, qui suivit la même carrière que son oncle, et devint particulièrement doué pour faire les poches. On ne sait pas si ce collier était magique avant d'entrer en possession de Fong, ou s'il a absorbé une partie de l'âme de son ancien maître.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Vol à la tire : +20 %~
 @418  = ~Ankh~
@@ -2292,7 +2292,7 @@ Vol à la tire : +20 %~
 @421  = ~Ankh d’acceptation
 Voici l’un des neuf ankhs des Sukiem, à l’origine conservés au temple de Château-Nord, et qui furent perdus quand la cité tomba, pour être redécouverts par les Myth Drannor qui les gardèrent pendant des siècles. Quand ce groupe se sépara, les ankhs furent perdus à nouveau, jusqu’à aujourd’hui.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : bonus de +1
 Sagesse : bonus de +1
@@ -2301,7 +2301,7 @@ Spécial : le porteur devient neutre strict~
 @422  = ~Amulette d’expertise de voleur~
 @423  = ~Une amulette rare que chaque voleur voudrait posséder à cause de l’aide qu’elle leur apporte pour exercer leurs sombres talents. Les chefs de guildes paieraient de coquettes sommes pour mettre la main dessus.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial :
  +1 à la Dextérité lorsqu’elle est portée
@@ -2315,7 +2315,7 @@ Furtivité : +5 %~
 @425  = ~Un collier est un bijou décoratif généralement fabriqué en argent, en or, en platine ou tout autre métal précieux, et orné de gemmes. Un collier se porte toujours autour du cou et peut être de n'importe quelle longueur.~
 @426  = ~Voici l’amulette portée par le grand mage Ulcaster. Beaucoup d’artéfacts se trouvaient dans son école, mais peu furent retrouvés.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 2 sorts supplémentaires de niveaux 4 et 5
 20 % de résistance à la magie
@@ -2325,14 +2325,14 @@ Poids : 9~
 @429  = ~Amulette de protection +2 : “Mon protecteur”  
 Les gardes du roi Pyronan, maître d'Impiltur, se virent remettre "mon protecteur" comme signe honorifique de leur fonction. Malheureusement, les membres de la garde ne parvinrent pas à tomber d'accord sur l'identité de celui qui recevrait l'amulette. Après des années de dissensions internes, l'objet fut perdu et les gardes remplacés par des soldats moins cupides.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d’Armure : 2
 Bonus aux Jets de Sauvegarde : 1~
 @430  = ~Collier d’Hobbin~
 @431  = ~Le collier personnel d’Hobbin, qui lui fut donné par son grand-père.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +2
 Bonus au vol à la tire : +10 %~
@@ -2340,7 +2340,7 @@ Bonus au vol à la tire : +10 %~
 @433  = ~Amulette de prêtrise : “le Saint” 
 Connue pour sa capacité à améliorer le lancement des sorts, l’amulette de prêtrise est très recherchée par les clercs et les druides.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : mémorisation d’un sort supplémentaire de niveau 2~
 @434  = ~Anneau~
@@ -2348,26 +2348,26 @@ Spécial : mémorisation d’un sort supplémentaire de niveau 2~
 @436  = ~Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.~
 @437  = ~L’anneau magique de Shi'nayne Alanadel, lui conférant davantage de sorts divins et profanes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 2 sorts supplémentaires de niveau 3~
 @438  = ~Anneau de Protection +3~
 @439  = ~Un anneau est une fine lanière de métal précieux servant en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : bonus de +3
 Jets de Sauvegarde : bonus de +3~
 @440  = ~Anneau du Clerc-Mage~
 @441  = ~Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sorts : Confère un sort supplémentaire de mage et un sort supplémentaire de clerc de niveaux 1 à 4~
 @442  = ~Anneau de protection +1 "Regina Coeli"~
 @443  = ~Un anneau envoyé du ciel par les dieux, qui protègera son porteur des dégâts et de la puissance des cieux. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 15 % de protection contre les dégâts électriques
 Classe d’Armure : bonus de +1
@@ -2378,27 +2378,27 @@ Jets de Sauvegarde : bonus de +1~
 @447  = ~Nemmerle, un nécromancien malfaisant, effectua de nombreux voyages vers le plan élémentaire du feu. Alors qu’il se vantait constamment de posséder une immunité naturelle, après sa défaite des mains de Genshur, on retrouva cet anneau dans ses affaires.
 Au toucher, vous ressentez une vive et brève sensation de froid. Une inspection plus minutieuse révèle un mot de pouvoir gravé à sa surface, ainsi qu’un avertissement à moitié effacé mais duquel vous pouvez néanmoins lire "Le pouvoir du feu est éternel".
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sorts : confère la protection contre le froid~
 @448  = ~Anneau de Conduction~
 @449  = ~Mille ans après que les sorciers de Yevaud tentèrent de prendre le contrôle de l’arbre de sagesse, les récits de la bataille sont encore racontés à chaque réunion de druides des Royaumes. Elgenon savait qu’il ne pourrait jamais surpasser la puissance des sorciers sans aide, et pria l’arbre de sagesse de le guider. Ses prières furent exaucées par la vision de cet anneau : la magie la plus puissante des sorciers, leur contrôle de la foudre, ne put faire de mal au druide en furie. La bataille fut terminée en quelques jours, les sorciers restants rassemblèrent ce qu’ils purent et prirent la fuite. Elgenon fit certainement preuve de bravoure pour obtenir cette victoire, mais ce fut sa sagesse le véritable facteur déterminant, ce qui lui valut le surnom d’Elgenon le Sage.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sorts : confère la protection contre l’électricité~
 @450  = ~Anneau des hautes arcanes~
 @451  = ~On raconte que, jadis, un grand magicien amnien défia les restrictions de Mystra concernant les arts magiques. Des légendes racontent que ce magicien était doué d'une capacité de mémorisation illimitée. Il s'avéra finalement que son pouvoir provenait de plusieurs anneaux magiques qu'il s'était fabriqués. Sa prétendue "mémoire infinie" n'était qu'une plaisanterie, mais ses anneaux continuent de figurer parmi les objets les plus recherchés des Royaumes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sorts : confère trois sorts de mage supplémentaires de niveau 3~
 @452  = ~L’anneau de feu - "Calcination"~
 @453  = ~Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.~
 @454  = ~L’anneau de feu - "Calcination"
-Cet anneau fut créé par les Harpell quand ils eurent l’occasion d’étudier un anneau d’énergie trouvé pendant la bataille pour Castelmithral. Ø la différence de la plupart des objets magiques créés par cette famille, cet anneau fonctionne réellement, il est même plus efficace que l’anneau dont il s’inspire : il peut lancer non seulement le sort d’incinérateur d’Agannazar, mais également des colonnes et des boules de feu.
+Cet anneau fut créé par les Harpell quand ils eurent l’occasion d’étudier un anneau d’énergie trouvé pendant la bataille pour Castelmithral. Á la différence de la plupart des objets magiques créés par cette famille, cet anneau fonctionne réellement, il est même plus efficace que l’anneau dont il s’inspire : il peut lancer non seulement le sort d’incinérateur d’Agannazar, mais également des colonnes et des boules de feu.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités spéciales :
  Incinérateur d’Agannazar
@@ -2409,21 +2409,21 @@ Capacités spéciales :
 @456  = ~Anneau de protection ardente "Éclat de Charvirak"
 Depuis l’aube des temps, les sorciers utilisent la puissance des éléments pour attaquer et se défendre. Cet anneau est l’oeuvre d’un grand sorcier, Charvirak de Cormyr. On dit qu’il vola l’essence d’un golem de feu pour l’emprisonner dans cet anneau.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus de +2 à la Classe d’Armure~
 @457  = ~Anneau des arcanes : premier~
 @458  = ~Anneau des arcanes : "Mémoire éternelle"
 On raconte que jadis, un grand magicien amnien défia les pouvoirs magiques de Mystra. Des légendes racontent que ce magicien était doué d'une capacité de mémorisation illimitée pour lancer des sorts. Il s'avéra finalement que son pouvoir provenait de plusieurs anneaux magiques qu'il s'était fabriqué. Sa prétendue "mémoire infinie" n'était qu'une plaisanterie, mais ses anneaux continuent de figurer parmi les objets les plus recherchés des Royaumes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sorts : confère deux sorts de mage supplémentaires de niveau 1~
 @459  = ~Anneau des arcanes : du premier au cinquième~
 @460  = ~Anneau des arcanes : "Mémoire infinie"
 On raconte que jadis, un grand magicien amnien défia les pouvoirs magiques de Mystra. Des légendes racontent que ce magicien était doué d'une capacité de mémorisation illimitée pour lancer des sorts. Il s'avéra finalement que son pouvoir provenait de plusieurs anneaux magiques qu'il s'était fabriqué. Sa prétendue "mémoire infinie" n'était qu'une plaisanterie, mais ses anneaux continuent de figurer parmi les objets les plus recherchés des Royaumes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sorts : double la quantité de sorts du 1er au 5ème niveau qu'un mage peut mémoriser~
 @461  = ~Parchemin~
@@ -2554,7 +2554,7 @@ Ces fruits brillent d’une étrange lumière intérieure. Ils soignent deux poi
 Les baguettes magiques possèdent des charges, chaque utilisation coûtant une ou plusieurs charges (en fonction de l'objet). Lorsqu'une baguette magique est à court de charges, elle se consume et est détruite.~
 @492  = ~Une fois activée, cette baguette changera en pierre la créature ciblée ou rendra son état normal à une créature pétrifiée. La transformation en pierre peut être évitée en réussissant un jet de sauvegarde contre les sorts.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : transformation de la chair en pierre
 Spécial : transformation de la pierre en chair
@@ -2563,7 +2563,7 @@ Zone d’effet : 1 créature~
 @493  = ~Baguette de Domination~
 @494  = ~Une fois activée, la baguette crache une boule d'énergie magique qui file toucher automatiquement sa cible, y compris un ennemi engagé dans un combat au corps à corps. La créature doit être vue, ou au moins détectable, si bien qu'une couverture presque totale, telle celle qu'offre une archère, peut rendre le projectile inopérant. La boule d’énergie tentera de charmer la créature qu’elle frappe, de façon similaire à un sort de Domination.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : Charme néfaste
 Portée : 30 m
@@ -2571,7 +2571,7 @@ Zone d’effet : 1 créature~
 @495  = ~Baguette des morts~
 @496  = ~Une fois activée, cette baguette invoquera les âmes de trois guerriers morts pour aider l’utilisateur au combat.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : Animation des morts
 Portée : 30 m
@@ -2595,7 +2595,7 @@ Ce sort permet de créer des monstres morts-vivants, des squelettes et des zombi
 @503  = ~Les cordes d'argent de cette harpe délicatement travaillée sont fixées à une armature de bois peint incrustée d'or. Cet instrument est absolument exquis, parfait, presque inhumain. Au point que même des doigts inexpérimentés effleurant ses cordes produisent des musiques absolument sublimes. Bizarrement, il n'y a pas de clefs d'accordement, comme si cela n'était pas nécessaire. Un sentiment d'ébahissement envahit celui qui observe en détails ce magnifique instrument.~
 @504  = ~Les origines de cet instrument restent inconnues mais son créateur avait certainement pris au pied de la lettre l’adage "la musique adoucit les moeurs"… Quand un musicien compétent en joue, cet instrument produit un son capable de rendre sa cible totalement docile.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : Charme néfaste
 Portée : 30 m
@@ -2605,7 +2605,7 @@ Zone d’effet : 1 créature~
 @507  = ~À en juger par les symboles occultes à sa surface, cette bougie est, d'une façon ou d'une autre, magique. La nature de son enchantement vous demeurera cependant inconnue tant que vous n'aurez pas essayé de les lire ou de l'identifier.~
 @508  = ~Cette bougie, frottée dans le sens adéquat, accordera à l’utilisateur de la sagesse supplémentaire. Un tel exploit résulte cependant d'une magie puissante qui affecte la bougie et qui, hélas, la fait disparaître lorsqu'elle a joué son rôle.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sagesse : +1 en permanence
 Spécial : disparaît après usage
@@ -2616,7 +2616,7 @@ Utilisation : la placer dans les objets rapides~
 @512  = ~Amulette de protection +1 : « le Protecteur »
 Les gardes du roi Pyronan, maître d'Impiltur, se virent remettre « le Protecteur » comme signe honorifique de leur fonction. Malheureusement, les membres de la garde ne parvinrent pas à tomber d'accord sur l'identité de celui qui recevrait l'amulette. Après des années de dissensions internes, l'objet fut perdu et les gardes remplacés par des soldats moins cupides.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : 1 
 Bonus sur jet de sauvegarde : 1~
@@ -2640,7 +2640,7 @@ Une clef à la forme étrange et incrustée de joyaux.~
 @529  = ~Flèche de Sommeil~
 @530  = ~La flèche légère, comme son nom l'indique, est conçue pour la distance. C'est une flèche rapide et très utilisée pour la chasse. La plupart des flèches sont taillées dans du bouleau ou du frêne et mesurent de 75 cm à 1 m de long.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : projectile (perforant)
@@ -2648,7 +2648,7 @@ Poids : 0
 Arme de jet : arc~
 @531  = ~La flèche légère, comme son nom l'indique, est conçue pour la distance. C'est une flèche rapide et très utilisée pour la chasse. Ces flèches possèdent un enchantement particulier qui endort leur cible.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : projectile (perforant)
@@ -2659,7 +2659,7 @@ Arme de jet : arc~
 @533   = ~Hache de Mithril +3
 Les armes en Mithril sont des objets recherchés, en particulier les haches, puisque les nains y consacrent beaucoup d'attention lorsqu'ils les créent. Cette hache a été enchantée pour provoquer des dégâts de froid.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 2D8 +3, +2 points de dégâts de froid
@@ -2671,7 +2671,7 @@ Type : arme à une main~
 @534  = ~Manteau de la Forêt~
 @535  = ~Le Manteau de la Forêt est le meilleur vêtement que puissent trouver les druides et rôdeurs itinérants.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 2
 Spécial :
@@ -2682,7 +2682,7 @@ Poids : 4~
 @537   = ~Cimeterre +3, "Fureur d'Andarous"
 Andarous était un rôdeur qui perdit ses bois à cause d'une bande d'orques qui les avaient coupés pour construire une forteresse. Mielikki répondit à ses prières en lui donnant cette épée pour réclamer vengeance au nom de la nature. Il anéantit alors seul tous les orques du camp.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 1D8 +3, +2D4 points de dégâts d'électricité
@@ -2697,7 +2697,7 @@ Type : arme à une main~
 @539  = ~Katana +3, "El Tel'lerian"~
 @540  = ~Tel'lerian était un grand combattant de Kara-Tur. Il fut un mercenaire qui voyagea à travers les royaumes, cherchant du travail et combattant le mal. Ce katana était son arme favorite. Il perdit son épée et sa vie lors d'une embuscade sur la route de Château-Suif.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : 10 % de chances de pétrifier la cible à chaque coup
 TAC0 : bonus de +3
@@ -2710,7 +2710,7 @@ Type : arme à deux mains~
 @541  = ~Épée à Deux Mains +3 "Mort de Khazid"~
 @542  = ~L'épée à 2 mains est un dérivé de l'épée longue. Les armuriers ont toujours cherché à améliorer les armes de leur temps. Pour l'épée longue, ils ont allongé la lame. Après la lame, c'est la poignée qui s'est allongée. Il est alors devenu nécessaire d'utiliser les deux mains pour manier l'épée. La fonction première de l'épée à 2 mains est de désarçonner les chevaliers montés et de désorganiser les haies de piques. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D10
 Type de dégâts : tranchant 
@@ -2720,7 +2720,7 @@ Type de compétence : épée à deux mains
 Type : arme à deux mains~
 @543  = ~"Mort de Khazid" fut créée par un maître d'armes nain, Khazid El Dum. Il venait juste de créer cette épée lorsqu'un groupe de voleurs s'introduisit chez lui et le tua avec cette épée. Une partie de son essence spirituelle fut liée à cette arme au moment de sa mort.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : 
  +1 en Force quand elle est portée
@@ -2737,7 +2737,7 @@ Type : arme à deux mains~
 @545  = ~Grand Katana +3 "Toran El Desiade"~
 @546  = ~On sait peu de choses sur l'histoire de ce grand katana. D'anciennes runes sont gravées sur la garde, lui donnant peut-être des capacités magiques. Aucun être maléfique ne peut le prendre en main, il s'agit donc peut-être d'un katana voué à la cause du bien.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : 
  Bonus de +1 à la Classe d'Armure
@@ -2753,7 +2753,7 @@ Type de compétence : katana
 Type : arme à deux mains~
 @547  = ~Les armes en Mithril sont des objets recherchés, en particulier les haches, puisque les nains y consacrent beaucoup d'attention lorsqu'ils les créent. Cette hache a été enchantée pour provoquer des dégâts de feu.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : +3
 Dégâts : 2D8 +3, +2 points de dégâts de feu
@@ -2765,7 +2765,7 @@ Type : arme à une main~
 @548  = ~Hache de Bataille +3 "Tueuse de Goule"~
 @549  = ~Fabriquée par un paladin qui détestait les morts vivants et particulièrement les goules, cette arme tuera ces dernières du premier coup.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 1D8 +3, +3 points de dégâts de froid
@@ -2778,7 +2778,7 @@ Type : arme à une main~
 @550  = ~Gantelets de Combat en Mithril~
 @551  = ~Créés par les nains des montagnes du Nord, ces gantelets sont les meilleurs amis du guerrier. Ils sont les favoris des berserkers nains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial :
  +1 en Dextérité
@@ -2788,14 +2788,14 @@ Poids : 1~
 @552  = ~Gantelets de Protection +3~
 @553  = ~Les gantelets sont des gants blindés. Il en existe en cuir, en plaques de métal et en cotte de mailles. Chaque armure complète doit comporter des gantelets d'un type approprié. Les gantelets magiques ont tendance à être plus fins, plus légers et plus confortables que les modèles ordinaires.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : bonus de +3
 Poids : 2~
 @554  = ~Bille de glace~
 @555  = ~L'énergie magique contenue dans cette bille la rend plus précise et plus légère lorsqu'elle file vers un adversaire.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2, +1D6 points de dégâts de froid
 TAC0 : bonus de +2
@@ -2805,7 +2805,7 @@ Arme de jet : fronde~
 @556  = ~Cotte de Mailles "Armure de Mystra"~
 @557  = ~Cette armure était portée par les clercs et les mages de l'Eglise de Mystra. Elle offre une grande protection et augmente l'intelligence de son porteur. Seul un utilisateur de la magie peut la porter.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : -1
 Spécial :
@@ -2815,7 +2815,7 @@ Poids : 18~
 @558  = ~La Robe du Magister~
 @559  = ~Portée par l'un des Magisters de Mystra, cette robe fut perdue à travers les âges. Comment elle fut retrouvée reste un mystère. Beaucoup supposent que Mystra elle-même l'a retrouvée et a rendu possible à d'autres de la revêtir.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : bonus de +2
 Sorts : Confère 2 sorts supplémentaires de niveaux 2 et 3
@@ -2825,7 +2825,7 @@ Poids : 6~
 @560  = ~Fléau +3 "Mort Embrasée"~
 @561  = ~Ce fléau est enchanté pour provoquer des dégâts de feu et augmenter votre sagesse. Amaunator en serait satisfait.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 1D8 +3, +2D3 points de dégâts de feu
@@ -2840,7 +2840,7 @@ Type : arme à une main~
 @562  = ~Étoile Bénie +3~
 @563  = ~L'Étoile du Matin Bénie +3 est consacrée par le temple d'Amaunator. Elle possède des pouvoirs magiques, et ne peut être utilisée que par ceux qui suivent la voie de la lumière.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 1D8 +3, +2D3 points de dégâts de froid
@@ -2855,7 +2855,7 @@ Type : arme à une main~
 @564  = ~Dague +2, "Nécro"~
 @565  = ~Cette arme a l'apparence d'une dague normale, arme utilisée par la plupart des mages débutants. Celle-ci fut la propriété de Szass Tam. Un imbécile malchanceux l'a volée à cette liche, et on n'a plus jamais entendu parler de lui.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +2
 Dégâts : 2D4 +2 (avec 10 % de chance de tuer instantanément)
@@ -2874,7 +2874,7 @@ Type : arme à une main~
 @567  = ~Heaume de Tête de Wiverne~
 @568  = ~La tête tranchée d'une wiverne est une vision à la fois terrifiante et rassurante. Malgré leurs terribles dents aiguisées et leurs yeux ardents, un simple mortel peut toutefois espérer les vaincre.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +2
 Force : +2
@@ -2884,13 +2884,13 @@ Spécial :
 Poids : 2~
 @569  = ~En dépit de la croyance populaire, l'armure de cuir n'est pas aussi souple que le cuir utilisé pour fabriquer les bottes de rôdeur ou une robe de druide et n'offre pas de meilleure protection que les vêtements traditionnels. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 8
 Poids : 15~
 @570  = ~C'était l'armure de Malenious Grand-Pas. La rumeur prétend que ses prouesses au combat étaient surtout dues à cette dernière. Elle a reçu bien des pouvoirs magiques. Lorsqu'on la porte, elle assure non seulement une excellente protection, mais permet aussi d'accroître la dextérité. Lorsque son porteur est dans les bois ou dans des zones d'ombre, sa couleur semble se modifier pour lui permettre de se dissimuler et de se déplacer sans être vu.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 1
 Spécial :
@@ -2900,7 +2900,7 @@ Poids : 25~
 @571  = ~Besantine "Nuage d'Orage"~
 @572  = ~Cette armure fut conçue avec les restes carbonisés d'un dragon frappé par la foudre. Son dernier porteur connu était le Gardien des Secrets Shrethu Reogher. On ne peut qu'espérer qu'il soit mort, car si jamais cette armure lui fut ôtée alors qu'il était encore vivant, il est certain qu'il viendra la chercher.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 3
 Spécial :
@@ -2911,7 +2911,7 @@ Poids : 4~
 @574  = ~Arbalète légère "La Torche"~
 @575  = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau). 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : +2 (projectiles)
 Poids : 14
@@ -2920,7 +2920,7 @@ Type de compétence : arbalète
 Type : arme à deux mains~
 @576  = ~La Torche fut conçue par un gnome fou qui avait une attirance irraisonnée pour le feu. C'est l'une des rares choses qui ait résisté dans son laboratoire lorsque celui-ci prit feu alors que l'arme était en cours de test.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 2D6
@@ -2932,7 +2932,7 @@ Type : arme à deux mains~
 @577  = ~Marteau de Guerre de Mithril +3~
 @578  = ~Les guerriers nains sont particulièrement enclins à utiliser des marteaux de guerre au combat, et certains des meilleurs marteaux jamais conçus sont d'origine naine. Celui-ci possède des runes naines décoratives le long de son manche. Il est entièrement fabriqué en Mithril, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de long.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 2D4 +3, +1D6 points de dégâts d'électricité
@@ -2944,7 +2944,7 @@ Type : arme à une main~
 @579  = ~Armure de Plates de Mithril Naine~
 @580  = ~L'armure de plates de Mithril Naine est la meilleure armure que l'on puisse acheter. Il est dommage qu'elle n'ait été conçue que pour les races de petite taille.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : -2
 Spécial :
@@ -2953,14 +2953,14 @@ Poids : 20~
 @581  = ~Grand Bouclier de Mithril +3~
 @582  = ~Les boucliers de Mithril sont connus pour leur résistance au cours des combats. Même si les nains préfèrent combattre sans bouclier, pour pouvoir manier de grandes haches et de puissants marteaux à deux mains, ils forgent cependant de tels boucliers pour les entraînements et pour les autres races des Royaumes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : +3, +3 contre les projectiles
 Poids : 20~
 @583  = ~Bille +2 "Feu de la Forge"~
 @584  = ~L'énergie magique contenue dans cette bille la rend plus précise et plus légère lorsqu'elle file vers un adversaire.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +2, +1D6 points de dégâts de feu
 TAC0 : +2
@@ -2971,7 +2971,7 @@ Arme de jet : fronde~
 @586  = ~Arc court +3, "Arc de Morgoth"
 Morgoth était un puissant sorcier des temps jadis, qui adorait les arcs et les épées. On dit qu'il possédait un gigantesque arsenal d'armes magiques, mais bien peu d'entre elles ont été retrouvées.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +3
 Dégâts : 1D4 +3 par projectile magique (pas de jet de sauvegarde ni de résistance magique pour réduire les dégâts)
@@ -2985,7 +2985,7 @@ Type : arme à deux mains~
 @587  = ~Hallebarde +3 "L'étourdissante"~
 @588  = ~Cette hallebarde fut forgée avec le meilleur acier des royaumes, et par les artisans les plus réputés de la contrée. Des mages lui conférèrent ses propriétés magiques, et c'est sans nul doute la meilleure hallebarde des environs. Lorsqu'elle touche quelqu'un, même si la coupure est minime, la cible est étourdie par des vagues d'énergie, ce qui donne un avantage incontestable à l'attaquant.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +2
 Dégâts : 1D10 +3
@@ -2999,7 +2999,7 @@ Type : arme à deux mains~
 @589  = ~Armure de Plates du Roi~
 @590  = ~Jadis portée par Thalaxx, Roi de Thorin, cette armure apparut puis disparut à de nombreuses reprises à travers les âges et les plans. De puissants enchantements enlèvent toute impression de poids, ce qui lui donne un halo surnaturel, et la rend particulièrement résistante aux coups - à un tel point que seules des armes magiques ont la moindre chance de la pénétrer.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 2
 Spécial : Immunité aux armes Non-Magiques
@@ -3007,7 +3007,7 @@ Poids : 0~
 @591  = ~Epée à deux mains +2 "Rage"~
 @592  = ~Melchor Épinemarteau était un nain qui pensait que les batailles se gagnaient grâce à l'ordre et à des tactiques bien élaborées. Il avait quelques armes enchantées qui faisait perdre à son adversaire le contrôle de lui-même. Le problème venait du fait que les ennemis devenaient berserks et qu'ils frappaient parfois encore plus fort. Melchor a appris la leçon trop tard lorsqu'un ogre s'est approché de lui avec une vingtaine de flèches transperçant son corps. Même avec la hache de Melchor enfoncée dans la poitrine, il fut capable de déchirer Melchor en deux de ses seules mains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : 50 % des coups rendent l'adversaire Berserk
 Dégâts : 1D10 +2
@@ -3020,7 +3020,7 @@ Type : arme à deux mains~
 @593  = ~Hache d'armes +3 : Pouvoir de Duragon~
 @594  = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètres de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8
 Type de dégâts : tranchant
@@ -3030,7 +3030,7 @@ Type de compétence : hache
 Type : arme à une main~
 @595  = ~Cette hache appartenait au Roi Duragon avant qu'il ne tombe au combat. Elle se trouvait dans le Clan Duragon depuis des siècles lorsqu'elle fut volée. Cette hache de grand pouvoir est dédiée à Moradin le Forgeron des Âmes.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Force : +1
 +2 dégâts d'électricité
@@ -3044,7 +3044,7 @@ Type : arme à une main~
 @596  = ~Morgenstern +3 : Masse de Thorgenson~
 @597  = ~Thorgenson était le capitaine des gardes du Clan Duragon. Il a vaincu bien des orques et des gobelins avec cette masse durant les guerres qui ont opposé le Clan Duragon à ces créatures. Dans la dernière bataille contre ces êtres maléfiques, les derniers nains défendirent la forteresse du mieux qu'ils le purent. Il mourut en défendant son seigneur Sven Duragon dans les dernières heures avant la chute de la forteresse.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D4 +3
 TAC0 : bonus +3
@@ -3058,7 +3058,7 @@ Type : arme à une main~
 @599  = ~Couteau de table de Baldurien
 Les légendes parlent souvent du couteau de table de Baldurien. Ce héros refusait que tout autre ustensile touche sa nourriture. Il lui aurait été donné en cadeau par sa mère pour son dix-huitième anniversaire.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
@@ -3070,7 +3070,7 @@ Type : arme à une main~
 @600  = ~Fléau d'Araignée amélioré~
 @601  = ~À l'origine, le Fléau de l'Araignée fur forgé par les nains de la tribu d'Orothiar dans Bois-Manteau . Ils créèrent cette épée pour gagner la bienveillance des Grands-Ducs de la Porte de Baldur. Cependant, après être restée entre les mains des Grands-Ducs pendant près d'un siècle, cette arme se perdit à la suite d'un combat contre des ettercaps et des araignées. Nul ne sait qui possède cette épée à présent, mais elle serait fort utile pour lutter contre les araignées qui viennent d'infester Bois-Manteau.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D10 +3
 Dégâts de poison : 2 points de dégâts supplémentaires toutes les secondes pendant 15 secondes si la cible manque son JS contre le poison.
@@ -3086,7 +3086,7 @@ Type : arme à deux mains~
 @603  = ~Épée langue de feu : "Terre enflammée"
 Padhiver n'a pas toujours été chaud et le grand Anauroch asséché... ou du moins c'est ce qu'on dit. Mais seules quelques traces de cette époque nous sont parvenues et parmi elles, les vestiges identifiables sont très rares. Il est cependant facile de deviner la fonction de "Terre enflammée" : elle brûle ses victimes d'un feu magique et une rune énigmatique semble suggérer qu'elle tient son pouvoir du sol lui-même. Ceci dit, le plus grand mystère entoure sa fabrication. Cette arme a l'air tout à fait utilisable, mais au niveau de l'équilibre et du maintien, quelque chose ne va pas. Elle pèse un peu sur l'avant-bras et ne se positionne pas très bien dans la main. Cela ne joue apparemment pas sur les performances des guerriers, mais on ne peut s'empêcher d'avoir l'impression que cette arme n'a pas été conçue pour eux... ni pour tout autre humanoïde.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D8 +2, +1 dégâts de feu
 TAC0 : bonus de +1
@@ -3103,7 +3103,7 @@ Type : arme à une main~
 @605  = ~Cimeterre +2 : "Serre de Rhashad"
 On peut affirmer avec une quasi-certitude que ce cimeterre a beaucoup voyagé depuis qu'il a été forgé sur les rives de la Mer Etincelante, même s'il est difficile de suivre toutes les pérégrinations d'un objet si ordinaire. Les armes de ce type, en effet répandues et banales chez les riches élites du Sud, revêtent peu d'importance aux yeux des historiens de cette région. Cette attitude est incompréhensible pour un citoyen de la Côte des Epées, où tous les jours des gens meurent pour des objets enchantés de ce type, voire même de moindre valeur. Cette arme-ci a appartenu à un riche Vizir, ou peut-être à son  serviteur. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : le porteur est sous l'effet du sort de Hâte
 TAC0 : bonus de +2
@@ -3117,13 +3117,13 @@ Type : arme à une main~
 @607  = ~Anneau de résistance au feu : "Passeport de Batalista"
 Le grand mage Batalista conçut cet objet pour faciliter ses voyages dans le Plan du Feu et l'on dit qu'il convoqua à maintes reprises une salamandre de ce royaume pour l'aider à le fabriquer. Or les salamandres ne sont pas réputées pour leur patience et il n'aurait probablement pas dû importuner à ce point son " instructeur ". Le doigt qui portait l'anneau resta en effet insensible au brasier qui voulait s'emparer de sa tour. S'il avait conservé ce doigt, les choses se seraient mieux passées pour Batalista...
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Résistance au feu : +60 %~
 @608  = ~Heaume de Baldurien amélioré~
 @609  = ~On raconte que le fameux heaume de Baldurien (fondateur légendaire de la Porte de Baldur) est un objet magique protecteur d'une grande puissance. La nature exacte de l'enchantement qu'il contient n'a pas encore été déterminée.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus à la Classe d'Armure : 2
 Maximum de points de vie : +5
@@ -3135,14 +3135,14 @@ Poids : 1~
 @611  = ~Cotte de mailles +3 : "Cotte de mailles des Morts"
 Un mage peut devenir un assassin très efficace, comme l'a prouvé Vorusta voilà plus de 400 ans. Il créait des combattants squelettes équipés de cette armure enchantée et d'une puissante lame, puis offrait le bandeau qui contenait leur âme à ses futures victimes en guise de cadeau. Lorsque ces machines à tuer avaient achevé leur besogne, Vorusta récupérait l'équipement et recommençait l'opération. En dépit du fait que des siècles ont passé sans que cette armure n’ait été portée par un serviteur mort-vivant, une aura sombre en émane, et elle contient toujours certains des pouvoirs de ses anciens propriétaires.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d'Armure : 2
 Poids : 10~
 @612  = ~Arc long amélioré +2~
 @613  = ~L'arc long est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Il a une plus grande portée que l'arc court, mais une rapidité de tir inférieure et une plus grande précision. Celui-ci est enchanté, ce qui le rapproche de la perfection en la matière.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dextérité : +1
 TAC0 : bonus de +3
@@ -3155,7 +3155,7 @@ Type : arme à deux mains~
 @615  = ~Arc court de l'aigle : "Protecteur des Dryades"
 Afin qu'il protège leur communauté d'un campement d'orques bûcherons qui empiétaient sur leur territoire, le héros Hannable le Blanc se vit offrir cet arc par les dryades de la Forêt de Gulthmere. Une confrontation mortelle s'ensuivit lorsque les bûcherons osèrent abattre un vieux chêne, provoquant presque la mort de la dryade qui y était attachée. A l'aide de puissants animaux de la forêt, Hannable anéantit des bandes entières d'orques avant qu'elles ne provoquent d'autres dégâts dans les bois. Les orques durent abandonner leurs projets, sous peine d'endurer en permanence le courroux de Hannable et de la forêt. Il va sans dire que le héros qui avait porté assistance aux dryades reconnaissantes vécut ensuite heureux... et même TRES heureux !
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dextérité : +1
 TAC0 : bonus de +2
@@ -3168,7 +3168,7 @@ Type : arme à deux mains~
 @617   = ~Ceinturon perceur : "Anti-Elfes"
 Bandit de grands chemins à ses heures, Pandar de Valbalafre se fit une réputation en importunant les elfes de la forêt de Cormanthor. A leur grand  mécontentement, il s'enfuyait dans les bois pour échapper à la loi, son ceinturon le protégeant également contre leurs flèches. Malheureusement, les pièges et la faim se révélèrent plus lents, mais plus efficaces que les flèches. Combinée à une potion de force de géant du feu, vous en gagnez la puissance.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Force fixée à 22
 Bonus à la Classe d'Armure : +3 contre les armes perforantes
@@ -3177,7 +3177,7 @@ Poids : 2~
 @619  = ~Hache d'armes +2 : "Hache d'armes de Mauletar"
 Durant la guerre civile du Téthyr, la hache d'armes de Mauletar était en la possession de la maison d'Ossyind. Cette noble famille fut trahie alors qu'elle tentait de fuir le pays, et Mauletar, garde en chef et ami personnel, se saisit de la hache et se sacrifia pour laisser le temps à ses compagnons de  s'enfuir. Son cri de guerre eut la faveur des Dieux et est devenu depuis lors dans ces contrées un symbole parfait d'amitié dévouée et de loyauté. C'est pourquoi la hache magique fut utilisée pour répandre ces vertus et doit servir contre ceux qui manquent d'honneur et de courage.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : +10 Points de vie
 Dégâts : 1D8 +2
@@ -3190,7 +3190,7 @@ Type : arme à une main~
 @620  = ~Armure de Plates de Duragon +4~
 @621  = ~Cette armure dorée a appartenu au Roi Sven Duragon du Clan Duragon. Duragon était le dernier roi de son clan avant son annihilation totale par une horde d'orques et de gobelins menés par une bande de duergars.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Résistance au feu : +20 %
 Résistance au froid : -10 %
@@ -3199,7 +3199,7 @@ Poids : 18~
 @622  = ~Lance de la Nature~
 @623  = ~Quelques runes druidiques sont gravées sur le manche de cette lame. Elle se traduisent par "La fureur de la tempête détruira les ennemis de la nature".
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Résistance à l’électricité : +10 %
 Dégâts : 1D6 +2, +1D6 d'électricité
@@ -3212,7 +3212,7 @@ Type : armes à deux mains~
 @624	= ~Coutelas +2 "Quintus D'Sol"~
 @625  = ~La longue lame recourbée à un seul tranchant tient à la fois du coutelas et du cimeterre, bien que ces deux armes proviennent de régions différentes de Féérune. Le coutelas, en raison de sa souplesse, est utilisé par bien des voleurs et des brigands.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : tranchant
@@ -3222,7 +3222,7 @@ Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
 @626  = ~Quintus D'Sol appartenait à un capitaine pirate nommé William Delver, connu sous le nom de Bill le Sanglant. Son équipage et lui-même adoraient aborder les vaisseaux sans défense et tuer tous les prisonniers afin que personne ne puisse témoigner de son crime. Il fit l'erreur d'attaquer un vaisseau semblable à un vaisseau marchand mais qui se révéla être un transport de troupe camouflé. Il survécut, ainsi que son équipage, au combat qui s'ensuivit mais fut capturé. Ils furent attachés au bateau et coulèrent avec lui. Leurs corps ont rejoint ceux de leurs victimes qu'ils avaient envoyées au fin fond des océans pour y être éternellement torturés.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +2
 Dégâts : 1D6 +2, +2D4 dégâts de feu
@@ -3234,7 +3234,7 @@ Type : arme à une main~
 @627   = ~Marteau de Guerre +2 "Inferno"~
 @628  = ~Comme d'autres armes du même type, ce marteau de guerre est entièrement fait d'acier, avec un marteau écrasant monté sur le manche. Il a également été doté de plusieurs propriétés magiques, ce qui le rend plus efficace au combat. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Résistance au feu : +10 %
 Dégâts : 2D4 +2, +2D4 dégâts de feu
@@ -3248,7 +3248,7 @@ Force nécessaire : 9~
 @629  = ~Marteau de Guerre +2 "Engelure"~
 @630  = ~Ce marteau de guerre appartenait à un géant du givre nommé Korgrath. Il a nommé son marteau de guerre du nom de sa wiverne préférée, "Engelure". Lorsque Engelure mourut des mains d'un groupe d'aventuriers, Korgrath demanda à son chaman de réaliser un rituel sanglant afin que son marteau provoque des dégâts glaciaux.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D4 +2, +2D4 dégâts de froid
 TAC0 : bonus de +2
@@ -3260,7 +3260,7 @@ Type : arme à une main~
 @631  = ~Heaume de Guerre~
 @632  = ~Ce heaume de guerre fut conçu par un prêtre de Tempus. Seuls quelques membres élus de son clergé ont eu l'honneur d'en recevoir un exemplaire. Un prêtre serait prêt à mourir avant d'abandonner ce heaume.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus de Classe d'Armure : +1
 Spécial :
@@ -3270,7 +3270,7 @@ Poids : 4~
 @633  = ~Heaume de Santé~
 @634  = ~Ce heaume fut forgé pour donner à un guerrier une meilleure endurance pendant les combats, et plus généralement les aventures.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus de Classe d'Armure : +1
 Spécial :
@@ -3280,7 +3280,7 @@ Poids : 4~
 @635  = ~Robe de Mage de Pouvoir~
 @636  = ~Cette puissante robe de mage offre une protection contre tous les types d'attaque physique, tout en augmentant la résistance de son porteur.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Bonus : 1 sort supplémentaire de niveau 1 et 2 
 Classe d'Armure : 3
@@ -3290,7 +3290,7 @@ Poids : 6~
 @637  = ~Fléau +2~
 @638  = ~Le fléau est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une balle en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme a été renforcée par magie, si bien qu'il semble se nouer un lien entre elle et la personne qui la manie.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : +2
@@ -3302,7 +3302,7 @@ Type : arme à une main~
 @639  = ~Masse +2 : "Brisecrâne de Krotan"
 Même les hordes ont leurs héros et, s'ils sont peu appréciés dans les sociétés civilisées, certains de leurs faits d'armes n'en sont pas moins impressionnants. Krotan, un orque d'une intelligence exceptionnelle pour sa race, commandait une légion formée d'ogres, d'orques, de hobgobelins et autres créatures du même type pendant l'Année de la Dame Morte, 1241. Cette année-là, un groupe de bandits orques aurait kidnappé et tué une femme de la noblesse téthyrienne, et en guise de représailles, les autorités massacrèrent tous les orques vivant dans le sud. Krotan organisa des forces de défense pour protéger son peuple qui, déjà chassé de ses terres, était menacé d'anéantissement. Krotan lui-même tomba dans les derniers jours du conflit et sa tête fut exposée à l'extérieur du cimetière où était enterrée la jeune femme. Fait intéressant, les orques appelèrent cette période " l'Année des Abus ".
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +2
@@ -3314,7 +3314,7 @@ Type : arme à une main~
 @640  = ~Morgenstern +2~
 @641  = ~Le morgenstern est un manche en bois couronné d'une tête en métal constituée d'une gaine de fer cloutée. Les morgensterns mesurent environ 1,20 m. La tête de celui-ci est en or, renforcé par magie pour améliorer ses performances et sa dureté.  
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 2D4 +3
 TAC0 : bonus de +2
@@ -3326,7 +3326,7 @@ Type : arme à une main~
 @642  = ~Fléau +3 : "Messager de l'Hiver"~
 @643  = ~Une aura de froid entoure ce fléau. Personne ne sait réellement d'où il vient, mais il est dit qu'il fut conçu par une prêtresse d'Aurile dans les étendues glacées du Nord.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3, +1D3 dégâts de froid
 TAC0 : bonus de +3
@@ -3338,7 +3338,7 @@ Type : arme à une main~
 @644  = ~Masse +3 : "Purificatrice"~
 @645  = ~Les mots "Purification et Puissance, le mal ne règnera jamais en maître" sont gravés sur la hampe. Cette masse semble avoir été forgée pour purifier le monde du mal par le feu.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Sagesse : +1
 Dégâts : 1D6 +3, +1 dégâts de feu
@@ -3462,7 +3462,7 @@ Type : à une main~
 @757  = ~Fléau~
 @758	= ~Le fléau est une solide poignée en bois attachée à une tringle en fer, une baguette de bois comportant des pointes, ou une balle en fer pointue. La poignée et l'équipement qui l'accompagne sont reliés par une charnière ou une chaîne. Cette arme servait à l'origine à battre le grain.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +1
 Type de dégâts : contondant
@@ -3473,7 +3473,7 @@ Type : arme à une main~
 @759	= ~Bâton~
 @760	= ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6
 Type de dégâts : contondant
@@ -3542,7 +3542,7 @@ Type : arme à deux mains~
 @816    = ~Ceinture de munitions~
 @817    = ~Généralement utilisée par les guérisseurs itinérants, cette boite de cuir s'ouvre en se dépliant et permet à l'utilisateur de sangler sur ses côtés matelassés les bouteilles de potion fragiles, au moyen de nombreuses lanières de cuir, afin d'offrir un stockage sûr pendant un voyage.
 
-PARAMØTRES
+PARAMÈTRES
 
 Poids : 5~
 @818    = ~Boîte à potions~
@@ -3550,7 +3550,7 @@ Poids : 5~
 @820    = ~Robe de Magicien Rouge~
 @821    = ~Cette puissante robe de Magicien Rouge offre une protection face à toutes les formes d’attaque physique tout en augmentant la résistance magique et les jets de sauvegarde de son porteur. Seuls les mages d’alignement mauvais peuvent la porter, à cause de la nature de son enchantement.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 5
 Résistance à la magie : 5 %
@@ -3559,7 +3559,7 @@ Poids : 6~
 @822    = ~Fronde +2~
 @823    = ~Les frondes existent depuis la nuit des temps. La fronde de base se compose d'une courroie en cuir ou en tissu comportant une bourse pouvant contenir un projectile. L'utilisateur tient la fronde par ses deux extrémités et la fait tournoyer autour de sa tête. Lorsque la vitesse maximale est atteinte, il suffit de relâcher l'une des extrémités de la courroie pour larguer le projectile.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : bonus de +1 (dégâts de projectile)
 TAC0 : bonus de +1
@@ -3571,7 +3571,7 @@ Type : arme à une main~
 @825    = ~Dague +3~
 @826    = ~La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +2
@@ -3584,14 +3584,14 @@ Type : arme à une main~
 @828    = ~Cotte de mailles elfique +1~
 @829    = ~Forgée par les elfes, cette cotte de mailles est à la fois légère et résistante. Contrairement à la plupart des cottes de mailles, la maille elfique n’empêche pas les mages d’exercer leur art.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Classe d’Armure : 4
 Poids : 10~
 @830    = ~Épée longue elfique +2~
 @831    = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre, parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +1
 Dégâts : 1D8 +2
@@ -3603,7 +3603,7 @@ Type : arme à une main~
 @832    = ~Épée longue elfique +1~
 @833    = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre, parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
-PARAMØTRES :
+PARAMÈTRES :
 
 TAC0 : bonus de +1
 Dégâts : 1D8 +1
@@ -3615,7 +3615,7 @@ Type : arme à une main~
 @834    = ~Arc long elfique +2~
 @835    = ~L'arc long elfique est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Sa portée et sa précision sont supérieures à celles de l'arc court.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Spécial : bonus de +1 en Dextérité
 TAC0 : bonus de +2
@@ -3629,7 +3629,7 @@ Type : arme à deux mains~
 @838    = ~Marteau de Lathandre~
 @839    = ~Le marteau typique des Seigneurs de l’aube de Lathandre. Ce marteau émet une chaleur magique qui brûle lorsqu’on lui touche la tête.
  
-PARAMØTRES :
+PARAMÈTRES :
 
 Dégâts : 1D4 +3 (+4 dégâts de feu)
 TAC0 : bonus de +2
@@ -3669,7 +3669,7 @@ Grâce à ce sort, le magicien et tout son équipement deviennent intangibles. L
 @902 = ~Cape de Protection du barde +2~
 @903 = ~Cette cape toute simple protège le porteur à l'aide d'enchantements mineurs qui jouent sur les jets de sauvegarde et sur la classe d'armure. Elle convient aux mages et à ceux qui ne peuvent pas porter d'armures plus lourdes ou plus restrictives.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités d'équipement :
   Classe d'armure : +2
@@ -3679,7 +3679,7 @@ Poids : 3~
 @904 = ~Arc long du barde : Valbois~
 @905 = ~Valbois est l'arc personnel de Morwen, offert par son mentor, Dale le Barde. Dale était originaire de Bryn Shander, l'une des Dix-Cités du Val de Bise. Il était connu pour ses exploits d'aventuriers et pour ses histoires épiques, racontées autour des feux de camp. Il mourut assassiné, et son sang souille encore cet arc, même après toutes ces années.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités de combat :
   1 attaque supplémentaire par round
@@ -3693,7 +3693,7 @@ Force nécessaire : 6~
 @906 = ~Bracelets d'Archer de Dale le Barde~
 @907 = ~Voici les bracelets du mentor de Morwen, Dale le Barde. Même sans eux, il était un excellent tireur, mortel même de très loin. Son sang tache ces bracelets depuis son assassinat.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 Capacités d'équipement :
   TAC0 : +3 avec les armes à distance
@@ -3702,7 +3702,7 @@ Poids : 2~
 @908 = ~Besantine de Morwen +2~
 @909 = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection durcie et renforcée, alors que la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place.
 
-PARAMØTRES :
+PARAMÈTRES :
 
 + 10 au Vol à la tire
 Classe d'armure : 5 (4 contre les armes tranchantes, 5 contres les armes perforantes et les projectiles)

@@ -129,7 +129,7 @@ Speciale:
 Permette il lancio di incantesimi e le abilità da ladro
 Peso: 5~
 @39   = ~Armatura del Bosco~
-@40   = ~Questa è l'armatura di un ranger sconosciuto, tutto ciò che si sa è che era molto potente. Si dice che la sua abilità in battaglia derivi da questa corazza. Ø stata dotata di molti poteri magici oltre che di una normale blindatura. Quando la indossi non sembra solo di avere una migliore protezione ma sembra di avere qualcosa in più. Quando ci si trova nei boschi e nelle zone d'ombra della città questa armatura sembra prestarsi a nascondersi e muoversi silenziosamente.
+@40   = ~Questa è l'armatura di un ranger sconosciuto, tutto ciò che si sa è che era molto potente. Si dice che la sua abilità in battaglia derivi da questa corazza. È stata dotata di molti poteri magici oltre che di una normale blindatura. Quando la indossi non sembra solo di avere una migliore protezione ma sembra di avere qualcosa in più. Quando ci si trova nei boschi e nelle zone d'ombra della città questa armatura sembra prestarsi a nascondersi e muoversi silenziosamente.
 
 STATISTICHE:
 
@@ -222,7 +222,7 @@ STATISTICHE:
 
 Classe armatura: 6
 Peso: 40~
-@63   = ~Questa armatura richiama la tundra ghiacciata della Valle del Vento Gelido. Ø stata benedetta dagli sciamani per aiutare a proteggere l'utilizzatore agli elementi del freddo.
+@63   = ~Questa armatura richiama la tundra ghiacciata della Valle del Vento Gelido. È stata benedetta dagli sciamani per aiutare a proteggere l'utilizzatore agli elementi del freddo.
 
 STATISTICHE:
 
@@ -320,7 +320,7 @@ Colonna di fuoco
 
 +50% di Resistenza al Fuoco~
 @82   = ~Corazza di Piastre di Balduran~
-@83   = ~Questa corazza di piastre era indossata dal famoso eroe Balduran. Ø parte di un gruppo di armi e armatura che venne rubato dal museo nella città di Baldur's Gate.
+@83   = ~Questa corazza di piastre era indossata dal famoso eroe Balduran. È parte di un gruppo di armi e armatura che venne rubato dal museo nella città di Baldur's Gate.
 
 STATISTICHE:
 
@@ -385,7 +385,7 @@ Forza: portata a 19
 Peso: 2~
 @97   = ~Cinghie di Difesa~
 @98   = ~Cinghie di Difesa: “La Cintura d'oro di Urnst”
-Questa cintura è stata creata dagli Elfi d'oro del Sottosuolo, di rado uno dei loro oggetti raggiungere il mondo di superficie ma questo oggetto l'ha fatto. Ø stato pesantemente incantato per deviare gli attacchi di ogni tipo. Molte persone hanno indossato questa cintura con orgoglio ma per lo più è stato rubata dai ladri e venduta al mercato nero. Questa cintura è stata anche cercata da molti guerrieri alla ricerca di protezione ma nessuno l'ha mai trovata.
+Questa cintura è stata creata dagli Elfi d'oro del Sottosuolo, di rado uno dei loro oggetti raggiungere il mondo di superficie ma questo oggetto l'ha fatto. È stato pesantemente incantato per deviare gli attacchi di ogni tipo. Molte persone hanno indossato questa cintura con orgoglio ma per lo più è stato rubata dai ladri e venduta al mercato nero. Questa cintura è stata anche cercata da molti guerrieri alla ricerca di protezione ma nessuno l'ha mai trovata.
 
 STATISTICHE:
 
@@ -642,7 +642,7 @@ STATISTICHE:
 Bonus di Classe Armatura: Nessuno
 Speciale: Protegge contro i colpi critici
 Peso: 2~
-@161  = ~Questo elmo è il teschio di un grande combattente di oltre mille anni fa. Il suo nome è sconosciuto dato che i documenti furono distrutti ma il teschio contenute poteri mistici. Ø stata trasformata in un Elmo da molti fabbri nani che hanno attaccato le punte e l'hanno resa un elmo. Permette di animare i morti e dà un bonus di classe armatura.
+@161  = ~Questo elmo è il teschio di un grande combattente di oltre mille anni fa. Il suo nome è sconosciuto dato che i documenti furono distrutti ma il teschio contenute poteri mistici. È stata trasformata in un Elmo da molti fabbri nani che hanno attaccato le punte e l'hanno resa un elmo. Permette di animare i morti e dà un bonus di classe armatura.
 
 Bonus di Classe Armatura: 2
 Speciale: Protegge contro i colpi critici, può lanciare Animare morti
@@ -710,7 +710,7 @@ STATISTICHE:
 Bonus di Classe Armatura: 1
 Peso: 7~
 @178  = ~Scudo di Balduran +3
-Questo scudo era indossato dal famoso eroe Balduran. Ø parte di un gruppo di armi e armatura che venne rubato dal museo nella città di Baldur's Gate.
+Questo scudo era indossato dal famoso eroe Balduran. È parte di un gruppo di armi e armatura che venne rubato dal museo nella città di Baldur's Gate.
 
 STATISTICHE:
 
@@ -747,7 +747,7 @@ Danno: 1D6
 Tipo di Danno: Proiettile (perforazione)
 Peso: 0
 Dispositivo: Arco~
-@186  = ~Questa freccia è nera, storta e ha un che di diabolico, come se posseduta da qualcosa di molto più grande di lei. Ø stata creata specificatamente per uccidere un solo e unico tipo di creatura. In questo caso gli esseri sfortunati sono gli amanti della natura; Druidi e Ranger.
+@186  = ~Questa freccia è nera, storta e ha un che di diabolico, come se posseduta da qualcosa di molto più grande di lei. È stata creata specificatamente per uccidere un solo e unico tipo di creatura. In questo caso gli esseri sfortunati sono gli amanti della natura; Druidi e Ranger.
 
 STATISTICHE:
 
@@ -1265,7 +1265,7 @@ Peso: 3
 Fattore-velocità: 7
 Tipo di competenza: Archi
 Tipo: A 2 mani~
-@263  = ~Il famoso arciere fuorilegge O'Locksley costruì quest'arco con l'aiuto di un mago amichevole per aiutarlo nella sua missione di liberare il paese dal  crudele e oppressivo padrone che teneva i contadini in una stretta morsa di paura morsa di ferro della paura. Non una piccola parte della sua fama come arciere senza pari è dovuta ai poteri del suo meraviglioso arco. Dopo la sua tragica morte, l'Arco di O'Locksley passò a suo nipote: Jaen di Southerton. Jaen utilizzò l'arco per due decenni continuando a combattere l'ingiustizia e il male nel paese. Egli lo affidò ad un elfo amico prima di partire per una missione segreta da cui non fece più ritorno. L'Elfo diede l'arco alla sua regina, e da allora si è tramandato tra i reali della corte degli Elfi. Diverse volte è andato perduto, ma è sempre stato recuperato grazie all'impegno nelle ricerche degli elfi. Ø stato usato l'ultima volta in una incursione nella Tana del Re Goblin. Sia Treestalker che l'arco furono perduti dopo l'incursione, e gli elfi sono sempre alla ricerca di entrambi.
+@263  = ~Il famoso arciere fuorilegge O'Locksley costruì quest'arco con l'aiuto di un mago amichevole per aiutarlo nella sua missione di liberare il paese dal  crudele e oppressivo padrone che teneva i contadini in una stretta morsa di paura morsa di ferro della paura. Non una piccola parte della sua fama come arciere senza pari è dovuta ai poteri del suo meraviglioso arco. Dopo la sua tragica morte, l'Arco di O'Locksley passò a suo nipote: Jaen di Southerton. Jaen utilizzò l'arco per due decenni continuando a combattere l'ingiustizia e il male nel paese. Egli lo affidò ad un elfo amico prima di partire per una missione segreta da cui non fece più ritorno. L'Elfo diede l'arco alla sua regina, e da allora si è tramandato tra i reali della corte degli Elfi. Diverse volte è andato perduto, ma è sempre stato recuperato grazie all'impegno nelle ricerche degli elfi. È stato usato l'ultima volta in una incursione nella Tana del Re Goblin. Sia Treestalker che l'arco furono perduti dopo l'incursione, e gli elfi sono sempre alla ricerca di entrambi.
 
 L'arco è di qualità eccezionale, è fatto di antico tasso che alcuni dicono provenga dal grande Albero del Mondo, Yaggissdril. L'arco magico è di un tipo che non ha mai bisogno di essere tarato o stretto, anche dopo essersi bagnato. Il tiro dell'arco è pulito cosicché l'estrema accuratezza è la velocità sono facilmente ottenibili.
 
@@ -2103,7 +2103,7 @@ Fattore Velocità: 3
 Tipo di competenza: Spada piccola
 Tipo: A 1 mano~
 @383  = ~Sciabola di Doufas
-La Sciabola di Doufas è stata creata per essere lo strumento perfetto dell'assassino. Ø molto ricercata da chi risolve con una lama le divergenze, e molti che la posseggono non lo fanno a lungo.
+La Sciabola di Doufas è stata creata per essere lo strumento perfetto dell'assassino. È molto ricercata da chi risolve con una lama le divergenze, e molti che la posseggono non lo fanno a lungo.
 
 STATISTICHE:
 
@@ -2928,7 +2928,7 @@ STATISTICHE:
 
 Classe Armatura: 8
 Peso: 15~
-@570  = ~Questa è l'armatura di Malenious Strider. Le voci dicono che la sua abilità in battaglia derivava da questa corazza. Ø stata dotata di molti poteri magici al di là di quelli delle normali armature. Quando la si indossa non solo sembra di avere una migliore protezione ma sembra anche di avere un contorno extra. Quando ci si trova nei boschi e nelle zone oscure delle città questa armatura sembra avere l'attitudine di nascondere se stessa e di muoversi silenziosamente.
+@570  = ~Questa è l'armatura di Malenious Strider. Le voci dicono che la sua abilità in battaglia derivava da questa corazza. È stata dotata di molti poteri magici al di là di quelli delle normali armature. Quando la si indossa non solo sembra di avere una migliore protezione ma sembra anche di avere un contorno extra. Quando ci si trova nei boschi e nelle zone oscure delle città questa armatura sembra avere l'attitudine di nascondere se stessa e di muoversi silenziosamente.
 
 STATISTICHE:  
 
@@ -3014,7 +3014,7 @@ Peso: 0
 Arma da lancio: Fionda~
 @585  = ~Arco Corto +3, "L'Arco di Morgoth"~
 @586  = ~Arco Corto +3, "L'Arco di Morgoth"  
-Morgoth era un grande mago in età antica che ha amato archi e spade. Ø stato narrato che avesse un enorme arsenale di armi magiche ma ne sono state ritrovate pochissime.   
+Morgoth era un grande mago in età antica che ha amato archi e spade. È stato narrato che avesse un enorme arsenale di armi magiche ma ne sono state ritrovate pochissime.   
 
 STATISTICHE:  
 
@@ -3024,7 +3024,7 @@ Peso: 4
 Fattore Velocità: 1  
 Speciale: Lancia 5 dardi incantati; l'arco in sé non richiede munizioni; dardi magici illimitati.~
 @587  = ~Alabarda +3 "La Stordente"~
-@588  = ~Questa alabarda è fatta con il miglior acciaio dai migliori fabbri di tutti i paesi. Ø stata dotata di proprietà extra dai maghi ed è senza dubbio la migliore alabarda tra tutte. Quando colpisce una persona per quanto piccolo sia taglio la stordisce comunque con le onde di energia dando all'attaccante un grande vantaggio.  
+@588  = ~Questa alabarda è fatta con il miglior acciaio dai migliori fabbri di tutti i paesi. È stata dotata di proprietà extra dai maghi ed è senza dubbio la migliore alabarda tra tutte. Quando colpisce una persona per quanto piccolo sia taglio la stordisce comunque con le onde di energia dando all'attaccante un grande vantaggio.  
 
 STATISTICHE:  
 
@@ -3070,7 +3070,7 @@ Peso: 7
 Fattore Velocità: 7
 Tipo di competenza: Ascia
 Tipo: A 1 mano~
-@595  = ~Questa ascia apparteneva al re Duragon prima che cadesse in battaglia. Ø rimasta nel Clan Duragon per secoli prima che fosse tolta dal cadavere di re Duragon. Ø stata un'ascia di grande potere dedicata a Moradin il Forgianime.
+@595  = ~Questa ascia apparteneva al re Duragon prima che cadesse in battaglia. È rimasta nel Clan Duragon per secoli prima che fosse tolta dal cadavere di re Duragon. È stata un'ascia di grande potere dedicata a Moradin il Forgianime.
 
 STATISTICHE: 
 
@@ -3205,7 +3205,7 @@ Tipo di competenza: Archi
 Tipo: A 2 mani~
 @616  = ~Cinghia di sfondamento Migliorata: "La Sventura degli Elfi"~
 @617  = ~Cinghia di sfondamento: "La Sventura degli Elfi"
-Ai suoi tempi un ignobile brigante, Pandar di Scardale, si creò una certa fama tormentando gli elfi della foresta di Cormanthor. Contro il loro volere continuava a usare il bosco per sfuggire alla giustizia e, grazie alla cinghia, anche alle frecce degli elfi. Ma per sfortuna di Pandar, le trappole e la fame si rivelarono un lento, ma efficiente, sostituto. Ø stata combinata con una Pozione di forza del gigante del fuoco per ottenerne la forza.
+Ai suoi tempi un ignobile brigante, Pandar di Scardale, si creò una certa fama tormentando gli elfi della foresta di Cormanthor. Contro il loro volere continuava a usare il bosco per sfuggire alla giustizia e, grazie alla cinghia, anche alle frecce degli elfi. Ma per sfortuna di Pandar, le trappole e la fame si rivelarono un lento, ma efficiente, sostituto. È stata combinata con una Pozione di forza del gigante del fuoco per ottenerne la forza.
 
 STATISTICHE:
 

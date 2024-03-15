@@ -547,13 +547,13 @@ Habilidad 1: Shocking Grasp (sin cargas)
 Efecto: Dispara una bola de fuego
 Daño: 1D8
 Alcance: toque
-Ørea: 1 criatura
+Área: 1 criatura
 
 Habilidad 2:
 Efecto: Rayo (1 carga)
 Daño: 6D6 (salvación vs varitas por la mitad)
 Alcance: 100 ft
-Ørea: 1 criatura
+Área: 1 criatura
 
 Peso: 1~
 @144 = ~Guanteletes de Ladrón Hábil~
@@ -1262,7 +1262,7 @@ Tipo de competencia: Arco Largo
 Tipo: Arco largo 2 manos~
 @263 = ~El famoso arquero y forajido O'Locksley construyó este arco con la ayuda de un mago simpatizante para ayudarle en su intento de librar al país del duro y opresivo amo que mantenía al campesinado en un férreo vicio de miedo. Gran parte de su fama como arquero sin par se debe a los poderes de su maravilloso arco. Tras su trágica muerte, el arco de O'Locksley pasó a su sobrino; Jaen de Southerton Jaen utilizó el arco durante dos décadas para seguir luchando contra la injusticia y el mal en el país. Se lo confió a un amigo elfo antes de partir en una misión secreta de la que nunca regresó. El elfo regaló el arco a su reina, y desde entonces se ha transmitido entre la realeza de la corte de los elfos. Varias veces se ha perdido, pero siempre se ha recuperado gracias a la diligencia de las búsquedas del elfo. La última vez que se utilizó fue en un asalto a la Guarida del Rey Goblin. Tanto Treestalker como el arco se perdieron tras la incursión, y los elfos siguen buscándolos.
 
-El arco es de una calidad excepcional, está hecho de tejo antiguo que algunos dicen que proviene del gran Ørbol del Mundo, Yaggissdril. El arco mágico es de tal calidad que nunca necesita ser tensado, ni siquiera después de mojarse. La tensión del arco es ligera como una pluma, por lo que se obtiene fácilmente una precisión y velocidad extremas.
+El arco es de una calidad excepcional, está hecho de tejo antiguo que algunos dicen que proviene del gran Árbol del Mundo, Yaggissdril. El arco mágico es de tal calidad que nunca necesita ser tensado, ni siquiera después de mojarse. La tensión del arco es ligera como una pluma, por lo que se obtiene fácilmente una precisión y velocidad extremas.
 
 ESTADÍSTICAS:
 
@@ -2402,7 +2402,7 @@ ESTADÍSTICAS:
 
 Hechizos: Obtener Protección contra el Frío~
 @448 = ~Anillo de Conducción~
-@449 = ~Han pasado más de 1000 años desde que los hechiceros de Yevaud intentaron hacerse con el control del Ørbol de la sabiduria. Las historias de la batalla que siguió aún se cuentan en cada reunión de druidas de todos los reinos. Elgenon sabía que no podría resistir el poder de los hechiceros sin ayuda y rezó al Ørbol de la Sabiduría en busca de guía. Sus plegarias fueron escuchadas cuando vio este anillo en una visión. La magia más poderosa de los hechiceros, el control del rayo, no logró dañar al druida salvaje. Al final del día la batalla había terminado, los hechiceros restantes recogieron lo que pudieron de los caídos y se retiraron. La valentía de Elgenon ayudó a ganar la batalla, pero fue su sabiduría el factor decisivo que le valió el nombre de "Elgenon el Sabio".
+@449 = ~Han pasado más de 1000 años desde que los hechiceros de Yevaud intentaron hacerse con el control del Árbol de la sabiduria. Las historias de la batalla que siguió aún se cuentan en cada reunión de druidas de todos los reinos. Elgenon sabía que no podría resistir el poder de los hechiceros sin ayuda y rezó al Árbol de la Sabiduría en busca de guía. Sus plegarias fueron escuchadas cuando vio este anillo en una visión. La magia más poderosa de los hechiceros, el control del rayo, no logró dañar al druida salvaje. Al final del día la batalla había terminado, los hechiceros restantes recogieron lo que pudieron de los caídos y se retiraron. La valentía de Elgenon ayudó a ganar la batalla, pero fue su sabiduría el factor decisivo que le valió el nombre de "Elgenon el Sabio".
 
 ESTADÍSTICAS:
 
@@ -2566,7 +2566,7 @@ Esta fruta brilla con una extraña luz interior. Cuando se consume, cura 3 punto
 @484 = ~Este es el mejor pollo de KFC. Tiene 20 hierbas y especias y ha sido asado lentamente sobre un fuego caliente. Cuando se consume en su totalidad, este pollo restaura 10 puntos de golpe a la persona.~
 @485 = ~Poción de Imagen Espejo~
 @486 = ~Poción que permite reflejar hasta 5 imágenes por nivel de usuario.~
-@487 = ~Poción de Ráfaga de Øcido~
+@487 = ~Poción de Ráfaga de Ácido~
 @488 = ~Al lanzar esta poción a un objetivo lo bañas en un ácido altamente corrosivo que lo carcome.~
 @489 = ~Varita ~
 @490 = ~Varita de Piedra~
@@ -2580,7 +2580,7 @@ ESTADÍSTICAS:
 Especial: De la Carne a la piedra
 Especial De la Piedra a carne
 Alcance: 20 ft
-Ørea: 1 criatura~
+Área: 1 criatura~
 @493 = ~Varita de Dominación~
 @494 = ~Cuando se activa, la varita expulsa una bola de energía mágica que sale disparada y golpea infaliblemente a su objetivo. Esto incluye criaturas enemigas en un combate cuerpo a cuerpo. Sin embargo, la criatura objetivo debe ser vista o detectada para ser golpeada, por lo que una ocultación casi total, como la que ofrecen las saeteras, puede hacer que el hechizo resulte ineficaz.  Contra una criatura, la bola intentará encantar al objetivo de forma similar al hechizo del Sacerdote Dominación.
 
@@ -2588,7 +2588,7 @@ ESTADÍSTICAS:
 
 Especial: Amuleto funesto
 Alcance: 100 ft
-Ørea: 1 criatura~
+Área: 1 criatura~
 @495 = ~Vara de los Muertos vivientes~
 @496 = ~Cuando se activa, la varita invoca las almas de tres guerreros muertos vivientes para ayudar al lanzador en combate.
 
@@ -2596,7 +2596,7 @@ ESTADÍSTICAS:
 
 Especial: Animar Muertos vivientes
 Alcance: 100 ft
-Ørea: N/A~
+Área: N/A~
 @497 = ~Cráneo~
 @498 = ~Cráneo de los Muertos~
 @499 = ~Una calavera de aspecto mágico.~
@@ -2607,7 +2607,7 @@ Nivel: 5
 Alcance 10 yardas  
 Duración: 8 horas  
 Tiempo de invocación: 1 asalto
- Ørea de efecto: Especial  
+ Área de efecto: Especial  
 Tirada de salvación: Ninguno  
 
 Este hechizo crea el más bajo de los monstruos muertos vivientes, esqueletos o zombis, normalmente a partir de huesos o cuerpos de humanos, semihumanos o humanoides muertos. El hechizo hace que estos restos se animen y obedezcan las simples órdenes verbales del lanzador, independientemente de cómo se comunicaran en vida. Los esqueletos o zombis pueden seguir al lanzador, permanecer en una zona y atacar a cualquier criatura (o sólo a un tipo específico de criatura) que entre en el lugar, etc. Los muertos vivientes permanecen animados hasta que son destruidos en combate, pasan 8 horas o son convertidos; la magia no puede ser disipada. El mago puede animar un esqueleto por cada nivel de experiencia que haya alcanzado.~
@@ -2619,7 +2619,7 @@ ESTADÍSTICAS:
 
 Especial: Amuleto funesto
 Alcance 100 ft
-Ørea: 1 criatura~
+Área: 1 criatura~
 @505 = ~Una Vela~
 @506 = ~Vela de la Sabiduría~
 @507 = ~A juzgar por los símbolos arcanos impresos en esta vela, está claro que está imbuida de propiedades mágicas de uno u otro tipo. Sin embargo, hasta que no intentes leerla o identificarla, desconocerás su naturaleza exacta.~
@@ -3167,7 +3167,7 @@ Peso: 3
 Factor de velocidad: 6 
 Tipo de competencia: Arco Largo
 Tipo: Arco largo 2 manos~
-@614 = ~Arco de Øguila Mejorado~
+@614 = ~Arco de Águila Mejorado~
 @615 = ~Arco corto, arco de águila: 'Protector de las dríadas'
 
 Las dríades del bosque de Gulthmere regalaron este magnífico arco al héroe Hannable el Blanco para proteger a su comunidad de la invasión de un campamento de taladores orcos.  Se produjo un enfrentamiento mortal cuando los leñadores se atrevieron a intentar talar un gran roble, casi matando a la dríade vinculada a él.  Con la ayuda de poderosos animales del bosque, Hannable mató a bandas enteras de orcos antes de que se infligiera más daño al bosque.  Los orcos se vieron obligados a abandonar sus planes, para no sufrir la ira continuada de Hannable y el bosque.  Ni que decir tiene que el héroe que ayudó a las agradecidas dríadas vivió feliz... es más, ¡MUY feliz para siempre!". 
