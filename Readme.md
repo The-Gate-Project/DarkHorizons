@@ -31,8 +31,6 @@ Extract archive contents into your game directory
 
 Though this mod is made using the WeiDU standard, and *should* be compatible with all other WeiDU-based mods, there is always the possibility for conflicts. We suggest you install this mod AFTER the official patches. If you encounter any problems installing the mod, please our forums. 
 
-Install this mod 
-
 
 ## Compatibility:
 ------------------
@@ -93,30 +91,29 @@ Big thanks go to these following individuals for their assistance with Dark Hori
     CHANGES
 
 	Combined version for BG:EE, EET and BGT
-	Add detection for Enhanced Editions for using new tis and PVRZ and not for other platforms
+	Add detection for Enhanced Editions for using new TIS and PVRZ and not for other platforms
 	Update CMTNIKIT.baf for EET continuity
-	Fix for DarkHorizons/BGT/stores/CMMERC06.sto thanks to P_zombie and Paladin84
-	Missing ACTION_IF GAME_IS ~ eet ~
+	Fix for CMMERC06.sto thanks to P_zombie and Paladin84
 	Add BG1.tpa to lib folder for (maybe) BG1 vanilla compatibility
-	tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility
-	Use variables to select game folder
-	Add g3_bgee_cpmvars.tpa in lib folder                                                                                                                          
-	Modified tp2 and new folder soundsBGEE and bamsBGEE according to the above changes                                                                             
-    Add EET Compat originaly included BY EET                                                                                                                       
-		- already in BG:EE file, so no needed for BGEE OR EET                                                                                                      
-		FIRE_3.bam                                                                                                                                                 
-		FIRE_4.bam                                                                                                                                                 
-		- Ibrac24.bam renamed to Ibrac24#.bam and reassigned for CMBRQ04.ITM                                                                                       
-		- already in BG2:EE file, so no needed for EET                                                                                                             
-		BREGAX02.WAV                                                                                                                                               
-		BREGAX03.WAV                                                                                                                                               
-		BREGAX04.WAV                                                                                                                                               
-		BREGAX05.WAV                                                                                                                                               
-		BREGAX17.WAV                                                                                                                                               
-		FIRE_1.bam                                                                                                                                                 
-		FIRE_3.bam                                                                                                                                                 
-		FIRE_4.bam                                                                                                                                                 
-		FIRE_4G2.bam
+	Changed tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility
+	Use variables in tp2 file to select proper game folder
+	Add G3 cpmvars tpa file in lib folder
+	Modified tp2 and new folder soundsBGEE and bamsBGEE according to the above changes
+	Add EET Compat originaly included in EET:
+		- already in BG:EE file, so no needed for BGEE OR EET
+		FIRE_3.bam
+		FIRE_4.bam
+		- Ibrac24.bam renamed to Ibrac24#.bam and reassigned for CMBRQ04.ITM
+		- already in BG2:EE file, so no needed for EET
+		BREGAX02.WAV
+		BREGAX03.WAV
+		BREGAX04.WAV
+		BREGAX05.WAV
+		BREGAX17.WAV
+		FIRE_1.bam
+		FIRE_3.bam
+		FIRE_4.bam
+		FIRE_4G2.
 	Add readme.md
 
 - Version BGEE 2.16 Release. December 28, 2023
