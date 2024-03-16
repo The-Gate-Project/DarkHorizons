@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizons/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~BGEE+EET+BGT:Experimental-v1~
+VERSION ~3.0:BGEE+EET+BGT:Experimental~
 
 README ~DarkHorizons/readme-dh.htm~
 
@@ -18,7 +18,7 @@ ACTION_IF GAME_IS ~eet~ THEN BEGIN
   /*Tell the player it is using EET stuff */
   PRINT @895 /* EET install detected */
   INCLUDE ~%MOD_FOLDER%/lib/tbgcom_eet_vars.tpa~
-	INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
+  INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
 END ELSE
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   /* Tell the player it is using Tutu stuff */
@@ -124,10 +124,18 @@ PRINT @7
 PRINT @8
 
 
-COPY ~DarkHorizons\bams~ ~override~
+COPY ~DarkHorizons/bams~ ~override~
 
-ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-  COPY ~DarkHorizons\bamsBGEE~ ~override~
+ACTION_IF GAME_IS ~totsc~ THEN BEGIN
+  COPY ~%MOD_FOLDER%/bams/bg~ ~override~
+END
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ACTION_IF GAME_INCLUDES ~sod~ THEN BEGIN
+    COPY ~%MOD_FOLDER%/bams/sod~ ~override~
+  END ELSE BEGIN
+    COPY ~%MOD_FOLDER%/bams/bgee~ ~override~
+  END
 END
 
 COPY ~DarkHorizons\images~ ~override~
@@ -136,10 +144,6 @@ ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~polish~ ) = 0 BEGIN
   COPY ~DarkHorizons\Language\%LANGUAGE%\sounds~ ~override~
 END ELSE BEGIN
   COPY ~DarkHorizons\sounds~ ~override~
-END
-
-ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
-  COPY ~DarkHorizons\soundsBGEE~ ~override~
 END
 
 /* New and altered areas */
@@ -3701,7 +3705,7 @@ COPY ~DarkHorizons/%ItemsFolder%/CMBRQ03.itm~ ~override~
   SAY 0x50 @131
   SAY 0x54 @139
 
-COPY ~DarkHorizons/%ItemsFolder%/CMBRQ04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBRQ04.ITM~ ~override~
   SAY NAME1 @129
   SAY NAME2 @140
   SAY 0x50 @131
