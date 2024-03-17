@@ -1,4 +1,4 @@
-@0    = ~ "Horizontes Oscuros" Mod para Puerta de Baldur: Edición Mejorada~
+@0    = ~"Horizontes Oscuros" Mod~
 @1    = ~****************************************~
 @2    = ~* Dark Horizons Mod Version 2.12       *~
 @3    = ~* http://www.teambg.net                *~
@@ -7,7 +7,7 @@
 @6    = ~* THE DARK HORIZONS IN YOUR GAME       *~
 @7    = ~*      DIRECTORY.                      *~
 @8    = ~*****************************************~
-@9    = ~No parece que tengas instalados BG:EE, TuTu o BGT.~
+@9    = ~No parece que tengas instalados BG:EE, EET, TotSC, TuTu o BGT.~
 @10   = ~Armadura de malla de placas~
 @11   = ~Armadura de placa enana +3~
 @12   = ~La Armadura de placas es una combinación de armadura de cadenas con placas metálicas que cubren las zonas vitales, como el pecho, el abdomen y la ingle. De construcción similar a la cota de malla de bronce, la cota de malla auténtica se compone de cadenas y cuero.
@@ -4649,9 +4649,11 @@ Cuando se lanza este hechizo, el hechicero y todo su equipo se vuelven insustanc
 
 // New info or error texts
 @890  = ~BG:EE instalación detectada~
-@891  = ~Tutu instalación detectada.~
+@891  = ~TuTu instalación detectada.~
 @892  = ~Instalación de BGT detectada.~
-@893  = ~Por favor, instala en BG:EE, Tutu o BGT.~
+@893  = ~Por favor, instala en BG:EE, EET, TotSC, TuTu o BGT.~
+@894  = ~BG1 instalación detectada.~
+@895  = ~EET instalación detectada.~
 
 /* New in BGEE */
 

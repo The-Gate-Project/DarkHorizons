@@ -1,4 +1,4 @@
-@0   = ~ "Dark Horizons" Mod (Benötigt Legenden der Schwertküste)~
+@0   = ~"Dark Horizons" Mod~
 @1   = ~****************************************~
 @2   = ~* Dark Horizons Mod Version 2.12        *~ 
 @3   = ~*http://www.teambg.net                  *~
@@ -3736,7 +3736,9 @@ Wenn dieser Zauberspruch angewendet wird, werden der Zauberer und seine ganze Au
 @890 = ~BG:EE Installation entdeckt.~
 @891 = ~Tutu Installation entdeckt.~
 @892 = ~BGT Installation entdeckt.~
-@893 = ~Bitte für BG:EE, Tutu oder BGT installieren.~
+@893 = ~Bitte für BG:EE, EET, TotSC, Tutu oder BGT installieren.~
+@894 = ~BG1 Installation entdeckt.~
+@895 = ~EET Installation entdeckt.~
 
 /* New in BGEE */
 

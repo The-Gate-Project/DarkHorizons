@@ -1,4 +1,4 @@
-@0    = ~Mod "Dark Horizons" (Wymaga Opowiesci z Wybrzeza Mieczy, TuTu albo BGT)~
+@0    = ~Mod "Dark Horizons"~
 @1    = ~****************************************~
 @2    = ~* Dark Horizons Mod Versja 2.12        *~
 @3    = ~* http://www.teambg.net                *~
@@ -7,7 +7,7 @@
 @6    = ~* THE DARK HORIZONS W FOLDERZE         *~
 @7    = ~*      Z GRĄ.                          *~
 @8    = ~****************************************~
-@9    = ~Wyglada na to, ze nie masz zainstalowanych BG:EE, TuTu albo BGT.~
+@9    = ~Wyglada na to, ze nie masz zainstalowanych BG:EE, EET, BG:OzWM, TuTu albo BGT.~
 @10   = ~Zbroja płytowa~
 @11   = ~Zbroja krasnoludzka +3~
 @12   = ~Zbroja płytowa składa się z metalowych płyt, ochraniających najważniejsze części ciała, takie jak klatka piersiowa, brzuch i podbrzusze. Poszczególne jej elementy są osadzone na kolczudze. Prawdziwa zbroja płytowa, o budowie podobnej do zbroi płytowej z brązu, składa się z kolczugi i skóry.
@@ -3793,7 +3793,7 @@ Rzucający ten czar mag oraz cała jego odzież tracą materialną postać. Odt�
 @890  = ~Wykryto zainstalowane BG:EE.~
 @891  = ~Wykryto zainstalowane Tutu.~
 @892  = ~Wykryto zainstalowane BGT.~
-@893  = ~Prosze zainstalowac BG:EE, Tutu albo BGT.~
+@893  = ~Prosze zainstalowac BG:EE, EET, BG:OzWM, TuTu albo BGT.~
 @894  = ~Wykryto zainstalowane BG1.~
 @895  = ~Wykryto zainstalowane EET.~
 

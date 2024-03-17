@@ -1,4 +1,4 @@
-@0    = ~Mod "Dark Horizons" (Wymaga Opowiesci z Wybrzeza Mieczy, TuTu albo BGT)~
+@0    = ~Mod "Dark Horizons"~
 @1    = ~****************************************~
 @2    = ~* Dark Horizons Mod Versja 2.12        *~
 @3    = ~* http://www.teambg.net                *~
@@ -7,7 +7,7 @@
 @6    = ~* THE DARK HORIZONS W FOLDERZE         *~
 @7    = ~*      Z GR¥.                          *~
 @8    = ~****************************************~
-@9    = ~Wyglada na to, ze nie masz zainstalowanych BG:EE, TuTu albo BGT.~
+@9    = ~Wyglada na to, ze nie masz zainstalowanych BG:EE, EET, BG:OzWM, TuTu albo BGT.~
 @10   = ~Zbroja p³ytowa~
 @11   = ~Zbroja krasnoludzka +3~
 @12   = ~Zbroja p³ytowa sk³ada siê z metalowych p³yt, ochraniaj¹cych najwa¿niejsze czêœci cia³a, takie jak klatka piersiowa, brzuch i podbrzusze. Poszczególne jej elementy s¹ osadzone na kolczudze. Prawdziwa zbroja p³ytowa, o budowie podobnej do zbroi p³ytowej z br¹zu, sk³ada siê z kolczugi i skóry.
@@ -4778,7 +4778,9 @@ Rzucaj¹cy ten czar mag oraz ca³a jego odzie¿ trac¹ materialn¹ postaæ. Odt¹d mo¿e
 @890  = ~Wykryto zainstalowane BG:EE.~
 @891  = ~Wykryto zainstalowane Tutu.~
 @892  = ~Wykryto zainstalowane BGT.~
-@893  = ~Prosze zainstalowac BG:EE, Tutu albo BGT.~
+@893  = ~Prosze zainstalowac BG:EE, EET, BG:OzWM, TuTu albo BGT.~
+@894  = ~Wykryto zainstalowane BG1.~
+@895  = ~Wykryto zainstalowane EET.~
 
 /* New in BGEE */
 

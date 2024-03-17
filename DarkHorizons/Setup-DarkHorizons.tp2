@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizons/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~BGEE+BGT:Experimental~
+VERSION ~3.0:BGEE+EET+BGT:Experimental~
 
 README ~DarkHorizons/readme-dh.htm~
 
@@ -13,6 +13,12 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   PRINT @890 /* BG:EE install detected */
   INCLUDE ~%MOD_FOLDER%/lib/tbgcom_bgee_vars.tpa~
   INCLUDE ~%MOD_FOLDER%/lib/g3_bgee_cpmvars.tpa~
+END ELSE
+ACTION_IF GAME_IS ~eet~ THEN BEGIN
+  /*Tell the player it is using EET stuff */
+  PRINT @895 /* EET install detected */
+  INCLUDE ~%MOD_FOLDER%/lib/tbgcom_eet_vars.tpa~
+  INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
 END ELSE
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   /* Tell the player it is using Tutu stuff */
@@ -118,7 +124,19 @@ PRINT @7
 PRINT @8
 
 
-COPY ~DarkHorizons\bams~ ~override~
+COPY ~DarkHorizons/bams~ ~override~
+
+ACTION_IF GAME_IS ~totsc~ THEN BEGIN
+  COPY ~%MOD_FOLDER%/bams/bg~ ~override~
+END
+
+ACTION_IF GAME_IS ~bgee~ THEN BEGIN
+  ACTION_IF GAME_INCLUDES ~sod~ THEN BEGIN
+    COPY ~%MOD_FOLDER%/bams/sod~ ~override~
+  END ELSE BEGIN
+    COPY ~%MOD_FOLDER%/bams/bgee~ ~override~
+  END
+END
 
 COPY ~DarkHorizons\images~ ~override~
 
@@ -206,8 +224,9 @@ FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
 REPLACE_TEXTUALLY ~SKELET_C~ ~_KELET_C~ (8)
 REPLACE_TEXTUALLY ~Dopple~ ~_Dopple~ (8)
 END ELSE BEGIN
-REPLACE_TEXTUALLY ~AR3901~ ~%AR3%~ (8)
+  REPLACE_TEXTUALLY ~AR3901~ ~%AR3%~ (8)
 END
+
 COPY ~DarkHorizons\areas\CM2680.mos~ ~override~
 COPY ~DarkHorizons\areas\CM2680.tis~ ~override~
 COPY ~DarkHorizons\areas\CM2680.wed~ ~override~
@@ -248,12 +267,12 @@ REPLACE_TEXTUALLY ~AMB_E15C~ ~%SND6%~ (8)
 REPLACE_TEXTUALLY ~AMB_E15D~ ~%SND7%~ (8)
 REPLACE_TEXTUALLY ~AMB_S05A~ ~%SND8%~ (8)
 PATCH_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
-REPLACE_TEXTUALLY ~AR3302~ ~%AR1%~
-REPLACE_TEXTUALLY ~Ghast~ ~_ghast~ (8)
-REPLACE_TEXTUALLY ~Skelet_a~ ~_kelet_a~ (8)
-REPLACE_TEXTUALLY ~SCRL1R~ ~_SCRL1R~ (8)
+  REPLACE_TEXTUALLY ~AR3302~ ~%AR1%~
+  REPLACE_TEXTUALLY ~Ghast~ ~_ghast~ (8)
+  REPLACE_TEXTUALLY ~Skelet_a~ ~_kelet_a~ (8)
+  REPLACE_TEXTUALLY ~SCRL1R~ ~_SCRL1R~ (8)
 END ELSE BEGIN
-REPLACE_TEXTUALLY ~AR3302~ ~%AR1%~
+  REPLACE_TEXTUALLY ~AR3302~ ~%AR1%~
 END
 COPY ~DarkHorizons\areas\CM3370.tis~ ~override~
 COPY ~DarkHorizons\areas\CM3370.wed~ ~override~
@@ -269,7 +288,7 @@ COPY ~DarkHorizons\areas\CM3371HT.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3371LM.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3371SR.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3372.are~ ~override~
-REPLACE_TEXTUALLY ~AMB_E17B~ ~%SND9%~ (8)
+  REPLACE_TEXTUALLY ~AMB_E17B~ ~%SND9%~ (8)
 
 COPY ~DarkHorizons\areas\CM3372.mos~ ~override~
 COPY ~DarkHorizons\areas\CM3372.tis~ ~override~
@@ -278,7 +297,7 @@ COPY ~DarkHorizons\areas\CM3372HT.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3372LM.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3372SR.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3373.are~ ~override~
-REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
+  REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
 
 COPY ~DarkHorizons\areas\CM3373.mos~ ~override~
 COPY ~DarkHorizons\areas\CM3373.tis~ ~override~
@@ -302,7 +321,7 @@ COPY ~DarkHorizons\areas\CM3375HT.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3375LM.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3375SR.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3376.are~ ~override~
-REPLACE_TEXTUALLY ~AMB_E14B~ ~%SND10%~ (8)
+  REPLACE_TEXTUALLY ~AMB_E14B~ ~%SND10%~ (8)
 COPY ~DarkHorizons\areas\CM3376.mos~ ~override~
 COPY ~DarkHorizons\areas\CM3376.tis~ ~override~
 COPY ~DarkHorizons\areas\CM3376.wed~ ~override~
@@ -1278,20 +1297,17 @@ SET "info_ext"=0x68
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
-
- 
- 
 BUT_ONLY_IF_IT_CHANGES
 
 
 COPY_EXISTING ~%AR1%.are~ ~override~
-SET ~container_to_add_to~ = 2
-SPRINT ~item_to_add~ ~%ITM3%~
-SET ~charges1~ = 0
-SET ~charges2~ = 0
-SET ~charges3~ = 0
-LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
-BUT_ONLY_IF_IT_CHANGES
+  SET ~container_to_add_to~ = 2
+  SPRINT ~item_to_add~ ~%ITM3%~
+  SET ~charges1~ = 0
+  SET ~charges2~ = 0
+  SET ~charges3~ = 0
+  LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
+  BUT_ONLY_IF_IT_CHANGES
 
 
 COPY_EXISTING ~%AR2%.are~ ~override~ 
@@ -2627,11 +2643,6 @@ SET info_1=1
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
-
-
-
-
-
 BUT_ONLY_IF_IT_CHANGES
 
 COPY_EXISTING ~%AR3%.are~ ~override~
@@ -3325,7 +3336,6 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 COPY_EXISTING ~%AR13%.ARE~ ~override~
-
 SPRINT ~old_item~ ~STAF01~
 SPRINT ~new_item~ ~STAF02~
 SET ~charges1~ = 0
@@ -3410,7 +3420,7 @@ COPY ~DarkHorizons/%ItemsFolder%/CMARQ04.ITM~ ~override~
   SAY NAME2 @22
   SAY 0x50 @20
   SAY 0x54 @23
-  
+
 COPY ~DarkHorizons/items/CMARQ05.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @24
@@ -3628,7 +3638,6 @@ COPY ~DarkHorizons/items/CMCLCK02.ITM~ ~override~
   SAY 0x50 @756
   SAY 0x54 @111
 
-
 COPY ~DarkHorizons/items/CMCLCK03.ITM~ ~override~
   SAY NAME1 @112
   SAY NAME2 @113
@@ -3696,7 +3705,7 @@ COPY ~DarkHorizons/%ItemsFolder%/CMBRQ03.itm~ ~override~
   SAY 0x50 @131
   SAY 0x54 @139
 
-COPY ~DarkHorizons/%ItemsFolder%/CMBRQ04.ITM~ ~override~
+COPY ~DarkHorizons/items/CMBRQ04.ITM~ ~override~
   SAY NAME1 @129
   SAY NAME2 @140
   SAY 0x50 @131
@@ -4422,7 +4431,6 @@ COPY ~DarkHorizons/items/CMRIQ01.ITM~ ~override~
   SAY NAME2 @446
   SAY 0x50 @436
   SAY 0x54 @447
-
 
 COPY ~DarkHorizons/items/CMRIQ02.ITM~ ~override~
   SAY NAME1 @434
@@ -5600,7 +5608,6 @@ COPY ~DarkHorizons/cre/MATHOREN.cre~ ~override/MATHOREN.cre~
   SAY NAME1 @653
   SAY NAME2 @653
 
-
 COPY ~DarkHorizons/cre/CM01A514.CRE~ ~override/CM01A514.CRE~
   SAY NAME1 @654
   SAY NAME2 @654
@@ -6285,19 +6292,19 @@ COPY    ~DarkHorizons/stores/cmfood1.sto~     ~override/cmfood1.sto~
 COPY    ~DarkHorizons/stores/cmmystr.sto~     ~override/cmmystr.sto~
   SAY NAME2 @750
   
-COPY_EXISTING ~STO0703.sto~ ~override~
-ADD_STORE_ITEM ~cmclck02~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~cmstaf01~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~mabrac02~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~maclck01~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~cmheal1~ #1 #0 #0 ~IDENTIFIED~ #100
+COPY_EXISTING ~%STO0703%.sto~ ~override~
+  ADD_STORE_ITEM ~cmclck02~ #0 #0 #0 ~IDENTIFIED~ #1
+  ADD_STORE_ITEM ~cmstaf01~ #0 #0 #0 ~IDENTIFIED~ #1
+  ADD_STORE_ITEM ~mabrac02~ #0 #0 #0 ~IDENTIFIED~ #1
+  ADD_STORE_ITEM ~maclck01~ #0 #0 #0 ~IDENTIFIED~ #1
+  ADD_STORE_ITEM ~cmheal1~ #1 #0 #0 ~IDENTIFIED~ #100
 
-COPY_EXISTING ~ulgoth.sto~ ~override~
-ADD_STORE_ITEM ~maax1h02~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~macmda01~ #0 #0 #0 ~IDENTIFIED~ #1
-ADD_STORE_ITEM ~macmxb01~ #0 #0 #0 ~IDENTIFIED~ #10
-ADD_STORE_ITEM ~maarow01~ #40 #0 #0 ~IDENTIFIED~ #10
-ADD_STORE_ITEM ~mabull01~ #40 #0 #0 ~IDENTIFIED~ #100
+COPY_EXISTING ~%ulgoth%.sto~ ~override~
+  ADD_STORE_ITEM ~maax1h02~ #0 #0 #0 ~IDENTIFIED~ #1
+  ADD_STORE_ITEM ~macmda01~ #0 #0 #0 ~IDENTIFIED~ #1
+  ADD_STORE_ITEM ~macmxb01~ #0 #0 #0 ~IDENTIFIED~ #10
+  ADD_STORE_ITEM ~maarow01~ #40 #0 #0 ~IDENTIFIED~ #10
+  ADD_STORE_ITEM ~mabull01~ #40 #0 #0 ~IDENTIFIED~ #100
 
 /*  -------------------------- New stores in 200 ------------  */
 
@@ -6551,20 +6558,42 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
   WRITE_ASCII 0x280 ~CMTMORW~ (8) // Script name / Death variable
 
 // Appends
-APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD~
-  UNLESS ~cmtnik~
+ACTION_IF (GAME_IS ~eet~) BEGIN
+  PRINT ~              ~
+  PRINT ~APPEND pdialog.2da for EET~
+  PRINT ~  
+              ~
+
+  APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD  ****  ****  ****  ****~
+    UNLESS ~cmtnik~
+    
+  APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD  ****  ****  ****  ****~
+    UNLESS ~cmtthor~
+    
+  APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD  ****  ****  ****  ****~
+    UNLESS ~cmtmorw~
+    
+END ELSE BEGIN // bgee bgt in this case (other exemple in ChaosKnight)
+  PRINT ~              ~
+  PRINT ~APPEND pdialog.2da for BGEE or BGT~
+  PRINT ~  
+              ~
+  
+  APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD~
+    UNLESS ~cmtnik~
+    
+  APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD~
+    UNLESS ~cmtthor~
+    
+  APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD~
+    UNLESS ~cmtmorw~
+END
 
 APPEND ~interdia.2da~ ~cmtnik BCMTNIK~
   UNLESS ~cmtnik~
-  
-APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD~
-  UNLESS ~cmtthor~
 
 APPEND ~interdia.2da~ ~cmtthor BCMTTHOR~
   UNLESS ~cmtthor~
-  
-APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD~
-  UNLESS ~cmtmorw~
 
 APPEND ~interdia.2da~ ~cmtmorw BCMTMORW~
   UNLESS ~cmtmorw~

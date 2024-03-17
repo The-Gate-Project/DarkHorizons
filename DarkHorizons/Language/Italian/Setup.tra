@@ -1,4 +1,4 @@
-@0    = ~Mod "Orizzonti Oscuri" (Richiede Tales of the Sword Coast TuTu o BGT)~
+@0    = ~Mod "Orizzonti Oscuri"~
 @1    = ~/****************************************~
 @2    = ~* Dark Horizons Mod Version 2.11        *~
 @3    = ~*  http://www.teambg.net       	     *~
@@ -7,7 +7,7 @@
 @6    = ~*    ORIZZONTI OSCURI NELLA TUA         *~
 @7    = ~*         CARTELLA DI GIOCO.            *~
 @8    = ~*****************************************~
-@9    = ~Non sembra che tu abbia installato TotSC TuTu o BGT.~
+@9    = ~Non sembra che tu abbia installato BG:EE EET TotSC TuTu o BGT.~
 @10   = ~Corazza di piastre~
 @11   = ~Corazza di piastre Nanica +3~
 @12   = ~La corazza di piastre è un combinazione tra la corazza di maglia e di piastre che protegge parti vitali come il petto, l'addome e l'inguine. Simile nella struttura alla corazza di piastre di bronzo, la corazza di piastre è una via di mezzo tra maglia e cuoio. 
@@ -4887,7 +4887,7 @@ Quando questo incantesimo viene lanciato, il mago e i suoi abiti si smaterializz
 @890  = ~Installazione di BG:EE rilevata.~
 @891  = ~Installazione di Tutu rilevata.~
 @892  = ~Installazione di BGT rilevata.~
-@893  = ~Per favour installare su BG:EE, Tutu o BGT.~
+@893  = ~Per favour installare su BG:EE, EET, TotSC, Tutu o BGT.~
 @894  = ~Installazione di BG1 rilevata.~
 @895  = ~Installazione di EET rilevata.~
 

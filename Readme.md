@@ -1,4 +1,4 @@
-# Dark Horizons BGEE
+# Dark Horizons, modification for BG:EE, EET, BGT, TuTu or BG1!
 
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20&color=informational)
 
@@ -31,14 +31,14 @@ Extract archive contents into your game directory
 
 Though this mod is made using the WeiDU standard, and *should* be compatible with all other WeiDU-based mods, there is always the possibility for conflicts. We suggest you install this mod AFTER the official patches. If you encounter any problems installing the mod, please our forums. 
 
-**EET** : Install this mod **in your BGEE game BEFORE** EET!
+**EET** : Install this mod **in your BG2:EE game AFTER** EET!
 
 **BGT** : Install this mod **in your BG2 game AFTER** BGT!
 
 ## Compatibility:
 ------------------
 
-Dark Horizons should be compatible with most Weidu mods, there is always a chance that incompatibilities will arise. This version works with Baldur's Gate: Enhanced Edition and the Enhanced Edition Trilogy.
+Dark Horizons should be compatible with most Weidu mods, there is always a chance that incompatibilities will arise. This version works with Baldur's Gate: Enhanced Edition, Baldur's Gate Trilogy (BGT) and the Enhanced Edition Trilogy.
 
 ## FAQS:
 --------
@@ -84,15 +84,39 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 ## Version History:
 -------------------
 
-- Version BGEE / BGT WIP
+- Version BGEE / EET / BGT - WIP
 
     CHANGES
 
-	Combined version for BG:EE and BGT
-	Add detection for Enhanced Editions for using new tis and PVRZ and not for other platforms
-	Add BG1.tpa to lib folder for (maybe) BG1 vanilla compatibility
-	tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility
-	Use variables to select game folder
+	Combined version for BG:EE, EET and BGT
+	Add detection for Enhanced Editions for using new TIS and PVRZ and not for other platforms
+	Update CMTNIKIT.baf for EET continuity
+	Fix for CMMERC06.sto thanks to P_zombie and Paladin84
+	Add BG1 vars to lib folder for (maybe) BG1 vanilla compatibility
+	Changed tututosc to tutu_totsc in tp2 for (maybe) Tutu compatibility
+	Use variables in tp2 file to select proper game folder
+	Add G3 cpmvars tpa file in lib folder
+	Modified tp2 and new folder soundsBGEE and bamsBGEE according to the above changes
+	Add EET Compat originaly included in EET:
+		Ibrac24.bam renamed to Ibrac24#.bam and reassigned for CMBRQ04.ITM
+		Files to be installed on BG1:
+		- FIRE_1.bam
+		- FIRE_3.bam
+		- FIRE_4.bam
+		- FIRE_4G2.bam
+		Files to be installed on BG:EE 
+		- FIRE_1.bam
+		- FIRE_4.bam
+		- FIRE_4G2.bam
+		Files to be installed on BG:SoD:
+		- FIRE_1.bam
+		- FIRE_4G2.bam
+		Deleted as not used anymore:
+		- BREGAX02.WAV
+		- BREGAX03.WAV
+		- BREGAX04.WAV
+		- BREGAX05.WAV
+		- BREGAX17.WAV
 	Add readme.md
 
 - Version BGEE 2.16 Release. December 28, 2023
@@ -124,7 +148,7 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 	A forgotten correction for MABRAC02.itm  
 	Up setup.exe  
 	Add BWP Fix from BigWorldSetup-Fixpack  
-		.Items : CMHAQ02, CMS1H01, CMS1H08, CMSTQ02, CMSTQ03, CMSTQ04, CMSTQ05,  CMSWQ14.  
+		.Items : CMHAQ02, CMS1H01, CMS1H08, CMSTQ02, CMSTQ03, CMSTQ04, CMSTQ05, CMSWQ14.  
 		.DLG : CMQUEST1.d  
 	Up Russian translation from ArcaneCoast  
 	Delete Backup  

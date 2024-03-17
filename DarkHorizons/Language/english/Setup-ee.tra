@@ -7,7 +7,7 @@
 @6    = ~* THE DARK HORIZONS IN YOUR GAME        *~
 @7    = ~*      DIRECTORY.                       *~
 @8    = ~*****************************************~
-@9    = ~You do not appear to have BG:EE, TotSC, TuTu or BGT installed.~
+@9    = ~You do not appear to have BG:EE, EET, TotSC, TuTu or BGT installed.~
 @10   = ~Plate Mail Armor~
 @11   = ~Dwarven Plate +3~
 @12   = ~Plate mail is a combination of chain armor with metal plates covering the vital areas such as the chest, abdomen and groin. Similar in construction to bronze plate mail, true plate mail comprises of chain and leather.
@@ -3696,7 +3696,9 @@ When this spell is cast, the wizard and all of his gear become insubstantial. Th
 @890  = ~BG:EE install detected~
 @891  = ~Tutu install detected.~
 @892  = ~BGT install detected.~
-@893  = ~Please install on BG:EE, Tutu or BGT.~
+@893  = ~Please install on BG:EE, EET, TotSC, Tutu or BGT.~
+@894  = ~BG1 install detected.~
+@895  = ~EET install detected.~
 
 /* New in BGEE */
 

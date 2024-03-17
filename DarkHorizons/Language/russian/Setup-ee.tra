@@ -1,4 +1,4 @@
-@0    = ~ "Dark Horizons" Mod for Baldur's Gate: Enhanced Edition~
+@0    = ~"Dark Horizons" Mod~
 @1    = ~****************************************~
 @2    = ~* Dark Horizons Mod Version 2.12       *~
 @3    = ~* http://www.teambg.net                *~
@@ -7,7 +7,7 @@
 @6    = ~* THE DARK HORIZONS IN YOUR GAME       *~
 @7    = ~*      DIRECTORY.                      *~
 @8    = ~****************************************~
-@9    = ~You do not appear to have BG:EE, TuTu or BGT installed.~
+@9    = ~You do not appear to have BG:EE, EET, TotSC, TuTu or BGT installed.~
 @10   = ~Составной Доспех~
 @11   = ~Дварфский Составной Доспех +3~
 @12   = ~Составной доспех - комбинация кольчуги с металлическими пластинами, прикрывающими жизненно важные области, такие, как грудь, живот и пах. Похожий по строению на бронзовый составной доспех, настоящий составной доспех объединяет кольчугу и кожу. 
@@ -3901,7 +3901,7 @@ THAC0:  +2 бонус
 @890  = ~BG:EE install detected.~
 @891  = ~Tutu install detected.~
 @892  = ~BGT install detected.~
-@893  = ~Please install on BG:EE, Tutu or BGT.~
+@893  = ~Please install on BG:EE, EET, TotSC, Tutu or BGT.~
 @894  = ~BG1 install detected.~
 @895  = ~EET install detected.~
 
