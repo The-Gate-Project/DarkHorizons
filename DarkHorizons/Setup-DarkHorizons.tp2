@@ -140,10 +140,13 @@ END
 
 COPY ~DarkHorizons\images~ ~override~
 
-ACTION_IF ( ~%LANGUAGE%~ STRING_COMPARE_CASE ~polish~ ) = 0 BEGIN
-  COPY ~DarkHorizons\Language\%LANGUAGE%\sounds~ ~override~
-END ELSE BEGIN
-  COPY ~DarkHorizons\sounds~ ~override~
+
+// Copy all English sounds first
+COPY ~%MOD_FOLDER%/sounds~ ~override~
+
+// Overwrite with localized sounds
+ACTION_IF (DIRECTORY_EXISTS EVAL ~%MOD_FOLDER%/Language/%LANGUAGE%/sounds~) THEN BEGIN
+  COPY ~%MOD_FOLDER%/Language/%LANGUAGE%/sounds~ ~override~
 END
 
 /* New and altered areas */
