@@ -14,9 +14,9 @@ PartyHasItem("CMISC01")
   IF ~~ THEN DO ~GiveItem("_RING07",LastTalkedToBy)
 TakePartyItem("CMISC01")
 AddexperienceParty(2300)
-EscapeArea()
 ActionOverride("CM1A2100",EscapeArea())
 ActionOverride("CM2A2100",EscapeArea())
+EscapeArea()
 ~ JOURNAL @3  EXIT
 END
 
@@ -27,9 +27,9 @@ PartyHasItem("CMISC01")
   IF ~~ THEN DO ~GiveItem("RING07",LastTalkedToBy)
 TakePartyItem("CMISC01")
 AddexperienceParty(2300)
-EscapeArea()
 ActionOverride("CM1A2100",EscapeArea())
 ActionOverride("CM2A2100",EscapeArea())
+EscapeArea()
 ~ JOURNAL @3  EXIT
 END
 
