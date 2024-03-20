@@ -38,7 +38,7 @@ IF ~~ begin3b
  SAY @16
   IF ~~ THEN DO ~GiveItem("SCRSEC6",LastTalkedToBy)
 AddexperienceParty(1500)
-EscapeArea() 
 ActionOverride("cmrsec04",EscapeArea())
+EscapeArea() 
 ~ JOURNAL @17 EXIT
 END
