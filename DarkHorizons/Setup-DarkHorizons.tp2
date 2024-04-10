@@ -42,7 +42,7 @@ END ELSE BEGIN
   FAIL @893 /* Please install on BG:EE, Tutu or BGT. */
 END
 
-ACTION_IF ENGINE_IS ~bgee bg2ee eet~ BEGIN
+ACTION_IF GAME_IS ~bgee eet~ BEGIN
   COPY - ~weidu.conf~ ~.../weidu.conf~
     READ_2DA_ENTRY 0 2 3 "lang_dir"
 
