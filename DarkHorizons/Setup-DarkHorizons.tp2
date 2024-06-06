@@ -4220,6 +4220,21 @@ COPY ~DarkHorizons/%ItemsFolder%/CMS1H07.itm~ ~override~
   SAY 0x50 @340
   SAY 0x54 @353
 
+ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
+
+PRINT ~Item restricted to Nikita for EE~
+OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
+OUTER_SET use_her = RESOLVE_STR_REF (@910)
+APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      %CM_S1H07%      2           %use_her%~ UNLESS ~CMS1H07~
+
+END ELSE ACTION_IF (GAME_IS ~bg2 bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN  
+
+PRINT ~Item restricted to Nikita for bg2~
+OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
+APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      -1      2          %CM_S1H07%~ UNLESS ~CMS1H07~ 
+
+END
+
 COPY ~DarkHorizons/%ItemsFolder%/CMS1H08.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @354
@@ -6009,6 +6024,7 @@ COPY ~DarkHorizons/cre/CMSEC09.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC10.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
+  REPLACE_CRE_ITEM ~HAMM02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
 
 COPY ~DarkHorizons/cre/CMSEC10A.CRE~ ~override~
   SAY NAME1 @737
@@ -6025,6 +6041,7 @@ COPY ~DarkHorizons/cre/CMSEC10C.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC11.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
+  REPLACE_CRE_ITEM ~POTN10~ #0 #0 #0 ~unstealable&undroppable~ ~qitem2~
 
 COPY ~DarkHorizons/cre/CMSEC12.CRE~ ~override~
   SAY NAME1 @737
@@ -6053,22 +6070,32 @@ COPY ~DarkHorizons/cre/CMSEC13.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC14.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
+  REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~POTN14~ #0 #0 #0 ~unstealable&undroppable~ ~qitem3~
 
 COPY ~DarkHorizons/cre/CMSEC14A.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
+  REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~POTN14~ #0 #0 #0 ~unstealable&undroppable~ ~qitem3~
 
 COPY ~DarkHorizons/cre/CMSEC14B.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
+  REPLACE_CRE_ITEM ~PLAT07~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~POTN14~ #0 #0 #0 ~unstealable&undroppable~ ~qitem3~
 
 COPY ~DarkHorizons/cre/CMSEC15.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
+  REPLACE_CRE_ITEM ~CHAN05~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~AX1H06~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
 
 COPY ~DarkHorizons/cre/CMSEC16.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
+  REPLACE_CRE_ITEM ~LEAT02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~WAND11~ #0 #0 #0 ~unstealable&undroppable~ ~qitem2~
 
 COPY ~DarkHorizons/cre/CMSEC17.CRE~ ~override~
   SAY NAME1 @737
@@ -6081,14 +6108,20 @@ COPY ~DarkHorizons/cre/CMSEC18.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC19.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
+  REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~SW2H02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+  REPLACE_CRE_ITEM ~BOW04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+  REPLACE_CRE_ITEM ~POTN14~ #0 #0 #0 ~unstealable&undroppable~ ~qitem3~
 
 COPY ~DarkHorizons/cre/CMSEC20.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
+  REPLACE_CRE_ITEM ~PLAT01~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
 
 COPY ~DarkHorizons/cre/CMSEC20A.CRE~ ~override~
   SAY NAME1 @737
   SAY NAME2 @737
+  REPLACE_CRE_ITEM ~PLAT01~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
 
 COPY ~DarkHorizons/cre/CMSEC21.CRE~ ~override~
   SAY NAME1 @739
@@ -6105,10 +6138,18 @@ COPY ~DarkHorizons/cre/CMSEC23.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC24.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
+  REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~SW1H05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+  REPLACE_CRE_ITEM ~BOW02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+  REPLACE_CRE_ITEM ~POTN14~ #0 #0 #0 ~unstealable&undroppable~ ~qitem3~
 
 COPY ~DarkHorizons/cre/CMSEC25.CRE~ ~override~
   SAY NAME1 @738
   SAY NAME2 @738
+  REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+  REPLACE_CRE_ITEM ~SW1H05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+  REPLACE_CRE_ITEM ~BOW02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+  REPLACE_CRE_ITEM ~POTN14~ #0 #0 #0 ~unstealable&undroppable~ ~qitem3~
 
 COPY ~DarkHorizons/cre/CMSKE01.CRE~ ~override~
   SAY NAME1 @740
@@ -6393,18 +6434,30 @@ SAY NAME1 @248
 SAY NAME2 @904
 SAY UNIDENTIFIED_DESC @250
 SAY DESC @905
+PRINT ~Item restricted to Morwen for EE~
+OUTER_SET cmt_bow01 = RESOLVE_STR_REF (@911)
+OUTER_SET use_her = RESOLVE_STR_REF (@973)
+APPEND ~ITEM_USE.2DA~ ~cmtbow01   CMTMORW      %cmt_bow01%      2           %use_her%~ UNLESS ~cmtbow01~
 
 COPY ~DarkHorizons/items/cmtbrc01.itm~   ~override/cmtbrc01.itm~
 SAY NAME1 @129
 SAY NAME2 @906
 SAY UNIDENTIFIED_DESC @131
 SAY DESC @907
+PRINT ~Item restricted to Morwen for EE~
+OUTER_SET cmt_brc01 = RESOLVE_STR_REF (@911)
+OUTER_SET use_her = RESOLVE_STR_REF (@973)
+APPEND ~ITEM_USE.2DA~ ~cmtbrc01   CMTMORW      %cmt_brc01%      2           %use_her%~ UNLESS ~cmtbrc01~
 
 COPY ~DarkHorizons/items/cmtlea01.itm~   ~override/cmtlea01.itm~
 SAY NAME1 @18
 SAY NAME2 @908
 SAY UNIDENTIFIED_DESC @20
 SAY DESC @909
+PRINT ~Item restricted to Morwen for EE~
+OUTER_SET cmt_lea01 = RESOLVE_STR_REF (@911)
+OUTER_SET use_her = RESOLVE_STR_REF (@973)
+APPEND ~ITEM_USE.2DA~ ~cmtlea01   CMTMORW      %cmt_lea01%      2           %use_her%~ UNLESS ~cmtlea01~
 
 
 COPY ~DarkHorizons/cre/CMTNIKIT.cre~ ~override~
