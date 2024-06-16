@@ -103,7 +103,7 @@ LANGUAGE ~Francais (traduit par Sanctifer des d'Oghmatiques)~
 LANGUAGE ~Spanish~
          ~spanish~
          ~DarkHorizons/Language/spanish/setup.tra~
-		 
+
 LANGUAGE ~Simplified Chinese (Latest Chinese accent by YouYe)~
          ~Schinese~
          ~DarkHorizons/Language/Schinese/setup.tra~
@@ -331,7 +331,7 @@ COPY ~DarkHorizons\areas\CM3376.wed~ ~override~
 COPY ~DarkHorizons\areas\CM3376HT.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3376LM.bmp~ ~override~
 COPY ~DarkHorizons\areas\CM3376SR.bmp~ ~override~
-COPY_EXISTING ~%AR1%.are~ ~override~ 
+COPY_EXISTING ~%AR1%.are~ ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -363,7 +363,7 @@ COPY_EXISTING ~%AR1%.are~ ~override~
  READ_LONG  0xc8  "automap_num"
  READ_LONG	0xcc	"projectile_traps_offset"
  READ_LONG	0xd0	"projectile_traps_num"
- 
+
 
  SET info_1=1
  FOR( cnt=0; cnt<"%infotrig_num%"; cnt=cnt+1 ) BEGIN
@@ -382,7 +382,7 @@ COPY_EXISTING ~%AR1%.are~ ~override~
    WRITE_SHORT (offset+0x24) 483         //Bounding box top
    WRITE_SHORT (offset+0x26) 429         //Bounding box right
    WRITE_SHORT (offset+0x28) 566         //Bounding box bottom
-   WRITE_SHORT (offset+0x2a) 6            //# vertices 
+   WRITE_SHORT (offset+0x2a) 6            //# vertices
    WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
    WRITE_LONG  (offset+0x34) 28           //cursor rame number
    WRITE_ASCII (offset+0x38) ~CM3370~			//Destination area
@@ -397,119 +397,119 @@ COPY_EXISTING ~%AR1%.are~ ~override~
    WRITE_SHORT 0x5a  "%infotrig_num%"
 
    SET "info_ext"=0xc4
-   
-   PATCH_IF ("%actors_offset%">"%infotrig_offset%") 
-   OR (("%actors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%infotrig_offset%")
+   OR (("%actors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%infotrig_offset%") 
-   OR (("%spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%infotrig_offset%")
+   OR (("%spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%infotrig_offset%") 
-   OR (("%entrances_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%infotrig_offset%")
+   OR (("%entrances_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%infotrig_offset%") 
-   OR (("%cont_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%infotrig_offset%")
+   OR (("%cont_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%infotrig_offset%") 
-   OR (("%items_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%infotrig_offset%")
+   OR (("%items_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
+
    PATCH_IF ("%vert_offset%">"%infotrig_offset%")
-   OR (("%vert_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+   OR (("%vert_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%infotrig_offset%") 
-   OR (("%amb_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%infotrig_offset%")
+   OR (("%amb_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%infotrig_offset%") 
-   OR (("%vars_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%infotrig_offset%")
+   OR (("%vars_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%infotrig_offset%") 
-   OR (("%expbmp_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%infotrig_offset%")
+   OR (("%expbmp_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%infotrig_offset%") 
-   OR (("%doors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%infotrig_offset%")
+   OR (("%doors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%infotrig_offset%") 
-   OR (("%anim_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%infotrig_offset%")
+   OR (("%anim_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%infotrig_offset%") 
-   OR (("%tiled_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%infotrig_offset%")
+   OR (("%tiled_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%infotrig_offset%") 
-   OR (("%songs_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%infotrig_offset%")
+   OR (("%songs_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
 
-   PATCH_IF ("%rest_spawns_offset%">"%infotrig_offset%") 
-   OR (("%rest_spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+   PATCH_IF ("%rest_spawns_offset%">"%infotrig_offset%")
+   OR (("%rest_spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
 
-   PATCH_IF ("%automap_offset%">"%infotrig_offset%") 
-   OR (("%automap_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+   PATCH_IF ("%automap_offset%">"%infotrig_offset%")
+   OR (("%automap_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%infotrig_offset%") 
-   OR (("%projectile_traps_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%infotrig_offset%")
+   OR (("%projectile_traps_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
- 
+
 
 
 
@@ -532,114 +532,114 @@ COPY_EXISTING ~%AR1%.are~ ~override~
    SET "cont_num" = "%cont_num%" + 1
    WRITE_SHORT 0x74  "%cont_num%"
    SET "info_ext"=0xc0
-   
-   PATCH_IF ("%actors_offset%">"%cont_offset%") 
-   OR (("%actors_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%cont_offset%")
+   OR (("%actors_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%cont_offset%") 
-   OR (("%spawns_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%cont_offset%")
+   OR (("%spawns_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%cont_offset%") 
-   OR (("%entrances_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%cont_offset%")
+   OR (("%entrances_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%cont_offset%") 
-   OR (("%infotrig_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%cont_offset%")
+   OR (("%infotrig_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%cont_offset%") 
-   OR (("%items_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%cont_offset%")
+   OR (("%items_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%cont_offset%") 
-   OR (("%vert_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%cont_offset%")
+   OR (("%vert_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%cont_offset%") 
-   OR (("%amb_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%cont_offset%")
+   OR (("%amb_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%cont_offset%") 
-   OR (("%vars_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%cont_offset%")
+   OR (("%vars_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
 
-   PATCH_IF ("%expbmp_offset%">"%cont_offset%") 
-   OR (("%expbmp_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+   PATCH_IF ("%expbmp_offset%">"%cont_offset%")
+   OR (("%expbmp_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%cont_offset%") 
-   OR (("%doors_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%cont_offset%")
+   OR (("%doors_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%cont_offset%") 
-   OR (("%anim_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%cont_offset%")
+   OR (("%anim_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%cont_offset%") 
-   OR (("%tiled_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%cont_offset%")
+   OR (("%tiled_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%cont_offset%") 
-   OR (("%songs_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%cont_offset%")
+   OR (("%songs_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%cont_offset%") 
-   OR (("%rest_spawns_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%cont_offset%")
+   OR (("%rest_spawns_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%cont_offset%") 
-   OR (("%automap_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%cont_offset%")
+   OR (("%automap_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-	 PATCH_IF ("%projectile_traps_offset%">"%cont_offset%") 
-	 OR (("%projectile_traps_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))   
+
+	 PATCH_IF ("%projectile_traps_offset%">"%cont_offset%")
+	 OR (("%projectile_traps_offset%" == "%cont_offset%") AND ("%cont_num%" == 0))
 	 BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -654,114 +654,114 @@ COPY_EXISTING ~%AR1%.are~ ~override~
 
 
    SET "info_ext"=0x14                 //we added 1 item
-   
-   PATCH_IF ("%actors_offset%">"%items_offset%") 
-   OR (("%actors_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%items_offset%")
+   OR (("%actors_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%items_offset%") 
-   OR (("%spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%items_offset%")
+   OR (("%spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%items_offset%") 
-   OR (("%entrances_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%items_offset%")
+   OR (("%entrances_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%items_offset%") 
-   OR (("%cont_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%items_offset%")
+   OR (("%cont_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%items_offset%") 
-   OR (("%vert_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%items_offset%")
+   OR (("%vert_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%items_offset%") 
-   OR (("%infotrig_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%items_offset%")
+   OR (("%infotrig_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%items_offset%") 
-   OR (("%amb_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%items_offset%")
+   OR (("%amb_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
 
-   PATCH_IF ("%vars_offset%">"%items_offset%") 
-   OR (("%vars_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+   PATCH_IF ("%vars_offset%">"%items_offset%")
+   OR (("%vars_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%items_offset%") 
+
+   PATCH_IF ("%expbmp_offset%">"%items_offset%")
    OR (("%exbmp_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%items_offset%") 
-   OR (("%doors_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%items_offset%")
+   OR (("%doors_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%items_offset%") 
-   OR (("%anim_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%items_offset%")
+   OR (("%anim_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%items_offset%") 
-   OR (("%tiled_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%items_offset%")
+   OR (("%tiled_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%items_offset%") 
-   OR (("%songs_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%items_offset%")
+   OR (("%songs_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%items_offset%") 
-   OR (("%rest_spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%items_offset%")
+   OR (("%rest_spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%items_offset%") 
-   OR (("%automap_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%items_offset%")
+   OR (("%automap_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%items_offset%") 
-   OR (("%projectile_traps_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%items_offset%")
+   OR (("%projectile_traps_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -775,117 +775,117 @@ COPY_EXISTING ~%AR1%.are~ ~override~
    WRITE_ASCII  offset        ~BOOK37~
    WRITE_SHORT  (offset+0x0a) 0
    WRITE_LONG   (offset+0x10) 0x00000001
-   
+
 
    SET "info_ext"=0x14                 //we added 1 item
-   
-   PATCH_IF ("%actors_offset%">"%items_offset%") 
-   OR (("%actors_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%items_offset%")
+   OR (("%actors_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%items_offset%") 
-   OR (("%spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%items_offset%")
+   OR (("%spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%items_offset%") 
-   OR (("%entrances_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%items_offset%")
+   OR (("%entrances_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%items_offset%") 
-   OR (("%cont_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%items_offset%")
+   OR (("%cont_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%items_offset%") 
-   OR (("%vert_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%items_offset%")
+   OR (("%vert_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%items_offset%") 
-   OR (("%infotrig_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%items_offset%")
+   OR (("%infotrig_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%items_offset%") 
-   OR (("%amb_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%items_offset%")
+   OR (("%amb_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%items_offset%") 
-   OR (("%vars_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%items_offset%")
+   OR (("%vars_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%items_offset%") 
-   OR (("%exbmp_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%items_offset%")
+   OR (("%exbmp_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%items_offset%") 
-   OR (("%doors_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%items_offset%")
+   OR (("%doors_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%items_offset%") 
-   OR (("%anim_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%items_offset%")
+   OR (("%anim_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%items_offset%") 
-   OR (("%tiled_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%items_offset%")
+   OR (("%tiled_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%items_offset%") 
-   OR (("%songs_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%items_offset%")
+   OR (("%songs_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%items_offset%") 
-   OR (("%rest_spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%items_offset%")
+   OR (("%rest_spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%items_offset%") 
-   OR (("%automap_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%items_offset%")
+   OR (("%automap_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%items_offset%") 
-   OR (("%projectile_traps_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%items_offset%")
+   OR (("%projectile_traps_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -898,122 +898,122 @@ COPY_EXISTING ~%AR1%.are~ ~override~
    WRITE_ASCII  offset        ~BOOK49~
    WRITE_SHORT  (offset+0x0a) 0
    WRITE_LONG   (offset+0x10) 0x00000001
-   
+
 
    SET "info_ext"=0x14                 //we added 1 item
-   
-   PATCH_IF ("%actors_offset%">"%items_offset%") 
-   OR (("%actors_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%items_offset%")
+   OR (("%actors_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%items_offset%") 
-   OR (("%spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%items_offset%")
+   OR (("%spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%items_offset%") 
-   OR (("%entrances_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%items_offset%")
+   OR (("%entrances_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%items_offset%") 
-   OR (("%cont_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%items_offset%")
+   OR (("%cont_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%items_offset%") 
-   OR (("%vert_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%items_offset%")
+   OR (("%vert_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%items_offset%") 
-   OR (("%infotrig_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%items_offset%")
+   OR (("%infotrig_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%items_offset%") 
-   OR (("%amb_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%items_offset%")
+   OR (("%amb_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%items_offset%") 
-   OR (("%vars_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%items_offset%")
+   OR (("%vars_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%items_offset%") 
-   OR (("%exbmp_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%items_offset%")
+   OR (("%exbmp_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%items_offset%") 
-   OR (("%doors_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%items_offset%")
+   OR (("%doors_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%items_offset%") 
-   OR (("%anim_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%items_offset%")
+   OR (("%anim_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%items_offset%") 
-   OR (("%tiled_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%items_offset%")
+   OR (("%tiled_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%items_offset%") 
-   OR (("%songs_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%items_offset%")
+   OR (("%songs_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%items_offset%") 
-   OR (("%rest_spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%items_offset%")
+   OR (("%rest_spawns_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%items_offset%") 
-   OR (("%automap_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%items_offset%")
+   OR (("%automap_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%items_offset%") 
-   OR (("%projectile_traps_offset%" == "%items_offset%") AND ("%items_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%items_offset%")
+   OR (("%projectile_traps_offset%" == "%items_offset%") AND ("%items_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
-	
+
 
 WRITE_SHORT 0x76  "%items_num%"+3       //increment total items count
 
@@ -1048,123 +1048,123 @@ WRITE_SHORT 0x76  "%items_num%"+3       //increment total items count
    WRITE_SHORT 0x80  "%vert_num%"
 
    SET "info_ext"=0x04*11
-   
-   PATCH_IF ("%actors_offset%">"%vert_offset%") 
-   OR (("%actors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%vert_offset%")
+   OR (("%actors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%vert_offset%") 
-   OR (("%spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%vert_offset%")
+   OR (("%spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%vert_offset%") 
-   OR (("%entrances_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%vert_offset%")
+   OR (("%entrances_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%vert_offset%") 
-   OR (("%cont_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%vert_offset%")
+   OR (("%cont_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%vert_offset%") 
-   OR (("%items_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%vert_offset%")
+   OR (("%items_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%vert_offset%") 
-   OR (("%infotrig_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%vert_offset%")
+   OR (("%infotrig_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%vert_offset%") 
-   OR (("%amb_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%vert_offset%")
+   OR (("%amb_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%vert_offset%") 
-   OR (("%vars_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%vert_offset%")
+   OR (("%vars_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%vert_offset%") 
-   OR (("%expbmp_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%vert_offset%")
+   OR (("%expbmp_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%vert_offset%") 
-   OR (("%doors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%vert_offset%")
+   OR (("%doors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%vert_offset%") 
-   OR (("%anim_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%vert_offset%")
+   OR (("%anim_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%vert_offset%") 
-   OR (("%tiled_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%vert_offset%")
+   OR (("%tiled_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%vert_offset%") 
-   OR (("%songs_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%vert_offset%")
+   OR (("%songs_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%vert_offset%") 
-   OR (("%rest_spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%vert_offset%")
+   OR (("%rest_spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%vert_offset%") 
-   OR (("%automap_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%vert_offset%")
+   OR (("%automap_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%vert_offset%") 
-   OR (("%projectile_traps_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%vert_offset%")
+   OR (("%projectile_traps_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
 
- END 
- 
- 
- 
+ END
+
+
+
  SET info_1=1
  FOR( cnt=0; cnt<"%entrances_num%"; cnt=cnt+1 ) BEGIN  //entrance loop
    READ_ASCII ("%entrances_offset%"+0xc8*cnt)       "entrance_name" (17)
@@ -1189,113 +1189,113 @@ END
 
 SET "info_ext"=0x68
 
-   PATCH_IF ("%actors_offset%">"%entrances_offset%") 
-   OR (("%actors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+   PATCH_IF ("%actors_offset%">"%entrances_offset%")
+   OR (("%actors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%entrances_offset%") 
-   OR (("%spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%entrances_offset%")
+   OR (("%spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%entrances_offset%") 
-   OR (("%infotrig_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%entrances_offset%")
+   OR (("%infotrig_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%entrances_offset%") 
-   OR (("%cont_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%entrances_offset%")
+   OR (("%cont_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%entrances_offset%") 
-   OR (("%items_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%entrances_offset%")
+   OR (("%items_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%entrances_offset%") 
-   OR (("%vert_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%entrances_offset%")
+   OR (("%vert_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%entrances_offset%") 
-   OR (("%amb_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%entrances_offset%")
+   OR (("%amb_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%entrances_offset%") 
-   OR (("%vars_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%entrances_offset%")
+   OR (("%vars_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%entrances_offset%") 
-   OR (("%expbmp_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%entrances_offset%")
+   OR (("%expbmp_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%entrances_offset%") 
-   OR (("%doors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%entrances_offset%")
+   OR (("%doors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%entrances_offset%") 
-   OR (("%anim_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%entrances_offset%")
+   OR (("%anim_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%entrances_offset%") 
-   OR (("%tiled_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%entrances_offset%")
+   OR (("%tiled_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%entrances_offset%") 
-   OR (("%songs_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%entrances_offset%")
+   OR (("%songs_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%entrances_offset%") 
-   OR (("%rest_spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%entrances_offset%")
+   OR (("%rest_spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%entrances_offset%") 
-   OR (("%automap_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%entrances_offset%")
+   OR (("%automap_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%entrances_offset%") 
-   OR (("%projectile_traps_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%entrances_offset%")
+   OR (("%projectile_traps_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -1313,7 +1313,7 @@ COPY_EXISTING ~%AR1%.are~ ~override~
   BUT_ONLY_IF_IT_CHANGES
 
 
-COPY_EXISTING ~%AR2%.are~ ~override~ 
+COPY_EXISTING ~%AR2%.are~ ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -1361,7 +1361,7 @@ COPY_EXISTING ~%AR2%.are~ ~override~
    WRITE_SHORT (offset+0x24) 2260         //Bounding box top
    WRITE_SHORT (offset+0x26) 3825         //Bounding box right
    WRITE_SHORT (offset+0x28) 2325         //Bounding box bottom
-   WRITE_SHORT (offset+0x2a) 5            //# vertices 
+   WRITE_SHORT (offset+0x2a) 5            //# vertices
    WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
    WRITE_LONG  (offset+0x34) 30           //cursor rame number
    WRITE_ASCII (offset+0x38) ~CM0750~			//Destination area
@@ -1377,113 +1377,113 @@ COPY_EXISTING ~%AR2%.are~ ~override~
 
    SET "info_ext"=0xc4
 
-PATCH_IF ("%actors_offset%">"%infotrig_offset%") 
-   OR (("%actors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+PATCH_IF ("%actors_offset%">"%infotrig_offset%")
+   OR (("%actors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%infotrig_offset%") 
-   OR (("%spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%infotrig_offset%")
+   OR (("%spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%infotrig_offset%") 
-   OR (("%entrances_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%infotrig_offset%")
+   OR (("%entrances_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%infotrig_offset%") 
-   OR (("%cont_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%infotrig_offset%")
+   OR (("%cont_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%infotrig_offset%") 
-   OR (("%items_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%infotrig_offset%")
+   OR (("%items_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%infotrig_offset%") 
-   OR (("%vert_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%infotrig_offset%")
+   OR (("%vert_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%infotrig_offset%") 
-   OR (("%amb_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%infotrig_offset%")
+   OR (("%amb_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%infotrig_offset%") 
-   OR (("%vars_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%infotrig_offset%")
+   OR (("%vars_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%infotrig_offset%") 
-   OR (("%expbmp_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%infotrig_offset%")
+   OR (("%expbmp_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%infotrig_offset%") 
-   OR (("%doors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%infotrig_offset%")
+   OR (("%doors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%infotrig_offset%") 
-   OR (("%anim_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%infotrig_offset%")
+   OR (("%anim_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%infotrig_offset%") 
-   OR (("%tiled_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%infotrig_offset%")
+   OR (("%tiled_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%infotrig_offset%") 
-   OR (("%songs_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%infotrig_offset%")
+   OR (("%songs_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%infotrig_offset%") 
-   OR (("%rest_spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%infotrig_offset%")
+   OR (("%rest_spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%infotrig_offset%") 
-   OR (("%automap_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%infotrig_offset%")
+   OR (("%automap_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%infotrig_offset%") 
-   OR (("%projectile_traps_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%infotrig_offset%")
+   OR (("%projectile_traps_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -1506,123 +1506,123 @@ PATCH_IF ("%actors_offset%">"%infotrig_offset%")
    WRITE_SHORT 0x80  "%vert_num%"
 
    SET "info_ext"=0x04*5
-   
-      PATCH_IF ("%actors_offset%">"%vert_offset%") 
-   OR (("%actors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+      PATCH_IF ("%actors_offset%">"%vert_offset%")
+   OR (("%actors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%vert_offset%") 
-   OR (("%spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%vert_offset%")
+   OR (("%spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%vert_offset%") 
-   OR (("%entrances_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%vert_offset%")
+   OR (("%entrances_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%vert_offset%") 
-   OR (("%cont_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%vert_offset%")
+   OR (("%cont_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%vert_offset%") 
-   OR (("%items_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%vert_offset%")
+   OR (("%items_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%vert_offset%") 
-   OR (("%infotrig_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%vert_offset%")
+   OR (("%infotrig_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%vert_offset%") 
-   OR (("%amb_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%vert_offset%")
+   OR (("%amb_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%vert_offset%") 
-   OR (("%vars_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%vert_offset%")
+   OR (("%vars_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%vert_offset%") 
-   OR (("%expbmp_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%vert_offset%")
+   OR (("%expbmp_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%vert_offset%") 
-   OR (("%doors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%vert_offset%")
+   OR (("%doors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%vert_offset%") 
-   OR (("%anim_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%vert_offset%")
+   OR (("%anim_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%vert_offset%") 
-   OR (("%tiled_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%vert_offset%")
+   OR (("%tiled_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%vert_offset%") 
-   OR (("%songs_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%vert_offset%")
+   OR (("%songs_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%vert_offset%") 
-   OR (("%rest_spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%vert_offset%")
+   OR (("%rest_spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%vert_offset%") 
-   OR (("%automap_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%vert_offset%")
+   OR (("%automap_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%vert_offset%") 
-   OR (("%projectile_traps_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%vert_offset%")
+   OR (("%projectile_traps_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
 
- END 
- 
- 
- 
+ END
+
+
+
 SET info_1=1
  FOR( cnt=0; cnt<"%entrances_num%"; cnt=cnt+1 ) BEGIN  //spawns loop
    READ_ASCII ("%entrances_offset%"+0xc8*cnt)       "entrance_name" (17)
@@ -1635,7 +1635,7 @@ PATCH_IF (info_1=1) BEGIN             //adding new Entrance
 
 
 
-SET offset = ("%entrances_offset%"+0x68*"%entrances_num%") 
+SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
 INSERT_BYTES offset 0x68
 WRITE_ASCII offset ~Exit0750~			//Name
 WRITE_LONG (offset + 0x20) 3730		//Location X
@@ -1646,123 +1646,123 @@ WRITE_SHORT 0x6c  "%entrances_num%"
 END
 SET "info_ext"=0x68
 
-PATCH_IF ("%actors_offset%">"%entrances_offset%") 
-   OR (("%actors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+PATCH_IF ("%actors_offset%">"%entrances_offset%")
+   OR (("%actors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%entrances_offset%") 
-   OR (("%spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%entrances_offset%")
+   OR (("%spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%entrances_offset%") 
-   OR (("%infotrig_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%entrances_offset%")
+   OR (("%infotrig_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%entrances_offset%") 
-   OR (("%cont_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%entrances_offset%")
+   OR (("%cont_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%entrances_offset%") 
-   OR (("%items_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%entrances_offset%")
+   OR (("%items_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%entrances_offset%") 
-   OR (("%vert_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%entrances_offset%")
+   OR (("%vert_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%entrances_offset%") 
-   OR (("%amb_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%entrances_offset%")
+   OR (("%amb_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%entrances_offset%") 
-   OR (("%vars_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%entrances_offset%")
+   OR (("%vars_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%entrances_offset%") 
-   OR (("%expbmp_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%entrances_offset%")
+   OR (("%expbmp_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%entrances_offset%") 
-   OR (("%doors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%entrances_offset%")
+   OR (("%doors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%entrances_offset%") 
-   OR (("%anim_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%entrances_offset%")
+   OR (("%anim_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%entrances_offset%") 
-   OR (("%tiled_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%entrances_offset%")
+   OR (("%tiled_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%entrances_offset%") 
-   OR (("%songs_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%entrances_offset%")
+   OR (("%songs_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%entrances_offset%") 
-   OR (("%rest_spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%entrances_offset%")
+   OR (("%rest_spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%entrances_offset%") 
-   OR (("%automap_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%entrances_offset%")
+   OR (("%automap_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%entrances_offset%") 
-   OR (("%projectile_traps_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%entrances_offset%")
+   OR (("%projectile_traps_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
-BUT_ONLY_IF_IT_CHANGES  
+BUT_ONLY_IF_IT_CHANGES
 
 
 
 
-COPY_EXISTING ~%AR3%.are~ ~override~ 
+COPY_EXISTING ~%AR3%.are~ ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -1812,7 +1812,7 @@ COPY_EXISTING ~%AR3%.are~ ~override~
    WRITE_SHORT (offset+0x24) 1480         //Bounding box top
    WRITE_SHORT (offset+0x26) 631         //Bounding box right
    WRITE_SHORT (offset+0x28) 1531         //Bounding box bottom
-   WRITE_SHORT (offset+0x2a) 5            //# vertices 
+   WRITE_SHORT (offset+0x2a) 5            //# vertices
    WRITE_LONG  (offset+0x2c) "%vert_num%" //first vertex index
    WRITE_LONG  (offset+0x34) 28           //cursor rame number
    WRITE_ASCII (offset+0x38) ~CM2680~			//Destination area
@@ -1827,114 +1827,114 @@ COPY_EXISTING ~%AR3%.are~ ~override~
    WRITE_SHORT 0x5a  "%infotrig_num%"
 
    SET "info_ext"=0xc4
-   
-   PATCH_IF ("%actors_offset%">"%infotrig_offset%") 
-   OR (("%actors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%infotrig_offset%")
+   OR (("%actors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%infotrig_offset%") 
-   OR (("%spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%infotrig_offset%")
+   OR (("%spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%infotrig_offset%") 
-   OR (("%entrances_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%infotrig_offset%")
+   OR (("%entrances_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%infotrig_offset%") 
-   OR (("%cont_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%infotrig_offset%")
+   OR (("%cont_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%infotrig_offset%") 
-   OR (("%items_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%infotrig_offset%")
+   OR (("%items_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%infotrig_offset%") 
-   OR (("%vert_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%infotrig_offset%")
+   OR (("%vert_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%infotrig_offset%") 
-   OR (("%amb_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%infotrig_offset%")
+   OR (("%amb_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%infotrig_offset%") 
-   OR (("%vars_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%infotrig_offset%")
+   OR (("%vars_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%infotrig_offset%") 
-   OR (("%expbmp_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%infotrig_offset%")
+   OR (("%expbmp_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%infotrig_offset%") 
-   OR (("%doors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%infotrig_offset%")
+   OR (("%doors_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%infotrig_offset%") 
-   OR (("%anim_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%infotrig_offset%")
+   OR (("%anim_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%infotrig_offset%") 
-   OR (("%tiled_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%infotrig_offset%")
+   OR (("%tiled_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%infotrig_offset%") 
-   OR (("%songs_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%infotrig_offset%")
+   OR (("%songs_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%infotrig_offset%") 
-   OR (("%rest_spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%infotrig_offset%")
+   OR (("%rest_spawns_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%infotrig_offset%") 
-   OR (("%automap_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%infotrig_offset%")
+   OR (("%automap_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%infotrig_offset%") 
-   OR (("%projectile_traps_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%infotrig_offset%")
+   OR (("%projectile_traps_offset%" == "%infotrig_offset%") AND ("%infotrig_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -1959,132 +1959,132 @@ COPY_EXISTING ~%AR3%.are~ ~override~
    WRITE_SHORT 0x80  "%vert_num%"
 
    SET "info_ext"=0x04*5
-   
-   PATCH_IF ("%actors_offset%">"%vert_offset%") 
-   OR (("%actors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%vert_offset%")
+   OR (("%actors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%vert_offset%") 
-   OR (("%spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%vert_offset%")
+   OR (("%spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%vert_offset%") 
-   OR (("%entrances_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%vert_offset%")
+   OR (("%entrances_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%vert_offset%") 
-   OR (("%cont_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%vert_offset%")
+   OR (("%cont_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%vert_offset%") 
-   OR (("%items_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%vert_offset%")
+   OR (("%items_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%vert_offset%") 
-   OR (("%infotrig_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%vert_offset%")
+   OR (("%infotrig_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%vert_offset%") 
-   OR (("%amb_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%vert_offset%")
+   OR (("%amb_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%vert_offset%") 
-   OR (("%vars_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%vert_offset%")
+   OR (("%vars_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%vert_offset%") 
-   OR (("%expbmp_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%vert_offset%")
+   OR (("%expbmp_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%vert_offset%") 
-   OR (("%doors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%vert_offset%")
+   OR (("%doors_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%vert_offset%") 
-   OR (("%anim_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%vert_offset%")
+   OR (("%anim_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%vert_offset%") 
-   OR (("%tiled_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%vert_offset%")
+   OR (("%tiled_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%vert_offset%") 
-   OR (("%songs_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%vert_offset%")
+   OR (("%songs_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%vert_offset%") 
-   OR (("%rest_spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%vert_offset%")
+   OR (("%rest_spawns_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%vert_offset%") 
-   OR (("%automap_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%vert_offset%")
+   OR (("%automap_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%vert_offset%") 
-   OR (("%projectile_traps_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%vert_offset%")
+   OR (("%projectile_traps_offset%" == "%vert_offset%") AND ("%vert_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
-END 
- 
+END
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
  SET info_1=1
  FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
    READ_ASCII ("%actors_offset%"+0x110*cnt)       "actor_name" (13)
@@ -2113,113 +2113,113 @@ END
  END
 
  SET "info_ext"=0x110*info_1
- PATCH_IF ("%infotrig_offset%">"%actors_offset%") 
- OR (("%infotrig_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+ PATCH_IF ("%infotrig_offset%">"%actors_offset%")
+ OR (("%infotrig_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
    WRITE_LONG  0x5c "%infotrig_offset%"
  END
- 
- PATCH_IF ("%spawns_offset%">"%actors_offset%") 
- OR (("%spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%spawns_offset%">"%actors_offset%")
+ OR (("%spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "spawns_offset"="%spawns_offset%"+"%info_ext%"
    WRITE_LONG  0x60  "%spawns_offset%"
  END
- 
- PATCH_IF ("%entrances_offset%">"%actors_offset%") 
- OR (("%entrances_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%entrances_offset%">"%actors_offset%")
+ OR (("%entrances_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "entrances_offset"="%entrances_offset%"+"%info_ext%"
    WRITE_LONG  0x68  "%entrances_offset%"
  END
- 
- PATCH_IF ("%cont_offset%">"%actors_offset%") 
- OR (("%cont_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%cont_offset%">"%actors_offset%")
+ OR (("%cont_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "cont_offset"="%cont_offset%"+"%info_ext%"
    WRITE_LONG  0x70  "%cont_offset%"
  END
- 
- PATCH_IF ("%items_offset%">"%actors_offset%") 
- OR (("%items_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%items_offset%">"%actors_offset%")
+ OR (("%items_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "items_offset"="%items_offset%"+"%info_ext%"
    WRITE_LONG  0x78  "%items_offset%"
  END
- 
- PATCH_IF ("%vert_offset%">"%actors_offset%") 
- OR (("%vert_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%vert_offset%">"%actors_offset%")
+ OR (("%vert_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "vert_offset"="%vert_offset%"+"%info_ext%"
    WRITE_LONG  0x7c  "%vert_offset%"
  END
- 
- PATCH_IF ("%amb_offset%">"%actors_offset%") 
- OR (("%amb_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%amb_offset%">"%actors_offset%")
+ OR (("%amb_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "amb_offset"="%amb_offset%"+"%info_ext%"
    WRITE_LONG  0x84  "%amb_offset%"
  END
- 
- PATCH_IF ("%vars_offset%">"%actors_offset%") 
- OR (("%vars_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%vars_offset%">"%actors_offset%")
+ OR (("%vars_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "vars_offset"="%vars_offset%"+"%info_ext%"
    WRITE_LONG  0x88  "%vars_offset%"
  END
- 
- PATCH_IF ("%expbmp_offset%">"%actors_offset%") 
- OR (("%expbmp_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%expbmp_offset%">"%actors_offset%")
+ OR (("%expbmp_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
    WRITE_LONG  0xa0  "%expbmp_offset%"
  END
- 
- PATCH_IF ("%doors_offset%">"%actors_offset%") 
- OR (("%doors_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%doors_offset%">"%actors_offset%")
+ OR (("%doors_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "doors_offset"="%doors_offset%"+"%info_ext%"
    WRITE_LONG  0xa8  "%doors_offset%"
  END
- 
- PATCH_IF ("%anim_offset%">"%actors_offset%") 
- OR (("%anim_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%anim_offset%">"%actors_offset%")
+ OR (("%anim_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "anim_offset"="%anim_offset%"+"%info_ext%"
    WRITE_LONG  0xb0  "%anim_offset%"
  END
- 
- PATCH_IF ("%tiled_offset%">"%actors_offset%") 
- OR (("%tiled_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%tiled_offset%">"%actors_offset%")
+ OR (("%tiled_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "tiled_offset"="%tiled_offset%"+"%info_ext%"
    WRITE_LONG  0xb8  "%tiled_offset%"
  END
- 
- PATCH_IF ("%songs_offset%">"%actors_offset%") 
- OR (("%songs_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%songs_offset%">"%actors_offset%")
+ OR (("%songs_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "songs_offset"="%songs_offset%"+"%info_ext%"
    WRITE_LONG  0xbc  "%songs_offset%"
  END
- 
- PATCH_IF ("%rest_spawns_offset%">"%actors_offset%") 
- OR (("%rest_spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%rest_spawns_offset%">"%actors_offset%")
+ OR (("%rest_spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
    WRITE_LONG  0xc0  "%rest_spawns_offset%"
  END
- 
- PATCH_IF ("%automap_offset%">"%actors_offset%") 
- OR (("%automap_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%automap_offset%">"%actors_offset%")
+ OR (("%automap_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "automap_offset"="%automap_offset%"+"%info_ext%"
    WRITE_LONG  0xc4  "%automap_offset%"
  END
- 
- PATCH_IF ("%projectile_traps_offset%">"%actors_offset%") 
- OR (("%projectile_traps_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%projectile_traps_offset%">"%actors_offset%")
+ OR (("%projectile_traps_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -2246,7 +2246,7 @@ SET info_1=1
 PATCH_IF (info_1=1) BEGIN             //adding new Entrance
 
 
-SET offset = ("%entrances_offset%"+0x68*"%entrances_num%") 
+SET offset = ("%entrances_offset%"+0x68*"%entrances_num%")
 INSERT_BYTES offset 0x68
 WRITE_ASCII offset ~Exit2680~			//Name
 WRITE_LONG (offset + 0x20) 557		//Location X
@@ -2257,113 +2257,113 @@ WRITE_SHORT 0x6c  "%entrances_num%"
 END
 SET "info_ext"=0x68
 
-PATCH_IF ("%actors_offset%">"%entrances_offset%") 
-   OR (("%actors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+PATCH_IF ("%actors_offset%">"%entrances_offset%")
+   OR (("%actors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%spawns_offset%">"%entrances_offset%") 
-   OR (("%spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%spawns_offset%">"%entrances_offset%")
+   OR (("%spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "spawns_offset"="%spawns_offset%"+"%info_ext%"
      WRITE_LONG  0x60  "%spawns_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%entrances_offset%") 
-   OR (("%infotrig_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%entrances_offset%")
+   OR (("%infotrig_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%entrances_offset%") 
-   OR (("%cont_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%entrances_offset%")
+   OR (("%cont_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%entrances_offset%") 
-   OR (("%items_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%entrances_offset%")
+   OR (("%items_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%entrances_offset%") 
-   OR (("%vert_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%entrances_offset%")
+   OR (("%vert_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%entrances_offset%") 
-   OR (("%amb_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%entrances_offset%")
+   OR (("%amb_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%entrances_offset%") 
-   OR (("%vars_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%entrances_offset%")
+   OR (("%vars_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%entrances_offset%") 
-   OR (("%expbmp_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%entrances_offset%")
+   OR (("%expbmp_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%entrances_offset%") 
-   OR (("%doors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%entrances_offset%")
+   OR (("%doors_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%entrances_offset%") 
-   OR (("%anim_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%entrances_offset%")
+   OR (("%anim_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%entrances_offset%") 
-   OR (("%tiled_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%entrances_offset%")
+   OR (("%tiled_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%entrances_offset%") 
-   OR (("%songs_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%entrances_offset%")
+   OR (("%songs_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%entrances_offset%") 
-   OR (("%rest_spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%entrances_offset%")
+   OR (("%rest_spawns_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%entrances_offset%") 
-   OR (("%automap_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%entrances_offset%")
+   OR (("%automap_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%entrances_offset%") 
-   OR (("%projectile_traps_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%entrances_offset%")
+   OR (("%projectile_traps_offset%" == "%entrances_offset%") AND ("%entrances_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -2395,114 +2395,114 @@ SET info_1=1
  END
 
    SET "info_ext"=0xc8*info_1
-   
-   PATCH_IF ("%actors_offset%">"%spawns_offset%") 
-   OR (("%actors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%actors_offset%">"%spawns_offset%")
+   OR (("%actors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%spawns_offset%") 
-   OR (("%vert_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%spawns_offset%")
+   OR (("%vert_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%spawns_offset%") 
-   OR (("%entrances_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%spawns_offset%")
+   OR (("%entrances_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%spawns_offset%") 
-   OR (("%cont_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%spawns_offset%")
+   OR (("%cont_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%spawns_offset%") 
-   OR (("%items_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%spawns_offset%")
+   OR (("%items_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%spawns_offset%") 
-   OR (("%infotrig_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%spawns_offset%")
+   OR (("%infotrig_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%spawns_offset%") 
-   OR (("%amb_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%spawns_offset%")
+   OR (("%amb_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%spawns_offset%") 
-   OR (("%vars_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%spawns_offset%")
+   OR (("%vars_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%spawns_offset%") 
-   OR (("%expbmp_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%spawns_offset%")
+   OR (("%expbmp_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%spawns_offset%") 
-   OR (("%doors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%spawns_offset%")
+   OR (("%doors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%spawns_offset%") 
-   OR (("%anim_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%spawns_offset%")
+   OR (("%anim_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%spawns_offset%") 
-   OR (("%tiled_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%spawns_offset%")
+   OR (("%tiled_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%spawns_offset%") 
-   OR (("%songs_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%spawns_offset%")
+   OR (("%songs_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%spawns_offset%") 
-   OR (("%rest_spawns_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%spawns_offset%")
+   OR (("%rest_spawns_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%spawns_offset%") 
-   OR (("%automap_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%spawns_offset%")
+   OR (("%automap_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%spawns_offset%") 
-   OR (("%projectile_traps_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%spawns_offset%")
+   OR (("%projectile_traps_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -2535,113 +2535,113 @@ SET info_1=1
  END
 
    SET "info_ext"=0xc8*info_1
-   PATCH_IF ("%actors_offset%">"%spawns_offset%") 
-   OR (("%actors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+   PATCH_IF ("%actors_offset%">"%spawns_offset%")
+   OR (("%actors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "actors_offset"="%actors_offset%"+"%info_ext%"
      WRITE_LONG  0x54 "%actors_offset%"
    END
-   
-   PATCH_IF ("%vert_offset%">"%spawns_offset%") 
-   OR (("%vert_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%vert_offset%">"%spawns_offset%")
+   OR (("%vert_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "vert_offset"="%vert_offset%"+"%info_ext%"
      WRITE_LONG  0x7c  "%vert_offset%"
    END
-   
-   PATCH_IF ("%entrances_offset%">"%spawns_offset%") 
-   OR (("%entrances_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%entrances_offset%">"%spawns_offset%")
+   OR (("%entrances_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "entrances_offset"="%entrances_offset%"+"%info_ext%"
      WRITE_LONG  0x68  "%entrances_offset%"
    END
-   
-   PATCH_IF ("%cont_offset%">"%spawns_offset%") 
-   OR (("%cont_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%cont_offset%">"%spawns_offset%")
+   OR (("%cont_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "cont_offset"="%cont_offset%"+"%info_ext%"
      WRITE_LONG  0x70  "%cont_offset%"
    END
-   
-   PATCH_IF ("%items_offset%">"%spawns_offset%") 
-   OR (("%items_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%items_offset%">"%spawns_offset%")
+   OR (("%items_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "items_offset"="%items_offset%"+"%info_ext%"
      WRITE_LONG  0x78  "%items_offset%"
    END
-   
-   PATCH_IF ("%infotrig_offset%">"%spawns_offset%") 
-   OR (("%infotrig_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%infotrig_offset%">"%spawns_offset%")
+   OR (("%infotrig_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
      WRITE_LONG  0x5c  "%infotrig_offset%"
    END
-   
-   PATCH_IF ("%amb_offset%">"%spawns_offset%") 
-   OR (("%amb_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%amb_offset%">"%spawns_offset%")
+   OR (("%amb_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "amb_offset"="%amb_offset%"+"%info_ext%"
      WRITE_LONG  0x84  "%amb_offset%"
    END
-   
-   PATCH_IF ("%vars_offset%">"%spawns_offset%") 
-   OR (("%vars_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%vars_offset%">"%spawns_offset%")
+   OR (("%vars_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "vars_offset"="%vars_offset%"+"%info_ext%"
      WRITE_LONG  0x88  "%vars_offset%"
    END
-   
-   PATCH_IF ("%expbmp_offset%">"%spawns_offset%") 
-   OR (("%expbmp_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%expbmp_offset%">"%spawns_offset%")
+   OR (("%expbmp_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
      WRITE_LONG  0xa0  "%expbmp_offset%"
    END
-   
-   PATCH_IF ("%doors_offset%">"%spawns_offset%") 
-   OR (("%doors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%doors_offset%">"%spawns_offset%")
+   OR (("%doors_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "doors_offset"="%doors_offset%"+"%info_ext%"
      WRITE_LONG  0xa8  "%doors_offset%"
    END
-   
-   PATCH_IF ("%anim_offset%">"%spawns_offset%") 
-   OR (("%anim_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%anim_offset%">"%spawns_offset%")
+   OR (("%anim_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "anim_offset"="%anim_offset%"+"%info_ext%"
      WRITE_LONG  0xb0  "%anim_offset%"
    END
-   
-   PATCH_IF ("%tiled_offset%">"%spawns_offset%") 
-   OR (("%tiled_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%tiled_offset%">"%spawns_offset%")
+   OR (("%tiled_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "tiled_offset"="%tiled_offset%"+"%info_ext%"
      WRITE_LONG  0xb8  "%tiled_offset%"
    END
-   
-   PATCH_IF ("%songs_offset%">"%spawns_offset%") 
-   OR (("%songs_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%songs_offset%">"%spawns_offset%")
+   OR (("%songs_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "songs_offset"="%songs_offset%"+"%info_ext%"
      WRITE_LONG  0xbc  "%songs_offset%"
    END
-   
-   PATCH_IF ("%rest_spawns_offset%">"%spawns_offset%") 
-   OR (("%rest_spawns_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%rest_spawns_offset%">"%spawns_offset%")
+   OR (("%rest_spawns_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
      WRITE_LONG  0xc0  "%rest_spawns_offset%"
    END
-   
-   PATCH_IF ("%automap_offset%">"%spawns_offset%") 
-   OR (("%automap_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%automap_offset%">"%spawns_offset%")
+   OR (("%automap_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
      "automap_offset"="%automap_offset%"+"%info_ext%"
      WRITE_LONG  0xc4  "%automap_offset%"
    END
-   
-   PATCH_IF ("%projectile_traps_offset%">"%spawns_offset%") 
-   OR (("%projectile_traps_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))   
+
+   PATCH_IF ("%projectile_traps_offset%">"%spawns_offset%")
+   OR (("%projectile_traps_offset%" == "%spawns_offset%") AND ("%spawns_num%" == 0))
    BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -2697,7 +2697,7 @@ BUT_ONLY
 COPY_EXISTING ~%AR6%.ARE~ ~override~
  READ_SHORT 0x76  "items_num"
  READ_LONG  0x78  "items_offset"
- 
+
 SET item_1=1
 SET cnt2=0
 SET cnt3=0
@@ -2713,8 +2713,8 @@ SET cnt3=0
   	 END
   	 END
  	END
- 	
-PATCH_IF (item_1=0) BEGIN  
+
+PATCH_IF (item_1=0) BEGIN
 SET offset = ("%items_offset%"+0x14*cnt3)
 WRITE_ASCII offset ~HALB03~
 END
@@ -2725,7 +2725,7 @@ SET ~charges1~ = 0
 SET ~charges2~ = 0
 SET ~charges3~ = 0
 LAUNCH_PATCH_MACRO ~REPLACE_AREA_ITEM~
- 
+
 SPRINT ~old_item~ ~CLCK01~
 SPRINT ~new_item~ ~CLCK02~
 SET ~charges1~ = 0
@@ -2769,8 +2769,8 @@ SET cnt3=0
   	 END
   	 END
  	END
- 	
-PATCH_IF (item_1=0) BEGIN  
+
+PATCH_IF (item_1=0) BEGIN
 SET offset = ("%items_offset%"+0x14*cnt3)
 WRITE_ASCII offset ~AROW04~
 END
@@ -2789,8 +2789,8 @@ SET cnt3=0
   	 END
   	 END
  	END
- 	
-PATCH_IF (item_1=0) BEGIN  
+
+PATCH_IF (item_1=0) BEGIN
 SET offset = ("%items_offset%"+0x14*cnt3)
 WRITE_ASCII offset ~HAMM02~
 END
@@ -2809,8 +2809,8 @@ SET cnt3=0
   	 END
   	 END
  	END
- 	
-PATCH_IF (item_1=0) BEGIN  
+
+PATCH_IF (item_1=0) BEGIN
 SET offset = ("%items_offset%"+0x14*cnt3)
 WRITE_ASCII offset ~XBOW02~
 END
@@ -2850,8 +2850,8 @@ SET cnt3=0
   	 END
   	 END
  	END
- 	
-PATCH_IF (item_1=0) BEGIN  
+
+PATCH_IF (item_1=0) BEGIN
 SET offset = ("%items_offset%"+0x14*cnt3)
 WRITE_ASCII offset ~BOW02~
 END
@@ -2885,8 +2885,8 @@ SET cnt3=0
   	 END
   	 END
  	END
- 	
-PATCH_IF (item_1=0) BEGIN  
+
+PATCH_IF (item_1=0) BEGIN
 SET offset = ("%items_offset%"+0x14*cnt3)
 WRITE_ASCII offset ~XBOW03~
 END
@@ -2905,8 +2905,8 @@ SET cnt3=0
   	 END
   	 END
  	END
- 	
-PATCH_IF (item_1=0) BEGIN  
+
+PATCH_IF (item_1=0) BEGIN
 SET offset = ("%items_offset%"+0x14*cnt3)
 WRITE_ASCII offset ~BOW04~
 END
@@ -2971,7 +2971,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 
 BUT_ONLY
 
-COPY_EXISTING ~%AR10%.ARE~ ~override~ 
+COPY_EXISTING ~%AR10%.ARE~ ~override~
 SET ~container_to_add_to~ = 2
 SPRINT ~item_to_add~ ~MISC07~
 SET ~charges1~ = 0
@@ -3003,7 +3003,7 @@ LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
 
-COPY_EXISTING ~%AR11%.ARE~ ~override~ 
+COPY_EXISTING ~%AR11%.ARE~ ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
  READ_SHORT 0x5a  "infotrig_num"
@@ -3035,7 +3035,7 @@ COPY_EXISTING ~%AR11%.ARE~ ~override~
  READ_LONG  0xc8  "automap_num"
  READ_LONG	0xcc	"projectile_traps_offset"
  READ_LONG	0xd0	"projectile_traps_num"
- 
+
 SET info_1=1
  FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
    READ_ASCII ("%actors_offset%"+0x110*cnt)       "actor_name" (13)
@@ -3064,113 +3064,113 @@ SET info_1=1
  END
 
  SET "info_ext"=0x110*info_1
- PATCH_IF ("%infotrig_offset%">"%actors_offset%") 
- OR (("%infotrig_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+ PATCH_IF ("%infotrig_offset%">"%actors_offset%")
+ OR (("%infotrig_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
    WRITE_LONG  0x5c "%infotrig_offset%"
  END
- 
- PATCH_IF ("%spawns_offset%">"%actors_offset%") 
- OR (("%spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%spawns_offset%">"%actors_offset%")
+ OR (("%spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "spawns_offset"="%spawns_offset%"+"%info_ext%"
    WRITE_LONG  0x60  "%spawns_offset%"
  END
- 
- PATCH_IF ("%entrances_offset%">"%actors_offset%") 
- OR (("%entrances_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%entrances_offset%">"%actors_offset%")
+ OR (("%entrances_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "entrances_offset"="%entrances_offset%"+"%info_ext%"
    WRITE_LONG  0x68  "%entrances_offset%"
  END
- 
- PATCH_IF ("%cont_offset%">"%actors_offset%") 
- OR (("%cont_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%cont_offset%">"%actors_offset%")
+ OR (("%cont_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "cont_offset"="%cont_offset%"+"%info_ext%"
    WRITE_LONG  0x70  "%cont_offset%"
  END
- 
- PATCH_IF ("%items_offset%">"%actors_offset%") 
- OR (("%items_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%items_offset%">"%actors_offset%")
+ OR (("%items_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "items_offset"="%items_offset%"+"%info_ext%"
    WRITE_LONG  0x78  "%items_offset%"
  END
- 
- PATCH_IF ("%vert_offset%">"%actors_offset%") 
- OR (("%vert_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%vert_offset%">"%actors_offset%")
+ OR (("%vert_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "vert_offset"="%vert_offset%"+"%info_ext%"
    WRITE_LONG  0x7c  "%vert_offset%"
  END
- 
- PATCH_IF ("%amb_offset%">"%actors_offset%") 
- OR (("%amb_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%amb_offset%">"%actors_offset%")
+ OR (("%amb_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "amb_offset"="%amb_offset%"+"%info_ext%"
    WRITE_LONG  0x84  "%amb_offset%"
  END
- 
- PATCH_IF ("%vars_offset%">"%actors_offset%") 
- OR (("%vars_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%vars_offset%">"%actors_offset%")
+ OR (("%vars_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "vars_offset"="%vars_offset%"+"%info_ext%"
    WRITE_LONG  0x88  "%vars_offset%"
  END
- 
- PATCH_IF ("%expbmp_offset%">"%actors_offset%") 
- OR (("%expbmp_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%expbmp_offset%">"%actors_offset%")
+ OR (("%expbmp_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
    WRITE_LONG  0xa0  "%expbmp_offset%"
  END
- 
- PATCH_IF ("%doors_offset%">"%actors_offset%") 
- OR (("%doors_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%doors_offset%">"%actors_offset%")
+ OR (("%doors_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "doors_offset"="%doors_offset%"+"%info_ext%"
    WRITE_LONG  0xa8  "%doors_offset%"
  END
- 
- PATCH_IF ("%anim_offset%">"%actors_offset%") 
- OR (("%anim_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%anim_offset%">"%actors_offset%")
+ OR (("%anim_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "anim_offset"="%anim_offset%"+"%info_ext%"
    WRITE_LONG  0xb0  "%anim_offset%"
  END
- 
- PATCH_IF ("%tiled_offset%">"%actors_offset%") 
- OR (("%tiled_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%tiled_offset%">"%actors_offset%")
+ OR (("%tiled_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "tiled_offset"="%tiled_offset%"+"%info_ext%"
    WRITE_LONG  0xb8  "%tiled_offset%"
  END
- 
- PATCH_IF ("%songs_offset%">"%actors_offset%") 
- OR (("%songs_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%songs_offset%">"%actors_offset%")
+ OR (("%songs_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "songs_offset"="%songs_offset%"+"%info_ext%"
    WRITE_LONG  0xbc  "%songs_offset%"
  END
- 
- PATCH_IF ("%rest_spawns_offset%">"%actors_offset%") 
- OR (("%rest_spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%rest_spawns_offset%">"%actors_offset%")
+ OR (("%rest_spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
    WRITE_LONG  0xc0  "%rest_spawns_offset%"
  END
- 
- PATCH_IF ("%automap_offset%">"%actors_offset%") 
- OR (("%automap_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%automap_offset%">"%actors_offset%")
+ OR (("%automap_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "automap_offset"="%automap_offset%"+"%info_ext%"
    WRITE_LONG  0xc4  "%automap_offset%"
  END
- 
- PATCH_IF ("%projectile_traps_offset%">"%actors_offset%") 
- OR (("%projectile_traps_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%projectile_traps_offset%">"%actors_offset%")
+ OR (("%projectile_traps_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
@@ -3207,118 +3207,118 @@ SET info_1=1
  END
 
  SET "info_ext"=0x110*info_1
- PATCH_IF ("%infotrig_offset%">"%actors_offset%") 
- OR (("%infotrig_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+ PATCH_IF ("%infotrig_offset%">"%actors_offset%")
+ OR (("%infotrig_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "infotrig_offset"="%infotrig_offset%"+"%info_ext%"
    WRITE_LONG  0x5c "%infotrig_offset%"
  END
- 
- PATCH_IF ("%spawns_offset%">"%actors_offset%") 
- OR (("%spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%spawns_offset%">"%actors_offset%")
+ OR (("%spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "spawns_offset"="%spawns_offset%"+"%info_ext%"
    WRITE_LONG  0x60  "%spawns_offset%"
  END
- 
- PATCH_IF ("%entrances_offset%">"%actors_offset%") 
- OR (("%entrances_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%entrances_offset%">"%actors_offset%")
+ OR (("%entrances_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "entrances_offset"="%entrances_offset%"+"%info_ext%"
    WRITE_LONG  0x68  "%entrances_offset%"
  END
- 
- PATCH_IF ("%cont_offset%">"%actors_offset%") 
- OR (("%cont_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%cont_offset%">"%actors_offset%")
+ OR (("%cont_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "cont_offset"="%cont_offset%"+"%info_ext%"
    WRITE_LONG  0x70  "%cont_offset%"
  END
- 
- PATCH_IF ("%items_offset%">"%actors_offset%") 
- OR (("%items_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%items_offset%">"%actors_offset%")
+ OR (("%items_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "items_offset"="%items_offset%"+"%info_ext%"
    WRITE_LONG  0x78  "%items_offset%"
  END
- 
- PATCH_IF ("%vert_offset%">"%actors_offset%") 
- OR (("%vert_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%vert_offset%">"%actors_offset%")
+ OR (("%vert_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "vert_offset"="%vert_offset%"+"%info_ext%"
    WRITE_LONG  0x7c  "%vert_offset%"
  END
- 
- PATCH_IF ("%amb_offset%">"%actors_offset%") 
- OR (("%amb_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%amb_offset%">"%actors_offset%")
+ OR (("%amb_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "amb_offset"="%amb_offset%"+"%info_ext%"
    WRITE_LONG  0x84  "%amb_offset%"
  END
- 
- PATCH_IF ("%vars_offset%">"%actors_offset%") 
- OR (("%vars_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%vars_offset%">"%actors_offset%")
+ OR (("%vars_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "vars_offset"="%vars_offset%"+"%info_ext%"
    WRITE_LONG  0x88  "%vars_offset%"
  END
- 
- PATCH_IF ("%expbmp_offset%">"%actors_offset%") 
- OR (("%expbmp_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%expbmp_offset%">"%actors_offset%")
+ OR (("%expbmp_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "expbmp_offset"="%expbmp_offset%"+"%info_ext%"
    WRITE_LONG  0xa0  "%expbmp_offset%"
  END
- 
- PATCH_IF ("%doors_offset%">"%actors_offset%") 
- OR (("%doors_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%doors_offset%">"%actors_offset%")
+ OR (("%doors_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "doors_offset"="%doors_offset%"+"%info_ext%"
    WRITE_LONG  0xa8  "%doors_offset%"
  END
- 
- PATCH_IF ("%anim_offset%">"%actors_offset%") 
- OR (("%anim_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%anim_offset%">"%actors_offset%")
+ OR (("%anim_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "anim_offset"="%anim_offset%"+"%info_ext%"
    WRITE_LONG  0xb0  "%anim_offset%"
  END
- 
- PATCH_IF ("%tiled_offset%">"%actors_offset%") 
- OR (("%tiled_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%tiled_offset%">"%actors_offset%")
+ OR (("%tiled_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "tiled_offset"="%tiled_offset%"+"%info_ext%"
    WRITE_LONG  0xb8  "%tiled_offset%"
  END
- 
- PATCH_IF ("%songs_offset%">"%actors_offset%") 
- OR (("%songs_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%songs_offset%">"%actors_offset%")
+ OR (("%songs_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "songs_offset"="%songs_offset%"+"%info_ext%"
    WRITE_LONG  0xbc  "%songs_offset%"
  END
- 
- PATCH_IF ("%rest_spawns_offset%">"%actors_offset%") 
- OR (("%rest_spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%rest_spawns_offset%">"%actors_offset%")
+ OR (("%rest_spawns_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "rest_spawns_offset"="%rest_spawns_offset%"+"%info_ext%"
    WRITE_LONG  0xc0  "%rest_spawns_offset%"
  END
- 
- PATCH_IF ("%automap_offset%">"%actors_offset%") 
- OR (("%automap_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%automap_offset%">"%actors_offset%")
+ OR (("%automap_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "automap_offset"="%automap_offset%"+"%info_ext%"
    WRITE_LONG  0xc4  "%automap_offset%"
  END
- 
- PATCH_IF ("%projectile_traps_offset%">"%actors_offset%") 
- OR (("%projectile_traps_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))   
+
+ PATCH_IF ("%projectile_traps_offset%">"%actors_offset%")
+ OR (("%projectile_traps_offset%" == "%actors_offset%") AND ("%actors_num%" == 0))
  BEGIN
    "projectile_traps_offset"="%projectile_traps_offset%"+"%info_ext%"
    	 WRITE_LONG  0xcc  "%projectile_traps_offset%"
    END
-   
+
 BUT_ONLY
 
 COPY_EXISTING ~%AR12%.ARE~ ~override~
@@ -3411,13 +3411,13 @@ COPY ~DarkHorizons/%ItemsFolder%/CMARQ02.ITM~ ~override~
   SAY NAME2 @15
   SAY 0x50 @16
   SAY 0x54 @17
-  
+
 COPY ~DarkHorizons/%ItemsFolder%/CMARQ03.ITM~ ~override~
   SAY NAME1 @18
   SAY NAME2 @19
   SAY 0x50 @20
   SAY 0x54 @21
-  
+
 COPY ~DarkHorizons/%ItemsFolder%/CMARQ04.ITM~ ~override~
   SAY NAME1 @18
   SAY NAME2 @22
@@ -3435,7 +3435,7 @@ COPY ~DarkHorizons/%ItemsFolder%/CMARQ06.itm~ ~override~
   SAY NAME2 @28
   SAY 0x50 @29
   SAY 0x54 @30
-  
+
 COPY ~DarkHorizons/items/CMARQ07.itm~ ~override~
   SAY NAME1 @18
   SAY NAME2 @31
@@ -3459,7 +3459,7 @@ COPY ~DarkHorizons/items/CMARQ10.itm~ ~override~
   SAY NAME2 @39
   SAY 0x50 @25
   SAY 0x54 @40
-  
+
 /* ---------- Version 2.00 Additions ------------ */
 
 COPY ~DarkHorizons/items/CMARQ11.itm~ ~override~
@@ -3467,7 +3467,7 @@ COPY ~DarkHorizons/items/CMARQ11.itm~ ~override~
   SAY NAME2 @827
   SAY 0x50 @29
   SAY 0x54 @29
-  
+
 COPY ~DarkHorizons/%ItemsFolder%/CMARQ12.itm~ ~override~
   SAY NAME1 @14
   SAY NAME2 @828
@@ -3511,7 +3511,7 @@ COPY ~DarkHorizons/items/CMCHAN07.itm~ ~override~
   SAY NAME2 @55
   SAY 0x50 @37
   SAY 0x54 @56
- 
+
 COPY ~DarkHorizons/items/CMLEAT1.ITM~ ~override~
   SAY NAME1 @18
   SAY NAME2 @57
@@ -3673,7 +3673,7 @@ COPY ~DarkHorizons/items/CMCLQ01.itm~ ~override~
   SAY NAME2 @122
   SAY 0x50 @123
   SAY 0x54 @124
-  
+
 
 
 /*  Gloves **** */
@@ -3777,7 +3777,7 @@ COPY ~DarkHorizons/items/CMHMQ04.itm~ ~override~
   SAY NAME2 @836
   SAY 0x50 @148
   SAY 0x54 @148
-  
+
 /* --------------------------------------     */
 
 /* Shields **** */
@@ -3821,8 +3821,8 @@ COPY ~DarkHorizons/%ItemsFolder%/CMSHQ02.itm~ ~override~
   SAY 0x50 @168
   SAY 0x54 @168
 
-/* --------------------------------------     */  
- 
+/* --------------------------------------     */
+
  /* ************************ Weapons ******************* */
 
  /* Arrows **** */
@@ -3902,7 +3902,7 @@ COPY ~DarkHorizons/items/CMBLUN05.ITM~ ~override~
   SAY NAME2 @222
   SAY 0x50 @223
   SAY 0x54 @224
- 
+
 COPY ~DarkHorizons/%ItemsFolder%/CMFLQ01.itm~ ~override~
   SAY NAME1 @221
   SAY NAME2 @225
@@ -3926,7 +3926,7 @@ COPY ~DarkHorizons/items/CMHAMM03.ITM~ ~override~
   SAY NAME2 @236
   SAY 0x50 @237
   SAY 0x54 @238
-  
+
 /* ---------- Version 2.00 Additions ------------ */
 
 COPY ~DarkHorizons/items/CMHAMM04.itm~ ~override~
@@ -3934,9 +3934,9 @@ COPY ~DarkHorizons/items/CMHAMM04.itm~ ~override~
   SAY NAME2 @838
   SAY 0x50 @234
   SAY 0x54 @839
-  
+
 /* --------------------------------------     */
- 
+
 COPY ~DarkHorizons/items/CMHAQ01.ITM~ ~override~
   SAY NAME1 @232
   SAY NAME2 @239
@@ -3960,7 +3960,7 @@ COPY ~DarkHorizons/items/CMMSQ02.itm~ ~override~
   SAY NAME2 @246
   SAY 0x50 @209
   SAY 0x54 @247
- 
+
 /* Bows **** */
 
 COPY ~DarkHorizons/%ItemsFolder%/CMBOW01.itm~ ~override~
@@ -3980,7 +3980,7 @@ COPY ~DarkHorizons/items/CMBOW03.ITM~ ~override~
   SAY NAME2 @255
   SAY 0x50 @256
   SAY 0x54 @257
-  
+
 /* ---------- Version 2.00 Additions ------------ */
 
 COPY ~DarkHorizons/%ItemsFolder%/CMBOW04.itm~ ~override~
@@ -3990,7 +3990,7 @@ COPY ~DarkHorizons/%ItemsFolder%/CMBOW04.itm~ ~override~
   SAY 0x54 @835
 
 /* --------------------------------------     */
- 
+
 COPY ~DarkHorizons/items/CMBWQ01.itm~ ~override~
   SAY NAME1 @254
   SAY NAME2 @258
@@ -4060,7 +4060,7 @@ COPY ~DarkHorizons/items/cmdagg02.itm~ ~override~
   SAY NAME2 @290
   SAY 0x50 @291
   SAY 0x54 @292
-  
+
 /* Version 2.00 addition */
 
 COPY ~DarkHorizons/items/CMDAGG03.itm~ ~override~
@@ -4105,7 +4105,7 @@ COPY ~DarkHorizons/items/CMDAQ05.itm~ ~override~
   SAY NAME2 @303
   SAY 0x50 @304
   SAY 0x54 @305
- 
+
 /* Halberds and Spears **** */
 
 COPY ~DarkHorizons/items/CMSPQ01.itm~ ~override~
@@ -4133,7 +4133,7 @@ COPY ~DarkHorizons/items/CMSLQ01.itm~ ~override~
   SAY NAME2 @315
   SAY 0x50 @316
   SAY 0x54 @317
-  
+
 /* Version 2.00 addition */
 
 COPY ~DarkHorizons/items/CMSLQ02.itm~ ~override~
@@ -4227,11 +4227,11 @@ OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
 OUTER_SET use_her = RESOLVE_STR_REF (@910)
 APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      %CM_S1H07%      2           %use_her%~ UNLESS ~CMS1H07~
 
-END ELSE ACTION_IF (GAME_IS ~bg2 bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN  
+END ELSE ACTION_IF (GAME_IS ~bg2 bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN
 
 PRINT ~Item restricted to Nikita for bg2~
 OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
-APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      -1      2          %CM_S1H07%~ UNLESS ~CMS1H07~ 
+APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      -1      2          %CM_S1H07%~ UNLESS ~CMS1H07~
 
 END
 
@@ -4246,7 +4246,7 @@ COPY ~DarkHorizons/items/CMS1H09.itm~ ~override~
   SAY NAME2 @357
   SAY 0x50 @358
   SAY 0x54 @359
-  
+
 /* ---------- Version 2.00 Additions ------------ */
 
 COPY ~DarkHorizons/items/CMS1H10.itm~ ~override~
@@ -4254,15 +4254,15 @@ COPY ~DarkHorizons/items/CMS1H10.itm~ ~override~
   SAY NAME2 @830
   SAY 0x50 @340
   SAY 0x54 @831
-  
+
 COPY ~DarkHorizons/items/CMS1H11.itm~ ~override~
   SAY NAME1 @338
   SAY NAME2 @832
   SAY 0x50 @340
   SAY 0x54 @833
-  
+
 /* --------------------------------------     */
- 
+
 COPY ~DarkHorizons/items/CMSWQ01.itm~ ~override~
   SAY NAME1 @360
   SAY NAME2 @361
@@ -4359,7 +4359,7 @@ COPY ~DarkHorizons/items/CMSWQ17.itm~ ~override~
   SAY NAME2 @407
   SAY 0x50 @408
   SAY 0x54 @409
- 
+
 /* ********************* Jewelry ************************* */
 
 /* Amulets **** */
@@ -4527,29 +4527,29 @@ COPY ~DarkHorizons/items/SCRSEC7.itm~ ~override~
   SAY NAME1 @461
   SAY NAME2 @461
   SAY 0x50 @469
-  
-/* ********************* Food *********************** */ 
+
+/* ********************* Food *********************** */
 
 COPY ~DarkHorizons/items/CMFOOD1.ITM~ ~override~
   SAY NAME1 @470
   SAY NAME2 @470
   SAY 0x50 @471
   SAY 0x54 @471
-  SAY 0x10E @473 
+  SAY 0x10E @473
 
 COPY ~DarkHorizons/items/CMFOOD2.itm~ ~override~
   SAY NAME1 @474
   SAY NAME2 @474
   SAY 0x50 @475
   SAY 0x54 @475
-  SAY 0x10E @473 
+  SAY 0x10E @473
 
 COPY ~DarkHorizons/items/CMGRAPE.itm~ ~override~
   SAY NAME1 @474
   SAY NAME2 @474
   SAY 0x50 @475
   SAY 0x54 @475
-  SAY 0x10E @473 
+  SAY 0x10E @473
 
 COPY ~DarkHorizons/items/CMHEAL1.ITM~ ~override~
   SAY NAME1 @763
@@ -4569,8 +4569,8 @@ COPY ~DarkHorizons/items/CMKFC01.ITM~ ~override~
   SAY NAME2 @483
   SAY 0x50 @484
   SAY 0x54 @484
-  SAY 0x10E @473 
-  
+  SAY 0x10E @473
+
 COPY ~DarkHorizons/items/CMPOT01.itm~ ~override~
   SAY NAME1 @479
   SAY NAME2 @485
@@ -4621,7 +4621,7 @@ COPY ~DarkHorizons/items/CMCAND1.ITM~ ~override~
   SAY 0x50 @507
   SAY 0x54 @508
   SAY 0x10E @509
-  
+
 /* ********************* Plot items and creature only items *************** */
 
 COPY ~DarkHorizons/items/CMDAMUL.ITM~ ~override~
@@ -4674,7 +4674,7 @@ COPY ~DarkHorizons/items/CMKEY04.itm~ ~override~
   SAY NAME1 @524
   SAY NAME2 @527
   SAY 0x50 @528
-  
+
 /* Bags & Containers New for version 200 */
 
 COPY ~DarkHorizons/items/CMBAG01.ITM~ ~override~
@@ -4688,7 +4688,7 @@ COPY ~DarkHorizons/items/CMBAG03.ITM~ ~override~
   SAY NAME2 @812
   SAY 0x50 @811
   SAY 0x54 @811
-  
+
 COPY ~DarkHorizons/items/CMBAG04.ITM~ ~override~
   SAY NAME1 @814
   SAY NAME2 @814
@@ -4700,14 +4700,14 @@ COPY ~DarkHorizons/items/CMBAG05.ITM~ ~override~
   SAY NAME2 @816
   SAY 0x50 @815
   SAY 0x54 @815
-  
+
 COPY ~DarkHorizons/items/CMBAG06.ITM~ ~override~
   SAY NAME1 @818
   SAY NAME2 @818
   SAY 0x50 @817
   SAY 0x54 @817
-  
-/* BG1 Adventures items */ 
+
+/* BG1 Adventures items */
 
 COPY ~DarkHorizons/items/maarow01.itm~   ~override/maarow01.itm~
   SAY NAME1 @183
@@ -4715,12 +4715,12 @@ COPY ~DarkHorizons/items/maarow01.itm~   ~override/maarow01.itm~
   SAY UNIDENTIFIED_DESC @530
   SAY DESC @531
 
-COPY ~DarkHorizons/items/maax1h01.itm~   ~override/maax1h01.itm~ 
+COPY ~DarkHorizons/items/maax1h01.itm~   ~override/maax1h01.itm~
   SAY NAME1 @764
   SAY NAME2 @532
   SAY DESC @533
 
-COPY ~DarkHorizons/%ItemsFolder%/mclck01.itm~   ~override/mclck01.itm~ 
+COPY ~DarkHorizons/%ItemsFolder%/mclck01.itm~   ~override/mclck01.itm~
   SAY NAME1 @112
   SAY NAME2 @534
   SAY UNIDENTIFIED_DESC @114
@@ -4731,18 +4731,18 @@ COPY    ~DarkHorizons/items/ma1sw01.itm~   ~override/ma1sw01.itm~
   SAY NAME2 @536
   SAY DESC @537
 
-COPY    ~DarkHorizons/items/ma1sw02.itm~   ~override/ma1sw02.itm~ 
+COPY    ~DarkHorizons/items/ma1sw02.itm~   ~override/ma1sw02.itm~
   SAY NAME1 @538
   SAY NAME2 @539
   SAY DESC @540
 
-COPY    ~DarkHorizons/items/ma2sw01.itm~   ~override/ma2sw01.itm~ 
+COPY    ~DarkHorizons/items/ma2sw01.itm~   ~override/ma2sw01.itm~
   SAY NAME1 @394
   SAY NAME2 @541
   SAY UNIDENTIFIED_DESC @542
   SAY DESC @543
 
-COPY    ~DarkHorizons/items/ma2sw02.itm~   ~override/ma2sw02.itm~ 
+COPY    ~DarkHorizons/items/ma2sw02.itm~   ~override/ma2sw02.itm~
   SAY NAME1 @544
   SAY NAME2 @545
   SAY DESC @546
@@ -4752,7 +4752,7 @@ COPY    ~DarkHorizons/items/maax1h02.itm~   ~override/maax1h02.itm~
   SAY NAME2 @532
   SAY DESC @547
 
-COPY    ~DarkHorizons/items/maax1h03.itm~   ~override/maax1h03.itm~ 
+COPY    ~DarkHorizons/items/maax1h03.itm~   ~override/maax1h03.itm~
   SAY NAME1 @200
   SAY NAME2 @548
   SAY UNIDENTIFIED_DESC @205
@@ -4763,12 +4763,12 @@ COPY ~DarkHorizons/%ItemsFolder%/mabrac01.itm~   ~override/mabrac01.itm~
   SAY NAME2 @550
   SAY DESC @551
 
-COPY ~DarkHorizons/%ItemsFolder%/mabrac02.itm~   ~override/mabrac02.itm~ 
+COPY ~DarkHorizons/%ItemsFolder%/mabrac02.itm~   ~override/mabrac02.itm~
   SAY NAME1 @766
   SAY NAME2 @552
   SAY DESC @553
 
-COPY    ~DarkHorizons/items/mabull01.itm~   ~override/mabull01.itm~ 
+COPY    ~DarkHorizons/items/mabull01.itm~   ~override/mabull01.itm~
   SAY NAME1 @275
   SAY NAME2 @554
   SAY UNIDENTIFIED_DESC @280
@@ -4779,61 +4779,61 @@ COPY    ~DarkHorizons/items/machan01.itm~   ~override/machan01.itm~
   SAY NAME2 @556
   SAY DESC @557
 
-COPY    ~DarkHorizons/%ItemsFolder%/maclck01.itm~   ~override/maclck01.itm~ 
+COPY    ~DarkHorizons/%ItemsFolder%/maclck01.itm~   ~override/maclck01.itm~
   SAY NAME1 @116
   SAY NAME2 @558
   SAY DESC @559
 
-COPY    ~DarkHorizons/items/macmbl01.itm~   ~override/macmbl01.itm~ 
+COPY    ~DarkHorizons/items/macmbl01.itm~   ~override/macmbl01.itm~
   SAY NAME1 @221
   SAY NAME2 @560
   SAY DESC @561
 
-COPY    ~DarkHorizons/items/macmbl02.itm~   ~override/macmbl02.itm~ 
+COPY    ~DarkHorizons/items/macmbl02.itm~   ~override/macmbl02.itm~
   SAY NAME1 @207
   SAY NAME2 @562
   SAY DESC @563
 
-COPY    ~DarkHorizons/items/macmda01.itm~   ~override/macmda01.itm~ 
+COPY    ~DarkHorizons/items/macmda01.itm~   ~override/macmda01.itm~
   SAY NAME1 @286
   SAY NAME2 @564
   SAY DESC @565
 
-COPY    ~DarkHorizons/items/macmhe01.itm~   ~override/macmhe01.itm~ 
+COPY    ~DarkHorizons/items/macmhe01.itm~   ~override/macmhe01.itm~
   SAY NAME1 @566
   SAY NAME2 @567
   SAY UNIDENTIFIED_DESC @148
   SAY DESC @568
 
-COPY    ~DarkHorizons/items/macmle01.itm~   ~override/macmle01.itm~ 
+COPY    ~DarkHorizons/items/macmle01.itm~   ~override/macmle01.itm~
   SAY NAME1 @70
   SAY NAME2 @39
   SAY UNIDENTIFIED_DESC @569
   SAY DESC @570
 
-COPY    ~DarkHorizons/items/macmle02.itm~   ~override/macmle02.itm~ 
+COPY    ~DarkHorizons/items/macmle02.itm~   ~override/macmle02.itm~
   SAY NAME1 @70
   SAY NAME2 @571
   SAY UNIDENTIFIED_DESC @569
   SAY DESC @572
 
-COPY    ~DarkHorizons/items/macmxb01.itm~   ~override/macmxb01.itm~ 
+COPY    ~DarkHorizons/items/macmxb01.itm~   ~override/macmxb01.itm~
   SAY NAME1 @573
   SAY NAME2 @574
   SAY UNIDENTIFIED_DESC @575
   SAY DESC @576
 
-COPY    ~DarkHorizons/items/mahamm01.itm~   ~override/mahamm01.itm~ 
+COPY    ~DarkHorizons/items/mahamm01.itm~   ~override/mahamm01.itm~
   SAY NAME1 @768
   SAY NAME2 @577
   SAY DESC @578
 
-COPY    ~DarkHorizons/%ItemsFolder%/maplat02.itm~   ~override/maplat02.itm~ 
+COPY    ~DarkHorizons/%ItemsFolder%/maplat02.itm~   ~override/maplat02.itm~
   SAY NAME1 @769
   SAY NAME2 @579
   SAY DESC @580
 
-COPY    ~DarkHorizons/%ItemsFolder%/mashld01.itm~   ~override/mashld01.itm~ 
+COPY    ~DarkHorizons/%ItemsFolder%/mashld01.itm~   ~override/mashld01.itm~
   SAY NAME1 @770
   SAY NAME2 @581
   SAY DESC @582
@@ -4844,40 +4844,40 @@ COPY    ~DarkHorizons/items/mbul01.itm~   ~override/mbul01.itm~
   SAY UNIDENTIFIED_DESC @280
   SAY DESC @584
 
-COPY    ~DarkHorizons/%ItemsFolder%/mcmbow01.itm~   ~override/mcmbow01.itm~ 
+COPY    ~DarkHorizons/%ItemsFolder%/mcmbow01.itm~   ~override/mcmbow01.itm~
   SAY NAME1 @771
   SAY NAME2 @585
   SAY DESC @586
 
-COPY    ~DarkHorizons/items/mhalb01.itm~   ~override/mhalb01.itm~ 
+COPY    ~DarkHorizons/items/mhalb01.itm~   ~override/mhalb01.itm~
   SAY NAME1 @772
   SAY NAME2 @587
   SAY DESC @588
 
-COPY    ~DarkHorizons/%ItemsFolder%/mplat01.itm~   ~override/mplat01.itm~ 
+COPY    ~DarkHorizons/%ItemsFolder%/mplat01.itm~   ~override/mplat01.itm~
   SAY NAME1 @769
   SAY NAME2 @589
   SAY DESC @590
 
  /* ******************** CoM Forge Items *********************** */
- 
+
  COPY ~DarkHorizons/items/MACMHE01.itm~  ~override/MACMHE01.itm~
   SAY NAME1 @773
   SAY NAME2 @567
   SAY DESC @568
 
-COPY ~DarkHorizons/items/MASWOR02.ITM~  ~override/MASWOR02.ITM~      
+COPY ~DarkHorizons/items/MASWOR02.ITM~  ~override/MASWOR02.ITM~
   SAY NAME1 @774
   SAY NAME2 @591
   SAY DESC @592
 
-COPY ~DarkHorizons/%ItemsFolder%/maaxe001.itm~  ~override/maaxe001.itm~       
+COPY ~DarkHorizons/%ItemsFolder%/maaxe001.itm~  ~override/maaxe001.itm~
   SAY NAME1 @200
   SAY NAME2 @593
-  SAY UNIDENTIFIED_DESC @594 
+  SAY UNIDENTIFIED_DESC @594
   SAY DESC @595
 
-COPY ~DarkHorizons/items/mablun06.itm~  ~override/mablun06.itm~       
+COPY ~DarkHorizons/items/mablun06.itm~  ~override/mablun06.itm~
   SAY NAME1 @775
   SAY NAME2 @596
   SAY DESC @597
@@ -4887,52 +4887,52 @@ COPY ~DarkHorizons/items/MAFORG01.ITM~  ~override/MAFORG01.ITM~
   SAY NAME2 @598
   SAY DESC @599
 
-COPY ~DarkHorizons/items/MAFORG02.ITM~  ~override/MAFORG02.ITM~       
+COPY ~DarkHorizons/items/MAFORG02.ITM~  ~override/MAFORG02.ITM~
   SAY NAME1 @774
   SAY NAME2 @600
   SAY DESC @601
 
-COPY ~DarkHorizons/items/MAFORG03.ITM~  ~override/MAFORG03.ITM~       
+COPY ~DarkHorizons/items/MAFORG03.ITM~  ~override/MAFORG03.ITM~
   SAY NAME1 @777
   SAY NAME2 @602
   SAY DESC @603
 
-COPY ~DarkHorizons/items/MAFORG04.ITM~  ~override/MAFORG04.ITM~       
+COPY ~DarkHorizons/items/MAFORG04.ITM~  ~override/MAFORG04.ITM~
   SAY NAME1 @778
   SAY NAME2 @604
   SAY DESC @605
 
-COPY ~DarkHorizons/items/MAFORG05.ITM~  ~override/MAFORG05.ITM~       
+COPY ~DarkHorizons/items/MAFORG05.ITM~  ~override/MAFORG05.ITM~
   SAY NAME1 @779
   SAY NAME2 @606
   SAY DESC @607
 
-COPY ~DarkHorizons/%ItemsFolder%/MAFORG06.ITM~  ~override/MAFORG06.ITM~    
+COPY ~DarkHorizons/%ItemsFolder%/MAFORG06.ITM~  ~override/MAFORG06.ITM~
   SAY NAME1 @780
   SAY NAME2 @608
   SAY DESC @609
 
-COPY ~DarkHorizons/%ItemsFolder%/MAFORG07.ITM~  ~override/MAFORG07.ITM~      
+COPY ~DarkHorizons/%ItemsFolder%/MAFORG07.ITM~  ~override/MAFORG07.ITM~
   SAY NAME1 @781
   SAY NAME2 @610
   SAY DESC @611
 
-COPY ~DarkHorizons/items/MAFORG08.ITM~  ~override/MAFORG08.ITM~       
+COPY ~DarkHorizons/items/MAFORG08.ITM~  ~override/MAFORG08.ITM~
   SAY NAME1 @782
   SAY NAME2 @612
   SAY DESC @613
 
-COPY ~DarkHorizons/items/MAFORG09.ITM~  ~override/MAFORG09.ITM~       
+COPY ~DarkHorizons/items/MAFORG09.ITM~  ~override/MAFORG09.ITM~
   SAY NAME1 @783
   SAY NAME2 @614
   SAY DESC @615
 
-COPY ~DarkHorizons/items/MAFORG10.ITM~  ~override/MAFORG10.ITM~       
+COPY ~DarkHorizons/items/MAFORG10.ITM~  ~override/MAFORG10.ITM~
   SAY NAME1 @784
   SAY NAME2 @616
   SAY DESC @617
 
-COPY ~DarkHorizons/items/MAFORG11.ITM~  ~override/MAFORG11.ITM~       
+COPY ~DarkHorizons/items/MAFORG11.ITM~  ~override/MAFORG11.ITM~
   SAY NAME1 @785
   SAY NAME2 @618
   SAY DESC @619
@@ -4942,12 +4942,12 @@ COPY ~DarkHorizons/%ItemsFolder%/mapla001.itm~  ~override/mapla001.itm~
   SAY NAME2 @620
   SAY DESC @621
 
-COPY ~DarkHorizons/items/MASPER01.ITM~  ~override/MASPER01.ITM~       
+COPY ~DarkHorizons/items/MASPER01.ITM~  ~override/MASPER01.ITM~
   SAY NAME1 @786
   SAY NAME2 @622
   SAY DESC @623
 
-COPY ~DarkHorizons/items/MASWOR01.ITM~  ~override/MASWOR01.ITM~       
+COPY ~DarkHorizons/items/MASWOR01.ITM~  ~override/MASWOR01.ITM~
   SAY NAME1 @346
   SAY NAME2 @624
   SAY UNIDENTIFIED_DESC @625
@@ -4959,27 +4959,27 @@ COPY ~DarkHorizons/items/MAHAMM01.ITM~  ~override/MAHAMM01.ITM~
   SAY DESC @628
 
 
-COPY ~DarkHorizons/items/MAHAMM02.ITM~  ~override/MAHAMM02.ITM~       
+COPY ~DarkHorizons/items/MAHAMM02.ITM~  ~override/MAHAMM02.ITM~
   SAY NAME1 @787
   SAY NAME2 @629
   SAY DESC @630
 
-COPY ~DarkHorizons/%ItemsFolder%/MAHELM01.ITM~  ~override/MAHELM01.ITM~       
+COPY ~DarkHorizons/%ItemsFolder%/MAHELM01.ITM~  ~override/MAHELM01.ITM~
   SAY NAME1 @780
   SAY NAME2 @631
   SAY DESC @632
 
-COPY ~DarkHorizons/%ItemsFolder%/MAHELM02.ITM~  ~override/MAHELM02.ITM~       
+COPY ~DarkHorizons/%ItemsFolder%/MAHELM02.ITM~  ~override/MAHELM02.ITM~
   SAY NAME1 @780
   SAY NAME2 @633
   SAY DESC @634
 
-COPY ~DarkHorizons/%ItemsFolder%/MACLOC01.ITM~  ~override/MACLOC01.ITM~       
+COPY ~DarkHorizons/%ItemsFolder%/MACLOC01.ITM~  ~override/MACLOC01.ITM~
   SAY NAME1 @788
   SAY NAME2 @635
   SAY DESC @636
 
-COPY ~DarkHorizons/items/MABLUN01.ITM~  ~override/MABLUN01.ITM~      
+COPY ~DarkHorizons/items/MABLUN01.ITM~  ~override/MABLUN01.ITM~
   SAY NAME1 @775
   SAY NAME2 @637
   SAY DESC @638
@@ -4989,12 +4989,12 @@ COPY ~DarkHorizons/items/MABLUN02.ITM~  ~override/MABLUN02.ITM~
   SAY NAME2 @208
   SAY DESC @639
 
-COPY ~DarkHorizons/items/MABLUN03.ITM~  ~override/MABLUN03.ITM~       
+COPY ~DarkHorizons/items/MABLUN03.ITM~  ~override/MABLUN03.ITM~
   SAY NAME1 @790
   SAY NAME2 @640
   SAY DESC @641
 
-COPY ~DarkHorizons/items/MABLUN04.ITM~  ~override/MABLUN04.ITM~       
+COPY ~DarkHorizons/items/MABLUN04.ITM~  ~override/MABLUN04.ITM~
   SAY NAME1 @775
   SAY NAME2 @642
   SAY DESC @643
@@ -5118,7 +5118,7 @@ COMPILE ~DarkHorizons/dlgs/CMMERC04.d~
 
 COMPILE ~DarkHorizons/dlgs/CMMERC05.d~
 
-COMPILE ~DarkHorizons/dlgs/CMMERC06.d~  
+COMPILE ~DarkHorizons/dlgs/CMMERC06.d~
 
 COMPILE ~DarkHorizons/dlgs/redwiz.d~
 
@@ -5253,7 +5253,7 @@ END
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR1000~ (8)
   			END
-  		END		
+  		END
   COPY_EXISTING ~AR1700.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
@@ -5316,7 +5316,7 @@ END
   			END ELSE BEGIN
   				WRITE_EVALUATED_ASCII 0x94 ~AR3300~ (8)
   			END
-  		END		
+  		END
   COPY_EXISTING ~AR5100.are~ ~override~
   	READ_ASCII 0x94 area_script
   		PATCH_IF (("%area_script%" STRING_COMPARE_CASE "None")=0) BEGIN
@@ -5561,7 +5561,7 @@ COMPILE ~DarkHorizons/baf/cmovers2.baf~
 /* --------------- Version 2.00 Additions -----------  */
 
 COMPILE ~DarkHorizons/baf/cmredw01.baf~
-COMPILE ~DarkHorizons/baf/cmredw02.baf~ 
+COMPILE ~DarkHorizons/baf/cmredw02.baf~
 COMPILE ~DarkHorizons/baf/cmredw03.baf~
 COMPILE ~DarkHorizons/baf/cmlath1.baf~
 COMPILE ~DarkHorizons/baf/cmlath2.baf~
@@ -5781,7 +5781,7 @@ COPY ~DarkHorizons/cre/CMGGOB1.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMGHAU01.CRE~ ~override~
   SAY NAME1 @684
   SAY NAME2 @684
-  
+
 COPY ~DarkHorizons/cre/CMGHST01.CRE~ ~override~
   SAY NAME1 @685
   SAY NAME2 @685
@@ -5801,15 +5801,15 @@ COPY ~DarkHorizons/cre/CMGHST04.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMGHST05.CRE~ ~override~
   SAY NAME1 @687
   SAY NAME2 @687
-  
+
 COPY ~DarkHorizons/cre/CMGHST06.CRE~ ~override~
   SAY NAME1 @688
   SAY NAME2 @688
-  
+
 COPY ~DarkHorizons/cre/CMGHST07.CRE~ ~override~
   SAY NAME1 @689
   SAY NAME2 @689
-  
+
 COPY ~DarkHorizons/cre/CMGHST08.CRE~ ~override~
   SAY NAME1 @690
   SAY NAME2 @690
@@ -5865,7 +5865,7 @@ COPY ~DarkHorizons/cre/CMMAGNU.cre~ ~override~
 COPY ~DarkHorizons/cre/CMMERC02.CRE~ ~override~
   SAY NAME1 @703
   SAY NAME2 @703
-  
+
 COPY ~DarkHorizons/cre/CMMYSTR.CRE~ ~override~
   SAY NAME1 @704
   SAY NAME2 @704
@@ -5874,7 +5874,7 @@ COPY ~DarkHorizons/cre/CMMYSTR.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMNAJAR2.CRE~ ~override~
   SAY NAME1 @705
   SAY NAME2 @705
-  SAY 0xc8  @706 
+  SAY 0xc8  @706
 
 COPY ~DarkHorizons/cre/CMNAJAR3.CRE~ ~override~
   SAY NAME1 @707
@@ -5883,15 +5883,15 @@ COPY ~DarkHorizons/cre/CMNAJAR3.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMNAJAR4.CRE~ ~override~
   SAY NAME1 @705
   SAY NAME2 @705
-  SAY 0xc8  @706 
+  SAY 0xc8  @706
 
 COPY ~DarkHorizons/cre/CMNAJARA.CRE~ ~override~
   SAY NAME1 @708
   SAY NAME2 @708
-  SAY 0xa4  @709 
-  SAY 0xc8  @710 
+  SAY 0xa4  @709
+  SAY 0xc8  @710
   SAY 0xec  @711
-  SAY 0xf0  @712 
+  SAY 0xf0  @712
 
 COPY ~DarkHorizons/cre/CMOGREM1.CRE~ ~override~
   SAY NAME1 @713
@@ -5956,7 +5956,7 @@ COPY ~DarkHorizons/cre/CMOSEC14.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMOSEC15.CRE~ ~override~
 	SAY NAME1 @714
 	SAY NAME2 @714
-	
+
 COPY ~DarkHorizons/cre/CMOSEC16.CRE~ ~override~
 	SAY NAME1 @714
 	SAY NAME2 @714
@@ -6012,7 +6012,7 @@ COPY ~DarkHorizons/cre/CMSEC07.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC08.CRE~ ~override~
   SAY NAME1 @735
   SAY NAME2 @735
-  
+
 COPY ~DarkHorizons/cre/CMSEC08A.CRE~ ~override~
   SAY NAME1 @735
   SAY NAME2 @735
@@ -6200,15 +6200,15 @@ COPY ~DarkHorizons/cre/CMWYBI2.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMBOU08.CRE~ ~override~
   SAY NAME1 @791
   SAY NAME2 @791
-  
+
 COPY ~DarkHorizons/cre/CMBOU09.CRE~ ~override~
   SAY NAME1 @792
   SAY NAME2 @792
-  
+
 COPY ~DarkHorizons/cre/CMBOU10.CRE~ ~override~
   SAY NAME1 @793
   SAY NAME2 @793
-  
+
 COPY ~DarkHorizons/cre/CMBOU11.CRE~ ~override~
   SAY NAME1 @794
   SAY NAME2 @794
@@ -6216,19 +6216,19 @@ COPY ~DarkHorizons/cre/CMBOU11.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMRWIZ01.CRE~ ~override~
   SAY NAME1 @795
   SAY NAME2 @795
-  
+
 COPY ~DarkHorizons/cre/CMRWIZ02.CRE~ ~override~
   SAY NAME1 @796
   SAY NAME2 @796
-  
+
 COPY ~DarkHorizons/cre/CMRWIZ03.CRE~ ~override~
   SAY NAME1 @797
   SAY NAME2 @797
-  
+
 COPY ~DarkHorizons/cre/CMGNOL03.CRE~ ~override~
   SAY NAME1 @798
   SAY NAME2 @798
-  
+
 COPY ~DarkHorizons/cre/CMGNOL04.CRE~ ~override~
   SAY NAME1 @799
   SAY NAME2 @799
@@ -6236,27 +6236,27 @@ COPY ~DarkHorizons/cre/CMGNOL04.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMELF01.CRE~ ~override~
   SAY NAME1 @800
   SAY NAME2 @800
-  
+
 COPY ~DarkHorizons/cre/CMELF02.CRE~ ~override~
   SAY NAME1 @801
   SAY NAME2 @801
-  
+
 COPY ~DarkHorizons/cre/CMELF03.CRE~ ~override~
   SAY NAME1 @802
   SAY NAME2 @802
-  
+
 COPY ~DarkHorizons/cre/CMELF04.CRE~ ~override~
   SAY NAME1 @802
   SAY NAME2 @802
-  
+
 COPY ~DarkHorizons/cre/CMELF05.CRE~ ~override~
   SAY NAME1 @802
   SAY NAME2 @802
-  
+
 COPY ~DarkHorizons/cre/CMMERC03.CRE~ ~override~
   SAY NAME1 @803
   SAY NAME2 @803
-  
+
 COPY ~DarkHorizons/cre/CMMERC04.CRE~ ~override~
   SAY NAME1 @803
   SAY NAME2 @803
@@ -6264,31 +6264,31 @@ COPY ~DarkHorizons/cre/CMMERC04.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMMERC05.CRE~ ~override~
   SAY NAME1 @840
   SAY NAME2 @840
-  
-COPY ~DarkHorizons/cre/CMMERC06.CRE~ ~override~   
+
+COPY ~DarkHorizons/cre/CMMERC06.CRE~ ~override~
   SAY NAME1 @804
   SAY NAME2 @804
-  
+
 COPY ~DarkHorizons/cre/CM2300A1.CRE~ ~override~
   SAY NAME1 @805
   SAY NAME2 @805
-  
+
 COPY ~DarkHorizons/cre/CM2300A2.CRE~ ~override~
   SAY NAME1 @805
   SAY NAME2 @805
-  
+
 COPY ~DarkHorizons/cre/CM2300A3.CRE~ ~override~
   SAY NAME1 @805
   SAY NAME2 @805
-  
+
 COPY ~DarkHorizons/cre/CM330001.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
-  
+
 COPY ~DarkHorizons/cre/CM330002.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
-  
+
 COPY ~DarkHorizons/cre/CM330003.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
@@ -6296,19 +6296,19 @@ COPY ~DarkHorizons/cre/CM330003.CRE~ ~override~
 COPY ~DarkHorizons/cre/CM330004.CRE~ ~override~
   SAY NAME1 @806
   SAY NAME2 @806
-  
+
 COPY ~DarkHorizons/cre/CM330005.CRE~ ~override~
   SAY NAME1 @807
   SAY NAME2 @807
-  
+
 COPY ~DarkHorizons/cre/CM330006.CRE~ ~override~
   SAY NAME1 @807
   SAY NAME2 @807
-  
+
 COPY ~DarkHorizons/cre/CM330007.CRE~ ~override~
   SAY NAME1 @808
   SAY NAME2 @808
-  
+
 COPY ~DarkHorizons/cre/CM330008.CRE~ ~override~
   SAY NAME1 @808
   SAY NAME2 @808
@@ -6317,25 +6317,25 @@ COPY ~DarkHorizons/cre/CM330008.CRE~ ~override~
 
 COPY    ~DarkHorizons/stores/magnus01.sto~     ~override/magnus01.sto~
   SAY NAME2 @746
-  
+
 COPY    ~DarkHorizons/stores/mathoren.sto~     ~override/mathoren.sto~
   SAY NAME2 @747
-  
+
 COPY    ~DarkHorizons/stores/cmjewel.sto~     ~override/cmjewel.sto~
   SAY NAME2 @748
 
 COPY    ~DarkHorizons/stores/cmkier.sto~     ~override/cmkier.sto~
 	SAY NAME2 @749
 	REPLACE_TEXTUALLY ~SCRL1V~ ~%SCRL1%~ (8)
-  
-  
-  
+
+
+
 COPY    ~DarkHorizons/stores/cmfood1.sto~     ~override/cmfood1.sto~
   SAY NAME2 @682
- 
+
 COPY    ~DarkHorizons/stores/cmmystr.sto~     ~override/cmmystr.sto~
   SAY NAME2 @750
-  
+
 COPY_EXISTING ~%STO0703%.sto~ ~override~
   ADD_STORE_ITEM ~cmclck02~ #0 #0 #0 ~IDENTIFIED~ #1
   ADD_STORE_ITEM ~cmstaf01~ #0 #0 #0 ~IDENTIFIED~ #1
@@ -6360,25 +6360,25 @@ COPY    ~DarkHorizons/%StoresFolder%/CMBAG03.sto~     ~override~
 
 COPY    ~DarkHorizons/%StoresFolder%/CMBAG04.sto~     ~override~
   SAY NAME2 @814
-  
+
 COPY    ~DarkHorizons/%StoresFolder%/CMBAG05.sto~     ~override~
   SAY NAME2 @816
-  
+
 COPY    ~DarkHorizons/%StoresFolder%/CMBAG06.sto~     ~override~
   SAY NAME2 @818
-  
+
 COPY    ~DarkHorizons/stores/CMMERC03.sto~     ~override~
   SAY NAME2 @841
-  
+
 COPY    ~DarkHorizons/stores/CMMERC04.sto~     ~override~
   SAY NAME2 @842
 
 COPY    ~DarkHorizons/stores/CMMERC05.sto~     ~override~
   SAY NAME2 @843
-  
-COPY    ~DarkHorizons/%StoresFolder%/CMMERC06.sto~     ~override~  
+
+COPY    ~DarkHorizons/%StoresFolder%/CMMERC06.sto~     ~override~
   SAY NAME2 @819
-  
+
 
 /* ----------------------- Tutu Specifics ------------------------ */
 
@@ -6422,7 +6422,7 @@ END
 /* ----------------------- BGEE Exclusives ------------------------ */
 
 ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
- 
+
 COPY ~DarkHorizons/items/cmtck01.itm~   ~override/cmtck01.itm~
 SAY NAME1 @112
 SAY NAME2 @902
@@ -6465,10 +6465,10 @@ COPY ~DarkHorizons/cre/CMTNIKIT.cre~ ~override~
   SAY NAME2 @910 /* Nikita */
   SAY INITIAL_MEETING  @911 /* I see. */
   SAY MORALE   @912 /* We can't win this. */
-  SAY HAPPY    ~~
-  SAY UNHAPPY_ANNOYED  ~~ []
-  SAY UNHAPPY_SERIOUS  ~~ []
-  SAY UNHAPPY_BREAKING  ~~ []
+  WRITE_LONG HAPPY    (0 - 1)
+  WRITE_LONG UNHAPPY_ANNOYED  (0 - 1)
+  WRITE_LONG UNHAPPY_SERIOUS  (0 - 1)
+  WRITE_LONG UNHAPPY_BREAKING  (0 - 1)
   SAY LEADER  @914 /* Watch my back. */
   SAY TIRED  @915 /* We should rest soon. I'm dying to get out of these clothes. */
   SAY BORED  @916 /* I didn't come all of this way to die of boredom. */
@@ -6480,34 +6480,34 @@ COPY ~DarkHorizons/cre/CMTNIKIT.cre~ ~override~
   SAY DAMAGE    @922 /* Ughh */
   SAY DYING    @923 /* Dead */
   SAY HURT     @924 /* I feel so cold. */
-  SAY AREA_FOREST    ~~ []
-  SAY AREA_CITY      ~~ []
-  SAY AREA_DUNGEON   ~~ []
-  SAY AREA_DAY     ~~ []
-  SAY AREA_NIGHT   ~~ []
+  WRITE_LONG AREA_FOREST    (0 - 1)
+  WRITE_LONG AREA_CITY      (0 - 1)
+  WRITE_LONG AREA_DUNGEON   (0 - 1)
+  WRITE_LONG AREA_DAY     (0 - 1)
+  WRITE_LONG AREA_NIGHT   (0 - 1)
   SAY SELECT_COMMON1   @925 /* Yes? */
   SAY SELECT_COMMON2    @926 /* I'm here. */
   SAY SELECT_COMMON3   @927 /* You want me? */
   SAY SELECT_COMMON4   @928 /* Ready and willing. */
-  SAY SELECT_COMMON5   ~~ []
-  SAY SELECT_COMMON6   ~~ []
+  WRITE_LONG SELECT_COMMON5   (0 - 1)
+  WRITE_LONG SELECT_COMMON6   (0 - 1)
   SAY SELECT_ACTION1   @929 /* Right. */
   SAY SELECT_ACTION2   @930 /* Very well. */
   SAY SELECT_ACTION3   @931 /* Yes? */
   SAY SELECT_ACTION4   @932 /* Whatever you say. */
-  SAY SELECT_ACTION5    ~~ []
-  SAY SELECT_ACTION6    ~~ []
-  SAY SELECT_ACTION7    ~~ []
+  WRITE_LONG SELECT_ACTION5    (0 - 1)
+  WRITE_LONG SELECT_ACTION6    (0 - 1)
+  WRITE_LONG SELECT_ACTION7    (0 - 1)
   SAY SELECT_RARE1     @933 /* I'd kill for a hot bath right about now. */
   SAY SELECT_RARE2      @934 /* Be careful where you point that thing. */
   SAY CRITICAL_HIT       @921 /* You're gonna bleed. */
   SAY CRITICAL_MISS      @935 /* Argh. */
-  SAY TARGET_IMMUNE    ~~ []
+  WRITE_LONG TARGET_IMMUNE    (0 - 1)
   SAY INVENTORY_FULL   @936 /* Don't expect me to carry the corpse back into town. */
   SAY PICKED_POCKET    @937 /* Done */
   SAY HIDDEN_IN_SHADOWS  @937 /* Done */
-  SAY SPELL_DISRUPTED   ~~ []
-  SAY SET_A_TRAP    ~~ []
+  WRITE_LONG SPELL_DISRUPTED   (0 - 1)
+  WRITE_LONG SET_A_TRAP    (0 - 1)
   SAY BIO @938 /* NIKITA's past is something that she keeps to herself. From what you do know is that she was an orphan for a time until she was brought into Section in her late teens. They trained her to be a charismatic assassin who killed evil individuals. All of this was done for the greater good. But over time Section became corrupt and started to mirror the evil they were fighting. Nikita was liberated from Section when you destroyed the organization. */
   WRITE_ASCII 0x280 ~cmnikita~ (8) // Script name / Death variable
 
@@ -6516,7 +6516,7 @@ COPY ~DarkHorizons/cre/CMTTHOR.cre~ ~override~
   SAY NAME2 @939 /* Thorin */
   SAY INITIAL_MEETING  @940 /* At last the mighty adventurer stands before me. To what do I owe this honor? */
   SAY MORALE   @941 /* It's no use, flee! */
-  SAY HAPPY    ~~
+  WRITE_LONG HAPPY    (0 - 1)
   SAY UNHAPPY_ANNOYED  @942 /* Damn your eyes! */
   SAY UNHAPPY_SERIOUS  @943 /* I hope you choke on that thing! */
   SAY UNHAPPY_BREAKING  @943 /* I hope you choke on that thing! */
@@ -6531,11 +6531,11 @@ COPY ~DarkHorizons/cre/CMTTHOR.cre~ ~override~
   SAY DAMAGE    @952 /* Is that the best that you can do? */
   SAY DYING    @953 /* Ugghh! */
   SAY HURT     @954 /* Aghh! I'm needin' a healer!. */
-  SAY AREA_FOREST    ~~ []
-  SAY AREA_CITY      ~~ []
-  SAY AREA_DUNGEON   ~~ []
-  SAY AREA_DAY     ~~ []
-  SAY AREA_NIGHT   ~~ []
+  WRITE_LONG AREA_FOREST    (0 - 1)
+  WRITE_LONG AREA_CITY      (0 - 1)
+  WRITE_LONG AREA_DUNGEON   (0 - 1)
+  WRITE_LONG AREA_DAY     (0 - 1)
+  WRITE_LONG AREA_NIGHT   (0 - 1)
   SAY SELECT_COMMON1   @955 /* Aye? */
   SAY SELECT_COMMON2    @956 /* What? */
   SAY SELECT_COMMON3   @957 /* I'm here. */
@@ -6555,10 +6555,10 @@ COPY ~DarkHorizons/cre/CMTTHOR.cre~ ~override~
   SAY CRITICAL_MISS      @971 /* Ughh. */
   SAY TARGET_IMMUNE    @968 /* You really have no clue, do ye? */
   SAY INVENTORY_FULL   @943 /* I hope you choke on that thing! */
-  SAY PICKED_POCKET    ~~ []
-  SAY HIDDEN_IN_SHADOWS  ~~ []
-  SAY SPELL_DISRUPTED   ~~ []
-  SAY SET_A_TRAP    ~~ []
+  WRITE_LONG PICKED_POCKET    (0 - 1)
+  WRITE_LONG HIDDEN_IN_SHADOWS  (0 - 1)
+  WRITE_LONG SPELL_DISRUPTED   (0 - 1)
+  WRITE_LONG SET_A_TRAP    (0 - 1)
   SAY BIO @972 /* When asked about his past, THORIN says he's from the famous Stoneblade clan who were once Durlag's captian of the guard for many years. His grandfather was the last to serve Durlag before bad things happen to Durlag and his people. He would like to travel with the party to Durlag's Tower to retrieve some family heirlooms that may still be there and see what happened to his grandfather and the famous Durlag Trollkiller. */
   WRITE_ASCII 0x280 ~CMTTHOR~ (8) // Script name / Death variable
 
@@ -6567,10 +6567,10 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
   SAY NAME2 @973 /* Morwen */
   SAY INITIAL_MEETING  @911 /* I see. */
   SAY MORALE   @912 /* We can't win this. */
-  SAY HAPPY    ~~
-  SAY UNHAPPY_ANNOYED  ~~ []
-  SAY UNHAPPY_SERIOUS  ~~ []
-  SAY UNHAPPY_BREAKING  ~~ []
+  WRITE_LONG HAPPY    (0 - 1)
+  WRITE_LONG UNHAPPY_ANNOYED  (0 - 1)
+  WRITE_LONG UNHAPPY_SERIOUS  (0 - 1)
+  WRITE_LONG UNHAPPY_BREAKING  (0 - 1)
   SAY LEADER  @914 /* Watch my back. */
   SAY TIRED  @915 /* We should rest soon. I'm dying to get out of these clothes. */
   SAY BORED  @916 /* I didn't come all of this way to die of boredom. */
@@ -6582,34 +6582,34 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
   SAY DAMAGE    @922 /* Ughh */
   SAY DYING    @923 /* Dead */
   SAY HURT     @924 /* I feel so cold. */
-  SAY AREA_FOREST    ~~ []
-  SAY AREA_CITY      ~~ []
-  SAY AREA_DUNGEON   ~~ []
-  SAY AREA_DAY     ~~ []
-  SAY AREA_NIGHT   ~~ []
+  WRITE_LONG AREA_FOREST    (0 - 1)
+  WRITE_LONG AREA_CITY      (0 - 1)
+  WRITE_LONG AREA_DUNGEON   (0 - 1)
+  WRITE_LONG AREA_DAY     (0 - 1)
+  WRITE_LONG AREA_NIGHT   (0 - 1)
   SAY SELECT_COMMON1   @925 /* Yes? */
   SAY SELECT_COMMON2    @926 /* I'm here. */
   SAY SELECT_COMMON3   @927 /* You want me? */
-  SAY SELECT_COMMON4   @928 /* Ready and willing. */
-  SAY SELECT_COMMON5   ~~ []
-  SAY SELECT_COMMON6   ~~ []
+  WRITE_LONG SELECT_COMMON4   @928 /* Ready and willing. */
+  WRITE_LONG SELECT_COMMON5   (0 - 1)
+  WRITE_LONG SELECT_COMMON6   (0 - 1)
   SAY SELECT_ACTION1   @929 /* Right. */
   SAY SELECT_ACTION2   @930 /* Very well. */
   SAY SELECT_ACTION3   @931 /* Yes? */
   SAY SELECT_ACTION4   @932 /* Whatever you say. */
-  SAY SELECT_ACTION5    ~~ []
-  SAY SELECT_ACTION6    ~~ []
-  SAY SELECT_ACTION7    ~~ []
+  WRITE_LONG SELECT_ACTION5    (0 - 1)
+  WRITE_LONG SELECT_ACTION6    (0 - 1)
+  WRITE_LONG SELECT_ACTION7    (0 - 1)
   SAY SELECT_RARE1     @933 /* I'd kill for a hot bath right about now. */
   SAY SELECT_RARE2      @934 /* Be careful where you point that thing. */
   SAY CRITICAL_HIT       @921 /* You're gonna bleed. */
   SAY CRITICAL_MISS      @935 /* Argh. */
-  SAY TARGET_IMMUNE    ~~ []
+  WRITE_LONG TARGET_IMMUNE    (0 - 1)
   SAY INVENTORY_FULL   @936 /* Don't expect me to carry the corpse back into town. */
   SAY PICKED_POCKET    @937 /* Done */
   SAY HIDDEN_IN_SHADOWS  @937 /* Done */
-  SAY SPELL_DISRUPTED   ~~ []
-  SAY SET_A_TRAP    ~~ []
+  WRITE_LONG SPELL_DISRUPTED   (0 - 1)
+  WRITE_LONG SET_A_TRAP    (0 - 1)
   SAY BIO @974 /* When asked about her past, MORWEN says she came from a well to do family from the city of Neverwinter. She got her first taste of the epic poems and stories from the northern Skald bards when her family visited the Icewind Dale region when she was young. Ever since then she has been obsessed with their epic tales and adventures. She wished to learn from the Skald bards but they rarely ever came to Neverwinter, until the day that Dale the Bard made a stop there. She first saw him at one of the local pubs, singing his epic exploits in a song. She introduced herself to Dale and soon after he mentored Morwen in the Skald Bard skills as well as being an excellent archer. After learning these skills, she quickly grew bored of the uneventful Neverwinter high life and decided to travel south to the Sword Coast region after she heard about the iron crisis. She traveled to Beregost to find someone who is seeking adventure like herself. */
   WRITE_ASCII 0x280 ~CMTMORW~ (8) // Script name / Death variable
 
@@ -6617,30 +6617,30 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
 ACTION_IF (GAME_IS ~eet~) BEGIN
   PRINT ~              ~
   PRINT ~APPEND pdialog.2da for EET~
-  PRINT ~  
+  PRINT ~
               ~
 
   APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD  ****  ****  ****  ****~
     UNLESS ~cmtnik~
-    
+
   APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD  ****  ****  ****  ****~
     UNLESS ~cmtthor~
-    
+
   APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD  ****  ****  ****  ****~
     UNLESS ~cmtmorw~
-    
+
 END ELSE BEGIN // bgee bgt in this case (other exemple in ChaosKnight)
   PRINT ~              ~
   PRINT ~APPEND pdialog.2da for BGEE or BGT~
-  PRINT ~  
+  PRINT ~
               ~
-  
+
   APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD~
     UNLESS ~cmtnik~
-    
+
   APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD~
     UNLESS ~cmtthor~
-    
+
   APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD~
     UNLESS ~cmtmorw~
 END
