@@ -6590,7 +6590,7 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
   SAY SELECT_COMMON1   @925 /* Yes? */
   SAY SELECT_COMMON2    @926 /* I'm here. */
   SAY SELECT_COMMON3   @927 /* You want me? */
-  WRITE_LONG SELECT_COMMON4   @928 /* Ready and willing. */
+  SAY SELECT_COMMON4   @928 /* Ready and willing. */
   WRITE_LONG SELECT_COMMON5   (0 - 1)
   WRITE_LONG SELECT_COMMON6   (0 - 1)
   SAY SELECT_ACTION1   @929 /* Right. */
