@@ -54,7 +54,7 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
       "polish" => "CP1250"
       "russian" => "CP1251"
       "spanish" => "CP1252"
-      "Schinese" => "GB2312"
+      "schinese" => "GB2312"
     END
     ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
     ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
