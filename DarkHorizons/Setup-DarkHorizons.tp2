@@ -57,7 +57,7 @@ ACTION_IF GAME_IS ~bgee eet~ BEGIN
       "schinese" => "GB2312"
     END
     ACTION_DEFINE_ARRAY charsetsReloadArray BEGIN setup END
-    ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee END
+    ACTION_DEFINE_ARRAY charsetsNoConvertArray BEGIN setup-ee install END
 
     LAF ~HANDLE_CHARSETS~
       INT_VAR
@@ -107,6 +107,7 @@ LANGUAGE ~Spanish~
 LANGUAGE ~Simplified Chinese (Latest Chinese accent by YouYe)~
          ~Schinese~
          ~DarkHorizons/Language/Schinese/setup.tra~
+         ~DarkHorizons/Language/Schinese/install.tra~
 
 
 

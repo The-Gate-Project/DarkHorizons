@@ -1,0 +1,18 @@
+@0    = ~黑暗地平线~
+@1    = ~****************************************~
+@2    = ~* Dark Horizons Mod Version 2.15         *~
+@3    = ~* http://www.teambg.net   	 *~
+@4    = ~*	Copyright 2015 CoM_Solaufein     *~
+@5    = ~*	THIS FILE WILL INSTALL           *~
+@6    = ~* THE DARK HORIZONS IN YOUR GAME        *~
+@7    = ~*      DIRECTORY.                       *~
+@8    = ~*****************************************~
+@9    = ~你似乎没有安装BG:EE, EET, TotSC, TuTu或者BGT。~
+
+// New info or error texts
+@890  = ~BG: EE安装检测。~
+@891  = ~Tutu 安装检测。~
+@892  = ~BGT 安装检测。~
+@893  = ~请安装在BG:EE, EET, TotSC, Tutu或BGT上。~
+@894  = ~BG1 安装检测。~
+@895  = ~EET 安装检测。~
