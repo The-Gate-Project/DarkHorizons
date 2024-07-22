@@ -22,11 +22,11 @@ Non utilisable par :
  Mage
  Voleur~
 @13   = ~Armure de plates naine +3
-Cette armure de plates est de facture naine, ses lignes claires et son apparence solide témoignent des compétences séculaires détenues par les maîtres forgerons nains. Vous sentez également en la portant qu’elle a quelque chose de magique.
+Cette armure de plates est de facture naine, ses lignes claires et son apparence solide témoignent des compétences séculaires détenues par les maîtres forgerons nains. Vous sentez également en la portant qu'elle a quelque chose de magique.
 
 PARAMÈTRES :
 
-Classe d’Armure : -2
+Classe d'Armure : -2
 Constitution : bonus de +1
 Poids : 35
 Utilisable uniquement par :
@@ -43,57 +43,57 @@ Non utilisable par :
  Druide 
  Mage 
  Voleur~
-@17   = ~Forgée par les elfes, cette cotte de mailles est à la fois légère et résistante. Contrairement à la plupart des cottes de mailles, la maille elfique n’empêche pas les mages d’exercer leur art.
+@17   = ~Forgée par les elfes, cette cotte de mailles est à la fois légère et résistante. Contrairement à la plupart des cottes de mailles, la maille elfique n'empêche pas les mages d'exercer leur art.
 
 PARAMÈTRES :
 
-Classe d’Armure : 2
+Classe d'Armure : 2
 Poids : 10~
 @18   = ~Besantine~
-@19   = ~Armure d’épines~
+@19   = ~Armure d'épines~
 @20   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place.
 
 PARAMÈTRES :
 
-Classe d’Armure : 7
+Classe d'Armure : 7
 Poids : 25
 Non utilisable par :
  Mage~
-@21   = ~En y regardant de plus près on peut se rendre compte que cette armure n’est pas faite de cuir mais d’un canevas de lianes, de branches et d’épines. L’armure est un don des nymphes aux druides, en signe de gratitude pour leur constante protection des forêts.
+@21   = ~En y regardant de plus près on peut se rendre compte que cette armure n'est pas faite de cuir mais d'un canevas de lianes, de branches et d'épines. L'armure est un don des nymphes aux druides, en signe de gratitude pour leur constante protection des forêts.
 
 PARAMÈTRES :
 
-Classe d’Armure : 0
+Classe d'Armure : 0
 Jets de sauvegarde : bonus de +3
 Poids : 4
 Utilisable uniquement par :
  Druide (monoclassé, jumelé ou multiclassé)~
 @22   = ~Nimbus~
 @23   = ~Nimbus "Fléau du Kraken" 
-Cette armure de cuir fut façonnée à partir des restes calcinés d’un dragon foudroyé en plein orage, et fut pour la dernière fois aperçue sur son porteur Shrethu Reogher le sorcier. Reste à espérer qu’il soit mort, car si l’armure lui a été volée, il est certainement à sa recherche...
+Cette armure de cuir fut façonnée à partir des restes calcinés d'un dragon foudroyé en plein orage, et fut pour la dernière fois aperçue sur son porteur Shrethu Reogher le sorcier. Reste à espérer qu'il soit mort, car si l'armure lui a été volée, il est certainement à sa recherche...
 
 PARAMÈTRES :
 
-Classe d’Armure : 0
+Classe d'Armure : 0
 Jets de sauvegarde : bonus de +3
-Spécial : résistance à l’électricité
+Spécial : résistance à l'électricité
 Poids : 4
 Utilisable uniquement par :
  Druide~
-@24   = ~Armure d’assassin~
+@24   = ~Armure d'assassin~
 @25   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place.
 
 PARAMÈTRES :
 
-Classe d’Armure : 7
+Classe d'Armure : 7
 Poids : 25
 Non utilisable par :
  Mage~
-@26  = ~L’armure d’assassin est une besantine créée à l’intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n’était qu'une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d’élite. Les Maîtres des Ombres constituent l’ordre le plus important dans la hiérarchie des voleurs de l’ombre. Il s’agit d’une besantine +3 qui peut se fondre dans les ombres.
+@26  = ~L'armure d'assassin est une besantine créée à l'intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n'était qu'une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d'élite. Les Maîtres des Ombres constituent l'ordre le plus important dans la hiérarchie des voleurs de l'ombre. Il s'agit d'une besantine +3 qui peut se fondre dans les ombres.
 
 PARAMÈTRES :
 
-Classe d’Armure : 4
+Classe d'Armure : 4
 Spécial : +30 % en furtivité, action libre, immunité au poison.
 Poids : 8
 Utilisable uniquement par :
@@ -111,12 +111,12 @@ Non utilisable par :
  Druide
  Mage
  Voleur~
-@30  = ~Plates de Folbraise, l’armure rouge de résistance au feu
-Forgée par les maîtres nains à l’intention du premier commandant des gardes phénix, Folbraise, cette armure de plates est une pure merveille, de son chatoiement rouge si caractéristique à la résistance au feu qu’elle procure à son porteur par l’essence même de l’élite des phénix. Aucune magie n’a pu complètement identifier les propriétés de cette armure, et aucune trace historique n’a pu être retrouvée.
+@30  = ~Plates de Folbraise, l'armure rouge de résistance au feu
+Forgée par les maîtres nains à l'intention du premier commandant des gardes phénix, Folbraise, cette armure de plates est une pure merveille, de son chatoiement rouge si caractéristique à la résistance au feu qu'elle procure à son porteur par l'essence même de l'élite des phénix. Aucune magie n'a pu complètement identifier les propriétés de cette armure, et aucune trace historique n'a pu être retrouvée.
 
 PARAMÈTRES :
 
-Classe d’Armure : 0
+Classe d'Armure : 0
 Poids : 35
 Non utilisable par :
  Barde
@@ -124,25 +124,25 @@ Non utilisable par :
  Mage
  Voleur~
 @31   = ~Besantine +3~
-@32   = ~Cette armure était la propriété du célèbre prince des barbares des neiges, Corbus Denolx de Faucongris. On ignore cependant pourquoi elle n’est plus en sa possession.
+@32   = ~Cette armure était la propriété du célèbre prince des barbares des neiges, Corbus Denolx de Faucongris. On ignore cependant pourquoi elle n'est plus en sa possession.
 
 PARAMÈTRES :
 
-Classe d’Armure : 4
+Classe d'Armure : 4
 Poids : 8
 Non utilisable par :
  Mage~
 @33   = ~Armure Dragon~
-@34   = ~L’armure Dragon, armure typique de l’élite des rôdeurs de Chimera, a été enchantée d’une puissante magie connue des seuls chamans de Chimera. Elle procure à son porteur une protection contre une variété d’attaques, et l’aide à traquer efficacement ses proies.
+@34   = ~L'armure Dragon, armure typique de l'élite des rôdeurs de Chimera, a été enchantée d'une puissante magie connue des seuls chamans de Chimera. Elle procure à son porteur une protection contre une variété d'attaques, et l'aide à traquer efficacement ses proies.
 
 PARAMÈTRES :
 
-Classe d’Armure : 4
+Classe d'Armure : 4
 Poids : 8
 Non utilisable par :
  Mage~
 @35   = ~Armure feuilletée~
-@36   = ~Armure feuilletée d’Oghma~
+@36   = ~Armure feuilletée d'Oghma~
 @37   = ~L'armure feuilletée est une variante de l'armure à bandes. Elle comporte des bandes métalliques appliquées verticalement au renforcement des mailles, du cuir et du tissu, plutôt qu'horizontalement comme dans l'armure à bandes. Comme le corps humain ne pivote pas au niveau du torse autant qu'il peut se courber en avant, l'armure feuilletée limite les mouvements lors des combats. 
 
 PARAMÈTRES :
@@ -154,23 +154,23 @@ Non utilisable par :
  Druide
  Mage
  Voleur~
-@38   = ~Armure feuilletée d’Oghma : "Inspiration Divine"
-Cette armure feuilletée fut créée une nuit par un prêtre d’Oghma, inspiré par un rêve émanant de son dieu lui-même. Oghma lui ordonna de trouver dès le matin l’armure feuilletée de la meilleure qualité aux alentours, puis de rassembler de puissants enchantements pour créer cette magnifique armure. C’est son inspiration elle-même qui enchanta l’armure, lui accordant cette classe d’armure unique. L’armure feuilletée fut ensuite portée par le grand prêtre pendant des années.
+@38   = ~Armure feuilletée d'Oghma : "Inspiration Divine"
+Cette armure feuilletée fut créée une nuit par un prêtre d'Oghma, inspiré par un rêve émanant de son dieu lui-même. Oghma lui ordonna de trouver dès le matin l'armure feuilletée de la meilleure qualité aux alentours, puis de rassembler de puissants enchantements pour créer cette magnifique armure. C'est son inspiration elle-même qui enchanta l'armure, lui accordant cette classe d'armure unique. L'armure feuilletée fut ensuite portée par le grand prêtre pendant des années.
 
 PARAMÈTRES :
 
-Classe d’Armure : -1
+Classe d'Armure : -1
 Spécial : 
  Bonus aux sorts de prêtre de niveau 1 à 5
  Jets de sauvegarde : bonus de +3
  +10 aux points de vie maximum
- N’empêche pas de jeter des sorts ni d’utiliser les compétences de voleur
+ N'empêche pas de jeter des sorts ni d'utiliser les compétences de voleur
 Poids : 5
 Utilisable uniquement par :
  Clerc bon ou neutre (monoclassé, jumelé ou multiclassé)
  Paladin~
 @39   = ~Armure des Bois~
-@40   = ~Il s’agit de l’armure d’un rôdeur inconnu, tout ce que l’on sait, c’est qu’il était très puissant. La rumeur prétend que ses prouesses au combat étaient surtout dues à cette dernière. Elle a reçu bien des pouvoirs magiques. Lorsqu'on la porte, elle assure non seulement une excellente protection, mais permet aussi d'accroître la dextérité. Lorsque son porteur est dans les bois ou dans des zones d'ombre, sa couleur semble se modifier pour lui permettre de se dissimuler et de se déplacer sans être vu.
+@40   = ~Il s'agit de l'armure d'un rôdeur inconnu, tout ce que l'on sait, c'est qu'il était très puissant. La rumeur prétend que ses prouesses au combat étaient surtout dues à cette dernière. Elle a reçu bien des pouvoirs magiques. Lorsqu'on la porte, elle assure non seulement une excellente protection, mais permet aussi d'accroître la dextérité. Lorsque son porteur est dans les bois ou dans des zones d'ombre, sa couleur semble se modifier pour lui permettre de se dissimuler et de se déplacer sans être vu.
 
 PARAMÈTRES :
 
@@ -187,7 +187,7 @@ Non utilisable par :
 
 PARAMÈTRES :
 
-Classe d’Armure : 5
+Classe d'Armure : 5
 Poids : 40
 Non utilisable par :
  Druide 
@@ -198,7 +198,7 @@ Cette cotte de mailles elfique +4 permet à un magicien elfe de lancer des sorts 
 
 PARAMÈTRES :
 
-Classe d’Armure : 1
+Classe d'Armure : 1
 Poids : 9
 Utilisable uniquement par :
  Elfe~
@@ -218,7 +218,7 @@ Cette armure est faite du métal le plus léger et durable, connu sous le nom de m
 
 PARAMÈTRES :
 
-Classe d’Armure : 1
+Classe d'Armure : 1
 Poids : 7
 Non utilisable par :
  Druide 
@@ -250,7 +250,7 @@ Non utilisable par :
 
 PARAMÈTRES :
 
-Classe d’Armure : 1
+Classe d'Armure : 1
 Poids : 7
 Non utilisable par :
  Druide 
@@ -292,7 +292,7 @@ Une besantine naturelle que seuls les protecteurs de la Nature peuvent porter.
 
 PARAMÈTRES :
 
-Classe d’Armure : 3
+Classe d'Armure : 3
 Poids : 5
 Spécial :
  +25 % en furtivité
@@ -315,7 +315,7 @@ Non utilisable par :
 PARAMÈTRES :
 
 70 % de résistance au froid
-Classe d’Armure : 6
+Classe d'Armure : 6
 Poids : 40
 Non utilisable par :
  Mage~
@@ -331,7 +331,7 @@ Non utilisable par :
 
 PARAMÈTRES :
 
-Classe d’Armure : 1
+Classe d'Armure : 1
 Spécial : 
  Bonus de +1 en dextérité
  +20 % en furtivité
@@ -339,7 +339,7 @@ Poids : 25
 Utilisable uniquement par :
  Rôdeur 
  Druide~
-@66   = ~Cuir des Maîtres de l’Ombre~
+@66   = ~Cuir des Maîtres de l'Ombre~
 @67   = ~La besantine a peu de choses en commun avec une armure de cuir normale. L'armure de cuir est une protection renforcée, la besantine est souple et comporte des centaines de rivets. Ces derniers sont tellement rapprochés qu'ils forment une couche flexible de métal dur qui permet de contrer toute attaque cinglante et tranchante. Le renforcement de cuir souple n'est rien de plus qu'un moyen de maintenir les rivets en place. 
 
 PARAMÈTRES :
@@ -352,7 +352,7 @@ Non utilisable par :
 
 PARAMÈTRES :
 
-Classe d’Armure : 4
+Classe d'Armure : 4
 Spécial : 
  +30 % à toutes les compétences de voleur
  +5 aux jets de sauvegarde contre la mort
@@ -386,7 +386,7 @@ Utilisable uniquement par :
 
 PARAMÈTRES : 
 
-Classe d’Armure : 2 
+Classe d'Armure : 2 
 Spécial : +15 % en furtivité
 Spécial : +15 % en crochetage des serrures
 Poids : 1 
@@ -405,11 +405,11 @@ Non utilisable par :
  Mage
  Voleur~
 @78  = ~Armure elfique de bataille +5. 
-Cette armure est utilisée par les forces d’élite des elfes d’Éternelle-Rencontre.
+Cette armure est utilisée par les forces d'élite des elfes d'Éternelle-Rencontre.
 
 PARAMÈTRES :
 
-Classe d’Armure : -2
+Classe d'Armure : -2
 Poids : 18
 Utilisable uniquement par :
  Elfe~
@@ -418,7 +418,7 @@ Utilisable uniquement par :
 
 PARAMÈTRES :
 
-Classe d’Armure : 3
+Classe d'Armure : 3
 Poids : 50
 Non utilisable par :
  Barde
@@ -430,7 +430,7 @@ Créée pour Surtr, un grand guerrier qui adorait le feu, cette armure vous permet
 
 PARAMÈTRES :
 
-Classe d’Armure : 0
+Classe d'Armure : 0
 Poids : 20
 Spécial : lance les sorts suivants
  Mains Ardentes
@@ -448,10 +448,10 @@ Non utilisable par :
 
 PARAMÈTRES :
 
-Capacités d’équipement :
+Capacités d'équipement :
  +4 points de vie
  Bonus de +1 au charisme
-Classe d’Armure : -1
+Classe d'Armure : -1
 Poids : 50
 Force requise : 15
 Non utilisable par :
@@ -466,7 +466,7 @@ PARAMÈTRES :
    
 +5 % de résistance à la magie
 
-Classe d’Armure : -2
+Classe d'Armure : -2
 Poids : 45
 Force requise : 15
 Non utilisable par :
@@ -486,12 +486,12 @@ Non utilisable par :
  Druide
  Mage
  Voleur~
-@88   = ~Il s’agit de l’armure personnelle de Najara.
+@88   = ~Il s'agit de l'armure personnelle de Najara.
 
 PARAMÈTRES :
 
 Spécial : bonus de +1 en force
-Classe d’Armure : 0
+Classe d'Armure : 0
 Poids : 18
 Non utilisable par :
  Alignement Mauvais
@@ -504,7 +504,7 @@ Non utilisable par :
 
 PARAMÈTRES :
 
-Classe d’Armure : 1
+Classe d'Armure : 1
 50 % de résistance au feu
 Poids : 35
 Non utilisable par :
@@ -520,14 +520,14 @@ PARAMÈTRES :
 
 Poids : 2
 Non utilisable par :~
-@94   = ~Le ceinturon de Sunie est destiné à ceux qui ont besoin d’un avantage en terme de charisme. Une prêtresse de Sunie l’a fabriqué pour les pauvres âmes manquant de beauté et de charme.
+@94   = ~Le ceinturon de Sunie est destiné à ceux qui ont besoin d'un avantage en terme de charisme. Une prêtresse de Sunie l'a fabriqué pour les pauvres âmes manquant de beauté et de charme.
 
 PARAMÈTRES :
 
 Bonus de +1 au charisme
 Poids : 2~
 @95   = ~Ceinturon de force de géant des collines~
-@96   = ~Ce ceinturon est destiné aux puissant guerriers des Royaumes qui ne peuvent plus acquérir davantage de puissance par d’autres moyens. Les ceinturons de force de géant sont extrêmement rares. Ils sont fabriqués à partir de la chevelure ou de la barbe du type de géant dont l’artisan souhaite obtenir la force. Ce ceinturon est constitué de cheveux d’un géant des collines et en donne la force à son porteur.
+@96   = ~Ce ceinturon est destiné aux puissant guerriers des Royaumes qui ne peuvent plus acquérir davantage de puissance par d'autres moyens. Les ceinturons de force de géant sont extrêmement rares. Ils sont fabriqués à partir de la chevelure ou de la barbe du type de géant dont l'artisan souhaite obtenir la force. Ce ceinturon est constitué de cheveux d'un géant des collines et en donne la force à son porteur.
 
 PARAMÈTRES :
 
@@ -537,12 +537,12 @@ Non utilisable par :
  Voleur
  Mage~
 @97   = ~Ceinture de défense~
-@98   = ~Ceinture de défense : “Ceinture dorée d’Urnst”
-Cette ceinture fut créée par les elfes dorés de l’Ombreterre. Leurs créations atteignent rarement la surface. Elle est puissamment enchantée pour repousser des attaques de tout type. Elle fut portée avec fierté par de nombreuses personnes, mais elle fut la plupart du temps volée et revendue au marché noir. Cette ceinture est encore recherchée par de nombreux guerriers en quête de protection efficace, mais rares sont ceux qui la trouvent.
+@98   = ~Ceinture de défense : « Ceinture dorée d'Urnst »
+Cette ceinture fut créée par les elfes dorés de l'Ombreterre. Leurs créations atteignent rarement la surface. Elle est puissamment enchantée pour repousser des attaques de tout type. Elle fut portée avec fierté par de nombreuses personnes, mais elle fut la plupart du temps volée et revendue au marché noir. Cette ceinture est encore recherchée par de nombreux guerriers en quête de protection efficace, mais rares sont ceux qui la trouvent.
 
 PARAMÈTRES :
 
-Bonus à la Classe d’Armure :  
+Bonus à la Classe d'Armure :  
  +3 contre les armes tranchantes
  +3 contre les armes contondantes
  +3 contre les armes à projectiles~
@@ -561,13 +561,13 @@ Bonus de +1 à la CA
 Hâte
 Poids : 4~
 @103  = ~Bottes dorées de Protection~
-@104  = ~Ces bottes dorées de protection appartenaient à un noble souverain des nains appelé Thrain. Thrain était réputé et aimé de ses sujets nains. Quand il apprit que ses alliés de Profondorn étaient en danger, il rassembla ses meilleurs guerriers pour s’y rendre et les aider. On n’entendit plus jamais parler de lui ou de son armée.
+@104  = ~Ces bottes dorées de protection appartenaient à un noble souverain des nains appelé Thrain. Thrain était réputé et aimé de ses sujets nains. Quand il apprit que ses alliés de Profondorn étaient en danger, il rassembla ses meilleurs guerriers pour s'y rendre et les aider. On n'entendit plus jamais parler de lui ou de son armée.
 
 PARAMÈTRES : 
 
 Malus de -25 % en furtivité
-Bonus à la Classe d’Armure : +2 contre les armes tranchantes
-Bonus à la Classe d’Armure : +1
+Bonus à la Classe d'Armure : +2 contre les armes tranchantes
+Bonus à la Classe d'Armure : +1
 Poids : 18
 Utilisable uniquement par : 
  Guerrier
@@ -575,8 +575,8 @@ Utilisable uniquement par :
  Paladin~
 @105  = ~Bottes usées~
 @106  = ~Bottes de santé~
-@107  = ~Bottes de santé : “Guerrier hardi”
-Ces bottes sont faites d’un tissu doux au fond solide, pour qu’elles soient durables et résistantes. Elles ont été enchantées par un prêtre des montagnes des îles de Norheim, qui utilisait ces bottes pour pouvoir soigner les gens même après avoir utilisé tous ses sorts. On est à leur recherche depuis que le prêtre les a perdues en se faisant mettre en pièces par une meute de loups, parce que, même s’il a été ramené à la vie et en a enchantées de plus puissantes, ses anciennes bottes lui manquent : elles étaient si confortables.
+@107  = ~Bottes de santé : « Guerrier hardi »
+Ces bottes sont faites d'un tissu doux au fond solide, pour qu'elles soient durables et résistantes. Elles ont été enchantées par un prêtre des montagnes des îles de Norheim, qui utilisait ces bottes pour pouvoir soigner les gens même après avoir utilisé tous ses sorts. On est à leur recherche depuis que le prêtre les a perdues en se faisant mettre en pièces par une meute de loups, parce que, même s'il a été ramené à la vie et en a enchantées de plus puissantes, ses anciennes bottes lui manquent : elles étaient si confortables.
 
 PARAMÈTRES :
 
@@ -584,10 +584,10 @@ Classe d'Armure : bonus de +1
 Le porteur peut lancer le sort de Soin des Blessures Critiques
 +10 aux points de vie maximum
 Utilisable uniquement par :
- Personnage d’alignement bon~
+ Personnage d'alignement bon~
 @108  = ~Bottes de vitesse assurée~
 @109  = ~Bottes de vitesse assurée
-Ces bottes sont enchantées avec l’assurance que leur porteur sera toujours rapide et vif. On ne connaît pas l’origine de ces bottes, mais leur légende remonte à des siècles d’histoires nobles et sanglantes.~
+Ces bottes sont enchantées avec l'assurance que leur porteur sera toujours rapide et vif. On ne connaît pas l'origine de ces bottes, mais leur légende remonte à des siècles d'histoires nobles et sanglantes.~
 @110  = ~Cape de Protection +3~
 @111  = ~Cape de Protection +3 : Cape de Mystra
 On dit que ces capes n'ont été données qu'à quelques élus parmi les prêtres les plus fameux de Mystra. Cependant, le décès "prématuré" de certains de ces prêtres a entraîné la sortie de plusieurs de ces capes des rangs de cette organisation religieuse. La cape donne à son porteur des bonus contre les attaques physiques et magiques, ainsi qu'une protection contre les morts-vivants.
@@ -605,7 +605,7 @@ Poids : 3~
 
 PARAMÈTRES :
 
-Classe d’Armure : bonus de +1
+Classe d'Armure : bonus de +1
 Jets de Sauvegarde : bonus de +1
 Résistance au feu : +25 %
 Résistance au froid : +25 %
@@ -616,35 +616,35 @@ Utilisable uniquement par :
 @116  = ~Robe de Mage~
 @117  = ~Robe de Shi'nayne~
 @118  = ~Depuis l'ère de Néthéril, les mages ont appris à conférer aux objets quotidiens qui les entouraient une grande variété de propriétés magiques. L'un des plus usités de ces objets est la robe courante. Elle est légère, peu onéreuse et conserve bien ses enchantements. Cela en fait une parure de mage idéale. Cependant, en raison de leur héritage magique, ces robes enchantées ne peuvent être portées que par des mages monoclassés, à classes jumelées ou multiclassés.~
-@119  = ~Cette robe puissante appartient à Shi'nayne. Elle offre une protection face à toutes les formes d’attaque physique tout en augmentant la résistance magique et les jets de sauvegarde de son porteur.
+@119  = ~Cette robe puissante appartient à Shi'nayne. Elle offre une protection face à toutes les formes d'attaque physique tout en augmentant la résistance magique et les jets de sauvegarde de son porteur.
 
 PARAMÈTRES :
 
-Classe d’Armure : bonus de +3
+Classe d'Armure : bonus de +3
 Résistance à la magie : +25 %
 Jets de Sauvegarde : bonus de +3
 Poids : 6
 Utilisable uniquement par :
  Shi'nayne~
-@120  = ~Robe d’archimage "Memento Mori"~
-@121  = ~L’une des puissantes robes d’archimage de Néthéril, elle offre des sorts supplémentaires et une résistance à la magie. 
+@120  = ~Robe d'archimage "Memento Mori"~
+@121  = ~L'une des puissantes robes d'archimage de Néthéril, elle offre des sorts supplémentaires et une résistance à la magie. 
 
 PARAMÈTRES :
 
 Deux sorts de niveau 2 supplémentaires
-Classe d’Armure : bonus de +2
+Classe d'Armure : bonus de +2
 Résistance à la magie : +15 %
 Jets de Sauvegarde : bonus de +3
 Poids : 6
 Utilisable uniquement par :
  Mage (monoclassé, jumelé ou multiclassé)~
-@122  = ~Manteau d’assassin~
+@122  = ~Manteau d'assassin~
 @123  = ~La cape peut être fabriquée dans presque n'importe quel type de tissu et prendre n'importe quelle forme. Les capes les plus courantes sont faites d'un morceau de tissu circulaire troué en son centre pour passer la tête et d'un tissu drapé à partir du cou, attaché par une chaîne, une broche, une ficelle ou des épingles.~
-@124  = ~Le manteau d’assassin a été créé à l’intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n’était qu'une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d’élite. Les Maîtres des Ombres constituent l’ordre le plus important dans la hiérarchie des voleurs de l’ombre.
+@124  = ~Le manteau d'assassin a été créé à l'intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n'était qu'une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d'élite. Les Maîtres des Ombres constituent l'ordre le plus important dans la hiérarchie des voleurs de l'ombre.
 
 PARAMÈTRES :
 
-Classe d’Armure : bonus de +1
+Classe d'Armure : bonus de +1
 TAC0 : bonus de +3
 Jets de Sauvegarde : bonus de +1
 Spécial : Non-Détection et +5 % en Furtivité
@@ -666,7 +666,7 @@ Utilisable uniquement par :
 @129  = ~Bracelets~
 @130  = ~Bracelets nocturnes~
 @131  = ~Les bracelets sont d'épaisses lanières de métal ou de cuir que l'on se noue ou s'attache autour de l'avant-bras. En général, la magie transmise aux bracelets n'a d'effet que lors des combats. La plupart des bracelets préservent ceux qui les portent des blessures ou améliorent leurs chances de frapper l'adversaire. Des exceptions existent cependant et chaque jour qui passe en est témoin.~
-@132  = ~Les bracelets nocturnes furent fabriqués spécialement pour un célèbre voleur au service des Voleurs de l’Ombre. Ils comportent des compartiments pour les crochets et les sondes qui aident leur porteur à crocheter les serrures et détecter les pièges. Ils contiennent aussi des enchantements qui guident les projectiles vers leur cible avec une efficacité accrue, dans le but d’aider le voleur à "libérer" des objets de leur propriétaire.
+@132  = ~Les bracelets nocturnes furent fabriqués spécialement pour un célèbre voleur au service des Voleurs de l'Ombre. Ils comportent des compartiments pour les crochets et les sondes qui aident leur porteur à crocheter les serrures et détecter les pièges. Ils contiennent aussi des enchantements qui guident les projectiles vers leur cible avec une efficacité accrue, dans le but d'aider le voleur à "libérer" des objets de leur propriétaire.
 
 PARAMÈTRES :
 
@@ -679,12 +679,12 @@ Utilisable uniquement par :
  Voleur (monoclassé, jumelé ou multiclassé)~
 @133  = ~ Bracelets de défense CA 4~
 @134  = ~Les bracelets sont d'épaisses lanières de métal ou de cuir que l'on se noue ou s'attache autour de l'avant-bras. En général, la magie transmise aux bracelets n'a d'effet que lors des combats. La plupart des bracelets préservent ceux qui les portent des blessures ou améliorent leurs chances de frapper l'adversaire. Des exceptions existent cependant et chaque jour qui passe en est témoin.~
-@135  = ~ Bracelets de défense CA 4 : “Bracelets de protection”
-Ces bracelets furent détenus pendant des décennies par un gladiateur invaincu, tant ils étaient utiles en combat d’arène. La mort de ce champion entraîna la disparition de l’objet magique, mais des rumeurs persistent encore aujourd’hui à propos de leur utilisation au cours de combats sportifs dans les Royaumes.
+@135  = ~ Bracelets de défense CA 4 : « Bracelets de protection »
+Ces bracelets furent détenus pendant des décennies par un gladiateur invaincu, tant ils étaient utiles en combat d'arène. La mort de ce champion entraîna la disparition de l'objet magique, mais des rumeurs persistent encore aujourd'hui à propos de leur utilisation au cours de combats sportifs dans les Royaumes.
 
 PARAMÈTRES :
 
-Classe d’Armure : 4
+Classe d'Armure : 4
 Poids : 2~
 @136  = ~Bracelets de défense CA 3~
 @137  = ~Bracelets de défense CA 3
@@ -692,10 +692,10 @@ Glen le souriant, chevalier des fous, portait ces bracelets dans les tournois. A
 
 PARAMÈTRES :
 
-Classe d’Armure : 3
+Classe d'Armure : 3
 Poids : 2~
 @138  = ~Gants de crochetage~
-@139  = ~Les bracelets de crochetage furent créés par un mage-voleur du nom de Jamaar le Vif. Ces bracelets lui servirent à crocheter tous les types de serrures jamais inventés. Il les perdit en même temps que la vie à cause d’un coffre piégé par une boule de feu : il aurait dû aussi investir dans un artefact détectant les pièges.
+@139  = ~Les bracelets de crochetage furent créés par un mage-voleur du nom de Jamaar le Vif. Ces bracelets lui servirent à crocheter tous les types de serrures jamais inventés. Il les perdit en même temps que la vie à cause d'un coffre piégé par une boule de feu : il aurait dû aussi investir dans un artefact détectant les pièges.
 
 PARAMÈTRES :
 
@@ -705,11 +705,11 @@ Utilisable uniquement par :
  Voleur (monoclassé, jumelé ou multiclassé)~
 @140  = ~Don des bois~
 @141  = ~Don des bois
-Depuis l’aube des temps, les druides et les rôdeurs ont lutté pour protéger les étendues sauvages de la civilisation grandissante, et parfois les êtres sauvages de ces contrées offrent à ces défenseurs des présents pour les aider à continuer leur combat de protection.
+Depuis l'aube des temps, les druides et les rôdeurs ont lutté pour protéger les étendues sauvages de la civilisation grandissante, et parfois les êtres sauvages de ces contrées offrent à ces défenseurs des présents pour les aider à continuer leur combat de protection.
 
 PARAMÈTRES :
 
-Classe d’Armure : 0
+Classe d'Armure : 0
 Spécial :
   attaques accrues
   résistance à la pétrification accrue
@@ -719,7 +719,7 @@ Utilisable uniquement par :
  Rôdeur (monoclassé)~
 @142  = ~Gantelets de décharge~
 @143  = ~Gantelets de décharge
-Il s’agit d’une paire de gantelets en maille d’argent et cuir noir. Ces gantelets sont chargés d’énergie électrique qui peut être libérée au contact ou en un puissant éclair. Le contact libère l’énergie électrique qui parcourt le corps de la créature touchée.
+Il s'agit d'une paire de gantelets en maille d'argent et cuir noir. Ces gantelets sont chargés d'énergie électrique qui peut être libérée au contact ou en un puissant éclair. Le contact libère l'énergie électrique qui parcourt le corps de la créature touchée.
  
 PARAMÈTRES :
 
@@ -727,21 +727,21 @@ Capacité 1 : Décharge électrique (pas de charges)
  Effet : tire une Boule de Feu
  Dégâts : 1D8
  Portée : contact
- Zone d’effet : 1 créature
+ Zone d'effet : 1 créature
 
 Capacité 2 :
  Effet : Éclair (1 charge)
  Dégâts : 6D6 (jet de sauvegarde contre les baguettes pour moitié)
  Portée : 30 mètres
- Zone d’effet : 1 créature
+ Zone d'effet : 1 créature
 
 Poids : 1
 Utilisable uniquement par : 
  Mage
  Barde~
-@144  = ~Gantelets d’expertise de voleur~
-@145  = ~”Mains de Spooky”
-Propriété de Daerum "Spooky" Estra, maître-voleur et chef de la guilde des voleurs de Cormyr, ces gants furent le cauchemar de bien des marchands. En les portant, l’on voit ses compétences de vol à la tire et de connaissance des pièges augmenter, ainsi que sa dextérité. Pourtant, la propriété la plus intéressante de cet objet est qu’il permet à son porteur d’ouvrir les objets verrouillés grâce à un sort de déblocage.
+@144  = ~Gantelets d'expertise de voleur~
+@145  = ~« Mains de Spooky »
+Propriété de Daerum "Spooky" Estra, maître-voleur et chef de la guilde des voleurs de Cormyr, ces gants furent le cauchemar de bien des marchands. En les portant, l'on voit ses compétences de vol à la tire et de connaissance des pièges augmenter, ainsi que sa dextérité. Pourtant, la propriété la plus intéressante de cet objet est qu'il permet à son porteur d'ouvrir les objets verrouillés grâce à un sort de déblocage.
 
 PARAMÈTRES :
 
@@ -779,13 +779,13 @@ Non utilisable par :
  Voleur~
 @150  = ~Heaume de défense elfique~
 @151  = ~Heaume de défense elfique
-Heaume typique porté par l’élite des guerriers elfes.
+Heaume typique porté par l'élite des guerriers elfes.
 
 PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +1
 Jets de Sauvegarde : bonus de +1
-Résistance à l’électricité : +20 %
+Résistance à l'électricité : +20 %
 Résistance au froid : +20 %
 Résistance au feu : +20 %
 Spécial : protège contre les coups critiques
@@ -794,7 +794,7 @@ Utilisable uniquement par :
  Elfe~
 @152  = ~Chapeau~
 @153  = ~Chapeau de barde~
-@154  = ~Les chapeaux de feutre sont très prisés par les bardes comme les voleurs, bien qu’ils n’offrent que peu de protection.
+@154  = ~Les chapeaux de feutre sont très prisés par les bardes comme les voleurs, bien qu'ils n'offrent que peu de protection.
 
 PARAMÈTRES :
 
@@ -826,7 +826,7 @@ Non utilisable par :
  Mage
  Barde
  Voleur~
-@158  = ~Cette couronne appartenait au clan de Durlag. Durlag lui-même ne la porta jamais, passant la majorité de son temps à l’aventure, et même une fois "retraité" continua à refuser de la porter, préférant vivre comme un nain ordinaire car il ne croyait pas aux titres royaux.
+@158  = ~Cette couronne appartenait au clan de Durlag. Durlag lui-même ne la porta jamais, passant la majorité de son temps à l'aventure, et même une fois "retraité" continua à refuser de la porter, préférant vivre comme un nain ordinaire car il ne croyait pas aux titres royaux.
 
 PARAMÈTRES :
 
@@ -850,13 +850,13 @@ Non utilisable par :
  Mage
  Barde
  Voleur~
-@161  = ~Ce heaume est en fait le crâne d’un grand guerrier mort il y a plusieurs siècles. On ne connaît pas son nom mais ce crâne est empli de puissance mystique. Des forgerons nains l’ont transformé en heaume, en y ajoutant notamment des piques de métal. Il confère un bonus à la classe d’armure et permet de réanimer les morts.
+@161  = ~Ce heaume est en fait le crâne d'un grand guerrier mort il y a plusieurs siècles. On ne connaît pas son nom mais ce crâne est empli de puissance mystique. Des forgerons nains l'ont transformé en heaume, en y ajoutant notamment des piques de métal. Il confère un bonus à la classe d'armure et permet de réanimer les morts.
 
 PARAMÈTRES :
 
 Bonus à la Classe d'Armure : +2
 Spécial : protège contre les coups critiques
-Spécial : lance le sort d’Animation des Morts 
+Spécial : lance le sort d'Animation des Morts 
 Poids : 2
 Non utilisable par :
  Mage
@@ -864,7 +864,7 @@ Non utilisable par :
  Voleur~
 @162  = ~Heaume de flammes~
 @163  = ~Heaume de flammes, "Heaume de Folbraise" 
-Il s’agit du heaume de Folbraise, le garde phénix renégat. Alors qu’il était commandant des gardes il abandonna son poste, séduit par l’appel de la gloire et de la richesse.
+Il s'agit du heaume de Folbraise, le garde phénix renégat. Alors qu'il était commandant des gardes il abandonna son poste, séduit par l'appel de la gloire et de la richesse.
 
 PARAMÈTRES :
 
@@ -878,7 +878,7 @@ Non utilisable par :
  Voleur~
 @164  = ~Heaume du Dragon Rouge~
 @165  = ~Heaume du Dragon Rouge
-Un groupe de rôdeurs d’élite de Chimera, le Dragon Rouge, inspirait la peur au plus courageux des guerriers. Leurs armures et heaumes rouge vif bordés d’or sont bien connus à travers les Royaumes. Malgré cet ensemble de protection "sophistiqué", ils arrivaient toujours à disparaître à l’envi.
+Un groupe de rôdeurs d'élite de Chimera, le Dragon Rouge, inspirait la peur au plus courageux des guerriers. Leurs armures et heaumes rouge vif bordés d'or sont bien connus à travers les Royaumes. Malgré cet ensemble de protection "sophistiqué", ils arrivaient toujours à disparaître à l'envi.
 
 PARAMÈTRES :
 
@@ -927,7 +927,7 @@ Non utilisable par :
  Mage 
  Voleur~
 @173  = ~Rondache +5 "Divinité"
-Ce bouclier positivement divin émet une lueur inquiétante. Les créatures du mal ne peuvent même pas s’en saisir, quelle que soit leur puissance.
+Ce bouclier positivement divin émet une lueur inquiétante. Les créatures du mal ne peuvent même pas s'en saisir, quelle que soit leur puissance.
 
 PARAMÈTRES :
 
@@ -935,7 +935,7 @@ Bonus à la Classe d'Armure : +6
 Spécial : pas de protection contre les armes à projectiles
 Poids : 3
 Non utilisable par :
- Personnage d’alignement mauvais
+ Personnage d'alignement mauvais
  Barde
  Druide
  Mage 
@@ -959,7 +959,7 @@ Ce bouclier appartenait au héros Baldurien. Il fait partie des objets volés au m
 
 PARAMÈTRES :
 
-Capacités d’équipement :
+Capacités d'équipement :
  +1 en Force
 Bonus à la Classe d'Armure : +4
 Poids : 5
@@ -970,7 +970,7 @@ Non utilisable par :
  Mage
  Voleur~
 @179  = ~Bouclier de Durlag +2~
-@180  = ~Voici le bouclier personnel de Durlag, dont les propriétés magiques l’aidèrent à occire des dragons.
+@180  = ~Voici le bouclier personnel de Durlag, dont les propriétés magiques l'aidèrent à occire des dragons.
 
 PARAMÈTRES :
 
@@ -985,7 +985,7 @@ Non utilisable par :
  Mage
  Voleur~
 @181  = ~Bouclier de feu +2~
-@182  = ~Ce bouclier fut commandé aux meilleurs forgerons nains par Folbraise, célèbre commandant des gardes phénix, réputé pour son courage indéfectible. La démission de Folbraise en quête de fortune fut considérée comme la pire perte endurée par la garde. Ce bouclier est clairement d’une facture haut de gamme, on pourrait presque le voir se diriger seul vers les projectiles.
+@182  = ~Ce bouclier fut commandé aux meilleurs forgerons nains par Folbraise, célèbre commandant des gardes phénix, réputé pour son courage indéfectible. La démission de Folbraise en quête de fortune fut considérée comme la pire perte endurée par la garde. Ce bouclier est clairement d'une facture haut de gamme, on pourrait presque le voir se diriger seul vers les projectiles.
 
 PARAMÈTRES :
 
@@ -1021,7 +1021,7 @@ Spécial : tue les druides et les rôdeurs
 Poids : 0
 Arme de jet : arc
 Utilisable uniquement par :
- Personnage d’alignement mauvais~
+ Personnage d'alignement mauvais~
 @187  = ~Flèches~
 @188  = ~Flèches glaciales~
 @189  = ~Cette flèche a été enchantée de façon à se transformer en une énorme boule de glace et de froid dès qu'on la décoche. Quand elle frappe sa cible, celle-ci est submergée par une vague de froid qui l'engourdit et la brûle entièrement. Ce froid extrême choque le système nerveux et immobilise la victime.
@@ -1140,7 +1140,7 @@ Non utilisable par :
  Mage 
  Voleur~
 @200  = ~Hache d'armes~
-@201  = ~Hache d’armes +3 "Le bourreau"~
+@201  = ~Hache d'armes +3 "Le bourreau"~
 @202  = ~La version la plus répandue de la hache d'armes est une grande hampe d'environ 1,20 mètres de long comportant une lame à un seul tranchant et en forme de trompette montée sur une extrémité. Les haches d'armes sont également appelées grandes haches. 
 
 PARAMÈTRES :
@@ -1156,12 +1156,12 @@ Non utilisable par :
  Clerc
  Mage 
  Voleur~
-@203  = ~Cette hache était la favorite de Redrum le Fléau. Ce berserker dément la mania dans de nombreuses batailles, et tua de nombreux ennemis avec elle. La rumeur prétend qu’il s’acharnait sur le corps de ses adversaires même longtemps après qu’ils soient morts. Ses comportements sanguinaires finirent par lui attirer des ennuis ; un seigneur local fit encercler son domaine et y mit le feu lorsqu’il refusa de se rendre après avoir été déclaré coupable du massacre des enfants du village.
+@203  = ~Cette hache était la favorite de Redrum le Fléau. Ce berserker dément la mania dans de nombreuses batailles, et tua de nombreux ennemis avec elle. La rumeur prétend qu'il s'acharnait sur le corps de ses adversaires même longtemps après qu'ils soient morts. Ses comportements sanguinaires finirent par lui attirer des ennuis ; un seigneur local fit encercler son domaine et y mit le feu lorsqu'il refusa de se rendre après avoir été déclaré coupable du massacre des enfants du village.
 
 PARAMÈTRES :
 
 Capacités de combat :
- 5 % de chances de tuer instantanément l’adversaire par décapitation à chaque coup réussi
+ 5 % de chances de tuer instantanément l'adversaire par décapitation à chaque coup réussi
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
 Type de dégâts : tranchant
@@ -1190,14 +1190,14 @@ Non utilisable par :
  Clerc
  Mage 
  Voleur~
-@206  = ~Froide-Faucheuse, hache d’armes +3
+@206  = ~Froide-Faucheuse, hache d'armes +3
 Il s'agit de la hache d'Illgarth, un géant du givre qui terrorisait les villages du nord il y a longtemps. On ne sait pas comment il s'était procuré cette arme, mais il prenait un malin plaisir à la déchaîner sur les pauvres gens, particulièrement les petites-personnes. La glace et l'acide mutilaient ceux qui ne mourraient pas, et le géant ricanait en voyant les séquelles de ces visites précédentes. Un groupe finit par parvenir à l'occire, et à la demande de ses victimes Froide-Faucheuse fut enterrée avec lui.
 
 PARAMÈTRES :
 
 Capacités de combat :
  +1 point de dégât de froid
- +1 point de dégât d’acide
+ +1 point de dégât d'acide
 Dégâts : 1D8 +3
 TAC0: bonus de +3
 Type de dégâts : tranchant
@@ -1273,7 +1273,7 @@ Non utilisable par :
  Druide
  Mage 
  Voleur~
-@215  = ~Fléau +3 “Mort Rouge”~
+@215  = ~Fléau +3 « Mort Rouge »~
 @216  = ~Gravé sur la tête du fléau, on peut lire : "La Mort Rouge étend son emprise sur tous". 
 
 PARAMÈTRES :
@@ -1291,7 +1291,7 @@ Non utilisable par :
  Mage 
  Voleur~
 @217  = ~Gourdin~
-@218  = ~L’Empoisonneuse +2~
+@218  = ~L'Empoisonneuse +2~
 @219  = ~La plupart des gourdins sont de gros bâtons résistants, étroits à une extrémité et plus large à l'autre. Cette arme simple est utilisée depuis que l'homme a découvert les outils. N'importe qui peut trouver un gros morceau de bois et le brandir, d'où l'utilisation très répandue du gourdin.
 
 PARAMÈTRES :
@@ -1304,15 +1304,15 @@ Type de compétence : armes contondantes
 Type : arme à une main
 Non utilisable par :
  Mage~
-@220  = ~L’Empoisonneuse +2
-Voici une arme mortelle créée par les Druides de l’Ombre pour les aider dans leur combat de protection des forêts et leurs créatures. À chaque coup, les lianes de ce gourdin entourent la cible pour lui infliger des dégâts de poison. 
+@220  = ~L'Empoisonneuse +2
+Voici une arme mortelle créée par les Druides de l'Ombre pour les aider dans leur combat de protection des forêts et leurs créatures. À chaque coup, les lianes de ce gourdin entourent la cible pour lui infliger des dégâts de poison. 
 
 PARAMÈTRES :
 
 Dégâts : 1D6 +2
 TAC0: bonus de +2
 Spécial : 
- La cible touchée par L’Empoisonneuse subit un point de dégâts de poison pendant 8 secondes
+ La cible touchée par L'Empoisonneuse subit un point de dégâts de poison pendant 8 secondes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 3
@@ -1387,12 +1387,12 @@ Utilisable uniquement par :
  Clerc
  Paladin~
 @228  = ~Marteau rayonnant~
-@229  = ~Marteau de guerre +3 "Destin d’Asgrim"~
+@229  = ~Marteau de guerre +3 "Destin d'Asgrim"~
 @230  = ~Indéniablement de nature magique, au vu de cette lumière bleue si particulière.
 
 PARAMÈTRES :
  Inconnus~
-@231  = ~Voici le légendaire marteau de guerre qu’Asgrim le Grand utilisa pour repousser les hordes drow de sa terre natale. Beaucoup d’elfes noirs furent tués ce jour par Asgrim et son fidèle marteau. Même les géants les craignaient. On ne sait pas ce qu’il advint de lui ; il fut aperçu pour la dernière fois à la recherche d’aventure et de trésors dans le Val de Bise.
+@231  = ~Voici le légendaire marteau de guerre qu'Asgrim le Grand utilisa pour repousser les hordes drow de sa terre natale. Beaucoup d'elfes noirs furent tués ce jour par Asgrim et son fidèle marteau. Même les géants les craignaient. On ne sait pas ce qu'il advint de lui ; il fut aperçu pour la dernière fois à la recherche d'aventure et de trésors dans le Val de Bise.
  
 PARAMÈTRES :
 
@@ -1439,7 +1439,7 @@ Non utilisable par :
  Druide
  Mage 
  Voleur~
-@236  = ~Marteau de guerre +2~
+@236  = ~Morgoth~
 @237  = ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être saisis d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution ; le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de longueur.
 
 PARAMÈTRES :
@@ -1454,7 +1454,7 @@ Non utilisable par :
  Druide
  Mage 
  Voleur~
-@238  = ~Marteau de guerre +2 : “Morgoth”
+@238  = ~Marteau de guerre +2 : « Morgoth »
 Forgé par des nains des temps antiques, ce marteau émet encore une chaleur magique qui brûle quand vous touchez sa tête. On sait très peu de choses de cet ancien artéfact.
 
 PARAMÈTRES :
@@ -1472,7 +1472,7 @@ Non utilisable par :
  Voleur~
 @239  = ~Bec de Corbin~
 @240  = ~Bec de Corbin
-Durant des siècles, l’apparition d’un corbeau sur un champ de bataille fut considérée comme un présage de défaite. Et ce marteau destructeur porte bien son nom : la forme de son piquant arrière rappelle celle d’un bec et sa face tordue aide à concentrer le coup sur l’armure de l’adversaire. La pique au sommet ajoute au répertoire de son porteur la possibilité d’un coup mortel.
+Durant des siècles, l'apparition d'un corbeau sur un champ de bataille fut considérée comme un présage de défaite. Et ce marteau destructeur porte bien son nom : la forme de son piquant arrière rappelle celle d'un bec et sa face tordue aide à concentrer le coup sur l'armure de l'adversaire. La pique au sommet ajoute au répertoire de son porteur la possibilité d'un coup mortel.
  
 PARAMÈTRES :
 
@@ -1482,7 +1482,7 @@ TAC0 :
  Perforant : bonus de +2
 Type de dégâts : contondant / perforant
 Spécial : 
- Contondant : 25 % de chance d’assommer
+ Contondant : 25 % de chance d'assommer
  Perforant : 5 % de chance de tuer en un seul coup
 Poids : 5
 Facteur de vitesse : 
@@ -1509,7 +1509,7 @@ Non utilisable par :
  Druide
  Mage 
  Voleur~
-@243  = ~Voici le légendaire marteau de Thor, dieu nordique du Tonnerre. Forgé par un artisan nain à la demande de Loki et présenté aux dieux en cadeau, Mjolnir possède de grands pouvoirs. Il ne peut se perdre, car il revient toujours à la main qui l’a lancé, ne peut être détruit et a été enchanté par Thor lui-même du pouvoir de contrôler la foudre.
+@243  = ~Voici le légendaire marteau de Thor, dieu nordique du Tonnerre. Forgé par un artisan nain à la demande de Loki et présenté aux dieux en cadeau, Mjolnir possède de grands pouvoirs. Il ne peut se perdre, car il revient toujours à la main qui l'a lancé, ne peut être détruit et a été enchanté par Thor lui-même du pouvoir de contrôler la foudre.
 
 PARAMÈTRES :
 
@@ -1518,8 +1518,8 @@ TAC0 : bonus de +3
 Type de dégâts (mêlée) : contondant
 Type de dégâts (lancer) : contondant 
 Spécial : revient dans la main du lanceur après avoir été lancé
-Spécial : lance le sort d’Éclair à l’infini
-Spécial : lance le sort d’Appel de la Foudre à l’infini
+Spécial : lance le sort d'Éclair à l'infini
+Spécial : lance le sort d'Appel de la Foudre à l'infini
 Poids : 3
 Facteur de vitesse : 2
 Type de compétence : armes contondantes
@@ -1528,7 +1528,7 @@ Non utilisable par :
  Druide
  Mage 
  Voleur~
-@244  = ~L’Étoile d’Illumination +3~
+@244  = ~L'Étoile d'Illumination +3~
 @245  = ~Ce morgenstern a été béni par le temple du soleil, il possède des propriétés magiques et ne peut être manié que par ceux qui suivent la voie de la lumière.
 
 PARAMÈTRES :
@@ -1546,10 +1546,10 @@ Type : arme à une main
 Utilisable uniquement par :
  Clerc
  Paladin~
-@246  = ~Masse +2 “Vierge Hurlante”~
-@247  = ~Masse +2 : “Vierge Hurlante”
-La tête d’obsidienne de cette masse représente le visage d’une belle jeune fille. Quand on la manie au combat, ce beau visage se tord en une face menaçante fendue d’une gueule pleine de crocs.
-Cette masse n’est pas une arme du plan matériel, elle fut forgée dans les Abysses. Il s’agit d’une arme consciente qui communique par télépathie avec son porteur pour tenter de l’attirer vers le chaos et la destruction. La Vierge a toujours soif de sang et fait en sorte que son porteur étanche cette soif. Quand la masse blesse une victime, elle boit goulument et utilise une partie du sang pour soigner son porteur.
+@246  = ~Masse +2 « Vierge Hurlante »~
+@247  = ~Masse +2 : « Vierge Hurlante »
+La tête d'obsidienne de cette masse représente le visage d'une belle jeune fille. Quand on la manie au combat, ce beau visage se tord en une face menaçante fendue d'une gueule pleine de crocs.
+Cette masse n'est pas une arme du plan matériel, elle fut forgée dans les Abysses. Il s'agit d'une arme consciente qui communique par télépathie avec son porteur pour tenter de l'attirer vers le chaos et la destruction. La Vierge a toujours soif de sang et fait en sorte que son porteur étanche cette soif. Quand la masse blesse une victime, elle boit goulument et utilise une partie du sang pour soigner son porteur.
 
 PARAMÈTRES :
 
@@ -1583,7 +1583,7 @@ Non utilisable par :
  Clerc
  Mage 
  Voleur~
-@251  = ~La rumeur prétend que cet arc fut créé par Khelben Bâton Noir, à qui il fut ensuite volé. En tous cas, son créateur était forcément un mage, puisque l’enchantement de cet arc provient du sort de projectiles magiques.
+@251  = ~La rumeur prétend que cet arc fut créé par Khelben Bâton Noir, à qui il fut ensuite volé. En tous cas, son créateur était forcément un mage, puisque l'enchantement de cet arc provient du sort de projectiles magiques.
 
 PARAMÈTRES :
 
@@ -1627,7 +1627,7 @@ Non utilisable par :
  Clerc
  Mage~
 @257  = ~Arc court "Grand Nord" :
-Il s’agit d’un arc rare, on n’en connaît que trois exemplaires. Ils furent créés par un prêtre d’Aurile dans le Val de Bise. La déesse elle-même en prit un, et le troisième fut perdu quelque part dans le Glacier de Morneglace.
+Il s'agit d'un arc rare, on n'en connaît que trois exemplaires. Ils furent créés par un prêtre d'Aurile dans le Val de Bise. La déesse elle-même en prit un, et le troisième fut perdu quelque part dans le Glacier de Morneglace.
 
 PARAMÈTRES :
 
@@ -1656,8 +1656,8 @@ Non utilisable par :
  Clerc
  Mage~
 @260  = ~ Arc court "Tempête de glace" :
-Un avant-poste humain de la Forêt Gelée déterra cette arme, ainsi que d’autres, dans les ruines d’un ancien village de ces terres gelées. Les colons se servirent de ces armes pour se défricher un grand territoire, sans jamais connaître le nom de leurs défunts bienfaiteurs. Au final, leur entreprise se révéla toutefois totalement inutile. Ils furent en effet complètement écrasés par des hobgobelins supérieurs en nombre, et finirent eux aussi dans l'anonymat.
-L’utilisateur doit réussir un jet de sauvegarde contre la mort à +5 ou subir les mêmes effets que ses ennemis.
+Un avant-poste humain de la Forêt Gelée déterra cette arme, ainsi que d'autres, dans les ruines d'un ancien village de ces terres gelées. Les colons se servirent de ces armes pour se défricher un grand territoire, sans jamais connaître le nom de leurs défunts bienfaiteurs. Au final, leur entreprise se révéla toutefois totalement inutile. Ils furent en effet complètement écrasés par des hobgobelins supérieurs en nombre, et finirent eux aussi dans l'anonymat.
+L'utilisateur doit réussir un jet de sauvegarde contre la mort à +5 ou subir les mêmes effets que ses ennemis.
 
 PARAMÈTRES :
 
@@ -1672,7 +1672,7 @@ Non utilisable par :
  Druide
  Clerc
  Mage~
-@261  = ~Arc long d’O'Locksley~
+@261  = ~Arc long d'O'Locksley~
 @262  = ~L'arc long est similaire à l'arc court, sauf que la branche est pratiquement aussi grande que l'archer, généralement entre 1,80 m et 2 m. Sa portée et sa précision sont supérieures à celles de l'arc court. 
 
 PARAMÈTRES :
@@ -1687,9 +1687,9 @@ Non utilisable par :
  Clerc
  Mage
  Voleur~
-@263  = ~Le célèbre archer hors-la-loi O’Locksley fabriqua cet arc assisté d’un sympathique mage, pour l’aider dans sa quête de débarrasser la région de l’oppression de son seigneur, qui écrasait les paysans d’une main de fer. Les pouvoirs de cet arc merveilleux ne sont pas étrangers à sa réputation d’archer inégalable. Après sa mort tragique, l’arc d’O'Locksley fut légué à son neveu, Jean de Southerton, qui continua à combattre l’injustice et le mal dans la région pendant une vingtaine d’années. Il le confia à un ami elfe lorsqu’il dut partir pour une mission secrète, dont il ne revint finalement jamais. L’elfe offrit l’arc à sa reine, et il resta dans l’aristocratie elfique depuis. Il fut perdu plusieurs fois, mais les elfes furent toujours prompts à le retrouver, jusqu’à ce qu’il soit perdu à nouveau lors d’une attaque contre le repaire du roi gobelin. Depuis ce jour, les elfes le cherchent sans cesse.
+@263  = ~Le célèbre archer hors-la-loi O'Locksley fabriqua cet arc assisté d'un sympathique mage, pour l'aider dans sa quête de débarrasser la région de l'oppression de son seigneur, qui écrasait les paysans d'une main de fer. Les pouvoirs de cet arc merveilleux ne sont pas étrangers à sa réputation d'archer inégalable. Après sa mort tragique, l'arc d'O'Locksley fut légué à son neveu, Jean de Southerton, qui continua à combattre l'injustice et le mal dans la région pendant une vingtaine d'années. Il le confia à un ami elfe lorsqu'il dut partir pour une mission secrète, dont il ne revint finalement jamais. L'elfe offrit l'arc à sa reine, et il resta dans l'aristocratie elfique depuis. Il fut perdu plusieurs fois, mais les elfes furent toujours prompts à le retrouver, jusqu'à ce qu'il soit perdu à nouveau lors d'une attaque contre le repaire du roi gobelin. Depuis ce jour, les elfes le cherchent sans cesse.
 
-Cet arc est d’une facture exceptionnelle, fait d’ancien if provenant, selon certains, du grand arbre monde, Yaggissdril. Il n’a pas besoin d’être retendu ou redressé, même après avoir été mouillé, et il est si léger qu’il est facile de tirer avec une vitesse et une précision extrêmes.
+Cet arc est d'une facture exceptionnelle, fait d'ancien if provenant, selon certains, du grand arbre monde, Yaggissdril. Il n'a pas besoin d'être retendu ou redressé, même après avoir été mouillé, et il est si léger qu'il est facile de tirer avec une vitesse et une précision extrêmes.
 
 PARAMÈTRES :
 
@@ -1705,7 +1705,7 @@ Non utilisable par :
  Mage
  Voleur~
 @264  = ~Arbalète légère~
-@265  = ~Arbalète légère +3 “Dard du scorpion”~
+@265  = ~Arbalète légère +3 « Dard du scorpion »~
 @266  = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau). 
 
 PARAMÈTRES :
@@ -1719,14 +1719,14 @@ Non utilisable par :
  Clerc
  Mage
  Voleur~
-@267  = ~Cette arbalète fut fabriquée par les Erreth-Akbe durant leur longue guerre contre les nécromanciens. Elle fut enchantée pour créer ses propres carreaux empoisonnés. Une fois terminée, les druides réalisèrent que cette arme était trop chaotique pour qu’ils permettent son utilisation, et elle fut enterrée sous le temple, pour toujours.
+@267  = ~Cette arbalète fut fabriquée par les Erreth-Akbe durant leur longue guerre contre les nécromanciens. Elle fut enchantée pour créer ses propres carreaux empoisonnés. Une fois terminée, les druides réalisèrent que cette arme était trop chaotique pour qu'ils permettent son utilisation, et elle fut enterrée sous le temple, pour toujours.
 
 PARAMÈTRES :
 
 Spécial : Ne nécessite pas de carreaux
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
-Dégâts des projectiles : 18 points de dégâts de poison par round jusqu’à un total de 45 points de dégâts
+Dégâts des projectiles : 18 points de dégâts de poison par round jusqu'à un total de 45 points de dégâts
 Poids : 6
 Facteur de vitesse : 1
 Type de compétence : armes à projectiles
@@ -1754,14 +1754,14 @@ Non utilisable par :
  Mage
  Voleur
  Barde~
-@271  = ~Le rêve de tous les archers. Ulysse ne nécessite aucune flèche, tirant ses traits de glace qui se forment dès qu’on en tire la corde. Ses origines restent inconnues, mais son style suggère un savoir-faire elfique.
+@271  = ~Le rêve de tous les archers. Ulysse ne nécessite aucune flèche, tirant ses traits de glace qui se forment dès qu'on en tire la corde. Ses origines restent inconnues, mais son style suggère un savoir-faire elfique.
 
 PARAMÈTRES :
 
 Dégâts : 1D6 +2
 TAC0 : bonus de +2
 Poids : 9
-Spécial : vitesse de l’arme accrue
+Spécial : vitesse de l'arme accrue
 Type de compétence : arcs
 Type : arme à deux mains
 Non utilisable par :
@@ -1832,11 +1832,11 @@ PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : projectile (perforant)
-Spécial : 6D6 points de dégâts lors de l’explosion à l’impact (jds contre les sorts pour moitié)
+Spécial : 6D6 points de dégâts lors de l'explosion à l'impact (jet de sauvegarde contre les sorts pour moitié)
 Poids : 0
 Arme de jet : fronde~
 @282  = ~Bille de feu~
-@283  = ~L'énergie magique contenue dans cette bille la rend plus précise et plus légère lorsqu'elle file vers un adversaire. Elle fut placée dans un feu ardent pendant l’enchantement.
+@283  = ~L'énergie magique contenue dans cette bille la rend plus précise et plus légère lorsqu'elle file vers un adversaire. Elle fut placée dans un feu ardent pendant l'enchantement.
 
 PARAMÈTRES :
 
@@ -1872,7 +1872,7 @@ Type : arme à une main
 Non utilisable par :
  Clerc~
 @289  = ~Dague +2 "Morsure nordique"
-La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court. Cette dague vient d’un armurier nain de Padhiver, qui l’a enchantée pour qu’elle inflige des dégâts de froid.
+La dague traditionnelle a une lame pointue généralement à double tranchant, contrairement au couteau doté d'un seul tranchant et un peu plus court. Cette dague vient d'un armurier nain de Padhiver, qui l'a enchantée pour qu'elle inflige des dégâts de froid.
  
 PARAMÈTRES :
 
@@ -1899,11 +1899,11 @@ Type de compétence : petite épée
 Type : arme à une main
 Non utilisable par :
  Clerc~
-@292  = ~Créée par un faussaire du nom d’Evets Nitsua, il fit en sorte que cette dague étourdisse sa cible pour qu’il puisse ensuite la tailler en pièces et la saigner à mort.
+@292  = ~Créée par un faussaire du nom d'Evets Nitsua, il fit en sorte que cette dague étourdisse sa cible pour qu'il puisse ensuite la tailler en pièces et la saigner à mort.
  
 PARAMÈTRES : 
 
-10 % de chance d’étourdir la cible pendant 30 secondes
+10 % de chance d'étourdir la cible pendant 30 secondes
 Dégâts (corps à corps & lancer) : 1D4 +3
 TAC0 : bonus de +3
 Type de dégâts : perforant
@@ -1915,7 +1915,7 @@ Non utilisable par :
  Clerc~
 @293  = ~Dague de Yarash – Dague de retour~
 @294  = ~Dague de Yarash : 
-La dague de retour fut fabriquée par Yarash le Sorcier en paiement à un groupe d’aventuriers pour leur services. Beaucoup pensent que les énormes dégâts causés par la dague sont dus tant à ses enchantements magiques qu’à son poids inhabituel.
+La dague de retour fut fabriquée par Yarash le Sorcier en paiement à un groupe d'aventuriers pour leur services. Beaucoup pensent que les énormes dégâts causés par la dague sont dus tant à ses enchantements magiques qu'à son poids inhabituel.
 
 PARAMÈTRES :
 
@@ -1923,22 +1923,22 @@ Dégâts : 1D4 +3
 TAC0 : bonus de +2
 Type de dégâts (corps à corps & lancer) : perforant
 Spécial : revient dans la main du lanceur
-Spécial : augmente le nombre d’attaques
+Spécial : augmente le nombre d'attaques
 Poids : 3
 Facteur de vitesse : 2
 Type de compétence : petite épée
 Type : arme à une main 
 Non utilisable par :
  Clerc~
-@295  = ~Dague d’infection~
-@296  = ~La dague d’infection est une lame puissante aimée des assassins à travers les Royaumes. Cette arme particulière est infectée et inflige des dégâts supplémentaires à ses victimes. Chaque fois qu’elle touche un adversaire, elle injecte un virus dans le sang de la créature qui attaque son système immunitaire. Son origine est inconnue.
+@295  = ~Dague d'infection~
+@296  = ~La dague d'infection est une lame puissante aimée des assassins à travers les Royaumes. Cette arme particulière est infectée et inflige des dégâts supplémentaires à ses victimes. Chaque fois qu'elle touche un adversaire, elle injecte un virus dans le sang de la créature qui attaque son système immunitaire. Son origine est inconnue.
 
 PARAMÈTRES :
 
 Dégâts : 1D4 +2
-Nombre d’attaques : 2
+Nombre d'attaques : 2
 TAC0 : bonus de +2
-Dégâts de poison : 6 points par round (jusqu’à un total de 15 points de dégâts)
+Dégâts de poison : 6 points par round (jusqu'à un total de 15 points de dégâts)
 Poids : 2
 Facteur de vitesse : 0
 Type de compétence : petite épée
@@ -1958,7 +1958,7 @@ Type de compétence : petite épée
 Type : arme à une main
 Non utilisable par :
  Clerc~
-@299  = ~Il n’existe aucune trace du créateur de cette arme, mais on peut faire remonter son histoire jusqu’aux tribus barbares nomades des montagnes. Sa lame bleue fut certainement forgée à partir de métaux arcaniques et de carreaux de foudre pour les chauffer, donnant à l’arme sa couleur bleu électrique.
+@299  = ~Il n'existe aucune trace du créateur de cette arme, mais on peut faire remonter son histoire jusqu'aux tribus barbares nomades des montagnes. Sa lame bleue fut certainement forgée à partir de métaux arcaniques et de carreaux de foudre pour les chauffer, donnant à l'arme sa couleur bleu électrique.
 
 PARAMÈTRES :
 
@@ -1967,15 +1967,15 @@ TAC0 : bonus de +2
 Poids : 1
 Facteur de vitesse : 0
 Spécial : 
- 50% de chance d’infliger 2D4 points de dégâts électriques (jds contre les baguettes)
- Le porteur bénéficie de 50 % de résistance à l’électricité 
+ 50% de chance d'infliger 2D4 points de dégâts électriques (jet de sauvegarde contre les baguettes)
+ Le porteur bénéficie de 50 % de résistance à l'électricité 
 Type de compétence : petite épée
 Type : arme à une main
 Non utilisable par :
  Clerc~
 @300  = ~Dague de glace~
-@301  = ~Dague +2 : “Dent de l’hiver”
-Il n’existe aucune trace du créateur de cette arme, mais on peut faire remonter son histoire jusqu’aux tribus barbares nomades des montagnes. Sa lame bleue fut certainement forgée à partir de métaux arcaniques trouvés dans le grand Nord, donnant à l’arme sa couleur bleu glaciale.
+@301  = ~Dague +2 : « Dent de l'hiver »
+Il n'existe aucune trace du créateur de cette arme, mais on peut faire remonter son histoire jusqu'aux tribus barbares nomades des montagnes. Sa lame bleue fut certainement forgée à partir de métaux arcaniques trouvés dans le grand Nord, donnant à l'arme sa couleur bleu glaciale.
 
 PARAMÈTRES :
 
@@ -1984,7 +1984,7 @@ TAC0 : bonus de +2
 Poids : 1
 Facteur de vitesse : 0
 Spécial : 
- 1D8 points de dégâts de froid (jds contre les sorts)
+ 1D8 points de dégâts de froid (jet de sauvegarde contre les sorts)
  Le porteur bénéficie de 50 % de résistance au froid 
 Type de compétence : petite épée
 Type : arme à une main
@@ -2044,7 +2044,7 @@ PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
-Dégâts de poison : 18 points par round (jusqu’à un total de 27 points de dégâts)
+Dégâts de poison : 18 points par round (jusqu'à un total de 27 points de dégâts)
 Type de dégâts : perforant
 Poids : 5
 Facteur de vitesse : 3
@@ -2055,13 +2055,13 @@ Non utilisable par :
  Mage
  Voleur~
 @310  = ~Gibet~
-@311  = ~Une arme dépourvue d’humour, c’est le moins qu’on puisse dire. Gibet fut forge par Mekorig l’Aveugle pour précipiter la fin de l’âge des monstres et développer l’âge des hommes. Gibet disparaît souvent pendant plusieurs années, pour ensuite être découverte par un aventurier ambitieux dans l’antre de quelque dragon. Et le pouvoir de l’arme a tendance à inciter ce genre d’aventurier à partir à l’assaut de l’antre d’un autre dragon, où Gibet peut se retrouver à attendre à nouveau quelques années...
+@311  = ~Une arme dépourvue d'humour, c'est le moins qu'on puisse dire. Gibet fut forge par Mekorig l'Aveugle pour précipiter la fin de l'âge des monstres et développer l'âge des hommes. Gibet disparaît souvent pendant plusieurs années, pour ensuite être découverte par un aventurier ambitieux dans l'antre de quelque dragon. Et le pouvoir de l'arme a tendance à inciter ce genre d'aventurier à partir à l'assaut de l'antre d'un autre dragon, où Gibet peut se retrouver à attendre à nouveau quelques années...
 
 PARAMÈTRES :
 
 Dégâts : 1D8 +3
 Spécial : attaques accrues
-Spécial : bonus de +2 à la Classe d’Armure
+Spécial : bonus de +2 à la Classe d'Armure
 Dégâts et TAC0 accrus contre les morts-vivants, les géants, les monstres et les démons
 Type de dégâts : perforant
 Poids : 5
@@ -2073,7 +2073,7 @@ Non utilisable par :
  Mage
  Voleur~
 @312  = ~Lance Divine~
-@313  = ~Parmi les meilleures armes jamais créées pour la Lumière, cette lance rayonne du pouvoir du bien qui réside en elle. Presqu’exclusivement utilisée par la garde sacrée de Sukien, il s’agit d’un trésor rare et précieux. Les grands prêtres de Sukien bénissent chacune de ces lances pour éliminer le mal qui voudrait détruire leur temple.
+@313  = ~Parmi les meilleures armes jamais créées pour la Lumière, cette lance rayonne du pouvoir du bien qui réside en elle. Presqu'exclusivement utilisée par la garde sacrée de Sukien, il s'agit d'un trésor rare et précieux. Les grands prêtres de Sukien bénissent chacune de ces lances pour éliminer le mal qui voudrait détruire leur temple.
 
 PARAMÈTRES :
 
@@ -2089,7 +2089,7 @@ Type : arme à deux mains
 Utilisable uniquement par :
  Paladin~
 @314  = ~Fronde~
-@315  = ~Fronde élémentale "la fronde d’abondance"~
+@315  = ~Fronde élémentale "la fronde d'abondance"~
 @316  = ~Les frondes existent depuis la nuit des temps. La fronde de base se compose d'une courroie en cuir ou en tissu comportant une bourse pouvant contenir un projectile. L'utilisateur tient la fronde par ses deux extrémités et la fait tournoyer autour de sa tête. Lorsque la vitesse maximale est atteinte, il suffit de relâcher l'une des extrémités de la courroie pour larguer le projectile.
 
 PARAMÈTRES :
@@ -2098,7 +2098,7 @@ Poids : 0
 Facteur de vitesse : 6
 Type de compétence : armes à projectiles
 Type : arme à une main~
-@317  = ~À l’origine créée comme arme d’entraînement par les maîtres de l’Eglise du Soleil, cette fronde mortelle a fini par se retrouver entre les mains de voleurs et de scélérats depuis des siècles. C’est la fronde elle-même qui crée la pierre qu’elle va lancer quand elle tournoie, faisant appel aux éléments alentours, et éliminant le besoin de s’encombrer de munitions. Pas étonnant que les voleurs l’adorent.
+@317  = ~À l'origine créée comme arme d'entraînement par les maîtres de l'Eglise du Soleil, cette fronde mortelle a fini par se retrouver entre les mains de voleurs et de scélérats depuis des siècles. C'est la fronde elle-même qui crée la pierre qu'elle va lancer quand elle tournoie, faisant appel aux éléments alentours, et éliminant le besoin de s'encombrer de munitions. Pas étonnant que les voleurs l'adorent.
 
 PARAMÈTRES :
 
@@ -2137,8 +2137,8 @@ Poids : 4
 Facteur de vitesse : 4
 Type de compétence : armes contondantes
 Type : arme à deux mains~
-@323  = ~Bâton de la Nature : “Protecteur de la Nature”
-Ce bâton est utilisé par une tribu de druides depuis des siècles, légué de meneur en meneur parmi les archidruides de Kazguard. On dit que c’est la Nature elle-même qui l’aurait fabriqué, et sa lumière de couleur verte ne fait que confirmer ses pouvoirs naturels. Il s’agit d’une arme très puissante, tout comme l’étaient ses précédents propriétaires.
+@323  = ~Bâton de la Nature : « Protecteur de la Nature »
+Ce bâton est utilisé par une tribu de druides depuis des siècles, légué de meneur en meneur parmi les archidruides de Kazguard. On dit que c'est la Nature elle-même qui l'aurait fabriqué, et sa lumière de couleur verte ne fait que confirmer ses pouvoirs naturels. Il s'agit d'une arme très puissante, tout comme l'étaient ses précédents propriétaires.
 
 PARAMÈTRES :
 
@@ -2154,7 +2154,7 @@ Type : arme à une main
 Utilisable uniquement par :
  Druide~
 @324  = ~Bâton~
-@325  = ~Bâton élémentaire de l’Air~
+@325  = ~Bâton élémentaire de l'Air~
 @326  = ~Réputée être l'arme contondante la moins sophistiquée, le bâton est un bout de bois d'une longueur de 1,80 m à 2,80 m. Les bâtons de qualité supérieure sont fabriqués en chêne robuste et sont ferrés de métal aux deux extrémités. Le bâton doit être manié des deux mains.
 
 PARAMÈTRES :
@@ -2165,16 +2165,16 @@ Poids : 4
 Facteur de vitesse : 4
 Type de compétence : armes contondantes
 Type : arme à deux mains~
-@327  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément de l’air.
+@327  = ~Voici l'un des quatre bâtons élémentaires, forgés à l'aube des temps lors de la naissance de la planète, selon les croyances des Chanah'Rea. Ce bâton-ci est celui de l'élément de l'air.
 
 PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
-Spécial : bonus de +1 à la Classe d’Armure
+Spécial : bonus de +1 à la Classe d'Armure
 Spécial : 1D4 +1 points de dégâts électriques
-Spécial : projette un trait d’électricité
-Dégâts du projectile : dégâts électriques réduits de moitié en cas de jds contre les baguettes
+Spécial : projette un trait d'électricité
+Dégâts du projectile : dégâts électriques réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
@@ -2191,16 +2191,16 @@ Poids : 4
 Facteur de vitesse : 4
 Type de compétence : armes contondantes
 Type : arme à deux mains~
-@330  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément de la terre.
+@330  = ~Voici l'un des quatre bâtons élémentaires, forgés à l'aube des temps lors de la naissance de la planète, selon les croyances des Chanah'Rea. Ce bâton-ci est celui de l'élément de la terre.
 
 PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
-Spécial : bonus de +1 à la Classe d’Armure
-Spécial : 6 points de dégâts de poison par round (jusqu’à un total de 15 points de dégâts)
-Spécial : projette un trait d’acide
-Dégâts du projectile : dégâts d’acide réduits de moitié en cas de jds contre les baguettes
+Spécial : bonus de +1 à la Classe d'Armure
+Spécial : 6 points de dégâts de poison par round (jusqu'à un total de 15 points de dégâts)
+Spécial : projette un trait d'acide
+Dégâts du projectile : dégâts d'acide réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
@@ -2217,32 +2217,32 @@ Poids : 4
 Facteur de vitesse : 4
 Type de compétence : armes contondantes
 Type : arme à deux mains~
-@333  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément du feu.
+@333  = ~Voici l'un des quatre bâtons élémentaires, forgés à l'aube des temps lors de la naissance de la planète, selon les croyances des Chanah'Rea. Ce bâton-ci est celui de l'élément du feu.
 
 PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
-Spécial : bonus de +1 à la Classe d’Armure
+Spécial : bonus de +1 à la Classe d'Armure
 Spécial : 3D4 +1 points de dégâts de feu
 Spécial : projette un trait de feu
-Dégâts du projectile : dégâts de feu réduits de moitié en cas de jds contre les baguettes
+Dégâts du projectile : dégâts de feu réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
 Type de compétence : armes contondantes
 Type : arme à deux mains~
-@334  = ~Bâton élémentaire de l’Eau~
-@335  = ~Voici l’un des quatre bâtons élémentaires, forgés à l’aube des temps lors de la naissance de la planète, selon les croyances des Chanah’Rea. Ce bâton-ci est celui de l’élément de l’eau.
+@334  = ~Bâton élémentaire de l'Eau~
+@335  = ~Voici l'un des quatre bâtons élémentaires, forgés à l'aube des temps lors de la naissance de la planète, selon les croyances des Chanah'Rea. Ce bâton-ci est celui de l'élément de l'eau.
 
 PARAMÈTRES :
 
 Dégâts : 1D6 +3
 TAC0 : bonus de +3
-Spécial : bonus de +1 à la Classe d’Armure
+Spécial : bonus de +1 à la Classe d'Armure
 Spécial : 1D4 +1 points de dégâts de froid
 Spécial : projette un trait de glace
-Dégâts du projectile : dégâts de froid réduits de moitié en cas de jds contre les baguettes
+Dégâts du projectile : dégâts de froid réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
@@ -2250,13 +2250,13 @@ Type de compétence : armes contondantes
 Type : arme à deux mains~
 @336  = ~Bâton de vie~
 @337  = ~Bâton de vie
-Blanc et or, rayonnant d’une grande puissance, ce bâton fut formé à l’aube des temps par le premier des rayons du soleil qui chatoya sur l’eau la plus pure. Ayant peu à offrir en terme d’attaque, ce bâton fournit néanmoins de puissantes protections à son porteur.
+Blanc et or, rayonnant d'une grande puissance, ce bâton fut formé à l'aube des temps par le premier des rayons du soleil qui chatoya sur l'eau la plus pure. Ayant peu à offrir en terme d'attaque, ce bâton fournit néanmoins de puissantes protections à son porteur.
  
 PARAMÈTRES :
 
 Dégâts : 2D2 +2
 TAC0 : bonus de +2
-Classe d’Armure : bonus de +2
+Classe d'Armure : bonus de +2
 Spécial : crée des potions de soins
 Spécial : protection contre les sorts de niveau 1
 Type de dégâts : contondant
@@ -2266,9 +2266,9 @@ Type de compétence : armes contondantes
 Type : arme à deux mains
 Utilisable uniquement par :
  Mage (monoclassé, à classes jumelées ou multiclassé)
- Personnage d’alignement bon~
+ Personnage d'alignement bon~
 @338  = ~Épée longue~
-@339  = ~Épée longue “le Berserker du Nord”~
+@339  = ~Épée longue « le Berserker du Nord »~
 @340  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
 PARAMÈTRES :
@@ -2321,7 +2321,7 @@ PARAMÈTRES :
 
 Dégâts : 1D8 +2, +1D6 points de dégâts électriques
 TAC0 : bonus de +2
-15 % de résistance à l’électricité
+15 % de résistance à l'électricité
 Type de dégâts : tranchant
 Poids : 4
 Facteur de vitesse : 2
@@ -2331,8 +2331,8 @@ Non utilisable par :
  Clerc
  Mage~
 @346  = ~Coutelas~
-@347  = ~Coutelas +3 “Butin du seigneur pirate"~
-@348  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
+@347  = ~Coutelas +3 « Butin du seigneur pirate"~
+@348  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l'arme de choix de nombreux voleurs et brigands.
  
 PARAMÈTRES :
 
@@ -2348,8 +2348,8 @@ Non utilisable par :
  Druide
  Mage
  Paladin~
-@349  = ~Coutelas +3 : “Butin du seigneur pirate"
-La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
+@349  = ~Coutelas +3 : « Butin du seigneur pirate"
+La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l'arme de choix de nombreux voleurs et brigands.
 
 PARAMÈTRES :
 
@@ -2368,7 +2368,7 @@ Non utilisable par :
  Mage
  Paladin~
 @350  = ~Épée longue +2 "Section 1"~
-@351  = ~Les épées Section 1 sont d’excellentes armes, utilisées par l’élite de l’organisation appelée « le Section ». Le simple fait de la posséder pourrait même signer votre arrêt de mort.
+@351  = ~Les épées Section 1 sont d'excellentes armes, utilisées par l'élite de l'organisation appelée « le Section ». Le simple fait de la posséder pourrait même signer votre arrêt de mort.
 
 PARAMÈTRES :
 
@@ -2385,15 +2385,15 @@ Non utilisable par :
  Druide
  Mage
  Voleur~
-@352  = ~Épée longue “Vie”~
-@353  = ~L’épée personnelle de Nikita. C’est à contrecoeur qu’elle a supprimé de nombreux adversaires avec cette lame finement ouvragée.
+@352  = ~Épée longue « Vie »~
+@353  = ~L'épée personnelle de Nikita. C'est à contrecoeur qu'elle a supprimé de nombreux adversaires avec cette lame finement ouvragée.
 
 PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
 Type de dégâts : tranchant
-Spécial : +10 points de vie quand l’épée est équipée
+Spécial : +10 points de vie quand l'épée est équipée
 Poids : 3
 Facteur de vitesse : 1
 Type de compétence : grande épée
@@ -2402,7 +2402,7 @@ Non utilisable par :
  Clerc
  Druide
  Mage~
-@354  = ~Épée longue “Mort”~
+@354  = ~Épée longue « Mort »~
 @355  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
 PARAMÈTRES :
@@ -2417,14 +2417,14 @@ Non utilisable par :
  Druide
  Clerc
  Mage~
-@356  = ~L’épée personnelle de Michael. Il a supprimé de nombreux adversaires avec cette lame finement ouvragée. 
+@356  = ~L'épée personnelle de Michael. Il a supprimé de nombreux adversaires avec cette lame finement ouvragée. 
 
 PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
 Type de dégâts : tranchant
-Spécial : 10 % de chance de tuer la cible si elle rate son jds
+Spécial : 10 % de chance de tuer la cible si elle rate son jet de sauvegarde
 Poids : 3
 Facteur de vitesse : 1
 Type de compétence : grande épée
@@ -2434,7 +2434,7 @@ Non utilisable par :
  Druide
  Mage~
 @357  = ~Coutelas +3 "T'sarren"~
-@358  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
+@358  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l'arme de choix de nombreux voleurs et brigands.
 
 PARAMÈTRES :
 
@@ -2451,7 +2451,7 @@ Non utilisable par :
  Mage
  Paladin~
 @359  = ~Coutelas +3 "T'sarren"
-Cette épée appartenait à une pilleuse elfe démente qui répandait la destruction partout où elle passait. On n’a plus entendu parler d’elle depuis longtemps, elle est certainement morte, puisque vous êtes en possession de son épée.
+Cette épée appartenait à une pilleuse elfe démente qui répandait la destruction partout où elle passait. On n'a plus entendu parler d'elle depuis longtemps, elle est certainement morte, puisque vous êtes en possession de son épée.
 
 PARAMÈTRES :
 
@@ -2470,7 +2470,7 @@ Non utilisable par :
  Mage
  Paladin~
 @360  = ~Sabre~
-@361  = ~Sabre d’Artemis~
+@361  = ~Sabre d'Artemis~
 @362  = ~La longue lame simple et incurvée est la caractéristique des sabres et des cimeterres, bien qu'ils n'aient pas la même origine dans Féérune. Alors que le sabre était fait essentiellement pour les cavaliers, notamment pour sa polyvalence, le cimeterre est issu d'une influence plus orientale.
 
 PARAMÈTRES :
@@ -2491,7 +2491,7 @@ PARAMÈTRES :
 
 Dégâts : 1D8 +1
 TAC0 : bonus de +1
-Spécial : dégâts de blessure à hauteur d’1 pv/round pendant 8 rounds
+Spécial : dégâts de blessure à hauteur d'1 pv/round pendant 8 rounds
 Type de dégâts : tranchant
 Poids : 3
 Facteur de vitesse : 3
@@ -2502,7 +2502,7 @@ Non utilisable par :
  Mage
  Voleur~
 @364  = ~Épée courte~
-@365  = ~Lame d’assassin~
+@365  = ~Lame d'assassin~
 @366  = ~L'épée courte est le premier type d'épée à être apparu. Grossièrement, on peut comparer une épée courte à une dague dont la lame serait si longue qu'on ne pourrait plus l'appeler dague. Le terme épée courte n'entre pas dans les catégories d'épées. Pourtant, il est utilisé pour décrire une lame à double tranchant longue d'environ 60 cm. L'estoc de l'épée est généralement pointu, et on la range donc parmi les armes perforantes.
 
 PARAMÈTRES :
@@ -2517,7 +2517,7 @@ Non utilisable par :
  Druide
  Clerc 
  Mage~
-@367  = ~La lame d’assassin est une épée courte créée à l’intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n’était une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d’élite. Les Maîtres des Ombres constituent l’ordre le plus important dans la hiérarchie des voleurs de l’ombre. Il s’agit d’une épée courte +4.
+@367  = ~La lame d'assassin est une épée courte créée à l'intention des terribles assassins au service des Maîtres des Ombres. Jusque là, son existence n'était une simple rumeur, alimentée par les exploits de ce groupe de meurtriers d'élite. Les Maîtres des Ombres constituent l'ordre le plus important dans la hiérarchie des voleurs de l'ombre. Il s'agit d'une épée courte +4.
 
 PARAMÈTRES :
 
@@ -2545,7 +2545,7 @@ Type : arme à une main
 Non utilisable par :
  Mage
  Clerc~
-@370  = ~Corsaire est l’une des meilleures armes créées par les armureries de Regna. Fidèles à leur nature, les forgerons de Regna fabriquèrent une arme qui aiderait à "collecter les taxes" en haute mer et dans les villes côtières.
+@370  = ~Corsaire est l'une des meilleures armes créées par les armureries de Regna. Fidèles à leur nature, les forgerons de Regna fabriquèrent une arme qui aiderait à "collecter les taxes" en haute mer et dans les villes côtières.
 
 PARAMÈTRES :
 
@@ -2562,8 +2562,8 @@ Type : arme à une main
 Utilisable uniquement par :
  Voleur (monoclassé, à classes jumelées ou multiclassé)
  Druide~
-@371  = ~Coutelas +2 “Incinérateur”~
-@372  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
+@371  = ~Coutelas +2 « Incinérateur »~
+@372  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l'arme de choix de nombreux voleurs et brigands.
 
 PARAMÈTRES :
 
@@ -2579,8 +2579,8 @@ Non utilisable par :
  Druide
  Mage
  Paladin~
-@373  = ~Coutelas +2 “Incinérateur”
-Rouge et strié, ce coutelas est froid au toucher, des runes à sa surface indiquant simplement “Incinérateur”. Son apparence a mené bien des aventuriers à le prendre pour une arme vieille, usée et inutile, mais les plus curieux d’entre eux, ceux qui l’emportèrent avec eux “juste au cas où” furent toujours agréablement surpris. L’Incinérateur a beau rester froid tant qu’on ne le manie pas, une fois en mouvement en plein combat, on comprend d’où il tire son nom plus qu’approprié.
+@373  = ~Coutelas +2 « Incinérateur »
+Rouge et strié, ce coutelas est froid au toucher, des runes à sa surface indiquant simplement « Incinérateur ». Son apparence a mené bien des aventuriers à le prendre pour une arme vieille, usée et inutile, mais les plus curieux d'entre eux, ceux qui l'emportèrent avec eux « juste au cas où » furent toujours agréablement surpris. L'Incinérateur a beau rester froid tant qu'on ne le manie pas, une fois en mouvement en plein combat, on comprend d'où il tire son nom plus qu'approprié.
  
 PARAMÈTRES :
 
@@ -2598,8 +2598,8 @@ Non utilisable par :
  Druide
  Mage
  Paladin~
-@374  = ~Coutelas +3 “Lame fantôme”~
-@375  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
+@374  = ~Coutelas +3 « Lame fantôme »~
+@375  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l'arme de choix de nombreux voleurs et brigands.
 
 PARAMÈTRES :
 
@@ -2615,8 +2615,8 @@ Non utilisable par :
  Druide
  Mage
  Paladin~
-@376  = ~Coutelas +3 “Lame fantôme”
-Chaque épéiste a déjà fait l’expérience de voir les traînées, les images résiduelles de sa lame lorsqu’il la manie rapidement. Cette épée n’est pas différente, si ce n’est que ces images fantomatiques semblent être aussi tranchantes que la lame réelle. Elle appartenait à l’origine à un homme paresseux et gras du nom de Bordger, supposé avoir été initié aux arts magiques avant de tomber dans la carrière de voleur. Vu la qualité de cet enchantement, il eut été bien inspiré de rester magicien.
+@376  = ~Coutelas +3 « Lame fantôme »
+Chaque épéiste a déjà fait l'expérience de voir les traînées, les images résiduelles de sa lame lorsqu'il la manie rapidement. Cette épée n'est pas différente, si ce n'est que ces images fantomatiques semblent être aussi tranchantes que la lame réelle. Elle appartenait à l'origine à un homme paresseux et gras du nom de Bordger, supposé avoir été initié aux arts magiques avant de tomber dans la carrière de voleur. Vu la qualité de cet enchantement, il eut été bien inspiré de rester magicien.
  
 PARAMÈTRES :
 
@@ -2634,9 +2634,9 @@ Non utilisable par :
  Druide
  Mage
  Paladin~
-@377  = ~Coutelas +3 “Étincelle”~
-@378  = ~Coutelas +3 “Étincelle”
-Bourdonnant d’énergie électrique, il est facile de comprendre d’où vient le nom de ce coutelas. Ses origines demeurent inconnues, mais on y attache toujours des histoires de contrée étrange. Son premier propriétaire connu était un pirate, fraîchement rentré au port, qui fut dépouillé et tué en pleine ivresse, si vite que même son nom demeure aussi mystérieux que la véritable histoire de cette lame.
+@377  = ~Coutelas +3 « Étincelle »~
+@378  = ~Coutelas +3 « Étincelle »
+Bourdonnant d'énergie électrique, il est facile de comprendre d'où vient le nom de ce coutelas. Ses origines demeurent inconnues, mais on y attache toujours des histoires de contrée étrange. Son premier propriétaire connu était un pirate, fraîchement rentré au port, qui fut dépouillé et tué en pleine ivresse, si vite que même son nom demeure aussi mystérieux que la véritable histoire de cette lame.
 
 PARAMÈTRES :
 
@@ -2654,9 +2654,9 @@ Non utilisable par :
  Druide
  Mage
  Paladin~
-@379  = ~Coutelas +3 “Assomoir”~
-@380  = ~Coutelas +3 “Assomoir”
-Plus gros que le coutelas moyen, l’assomoir ressemble plus à une épée large qu’à un coutelas, et fut commandé par un bandit du nom d’Orrimy qui souhaitait "écraser autant que couper", selon ses propres mots. C’est cette taille immense qui lui fournit le résultat souhaité. Dommage que son premier coup d’essai se déroula contre un ogre, qui l’écrasa avant même qu’il ait le temps de dégainer...
+@379  = ~Coutelas +3 « Assomoir »~
+@380  = ~Coutelas +3 « Assomoir »
+Plus gros que le coutelas moyen, l'assomoir ressemble plus à une épée large qu'à un coutelas, et fut commandé par un bandit du nom d'Orrimy qui souhaitait "écraser autant que couper", selon ses propres mots. C'est cette taille immense qui lui fournit le résultat souhaité. Dommage que son premier coup d'essai se déroula contre un ogre, qui l'écrasa avant même qu'il ait le temps de dégainer...
 
 PARAMÈTRES :
 
@@ -2690,7 +2690,7 @@ Non utilisable par :
  Clerc 
  Mage~
 @383  = ~Sabre de Doufas
-Le sabre de Doufas fut créé pour être l’outil parfait de l’assassin. Il est très convoité par ceux qui règlent les différends à l'épée et, en général, reste peu de temps entre les mains d'une même personne.
+Le sabre de Doufas fut créé pour être l'outil parfait de l'assassin. Il est très convoité par ceux qui règlent les différends à l'épée et, en général, reste peu de temps entre les mains d'une même personne.
 
 PARAMÈTRES :
 
@@ -2698,7 +2698,7 @@ Dégâts : 1D8 +3 (+1D4 points de dégâts magiques)
 TAC0 : +2
 Spécial :
  +2 attaques
- Immobilise l’adversaire à moins d’un jds réussi
+ Immobilise l'adversaire à moins d'un jet de sauvegarde réussi
 Type de dégâts : perforant
 Poids : 5 
 Facteur de vitesse : 0
@@ -2709,7 +2709,7 @@ Non utilisable par :
  Clerc 
  Mage~
 @384  = ~Épée longue +4, Sainte Lame - Draz~
-@385  = ~Propriété de Gez de Heaum, cette puissante épée a tenu une place d’honneur parmi les artéfacts conservés au temple de Heaum de la Porte de Baldur pendant des siècles, parfois prêtée à un paladin de l’église si le besoin s’en faisait sentir. Pourtant, il y a soixante-trois ans, il y eut une recrudescence des vols à la Porte de Baldur, et Draz fut dérobée. Toutes les tentatives de la retrouver furent vaines, mais la voici à présent, entre vos mains.
+@385  = ~Propriété de Gez de Heaum, cette puissante épée a tenu une place d'honneur parmi les artéfacts conservés au temple de Heaum de la Porte de Baldur pendant des siècles, parfois prêtée à un paladin de l'église si le besoin s'en faisait sentir. Pourtant, il y a soixante-trois ans, il y eut une recrudescence des vols à la Porte de Baldur, et Draz fut dérobée. Toutes les tentatives de la retrouver furent vaines, mais la voici à présent, entre vos mains.
  
 PARAMÈTRES :
 
@@ -2728,14 +2728,14 @@ Utilisable uniquement par :
  Paladin~
 @386  = ~Épée longue "Brûlure"~
 @387  = ~Comment "Brûlure" a pu arriver dans ce plan reste un mystère.
-La rumeur prétend que son dernier propriétaire se croyait si puissant qu’il partit combattre la reine des élémentaires de feu. Visiblement, il a échoué.
+La rumeur prétend que son dernier propriétaire se croyait si puissant qu'il partit combattre la reine des élémentaires de feu. Visiblement, il a échoué.
    
 PARAMÈTRES :
 
 Dégâts : 1D8 +1
 TAC0 : bonus de +1
 +1D3 points de dégâts de feu
-Nombre d’attaques : 2
+Nombre d'attaques : 2
 Spécial :
    +2 contre les créatures qui régénèrent
    +3 contre les créatures utilisant le froid
@@ -2758,7 +2758,7 @@ PARAMÈTRES :
 Dégâts : 1D8
 Type de dégâts : tranchant
 Poids : 4~
-@390  = ~Ce cimeterre n’est pas différent d’un autre à première vue, mais lorsqu’il est manié par un "enfant de la forêt", sa lame devient verte et bourdonne doucement.
+@390  = ~Ce cimeterre n'est pas différent d'un autre à première vue, mais lorsqu'il est manié par un "enfant de la forêt", sa lame devient verte et bourdonne doucement.
 
 PARAMÈTRES :
 
@@ -2772,7 +2772,7 @@ Type : arme à une main
 Utilisable uniquement par :
  Druide~
 @391  = ~Harval : La lame grise~
-@392  = ~Le cimeterre est une arme qui s'apparente beaucoup au sabre, avec sa garde en coquille et sa lame à un seul tranchant, à la courbure accentuée, et terminée par une pointe. L'origine du cimeterre reste inconnue, mais c'est une arme répandue dans le sud des Royaumes Oubliés. Cette lame particulière semble être d’une qualité exceptionnelle et extrêmement bien équilibrée.
+@392  = ~Le cimeterre est une arme qui s'apparente beaucoup au sabre, avec sa garde en coquille et sa lame à un seul tranchant, à la courbure accentuée, et terminée par une pointe. L'origine du cimeterre reste inconnue, mais c'est une arme répandue dans le sud des Royaumes Oubliés. Cette lame particulière semble être d'une qualité exceptionnelle et extrêmement bien équilibrée.
 
 PARAMÈTRES :
 
@@ -2785,24 +2785,24 @@ Type : arme à une main
 Non utilisable par :
  Mage
  Clerc~
-@393  = ~Harval appartenait à Colbey Calistinsson, le gardien de l’équilibre.
-Elle lui fut donnée avant le Ragnarok (la guerre des dieux). Bien que n'étant pas un dieu, il était immortel. En tant que gardien de l’équilibre entre le bien, le mal, l’ordre et le chaos, peu l’aimaient car il était incapable de choisir un camp, son seul intérêt étant de protéger l’équilibre. On ne sait pas trop comment cette épée est apparue, mais elle devait aider Colby à maintenir l’équilibre, car seuls ceux qui recherchent ce même équilibre peuvent la manier.
+@393  = ~Harval appartenait à Colbey Calistinsson, le gardien de l'équilibre.
+Elle lui fut donnée avant le Ragnarok (la guerre des dieux). Bien que n'étant pas un dieu, il était immortel. En tant que gardien de l'équilibre entre le bien, le mal, l'ordre et le chaos, peu l'aimaient car il était incapable de choisir un camp, son seul intérêt étant de protéger l'équilibre. On ne sait pas trop comment cette épée est apparue, mais elle devait aider Colby à maintenir l'équilibre, car seuls ceux qui recherchent ce même équilibre peuvent la manier.
 
-Le bonus à la classe d’armure est dû au fait que le porteur possède un tel contrôle et un tel équilibre qu’il est capable de parer des attaques qui l’auraient normalement touché.
+Le bonus à la classe d'armure est dû au fait que le porteur possède un tel contrôle et un tel équilibre qu'il est capable de parer des attaques qui l'auraient normalement touché.
 
 PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
-Nombre d’attaques : 2 attaques
-Spécial : +2 à la Classe d’Armure
+Nombre d'attaques : 2 attaques
+Spécial : +2 à la Classe d'Armure
 Type de dégâts : tranchant
 Poids : 4
 Facteur de vitesse : 2
 Type de compétence : grande épée
 Type : arme à une main
 Non utilisable par :
- Personnage d’alignement neutre ou mauvais
+ Personnage d'alignement neutre ou mauvais
  Mage
  Clerc~
 @394  = ~Épée à deux mains~
@@ -2822,7 +2822,7 @@ Non utilisable par :
  Clerc
  Mage 
  Voleur~
-@397  = ~Il s’agit d’une épée à deux mains et à double tranchant nommée Infernus et qui brille d’un éclat noir et pourpre. C’est l’une des lames infernales conscientes qui infligent des dégâts de feu à leur cible.
+@397  = ~Il s'agit d'une épée à deux mains et à double tranchant nommée Infernus et qui brille d'un éclat noir et pourpre. C'est l'une des lames infernales conscientes qui infligent des dégâts de feu à leur cible.
 
 PARAMÈTRES :
 
@@ -2836,7 +2836,7 @@ Type : arme à deux mains
 Utilisable uniquement par :
  Guerrier (monoclassé, à classes jumelées ou multiclassé)~
 @398  = ~Épée longue de Krom~
-@399  = ~Cette épée appartenait à Krom l’Invisible. Il l’utilisa contre d’innombrables ennemis durant son règne. Le peu d’entre eux qui survécut à une rencontre avec la lame parlèrent d’une force subtile qui les ralentissait de l’intérieur.
+@399  = ~Cette épée appartenait à Krom l'Invisible. Il l'utilisa contre d'innombrables ennemis durant son règne. Le peu d'entre eux qui survécut à une rencontre avec la lame parlèrent d'une force subtile qui les ralentissait de l'intérieur.
 
 PARAMÈTRES :
 
@@ -2844,7 +2844,7 @@ Dégâts : 1D8 +3
 TAC0 : bonus de +3
 Type de dégâts : tranchant
 Spécial :
-    Ralentit la cible touchée si elle rate son jds
+    Ralentit la cible touchée si elle rate son jet de sauvegarde
 Poids : 3
 Facteur de vitesse : 1
 Type de compétence : grande épée
@@ -2866,13 +2866,13 @@ Non utilisable par :
  Druide
  Clerc
  Mage~
-@402  = ~Cette lame fut forgée pour le guerrier Cuthlan Rhea par le seigneur du feu Galamar. On sait peu de choses sur les pouvoirs exacts de cette lame, et à part les runes qui y sont gravées, elle montre peu de signes d’enchantement, sauf quand elle est brandie en combat : la lame se met alors à luire d’un rouge sombre.
+@402  = ~Cette lame fut forgée pour le guerrier Cuthlan Rhea par le seigneur du feu Galamar. On sait peu de choses sur les pouvoirs exacts de cette lame, et à part les runes qui y sont gravées, elle montre peu de signes d'enchantement, sauf quand elle est brandie en combat : la lame se met alors à luire d'un rouge sombre.
 
 PARAMÈTRES :
 
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
-Classe d’armure : bonus de +2
+Classe d'armure : bonus de +2
 Spécial : +1 en Dextérité
 Type de dégâts : tranchant
 Poids : 4
@@ -2901,13 +2901,13 @@ Non utilisable par :
  Mage
  Voleur~
 @406  = ~Épée bâtarde +2 "la Vipère"
-Le poison de cette épée est particulièrement mortel, extrait de la queue d’une wiverne, il inflige d’énormes dégâts en très peu de temps.
+Le poison de cette épée est particulièrement mortel, extrait de la queue d'une wiverne, il inflige d'énormes dégâts en très peu de temps.
 
 PARAMÈTRES :
 
 Dégâts : 1D8 +2
 TAC0 : bonus de +3
-Spécial : empoisonne la cible touchée si elle rate son jds contre la mort
+Spécial : empoisonne la cible touchée si elle rate son jet de sauvegarde contre la mort
 Type de dégâts : tranchant
 Poids : 8
 Facteur de vitesse : 7
@@ -2933,7 +2933,7 @@ Non utilisable par :
  Druide
  Clerc 
  Mage~
-@409  = ~Cette lame a été créée à l’intention des voleurs, mais peut être utilisée par tous ceux qui peuvent la manier. Elle donne de nombreux avantages aux voleurs, les rendant un peu plus rapides que leurs adversaires et beaucoup plus aptes à accéder aux possessions qu’ils convoitent.
+@409  = ~Cette lame a été créée à l'intention des voleurs, mais peut être utilisée par tous ceux qui peuvent la manier. Elle donne de nombreux avantages aux voleurs, les rendant un peu plus rapides que leurs adversaires et beaucoup plus aptes à accéder aux possessions qu'ils convoitent.
 
 PARAMÈTRES :
 
@@ -2950,10 +2950,10 @@ Non utilisable par :
  Clerc 
  Mage~
 @410  = ~Amulette~
-@411  = ~Amulette d’invocation de wiverne~
+@411  = ~Amulette d'invocation de wiverne~
 @412  = ~Un collier est un bijou décoratif généralement fabriqué en argent, en or, en platine ou tout autre métal précieux, et orné de gemmes. Un collier se porte toujours autour du cou et peut être de n'importe quelle longueur.~
-@413  = ~Amulette d’invocation de wiverne
-Elle permet à son porteur d’invoquer à volonté une wiverne à son service.~
+@413  = ~Amulette d'invocation de wiverne
+Elle permet à son porteur d'invoquer à volonté une wiverne à son service.~
 @414  = ~Collier~
 @415  = ~Collier clouté de subtilisation~
 @416  = ~Un collier est un bijou décoratif généralement fabriqué en argent, en or, en platine ou tout autre métal précieux, et orné de gemmes. Un collier se porte toujours autour du cou et peut être de n'importe quelle longueur.~
@@ -2967,25 +2967,25 @@ Utilisable uniquement par :
  Voleur
  Barde~
 @418  = ~Ankh~
-@419  = ~Ankh d’acceptation~
+@419  = ~Ankh d'acceptation~
 @420  = ~Un ankh est un objet décoratif porté autour du cou. Ils sont en général associés aux druides et sont souvent enchantés.~
-@421  = ~Ankh d’acceptation
-Voici l’un des neuf ankhs des Sukiem, à l’origine conservés au temple de Château-Nord, et qui furent perdus quand la cité tomba, pour être redécouverts par les Myth Drannor qui les gardèrent pendant des siècles. Quand ce groupe se sépara, les ankhs furent perdus à nouveau, jusqu’à aujourd’hui.
+@421  = ~Ankh d'acceptation
+Voici l'un des neuf ankhs des Sukiem, à l'origine conservés au temple de Château-Nord, et qui furent perdus quand la cité tomba, pour être redécouverts par les Myth Drannor qui les gardèrent pendant des siècles. Quand ce groupe se sépara, les ankhs furent perdus à nouveau, jusqu'à aujourd'hui.
 
 PARAMÈTRES :
 
-Classe d’Armure : bonus de +1
+Classe d'Armure : bonus de +1
 Sagesse : bonus de +1
 Spécial : paralyse la cible
 Spécial : le porteur devient neutre strict~
-@422  = ~Amulette d’expertise de voleur~
-@423  = ~Une amulette rare que chaque voleur voudrait posséder à cause de l’aide qu’elle leur apporte pour exercer leurs sombres talents. Les chefs de guildes paieraient de coquettes sommes pour mettre la main dessus.
+@422  = ~Amulette d'expertise de voleur~
+@423  = ~Une amulette rare que chaque voleur voudrait posséder à cause de l'aide qu'elle leur apporte pour exercer leurs sombres talents. Les chefs de guildes paieraient de coquettes sommes pour mettre la main dessus.
 
 PARAMÈTRES :
 
 Spécial :
- +1 à la Dextérité lorsqu’elle est portée
- Infravision lorsqu’elle est portée
+ +1 à la Dextérité lorsqu'elle est portée
+ Infravision lorsqu'elle est portée
  Invisibilité pendant 10 tours (charges limitées)
 Détection et désamorçage des pièges : +5 %
 Vol à la tire : +5 %
@@ -2993,9 +2993,9 @@ Crochetage des serrures : +5 %
 Furtivité : +5 %
 Utilisable uniquement par :
  Voleur(monoclassé, à classes jumelées ou multiclassé)~
-@424  = ~Amulette d’Ulcaster~
+@424  = ~Amulette d'Ulcaster~
 @425  = ~Un collier est un bijou décoratif généralement fabriqué en argent, en or, en platine ou tout autre métal précieux, et orné de gemmes. Un collier se porte toujours autour du cou et peut être de n'importe quelle longueur.~
-@426  = ~Voici l’amulette portée par le grand mage Ulcaster. Beaucoup d’artéfacts se trouvaient dans son école, mais peu furent retrouvés.
+@426  = ~Voici l'amulette portée par le grand mage Ulcaster. Beaucoup d'artéfacts se trouvaient dans son école, mais peu furent retrouvés.
 
 PARAMÈTRES :
 
@@ -3006,34 +3006,34 @@ Utilisable uniquement par :
  Mage~
 @427  = ~Amulette de protection +2~
 @428  = ~Les amulettes sont généralement des objets magiques suspendus autour du cou par une chaîne. Le type de chaîne accompagnant l'amulette augmente souvent la valeur esthétique de l'objet, mais pas ses propriétés magiques. On ne peut porter qu'une seule amulette autour du cou.~
-@429  = ~Amulette de protection +2 : “Mon protecteur”  
+@429  = ~Amulette de protection +2 : « Mon protecteur »  
 Les gardes du roi Pyronan, maître d'Impiltur, se virent remettre "mon protecteur" comme signe honorifique de leur fonction. Malheureusement, les membres de la garde ne parvinrent pas à tomber d'accord sur l'identité de celui qui recevrait l'amulette. Après des années de dissensions internes, l'objet fut perdu et les gardes remplacés par des soldats moins cupides.
 
 PARAMÈTRES :
 
-Bonus à la Classe d’Armure : 2
+Bonus à la Classe d'Armure : 2
 Bonus aux Jets de Sauvegarde : 1~
-@430  = ~Collier d’Hobbin~
-@431  = ~Le collier personnel d’Hobbin, qui lui fut donné par son grand-père.
+@430  = ~Collier d'Hobbin~
+@431  = ~Le collier personnel d'Hobbin, qui lui fut donné par son grand-père.
 
 PARAMÈTRES :
 
 TAC0 : bonus de +2
 Bonus au vol à la tire : +10 %~
 @432  = ~Amulette de prêtrise~
-@433  = ~Amulette de prêtrise : “le Saint” 
-Connue pour sa capacité à améliorer le lancement des sorts, l’amulette de prêtrise est très recherchée par les clercs et les druides.
+@433  = ~Amulette de prêtrise : « le Saint » 
+Connue pour sa capacité à améliorer le lancement des sorts, l'amulette de prêtrise est très recherchée par les clercs et les druides.
  
 PARAMÈTRES :
 
-Spécial : mémorisation d’un sort supplémentaire de niveau 2
+Spécial : mémorisation d'un sort supplémentaire de niveau 2
 Utilisable uniquement par :
  Druide
  Clerc~
 @434  = ~Anneau~
 @435  = ~Anneau de Shi'nayne~
 @436  = ~Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.~
-@437  = ~L’anneau magique de Shi'nayne Alanadel, lui conférant davantage de sorts divins et profanes.
+@437  = ~L'anneau magique de Shi'nayne Alanadel, lui conférant davantage de sorts divins et profanes.
 
 PARAMÈTRES :
 
@@ -3043,7 +3043,7 @@ PARAMÈTRES :
 
 PARAMÈTRES :
 
-Classe d’Armure : bonus de +3
+Classe d'Armure : bonus de +3
 Jets de Sauvegarde : bonus de +3~
 @440  = ~Anneau du Clerc-Mage~
 @441  = ~Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.
@@ -3057,27 +3057,27 @@ Sorts : Confère un sort supplémentaire de mage et un sort supplémentaire de cler
 PARAMÈTRES :
 
 15 % de protection contre les dégâts électriques
-Classe d’Armure : bonus de +1
+Classe d'Armure : bonus de +1
 Jets de Sauvegarde : bonus de +1~
-@444  = ~L’anneau de pouvoir~
-@445  = ~Cet anneau émet une lueur étrange. Soyez prudent avant de l’enfiler.~
+@444  = ~L'anneau de pouvoir~
+@445  = ~Cet anneau émet une lueur étrange. Soyez prudent avant de l'enfiler.~
 @446  = ~Frisson de Nemmerle~
-@447  = ~Nemmerle, un nécromancien malfaisant, effectua de nombreux voyages vers le plan élémentaire du feu. Alors qu’il se vantait constamment de posséder une immunité naturelle, après sa défaite des mains de Genshur, on retrouva cet anneau dans ses affaires.
-Au toucher, vous ressentez une vive et brève sensation de froid. Une inspection plus minutieuse révèle un mot de pouvoir gravé à sa surface, ainsi qu’un avertissement à moitié effacé mais duquel vous pouvez néanmoins lire "Le pouvoir du feu est éternel".
+@447  = ~Nemmerle, un nécromancien malfaisant, effectua de nombreux voyages vers le plan élémentaire du feu. Alors qu'il se vantait constamment de posséder une immunité naturelle, après sa défaite des mains de Genshur, on retrouva cet anneau dans ses affaires.
+Au toucher, vous ressentez une vive et brève sensation de froid. Une inspection plus minutieuse révèle un mot de pouvoir gravé à sa surface, ainsi qu'un avertissement à moitié effacé mais duquel vous pouvez néanmoins lire "Le pouvoir du feu est éternel".
 
 PARAMÈTRES :
 
 Sorts : confère la protection contre le froid
 Utilisable uniquement par :
- Personnage d’alignement mauvais~
+ Personnage d'alignement mauvais~
 @448  = ~Anneau de Conduction~
-@449  = ~Mille ans après que les sorciers de Yevaud tentèrent de prendre le contrôle de l’arbre de sagesse, les récits de la bataille sont encore racontés à chaque réunion de druides des Royaumes. Elgenon savait qu’il ne pourrait jamais surpasser la puissance des sorciers sans aide, et pria l’arbre de sagesse de le guider. Ses prières furent exaucées par la vision de cet anneau : la magie la plus puissante des sorciers, leur contrôle de la foudre, ne put faire de mal au druide en furie. La bataille fut terminée en quelques jours, les sorciers restants rassemblèrent ce qu’ils purent et prirent la fuite. Elgenon fit certainement preuve de bravoure pour obtenir cette victoire, mais ce fut sa sagesse le véritable facteur déterminant, ce qui lui valut le surnom d’Elgenon le Sage.
+@449  = ~Mille ans après que les sorciers de Yevaud tentèrent de prendre le contrôle de l'arbre de sagesse, les récits de la bataille sont encore racontés à chaque réunion de druides des Royaumes. Elgenon savait qu'il ne pourrait jamais surpasser la puissance des sorciers sans aide, et pria l'arbre de sagesse de le guider. Ses prières furent exaucées par la vision de cet anneau : la magie la plus puissante des sorciers, leur contrôle de la foudre, ne put faire de mal au druide en furie. La bataille fut terminée en quelques jours, les sorciers restants rassemblèrent ce qu'ils purent et prirent la fuite. Elgenon fit certainement preuve de bravoure pour obtenir cette victoire, mais ce fut sa sagesse le véritable facteur déterminant, ce qui lui valut le surnom d'Elgenon le Sage.
 
 PARAMÈTRES :
 
-Sorts : confère la protection contre l’électricité
+Sorts : confère la protection contre l'électricité
 Utilisable uniquement par :
- Personnage d’alignement neutre~
+ Personnage d'alignement neutre~
 @450  = ~Anneau des hautes arcanes~
 @451  = ~On raconte que, jadis, un grand magicien amnien défia les restrictions de Mystra concernant les arts magiques. Des légendes racontent que ce magicien était doué d'une capacité de mémorisation illimitée. Il s'avéra finalement que son pouvoir provenait de plusieurs anneaux magiques qu'il s'était fabriqués. Sa prétendue "mémoire infinie" n'était qu'une plaisanterie, mais ses anneaux continuent de figurer parmi les objets les plus recherchés des Royaumes.
 
@@ -3086,25 +3086,25 @@ PARAMÈTRES :
 Sorts : confère trois sorts de mage supplémentaires de niveau 3
 Utilisable uniquement par :
  Mage (monoclassé, à classes jumelées ou multiclassé)~
-@452  = ~L’anneau de feu - "Calcination"~
+@452  = ~L'anneau de feu - "Calcination"~
 @453  = ~Un anneau est une fine lanière de métal précieux. Il sert en général d'ornement. Plus rares, certains sont enchantés et permettent à quiconque les porte d'user de la magie qu'ils contiennent. Ils sont de ce fait très recherchés par les aventuriers.~
-@454  = ~L’anneau de feu - "Calcination"
-Cet anneau fut créé par les Harpell quand ils eurent l’occasion d’étudier un anneau d’énergie trouvé pendant la bataille pour Castelmithral. Á la différence de la plupart des objets magiques créés par cette famille, cet anneau fonctionne réellement, il est même plus efficace que l’anneau dont il s’inspire : il peut lancer non seulement le sort d’incinérateur d’Agannazar, mais également des colonnes et des boules de feu.
+@454  = ~L'anneau de feu - "Calcination"
+Cet anneau fut créé par les Harpell quand ils eurent l'occasion d'étudier un anneau d'énergie trouvé pendant la bataille pour Castelmithral. Á la différence de la plupart des objets magiques créés par cette famille, cet anneau fonctionne réellement, il est même plus efficace que l'anneau dont il s'inspire : il peut lancer non seulement le sort d'incinérateur d'Agannazar, mais également des colonnes et des boules de feu.
  
 PARAMÈTRES :
 
 Capacités spéciales :
- Incinérateur d’Agannazar
+ Incinérateur d'Agannazar
  Mains Ardentes
  Boule de Feu
  Colonne de Feu~
 @455  = ~Anneau du Druide~
 @456  = ~Anneau de protection ardente "Éclat de Charvirak"
-Depuis l’aube des temps, les sorciers utilisent la puissance des éléments pour attaquer et se défendre. Cet anneau est l’oeuvre d’un grand sorcier, Charvirak de Cormyr. On dit qu’il vola l’essence d’un golem de feu pour l’emprisonner dans cet anneau.
+Depuis l'aube des temps, les sorciers utilisent la puissance des éléments pour attaquer et se défendre. Cet anneau est l'oeuvre d'un grand sorcier, Charvirak de Cormyr. On dit qu'il vola l'essence d'un golem de feu pour l'emprisonner dans cet anneau.
 
 PARAMÈTRES :
 
-Bonus de +2 à la Classe d’Armure
+Bonus de +2 à la Classe d'Armure
 Utilisable uniquement par :
  Druide d'alignement neutre strict~
 @457  = ~Anneau des arcanes : premier~
@@ -3150,12 +3150,12 @@ Quiconque ramènera la preuve de sa mort recevra une prime d'un montant de quatre
 M.S.~
 @464  = ~Avertissement !
 
-<CHARNAME> n’a pas encore été tué. Tout échec se soldera par une disgrâce de tous les agents impliqués dans la tâche de supprimer <CHARNAME>. Échouer n’est PAS une option.
+<CHARNAME> n'a pas encore été tué. Tout échec se soldera par une disgrâce de tous les agents impliqués dans la tâche de supprimer <CHARNAME>. Échouer n'est PAS une option.
 
 P.W.~
 @465  = ~AVIS
 
-Il semblerait que <CHARNAME> n’ait pas encore été tué. Tout échec se soldera par une entrevue très déplaisante avec moi. Éliminez-le !
+Il semblerait que <CHARNAME> n'ait pas encore été tué. Tout échec se soldera par une entrevue très déplaisante avec moi. Éliminez-le !
 
 M~
 @466  = ~AVIS DE RECHERCHE
@@ -3186,14 +3186,14 @@ Dites au revoir à la passe.
 
 Ami.~
 @469  = ~Note à moi-même :
- Souviens-toi que l’entrée de la Section est à Bérégost à côté de la forge de Grondemarteau. Rappelle-toi aussi de conserver cette clé constamment. On aurait l’air stupide d’être enfermé hors de la Section.~
+ Souviens-toi que l'entrée de la Section est à Bérégost à côté de la forge de Grondemarteau. Rappelle-toi aussi de conserver cette clé constamment. On aurait l'air stupide d'être enfermé hors de la Section.~
 @470  = ~Framboises~
 @471  = ~Les framboises ont un gout sucré. Elles soignent deux points de vie si elles sont mangées.~
 @472  = ~<NO TEXT>~
 @473  = ~Gloup !~ [GULP]
 @474  = ~Raisins~
 @475  = ~Une grappe de raisins :
-Ces fruits brillent d’une étrange lumière intérieure. Ils soignent deux points de vie s’ils sont mangés. Et ils ont vraiment bon goût.~
+Ces fruits brillent d'une étrange lumière intérieure. Ils soignent deux points de vie s'ils sont mangés. Et ils ont vraiment bon goût.~
 @476  = ~Potion de Grande Guérison~
 @477  = ~Lorsqu'elle est bue, cette potion étrangement trouble rend 30 points de vie à celui qui la boit. L'effet est instantané et la potion est détruite pendant le processus.~
 @478  = ~Guéri~
@@ -3202,11 +3202,11 @@ Ces fruits brillent d’une étrange lumière intérieure. Ils soignent deux points d
 @481  = ~Les potions se trouvent généralement dans des flasques ou des fioles en céramique, cristal, verre ou métal. Ces flasques ou autres récipients contiennent généralement suffisamment de liquide pour fournir à une personne une dose complète et ainsi obtenir les effets désirés.~
 @482  = ~Consommée en entier, cette potion vous rend neuf points de vie. L'effet est instantané, et la potion ne sert qu'une seule fois.~
 @483  = ~Poulet~
-@484  = ~Voici le meilleur poulet de chez KFC, lentement rôti à feu vif et enrobé d’une vingtaine d’épices. Consommé en entier, ce poulet vous rendra 10 points de vie.~
-@485  = ~Potion d’Image Miroir~
-@486  = ~Cette potion confère à l’utilisateur jusqu’à cinq images miroir par niveau.~
-@487  = ~Potion d’Explosion Acide~
-@488  = ~En jetant cette potion à une cible, vous la plongerez dans un bain d’acide hautement corrosif qui lui rongera les chairs.~
+@484  = ~Voici le meilleur poulet de chez KFC, lentement rôti à feu vif et enrobé d'une vingtaine d'épices. Consommé en entier, ce poulet vous rendra 10 points de vie.~
+@485  = ~Potion d'Image Miroir~
+@486  = ~Cette potion confère à l'utilisateur jusqu'à cinq images miroir par niveau.~
+@487  = ~Potion d'Explosion Acide~
+@488  = ~En jetant cette potion à une cible, vous la plongerez dans un bain d'acide hautement corrosif qui lui rongera les chairs.~
 @489  = ~Baguette~
 @490  = ~Baguette de Forme de Pierre~
 @491  = ~Les baguettes magiques sont fines et mesurent environ 50 centimètres. Elles sont fabriquées en ivoire, en os ou en bois et portent généralement un objet en métal, cristal ou pierre à leur extrémité. Elles sont fragiles et ont tendance à se briser facilement. Pour cette raison, on les conserve souvent dans des étuis.
@@ -3218,33 +3218,33 @@ PARAMÈTRES :
 Spécial : transformation de la chair en pierre
 Spécial : transformation de la pierre en chair
 Portée : 6 m
-Zone d’effet : 1 créature
+Zone d'effet : 1 créature
 Non utilisable par :
  Guerrier
  Clerc
  Druide
  Voleur~
 @493  = ~Baguette de Domination~
-@494  = ~Une fois activée, la baguette crache une boule d'énergie magique qui file toucher automatiquement sa cible, y compris un ennemi engagé dans un combat au corps à corps. La créature doit être vue, ou au moins détectable, si bien qu'une couverture presque totale, telle celle qu'offre une archère, peut rendre le projectile inopérant. La boule d’énergie tentera de charmer la créature qu’elle frappe, de façon similaire à un sort de Domination.
+@494  = ~Une fois activée, la baguette crache une boule d'énergie magique qui file toucher automatiquement sa cible, y compris un ennemi engagé dans un combat au corps à corps. La créature doit être vue, ou au moins détectable, si bien qu'une couverture presque totale, telle celle qu'offre une archère, peut rendre le projectile inopérant. La boule d'énergie tentera de charmer la créature qu'elle frappe, de façon similaire à un sort de Domination.
 
 PARAMÈTRES :
 
 Spécial : Charme néfaste
 Portée : 30 m
-Zone d’effet : 1 créature
+Zone d'effet : 1 créature
 Non utilisable par :
  Guerrier
  Mage
  Barde
  Voleur~
 @495  = ~Baguette des morts~
-@496  = ~Une fois activée, cette baguette invoquera les âmes de trois guerriers morts pour aider l’utilisateur au combat.
+@496  = ~Une fois activée, cette baguette invoquera les âmes de trois guerriers morts pour aider l'utilisateur au combat.
 
 PARAMÈTRES :
 
 Spécial : Animation des morts
 Portée : 30 m
-Zone d’effet : pas d’application
+Zone d'effet : pas d'application
 Non utilisable par :
 Guerrier
  Mage
@@ -3252,7 +3252,7 @@ Guerrier
  Voleur~
 @497  = ~Crâne~
 @498  = ~Crâne des Morts~
-@499  = ~Un crane à l’apparence magique.~
+@499  = ~Un crane à l'apparence magique.~
 @500  = ~Le Crâne des Morts, utilisé pour invoquer les morts à volonté comme un parchemin de sort.
 
 Animation des morts (Nécromancie)
@@ -3267,19 +3267,19 @@ Ce sort permet de créer des monstres morts-vivants, des squelettes et des zombie
 @501  = ~Harpe~
 @502  = ~Chant de Nyriade~
 @503  = ~Les cordes d'argent de cette harpe délicatement travaillée sont fixées à une armature de bois peint incrustée d'or. Cet instrument est absolument exquis, parfait, presque inhumain. Au point que même des doigts inexpérimentés effleurant ses cordes produisent des musiques absolument sublimes. Bizarrement, il n'y a pas de clefs d'accordement, comme si cela n'était pas nécessaire. Un sentiment d'ébahissement envahit celui qui observe en détails ce magnifique instrument.~
-@504  = ~Les origines de cet instrument restent inconnues mais son créateur avait certainement pris au pied de la lettre l’adage "la musique adoucit les moeurs"… Quand un musicien compétent en joue, cet instrument produit un son capable de rendre sa cible totalement docile.
+@504  = ~Les origines de cet instrument restent inconnues mais son créateur avait certainement pris au pied de la lettre l'adage "la musique adoucit les moeurs"… Quand un musicien compétent en joue, cet instrument produit un son capable de rendre sa cible totalement docile.
 
 PARAMÈTRES :
 
 Spécial : Charme néfaste
 Portée : 30 m
-Zone d’effet : 1 créature
+Zone d'effet : 1 créature
 Utilisable uniquement par :
  Barde~
 @505  = ~Une bougie~
 @506  = ~Chandelle de Sagesse~
 @507  = ~À en juger par les symboles occultes à sa surface, cette bougie est, d'une façon ou d'une autre, magique. La nature de son enchantement vous demeurera cependant inconnue tant que vous n'aurez pas essayé de les lire ou de l'identifier.~
-@508  = ~Cette bougie, frottée dans le sens adéquat, accordera à l’utilisateur de la sagesse supplémentaire. Un tel exploit résulte cependant d'une magie puissante qui affecte la bougie et qui, hélas, la fait disparaître lorsqu'elle a joué son rôle.
+@508  = ~Cette bougie, frottée dans le sens adéquat, accordera à l'utilisateur de la sagesse supplémentaire. Un tel exploit résulte cependant d'une magie puissante qui affecte la bougie et qui, hélas, la fait disparaître lorsqu'elle a joué son rôle.
 
 PARAMÈTRES :
 
@@ -3304,7 +3304,7 @@ Bonus sur jet de sauvegarde : 1~
 @518  = ~Pierre-sésame~
 @519  = ~Pierre-sésame de Lillian~
 @520  = ~Souvent gravées de glyphes magiques, de runes ou de symboles, les pierres-sésames sont des objets enchantés conçus pour permettre à leur porteur de pénétrer dans des zones protégées par la magie. Etant donné que la plupart des pierres-sésames sont uniques et de nature spécifique, il est rare de trouver une pierre polyvalente.~
-@521  = ~Une pierre-sésame plutôt banale. Elle pourrait servir à n’importe quoi.~
+@521  = ~Une pierre-sésame plutôt banale. Elle pourrait servir à n'importe quoi.~
 @522  = ~Pierre-sésame du Gardien du Portail~
 @523  = ~Ses profondes rainures luisent d'une douce lueur rouge qui semble émaner de la pierre elle-même. Elle pourrait servir à quelque chose.~
 @524  = ~Une clé~
@@ -3954,7 +3954,7 @@ Non utilisable par :
  Voleur~
 @610  = ~Cotte de Mailles +3~
 @611  = ~Cotte de mailles +3 : "Cotte de mailles des Morts"
-Un mage peut devenir un assassin très efficace, comme l'a prouvé Vorusta voilà plus de 400 ans. Il créait des combattants squelettes équipés de cette armure enchantée et d'une puissante lame, puis offrait le bandeau qui contenait leur âme à ses futures victimes en guise de cadeau. Lorsque ces machines à tuer avaient achevé leur besogne, Vorusta récupérait l'équipement et recommençait l'opération. En dépit du fait que des siècles ont passé sans que cette armure n’ait été portée par un serviteur mort-vivant, une aura sombre en émane, et elle contient toujours certains des pouvoirs de ses anciens propriétaires.
+Un mage peut devenir un assassin très efficace, comme l'a prouvé Vorusta voilà plus de 400 ans. Il créait des combattants squelettes équipés de cette armure enchantée et d'une puissante lame, puis offrait le bandeau qui contenait leur âme à ses futures victimes en guise de cadeau. Lorsque ces machines à tuer avaient achevé leur besogne, Vorusta récupérait l'équipement et recommençait l'opération. En dépit du fait que des siècles ont passé sans que cette armure n'ait été portée par un serviteur mort-vivant, une aura sombre en émane, et elle contient toujours certains des pouvoirs de ses anciens propriétaires.
 
 PARAMÈTRES :
 
@@ -4045,7 +4045,7 @@ Non utilisable par :
 
 PARAMÈTRES :
 
-Résistance à l’électricité : +10 %
+Résistance à l'électricité : +10 %
 Dégâts : 1D6 +2, +1D6 d'électricité
 TAC0 : bonus de +2
 Type de dégâts : perforant
@@ -4257,7 +4257,7 @@ Utilisable uniquement par :
 @654  = ~Maria Sombrelame~
 @655  = ~Khan Noonian Singh~
 @656  = ~Quintus le Vif~
-@657  = ~Garak l’Oppresseur~
+@657  = ~Garak l'Oppresseur~
 @658  = ~Gorth~
 @659  = ~Sir Winton~
 @660  = ~Soldat d'élite des Griffes Noires~
@@ -4309,10 +4309,10 @@ Utilisable uniquement par :
 @706  = ~La Justice sera prompte et définitive !~ [CMJUST01]
 @707  = ~Vallius~
 @708  = ~Najara~
-@709  = ~Vous n’êtes rien face à mon dieu.~ [CMNAJ01]
-@710  = ~Je ne fais qu’un avec le Puissant !~ [CMNAJ02]
+@709  = ~Vous n'êtes rien face à mon dieu.~ [CMNAJ01]
+@710  = ~Je ne fais qu'un avec le Puissant !~ [CMNAJ02]
 @711  = ~Ahhh !~ [CMNAJ03]
-@712  = ~J’ai échoué !~ [CMNAJ05]
+@712  = ~J'ai échoué !~ [CMNAJ05]
 @713  = ~Ogre-mage~
 @714  = ~Garde des Veilleurs~
 @715  = ~Prêtre des Veilleurs~
@@ -4322,7 +4322,7 @@ Utilisable uniquement par :
 @719  = ~Jumeau tortionnaire~
 @720  = ~Valet~
 @721  = ~Halabasher Dhunshar~
-@722  = ~Rocky "le Roc" l’écureuil~
+@722  = ~Rocky "le Roc" l'écureuil~
 @723  = ~Nikita~
 @724  = ~Michael~
 @725  = ~Paul Wolfe~
@@ -4353,7 +4353,7 @@ Utilisable uniquement par :
 @750  = ~Boutique magique de Mystra~
 @751  = ~Ennemis plus difficiles~
 @752  = ~Installer un pack de regles pour le niveau 40 ?~
-@753  = ~Pack de regles pour le niveau 40 (n’installez pas ceci si vous utilisez deja un autre pack de regles comme celui de DSotSC)~
+@753  = ~Pack de regles pour le niveau 40 (n'installez pas ceci si vous utilisez deja un autre pack de regles comme celui de DSotSC)~
 @754  = ~BG1 uniquement~
 @755  = ~Cape~
 @756  = ~La cape peut être fabriquée dans presque n'importe quel type de tissu et prendre n'importe quelle forme. Les capes les plus courantes sont faites d'un morceau de tissu circulaire troué en son centre pour passer la tête et d'un tissu drapé à partir du cou, attaché par une chaîne, une broche, une ficelle ou des épingles.~
@@ -4423,7 +4423,7 @@ Type : arme à deux mains~
 @795    = ~Taneth~
 @796    = ~Erica~
 @797    = ~Jeneik~
-@798    = ~Guerrier d’élite Gnoll~
+@798    = ~Guerrier d'élite Gnoll~
 @799    = ~Guerrier vétéran Gnoll~
 @800    = ~Jhaeros Auglathla~
 @801    = ~Ygrainne Étoilevent~
@@ -4431,9 +4431,9 @@ Type : arme à deux mains~
 @803    = ~Marchand~
 @804    = ~Mme Godfrey~
 @805    = ~Garde de la caravane~
-@806    = ~Garde du seigneur de l’aube~
+@806    = ~Garde du seigneur de l'aube~
 @807    = ~Aubemestre~
-@808    = ~Seigneur de l’aube~
+@808    = ~Seigneur de l'aube~
 @809    = ~Petit sac idéal pour les gemmes.~
 @810    = ~Sac à gemmes~
 @811    = ~Boîte solide permettant de ranger des douzaines de parchemins à l'intérieur, à l'abri du feu, de la pluie ou des éclairs - dangers fréquents pour les aventuriers.~
@@ -4450,17 +4450,17 @@ Poids : 5~
 @818    = ~Boîte à potions~
 @819    = ~Marchandises de Godfrey~
 @820    = ~Robe de Magicien Rouge~
-@821    = ~Cette puissante robe de Magicien Rouge offre une protection face à toutes les formes d’attaque physique tout en augmentant la résistance magique et les jets de sauvegarde de son porteur. Seuls les mages d’alignement mauvais peuvent la porter, à cause de la nature de son enchantement.
+@821    = ~Cette puissante robe de Magicien Rouge offre une protection face à toutes les formes d'attaque physique tout en augmentant la résistance magique et les jets de sauvegarde de son porteur. Seuls les mages d'alignement mauvais peuvent la porter, à cause de la nature de son enchantement.
 
 PARAMÈTRES :
 
-Classe d’Armure : 5
+Classe d'Armure : 5
 Résistance à la magie : 5 %
 Jets de sauvegarde : bonus de +1
 Poids : 6
 Utilisable uniquement par :
  Mage (monoclassé, à classes jumelées ou multiclassé)
- Personnage d’alignement mauvais~
+ Personnage d'alignement mauvais~
 @822    = ~Fronde +2~
 @823    = ~Les frondes existent depuis la nuit des temps. La fronde de base se compose d'une courroie en cuir ou en tissu comportant une bourse pouvant contenir un projectile. L'utilisateur tient la fronde par ses deux extrémités et la fait tournoyer autour de sa tête. Lorsque la vitesse maximale est atteinte, il suffit de relâcher l'une des extrémités de la courroie pour larguer le projectile.
 
@@ -4489,11 +4489,11 @@ Non utilisable par :
  Clerc~
 @827    = ~Armure de Lathandre~
 @828    = ~Cotte de mailles elfique +1~
-@829    = ~Forgée par les elfes, cette cotte de mailles est à la fois légère et résistante. Contrairement à la plupart des cottes de mailles, la maille elfique n’empêche pas les mages d’exercer leur art.
+@829    = ~Forgée par les elfes, cette cotte de mailles est à la fois légère et résistante. Contrairement à la plupart des cottes de mailles, la maille elfique n'empêche pas les mages d'exercer leur art.
 
 PARAMÈTRES :
 
-Classe d’Armure : 4
+Classe d'Armure : 4
 Poids : 10~
 @830    = ~Épée longue elfique +2~
 @831    = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre, parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
@@ -4547,7 +4547,7 @@ Non utilisable par :
 @836    = ~Heaume de Lathandre~
 @837    = ~Bouclier de Lathandre~
 @838    = ~Marteau de Lathandre~
-@839    = ~Le marteau typique des Seigneurs de l’aube de Lathandre. Ce marteau émet une chaleur magique qui brûle lorsqu’on lui touche la tête.
+@839    = ~Le marteau typique des Seigneurs de l'aube de Lathandre. Ce marteau émet une chaleur magique qui brûle lorsqu'on lui touche la tête.
  
 PARAMÈTRES :
 
@@ -4565,7 +4565,7 @@ Non utilisable par :
 @840  = ~Sintara Al-Mustafa~
 @841  = ~Marchandises de la Caravane~
 @842  = ~Le Juste Prix~
-@843  = ~Le bazar magique d’Al-Mustafa~
+@843  = ~Le bazar magique d'Al-Mustafa~
 @844  = ~Forme ectoplasmique~
 @845  = ~Forme ectoplasmique (Altération, Illusion)
 Niveau : 3

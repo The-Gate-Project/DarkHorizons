@@ -1,5 +1,6 @@
 IF
 	Global("CMOversightEndGame","GLOBAL",1)
+	Dead("cmjones")
 	Global("CMSpawn15","GLOBAL",0)
 THEN
 	RESPONSE #100

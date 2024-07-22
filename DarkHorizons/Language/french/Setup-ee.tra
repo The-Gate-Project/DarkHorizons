@@ -389,7 +389,7 @@ PARAMÈTRES :
 Force fixée à 19
 Poids : 2~
 @97   = ~Ceinture de défense~
-@98   = ~Ceinture de défense : “Ceinture dorée d’Urnst”
+@98   = ~Ceinture de défense : « Ceinture dorée d’Urnst »
 Cette ceinture fut créée par les elfes dorés de l’Ombreterre. Leurs créations atteignent rarement la surface. Elle est puissamment enchantée pour repousser des attaques de tout type. Elle fut portée avec fierté par de nombreuses personnes, mais elle fut la plupart du temps volée et revendue au marché noir. Cette ceinture est encore recherchée par de nombreux guerriers en quête de protection efficace, mais rares sont ceux qui la trouvent.
 
 PARAMÈTRES :
@@ -423,7 +423,7 @@ Bonus à la Classe d’Armure : +1
 Poids : 18~
 @105  = ~Bottes usées~
 @106  = ~Bottes de santé~
-@107  = ~Bottes de santé : “Guerrier hardi”
+@107  = ~Bottes de santé : « Guerrier hardi »
 Ces bottes sont faites d’un tissu doux au fond solide, pour qu’elles soient durables et résistantes. Elles ont été enchantées par un prêtre des montagnes des îles de Norheim, qui utilisait ces bottes pour pouvoir soigner les gens même après avoir utilisé tous ses sorts. On est à leur recherche depuis que le prêtre les a perdues en se faisant mettre en pièces par une meute de loups, parce que, même s’il a été ramené à la vie et en a enchantées de plus puissantes, ses anciennes bottes lui manquent : elles étaient si confortables.
 
 PARAMÈTRES :
@@ -511,7 +511,7 @@ Spécial :
 Poids : 6~
 @133  = ~ Bracelets de défense CA 4~
 @134  = ~Les bracelets sont d'épaisses lanières de métal ou de cuir que l'on se noue ou s'attache autour de l'avant-bras. En général, la magie transmise aux bracelets n'a d'effet que lors des combats. La plupart des bracelets préservent ceux qui les portent des blessures ou améliorent leurs chances de frapper l'adversaire. Des exceptions existent cependant et chaque jour qui passe en est témoin.~
-@135  = ~ Bracelets de défense CA 4 : “Bracelets de protection”
+@135  = ~ Bracelets de défense CA 4 : « Bracelets de protection »
 Ces bracelets furent détenus pendant des décennies par un gladiateur invaincu, tant ils étaient utiles en combat d’arène. La mort de ce champion entraîna la disparition de l’objet magique, mais des rumeurs persistent encore aujourd’hui à propos de leur utilisation au cours de combats sportifs dans les Royaumes.
 
 PARAMÈTRES :
@@ -563,7 +563,7 @@ Capacité 2 :
 
 Poids : 1~
 @144  = ~Gantelets d’expertise de voleur~
-@145  = ~”Mains de Spooky”
+@145  = ~ »Mains de Spooky »
 Propriété de Daerum "Spooky" Estra, maître-voleur et chef de la guilde des voleurs de Cormyr, ces gants furent le cauchemar de bien des marchands. En les portant, l’on voit ses compétences de vol à la tire et de connaissance des pièges augmenter, ainsi que sa dextérité. Pourtant, la propriété la plus intéressante de cet objet est qu’il permet à son porteur d’ouvrir les objets verrouillés grâce à un sort de déblocage.
 
 PARAMÈTRES :
@@ -943,7 +943,7 @@ Poids : 12
 Facteur de vitesse : 7
 Type de compétence : fléau/étoile du matin
 Type : arme à une main~
-@215  = ~Fléau +3 “Mort Rouge”~
+@215  = ~Fléau +3 « Mort Rouge »~
 @216  = ~Gravé sur la tête du fléau, on peut lire : "La Mort Rouge étend son emprise sur tous". 
 
 PARAMÈTRES :
@@ -1073,7 +1073,7 @@ Facteur de vitesse : 4
 Type de compétence : marteau de guerre
 Type : arme à une main
 Force nécessaire : 14~
-@236  = ~Marteau de guerre +2~
+@236  = ~Morgoth~
 @237  = ~Les cavaliers peuvent difficilement manier les armes longues. C'est pourquoi de nombreuses armes ont été munies de manches plus courts pouvant être saisis d'une seule main. La masse et le fléau sont deux exemples d'armes longues qui ont suivi cette évolution ; le marteau de guerre en est un autre. Le marteau de guerre du cavalier est le descendant du marteau de Lucerne. Il est entièrement fabriqué en acier, avec des rondelles pour protéger et renforcer la prise. Les rondelles sont de petits disques métalliques, souvent en forme de motifs décoratifs. Le manche mesure environ 45 cm de longueur.
 
 PARAMÈTRES :
@@ -1084,7 +1084,7 @@ Poids : 6
 Facteur de vitesse : 4
 Type de compétence : marteau de guerre
 Type : arme à une main~
-@238  = ~Marteau de guerre +2 : “Morgoth”
+@238  = ~Marteau de guerre +2 : « Morgoth »
 Forgé par des nains des temps antiques, ce marteau émet encore une chaleur magique qui brûle quand vous touchez sa tête. On sait très peu de choses de cet ancien artéfact.
 
 PARAMÈTRES :
@@ -1157,8 +1157,8 @@ Poids : 8
 Facteur de vitesse : 3
 Type de compétence : fléau/étoile du matin
 Type : arme à une main~
-@246  = ~Masse +2 “Vierge Hurlante”~
-@247  = ~Masse +2 : “Vierge Hurlante”
+@246  = ~Masse +2 « Vierge Hurlante »~
+@247  = ~Masse +2 : « Vierge Hurlante »
 La tête d’obsidienne de cette masse représente le visage d’une belle jeune fille. Quand on la manie au combat, ce beau visage se tord en une face menaçante fendue d’une gueule pleine de crocs.
 Cette masse n’est pas une arme du plan matériel, elle fut forgée dans les Abysses. Il s’agit d’une arme consciente qui communique par télépathie avec son porteur pour tenter de l’attirer vers le chaos et la destruction. La Vierge a toujours soif de sang et fait en sorte que son porteur étanche cette soif. Quand la masse blesse une victime, elle boit goulument et utilise une partie du sang pour soigner son porteur.
 
@@ -1275,7 +1275,7 @@ Facteur de vitesse : 5
 Type de compétence : arc long
 Type : arme à deux mains~
 @264  = ~Arbalète légère~
-@265  = ~Arbalète légère +3 “Dard du scorpion”~
+@265  = ~Arbalète légère +3 « Dard du scorpion »~
 @266  = ~Une arbalète est un arc monté en croix sur un manche en métal ou en bois, appelé alors un arbrier. L'arc est généralement fabriqué en bois de frêne ou d'if. L'arbalète décoche un carreau lourd (également appelé simplement carreau). 
 
 PARAMÈTRES :
@@ -1371,7 +1371,7 @@ PARAMÈTRES :
 
 Dégâts : 1D4 +1
 Type de dégâts : projectile (perforant)
-Spécial : 6D6 points de dégâts lors de l’explosion à l’impact (jds contre les sorts pour moitié)
+Spécial : 6D6 points de dégâts lors de l’explosion à l’impact (jet de sauvegarde contre les sorts pour réduire de moitié)
 Poids : 0
 Arme de jet : fronde~
 @282  = ~Bille de feu~
@@ -1497,7 +1497,7 @@ Spécial :
 Type de compétence : dague
 Type : arme à une main~
 @300  = ~Dague de glace~
-@301  = ~Dague +2 : “Dent de l’hiver”
+@301  = ~Dague +2 : « Dent de l’hiver »
 Il n’existe aucune trace du créateur de cette arme, mais on peut faire remonter son histoire jusqu’aux tribus barbares nomades des montagnes. Sa lame bleue fut certainement forgée à partir de métaux arcaniques trouvés dans le grand Nord, donnant à l’arme sa couleur bleu glaciale.
 
 PARAMÈTRES :
@@ -1507,7 +1507,7 @@ TAC0 : bonus de +2
 Poids : 1
 Facteur de vitesse : 0
 Spécial : 
- 1D8 points de dégâts de froid (jds contre les sorts)
+ 1D8 points de dégâts de froid (jet de sauvegarde contre les sorts)
  Le porteur bénéficie de 50 % de résistance au froid 
 Type de compétence : dague
 Type : arme à une main~
@@ -1635,7 +1635,7 @@ Poids : 4
 Facteur de vitesse : 4
 Type de compétence : bâton
 Type : arme à deux mains~
-@323  = ~Bâton de la Nature : “Protecteur de la Nature”
+@323  = ~Bâton de la Nature : « Protecteur de la Nature »
 Ce bâton est utilisé par une tribu de druides depuis des siècles, légué de meneur en meneur parmi les archidruides de Kazguard. On dit que c’est la Nature elle-même qui l’aurait fabriqué, et sa lumière de couleur verte ne fait que confirmer ses pouvoirs naturels. Il s’agit d’une arme très puissante, tout comme l’étaient ses précédents propriétaires.
 
 PARAMÈTRES :
@@ -1670,7 +1670,7 @@ TAC0 : bonus de +3
 Spécial : bonus de +1 à la Classe d’Armure
 Spécial : 1D4 +1 points de dégâts électriques
 Spécial : projette un trait d’électricité
-Dégâts du projectile : dégâts électriques réduits de moitié en cas de jds contre les baguettes
+Dégâts du projectile : dégâts électriques réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
@@ -1696,7 +1696,7 @@ TAC0 : bonus de +3
 Spécial : bonus de +1 à la Classe d’Armure
 Spécial : 6 points de dégâts de poison par round (jusqu’à un total de 15 points de dégâts)
 Spécial : projette un trait d’acide
-Dégâts du projectile : dégâts d’acide réduits de moitié en cas de jds contre les baguettes
+Dégâts du projectile : dégâts d’acide réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
@@ -1722,7 +1722,7 @@ TAC0 : bonus de +3
 Spécial : bonus de +1 à la Classe d’Armure
 Spécial : 1D4 points de dégâts de feu
 Spécial : projette un trait de feu
-Dégâts du projectile : dégâts de feu réduits de moitié en cas de jds contre les baguettes
+Dégâts du projectile : dégâts de feu réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
@@ -1738,7 +1738,7 @@ TAC0 : bonus de +3
 Spécial : bonus de +1 à la Classe d’Armure
 Spécial : 1D4 +1 points de dégâts de froid
 Spécial : projette un trait de glace
-Dégâts du projectile : dégâts de froid réduits de moitié en cas de jds contre les baguettes
+Dégâts du projectile : dégâts de froid réduits de moitié en cas de jet de sauvegarde contre les baguettes
 Type de dégâts : contondant
 Poids : 3
 Facteur de vitesse : 1
@@ -1761,7 +1761,7 @@ Facteur de vitesse : 6
 Type de compétence : bâton
 Type : arme à deux mains~
 @338  = ~Épée longue~
-@339  = ~Épée longue “le Berserker du Nord”~
+@339  = ~Épée longue « le Berserker du Nord »~
 @340  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
 PARAMÈTRES :
@@ -1810,7 +1810,7 @@ Facteur de vitesse : 2
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
 @346  = ~Coutelas~
-@347  = ~Coutelas +3 “Butin du seigneur pirate"~
+@347  = ~Coutelas +3 « Butin du seigneur pirate"~
 @348  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
  
 PARAMÈTRES :
@@ -1821,7 +1821,7 @@ Poids : 4
 Facteur de vitesse : 5
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
-@349  = ~Coutelas +3 : “Butin du seigneur pirate"
+@349  = ~Coutelas +3 : « Butin du seigneur pirate"
 La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
 
 PARAMÈTRES :
@@ -1847,7 +1847,7 @@ Poids : 7
 Facteur de vitesse : 2
 Type de compétence : épée longue
 Type : arme à une main~
-@352  = ~Épée longue “Vie”~
+@352  = ~Épée longue « Vie »~
 @353  = ~L’épée personnelle de Nikita. C’est à contrecoeur qu’elle a supprimé de nombreux adversaires avec cette lame finement ouvragée.
 
 PARAMÈTRES :
@@ -1860,7 +1860,7 @@ Poids : 3
 Facteur de vitesse : 1
 Type de compétence : épée longue
 Type : arme à une main~
-@354  = ~Épée longue “Mort”~
+@354  = ~Épée longue « Mort »~
 @355  = ~Ces épées sont généralement appelées épées à double tranchant, épées de guerre ou épées militaires. Souvent, l'épée longue a une lame à simple tranchant. Le modèle et la longueur de l'épée varient d'un peuple à un autre et parfois même d'une époque à une autre. L'une des caractéristiques communes à toutes les épées de ce type est la longueur, comprise entre 90 cm et 1,20 m. Dans le cas des épées les plus longues, la lame couvre 1 m de la longueur totale. La plupart des épées longues ont une lame à double tranchant et un estoc pointu. Malgré son estoc, l'épée longue est une arme considérée comme tranchante, et non perforante. 
 
 PARAMÈTRES :
@@ -1878,7 +1878,7 @@ PARAMÈTRES :
 Dégâts : 1D8 +3
 TAC0 : bonus de +3
 Type de dégâts : tranchant
-Spécial : 10 % de chance de tuer la cible si elle rate son jds
+Spécial : 10 % de chance de tuer la cible si elle rate son jet de sauvegarde
 Poids : 3
 Facteur de vitesse : 1
 Type de compétence : épée longue
@@ -1980,7 +1980,7 @@ Poids : 4
 Facteur de vitesse : 1
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
-@371  = ~Coutelas +2 “Incinérateur”~
+@371  = ~Coutelas +2 « Incinérateur »~
 @372  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
 
 PARAMÈTRES :
@@ -1991,8 +1991,8 @@ Poids : 4
 Facteur de vitesse : 5
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
-@373  = ~Coutelas +2 “Incinérateur”
-Rouge et strié, ce coutelas est froid au toucher, des runes à sa surface indiquant simplement “Incinérateur”. Son apparence a mené bien des aventuriers à le prendre pour une arme vieille, usée et inutile, mais les plus curieux d’entre eux, ceux qui l’emportèrent avec eux “juste au cas où” furent toujours agréablement surpris. L’Incinérateur a beau rester froid tant qu’on ne le manie pas, une fois en mouvement en plein combat, on comprend d’où il tire son nom plus qu’approprié.
+@373  = ~Coutelas +2 « Incinérateur »
+Rouge et strié, ce coutelas est froid au toucher, des runes à sa surface indiquant simplement « Incinérateur ». Son apparence a mené bien des aventuriers à le prendre pour une arme vieille, usée et inutile, mais les plus curieux d’entre eux, ceux qui l’emportèrent avec eux « juste au cas où » furent toujours agréablement surpris. L’Incinérateur a beau rester froid tant qu’on ne le manie pas, une fois en mouvement en plein combat, on comprend d’où il tire son nom plus qu’approprié.
  
 PARAMÈTRES :
 
@@ -2004,7 +2004,7 @@ Poids : 3
 Facteur de vitesse : 3
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
-@374  = ~Coutelas +3 “Lame fantôme”~
+@374  = ~Coutelas +3 « Lame fantôme »~
 @375  = ~La lame à un seul tranchant et à la courbure accentuée est typique du coutelas et du cimeterre, bien que leur origine réside dans des parties différentes de Féérune. Le coutelas, plus léger, est l’arme de choix de nombreux voleurs et brigands.
 
 PARAMÈTRES :
@@ -2015,7 +2015,7 @@ Poids : 4
 Facteur de vitesse : 5
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
-@376  = ~Coutelas +3 “Lame fantôme”
+@376  = ~Coutelas +3 « Lame fantôme »
 Chaque épéiste a déjà fait l’expérience de voir les traînées, les images résiduelles de sa lame lorsqu’il la manie rapidement. Cette épée n’est pas différente, si ce n’est que ces images fantomatiques semblent être aussi tranchantes que la lame réelle. Elle appartenait à l’origine à un homme paresseux et gras du nom de Bordger, supposé avoir été initié aux arts magiques avant de tomber dans la carrière de voleur. Vu la qualité de cet enchantement, il eut été bien inspiré de rester magicien.
  
 PARAMÈTRES :
@@ -2028,8 +2028,8 @@ Poids : 3
 Facteur de vitesse : 3
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
-@377  = ~Coutelas +3 “Étincelle”~
-@378  = ~Coutelas +3 “Étincelle”
+@377  = ~Coutelas +3 « Étincelle »~
+@378  = ~Coutelas +3 « Étincelle »
 Bourdonnant d’énergie électrique, il est facile de comprendre d’où vient le nom de ce coutelas. Ses origines demeurent inconnues, mais on y attache toujours des histoires de contrée étrange. Son premier propriétaire connu était un pirate, fraîchement rentré au port, qui fut dépouillé et tué en pleine ivresse, si vite que même son nom demeure aussi mystérieux que la véritable histoire de cette lame.
 
 PARAMÈTRES :
@@ -2042,9 +2042,9 @@ Poids : 3
 Facteur de vitesse : 3
 Type de compétence : cimeterre/Wakizashi/ninja-to
 Type : arme à une main~
-@379  = ~Coutelas +3 “Assomoir”~
-@380  = ~Coutelas +3 “Assomoir”
-Plus gros que le coutelas moyen, l’assomoir ressemble plus à une épée large qu’à un coutelas, et fut commandé par un bandit du nom d’Orrimy qui souhaitait "écraser autant que couper", selon ses propres mots. C’est cette taille immense qui lui fournit le résultat souhaité. Dommage que son premier coup d’essai se déroula contre un ogre, qui l’écrasa avant même qu’il ait le temps de dégainer...
+@379  = ~Coutelas +3 « Assommoir »~
+@380  = ~Coutelas +3 « Assommoir »
+Plus gros que le coutelas moyen, l’assommoir ressemble plus à une épée large qu’à un coutelas, et fut commandé par un bandit du nom d’Orrimy qui souhaitait "écraser autant que couper", selon ses propres mots. C’est cette taille immense qui lui fournit le résultat souhaité. Dommage que son premier coup d’essai se déroula contre un ogre, qui l’écrasa avant même qu’il ait le temps de dégainer...
 
 PARAMÈTRES :
 
@@ -2076,7 +2076,7 @@ Dégâts : 1D8 +3 (+1D4 points de dégâts magiques)
 TAC0 : +2
 Spécial :
  +2 attaques
- Immobilise l’adversaire à moins d’un jds réussi
+ Immobilise l’adversaire à moins d’un jet de sauvegarde réussi
 Type de dégâts : perforant
 Poids : 5 
 Facteur de vitesse : 0
@@ -2196,7 +2196,7 @@ Dégâts : 1D8 +3
 TAC0 : bonus de +3
 Type de dégâts : tranchant
 Spécial :
-    Ralentit la cible touchée si elle rate son jds
+    Ralentit la cible touchée si elle rate son jet de sauvegarde
 Poids : 3
 Facteur de vitesse : 1
 Type de compétence : épée longue
@@ -2243,7 +2243,7 @@ PARAMÈTRES :
 
 Dégâts : 1D8 +2
 TAC0 : bonus de +3
-Spécial : empoisonne la cible touchée si elle rate son jds contre la mort
+Spécial : empoisonne la cible touchée si elle rate son jet de sauvegarde contre la mort
 Type de dégâts : tranchant
 Poids : 8
 Facteur de vitesse : 7
@@ -2313,7 +2313,7 @@ Crochetage des serrures : +5 %
 Furtivité : +5 %~
 @424  = ~Amulette d’Ulcaster~
 @425  = ~Un collier est un bijou décoratif généralement fabriqué en argent, en or, en platine ou tout autre métal précieux, et orné de gemmes. Un collier se porte toujours autour du cou et peut être de n'importe quelle longueur.~
-@426  = ~Voici l’amulette portée par le grand mage Ulcaster. Beaucoup d’artéfacts se trouvaient dans son école, mais peu furent retrouvés.
+@426  = ~Voici l’amulette portée par le grand mage Ulcaster. Beaucoup d’artefacts se trouvaient dans son école, mais peu furent retrouvés.
 
 PARAMÈTRES :
 
@@ -2322,7 +2322,7 @@ PARAMÈTRES :
 Poids : 9~
 @427  = ~Amulette de protection +2~
 @428  = ~Les amulettes sont généralement des objets magiques suspendus autour du cou par une chaîne. Le type de chaîne accompagnant l'amulette augmente souvent la valeur esthétique de l'objet, mais pas ses propriétés magiques. On ne peut porter qu'une seule amulette autour du cou.~
-@429  = ~Amulette de protection +2 : “Mon protecteur”  
+@429  = ~Amulette de protection +2 : « Mon protecteur »  
 Les gardes du roi Pyronan, maître d'Impiltur, se virent remettre "mon protecteur" comme signe honorifique de leur fonction. Malheureusement, les membres de la garde ne parvinrent pas à tomber d'accord sur l'identité de celui qui recevrait l'amulette. Après des années de dissensions internes, l'objet fut perdu et les gardes remplacés par des soldats moins cupides.
 
 PARAMÈTRES :
@@ -2337,7 +2337,7 @@ PARAMÈTRES :
 TAC0 : bonus de +2
 Bonus au vol à la tire : +10 %~
 @432  = ~Amulette de prêtrise~
-@433  = ~Amulette de prêtrise : “le Saint” 
+@433  = ~Amulette de prêtrise : « le Saint » 
 Connue pour sa capacité à améliorer le lancement des sorts, l’amulette de prêtrise est très recherchée par les clercs et les druides.
  
 PARAMÈTRES :
@@ -2365,7 +2365,7 @@ PARAMÈTRES :
 
 Sorts : Confère un sort supplémentaire de mage et un sort supplémentaire de clerc de niveaux 1 à 4~
 @442  = ~Anneau de protection +1 "Regina Coeli"~
-@443  = ~Un anneau envoyé du ciel par les dieux, qui protègera son porteur des dégâts et de la puissance des cieux. 
+@443  = ~Un anneau envoyé du ciel par les dieux, qui protégera son porteur des dégâts et de la puissance des cieux. 
 
 PARAMÈTRES :
 
@@ -3336,7 +3336,7 @@ Facteur de vitesse : 3
 Type de compétence : fléau/étoile du matin
 Type : arme à une main~
 @644  = ~Masse +3 : "Purificatrice"~
-@645  = ~Les mots "Purification et Puissance, le mal ne règnera jamais en maître" sont gravés sur la hampe. Cette masse semble avoir été forgée pour purifier le monde du mal par le feu.
+@645  = ~Les mots "Purification et Puissance, le mal ne régnera jamais en maître" sont gravés sur la hampe. Cette masse semble avoir été forgée pour purifier le monde du mal par le feu.
 
 PARAMÈTRES :
 
@@ -3779,7 +3779,7 @@ Poids : 15~
 
 // Morven uses the same soundset as Nikita
 @973  = ~Morwen~
-@974  = ~Interrogée sur son passé, MORWEN raconte qu'elle est issue d'une famille aisée de la ville de Padhiver. Elle goûta pour la première fois aux poèmes et aux contes épiques des bardes scaldes quand sa famille visita le Val de Bise dans sa jeunesse. Depuis, ces récits épiques et aventureux devinrent une obsession. Elle voulut apprendre l'art des scaldes, mais peu voyageaient jusque Padhiver, jusqu'au jour où Dale le Barde y fit escale. Elle le vit pour la première fois dans une taverne locale, chantant une ballade épique. Elle fit sa connaissance, et il la prit bientôt comme élève, lui enseignant l'art des scaldes ainsi que sa maîtrise de l'arc. Une fois toutes ces choses apprises, la vie morne de la haute société de Padhiver l'ennuya très vite, et elle décida de voyager vers le sud, dans la région de la Côte des Épées, pour s'ntéresser à la crise du fer. Elle décida de s'arrêter à Bérégost pour y trouver quelqu'un comme elle, à la recherche de l'aventure.~
+@974  = ~Interrogée sur son passé, MORWEN raconte qu'elle est issue d'une famille aisée de la ville de Padhiver. Elle goûta pour la première fois aux poèmes et aux contes épiques des bardes scaldes quand sa famille visita le Val de Bise dans sa jeunesse. Depuis, ces récits épiques et aventureux devinrent une obsession. Elle voulut apprendre l'art des scaldes, mais peu voyageaient jusque Padhiver, jusqu'au jour où Dale le Barde y fit escale. Elle le vit pour la première fois dans une taverne locale, chantant une ballade épique. Elle fit sa connaissance, et il la prit bientôt comme élève, lui enseignant l'art des scaldes ainsi que sa maîtrise de l'arc. Une fois toutes ces choses apprises, la vie morne de la haute société de Padhiver l'ennuya très vite, et elle décida de voyager vers le sud, dans la région de la Côte des Épées, pour s'intéresser à la crise du fer. Elle décida de s'arrêter à Bérégost pour y trouver quelqu'un comme elle, à la recherche de l'aventure.~
 
 
 // Prompts WeiDU

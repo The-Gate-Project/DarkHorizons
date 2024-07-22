@@ -3395,6 +3395,37 @@ BUT_ONLY
 
 //COPY ~DarkHorizons\areasx~ ~override~
 
+
+// New / Implement use of unused items/CMAARQ01
+
+
+COPY_EXISTING ~cm3374.are~ ~override~
+		LPF ALTER_AREA_CONTAINER
+			INT_VAR
+			flag_mlocked  = 1
+			lock_difficulty  = 1000
+			break_difficulty  = 1000
+			//lockpick_strref  = ~23173~
+			STR_VAR
+			container_name = ~Container 9~
+			container_key  = ~CMKEY01~
+			//container_script = ~CMJOLock~
+		END
+
+COPY_EXISTING ~cm3370.are~ ~override~
+		LPF ALTER_AREA_DOOR
+			INT_VAR
+			flag_locked   = 1
+			flag_uses_key = 1
+			flag_detected = 1
+			STR_VAR
+			door_name = ~Door0511~
+			door_key   = ~CMKEY03~
+		END
+		
+COPY_EXISTING ~CM2680.are~ ~override~
+	WRITE_ASCII 0x94 ~CM2680~ (8)
+
 /* Begin item copying */
 
 /* ****************************** Gear ************************* */
@@ -3913,6 +3944,7 @@ COPY ~DarkHorizons/%ItemsFolder%/CMFLQ01.itm~ ~override~
 COPY ~DarkHorizons/items/CMHAMM01.itm~ ~override~
   SAY NAME1 @228
   SAY NAME2 @229
+  WRITE_LONG 0x34 12000 // Store price
   SAY 0x50 @230
   SAY 0x54 @231
 
@@ -3925,6 +3957,7 @@ COPY ~DarkHorizons/items/CMHAMM02.itm~ ~override~
 COPY ~DarkHorizons/items/CMHAMM03.ITM~ ~override~
   SAY NAME1 @232
   SAY NAME2 @236
+  WRITE_LONG 0x34 10000 // Store price
   SAY 0x50 @237
   SAY 0x54 @238
 
@@ -5398,6 +5431,7 @@ COMPILE ~DarkHorizons/baf/cm0751.baf~
 COMPILE ~DarkHorizons/baf/cm0752.baf~
 COMPILE ~DarkHorizons/baf/cm0753.baf~
 COMPILE ~DarkHorizons/baf/cm3373.baf~
+COMPILE ~DarkHorizons/baf/CM2680.baf~
 
 /* Append area scripts */
 
@@ -5646,6 +5680,7 @@ COPY ~DarkHorizons/cre/CM04A514.CRE~ ~override/CM04A514.CRE~
 COPY ~DarkHorizons/cre/CM05A514.CRE~ ~override/CM05A514.CRE~
   SAY NAME1 @658
   SAY NAME2 @658
+  REPLACE_CRE_ITEM ~BRAC07~ #0 #0 #0 ~unstealable&undroppable~ ~gloves~
 
 COPY ~DarkHorizons/cre/CM0700A.CRE~ ~override/CM0700A.CRE~
   SAY NAME1 @659
@@ -5658,6 +5693,7 @@ COPY ~DarkHorizons/cre/CM1800A1.CRE~ ~override~
 COPY ~DarkHorizons/cre/CM1803A1.CRE~ ~override~
   SAY NAME1 @660
   SAY NAME2 @660
+  REPLACE_CRE_ITEM ~SW1H06~ #0 #0 #0 ~unstealable&undroppable~ ~weapon2~
 
 COPY ~DarkHorizons/cre/CM1803A2.CRE~ ~override~
   SAY NAME1 @660
@@ -5694,6 +5730,7 @@ COPY ~DarkHorizons/cre/CMAPOC2.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMASHIRU.CRE~ ~override~
   SAY NAME1 @666
   SAY NAME2 @667
+  REPLACE_CRE_ITEM ~MAGE01~ #0 #0 #0 ~unstealable&undroppable~ ~rring~
 
 COPY ~DarkHorizons/cre/CMBEAR01.CRE~ ~override~
   SAY NAME1 @668
@@ -5742,6 +5779,8 @@ COPY ~DarkHorizons/cre/CMDRU01.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMDRU02.CRE~ ~override~
   SAY NAME1 @679
   SAY NAME2 @679
+  REPLACE_CRE_ITEM ~SW1H06~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
+  REPLACE_CRE_ITEM ~BOW07~ #0 #0 #0 ~unstealable&undroppable~ ~weapon2~
 
 COPY ~DarkHorizons/cre/CMDRU03.CRE~ ~override~
   SAY NAME1 @680
@@ -5818,6 +5857,7 @@ COPY ~DarkHorizons/cre/CMGHST08.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMGNOL01.CRE~ ~override~
   SAY NAME1 @691
   SAY NAME2 @691
+  REPLACE_CRE_ITEM ~HALB03~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~DarkHorizons/cre/CMGNOL02.CRE~ ~override~
   SAY NAME1 @692
@@ -5826,6 +5866,7 @@ COPY ~DarkHorizons/cre/CMGNOL02.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMGSMEAG.CRE~ ~override~
   SAY NAME1 @693
   SAY NAME2 @693
+  REPLACE_CRE_ITEM ~SW1H06~ #0 #0 #0 ~unstealable&undroppable~ ~weapon1~
 
 COPY ~DarkHorizons/cre/CMHELM01.CRE~ ~override~
   SAY NAME1 @694
@@ -5846,6 +5887,7 @@ COPY ~DarkHorizons/cre/CMHOB03.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMIRONE.CRE~ ~override~
   SAY NAME1 @698
   SAY NAME2 @698
+  REPLACE_CRE_ITEM ~SW1H06~ #0 #0 #0 ~unstealable&undroppable~ ~weapon2~
 
 COPY ~DarkHorizons/cre/CMKOB01.CRE~ ~override~
   SAY NAME1 @699
@@ -5897,6 +5939,7 @@ COPY ~DarkHorizons/cre/CMNAJARA.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMOGREM1.CRE~ ~override~
   SAY NAME1 @713
   SAY NAME2 @713
+  REPLACE_CRE_ITEM ~MAGE01~ #0 #0 #0 ~unstealable&undroppable~ ~lring~
 
 COPY ~DarkHorizons/cre/CMOSEC01.CRE~ ~override~
   SAY NAME1 @714
@@ -5912,7 +5955,9 @@ COPY ~DarkHorizons/cre/CMOSEC03.CRE~ ~override~
 
 COPY ~DarkHorizons/cre/CMOSEC04.CRE~ ~override~
   SAY NAME1 @716
-  SAY NAME2 @716
+  SAY NAME2 @716 
+  WRITE_ASCII SCRIPT_OVERRIDE ~cmovers2~ (8)
+  REPLACE_CRE_ITEM ~BRAC07~ #0 #0 #0 ~unstealable&undroppable~ ~gloves~
 
 COPY ~DarkHorizons/cre/CMOSEC05.CRE~ ~override~
   SAY NAME1 @717
@@ -6127,6 +6172,7 @@ COPY ~DarkHorizons/cre/CMSEC20A.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC21.CRE~ ~override~
   SAY NAME1 @739
   SAY NAME2 @739
+  REMOVE_CRE_ITEM ~MISC97~ ~inv2~
 
  COPY ~DarkHorizons/cre/CMSEC22.CRE~ ~override~
   SAY NAME1 @737
@@ -6171,10 +6217,12 @@ COPY ~DarkHorizons/cre/CMSKE04.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSKEL01.CRE~ ~override~
   SAY NAME1 @741
   SAY NAME2 @741
+  REPLACE_CRE_ITEM ~BRAC07~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
 
 COPY ~DarkHorizons/cre/CMSKEL02.CRE~ ~override~
   SAY NAME1 @741
   SAY NAME2 @741
+  REPLACE_CRE_ITEM ~BRAC07~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
 
 COPY ~DarkHorizons/cre/CMSKEL03.CRE~ ~override~
   SAY NAME1 @742

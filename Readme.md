@@ -22,6 +22,9 @@ There will be multiple minor quests as well a few "Fed Ex" quests.
 There are many new custom items added to this mod as well as new areas to explore. Remember Dark Horizons requires the Tales of the Sword Coast expansion pack (Originally included in Enhanced Edition). 
 
 
+**Ineth** created a very nice and detailed [walkthrough for Dark Horizons !](https://baldursgate.fandom.com/wiki/Dark_Horizons_walkthrough)
+
+
 ## Install:
 -----------
 
@@ -79,6 +82,18 @@ Big thanks go to these following individuals for their assistance with Dark Hori
     CúChoinneach, Roach, Grog, WoRm for giving us Dark Side of the Sword Coast, which in turn inspired me to create Dark Horizons.
     Lady Nightshade for giving us her awesome portrait site back in the old days.
     The friendly and knowledgeable members at the Chosen of Mystra & TeamBG.
+	
+The Gate Project credits :
+
+	- Roberciik a very big lot of things !
+	- GraionDilach many things !
+	- Frenzgyn for bug reports
+	- Ineth for [bug reports](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318) and for [the new walkthrough](https://baldursgate.fandom.com/wiki/Dark_Horizons_walkthrough)   
+	- Paladin84 and Pzombie For bugfixes and Russian translation update  
+	- Selphira for her [awsome tool Autodescription](https://github.com/Selphira/AutoDescription)  
+	- Lzw104522773 and MephistoSatanDevil for Chinese translation  
+	- bouncer1798 for bug report  
+	- lulnope for bug reports  
 
 
 ## Version History:
@@ -98,31 +113,31 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 - Add EET Compat originaly included in EET:
     - Ibrac24.bam renamed to Ibrac24#.bam and reassigned for CMBRQ04.ITM
     - Files to be installed on BG1:
-    	- FIRE_1.bam
-		- FIRE_3.bam
-		- FIRE_4.bam
-		- FIRE_4G2.bam
+    	- FIRE_1.bam, FIRE_3.bam, FIRE_4.bam and FIRE_4G2.bam
 	- Files to be installed on BG:EE 
-		- FIRE_1.bam
-		- FIRE_4.bam
-		- FIRE_4G2.bam
+		- FIRE_1.bam, FIRE_4.bam and FIRE_4G2.bam
 	- Files to be installed on BG:SoD:
-		- FIRE_1.bam
-		- FIRE_4G2.bam
+		- FIRE_1.bam and FIRE_4G2.bam
 	- Deleted as not used anymore:
-		- BREGAX02.WAV
-		- BREGAX03.WAV
-		- BREGAX04.WAV
-		- BREGAX05.WAV
-		- BREGAX17.WAV
+		- BREGAX02.WAV, BREGAX03.WAV, BREGAX04.WAV, BREGAX05.WAV and BREGAX17.WAV
 - Modified tp2 and new folders for BG:EE and BG:SoD BAM files according to the above changes
+- Properly void EE joinables' unused sound slot.  
+- Flags some existing item on creature as undroppable to prevent duplicate from the base game.  
+- Change some existing item in containers as generic to prevent duplicate from the base game.  
+- Remove duplicate quest items from the base game.  
+- corrige orientations for creatures [(CM3376 and BG/AR0900)](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318)
+- Add an existing mod creature not implemented [(A ghost mage in CM2680)](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318)
+- Implement use of two key item (CMKEY03and CMKEY01) to acced a container and the entrance of the [Section compound.](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318)
 - Add readme.md
 
 #### BUGFIXES
 
+- Prevent some dead end for [Oversight compound.](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318)
 - Fix for CMMERC06.sto thanks to P_zombie and Paladin84
 - Fix for incorrect `EscapeArea()` usage
 - Fixed missing CMMAR15.cre portrait.
+- Correction for CMHAMM01.ITM and adjust price for [(CMHAMM01.ITM and CMHAMM03)](https://github.com/The-Gate-Project/DarkHorizons/issues/27#issuecomment-2241271786)
+- Full items review (bug fixes and synchronize item effects according to description)
 
 
 ### Version BGEE 2.16 Release. December 28, 2023

@@ -1,6 +1,7 @@
 IF
 	Global("CMOversightEndGame","GLOBAL",1)
-        Global("CMaddCM0753","GLOBAL",0)
+	Dead("cmjones")
+	Global("CMaddCM0753","GLOBAL",0)
 THEN
 	RESPONSE #100
 		CreateCreature("CMSEC08A",[886.853],6)

@@ -8,6 +8,7 @@ END
 
 IF
 	Global("CMOversightEndGame","GLOBAL",1)
+	Dead("cmjones")
 THEN
 	RESPONSE #100
 		TriggerActivation("Door0753",TRUE)
@@ -16,6 +17,7 @@ END
 
 IF
 	Global("CMOversightEndGame","GLOBAL",1)
+	Dead("cmjones")
 	Global("CMSpawn16","GLOBAL",0)
 THEN
 	RESPONSE #100

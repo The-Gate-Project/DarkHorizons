@@ -13,6 +13,6 @@ Global("CmTalkToJones","GLOBAL",0)~ THEN CMJONES Confront
 == CMJONES @4
 == CMGEORGE @5
 == CMJONES @6
-== CMGEORGE @7 DO ~SetGlobal("CMOversightEndGame","GLOBAL",1) EscapeArea()~
+== CMGEORGE @7 DO ~SetGlobal("CMOversightEndGame","GLOBAL",1) ReallyForceSpell(Myself,DRYAD_TELEPORT)~
 == CMJONES @8  DO ~Enemy()~
 EXIT
