@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizons/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~3.0:BGEE+EET+BGT:Experimental~
+VERSION ~3.0~
 
 README ~DarkHorizons/readme-dh.htm~
 
@@ -3396,7 +3396,8 @@ BUT_ONLY
 //COPY ~DarkHorizons\areasx~ ~override~
 
 
-// New / Implement use of unused items/CMAARQ01
+
+// New / Implement use of unused items/CMKEY01.itm/CMKEY03.itm
 
 
 COPY_EXISTING ~cm3374.are~ ~override~
@@ -3422,9 +3423,17 @@ COPY_EXISTING ~cm3370.are~ ~override~
 			door_name = ~Door0511~
 			door_key   = ~CMKEY03~
 		END
-		
+
+/*  Commented out until changes are validated or not (creature CMGHST07.cre/CM2680.ar)
+
+- Add an existing mod creature not implemented [(A ghost mage in CM2680)](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318))
+	
 COPY_EXISTING ~CM2680.are~ ~override~
 	WRITE_ASCII 0x94 ~CM2680~ (8)
+	
+	
+*/
+
 
 /* Begin item copying */
 
@@ -5431,7 +5440,14 @@ COMPILE ~DarkHorizons/baf/cm0751.baf~
 COMPILE ~DarkHorizons/baf/cm0752.baf~
 COMPILE ~DarkHorizons/baf/cm0753.baf~
 COMPILE ~DarkHorizons/baf/cm3373.baf~
-COMPILE ~DarkHorizons/baf/CM2680.baf~
+
+/*  Commented out until changes are validated or not (creature CMGHST07.cre/CM2680.ar)
+
+- Add an existing mod creature not implemented [(A ghost mage in CM2680)](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318))
+
+//COMPILE ~DarkHorizons/baf/CM2680.baf~
+
+*/
 
 /* Append area scripts */
 

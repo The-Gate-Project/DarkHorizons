@@ -85,21 +85,21 @@ Big thanks go to these following individuals for their assistance with Dark Hori
 	
 The Gate Project credits :
 
-	- Roberciik a very big lot of things !
-	- GraionDilach many things !
-	- Frenzgyn for bug reports
-	- Ineth for [bug reports](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318) and for [the new walkthrough](https://baldursgate.fandom.com/wiki/Dark_Horizons_walkthrough)   
-	- Paladin84 and Pzombie For bugfixes and Russian translation update  
-	- Selphira for her [awsome tool Autodescription](https://github.com/Selphira/AutoDescription)  
-	- Lzw104522773 and MephistoSatanDevil for Chinese translation  
-	- bouncer1798 for bug report  
-	- lulnope for bug reports  
+- Roberciik a very big lot of things !
+- GraionDilach many things !
+- Frenzgyn for bug reports.
+- Ineth for [bug reports](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318) and for [the new walkthrough.](https://baldursgate.fandom.com/wiki/Dark_Horizons_walkthrough)   
+- Paladin84 and Pzombie For bugfixes and Russian translation update . 
+- Selphira for her [awsome tool Autodescription.](https://github.com/Selphira/AutoDescription)  
+- Lzw104522773 and MephistoSatanDevil for Chinese translation.  
+- bouncer1798 for bug report.  
+- lulnope for bug reports.  
 
 
 ## Version History:
 -------------------
 
-### Version BGEE / EET / BGT - WIP
+### Version 3.0 BGEE / EET / BGT
 
 #### CHANGES
 
@@ -126,7 +126,6 @@ The Gate Project credits :
 - Change some existing item in containers as generic to prevent duplicate from the base game.  
 - Remove duplicate quest items from the base game.  
 - corrige orientations for creatures [(CM3376 and BG/AR0900)](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318)
-- Add an existing mod creature not implemented [(A ghost mage in CM2680)](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318)
 - Implement use of two key item (CMKEY03and CMKEY01) to acced a container and the entrance of the [Section compound.](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318)
 - Add readme.md
 
