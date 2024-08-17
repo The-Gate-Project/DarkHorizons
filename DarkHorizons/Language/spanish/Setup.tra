@@ -1062,8 +1062,12 @@ Peso: 3
 Factor de velocidad: 2
 Tipo de competencia: Hacha
 Tipo: Hacha 1-mano
-
-@194 = ~alabarda~
+No utilizable por:
+ Druida
+ Clérigo
+ Mago 
+ Ladrón~
+@194 = ~Alabarda~
 @195 = ~Hacha de batalla a dos manos +2~
 @196 = ~La alabarda es, con diferencia, el arma de asta más antigua y utilizada. Consiste en un hacha con forma de cuchilla montada sobre un bastón de unos dos metros de longitud. La hoja del hacha está equilibrada en la parte trasera con una aleta, y coronada por una punta afilada, normalmente de diseño cuadrangular. A veces se sustituye por un gancho para desmontar a la caballería. Una alabarda puede describirse como un cruce entre una lanza y un hacha.
 
