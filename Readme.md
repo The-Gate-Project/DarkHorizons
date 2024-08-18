@@ -10,7 +10,7 @@
 
 [Link to original Mod Download](http://downloads.chosenofmystra.net/bg1/)
 
-[RLink to readme.html](https://htmlpreview.github.io/?https://github.com/The-Gate-Project/DarkHorizons/blob/main/DarkHorizons/readme-dh.htm)
+[Link to readme.html](https://htmlpreview.github.io/?https://github.com/The-Gate-Project/DarkHorizons/blob/main/DarkHorizons/readme-dh.htm)
 
 ## Description:
 ---------------
@@ -90,7 +90,7 @@ The Gate Project credits :
 - Roberciik a very big lot of things !
 - GraionDilach many things !
 - Frenzgyn for bug reports.
-- Ineth for [bug reports](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318) and for [the new walkthrough.](https://baldursgate.fandom.com/wiki/Dark_Horizons_walkthrough)   
+- Ineth for [bug reports](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318) and for [the new walkthrough.](hhttps://baldursgate.fandom.com/wiki/Dark_Horizons_walkthrough)   
 - Paladin84 and Pzombie For bugfixes and Russian translation update . 
 - Selphira for her [awsome tool Autodescription.](https://github.com/Selphira/AutoDescription)  
 - Lzw104522773 and MephistoSatanDevil for Chinese translation.  
