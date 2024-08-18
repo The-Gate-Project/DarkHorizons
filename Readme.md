@@ -10,6 +10,8 @@
 
 [Link to original Mod Download](http://downloads.chosenofmystra.net/bg1/)
 
+[RLink to readme.html](https://htmlpreview.github.io/?https://github.com/The-Gate-Project/DarkHorizons/blob/main/DarkHorizons/readme-dh.htm)
+
 ## Description:
 ---------------
 
@@ -98,6 +100,14 @@ The Gate Project credits :
 
 ## Version History:
 -------------------
+
+
+### Version 3.01
+
+#### BUGFIXES
+
+- Typo in spanish translation and update
+- Update [Readme.html](https://htmlpreview.github.io/?https://github.com/The-Gate-Project/DarkHorizons/blob/main/DarkHorizons/readme-dh.htm)
 
 ### Version 3.0 BGEE / EET / BGT
 
