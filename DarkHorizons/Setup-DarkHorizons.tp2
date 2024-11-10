@@ -3404,8 +3404,8 @@ COPY_EXISTING ~cm3374.are~ ~override~
 		LPF ALTER_AREA_CONTAINER
 			INT_VAR
 			flag_mlocked  = 1
-			lock_difficulty  = 1000
-			break_difficulty  = 1000
+			lock_difficulty  = 100
+			break_difficulty  = 100
 			//lockpick_strref  = ~23173~
 			STR_VAR
 			container_name = ~Container 9~
@@ -3422,6 +3422,14 @@ COPY_EXISTING ~cm3370.are~ ~override~
 			STR_VAR
 			door_name = ~Door0511~
 			door_key   = ~CMKEY03~
+		END
+
+COPY_EXISTING ~DarkHorizons\areas\CM0750.are~ ~override~
+		LPF ALTER_AREA_CONTAINER
+			INT_VAR
+			lock_difficulty  = 90
+			STR_VAR
+			container_name = ~Container 2~
 		END
 
 /*  Commented out until changes are validated or not (creature CMGHST07.cre/CM2680.ar)

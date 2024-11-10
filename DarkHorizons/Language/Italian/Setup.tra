@@ -4895,3 +4895,6 @@ Quando questo incantesimo viene lanciato, il mago e i suoi abiti si smaterializz
 
 @900 = ~Si?~
 @901 = ~Il destino ti sta aspettando!~
+
+// Item restricted to Nikita
+@934  = ~Attenzione a dove la metti.~ [HFTHR031]

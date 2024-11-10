@@ -4590,6 +4590,8 @@ Grâce à ce sort, le magicien et tout son équipement deviennent intangibles. Le j
 @900 = ~Oui ?~
 @901 = ~C'est la mort qui t'attend !~
 
+// Item restricted to Nikita
+@934  = ~Faites attention où vous pointez cette chose.~ [HFTHR031]
 
 // Prompts WeiDU
 @-1000= "Le mod %TP2_FILE_NAME% contient"

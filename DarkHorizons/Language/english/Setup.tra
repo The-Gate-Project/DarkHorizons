@@ -4631,3 +4631,6 @@ When this spell is cast, the wizard and all of his gear become insubstantial. Th
 
 @900 = ~Yes?~
 @901 = ~Doom awaits thee!~
+
+// Item restricted to Nikita
+@934  = ~Be careful where you point that thing.~ [HFTHR031]

@@ -4786,3 +4786,7 @@ Rzucaj¹cy ten czar mag oraz ca³a jego odzie¿ trac¹ materialn¹ postaæ. Odt¹d mo¿e
 
 @900 = ~Tak?~ [CMMYST1] 
 @901 = ~Czeka ciê zag³ada!~ [CMMYST2]
+
+// Item restricted to Nikita
+@934  = ~Uwazaj, gdzie pchasz te myszke.~ [HFTHR031]
+
