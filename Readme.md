@@ -102,6 +102,18 @@ The Gate Project credits :
 -------------------
 
 
+### Version 3.02
+
+#### FIXES
+
+- Missing Item restricted to Nikita line for BGT with Tobex
+- Voiceover issues (CMSEC01 (Paul Wolf), CMMERC04 (Merchant), CMMYSTR (Ratava Artsym)) Removal of voice-overs incorrectly assigned to certain pnjs for all game.
+
+#### CHANGES
+
+- Make CM0750.are (Oversight headquarters) container (closet) unlockable
+
+
 ### Version 3.01
 
 #### BUGFIXES
