@@ -5581,10 +5581,12 @@ COPY_EXISTING ~%AR17%.are~ ~override~
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR5403.baf~
 
+/*
 COPY_EXISTING ~%AR11%.are~ ~override~
   READ_ASCII 0x94 area_script
 BUT_ONLY
 EXTEND_BOTTOM ~%area_script%.bcs~ ~DarkHorizons/baf/AR1207.baf~
+*/
 
 /* Compile creature scripts */
 
