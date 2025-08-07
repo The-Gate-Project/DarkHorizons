@@ -6693,7 +6693,15 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
   WRITE_LONG SPELL_DISRUPTED   (0 - 1)
   WRITE_LONG SET_A_TRAP    (0 - 1)
   SAY BIO @974 /* When asked about her past, MORWEN says she came from a well to do family from the city of Neverwinter. She got her first taste of the epic poems and stories from the northern Skald bards when her family visited the Icewind Dale region when she was young. Ever since then she has been obsessed with their epic tales and adventures. She wished to learn from the Skald bards but they rarely ever came to Neverwinter, until the day that Dale the Bard made a stop there. She first saw him at one of the local pubs, singing his epic exploits in a song. She introduced herself to Dale and soon after he mentored Morwen in the Skald Bard skills as well as being an excellent archer. After learning these skills, she quickly grew bored of the uneventful Neverwinter high life and decided to travel south to the Sword Coast region after she heard about the iron crisis. She traveled to Beregost to find someone who is seeking adventure like herself. */
-  WRITE_ASCII 0x280 ~CMTMORW~ (8) // Script name / Death variable
+	WRITE_BYTE  0x238 12                            // Strength 
+	WRITE_BYTE  0x23a 16                             // Intell
+	WRITE_BYTE  0x2b 12                             // Wisdom
+	WRITE_BYTE  0x23c 18                             // Dexterity
+	WRITE_BYTE  0x23d 10                            // Constitution
+	WRITE_BYTE  0x23e 16                            // Charisma
+	WRITE_ASCII SCRIPT_OVERRIDE ~CMTMORW~ (8)
+	WRITE_LONG 0x244 ~0x400F~
+	WRITE_ASCII 0x280 ~CMTMORW~ (8) // Script name / Death variable
 
 // Appends
 ACTION_IF (GAME_IS ~eet~) BEGIN
