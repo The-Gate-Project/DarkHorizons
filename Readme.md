@@ -102,6 +102,14 @@ The Gate Project credits :
 -------------------
 
 
+### Version 3.03
+
+#### FIXES
+
+- Correction for basilisk warehouse
+- Probably corrupted CMTMORW.cre kit offset
+
+
 ### Version 3.02
 
 #### FIXES
