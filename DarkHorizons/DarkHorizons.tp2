@@ -3449,14 +3449,79 @@ COPY_EXISTING ~DarkHorizons\areas\CM0750.are~ ~override~
 			container_name = ~Container 2~
 		END
 
-/*  Commented out until changes are validated or not (creature CMGHST07.cre/CM2680.ar)
+/*  Commented out until changes are validated or not (creature CMGHST07.cre/CM2680.are)
 
 - Add an existing mod creature not implemented [(A ghost mage in CM2680)](https://forums.beamdog.com/discussion/comment/1209318/#Comment_1209318))
-	
+
 COPY_EXISTING ~CM2680.are~ ~override~
 	WRITE_ASCII 0x94 ~CM2680~ (8)
-	
-	
+
+
+*/
+
+// Detected or to be detected
+/*
+COPY_EXISTING ~CM2680.are~ ~override~
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Trap 1~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Trap 2~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Trap 3~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Trap 4~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Trap 5~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Trap 7~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Added Trap 8~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Added Trap 9~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Added Trap 10~
+		END
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			flag_trap_detectable = 1
+			STR_VAR
+			region_name = ~Added Trap 11~
+		END
 */
 
 
