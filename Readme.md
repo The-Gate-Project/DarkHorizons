@@ -94,8 +94,10 @@ The Gate Project credits :
 - Paladin84 and Pzombie For bugfixes and Russian translation update . 
 - Selphira for her [awsome tool Autodescription.](https://github.com/Selphira/AutoDescription)  
 - Lzw104522773 and MephistoSatanDevil for Chinese translation.  
-- bouncer1798 for bug report.  
-- lulnope for bug reports.  
+- bouncer1798 for bug report. 
+- lulnope for bug reports.   
+- Lumorus for bug reports.  
+- NiziNizi for bug reports. 
 
 
 ## Version History:
@@ -108,6 +110,9 @@ The Gate Project credits :
 
 - Correction for basilisk warehouse
 - Probably corrupted CMTMORW.cre kit offset
+- Rename unused items to avoid overlap with another COM mod
+- Change REPLACE_TEXTUALLY by ALTER_AREA_REGION for CM0750 Door0700 destination area (Thanks to  NiziNizi)
+- Setup-DarkHorizons.tp2 to DarkHorizons.tp2
 
 
 ### Version 3.02

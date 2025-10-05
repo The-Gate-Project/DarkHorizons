@@ -13,30 +13,40 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   PRINT @890 /* BG:EE install detected */
   INCLUDE ~%MOD_FOLDER%/lib/tbgcom_bgee_vars.tpa~
   INCLUDE ~%MOD_FOLDER%/lib/g3_bgee_cpmvars.tpa~
+		PRINT ~Game is bgee 
+		~
 END ELSE
 ACTION_IF GAME_IS ~eet~ THEN BEGIN
   /*Tell the player it is using EET stuff */
   PRINT @895 /* EET install detected */
   INCLUDE ~%MOD_FOLDER%/lib/tbgcom_eet_vars.tpa~
   INCLUDE ~eet/other/cpmvars/eet_cpmvars.tpa~
+		PRINT ~Game is EET 
+		~
 END ELSE
 ACTION_IF GAME_IS ~tutu tutu_totsc~ THEN BEGIN
   /* Tell the player it is using Tutu stuff */
   PRINT @891 /* Tutu install detected. */
   INCLUDE ~%MOD_FOLDER%/lib/tbgcom_tutu_vars.tpa~
   INCLUDE ~%MOD_FOLDER%/lib/g3_tutu_cpmvars.tpa~
+		PRINT ~Game is tutu_totsc 
+		~
 END ELSE
 ACTION_IF GAME_IS ~totsc~ THEN BEGIN
   /* Tell the player it is using BG1 stuff */
   PRINT @894
   INCLUDE ~%MOD_FOLDER%/lib/tbgcom_bg_vars.tpa~
   INCLUDE ~%MOD_FOLDER%/lib/g3_bg_cpmvars.tpa~
+		PRINT ~Game is totsc 
+		~
 END ELSE
 ACTION_IF GAME_IS ~bgt~ THEN BEGIN
   /* Tell the player it is using BGT stuff */
   PRINT @892 /* BGT install detected. */
   INCLUDE ~%MOD_FOLDER%/lib/tbgcom_bgt_vars.tpa~
   INCLUDE ~%MOD_FOLDER%/lib/g3_bgt_cpmvars.tpa~
+		PRINT ~Game is bgt 
+		~
 END ELSE BEGIN
   /* Tell the player it is not Tutu or BGT */
   FAIL @893 /* Please install on BG:EE, Tutu or BGT. */
@@ -153,7 +163,7 @@ END
 /* New and altered areas */
 //COPY ~DarkHorizons\areas~ ~override~
 COPY ~DarkHorizons\areas\CM0750.are~ ~override~
-  REPLACE_TEXTUALLY ~FW0700~ ~%AR2%~
+  
 COPY ~DarkHorizons\areas\CM0750.BCS~ ~override~
 COPY ~DarkHorizons\areas\CM0750.mos~ ~override~
 COPY ~DarkHorizons\areas\CM0750.tis~ ~override~
@@ -3425,6 +3435,13 @@ COPY_EXISTING ~cm3370.are~ ~override~
 		END
 
 COPY_EXISTING ~DarkHorizons\areas\CM0750.are~ ~override~
+		LPF  ALTER_AREA_REGION
+			INT_VAR
+			type = 2
+			STR_VAR
+			region_name = ~Door0700~
+			destination_area = EVAL ~%AR2%~
+		END
 		LPF ALTER_AREA_CONTAINER
 			INT_VAR
 			lock_difficulty  = 90
@@ -3896,13 +3913,13 @@ COPY ~DarkHorizons/items/CMAX01.itm~ ~override~
   SAY 0x50 @192
   SAY 0x54 @193
 
-COPY ~DarkHorizons/items/CMAX02.itm~ ~override~
+COPY ~DarkHorizons/items/CMAX02.itm~ ~override/CMDHAX02.itm~
   SAY NAME1 @194
   SAY NAME2 @195
   SAY 0x50 @196
   SAY 0x54 @197
 
-COPY ~DarkHorizons/items/CMAX03.itm~ ~override~
+COPY ~DarkHorizons/items/CMAX03.itm~ ~override/CMDHAX03.itm~
   SAY NAME1 @194
   SAY NAME2 @195
   SAY 0x50 @198
@@ -6591,7 +6608,7 @@ COPY ~DarkHorizons/cre/CMTNIKIT.cre~ ~override~
   WRITE_LONG SPELL_DISRUPTED   (0 - 1)
   WRITE_LONG SET_A_TRAP    (0 - 1)
   SAY BIO @938 /* NIKITA's past is something that she keeps to herself. From what you do know is that she was an orphan for a time until she was brought into Section in her late teens. They trained her to be a charismatic assassin who killed evil individuals. All of this was done for the greater good. But over time Section became corrupt and started to mirror the evil they were fighting. Nikita was liberated from Section when you destroyed the organization. */
-  WRITE_ASCII 0x280 ~cmnikita~ (8) // Script name / Death variable
+  WRITE_ASCII 0x280 ~cmnikita~ (32) // Script name / Death variable
 
 COPY ~DarkHorizons/cre/CMTTHOR.cre~ ~override~
   SAY NAME1 @939 /* Thorin */
@@ -6642,7 +6659,7 @@ COPY ~DarkHorizons/cre/CMTTHOR.cre~ ~override~
   WRITE_LONG SPELL_DISRUPTED   (0 - 1)
   WRITE_LONG SET_A_TRAP    (0 - 1)
   SAY BIO @972 /* When asked about his past, THORIN says he's from the famous Stoneblade clan who were once Durlag's captian of the guard for many years. His grandfather was the last to serve Durlag before bad things happen to Durlag and his people. He would like to travel with the party to Durlag's Tower to retrieve some family heirlooms that may still be there and see what happened to his grandfather and the famous Durlag Trollkiller. */
-  WRITE_ASCII 0x280 ~CMTTHOR~ (8) // Script name / Death variable
+  WRITE_ASCII 0x280 ~CMTTHOR~ (32) // Script name / Death variable
 
 COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
   SAY NAME1 @973 /* Morwen */
@@ -6701,7 +6718,7 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
 	WRITE_BYTE  0x23e 16                            // Charisma
 	WRITE_ASCII SCRIPT_OVERRIDE ~CMTMORW~ (8)
 	WRITE_LONG 0x244 ~0x400F~
-	WRITE_ASCII 0x280 ~CMTMORW~ (8) // Script name / Death variable
+	WRITE_ASCII 0x280 ~CMTMORW~ (32) // Script name / Death variable
 
 // Appends
 ACTION_IF (GAME_IS ~eet~) BEGIN
