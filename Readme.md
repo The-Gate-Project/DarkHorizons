@@ -1,6 +1,20 @@
 # Dark Horizons for BG:EE, EET, BGT, TuTu or BG1 !
 
+[![Release](https://img.shields.io/github/v/release/The-Gate-Project/DarkHorizons?include_prereleases&color=41788a)](https://github.com/The-Gate-Project/DarkHorizons/releases)
+[![Published](https://img.shields.io/github/release-date-pre/The-Gate-Project/DarkHorizons?display_date=published_at&label=published&color=014a69)](https://github.com/The-Gate-Project/DarkHorizons/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/The-Gate-Project/DarkHorizons/total?color=41788a)](https://github.com/The-Gate-Project/DarkHorizons/releases)
+
 ![Language](https://img.shields.io/static/v1?label=language&message=english%20%7C%20french%20%7C%20italian%20%7C%20german%20%7C%20polish%20%7C%20russian%20%7C%20schinese%20%7C%20spanish%20%7C%20&color=informational)
+[![Games](https://img.shields.io/badge/games-BGEE%20%7C%20BGT%20%7C%20TUTU%20%7C%20EET-41788a)](https://github.com/The-Gate-Project/DarkHorizons/releases)
+
+<!--
+
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FThe-Gate-Project%2FDarkHorizons&countColor=41788a&style=flat)
+
+[![Platform](https://img.shields.io/badge/platform-Windows%20%a0%20macOS%20%a0%20Linux%20%a0%20Project%20Infinity-014a69)](https://github.com/The-Gate-Project/DarkHorizons/releases)
+-->
+
+
 
 **Autor** : **CoM_Solaufein**
 
@@ -113,6 +127,7 @@ The Gate Project credits :
 - Rename unused items to avoid overlap with another COM mod
 - Change REPLACE_TEXTUALLY by ALTER_AREA_REGION for CM0750 Door0700 destination area (Thanks to  NiziNizi)
 - Setup-DarkHorizons.tp2 to DarkHorizons.tp2
+- Update WeiduModPackager from Argent77
 
 
 ### Version 3.02
