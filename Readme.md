@@ -128,6 +128,7 @@ The Gate Project credits :
 - Change REPLACE_TEXTUALLY by ALTER_AREA_REGION for CM0750 Door0700 destination area (Thanks to  NiziNizi)
 - Setup-DarkHorizons.tp2 to DarkHorizons.tp2
 - Update WeiduModPackager from Argent77
+- CM2680.are traps are now detectable
 
 
 ### Version 3.02
