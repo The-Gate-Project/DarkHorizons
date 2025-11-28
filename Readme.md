@@ -118,6 +118,13 @@ The Gate Project credits :
 -------------------
 
 
+### Version 3.04
+
+#### FIXES
+
+- Change DeathVars for CMDRY01.CRE. (Thanks to Lumorus and Jastey)
+
+
 ### Version 3.03
 
 #### FIXES
