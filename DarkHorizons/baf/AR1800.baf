@@ -27,7 +27,7 @@ IF
 	Global("CmaddDryad2","GLOBAL",0)
 THEN
 	RESPONSE #100
-		CreateCreature("CMDRY01",[1045.3008],12)
+		CreateCreature("CMDRY02",[1045.3008],12)
 		SetGlobal("CmaddDryad2","GLOBAL",1)
 END
 

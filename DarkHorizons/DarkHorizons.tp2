@@ -5911,6 +5911,12 @@ COPY ~DarkHorizons/cre/CMDRU07.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMDRY01.CRE~ ~override~
   SAY NAME1 @681
   SAY NAME2 @681
+WRITE_ASCII DEATHVAR ~CMDRY01~ (32)
+
+COPY ~DarkHorizons/cre/CMDRY01.CRE~ ~override/CMDRY02~
+  SAY NAME1 @681
+  SAY NAME2 @681
+WRITE_ASCII DEATHVAR ~CMDRY02~ (32)
 
 COPY ~DarkHorizons/cre/CMFOOD1.CRE~ ~override~
   SAY NAME1 @682
