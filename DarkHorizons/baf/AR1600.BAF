@@ -14,7 +14,23 @@ THEN
 		CreateCreature("WOLFWI",[3686.2929],6)
 		CreateCreature("WOLFWI",[3709.2956],7)
 		CreateCreature("WOLFWI",[3692.3024],0)
-                CreateCreature("WYVERN",[2150.988],2)
-                CreateCreature("BEARCA",[604.1725],3)
+		CreateCreature("WYVERN",[2150.988],2)
+		CreateCreature("BEARCA",[604.1725],3)
 		SetGlobal("CMaddDruids2","GLOBAL",1)
+END
+
+IF
+	Delay(20)
+	Global("FLOODED","GLOBAL",2)
+	Global("CMaddDru2","GLOBAL",0)
+	Dead("cmmiranda")
+THEN
+	RESPONSE #100
+		SetGlobal("CMaddDru2","GLOBAL",1)
+		CreateCreatureObjectOffScreen("CMDRU03",Player1,0,0,0)
+		CreateCreatureObject("CMDRU06","CMDRU03",0,0,0)
+		CreateCreatureObject("CMDRU06","CMDRU03",0,0,0)
+		CreateCreatureObject("CMDRU06","CMDRU03",0,0,0)
+		Wait(2)
+		MoveToObject(Player1)
 END

@@ -1,7 +1,7 @@
 BACKUP ~DarkHorizons/backup~
 AUTHOR ~"http://www.teambg.net"~
 
-VERSION ~3.04~
+VERSION ~3.05~
 
 README ~DarkHorizons/readme-dh.htm~
 
@@ -5913,7 +5913,7 @@ COPY ~DarkHorizons/cre/CMDRY01.CRE~ ~override~
   SAY NAME2 @681
 WRITE_ASCII DEATHVAR ~CMDRY01~ (32)
 
-COPY ~DarkHorizons/cre/CMDRY01.CRE~ ~override/CMDRY02~
+COPY ~DarkHorizons/cre/CMDRY01.CRE~ ~override/CMDRY02.cre~
   SAY NAME1 @681
   SAY NAME2 @681
 WRITE_ASCII DEATHVAR ~CMDRY02~ (32)

@@ -1,6 +1,7 @@
 IF
-        Global("FLOODED","GLOBAL",2)
+	Global("FLOODED","GLOBAL",2)
 	Global("CMaddDru2","GLOBAL",0)
+	Dead("cmmiranda")
 THEN
 	RESPONSE #100
 		CreateCreature("CMDRU03",[182.2071],3)

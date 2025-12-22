@@ -118,6 +118,18 @@ The Gate Project credits :
 -------------------
 
 
+### Version 3.05
+
+#### FIXES
+
+- Correction for CMBLUN04.ITM
+- Update cpmvars
+
+#### CHANGES
+
+- CMDRU03.cre encounter only after CMDRU01.cre encounter
+
+
 ### Version 3.04
 
 #### FIXES
