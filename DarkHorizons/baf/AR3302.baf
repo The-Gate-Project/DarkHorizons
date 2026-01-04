@@ -20,6 +20,5 @@ IF
 THEN
 	RESPONSE #100
 		CreateCreature("CMSEC22",[490.480],3)
-                SetGlobal("CmSec22Spawn","GLOBAL",1)
-
+	SetGlobal("CmSec22Spawn","GLOBAL",1)
 END
