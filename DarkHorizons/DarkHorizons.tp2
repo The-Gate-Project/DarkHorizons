@@ -4783,6 +4783,7 @@ COPY ~DarkHorizons/items/CMISC01.ITM~ ~override~
   SAY NAME1 @516
   SAY NAME2 @516
   SAY 0x50 @517
+	WRITE_ASCIIE 0x3a ~JOCMMI52~ (8)
 
 COPY ~DarkHorizons/items/CMKEY01.itm~ ~override~
   SAY NAME1 @518
@@ -5728,6 +5729,7 @@ COMPILE ~DarkHorizons/baf/cmsec25.baf~
 COPY ~DarkHorizons/cre/MAENC04.cre~ ~override/MAENC04.cre~
   SAY NAME1 @646
   SAY NAME2 @646
+	REPLACE_CRE_ITEM ~BRAC10~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~
 
 COPY ~DarkHorizons/cre/MADURC01.cre~ ~override/MADURC01.cre~
   SAY NAME1 @647
@@ -5766,6 +5768,10 @@ COPY ~DarkHorizons/cre/MASAL01.cre~ ~override/MASAL01.cre~
 COPY ~DarkHorizons/cre/MATHOREN.cre~ ~override/MATHOREN.cre~
   SAY NAME1 @653
   SAY NAME2 @653
+	REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~AX1H03~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	REPLACE_CRE_ITEM ~HELM04~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~
+	REPLACE_CRE_ITEM ~SHLD19~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~
 
 COPY ~DarkHorizons/cre/CM01A514.CRE~ ~override/CM01A514.CRE~
   SAY NAME1 @654
@@ -5941,6 +5947,8 @@ COPY ~DarkHorizons/cre/CMGHST01.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMGHST02.CRE~ ~override~
   SAY NAME1 @686
   SAY NAME2 @686
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~HELM06~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~
 
 COPY ~DarkHorizons/cre/CMGHST03.CRE~ ~override~
   SAY NAME1 @686
@@ -5949,6 +5957,8 @@ COPY ~DarkHorizons/cre/CMGHST03.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMGHST04.CRE~ ~override~
   SAY NAME1 @686
   SAY NAME2 @686
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~HELM06~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~
 
 COPY ~DarkHorizons/cre/CMGHST05.CRE~ ~override~
   SAY NAME1 @687
@@ -6027,6 +6037,7 @@ COPY ~DarkHorizons/cre/CMMYSTR.CRE~ ~override~
   SAY INITIAL_MEETING @900
   WRITE_LONG BATTLE_CRY1 (BNOT 0x0)
   WRITE_LONG SELECT_COMMON1 (BNOT 0x0)
+	REPLACE_CRE_ITEM ~CMCLCK05~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
 
 COPY ~DarkHorizons/cre/CMNAJAR2.CRE~ ~override~
   SAY NAME1 @705
@@ -6053,7 +6064,7 @@ COPY ~DarkHorizons/cre/CMNAJARA.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMOGREM1.CRE~ ~override~
   SAY NAME1 @713
   SAY NAME2 @713
-  REPLACE_CRE_ITEM ~MAGE01~ #0 #0 #0 ~unstealable&undroppable~ ~lring~
+  REPLACE_CRE_ITEM ~MAGE01~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
 
 COPY ~DarkHorizons/cre/CMOSEC01.CRE~ ~override~
   SAY NAME1 @714
@@ -6071,7 +6082,7 @@ COPY ~DarkHorizons/cre/CMOSEC04.CRE~ ~override~
   SAY NAME1 @716
   SAY NAME2 @716 
   WRITE_ASCII SCRIPT_OVERRIDE ~cmovers2~ (8)
-  REPLACE_CRE_ITEM ~BRAC07~ #0 #0 #0 ~unstealable&undroppable~ ~gloves~
+  REPLACE_CRE_ITEM ~BRAC07~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~
 
 COPY ~DarkHorizons/cre/CMOSEC05.CRE~ ~override~
   SAY NAME1 @717
@@ -6315,6 +6326,10 @@ COPY ~DarkHorizons/cre/CMSEC25.CRE~ ~override~
   REPLACE_CRE_ITEM ~SW1H05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
   REPLACE_CRE_ITEM ~BOW02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
   REPLACE_CRE_ITEM ~POTN14~ #0 #0 #0 ~unstealable&undroppable~ ~qitem3~
+	REPLACE_CRE_ITEM ~AROW09~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW11~ #30 #0 #0 ~unstealable&undroppable~ ~QUIVER3~
+	ADD_CRE_ITEM ~AROW09~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW11~ #3 #0 #0 ~none~ ~INV~
 
 COPY ~DarkHorizons/cre/CMSKE01.CRE~ ~override~
   SAY NAME1 @740
@@ -6349,6 +6364,7 @@ COPY ~DarkHorizons/cre/CMSKEL03.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSKEL04.CRE~ ~override~
   SAY NAME1 @742
   SAY NAME2 @742
+	REPLACE_CRE_ITEM ~CMSWQ10~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Duplicate
 
 COPY ~DarkHorizons/cre/CMWYBA.CRE~ ~override~
   SAY NAME1 @743
@@ -6371,6 +6387,7 @@ COPY ~DarkHorizons/cre/CMBOU08.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMBOU09.CRE~ ~override~
   SAY NAME1 @792
   SAY NAME2 @792
+	REPLACE_CRE_ITEM ~DAGG15~ #0 #0 #0 ~none~ ~WEAPON2~
 
 COPY ~DarkHorizons/cre/CMBOU10.CRE~ ~override~
   SAY NAME1 @793
@@ -6432,6 +6449,9 @@ COPY ~DarkHorizons/cre/CMMERC04.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMMERC05.CRE~ ~override~
   SAY NAME1 @840
   SAY NAME2 @840
+	REPLACE_CRE_ITEM ~CMCLCK05~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REMOVE_CRE_ITEM ~CLCK07~ ~qitem1~
+	ADD_CRE_ITEM ~CLCK07~ #0 #0 #0 ~unstealable&undroppable~ ~CLOAK~
 
 COPY ~DarkHorizons/cre/CMMERC06.CRE~ ~override~
   SAY NAME1 @804
@@ -6851,3 +6871,32 @@ COMPILE ~DarkHorizons/baf/cmtmorw.baf~
 COPY ~DarkHorizons/PVRZ~ ~override~
 
 END
+
+BEGIN ~Option 1 :
+
+Make generic overpowered or duplicate items undroppable or replaced by lesser similar, reduce powerfull ammo stacks.
+~
+DESIGNATED 10
+SUBCOMPONENT ~Nerfs~
+LABEL ~TeamBG_CoM_Solaufein-DarkHorizons_Nerfs_1~
+
+OUTER_SET Nerf = 0
+
+	INCLUDE ~DarkHorizons/lib/Nerfs.tpa~
+
+/*
+BEGIN ~Option 2 :
+In progress...
+
+- Include option 1.
+- Make undroppable every overpowered mod added items .
+
+This componant aim to replace overpowered mod added items by lesser version.~
+DESIGNATED 11
+SUBCOMPONENT ~Nerfs~
+LABEL ~TeamBG_CoM_Solaufein-DarkHorizons_Nerfs_2~
+
+OUTER_SET Nerf = 1
+
+	INCLUDE ~DarkHorizons/lib/Nerfs.tpa~
+*/

@@ -1,0 +1,787 @@
+/////////////////////////////////
+
+///////////////////////////////// OPTION 1 /////////////////////////////////
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMELF01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~DART04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON3~
+	REPLACE_CRE_ITEM ~AROW10~ #30 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW11~ #30 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~DART04~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW10~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW11~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMELF02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~BOLT04~ #30 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~LEAT05~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~BOLT04~ #3 #0 #0 ~none~ ~INV~
+	
+COPY_EXISTING ~CMELF03.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMBOW04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+	REPLACE_CRE_ITEM ~CMS1H10~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	REPLACE_CRE_ITEM ~CMAARQ01~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW05~ #30 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~CHAN01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMS1H11~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMAARQ01~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW05~ #3 #0 #0 ~none~ ~INV~
+	
+COPY_EXISTING ~CMELF04.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMS1H11~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	REPLACE_CRE_ITEM ~CMAARQ01~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW05~ #30 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~CHAN01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~SW1H05~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMAARQ01~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW05~ #3 #0 #0 ~none~ ~INV~
+	
+COPY_EXISTING ~CMELF05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMS1H11~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	REPLACE_CRE_ITEM ~CMAARQ01~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW05~ #30 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~CHAN01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~SW1H05~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMAARQ01~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW05~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMNAJAR3.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT05~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	//
+	ADD_CRE_ITEM ~PLAT04~ #0 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMSEC04.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ07~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMRING02~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+	//
+	ADD_CRE_ITEM ~leat15~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~RING07~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC07.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT03~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	REPLACE_CRE_ITEM ~BOLT04~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~BOLT03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~BOLT04~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC08.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBRQ02~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~
+	//
+	ADD_CRE_ITEM ~BRAC03~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC08A.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBRQ02~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~
+	//
+	ADD_CRE_ITEM ~BRAC03~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC09.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMHELM01~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~
+	//
+	ADD_CRE_ITEM ~HELM01~ #0 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~MADURC01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	//
+	ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~MADURT01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT04~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~BOLT04~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMBOU05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMBOU09.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMBOU10.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT03~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~BOLT03~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM01A514.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM03A514.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT04~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM1800A1.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW08~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~AROW08~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM1803A2.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW08~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~AROW08~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM1803A3.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW05~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~AROW05~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM1803A4.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMWAQ02~ #100 #0 #0 ~unstealable&undroppable~ ~qitem1~
+	REPLACE_CRE_ITEM ~DART03~ #20 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	//
+	ADD_CRE_ITEM ~DART03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMWAQ02~ #5 #0 #0 ~unstealable~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM2300A1.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMAARQ01~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMAARQ01~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM330001.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ11~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMSHQ02~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~
+	REPLACE_CRE_ITEM ~CMHAMM04~ #20 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~SHLD15~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~HAMM01~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM330002.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ11~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMSHQ02~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~
+	REPLACE_CRE_ITEM ~CMHAMM04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~SHLD15~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~HAMM01~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM330003.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ11~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMSHQ02~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~
+	REPLACE_CRE_ITEM ~CMHAMM04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~SHLD15~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~HAMM01~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM330004.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ11~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMSHQ02~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~
+	REPLACE_CRE_ITEM ~CMHAMM04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~SHLD15~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~HAMM01~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM330005.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAGG01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~ // Duplicate below
+	REPLACE_CRE_ITEM ~CMBUQ02~ #60 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #5 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM330006.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSLQ01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Duplicate above
+	REPLACE_CRE_ITEM ~CMBUQ02~ #60 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #5 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM330007.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ11~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Duplicate below
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CM330008.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSHQ02~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~ // Duplicate above
+	REPLACE_CRE_ITEM ~CMHAMM04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Duplicate above
+	REPLACE_CRE_ITEM ~CMBUQ02~ #60 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #5 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~HAMM01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~SHLD15~ #0 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM3A2100.CRE~ ~override~
+	REPLACE_CRE_ITEM ~RING07~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMDRAG.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAMUL~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+	//
+
+COPY_EXISTING ~CMDRU02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMAARQ01~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER3~
+	//
+	ADD_CRE_ITEM ~CMAARQ01~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMDRU06.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER3~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMHOB01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW10~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~AROW10~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMHOB02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW12~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~AROW12~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMHOB03.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW12~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~AROW12~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMKOB02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW05~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	REPLACE_CRE_ITEM ~AROWKC~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~AROW05~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROWKC~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMOSEC04.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~BOLT06~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~BOLT06~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC07.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	//
+	ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC08.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT04~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~BOLT04~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC10.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT03~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~BOLT03~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC11.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSTQ02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Duplicate
+	//
+
+COPY_EXISTING ~CMOSEC13.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC14.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC15.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~BOLT06~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~BOLT06~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMOSEC16.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~BOLT06~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~BOLT06~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~PLAT06~ #0 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMQUEST1.CRE~ ~override~
+	REPLACE_CRE_ITEM ~DART04~ #20 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+	//
+	ADD_CRE_ITEM ~DART04~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMRWIZ01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAGG04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	REPLACE_CRE_ITEM ~CMBUQ03~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~MBUL01~ #60 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~CMDAGG03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMBUQ03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~MBUL01~ #20 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMRWIZ02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAGG03~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~CMBUQ01~ #60 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~DAGG02~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMBUQ03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMBUQ01~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMRWIZ03.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAGG04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~
+	REPLACE_CRE_ITEM ~CMBUQ03~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~MBUL01~ #60 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~CMDAGG03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMBUQ03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~MBUL01~ #10 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMSEC03.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBRQ02~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~BRAC03~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC04.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ07~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMRING02~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+	//
+	ADD_CRE_ITEM ~LEAT07~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~RING06~ #0 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC07.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT03~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~BOLT04~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~BOLT03~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~BOLT04~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC11.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT04~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	//
+	ADD_CRE_ITEM ~BOLT04~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC12C.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC12D.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBUQ02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~CMBUQ02~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC13.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW05~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~AROW05~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC14.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~AROW11~ #10 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW11~ #2 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC14A.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~AROW11~ #10 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW11~ #2 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC14B.CRE~ ~override~
+	REPLACE_CRE_ITEM ~PLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~AROW11~ #10 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~PLAT01~ #0 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW11~ #2 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC19.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW11~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER3~
+	//
+	ADD_CRE_ITEM ~AROW11~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC24.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW09~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW11~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER3~
+	//
+	ADD_CRE_ITEM ~AROW11~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW09~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSEC25.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW09~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW11~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER3~
+	//
+	ADD_CRE_ITEM ~AROW11~ #3 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW09~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMSKE01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW06~ #5 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW08~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~AROW06~ #1 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW08~ #3 #0 #0 ~none~ ~INV~
+
+COPY_EXISTING ~CMSKE02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW06~ #5 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW08~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+	//
+	ADD_CRE_ITEM ~AROW06~ #1 #0 #0 ~none~ ~INV~
+	ADD_CRE_ITEM ~AROW08~ #3 #0 #0 ~none~ ~INV~
+
+/////////////////////////////////
+
+/////////////////////////////////
+
+// NPC
+
+COPY_EXISTING ~CMTMORW.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AROW05~ #10 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~AROW10~ #10 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+
+COPY_EXISTING ~CMTNIKIT.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOLT04~ #10 #0 #0 ~unstealable&undroppable~ ~QUIVER1~
+	REPLACE_CRE_ITEM ~BOLT02~ #20 #0 #0 ~unstealable&undroppable~ ~QUIVER2~
+
+/////////////////////////////////
+
+/////////////////////////////////
+
+
+/////////////////////////////////
+
+///////////////////////////////// OPTION 2 /////////////////////////////////
+
+/////////////////////////////////
+
+
+ACTION_IF Nerf = 1 THEN BEGIN
+
+COPY_EXISTING ~CMELF01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	//
+	ADD_CRE_ITEM ~CMARQ12~ #0 #0 #0 ~none~ ~INV~ // Special
+
+COPY_EXISTING ~CMELF02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMXBOW01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	// TO REPLACE AND SEE DESCRIPTION
+	//
+	ADD_CRE_ITEM ~CMXBOW01~ #0 #0 #0 ~none~ ~INV~ // Special
+	// TO MODIFY AND SEE DESCRIPTION
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMNAJARA.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMHMQ02~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~ // SpeciaL
+	REPLACE_CRE_ITEM ~CMPLAT10~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMSHLD01~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~ // Special
+	REPLACE_CRE_ITEM ~CMBEQ02~ #0 #0 #0 ~unstealable&undroppable~ ~BELT~ // Special
+	REPLACE_CRE_ITEM ~CMBTQ01~ #0 #0 #0 ~unstealable&undroppable~ ~BOOTS~ // Special
+	REPLACE_CRE_ITEM ~CMSWQ04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMNAJAR3.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMHMQ02~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~ // SpeciaL
+	REPLACE_CRE_ITEM ~CMSHLD03~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~ // Special
+	REPLACE_CRE_ITEM ~CMMSQ01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~MADURF01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~MAPLA001~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~MAAXE001~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+
+COPY_EXISTING ~MADURC01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~MABLUN06~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~MAENC04.cre~ ~override~
+	REPLACE_CRE_ITEM ~MASWOR02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+
+COPY_EXISTING ~MASAL01.cre~ ~override~
+	REPLACE_CRE_ITEM ~MASWOR01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMBOU03.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMFLQ01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMBOU04.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSWQ07~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMBRQ06~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~ // Special
+
+COPY_EXISTING ~CMBOU05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAQ03~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~ // Special
+	REPLACE_CRE_ITEM ~CMRIQ02~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~ // Special
+	//
+
+COPY_EXISTING ~CMBOU09.CRE~ ~override~
+	REPLACE_CRE_ITEM ~MAPLA001~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	//
+
+COPY_EXISTING ~CMBOU11.CRE~ ~override~
+	REPLACE_CRE_ITEM ~MAAX1H03~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM1803A3.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBTQ02~ #0 #0 #0 ~unstealable&undroppable~ ~BOOTS~ // Special
+	REPLACE_CRE_ITEM ~CMDAQ02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMCLQ01~ #0 #0 #0 ~unstealable&undroppable~ ~CLOAK~ // Special
+
+COPY_EXISTING ~CM1803A4.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSTQ04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMRIQ01~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM01A514.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMRIQ04~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~ // Special
+	//
+
+COPY_EXISTING ~CM02A514.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMHMQ01~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~ // Special
+	REPLACE_CRE_ITEM ~CMCHAN02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMHAQ01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CM03A514.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMLEAT4~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMSWQ17~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CM04A514.CRE~ ~override~
+	REPLACE_CRE_ITEM ~BOOT01~ #0 #0 #0 ~unstealable&undroppable~ ~BOOTS~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM2300A1.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMCHAN03~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMS1H05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CM2300A2.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMCHAN02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMS1H05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CM2300A3.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMCHAN02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMAX04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMAX01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM2A2100.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBLUN04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM330005.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAGG01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~ // Special
+	//
+
+COPY_EXISTING ~CM330006.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSLQ01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CM3A2100.CRE~ ~override~
+	REPLACE_CRE_ITEM ~RING07~ #0 #0 #0 ~unstealable&undroppable~ ~RRING~
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMDRU02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~// Special
+	REPLACE_CRE_ITEM ~CMSTQ01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMDRU05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBLUN04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMGHST01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAQ02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMGHST05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAQ03~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMGHST06.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSTQ04~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMGHST07.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSTQ02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMGHST08.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAQ02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMMERC05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAGG02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+
+COPY_EXISTING ~mathoren.cre~ ~override~
+	REPLACE_CRE_ITEM ~MAHAMM01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMOSEC10.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ06~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMSWQ05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMSEC01.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMPLAT04~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMSWQ15~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMHELM01~ #0 #0 #0 ~unstealable&undroppable~ ~HELMET~ // Special
+	REPLACE_CRE_ITEM ~CMBRAC01~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~ // Special
+	//
+
+COPY_EXISTING ~CMSEC02.CRE~ ~override~
+	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~BOOT01~ #0 #0 #0 ~unstealable&undroppable~ ~BOOTS~ // Special
+	REPLACE_CRE_ITEM ~CMS1H07~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMSEC03.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBRQ02~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~ // Special
+	REPLACE_CRE_ITEM ~CMRIQ03~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~ // Special
+	REPLACE_CRE_ITEM ~CMSTAF01~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMSEC04.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMS1H08~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+
+COPY_EXISTING ~CMSEC05.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMCHAN03~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMBLUN05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMSHQ01~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~ // Special
+
+COPY_EXISTING ~CMSEC06.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMBRAC01~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~ // Special
+	REPLACE_CRE_ITEM ~CMSWQ06~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMSEC07.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMARQ02~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMSWQ10~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMBWQ03~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~ // Special
+	//
+	ADD_CRE_ITEM ~CMARQ12~ #0 #0 #0 ~none~ ~INV~ // Special
+
+COPY_EXISTING ~CMSEC08.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMCLCK05~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMRIQ03~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~ // Special
+	//
+
+COPY_EXISTING ~CMSEC08A.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMCLCK05~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMRIQ03~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~ // Special
+	//
+
+COPY_EXISTING ~CMSEC09.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSWQ09~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMSHLD01~ #0 #0 #0 ~unstealable&undroppable~ ~SHIELD~ // Special
+	//
+
+COPY_EXISTING ~CMSEC11.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMDAQ02~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+COPY_EXISTING ~CMSEC15.CRE~ ~override~
+	REPLACE_CRE_ITEM ~AX1H06~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON2~ // Special
+	//
+
+COPY_EXISTING ~CMSEC21.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMPLAT11~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~ // Special
+	REPLACE_CRE_ITEM ~CMS1H05~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	REPLACE_CRE_ITEM ~CMBEQ02~ #0 #0 #0 ~unstealable&undroppable~ ~BELT~ // Special
+	//
+
+/////////////////////////////////
+
+COPY_EXISTING ~CMSKEL03.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMSWQ16~ #0 #0 #0 ~unstealable&undroppable~ ~WEAPON1~ // Special
+	//
+
+/////////////////////////////////
+
+/////////////////////////////////
+
+// NPC
+/*
+COPY_EXISTING ~CMTMORW.CRE~ ~override~
+	REPLACE_CRE_ITEM ~CMTLEA01~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMTBOW01~ #10 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+	REPLACE_CRE_ITEM ~CMTBRC01~ #0 #0 #0 ~unstealable&undroppable~ ~GLOVES~
+	REPLACE_CRE_ITEM ~CMTCK01~ #0 #0 #0 ~unstealable&undroppable~ ~CLOAK~
+
+COPY_EXISTING ~CMTNIKIT.CRE~ ~override~
+	REPLACE_CRE_ITEM ~LEAT08~ #0 #0 #0 ~unstealable&undroppable~ ~ARMOR~
+	REPLACE_CRE_ITEM ~CMS1H07~ #10 #0 #0 ~unstealable&undroppable~ ~WEAPON1~
+*/
+
+/////////////////////////////////
+
+/////////////////////////////////
+
+END
