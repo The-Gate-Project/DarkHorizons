@@ -3664,7 +3664,16 @@ COPY ~DarkHorizons/%ItemsFolder%/CMLEAT4.ITM~ ~override~
   SAY NAME2 @66
   SAY 0x50 @67
   SAY 0x54 @68
-  SAY 0x286 @69
+//  SAY 0x286 @69
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+			check_globals = 1 // 1 Equiped effect : 0 None
+			check_headers = 0 // 1 All headers : 0 None header
+//			header_type   = 0 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@69)
+	END
 
 COPY ~DarkHorizons/%ItemsFolder%/CMLEAT5.ITM~ ~override~
   SAY NAME1 @70
@@ -3922,7 +3931,16 @@ COPY ~DarkHorizons/%ItemsFolder%/CMSHLD03.ITM~ ~override~
   SAY NAME2 @171
   SAY 0x50 @172
   SAY 0x54 @173
-  SAY 0x1F6 @174
+//  SAY 0x1F6 @174
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+			check_globals = 1 // 1 Equiped effect : 0 None
+//			check_headers = 0 // 1 All headers : 0 None header
+//			header_type   = 0 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@174)
+	END
 
 COPY ~DarkHorizons/%ItemsFolder%/CMSHLD04.itm~ ~override~
   SAY NAME1 @175
@@ -4447,7 +4465,16 @@ COPY ~DarkHorizons/items/CMSWQ09.itm~ ~override~
   SAY NAME2 @384
   SAY 0x50 @340
   SAY 0x54 @385
-  SAY 0x1FE @174
+//  SAY 0x1FE @174
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+			check_globals = 1 // 1 Equiped effect : 0 None
+			check_headers = 0 // 1 All headers : 0 None header
+//			header_type   = 0 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@174)
+	END
 
 COPY ~DarkHorizons/items/CMSWQ10.itm~ ~override~
   SAY NAME1 @338
@@ -4666,41 +4693,95 @@ COPY ~DarkHorizons/items/CMFOOD1.ITM~ ~override~
   SAY NAME2 @470
   SAY 0x50 @471
   SAY 0x54 @471
-  SAY 0x10E @473
+// SAY 0x10E @473
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+//			check_globals = 0 // 1 Equiped effect : 0 None
+			check_headers = 1 // 1 All headers : 0 None header
+			header_type   = 3 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@473)
+	END
 
 COPY ~DarkHorizons/items/CMFOOD2.itm~ ~override~
   SAY NAME1 @474
   SAY NAME2 @474
   SAY 0x50 @475
   SAY 0x54 @475
-  SAY 0x10E @473
+//  SAY 0x10E @473
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+//			check_globals = 0 // 1 Equiped effect : 0 None
+			check_headers = 1 // 1 All headers : 0 None header
+			header_type   = 3 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@473)
+	END
 
 COPY ~DarkHorizons/items/CMGRAPE.itm~ ~override~
   SAY NAME1 @474
   SAY NAME2 @474
   SAY 0x50 @475
   SAY 0x54 @475
-  SAY 0x10E @473
+//  SAY 0x10E @473
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+//			check_globals = 0 // 1 Equiped effect : 0 None
+			check_headers = 1 // 1 All headers : 0 None header
+			header_type   = 3 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@473)
+	END
 
 COPY ~DarkHorizons/items/CMHEAL1.ITM~ ~override~
   SAY NAME1 @763
   SAY NAME2 @476
   SAY 0x54 @477
-  SAY 0x13E @478
+//  SAY 0x13E @478
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+//			check_globals = 0 // 1 Equiped effect : 0 None
+			check_headers = 1 // 1 All headers : 0 None header
+			header_type   = 3 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@478)
+	END
 
 COPY ~DarkHorizons/items/CMHEAL2.itm~ ~override~
   SAY NAME1 @479
   SAY NAME2 @480
   SAY 0x50 @481
   SAY 0x54 @482
-  SAY 0x13E @478
+//  SAY 0x13E @478
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+//			check_globals = 0 // 1 Equiped effect : 0 None
+			check_headers = 1 // 1 All headers : 0 None header
+			header_type   = 3 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@478)
+	END
 
 COPY ~DarkHorizons/items/CMKFC01.ITM~ ~override~
   SAY NAME1 @483
   SAY NAME2 @483
   SAY 0x50 @484
   SAY 0x54 @484
-  SAY 0x10E @473
+//  SAY 0x10E @473
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+//			check_globals = 0 // 1 Equiped effect : 0 None
+			check_headers = 1 // 1 All headers : 0 None header
+			header_type   = 3 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@473)
+	END
 
 COPY ~DarkHorizons/items/CMPOT01.itm~ ~override~
   SAY NAME1 @479
@@ -4751,7 +4832,16 @@ COPY ~DarkHorizons/items/CMCAND1.ITM~ ~override~
   SAY NAME2 @506
   SAY 0x50 @507
   SAY 0x54 @508
-  SAY 0x10E @509
+// SAY 0x10E @509
+	LPF ALTER_ITEM_EFFECT 
+		INT_VAR 
+//			check_globals = 0 // 1 Equiped effect : 0 None
+			check_headers = 1 // 1 All headers : 0 None header
+			header_type   = 3 // 1 melee : 2 ranged : 3 magical
+			check_headers = 0 // 1 All headers : 0 only main header
+			match_opcode = 139 
+			parameter1 = RESOLVE_STR_REF (@509)
+	END
 
 /* ********************* Plot items and creature only items *************** */
 
