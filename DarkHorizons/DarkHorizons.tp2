@@ -149,7 +149,7 @@ ACTION_IF GAME_IS ~bgee~ THEN BEGIN
   END
 END
 
-COPY ~DarkHorizons/images~ ~override~
+COPY ~DarkHorizons\images~ ~override~
 
 
 // Copy all English sounds first
@@ -161,38 +161,38 @@ ACTION_IF (DIRECTORY_EXISTS EVAL ~%MOD_FOLDER%/Language/%LANGUAGE%/sounds~) THEN
 END
 
 /* New and altered areas */
-//COPY ~DarkHorizons/areas~ ~override~
-COPY ~DarkHorizons/areas/CM0750.are~ ~override~
+//COPY ~DarkHorizons\areas~ ~override~
+COPY ~DarkHorizons\areas\CM0750.are~ ~override~
   
-COPY ~DarkHorizons/areas/CM0750.BCS~ ~override~
-COPY ~DarkHorizons/areas/CM0750.mos~ ~override~
-COPY ~DarkHorizons/areas/CM0750.tis~ ~override~
-COPY ~DarkHorizons/areas/CM0750.wed~ ~override~
-COPY ~DarkHorizons/areas/CM0750HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0750LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0750SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0751.are~ ~override~
-COPY ~DarkHorizons/areas/CM0751.mos~ ~override~
-COPY ~DarkHorizons/areas/CM0751.tis~ ~override~
-COPY ~DarkHorizons/areas/CM0751.wed~ ~override~
-COPY ~DarkHorizons/areas/CM0751HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0751LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0751SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0752.are~ ~override~
-COPY ~DarkHorizons/areas/CM0752.mos~ ~override~
-COPY ~DarkHorizons/areas/CM0752.tis~ ~override~
-COPY ~DarkHorizons/areas/CM0752.wed~ ~override~
-COPY ~DarkHorizons/areas/CM0752HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0752LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0752SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0753.are~ ~override~
-COPY ~DarkHorizons/areas/CM0753.mos~ ~override~
-COPY ~DarkHorizons/areas/CM0753.tis~ ~override~
-COPY ~DarkHorizons/areas/CM0753.wed~ ~override~
-COPY ~DarkHorizons/areas/CM0753HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0753LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM0753SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM2680.are~ ~override~
+COPY ~DarkHorizons\areas\CM0750.BCS~ ~override~
+COPY ~DarkHorizons\areas\CM0750.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0750.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0750.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0750HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0750LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0750SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0751.are~ ~override~
+COPY ~DarkHorizons\areas\CM0751.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0751.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0751.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0751HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0751LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0751SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0752.are~ ~override~
+COPY ~DarkHorizons\areas\CM0752.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0752.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0752.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0752HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0752LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0752SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0753.are~ ~override~
+COPY ~DarkHorizons\areas\CM0753.mos~ ~override~
+COPY ~DarkHorizons\areas\CM0753.tis~ ~override~
+COPY ~DarkHorizons\areas\CM0753.wed~ ~override~
+COPY ~DarkHorizons\areas\CM0753HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0753LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM0753SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2680.are~ ~override~
 	READ_LONG  0x54  "actors_offset"
  	READ_SHORT 0x58  "actors_num"
 REPLACE_TEXTUALLY ~AMB_M35B~ ~%SND1%~ (8)
@@ -241,13 +241,13 @@ END ELSE BEGIN
   REPLACE_TEXTUALLY ~AR3901~ ~%AR3%~ (8)
 END
 
-COPY ~DarkHorizons/areas/CM2680.mos~ ~override~
-COPY ~DarkHorizons/areas/CM2680.tis~ ~override~
-COPY ~DarkHorizons/areas/CM2680.wed~ ~override~
-COPY ~DarkHorizons/areas/CM2680HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM2680LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM2680SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM2681.are~ ~override~
+COPY ~DarkHorizons\areas\CM2680.mos~ ~override~
+COPY ~DarkHorizons\areas\CM2680.tis~ ~override~
+COPY ~DarkHorizons\areas\CM2680.wed~ ~override~
+COPY ~DarkHorizons\areas\CM2680HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2680LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2680SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2681.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_M35B~ ~%SND1%~ (8)
 REPLACE_TEXTUALLY ~AMB_M35D~ ~%SND2%~ (8)
 REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
@@ -268,13 +268,13 @@ FOR( cnt=0; cnt<"%actors_num%"; cnt=cnt+1 ) BEGIN  //actors loop
    END
    END
 END
-COPY ~DarkHorizons/areas/CM2681.mos~ ~override~
-COPY ~DarkHorizons/areas/CM2681.tis~ ~override~
-COPY ~DarkHorizons/areas/CM2681.wed~ ~override~
-COPY ~DarkHorizons/areas/CM2681HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM2681LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM2681SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3370.are~ ~override~
+COPY ~DarkHorizons\areas\CM2681.mos~ ~override~
+COPY ~DarkHorizons\areas\CM2681.tis~ ~override~
+COPY ~DarkHorizons\areas\CM2681.wed~ ~override~
+COPY ~DarkHorizons\areas\CM2681HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2681LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM2681SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3370.are~ ~override~
 REPLACE_TEXTUALLY ~AMB_E15A~ ~%SND4%~ (8)
 REPLACE_TEXTUALLY ~AMB_E15B~ ~%SND5%~ (8)
 REPLACE_TEXTUALLY ~AMB_E15C~ ~%SND6%~ (8)
@@ -288,60 +288,68 @@ PATCH_IF GAME_IS ~Tutu_totsc~ THEN BEGIN
 END ELSE BEGIN
   REPLACE_TEXTUALLY ~AR3302~ ~%AR1%~
 END
-COPY ~DarkHorizons/areas/CM3370.tis~ ~override~
-COPY ~DarkHorizons/areas/CM3370.wed~ ~override~
-COPY ~DarkHorizons/areas/CM3370.mos~ ~override~
-COPY ~DarkHorizons/areas/CM3370HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3370LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3370SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3371.are~ ~override~
-COPY ~DarkHorizons/areas/CM3371.mos~ ~override~
-COPY ~DarkHorizons/areas/CM3371.tis~ ~override~
-COPY ~DarkHorizons/areas/CM3371.wed~ ~override~
-COPY ~DarkHorizons/areas/CM3371HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3371LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3371SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3372.are~ ~override~
+COPY ~DarkHorizons\areas\CM3370.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3370.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3370.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3370HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3370LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3370SR.bmp~ ~override~
+
+COPY ~DarkHorizons\areas\CM3371.are~ ~override~
+COPY ~DarkHorizons\areas\CM3371.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3371.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3371.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3371HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3371LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3371SR.bmp~ ~override~
+
+COPY ~DarkHorizons\areas\CM3372.are~ ~override~
+	WRITE_ASCIIE 0x08 ~%NashkelMines_L3%~ (8)
   REPLACE_TEXTUALLY ~AMB_E17B~ ~%SND9%~ (8)
+COPY ~DarkHorizons\areas\CM3372.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3372.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3372.wed~ ~override~
+//	WRITE_ASCIIE 0x24 ~%NashkelMines_L3%~ (8)
+COPY ~DarkHorizons\areas\CM3372HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3372LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3372SR.bmp~ ~override~
 
-COPY ~DarkHorizons/areas/CM3372.mos~ ~override~
-COPY ~DarkHorizons/areas/CM3372.tis~ ~override~
-COPY ~DarkHorizons/areas/CM3372.wed~ ~override~
-COPY ~DarkHorizons/areas/CM3372HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3372LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3372SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3373.are~ ~override~
+COPY ~DarkHorizons\areas\CM3373.are~ ~override~
+	WRITE_ASCIIE 0x08 ~%CloakwoodMines_L3%~ (8)
   REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
+COPY ~DarkHorizons\areas\CM3373.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3373.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3373.wed~ ~override~
+//	WRITE_ASCIIE 0x24 ~%CloakwoodMines_L3%~ (8)
+COPY ~DarkHorizons\areas\CM3373HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3373LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3373SR.bmp~ ~override~
 
-COPY ~DarkHorizons/areas/CM3373.mos~ ~override~
-COPY ~DarkHorizons/areas/CM3373.tis~ ~override~
-COPY ~DarkHorizons/areas/CM3373.wed~ ~override~
-COPY ~DarkHorizons/areas/CM3373HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3373LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3373SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3374.are~ ~override~
+COPY ~DarkHorizons\areas\CM3374.are~ ~override~
+COPY ~DarkHorizons\areas\CM3374.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3374.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3374.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3374HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3374LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3374SR.bmp~ ~override~
 
-COPY ~DarkHorizons/areas/CM3374.mos~ ~override~
-COPY ~DarkHorizons/areas/CM3374.tis~ ~override~
-COPY ~DarkHorizons/areas/CM3374.wed~ ~override~
-COPY ~DarkHorizons/areas/CM3374HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3374LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3374SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3375.are~ ~override~
-COPY ~DarkHorizons/areas/CM3375.mos~ ~override~
-COPY ~DarkHorizons/areas/CM3375.tis~ ~override~
-COPY ~DarkHorizons/areas/CM3375.wed~ ~override~
-COPY ~DarkHorizons/areas/CM3375HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3375LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3375SR.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3376.are~ ~override~
+COPY ~DarkHorizons\areas\CM3375.are~ ~override~
+COPY ~DarkHorizons\areas\CM3375.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3375.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3375.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3375HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3375LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3375SR.bmp~ ~override~
+
+COPY ~DarkHorizons\areas\CM3376.are~ ~override~
   REPLACE_TEXTUALLY ~AMB_E14B~ ~%SND10%~ (8)
-COPY ~DarkHorizons/areas/CM3376.mos~ ~override~
-COPY ~DarkHorizons/areas/CM3376.tis~ ~override~
-COPY ~DarkHorizons/areas/CM3376.wed~ ~override~
-COPY ~DarkHorizons/areas/CM3376HT.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3376LM.bmp~ ~override~
-COPY ~DarkHorizons/areas/CM3376SR.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3376.mos~ ~override~
+COPY ~DarkHorizons\areas\CM3376.tis~ ~override~
+COPY ~DarkHorizons\areas\CM3376.wed~ ~override~
+COPY ~DarkHorizons\areas\CM3376HT.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3376LM.bmp~ ~override~
+COPY ~DarkHorizons\areas\CM3376SR.bmp~ ~override~
+
 COPY_EXISTING ~%AR1%.are~ ~override~
  READ_LONG  0x54  "actors_offset"
  READ_SHORT 0x58  "actors_num"
@@ -3403,7 +3411,7 @@ SET ~charges3~ = 0
 LAUNCH_PATCH_MACRO ~ADD_AREA_ITEM~
 BUT_ONLY
 
-//COPY ~DarkHorizons/areasx~ ~override~
+//COPY ~DarkHorizons\areasx~ ~override~
 
 
 
@@ -3434,7 +3442,7 @@ COPY_EXISTING ~cm3370.are~ ~override~
 			door_key   = ~CMKEY03~
 		END
 
-COPY_EXISTING ~DarkHorizons/areas/CM0750.are~ ~override~
+COPY_EXISTING ~DarkHorizons\areas\CM0750.are~ ~override~
 		LPF  ALTER_AREA_REGION
 			INT_VAR
 			type = 2
@@ -4756,7 +4764,6 @@ COPY ~DarkHorizons/items/CMHEAL2.itm~ ~override~
 //			check_globals = 0 // 1 Equiped effect : 0 None
 			check_headers = 1 // 1 All headers : 0 None header
 			header_type   = 3 // 1 melee : 2 ranged : 3 magical
-			check_headers = 0 // 1 All headers : 0 only main header
 			match_opcode = 139 
 			parameter1 = RESOLVE_STR_REF (@478)
 	END
@@ -6888,7 +6895,7 @@ COPY ~DarkHorizons/cre/CMTMORW.cre~ ~override~
 	WRITE_BYTE  0x23d 10                            // Constitution
 	WRITE_BYTE  0x23e 16                            // Charisma
 	WRITE_ASCII SCRIPT_OVERRIDE ~CMTMORW~ (8)
-	WRITE_LONG 0x244 0
+	WRITE_SHORT 0x244 0
 	WRITE_SHORT 0x246 ~0x400F~
 	WRITE_ASCII 0x280 ~CMTMORW~ (32) // Script name / Death variable
 
