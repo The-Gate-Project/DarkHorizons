@@ -316,7 +316,20 @@ COPY ~DarkHorizons\areas\CM3372SR.bmp~ ~override~
 
 COPY ~DarkHorizons\areas\CM3373.are~ ~override~
 	WRITE_ASCIIE 0x08 ~%CloakwoodMines_L3%~ (8)
-  REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
+	REPLACE_TEXTUALLY ~AMB_E29A~ ~%SND3%~ (8)
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (#0)
+			STR_VAR
+			region_name	= Door3372
+		END
+		LPF ALTER_AREA_REGION
+			INT_VAR
+			info_point = RESOLVE_STR_REF (#0)
+			STR_VAR
+			region_name	= Door3374
+		END
+
 COPY ~DarkHorizons\areas\CM3373.mos~ ~override~
 COPY ~DarkHorizons\areas\CM3373.tis~ ~override~
 COPY ~DarkHorizons\areas\CM3373.wed~ ~override~
