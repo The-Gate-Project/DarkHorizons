@@ -4839,6 +4839,7 @@ COPY ~DarkHorizons/%ItemsFolder%/CMLUTE.itm~ ~override~
   SAY NAME2 @502
   SAY 0x50 @503
   SAY 0x54 @504
+WRITE_ASCII 0x58 ~CMISC3O~ #8
 
 COPY ~DarkHorizons/items/CMCAND1.ITM~ ~override~
   SAY NAME1 @505
