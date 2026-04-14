@@ -6982,6 +6982,7 @@ Make generic overpowered or duplicate items undroppable or replaced by lesser si
 DESIGNATED 10
 SUBCOMPONENT ~Nerfs~
 LABEL ~TeamBG_CoM_Solaufein-DarkHorizons_Nerfs_1~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~DarkHorizons.tp2~ ~0~) ~Main componant isn't installed~
 
 OUTER_SET Nerf = 0
 
@@ -6998,6 +6999,7 @@ This componant aim to replace overpowered mod added items by lesser version.~
 DESIGNATED 11
 SUBCOMPONENT ~Nerfs~
 LABEL ~TeamBG_CoM_Solaufein-DarkHorizons_Nerfs_2~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~DarkHorizons.tp2~ ~0~) ~Main componant isn't installed~
 
 OUTER_SET Nerf = 1
 

@@ -10,7 +10,7 @@ IF ~ReactionLT(LastTalkedToBy,FRIENDLY_LOWER)
 PartyHasItem("_BOOK88")
 ~ THEN BEGIN 1 
   SAY @2 
-  IF ~~ THEN DO ~GiveItem("_RING07",LastTalkedToBy)
+  IF ~~ THEN DO ~GiveItemCreate("_RING07",LastTalkedToBy,1,0,0)
 TakePartyItem("_BOOK88")
 AddexperienceParty(1500)
 EscapeArea()
@@ -21,7 +21,7 @@ IF ~ReactionGT(LastTalkedToBy,NEUTRAL_UPPER)
 PartyHasItem("_BOOK88")
 ~ THEN BEGIN 2 
   SAY @4 
-  IF ~~ THEN DO ~GiveItem("_RING07",LastTalkedToBy)
+  IF ~~ THEN DO ~GiveItemCreate("_RING07",LastTalkedToBy,1,0,0)
 TakePartyItem("_BOOK88")
 AddexperienceParty(1500)
 EscapeArea()

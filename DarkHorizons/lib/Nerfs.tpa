@@ -233,6 +233,7 @@ COPY_EXISTING ~CM330008.CRE~ ~override~
 
 COPY_EXISTING ~CM3A2100.CRE~ ~override~
 	REPLACE_CRE_ITEM ~RING07~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+	REMOVE_CRE_ITEM ~RING07~ ~inv4~
 	//
 
 /////////////////////////////////
@@ -635,7 +636,8 @@ COPY_EXISTING ~CM330006.CRE~ ~override~
 /////////////////////////////////
 
 COPY_EXISTING ~CM3A2100.CRE~ ~override~
-	REPLACE_CRE_ITEM ~RING07~ #0 #0 #0 ~unstealable&undroppable~ ~RRING~
+	REPLACE_CRE_ITEM ~RING07~ #0 #0 #0 ~unstealable&undroppable~ ~LRING~
+	REMOVE_CRE_ITEM ~RING07~ ~inv4~
 	//
 
 /////////////////////////////////
