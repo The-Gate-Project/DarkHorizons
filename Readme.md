@@ -118,6 +118,27 @@ The Gate Project credits :
 -------------------
 
 
+### Version 3.06
+
+#### FIXES
+
+- Typos by @visonok
+- Update cpmvars
+- MORWEN wisdom and kit corrected
+- No info point for travel trigger in cm3373.are
+- Enable base class for usability CMLUTE.ITM and CMBRQ04.ITM
+- Very light up for german an italian rings descriptions
+
+#### CHANGES
+
+- Adjust wed for CM3372 and CM3373
+- Nerf (in progress)
+- ALTER_ITEM_EFFECT instead of offset
+- Use original game tis for CM3373.are and CM3372.are
+- GiveItemCreate instead of GiveItem for CMSELEN.D and CMQUEST1.D
+- Image description for CMLUTE.itm
+
+
 ### Version 3.05
 
 #### FIXES
