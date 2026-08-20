@@ -16,7 +16,7 @@
 
 
 
-**Autor** : **CoM_Solaufein**
+**Author** : **CoM_Solaufein**
 
 [Link to original Mod Forum]()
 

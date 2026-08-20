@@ -4396,7 +4396,7 @@ OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
 OUTER_SET use_her = RESOLVE_STR_REF (@910)
 APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      %CM_S1H07%      2           %use_her%~ UNLESS ~CMS1H07~
 
-END ELSE ACTION_IF (GAME_IS ~bg2 bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN
+END ELSE ACTION_IF (GAME_IS ~tob bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN
 
 PRINT ~Item restricted to Nikita for bg2~
 OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
@@ -6266,6 +6266,7 @@ COPY ~DarkHorizons/cre/CMSEC01.CRE~ ~override~
 COPY ~DarkHorizons/cre/CMSEC02.CRE~ ~override~
   SAY NAME1 @723
   SAY NAME2 @723
+	WRITE_ASCIIE DIALOG          ~CMSEC02~ #8
 
 COPY ~DarkHorizons/cre/CMSEC03.CRE~ ~override~
   SAY NAME1 @730
@@ -6920,14 +6921,17 @@ ACTION_IF (GAME_IS ~eet~) BEGIN
   PRINT ~
               ~
 
-  APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD  ****  ****  ****  ****~
-    UNLESS ~cmtnik~
+  APPEND ~bgdialog.2da~ ~CMNIKITA        CMTNIKP        CMTNIKJ        CMTNIKD~
+    UNLESS ~CMNIKITA~
 
-  APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD  ****  ****  ****  ****~
+  APPEND ~pdialog.2da~ ~CMTTHOR             CMTTHORP             CMTTHORJ             CMTTHORD             ****             ****             ****             ****~
     UNLESS ~cmtthor~
 
-  APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD  ****  ****  ****  ****~
+  APPEND ~pdialog.2da~ ~CMTMORW             CMTMORWP             CMTMORWJ             CMTMORWD             ****             ****             ****             ****~
     UNLESS ~cmtmorw~
+
+  APPEND ~bgbanter.2da~ ~CMNIKITA        BCMTNIK~
+    UNLESS ~CMNIKITA~
 
 END ELSE BEGIN // bgee bgt in this case (other exemple in ChaosKnight)
   PRINT ~              ~
@@ -6935,23 +6939,24 @@ END ELSE BEGIN // bgee bgt in this case (other exemple in ChaosKnight)
   PRINT ~
               ~
 
-  APPEND ~pdialog.2da~ ~CMTNIK CMTNIKP CMTNIKJ CMTNIKD~
-    UNLESS ~cmtnik~
+  APPEND ~pdialog.2da~ ~CMTNIK         CMTNIKP        CMTNIKJ        CMTNIKD~
+    UNLESS ~CMNIKITA~
 
-  APPEND ~pdialog.2da~ ~CMTTHOR CMTTHORP CMTTHORJ CMTTHORD~
+  APPEND ~pdialog.2da~ ~CMTTHOR             CMTTHORP             CMTTHORJ             CMTTHORD~
     UNLESS ~cmtthor~
 
-  APPEND ~pdialog.2da~ ~CMTMORW CMTMORWP CMTMORWJ CMTMORWD~
+  APPEND ~pdialog.2da~ ~CMTMORW             CMTMORWP             CMTMORWJ             CMTMORWD~
     UNLESS ~cmtmorw~
+
+ APPEND ~interdia.2da~ ~CMTNIK        BCMTNIK~
+   UNLESS ~CMNIKITA~
+
 END
 
-APPEND ~interdia.2da~ ~cmtnik BCMTNIK~
-  UNLESS ~cmtnik~
-
-APPEND ~interdia.2da~ ~cmtthor BCMTTHOR~
+APPEND ~interdia.2da~ ~cmtthor             BCMTTHOR~
   UNLESS ~cmtthor~
 
-APPEND ~interdia.2da~ ~cmtmorw BCMTMORW~
+APPEND ~interdia.2da~ ~cmtmorw             BCMTMORW~
   UNLESS ~cmtmorw~
 
 // Dialogs
