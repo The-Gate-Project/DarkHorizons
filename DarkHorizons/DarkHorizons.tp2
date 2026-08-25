@@ -4394,13 +4394,13 @@ ACTION_IF (GAME_IS ~bg2ee eet~) BEGIN
 PRINT ~Item restricted to Nikita for EE~
 OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
 OUTER_SET use_her = RESOLVE_STR_REF (@910)
-APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      %CM_S1H07%      2           %use_her%~ UNLESS ~CMS1H07~
+APPEND ~ITEM_USE.2DA~ ~CMS1H07   cmnikita      %CM_S1H07%      2           %use_her%~ UNLESS ~CMS1H07~
 
 END ELSE ACTION_IF (GAME_IS ~tob bgt~ AND MOD_IS_INSTALLED ~SETUP-TOBEX.TP2~ ~100~) BEGIN
 
 PRINT ~Item restricted to Nikita for bg2~
 OUTER_SET CM_S1H07 = RESOLVE_STR_REF (@934)
-APPEND ~ITEM_USE.2DA~ ~CMS1H07   CMTNIKIT      -1      2          %CM_S1H07%~ UNLESS ~CMS1H07~
+APPEND ~ITEM_USE.2DA~ ~CMS1H07   cmnikita      -1      2          %CM_S1H07%~ UNLESS ~CMS1H07~
 
 END
 
@@ -6939,7 +6939,7 @@ END ELSE BEGIN // bgee bgt in this case (other exemple in ChaosKnight)
   PRINT ~
               ~
 
-  APPEND ~pdialog.2da~ ~CMTNIK         CMTNIKP        CMTNIKJ        CMTNIKD~
+  APPEND ~pdialog.2da~ ~cmnikita         CMTNIKP        CMTNIKJ        CMTNIKD~
     UNLESS ~CMNIKITA~
 
   APPEND ~pdialog.2da~ ~CMTTHOR             CMTTHORP             CMTTHORJ             CMTTHORD~
@@ -6948,7 +6948,7 @@ END ELSE BEGIN // bgee bgt in this case (other exemple in ChaosKnight)
   APPEND ~pdialog.2da~ ~CMTMORW             CMTMORWP             CMTMORWJ             CMTMORWD~
     UNLESS ~cmtmorw~
 
- APPEND ~interdia.2da~ ~CMTNIK        BCMTNIK~
+ APPEND ~interdia.2da~ ~cmnikita        BCMTNIK~
    UNLESS ~CMNIKITA~
 
 END
