@@ -118,6 +118,15 @@ The Gate Project credits :
 -------------------
 
 
+### Version 3.07
+
+#### FIXES
+
+#### CHANGES
+
+- Continuous with NikitaRedux 
+
+
 ### Version 3.06
 
 #### FIXES
